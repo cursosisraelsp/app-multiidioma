@@ -18,13 +18,13 @@ fun SplashImaxen(
 ) {
     Box(
         modifier = modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
+        //contentAlignment = Alignment.Center
     ) {
         Image(
             painter = painterResource(id = imageResId),
             contentDescription = "Splash Logo",
             modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.FillBounds
+            contentScale = ContentScale.Crop
         )
     }
 }
