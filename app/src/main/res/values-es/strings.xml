@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">multiidioma</string>
+    <string name="greeting">Hola</string>
+    <string name="change_language">Cambio a español</string>
+    <string name="switch_to_english">Cambia a inglés</string>
+    <string name="switch_to_galician">Cambia a gallego</string>
+</resources>

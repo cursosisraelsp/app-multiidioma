@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">multiidioma</string>
+    <string name="greeting">Hello!</string>
+    <string name="change_language">Switch to Spanish</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="switch_to_galician">Switch to Galician</string>
+</resources>
