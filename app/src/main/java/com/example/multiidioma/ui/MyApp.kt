@@ -26,6 +26,7 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.example.multiidioma.ui.screens.settings.SettigsScreen
 
 val LocalizedContext = compositionLocalOf<Context> {
     error("No LocalizedContext provided")
@@ -47,7 +48,7 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                 val currentRoute = navBackStackEntry?.destination?.route
 
                 // Mostramos BottomBar solo en "splash" y "home"
-                if (currentRoute == "home") {
+                if (currentRoute == "home" || currentRoute == "settings") {
                     BottomAppBar(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -59,14 +60,14 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                         }
                         Spacer(modifier = Modifier.weight(1f))
                         // Botón 2
-                        TextButton(onClick = { /* Acción 2 */ }) {
-                            Text("Perfil")
+                        TextButton(onClick = { navController.navigate("settings") }) {
+                            Text("Outra")
                         }
-                        Spacer(modifier = Modifier.weight(1f))
+                        /*Spacer(modifier = Modifier.weight(1f))
                         // Botón 3
                         TextButton(onClick = {  navController.navigate("splash") }) {
                             Text("Configuración")
-                        }
+                        }*/
                     }
                 }
             }
@@ -81,6 +82,9 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                 }
                 composable("home") {
                     HomeScreen(languageViewModel)
+                }
+                composable("settings") {
+                    SettigsScreen()
                 }
             }
         }

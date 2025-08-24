@@ -9,6 +9,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.LanguageSelector
+import com.example.multiidioma.ui.components.SplashImaxen
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @Composable
@@ -31,4 +32,5 @@ fun HomeScreen(languageViewModel: LanguageViewModel) {
             LanguageSelector(languageViewModel)
         }
     }
+    SplashImaxen(imageResId = R.drawable.fondohome)
 }

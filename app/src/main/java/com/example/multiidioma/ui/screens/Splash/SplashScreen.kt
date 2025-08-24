@@ -19,5 +19,5 @@ fun SplashScreen(navController: NavController) {
     }
 
     // Pasando la imagen como parámetro
-    SplashImaxen(imageResId = R.drawable.fondohome)
+    SplashImaxen(imageResId = R.drawable.imaxeninicial)
 }
