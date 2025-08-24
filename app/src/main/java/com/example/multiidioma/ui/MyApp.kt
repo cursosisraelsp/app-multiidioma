@@ -26,7 +26,7 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.example.multiidioma.ui.screens.settings.SettigsScreen
+import com.example.multiidioma.ui.screens.settings.SettingsScreen
 
 val LocalizedContext = compositionLocalOf<Context> {
     error("No LocalizedContext provided")
@@ -61,7 +61,7 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                         Spacer(modifier = Modifier.weight(1f))
                         // Botón 2
                         TextButton(onClick = { navController.navigate("settings") }) {
-                            Text("Outra")
+                            Text("Settings")
                         }
                         /*Spacer(modifier = Modifier.weight(1f))
                         // Botón 3
@@ -81,10 +81,11 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                     SplashScreen(navController)
                 }
                 composable("home") {
-                    HomeScreen(languageViewModel)
+                    HomeScreen()
                 }
                 composable("settings") {
-                    SettigsScreen()
+
+                    SettingsScreen(languageViewModel)
                 }
             }
         }
