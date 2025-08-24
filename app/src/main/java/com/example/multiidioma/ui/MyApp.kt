@@ -20,12 +20,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.ui.screens.HomeScreen
-import com.example.multiidioma.ui.screens.Splash.SplashScreen
 import com.example.multiidioma.utils.setLocale
 import com.example.multiidioma.viewmodel.LanguageViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.example.multiidioma.ui.cimus.CimusScreen
+import com.example.multiidioma.ui.screens.start.StartScreen
 import com.example.multiidioma.ui.screens.settings.SettingsScreen
 
 val LocalizedContext = compositionLocalOf<Context> {
@@ -48,7 +49,7 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                 val currentRoute = navBackStackEntry?.destination?.route
 
                 // Mostramos BottomBar solo en "splash" y "home"
-                if (currentRoute == "home" || currentRoute == "settings") {
+                if (currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus") {
                     BottomAppBar(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -63,11 +64,11 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                         TextButton(onClick = { navController.navigate("settings") }) {
                             Text("Settings")
                         }
-                        /*Spacer(modifier = Modifier.weight(1f))
+                        Spacer(modifier = Modifier.weight(1f))
                         // Botón 3
-                        TextButton(onClick = {  navController.navigate("splash") }) {
-                            Text("Configuración")
-                        }*/
+                        TextButton(onClick = {  navController.navigate("cimus") }) {
+                            Text("Cimus")
+                        }
                     }
                 }
             }
@@ -78,14 +79,17 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                 modifier = Modifier.padding(padding)
             ) {
                 composable("splash") {
-                    SplashScreen(navController)
+                    StartScreen(navController)
                 }
                 composable("home") {
-                    HomeScreen()
+                    HomeScreen(languageViewModel)
                 }
                 composable("settings") {
 
                     SettingsScreen(languageViewModel)
+                }
+                composable("cimus"){
+                    CimusScreen(languageViewModel)
                 }
             }
         }

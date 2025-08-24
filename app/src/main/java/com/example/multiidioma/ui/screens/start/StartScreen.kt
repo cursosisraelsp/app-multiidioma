@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.Splash
+package com.example.multiidioma.ui.screens.start
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,7 +14,7 @@ import com.example.multiidioma.ui.components.SplashImaxen
 import kotlinx.coroutines.delay
 
 @Composable
-fun SplashScreen(navController: NavController) {
+fun StartScreen(navController: NavController) {
     LaunchedEffect(true) {
         delay(3000L)
         navController.navigate("home") {

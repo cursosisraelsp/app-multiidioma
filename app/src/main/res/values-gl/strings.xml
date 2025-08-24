@@ -5,4 +5,7 @@
     <string name="change_language">Cambia a español</string>
     <string name="switch_to_english">Cambia a inglés</string>
     <string name="switch_to_galician">Cambia a galego</string>
+    <string name="paragraph_1">Este é o primeiro parágrafo de texto. Describe o inicio da historia ou a información principal que se desexa presentar.</string>
+    <string name="paragraph_2">A continuación, preséntase o segundo parágrafo. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
+    <string name="paragraph_3">O terceiro e último parágrafo conclúe a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
 </resources>
