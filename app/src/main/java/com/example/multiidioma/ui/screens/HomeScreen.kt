@@ -8,9 +8,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.LanguageSelector
+import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @Composable
-fun HomeScreen(onLanguageChange: (String) -> Unit) {
+fun HomeScreen(languageViewModel: LanguageViewModel) {
     val context = LocalizedContext.current
 
     Scaffold { padding ->
@@ -22,25 +24,11 @@ fun HomeScreen(onLanguageChange: (String) -> Unit) {
         ) {
             Text(
                 text = context.getString(R.string.greeting),
-                style = MaterialTheme.typography.headlineMedium
+                style = MaterialTheme.typography.headlineMedium,
+                modifier = Modifier.padding(16.dp)
             )
 
-            Spacer(modifier = Modifier.height(16.dp))
-
-            Button(onClick = { onLanguageChange("es") }) {
-                Text(context.getString(R.string.change_language))
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            Button(onClick = { onLanguageChange("en") }) {
-                Text(context.getString(R.string.switch_to_english))
-            }
-            Spacer(modifier = Modifier.height(8.dp))
-
-            Button(onClick = { onLanguageChange("gl") }) {
-                Text(context.getString(R.string.switch_to_galician))
-            }
+            LanguageSelector(languageViewModel)
         }
     }
 }

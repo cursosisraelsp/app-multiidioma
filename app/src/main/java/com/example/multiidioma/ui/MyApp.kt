@@ -23,10 +23,8 @@ fun MyApp(languageViewModel: LanguageViewModel) {
     val localizedContext = context.setLocale(language)
 
     CompositionLocalProvider(LocalizedContext provides localizedContext) {
-        HomeScreen(
-            onLanguageChange = { lang ->
-                languageViewModel.changeLanguage(lang)
-            }
-        )
+        CompositionLocalProvider(LocalizedContext provides localizedContext) {
+            HomeScreen(languageViewModel)
+        }
     }
 }
