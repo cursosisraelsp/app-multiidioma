@@ -15,13 +15,14 @@ import com.example.multiidioma.data.repository.miniScreensCimus
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @Composable
-fun CimusScreen(languageViewModel: LanguageViewModel){
+fun CimusScreen(languageViewModel: LanguageViewModel,viewModel: CimusViewModel = viewModel()){
 
 
     // Generamos la lista de MiniScreens
-    val screens = miniScreensCimus(detailScreenContent, languageViewModel)
+    //val screens = miniScreensCimus(detailScreenContent, languageViewModel)
+    val miniScreens = viewModel.loadMiniScreens(detailScreenContent, languageViewModel)
     LazyColumn(modifier = Modifier.fillMaxSize().background(Color.Gray).padding(0.dp)) {
-        items(screens) { miniScreen ->
+        items(miniScreens) { miniScreen ->
             // Aquí se le pasa el Modifier a cada elemento
             miniScreen(Modifier.fillParentMaxSize())
         }
