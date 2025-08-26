@@ -33,30 +33,3 @@ class CimusViewModel : ViewModel() {
     }
 }
 
-
-
-/*
-class CimusViewModel(
-    private val getMiniScreensUseCase: GetMiniScreensUseCase
-) : ViewModel() {
-
-    private val _uiState = MutableStateFlow<CimusScreenState>(CimusScreenState.Loading)
-    val uiState = _uiState.asStateFlow()
-
-    init {
-        loadMiniScreens()
-    }
-
-    fun loadMiniScreens() {
-        viewModelScope.launch {
-            try {
-                val screens = getMiniScreensUseCase()
-                _uiState.value = CimusScreenState.Success(screens)
-            } catch (e: Exception) {
-                _uiState.value = CimusScreenState.Error(e.message ?: "Error desconocido")
-            }
-        }
-    }
-}
-
-*/
