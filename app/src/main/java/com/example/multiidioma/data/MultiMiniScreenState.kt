@@ -3,6 +3,12 @@ package com.example.multiidioma.data
 import androidx.annotation.DrawableRes
 
 data class MiniScreenData(
+    val id: Int,
+    val bodyParagraphs: List<Int> = emptyList()
+)
+
+/*
+data class MiniScreenData(
 
     @DrawableRes val imageRes: Int? = null,
     // Nuevas propiedades para la pantalla de detalle (opcionales)
@@ -21,4 +27,4 @@ sealed class MultiMiniScreenState{
         val miniScreens: List<MiniScreenData>
     ):MultiMiniScreenState()
     data class Error(val message: String) : MultiMiniScreenState()
-}
+}*/

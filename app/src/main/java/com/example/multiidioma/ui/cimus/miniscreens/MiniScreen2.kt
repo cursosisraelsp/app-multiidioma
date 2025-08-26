@@ -30,7 +30,7 @@ fun MiniScreen2(
     val context = LocalizedContext.current
 
     Column(modifier = modifier.padding(16.dp)) {
-        data.bodyParagraphs?.forEach { res ->
+        data.bodyParagraphs.forEach { res ->
             Text(
                 text =  runCatching { context.getString(res) }.getOrElse { "???" },
                 style = MaterialTheme.typography.bodyMedium

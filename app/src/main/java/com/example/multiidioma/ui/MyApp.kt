@@ -89,7 +89,7 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                     SettingsScreen(languageViewModel)
                 }
                 composable("cimus"){
-                    CimusScreen(languageViewModel)
+                    CimusScreen()
                 }
             }
         }
