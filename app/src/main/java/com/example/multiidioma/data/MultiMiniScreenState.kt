@@ -6,10 +6,11 @@ data class MiniScreenData(
 
     @DrawableRes val imageRes: Int? = null,
     // Nuevas propiedades para la pantalla de detalle (opcionales)
-    val bodyParagraphs: List<Int>?= emptyList(),
+    val bodyParagraphs: List<Int>? = emptyList(),
     val additionalImages: List<Int>? = emptyList(),
     val lottieAnimRes: Int? = null,
-    val mapLocation: List<String>? = emptyList()
+    val mapLocation: List<String>? = emptyList(),
+    val id: Int
 )
 
 sealed class MultiMiniScreenState{

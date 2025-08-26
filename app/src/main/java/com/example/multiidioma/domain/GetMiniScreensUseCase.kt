@@ -8,7 +8,7 @@ import com.example.multiidioma.data.repository.CimusRepository
 class GetMiniScreensUseCase(
     private val repository: CimusRepository
 ) {
-    operator fun invoke(detailScreenContent: List<MiniScreenData>, language: String): List<@Composable (Modifier) -> Unit> {
-        return repository.getMiniScreens(detailScreenContent, language)
+    operator fun invoke(): List<MiniScreenData> {
+        return repository.getMiniScreens()
     }
 }
