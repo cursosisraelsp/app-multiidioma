@@ -15,7 +15,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -50,6 +50,12 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // YouTube Player (excluimos soporte antiguo)
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0") {
+        exclude(group = "com.android.support")
+    }
+
     implementation(libs.androidx.navigation.runtime.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -61,4 +67,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.compose.runtime)
     implementation("androidx.navigation:navigation-compose:2.7.3")
+    implementation("com.android.support:appcompat-v7:23.2.0")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
 }

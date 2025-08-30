@@ -37,4 +37,24 @@ class CimusRepository {
             )
         )
     }
+
+    fun getDataMiniScreens(): List<List<Int>> {
+
+        return listOf(
+            listOf(
+                R.string.paragraph_1,
+                R.string.paragraph_2,
+                R.string.paragraph_3
+            ),
+            listOf(
+                R.string.paragraph_1,
+                R.string.paragraph_2,
+                R.string.paragraph_3
+            )
+        )
+    }
+
+    operator fun get(i: Int): List<Int> {
+        return getDataMiniScreens()[i]
+    }
 }
