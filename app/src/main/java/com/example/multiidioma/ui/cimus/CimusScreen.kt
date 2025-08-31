@@ -1,10 +1,10 @@
 package com.example.multiidioma.ui.cimus
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
@@ -23,7 +23,7 @@ import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen2
 
 
 @Composable
-fun CimusScreen() {
+fun CimusScreen(listState: LazyListState) {
     val viewModel: CimusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -36,7 +36,9 @@ fun CimusScreen() {
         is MiniScreenState.Success -> {
 
             val screens = (uiState as MiniScreenState.Success).screens
-            LazyColumn(modifier = Modifier.fillMaxSize()) {
+            LazyColumn(
+                state = listState,
+                modifier = Modifier.fillMaxSize()) {
                 items(screens) { data ->
                     when (data.id) {
                         0 -> MiniScreen0(data, Modifier.fillMaxWidth().fillParentMaxHeight())

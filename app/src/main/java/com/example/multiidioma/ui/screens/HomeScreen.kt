@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -12,7 +13,7 @@ import com.example.multiidioma.R
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @Composable
-fun HomeScreen(languageViewModel: LanguageViewModel){
+fun HomeScreen(languageViewModel: LanguageViewModel, listState: LazyListState){
 
 
     val greeting = languageViewModel.getString(R.string.greeting)
