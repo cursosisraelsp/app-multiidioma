@@ -6,6 +6,7 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.CimusScreenState
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.repository.CimusRepository
+import com.example.multiidioma.data.repository.cimusListaDatosScreen0
 import com.example.multiidioma.domain.GetMiniScreensUseCase
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -31,7 +32,7 @@ class CimusViewModel : ViewModel() {
 
             _uiState.value = CimusScreenState.Success(
                 listOf(
-                    MiniScreenData(0, bodyParagraphs = listOf(R.string.paragraph_1)),
+                    MiniScreenData(0, bodyParagraphs = cimusListaDatosScreen0),
                     MiniScreenData(1, bodyParagraphs = listOf(R.string.paragraph_2)),
                     MiniScreenData(2, bodyParagraphs =  listOf(R.string.paragraph_3))
                 )

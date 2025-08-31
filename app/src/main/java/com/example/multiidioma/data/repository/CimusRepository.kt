@@ -58,3 +58,9 @@ class CimusRepository {
         return getDataMiniScreens()[i]
     }
 }
+
+val cimusListaDatosScreen0 = listOf(
+    R.string.paragraph_1,
+    R.string.paragraph_2,
+    R.string.paragraph_3
+)

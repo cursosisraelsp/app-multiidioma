@@ -1,11 +1,13 @@
 package com.example.multiidioma.ui.cimus.miniscreens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,18 +28,22 @@ fun MiniScreen0(
     val context = LocalizedContext.current
 
     Box{
-        Column(modifier = modifier.padding(16.dp).background(color = Color.Transparent)) {
+        Column(modifier = modifier.padding(16.dp).fillMaxSize().border(width = 2.dp, color = Color.Blue)) {
             Box{
                 VideoScreen(videoId = "dQw4w9WgXcQ", // tu ID de video
                     modifier = Modifier.fillMaxSize().aspectRatio(16f / 9f))
             }
-            Box(modifier = modifier.background(color = Color.Transparent)){
-                data.bodyParagraphs.forEach { res ->
-                    Text(
-                        text =  runCatching { context.getString(res) }.getOrElse { "???" },
-                        color = Color.White,
-                        style = MaterialTheme.typography.bodyMedium
-                    )
+            Box(modifier = modifier.fillMaxSize().background(color = Color.Transparent)){
+                Column(
+                    modifier = Modifier.fillMaxWidth() // Esto hace que la columna ocupe todo el ancho disponible
+                ) {
+                    data.bodyParagraphs.forEach { res ->
+                        Text(
+                            text =  runCatching { context.getString(res) }.getOrElse { "???" },
+                            color = Color.Red,
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+                    }
                 }
             }
 
