@@ -3,9 +3,7 @@ package com.example.multiidioma.ui.cimus
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.multiidioma.data.MiniScreenState
-import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.repository.CimusRepository
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -19,7 +17,7 @@ class CimusViewModel : ViewModel() {
 
 
     init {
-        // Simulamos carga de datos
+
        loadMiniScreens()
     }
 
