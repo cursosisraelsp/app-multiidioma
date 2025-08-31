@@ -11,9 +11,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.BottomAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -26,6 +28,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.ui.screens.HomeScreen
@@ -37,9 +40,14 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.multiidioma.ui.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.start.StartScreen
 import com.example.multiidioma.ui.screens.settings.SettingsScreen
+import com.example.multiidioma.utils.BottomBarUtils
+import com.example.multiidioma.utils.DetectScroll
+import com.example.multiidioma.utils.TopBarUtils
+
 val LocalizedContext = compositionLocalOf<Context> {
     error("No LocalizedContext provided")
 }
+
 
 @Composable
 fun MyApp(languageViewModel: LanguageViewModel) {
@@ -48,60 +56,24 @@ fun MyApp(languageViewModel: LanguageViewModel) {
     val localizedContext = context.setLocale(language)
     val listState = rememberLazyListState()
 
-    // 👇 Estado de visibilidad de la BottomBar
+    // 👇 Estado de visibilidad de la BottomBar e TopBar
     var bottomBarVisible by remember { mutableStateOf(true) }
+    var topBarVisible by remember { mutableStateOf(true) }
 
-    // Detecta scroll
-    LaunchedEffect(listState) {
-        var lastScrollOffset = 0
-        snapshotFlow { listState.firstVisibleItemScrollOffset }
-            .collect { offset ->
-                bottomBarVisible = when {
-                    offset > lastScrollOffset -> false // ocultar al hacer scroll hacia abajo
-                    offset < lastScrollOffset -> true  // mostrar al hacer scroll hacia arriba
-                    else -> bottomBarVisible
-                }
-                lastScrollOffset = offset
-            }
-    }
+    DetectScroll(
+        listState = listState,
+        topBarVisible = { topBarVisible = it },
+        bottomBarVisible = { bottomBarVisible = it }
+    )
 
     CompositionLocalProvider(LocalizedContext provides localizedContext) {
         val navController = rememberNavController()
 
         Scaffold(
-            bottomBar = {
-                val navBackStackEntry by navController.currentBackStackEntryAsState()
-                val currentRoute = navBackStackEntry?.destination?.route
-
-                if ((currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus")) {
-                    AnimatedVisibility(
-                        visible = bottomBarVisible,
-                        enter = slideInVertically(initialOffsetY = { it }),
-                        exit = slideOutVertically(targetOffsetY = { it })
-                    ) {
-                        BottomAppBar(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(106.dp)
-                        ) {
-                            // Botón 1
-                            TextButton(onClick = { navController.navigate("home") }) {
-                                Text("Inicio")
-                            }
-                            Spacer(modifier = Modifier.weight(1f))
-                            // Botón 2
-                            TextButton(onClick = { navController.navigate("settings") }) {
-                                Text("Settings")
-                            }
-                            Spacer(modifier = Modifier.weight(1f))
-                            // Botón 3
-                            TextButton(onClick = { navController.navigate("cimus") }) {
-                                Text("Cimus")
-                            }
-                        }
-                    }
-                }
-            }
+            topBar = {
+                TopBarUtils(topBarVisible= topBarVisible, navController= navController)
+            },
+            bottomBar = { BottomBarUtils(bottomBarVisible = bottomBarVisible,navController = navController) }
         ) { padding ->
             NavHost(
                 navController = navController,
