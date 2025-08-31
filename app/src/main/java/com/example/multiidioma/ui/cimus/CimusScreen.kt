@@ -4,7 +4,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
@@ -17,30 +16,28 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.multiidioma.data.CimusScreenState
+import com.example.multiidioma.data.MiniScreenState
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen0
 import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen1
 import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen2
-import com.example.multiidioma.viewmodel.LanguageViewModel
 
 
 
 @Composable
 fun CimusScreen() {
-    val context = LocalizedContext.current
     val viewModel: CimusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
     when (uiState) {
-        is CimusScreenState.Loading -> {
+        is MiniScreenState.Loading -> {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 CircularProgressIndicator()
             }
         }
-        is CimusScreenState.Success -> {
+        is MiniScreenState.Success -> {
 
-            val screens = (uiState as CimusScreenState.Success).screens
+            val screens = (uiState as MiniScreenState.Success).screens
             LazyColumn(modifier = Modifier.fillMaxSize()) {
                 items(screens) { data ->
                     when (data.id) {
@@ -52,10 +49,10 @@ fun CimusScreen() {
                 }
             }
         }
-        is CimusScreenState.Error -> {
+        is MiniScreenState.Error -> {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Text(
-                    text = (uiState as CimusScreenState.Error).message,
+                    text = (uiState as MiniScreenState.Error).message,
                     color = Color.Red
                 )
             }

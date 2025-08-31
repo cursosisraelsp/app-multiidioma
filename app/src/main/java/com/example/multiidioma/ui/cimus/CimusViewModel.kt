@@ -2,12 +2,9 @@ package com.example.multiidioma.ui.cimus
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.multiidioma.R
-import com.example.multiidioma.data.CimusScreenState
+import com.example.multiidioma.data.MiniScreenState
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.repository.CimusRepository
-import com.example.multiidioma.data.repository.cimusListaDatosScreen0
-import com.example.multiidioma.domain.GetMiniScreensUseCase
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -17,8 +14,8 @@ import kotlinx.coroutines.launch
 
 class CimusViewModel : ViewModel() {
 
-    private val _uiState = MutableStateFlow<CimusScreenState>(CimusScreenState.Loading)
-    val uiState: StateFlow<CimusScreenState> = _uiState.asStateFlow()
+    private val _uiState = MutableStateFlow<MiniScreenState>(MiniScreenState.Loading)
+    val uiState: StateFlow<MiniScreenState> = _uiState.asStateFlow()
 
 
     init {
@@ -28,15 +25,16 @@ class CimusViewModel : ViewModel() {
 
     private fun loadMiniScreens(){
         viewModelScope.launch {
-            delay(500) // Simula tiempo de carga
-
-            _uiState.value = CimusScreenState.Success(
+            //delay(500) // Simula tiempo de carga
+            val listaCimusRepository = CimusRepository()
+            _uiState.value = MiniScreenState.Success(
                 listOf(
-                    MiniScreenData(0, bodyParagraphs = cimusListaDatosScreen0),
-                    MiniScreenData(1, bodyParagraphs = listOf(R.string.paragraph_2)),
-                    MiniScreenData(2, bodyParagraphs =  listOf(R.string.paragraph_3))
+                    listaCimusRepository.getParrafos(0),
+                    listaCimusRepository.getParrafos(1),
+                    listaCimusRepository.getParrafos(2)
+                    )
                 )
-            )
+
         }
     }
 }
