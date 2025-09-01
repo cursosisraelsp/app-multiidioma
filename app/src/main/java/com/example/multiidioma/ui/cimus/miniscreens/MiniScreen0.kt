@@ -14,9 +14,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.utils.xmlToAnnotatedString
 
 
 @Composable
@@ -37,13 +39,16 @@ fun MiniScreen0(
                 Column(
                     modifier = Modifier.fillMaxWidth() // Esto hace que la columna ocupe todo el ancho disponible
                 ) {
+
                     data.bodyParagraphs.forEach { res ->
+                        val rawText = runCatching { context.getString(res) }.getOrElse { "???" }
+
                         Text(
-                            text =  runCatching { context.getString(res) }.getOrElse { "???" },
-                            color = Color.Red,
+                            text = xmlToAnnotatedString(rawText = rawText, context = context,oString = R.string.palabra_buscada),
                             style = MaterialTheme.typography.bodyMedium
                         )
                     }
+
                 }
             }
 
