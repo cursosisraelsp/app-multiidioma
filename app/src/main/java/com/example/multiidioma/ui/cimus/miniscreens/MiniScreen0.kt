@@ -33,8 +33,8 @@ fun MiniScreen0(
     Box{
         Column(modifier = modifier.padding(16.dp).fillMaxSize().border(width = 2.dp, color = Color.Blue)) {
             Box{
-                VideoScreen(videoId = "dQw4w9WgXcQ", // tu ID de video
-                    modifier = Modifier.fillMaxSize().aspectRatio(16f / 9f))
+                VideoScreen(videoId = "92UgRKX8ooM", // tu ID de video
+                    modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
             }
             Box(modifier = modifier.fillMaxSize().background(color = Color.Transparent)){
                 Column(
