@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.data.TextosBuscadosData
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.utils.xmlToAnnotatedString
 
@@ -19,14 +20,15 @@ fun MiniScreen1(
 ) {
     // Usa el contexto localizado que ya pusiste en CompositionLocalProvider
     val context = LocalizedContext.current
+
     //val context = LocalContext.current.setLocale(language)
     Column(modifier = modifier.padding(16.dp)) {
 
-
+        val textos = listOf(R.string.texto_buscado,R.string.texto_buscado2)
         data.bodyParagraphs.forEach { res ->
-            val rawText = runCatching { context.getString(res) }.getOrElse { "???" }
+            val parrafo = runCatching { context.getString(res) }.getOrElse { "???" }
             Text(
-                text = xmlToAnnotatedString(rawText,context, R.string.palabra_buscada),
+                text = xmlToAnnotatedString(parrafo,context, TextosBuscadosData(textos)),
                 style = MaterialTheme.typography.bodyMedium
             )
         }

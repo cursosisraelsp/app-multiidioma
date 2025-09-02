@@ -10,37 +10,39 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.font.FontWeight
 
 import androidx.compose.ui.graphics.Color
-
+import com.example.multiidioma.data.TextosBuscadosData
 
 fun xmlToAnnotatedString(
-    rawText: String,
+    parrafo: String,
     context: Context,
-    oString: Int
+    textosBuscados: TextosBuscadosData
 ): AnnotatedString {
 
 
     return buildAnnotatedString {
-        val highlightWord = context.getString(oString)
-        val startIndex = rawText.indexOf(highlightWord)
 
-        if (startIndex != -1) {
-            append(rawText.substring(0, startIndex)) // antes de la palabra
+        textosBuscados.listaTextosBuscados.forEach{ textoBuscado ->
+            val highlightWord = context.getString(textoBuscado)
+            val startIndex = parrafo.indexOf(highlightWord)
 
-            withStyle(
-                style = SpanStyle(
-                    color = Color(0xFFF59127),
-                    fontWeight = FontWeight.Bold
-                )
-            ) {
-                append(highlightWord)
+            if (startIndex != -1) {
+                append(parrafo.substring(0, startIndex)) // antes de la palabra
+
+                withStyle(
+                    style = SpanStyle(
+                        color = Color(0xFFF59127),
+                        fontWeight = FontWeight.Bold
+                    )
+                ) {
+                    append(highlightWord)
+                }
+
+                append(parrafo.substring(startIndex + highlightWord.length)) // resto del texto
+            } else {
+                append(parrafo) // si no existe la palabra, se imprime normal
             }
-
-            append(rawText.substring(startIndex + highlightWord.length)) // resto del texto
-        } else {
-            append(rawText) // si no existe la palabra, se imprime normal
         }
     }
+
+
 }
-
-
-

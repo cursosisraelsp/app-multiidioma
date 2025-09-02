@@ -16,6 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.data.TextosBuscadosData
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.utils.xmlToAnnotatedString
@@ -39,12 +40,12 @@ fun MiniScreen0(
                 Column(
                     modifier = Modifier.fillMaxWidth() // Esto hace que la columna ocupe todo el ancho disponible
                 ) {
-
+                    val textosBuscados = listOf(R.string.texto_buscado)
                     data.bodyParagraphs.forEach { res ->
                         val rawText = runCatching { context.getString(res) }.getOrElse { "???" }
 
                         Text(
-                            text = xmlToAnnotatedString(rawText = rawText, context = context,oString = R.string.palabra_buscada),
+                            text = xmlToAnnotatedString(parrafo = rawText, context = context,textosBuscados = TextosBuscadosData(textosBuscados)),
                             style = MaterialTheme.typography.bodyMedium
                         )
                     }
