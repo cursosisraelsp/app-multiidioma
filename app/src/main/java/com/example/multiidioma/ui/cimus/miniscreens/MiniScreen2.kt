@@ -61,28 +61,33 @@ fun MiniScreen2(
                 }
             }
             Column(
-                modifier = Modifier.fillMaxWidth().padding(1.dp).background(Color.Magenta),
+                modifier = Modifier.fillMaxHeight().padding(1.dp).background(Color.Magenta),
 
 
             ){
-                //Text(text= "en principio é outro", textAlign = TextAlign.Right)
-                Column (){
-                    TextWithCircle()
-                    BoxLineRowComponent(0.20f)
+                //Text(text= "en principio é outro", textAlign =
+                Column ( modifier = Modifier.weight(1f)){
+                    Column (){
+                        TextWithCircle()
+                        BoxLineRowComponent(0.4f)
+                    }
+
+                    Column(){
+                        TextWithCircle()
+                        BoxLineRowComponent(1f)
+                    }
                 }
 
-                Column(){
-                    TextWithCircle()
-                    BoxLineRowComponent(0.25f)
-                }
-                Column (){
-                    TextWithCircle()
-                    BoxLineRowComponent(0.4f)
-                }
+                Column ( modifier = Modifier.weight(1f)){
+                    Column (){
+                        TextWithCircle()
+                        BoxLineRowComponent(0.4f)
+                    }
 
-                Column(){
-                    TextWithCircle()
-                    BoxLineRowComponent(1f)
+                    Column(){
+                        TextWithCircle()
+                        BoxLineRowComponent(1f)
+                    }
                 }
             }
         }
