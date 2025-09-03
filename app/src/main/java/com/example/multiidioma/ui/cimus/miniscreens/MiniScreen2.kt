@@ -18,6 +18,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.CircleLineComponent
+import com.example.multiidioma.ui.components.LineCircleComponent
 import com.example.multiidioma.utils.setLocale
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
@@ -30,11 +32,13 @@ fun MiniScreen2(
     val context = LocalizedContext.current
 
     Column(modifier = modifier.padding(16.dp)) {
+        //LineCircleComponent()
         data.bodyParagraphs.forEach { res ->
             Text(
                 text =  runCatching { context.getString(res) }.getOrElse { "???" },
                 style = MaterialTheme.typography.bodyMedium
             )
         }
+        LineCircleComponent()
     }
 }

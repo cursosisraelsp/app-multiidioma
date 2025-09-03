@@ -11,6 +11,7 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.TextosBuscadosData
 import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.CircleLineComponent
 import com.example.multiidioma.utils.xmlToAnnotatedString
 
 @Composable
@@ -32,6 +33,8 @@ fun MiniScreen1(
                 style = MaterialTheme.typography.bodyMedium
             )
         }
+
+        CircleLineComponent()
 
     }
 }
