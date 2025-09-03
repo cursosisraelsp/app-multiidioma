@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun CircleComponent(){
-    Box(modifier = Modifier.fillMaxWidth(),contentAlignment = Alignment.Center){
+    Box(modifier = Modifier.fillMaxWidth(0.3f).background(color = Color.Green),contentAlignment = Alignment.Center){
         Box(modifier = Modifier.size(15.dp,15.dp)){
             Canvas(modifier = Modifier.fillMaxSize()) {
                 val canvasWidth = size.width
