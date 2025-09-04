@@ -9,4 +9,6 @@
     <string name="texto_buscado2">This is the first paragraph</string>
     <string name="paragraph_2">Next, the second paragraph is presented. This can expand on the main idea, add details, or a relevant anecdote.</string>
     <string name="paragraph_3">The third and final paragraph concludes the section, summarizing key points or providing a call to action.</string>
+    <string name="map">map</string>
+    <string name="multimedia">multimedia</string>
 </resources>

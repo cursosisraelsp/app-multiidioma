@@ -10,4 +10,6 @@
     <string name="texto_buscado2">Este es el primer párrafo</string>
     <string name="paragraph_2"><b>A continuación, se presenta el segundo párrafo</b>. Este puede expandir la idea principal, añadir detalles o una anécdota relevante.</string>
     <string name="paragraph_3">El <font color="#ff8000">tercer y último párrafo concluye</font> la sección, resumiendo los puntos clave o proporcionando una llamada a la acción.</string>
+    <string name="map">mapa</string>
+    <string name="multimedia">multimedia</string>
 </resources>
