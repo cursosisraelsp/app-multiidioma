@@ -11,7 +11,8 @@ data class ImaxenClickData(
     @StringRes val title: Int,
     val funcionImaxen: (Size)->Path,
     val xOffset: Float?,
-    val yOffset: Float?
+    val yOffset: Float?,
+    val tamanho: Dp
 )
 
 data class ListaImaxenClickData(

@@ -9,11 +9,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.graphics.Path
 import com.example.multiidioma.utils.imaxes.ImaxenMultimedia
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.unit.Dp
+
 @Composable
-fun OrganicShape(modifier: Modifier = Modifier, funcionImaxen: (Size) -> Path) {
+fun OrganicShape(modifier: Modifier = Modifier, funcionImaxen: (Size) -> Path,tamanho: Dp) {
     Canvas(
         modifier = modifier
-            .size(200.dp) // ajusta el tamaño
+            .size(tamanho) // ajusta el tamaño
     ) {
         //val path = ImaxenMultimedia(size)
         val path = funcionImaxen(size)

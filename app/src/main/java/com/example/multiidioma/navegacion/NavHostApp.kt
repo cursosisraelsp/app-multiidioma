@@ -21,7 +21,7 @@ fun NavHostApp(navController: NavHostController, modifier: Modifier,languageView
     ) {
 
         StartAppNavHost(navController)
-        HomeAppNavHost(languageViewModel, listState)
+        HomeAppNavHost(languageViewModel, listState,navController = navController)
         SettingsAppNavegacion(languageViewModel)
         CimusAppNavegacion(listState)
     }

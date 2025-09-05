@@ -18,8 +18,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 // 15 , 15
 @Composable
-fun CircleComponent(width: Dp, height: Dp){
-    Box(modifier = Modifier.fillMaxWidth(0.3f).background(color = Color.Green).border(width = 1.dp, color = Color.Red),contentAlignment = Alignment.Center){
+fun CircleComponent(width: Dp, height: Dp,widthBox: Float){
+    Box(modifier = Modifier.fillMaxWidth(widthBox).background(color = Color.Green).border(width = 1.dp, color = Color.Red),contentAlignment = Alignment.Center){
         Box(modifier = Modifier.size(width,height),contentAlignment = Alignment.Center){
             Canvas(modifier = Modifier.fillMaxSize()) {
                 val canvasWidth = size.width
