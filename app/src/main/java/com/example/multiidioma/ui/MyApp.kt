@@ -19,6 +19,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.utils.setLocale
 import com.example.multiidioma.viewmodel.LanguageViewModel
 import com.example.multiidioma.navegacion.NavHostApp
+import com.example.multiidioma.navegacion.ScaffoldApp
 import com.example.multiidioma.utils.BottomBarUtils
 import com.example.multiidioma.utils.DetectScroll
 import com.example.multiidioma.utils.TopBarUtils
@@ -46,20 +47,6 @@ fun MyApp(languageViewModel: LanguageViewModel) {
     )
 
     CompositionLocalProvider(LocalizedContext provides localizedContext) {
-        val navController = rememberNavController()
-
-        Scaffold(
-            topBar = {
-                TopBarUtils(topBarVisible= topBarVisible, navController= navController)
-            },
-            bottomBar = { BottomBarUtils(bottomBarVisible = bottomBarVisible,navController = navController) }
-        ) { padding ->
-            NavHostApp(
-                navController = navController,
-                modifier = Modifier.padding(padding),
-                languageViewModel = languageViewModel,
-                listState = listState
-                )
-        }
+        ScaffoldApp(topBarVisible= topBarVisible,bottomBarVisible= bottomBarVisible,languageViewModel= languageViewModel,listState= listState)
     }
 }
