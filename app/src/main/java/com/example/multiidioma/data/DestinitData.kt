@@ -17,6 +17,7 @@ sealed class Destination(val route: String) {
     object Start : Destination("start")
     object Home : Destination("home")
     object Cimus : Destination("cimus")
+    object Settings : Destination("settings")
 
     // Rutas en enum
     enum class RutasBottomBar (

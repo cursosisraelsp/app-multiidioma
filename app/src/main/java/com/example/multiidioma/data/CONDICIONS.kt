@@ -2,6 +2,7 @@ package com.example.multiidioma.data
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 
@@ -14,9 +15,8 @@ class CONDICIONS {
         return (currentRoute != "splash")
     }
     @Composable
-    fun CondicionBottomBar(navController: NavHostController) : Boolean{
-        val navBackStackEntry by navController.currentBackStackEntryAsState()
-        val currentRoute = navBackStackEntry?.destination?.route
+    fun CondicionBottomBar(currentRoute: String?) : Boolean{
+
 
         return (currentRoute != "splash")
     }
