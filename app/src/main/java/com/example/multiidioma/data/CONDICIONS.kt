@@ -20,4 +20,12 @@ class CONDICIONS {
 
         return (currentRoute != "splash")
     }
+
+    @Composable
+    fun CondicionBotonAtras(navController: NavHostController) : Boolean{
+        val navBackStackEntry by navController.currentBackStackEntryAsState()
+        val currentRoute = navBackStackEntry?.destination?.route
+
+        return (currentRoute != "splash" && currentRoute != "home")
+    }
 }
