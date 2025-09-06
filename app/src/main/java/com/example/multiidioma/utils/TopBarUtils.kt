@@ -7,13 +7,16 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults.topAppBarColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.multiidioma.data.CONDICIONS
+import com.example.multiidioma.data.CorBottomAndTop
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -25,7 +28,13 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController){
             enter = slideInVertically(initialOffsetY = { it }),
             exit = slideOutVertically(targetOffsetY = { it })
         ){
-            TopAppBar(title = { Text("INXENIUS",modifier = Modifier.fillMaxWidth(),textAlign = TextAlign.Center) })
+            TopAppBar(
+                colors = topAppBarColors(
+                    containerColor = CorBottomAndTop,
+                    titleContentColor = Color.White,
+                ),
+                title = { Text("INXENIUS",modifier = Modifier.fillMaxWidth(),textAlign = TextAlign.Center) }
+            )
         }
     }
 }
