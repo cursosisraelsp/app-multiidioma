@@ -15,14 +15,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.example.multiidioma.data.CONDICIONS
 
 @Composable
 fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
 
-    val navBackStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = navBackStackEntry?.destination?.route
-
-    if ((currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus")) {
+    val condicionVision = CONDICIONS()
+    if (condicionVision.CondicionBottomBar(navController)) {
         AnimatedVisibility(
             visible = bottomBarVisible,
             enter = slideInVertically(initialOffsetY = { it }),

@@ -1,4 +1,4 @@
-package com.example.multiidioma.data
+package com.example.multiidioma.data.types
 
 import androidx.annotation.DrawableRes
 

@@ -7,6 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
+import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
@@ -24,5 +25,6 @@ fun NavHostApp(navController: NavHostController, modifier: Modifier,languageView
         HomeAppNavHost(languageViewModel, listState,navController = navController)
         SettingsAppNavegacion(languageViewModel)
         CimusAppNavegacion(listState)
+        detailNavGraph(navController)
     }
 }

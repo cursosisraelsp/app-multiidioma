@@ -1,6 +1,5 @@
-package com.example.multiidioma.data
+package com.example.multiidioma.data.types
 
-import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Path
@@ -12,9 +11,13 @@ data class ImaxenClickData(
     val funcionImaxen: (Size)->Path,
     val xOffset: Float?,
     val yOffset: Float?,
-    val tamanho: Dp
+    val tamanho: Dp,
+    val contentType: ContentType?,
+    val ruta: String
 )
 
 data class ListaImaxenClickData(
-    val lista: List<ImaxenClickData>
+    val lista: List<ImaxenClickData> = emptyList() // se non se coloca emptyList sae erro no ViewModel
 )
+
+

@@ -15,8 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
-import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.data.TextosBuscadosData
+import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.TextosBuscadosData
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.utils.xmlToAnnotatedString

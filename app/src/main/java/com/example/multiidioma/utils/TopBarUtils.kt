@@ -13,14 +13,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.example.multiidioma.data.CONDICIONS
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController){
-    val navBackStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = navBackStackEntry?.destination?.route
-
-    if ((currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus")) {
+    val condicionVision = CONDICIONS()
+    if (condicionVision.CondicionTopBar(navController)) {
         AnimatedVisibility(
             visible = topBarVisible,
             enter = slideInVertically(initialOffsetY = { it }),

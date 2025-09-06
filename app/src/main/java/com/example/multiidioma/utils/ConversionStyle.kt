@@ -10,7 +10,7 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.font.FontWeight
 
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.data.TextosBuscadosData
+import com.example.multiidioma.data.types.TextosBuscadosData
 
 fun xmlToAnnotatedString(
     parrafo: String,

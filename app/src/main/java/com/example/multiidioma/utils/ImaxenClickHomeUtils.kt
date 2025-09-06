@@ -13,9 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.ImaxenClickData
+import com.example.multiidioma.data.types.ImaxenClickData
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.imaxes.OrganicShape
 
@@ -37,7 +36,7 @@ fun ImaxenClickHomeUtils(
             modifier = Modifier
                 .fillMaxSize()
                 .offset(x = item.xOffset!!.dp, y = item.yOffset!!.dp)
-                .clickable { onItemClick(item.id) }
+                .clickable { onItemClick(item.id) } //item.<valor> debe coincidir do it.<valor> de DetailViewModel
                 ,
             funcionImaxen = item.funcionImaxen,
             tamanho = item.tamanho
