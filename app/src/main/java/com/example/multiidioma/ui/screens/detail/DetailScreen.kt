@@ -39,7 +39,7 @@ fun DetailScreen(navController: NavController, detailViewModel: DetailViewModel 
                         Text(text = "Estou en centros sigulares")
                     }
                     is ContentType.InstitutoInvestigation -> {
-                        InstitutesScreen()
+                        InstitutesScreen(navController)
                     }
                     else -> {
                         Text("screen non atopado")

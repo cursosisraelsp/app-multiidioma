@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("org.jetbrains.dokka") version "1.9.20"
 }
 
 android {
@@ -55,7 +56,8 @@ dependencies {
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0") {
         exclude(group = "com.android.support")
     }
-
+    implementation("androidx.compose.material:material-icons-core")
+    implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.navigation.runtime.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -69,4 +71,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.3")
     implementation("com.android.support:appcompat-v7:23.2.0")
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
+    implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha01")
+
 }
