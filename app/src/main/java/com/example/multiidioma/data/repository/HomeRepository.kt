@@ -7,6 +7,7 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.ListaImaxenClickData
 import com.example.multiidioma.utils.imaxes.ImaxenMapa
+import com.example.multiidioma.utils.imaxes.institutosCentrosSingularesPath
 import com.example.multiidioma.utils.imaxes.institutosInvestigacionPath
 
 val imaxenClickMultimedia = ImaxenClickData(
@@ -39,6 +40,20 @@ val imaxenClickInstitutos = ImaxenClickData(
     ruta = "institutos",
     contentType = ContentType.InstitutoInvestigation
 )
-val formasClickHome = listOf(imaxenClickMultimedia, imaxenClickMapa,imaxenClickInstitutos)
+val imaxenClickCentrosSingulares = ImaxenClickData(
+    id = "4",
+    title = R.string.centrossingulares,
+    funcionImaxen = {size: Size -> institutosCentrosSingularesPath(size)},
+    xOffset = 200f,
+    yOffset = 75f,
+    tamanho = 125.dp,
+    ruta = "centrossingulares",
+    contentType = ContentType.CentroSingularContent
+)
+val formasClickHome = listOf(
+    imaxenClickMultimedia,
+    imaxenClickMapa,
+    imaxenClickInstitutos,
+    imaxenClickCentrosSingulares)
 
 val listaImaxesHome = ListaImaxenClickData(formasClickHome)
