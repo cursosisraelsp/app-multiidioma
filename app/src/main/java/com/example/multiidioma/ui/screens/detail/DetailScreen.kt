@@ -12,8 +12,17 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
+import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
+import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
+import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
+import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
+import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
+import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
+import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
+import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.institutes.incifor.InciforScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
@@ -41,7 +50,7 @@ fun DetailScreen(
                     is ContentType.MapContent -> Text(text = "Estou en mapa")
                     is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
                     is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
-                    is ContentType.INCIFOR -> InciforScreen()
+
                     else -> Text("screen non atopado")
                 }
             }
@@ -51,8 +60,11 @@ fun DetailScreen(
 
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
-
+                    is ContentType.CIQUS -> CiqusScreen()
+                    //is ContentType.CIMUS -> CimusScreen()
                     is ContentType.CITIUS -> CitiusScreen()
+                    is ContentType.CRETUS -> CretusScreen()
+                    is ContentType.IGFAE -> IgfaeScreen()
                     else -> Text("screen non atopado")
                 }
             }
@@ -61,8 +73,12 @@ fun DetailScreen(
         listInstitus != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listInstitus.contentType) {
-
+                    is ContentType.IHUS -> IhusScreen()
+                    is ContentType.IDEGA -> IdegaScreen()
+                    is ContentType.ICE -> IceScreen()
                     is ContentType.INCIFOR -> InciforScreen()
+                    is ContentType.IMATUS -> ImatusScreen()
+                    is ContentType.ILG -> IlgScreen()
                     else -> Text("screen non atopado")
                 }
             }

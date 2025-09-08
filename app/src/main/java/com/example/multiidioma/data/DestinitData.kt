@@ -15,10 +15,21 @@ enum class TitulosNavegacion(val titulo:String){
 sealed class Destination(val route: String) {
     // Rutas sin argumentos
     object Start : Destination("start")
-    object Home : Destination("home")
-    object Cimus : Destination("cimus")
     object Settings : Destination("settings")
-
+    object Home : Destination("home")
+    // INSTITUTOS
+    object Ihus : Destination("ihus")
+    object Idega : Destination("idega")
+    object Ice : Destination("ice")
+    object Incifor : Destination("incifor")
+    object Imatus : Destination("imatus")
+    object Ilg : Destination("ilg")
+    // CENTROS
+    object Cimus : Destination("cimus")
+    object Ciqus : Destination("ciqus")
+    object Citius : Destination("citius")
+    object Cretus : Destination("cretus")
+    object Igfae : Destination("igfae")
     // Rutas en enum
     enum class RutasBottomBar (
         val route: String,
@@ -28,7 +39,6 @@ sealed class Destination(val route: String) {
     ) {
         //DETAIL("detail/{screenId}","Detail",null,null),
         HOME("home", "Homes", Icons.Default.Home, "Homes"),
-
         SETTINGS("settings", "Settings", Icons.Default.Settings, "Settings")
     }
     // Ruta de detalle con un argumento.

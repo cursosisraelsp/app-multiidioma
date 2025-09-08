@@ -7,10 +7,18 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
+import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
+import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
-import com.example.multiidioma.navegacion.inciforApp.InciforAppNavegacion
+import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
+import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavegacion
+import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
+import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
+import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
+import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
+import com.example.multiidioma.navegacion.institutos.imatusApp.ImatusAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
 import com.example.multiidioma.viewmodel.LanguageViewModel
@@ -26,9 +34,21 @@ fun NavHostApp(navController: NavHostController, modifier: Modifier,languageView
         StartAppNavHost(navController)
         HomeAppNavHost(languageViewModel, listState,navController = navController)
         SettingsAppNavegacion(languageViewModel)
-        CimusAppNavegacion(listState)
-        CitiusAppNavegacion()
+
+        //## INSTITUTOS
+        IhusAppNavegacion()
+        IdegaAppNavegacion()
+        IceAppNavegacion()
         InciforAppNavegacion()
+        ImatusAppNavegacion()
+        IlgAppNavegacion()
+        //## CENTROS
+        CiqusAppNavegacion()
+        //CimusAppNavegacion(listState)
+        CitiusAppNavegacion()
+        CretusAppNavegacion()
+        IgfaeAppNavegacion()
+
         detailNavGraph(navController)
     }
 }
