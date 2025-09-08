@@ -29,11 +29,15 @@ import com.example.multiidioma.data.CONDICIONS
 import com.example.multiidioma.data.CorBottomAndTop
 import com.example.multiidioma.data.whiteColor
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material3.DrawerState
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController){
+fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawerState: DrawerState, scope: CoroutineScope){
     val condicionVision = CONDICIONS()
     if (condicionVision.CondicionTopBar(navController)) {
         AnimatedVisibility(
@@ -59,9 +63,24 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController){
                                 modifier = Modifier.clip(CircleShape).background(color = whiteColor)
                             )
                         }
+
+                    }
+                },
+                actions = {
+                    if(condicionVision.CondicionInstitutos(navController) || condicionVision.CondicionCentrosSingulares(navController)){
+                        IconButton(
+                            onClick = { scope.launch {
+                                drawerState.open()
+                            } }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Menu,
+                                contentDescription = "stringResource(R.string.menu)",
+                                tint = whiteColor
+                            )
+                        }
                     }
                 }
-
             )
         }
     }
