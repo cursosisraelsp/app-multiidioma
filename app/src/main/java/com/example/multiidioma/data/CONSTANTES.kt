@@ -10,3 +10,4 @@ val whiteColor = Color.White
 
 val nomeInstitutos = listOf("IHUS","IDEGA","ICE","INCIFOR","IMATUS","ILG")
 val nomeCentros = listOf("CIQUS","CIMUS","CITIUS","CRETUS","IGFAE","IDIS")
+
