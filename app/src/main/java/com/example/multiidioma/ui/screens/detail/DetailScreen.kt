@@ -24,6 +24,7 @@ import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.institutes.incifor.InciforScreen
+import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
 @Composable
@@ -50,6 +51,7 @@ fun DetailScreen(
                     is ContentType.MapContent -> Text(text = "Estou en mapa")
                     is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
                     is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
+                    is ContentType.MinervaContent -> MinervaScreen()
 
                     else -> Text("screen non atopado")
                 }

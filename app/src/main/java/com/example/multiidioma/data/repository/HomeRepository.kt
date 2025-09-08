@@ -50,10 +50,21 @@ val imaxenClickCentrosSingulares = ImaxenClickData(
     ruta = "centrossingulares",
     contentType = ContentType.CentroSingularContent
 )
+val imaxenClickMinerva = ImaxenClickData(
+    id = "5",
+    title = R.string.minerva,
+    funcionImaxen = {size: Size -> institutosCentrosSingularesPath(size)},
+    xOffset = 0f,
+    yOffset = 175f,
+    tamanho = 125.dp,
+    ruta = "minerva",
+    contentType = ContentType.MinervaContent
+)
 val formasClickHome = listOf(
     imaxenClickMultimedia,
     imaxenClickMapa,
     imaxenClickInstitutos,
-    imaxenClickCentrosSingulares)
+    imaxenClickCentrosSingulares,
+    imaxenClickMinerva)
 
 val listaImaxesHome = ListaImaxenClickData(formasClickHome)
