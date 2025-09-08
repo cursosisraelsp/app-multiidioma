@@ -70,7 +70,12 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
                     if(condicionVision.CondicionInstitutos(navController) || condicionVision.CondicionCentrosSingulares(navController)){
                         IconButton(
                             onClick = { scope.launch {
-                                drawerState.open()
+                                //drawerState.open()
+                                if (drawerState.isClosed) {
+                                    drawerState.open()
+                                } else {
+                                    drawerState.close()
+                                }
                             } }
                         ) {
                             Icon(
