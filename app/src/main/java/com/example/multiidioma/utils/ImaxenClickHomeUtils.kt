@@ -27,7 +27,8 @@ fun ImaxenClickHomeUtils(
     // Cada forma con su Box para controlar tamaño y offsets
     Box(
         modifier = Modifier
-            .size(item.tamanho) // tamaño máximo del Canvas
+            .fillMaxSize(item.tamanho)
+            //.size(item.tamanho) // tamaño máximo del Canvas
             .padding(0.dp)
             .border(width = 1.dp, color = Color.Red),
         contentAlignment = Alignment.Center

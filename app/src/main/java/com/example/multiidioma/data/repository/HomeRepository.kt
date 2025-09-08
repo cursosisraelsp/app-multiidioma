@@ -16,7 +16,8 @@ val imaxenClickMultimedia = ImaxenClickData(
     funcionImaxen = { size: Size -> ImaxenMultimedia(size) },// ::ImaxenMultimedia
     xOffset = (0f),// negativos móvese a esquerda
     yOffset = 10f,// negativos móvese cara arriba
-    tamanho = 175.dp,
+    //tamanho = 175.dp,
+    tamanho = 0.3f,
     ruta = "multimedia",
     contentType = ContentType.MultimediaContent
 )
@@ -26,7 +27,8 @@ val imaxenClickMapa = ImaxenClickData(
     funcionImaxen = { size: Size -> ImaxenMapa(size) },// ::ImaxenMapa
     xOffset = 150f,    // mueve 150 dp a la derecha
     yOffset = -10f,    // mueve 10 dp hacia arriba
-    tamanho = 80.dp,
+    //tamanho = 80.dp,
+    tamanho = 0.2f,
     ruta = "mapa",
     contentType = ContentType.MapContent
 )
@@ -36,7 +38,8 @@ val imaxenClickInstitutos = ImaxenClickData(
     funcionImaxen = {size: Size -> institutosInvestigacionPath(size)},
     xOffset = 200f,
     yOffset = 50f,
-    tamanho = 150.dp,
+    //tamanho = 150.dp,
+    tamanho = 0.2f,
     ruta = "institutos",
     contentType = ContentType.InstitutoInvestigation
 )
@@ -46,7 +49,8 @@ val imaxenClickCentrosSingulares = ImaxenClickData(
     funcionImaxen = {size: Size -> institutosCentrosSingularesPath(size)},
     xOffset = 200f,
     yOffset = 75f,
-    tamanho = 125.dp,
+    //tamanho = 125.dp,
+    tamanho = 0.4f,
     ruta = "centrossingulares",
     contentType = ContentType.CentroSingularContent
 )
@@ -55,8 +59,9 @@ val imaxenClickMinerva = ImaxenClickData(
     title = R.string.minerva,
     funcionImaxen = {size: Size -> institutosCentrosSingularesPath(size)},
     xOffset = 0f,
-    yOffset = 175f,
-    tamanho = 125.dp,
+    yOffset = 0f,
+    //tamanho = 125.dp,
+    tamanho = 0.2f,
     ruta = "minerva",
     contentType = ContentType.MinervaContent
 )

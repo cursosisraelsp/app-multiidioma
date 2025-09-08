@@ -6,7 +6,7 @@ import com.example.multiidioma.data.TitulosNavegacion
 fun TitleNames(ruta : String?,navBackStackEntry: NavBackStackEntry?):String{
 
     return when(ruta) {
-        "start","HOME" -> ruta
+
         "detail/{screenId}" -> {
             // Extraemos el screenId de la ruta
             val screenId = navBackStackEntry?.arguments?.getString("screenId")
@@ -19,9 +19,15 @@ fun TitleNames(ruta : String?,navBackStackEntry: NavBackStackEntry?):String{
                 "3" -> TitulosNavegacion.InstitusInvestigacion.titulo // Institus de investigacion
                 "4" -> TitulosNavegacion.CentroSigular.titulo// centros singulares
                 "5" -> TitulosNavegacion.Minerva.titulo// Centros singulares
-                else -> ""
+                else -> "estou noou"
             }
         }
-        else -> "INXENIUS"
+        else -> {
+            when(ruta){
+                "home" -> "INXENIUS"
+                "ciqus" -> "CiQus"
+                else -> ruta.toString().uppercase()
+            }
+        }
     }
 }
