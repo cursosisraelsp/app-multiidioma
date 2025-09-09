@@ -12,7 +12,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
-import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
@@ -24,6 +23,7 @@ import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.institutes.incifor.InciforScreen
+import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
@@ -48,7 +48,7 @@ fun DetailScreen(
                 when (imaxenClick.contentType) {
                     is ContentType.MultimediaContent -> MultimediaScreen()
                     is ContentType.MinervaContent -> Text(text = "Estou en minerva")
-                    is ContentType.MapContent -> Text(text = "Estou en mapa")
+                    is ContentType.MapContent -> MapScreen()
                     is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
                     is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
                     is ContentType.MinervaContent -> MinervaScreen()

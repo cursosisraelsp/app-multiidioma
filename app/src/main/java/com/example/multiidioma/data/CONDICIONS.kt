@@ -2,7 +2,6 @@ package com.example.multiidioma.data
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 
@@ -56,5 +55,13 @@ class CONDICIONS {
                         || currentRoute == Destination.Imatus.route
                         || currentRoute == Destination.Ilg.route
                 )
+    }
+
+    @Composable
+    fun CondicionBottomBarMap(navController: NavHostController) : Boolean {
+        val navBackStackEntry by navController.currentBackStackEntryAsState()
+        val currentRoute = navBackStackEntry?.destination?.route
+
+        return (currentRoute != "detail/{screenId}")
     }
 }

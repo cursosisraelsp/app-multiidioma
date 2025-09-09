@@ -18,6 +18,7 @@ sealed class Destination(val route: String) {
     object Settings : Destination("settings")
     object Home : Destination("home")
     object Minerva : Destination("minerva")
+    object Mapa : Destination("mapa")
     // INSTITUTOS
     object Ihus : Destination("ihus")
     object Idega : Destination("idega")

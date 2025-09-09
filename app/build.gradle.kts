@@ -18,6 +18,8 @@ android {
         versionName = "1.0"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+
     }
 
     buildTypes {
@@ -74,4 +76,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
     implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha01")
 
+    // Google Maps Compose
+    implementation("com.google.maps.android:maps-compose:4.3.0")
+    // Play Services Maps clásico
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
 }
+

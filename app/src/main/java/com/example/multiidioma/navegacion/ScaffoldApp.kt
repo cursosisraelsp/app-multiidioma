@@ -1,6 +1,9 @@
 package com.example.multiidioma.navegacion
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.calculateEndPadding
+import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.DrawerValue
@@ -12,6 +15,7 @@ import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.data.CONDICIONS
@@ -20,17 +24,19 @@ import com.example.multiidioma.utils.BottomBarUtils
 import com.example.multiidioma.utils.TopBarUtils
 import com.example.multiidioma.viewmodel.LanguageViewModel
 import kotlinx.coroutines.launch
+import androidx.compose.ui.unit.LayoutDirection
+
 
 @Composable
 fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewModel: LanguageViewModel,listState: LazyListState){
     val navController = rememberNavController()
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     val scope = rememberCoroutineScope()
-
+    val condicions = CONDICIONS()
     ModalNavigationDrawer(
         drawerState = drawerState,
         drawerContent = {
-            val condicions = CONDICIONS()
+
             if(condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen){
                 ModalDrawerSheet {
                     Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
@@ -160,18 +166,36 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
         Scaffold(
             topBar = { TopBarUtils(topBarVisible = topBarVisible, navController = navController,drawerState,scope = scope) },
             bottomBar = {
-                BottomBarUtils(
-                    bottomBarVisible = bottomBarVisible,
-                    navController = navController
+
+                if(condicions.CondicionBottomBarMap(navController)){
+                    BottomBarUtils(
+                        bottomBarVisible = bottomBarVisible,
+                        navController = navController
+                    )
+                }
+
+            }
+        ) { innerPadding  ->
+            val navHostModifier = if (condicions.CondicionBottomBarMap(navController)) {
+                Modifier.padding(innerPadding)
+            } else {
+                Modifier.padding(
+                    PaddingValues(
+                        start = innerPadding.calculateStartPadding(LocalLayoutDirection.current),
+                        end = innerPadding.calculateEndPadding(LocalLayoutDirection.current),
+                        bottom = innerPadding.calculateBottomPadding()
+                        // 👈 omitimos el top
+                    )
                 )
             }
-        ) { padding ->
+
             NavHostApp(
                 navController = navController,
-                modifier = Modifier.padding(padding),
+                modifier = navHostModifier,
                 languageViewModel = languageViewModel,
                 listState = listState
             )
+
         }
     }
 }

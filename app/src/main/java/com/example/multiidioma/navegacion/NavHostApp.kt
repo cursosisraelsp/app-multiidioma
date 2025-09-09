@@ -45,7 +45,7 @@ fun NavHostApp(navController: NavHostController, modifier: Modifier,languageView
         IlgAppNavegacion()
         //## CENTROS
         CiqusAppNavegacion()
-        //CimusAppNavegacion(listState)
+        //->CimusAppNavegacion(listState)
         CitiusAppNavegacion()
         CretusAppNavegacion()
         IgfaeAppNavegacion()

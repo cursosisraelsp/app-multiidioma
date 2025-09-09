@@ -70,6 +70,7 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
                         label = "Cimus",
                         isSelected = currentRoute == Destination.Cimus.route
                     )
+                    //Text("ruta es $currentRoute")
                     // Agrega más BottomBarItem para otras rutas
                     BottomBarItem(
                         navController = navController,
