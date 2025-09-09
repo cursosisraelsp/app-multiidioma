@@ -30,6 +30,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.repository.MultimediaRepository
+import com.example.multiidioma.data.types.CarruselMultimediaData
+import com.example.multiidioma.ui.components.CarruselMultimedia
 import com.example.multiidioma.ui.components.OpenSpotify
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -38,33 +40,13 @@ fun MultimediaScreen(){
     val context = LocalContext.current
     val _multimediaRepository = MultimediaRepository()
     val lista = rememberSaveable{_multimediaRepository.ListPodcasts()}
-    val cantidade = _multimediaRepository.ListPodcasts().count()
+
     val carouselState = rememberCarouselState { lista.size }
-    HorizontalMultiBrowseCarousel(
-        state = carouselState,
-        preferredItemWidth = 75.dp,              // ancho preferido de cada ítem
-        modifier = Modifier.fillMaxWidth().fillMaxHeight(0.3f).border(width = 2.dp, color = Color.Green),       // que ocupe todo el ancho
-        itemSpacing = 30.dp,                       // espacio entre ítems
-        userScrollEnabled = true,                 // permitir scroll manual
-        minSmallItemWidth = 225.dp,               // ancho mínimo cuando está en los bordes
-        maxSmallItemWidth = 350.dp,               // ancho máximo del ítem principal
-        contentPadding = PaddingValues(1.dp)
-    ) { i ->
-        val podcast = lista[i]
-        Column (
-            modifier = Modifier.fillMaxSize().border(width = 1.dp, color = Color.Black).padding(5.dp).clickable {
-                OpenSpotify(context,podcast)
-            },
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        )
-        {
-            podcast.imaxe()
-            Text(text = podcast.title)
-            Text(text = podcast.protagonista, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
-        }
-
-    }
-
-
+    val datosDpPodcast = CarruselMultimediaData(
+        preferredItemWidth = 75.dp,
+        itemSpacing = 30.dp,
+        minSmallItemWidth = 225.dp,
+        maxSmallItemWidth = 350.dp
+    )
+    CarruselMultimedia(carouselState,lista,context, carouselData = datosDpPodcast)
 }
