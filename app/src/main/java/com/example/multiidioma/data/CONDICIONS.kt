@@ -63,5 +63,6 @@ class CONDICIONS {
         val currentRoute = navBackStackEntry?.destination?.route
 
         return (currentRoute != "detail/{screenId}")
+        //return (currentRoute != Destination.Mapa.route)
     }
 }

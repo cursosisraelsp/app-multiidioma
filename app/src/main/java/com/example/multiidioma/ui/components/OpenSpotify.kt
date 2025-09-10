@@ -5,21 +5,20 @@ import android.content.Intent
 import android.net.Uri
 import com.example.multiidioma.data.repository.MultimediaRepository
 
-fun OpenSpotify(context: Context, spotifyUri : MultimediaRepository. Podcast){
-    // URI de Spotify (ejemplo: canción específica) Killers
-    //val spotifyUri = "spotify:track:3n3Ppam7vgaVa1iaRUc9Lp"
+import com.example.multiidioma.data.types.Podcast
+
+fun OpenSpotify(context: Context, podcast: Podcast) {
     val intent = Intent(Intent.ACTION_VIEW).apply {
-        data = Uri.parse(spotifyUri.uriSpotifyApp)
+        data = Uri.parse(podcast.uriSpotifyApp)
         putExtra(Intent.EXTRA_REFERRER, Uri.parse("android-app://${context.packageName}"))
     }
-    // Si Spotify no está instalado, abrimos en navegador
+
     if (intent.resolveActivity(context.packageManager) != null) {
         context.startActivity(intent)
     } else {
-        val webIntent = Intent(
-            Intent.ACTION_VIEW,
-            Uri.parse(spotifyUri.uriSpotifyWeb)
-        )
+        val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(podcast.uriSpotifyWeb))
         context.startActivity(webIntent)
     }
 }
+
+

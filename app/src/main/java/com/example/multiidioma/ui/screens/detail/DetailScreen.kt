@@ -39,7 +39,7 @@ fun DetailScreen(
     val listInstitus = state.detailListInstitus
 
     when {
-        imaxenClick == null && listSingulars == null -> {
+        imaxenClick == null || listSingulars == null -> {
             CircularProgressIndicator()
         }
 

@@ -19,6 +19,7 @@ import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
 import com.example.multiidioma.navegacion.institutos.imatusApp.ImatusAppNavegacion
+import com.example.multiidioma.navegacion.mapa.MapaAppNavegacion
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
@@ -35,6 +36,9 @@ fun NavHostApp(navController: NavHostController, modifier: Modifier,languageView
         StartAppNavHost(navController)
         HomeAppNavHost(languageViewModel, listState,navController = navController)
         SettingsAppNavegacion(languageViewModel)
+        //## MAPA
+        MapaAppNavegacion()
+        // ---
         MinervaAppNavegacion()
         //## INSTITUTOS
         IhusAppNavegacion()

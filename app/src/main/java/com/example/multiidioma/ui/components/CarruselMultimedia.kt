@@ -22,10 +22,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.repository.MultimediaRepository
 import com.example.multiidioma.data.types.CarruselMultimediaData
+import com.example.multiidioma.data.types.MultimediaData
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
-fun CarruselMultimedia(carouselState: CarouselState,lista: List<MultimediaRepository. Podcast>,context: Context, carouselData: CarruselMultimediaData){
+fun CarruselMultimedia(carouselState: CarouselState, podcasts: List<MultimediaData>, context: Context, carouselData: CarruselMultimediaData){
+    /*
     HorizontalMultiBrowseCarousel(
         state = carouselState,
         preferredItemWidth = carouselData.preferredItemWidth,              // ancho preferido de cada ítem
@@ -36,7 +38,8 @@ fun CarruselMultimedia(carouselState: CarouselState,lista: List<MultimediaReposi
         maxSmallItemWidth = carouselData.maxSmallItemWidth,               // ancho máximo del ítem principal
         contentPadding = PaddingValues(1.dp)
     ) { i ->
-        val item = lista[i]
+        val item = podcasts[i]
+
         Column (
             modifier = Modifier.fillMaxSize().border(width = 1.dp, color = Color.Black).padding(5.dp).clickable {
                 OpenSpotify(context,item)
@@ -51,4 +54,5 @@ fun CarruselMultimedia(carouselState: CarouselState,lista: List<MultimediaReposi
         }
 
     }
+    */
 }
