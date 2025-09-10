@@ -4,12 +4,57 @@ import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.googlefonts.Font
+import androidx.compose.ui.text.googlefonts.GoogleFont
+import com.example.multiidioma.R
+
+
+// Define el proveedor de la fuente
+val provider = GoogleFont.Provider(
+    providerAuthority = "com.google.android.gms.fonts",
+    providerPackage = "com.google.android.gms",
+    certificates = R.array.com_google_android_gms_fonts_certs
+)
+
+// Define las fuentes que usarás
+val bodyFontFamily = GoogleFont(name = "Roboto")
+val displayFontFamily = GoogleFont(name = "Montserrat")
+
+val AppTypography = Typography(
+    // Usa la familia de fuentes para el cuerpo del texto
+    bodyLarge = TextStyle(
+        fontFamily = FontFamily(
+            Font(
+                googleFont = bodyFontFamily,
+                fontProvider = provider
+            )
+
+        )
+    ),
+    // Y para los títulos o display text
+    displayLarge = TextStyle(
+        fontFamily = FontFamily(
+            Font(
+                googleFont = displayFontFamily,
+                fontProvider = provider,
+                weight = FontWeight.Bold,
+
+                ),
+            //Font(resId = R.font.roboto_bold)
+        )
+    )
+    // ... y los demás estilos de Typography
+)
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
