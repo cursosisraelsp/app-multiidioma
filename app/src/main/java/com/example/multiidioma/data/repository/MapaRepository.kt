@@ -59,3 +59,19 @@ val institutosInvestigacion = listOf(
     Centro(iMATUS,"iMATUS", descriptionImatus), // iMATUS
     Centro(iPSIUS,"iPSIUS", descriptionIpsius)  // IPSIUS
 )
+val institutosEcentros = listOf(
+    Centro(cIQUS,"cIQUS",descriptionCiqus), // CIQUS
+    Centro(cIMUS,"cIMUS",descriptionCimus), // CIMUS
+    Centro(cITIUS,"cITIUS",descriptionCitius), // CITIUS
+    Centro(cRETUS,"cRETUS",descriptionCretus), // CRETUS
+    Centro(iGFAE,"iGFAE",descriptionIgfae), // IGFAE
+    Centro(iDIS,"iDIS", descriptionIdis), // IDIS
+    Centro(iLG,"ilga", descriptionIlg), // ILG
+    Centro(iARCUS,"iarcus", descriptionIarcus), // Iarcus
+    Centro(iCE,"ice", descriptionIce), // ICE
+    Centro(iNCIFOR,"iNCIFOR", descriptionIncifor), // INCIFOR
+    Centro(iDEGA,"iDEGA", descriptionIdega), // IDEGA
+    Centro(iHUS,"iHUS", descriptionIhus), // IHUS
+    Centro(iMATUS,"iMATUS", descriptionImatus), // iMATUS
+    Centro(iPSIUS,"iPSIUS", descriptionIpsius)  // IPSIUS
+)

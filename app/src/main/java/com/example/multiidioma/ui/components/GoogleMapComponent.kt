@@ -20,6 +20,7 @@ import com.example.multiidioma.data.repository.cIQUS
 import com.example.multiidioma.data.repository.centrosSingulares
 import com.example.multiidioma.data.repository.descriptionCimus
 import com.example.multiidioma.data.repository.descriptionCiqus
+import com.example.multiidioma.data.repository.institutosEcentros
 import com.example.multiidioma.data.repository.institutosInvestigacion
 import com.example.multiidioma.data.repository.santiago
 import com.google.maps.android.compose.GoogleMap
@@ -64,6 +65,7 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
     val markers = when (markerType) {
         MarkerType.CENTROS_SINGULARES -> centrosSingulares
         MarkerType.INSTITUTOS_INVESTIGACION -> institutosInvestigacion
+        MarkerType.INSTITUTOS_e_CENTROS -> institutosEcentros
         else -> emptyList()
     }
     var selectedCentro by remember { mutableStateOf<String?>(null) }
@@ -81,7 +83,7 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
                 onClick = {
                     selectedCentro = centro.description // Aquí metes tu descripción
                     false // Devuelve false para que no consuma el evento y se siga mostrando la InfoWindow
-                }
+                },
             )
         }
     }

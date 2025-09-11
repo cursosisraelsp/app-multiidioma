@@ -28,8 +28,8 @@ import com.example.multiidioma.ui.components.GoogleMapComponent
 
 @Composable
 fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
-    var selectedItem by remember { mutableStateOf(0) }
-    val items = listOf("Centros", "Institutos")
+    var selectedItem by remember { mutableStateOf(2) }
+    val items = listOf("Centros", "Institutos","Institutos e centros")
 
     Box(modifier = Modifier.fillMaxSize()) {
         Scaffold(
@@ -46,13 +46,19 @@ fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
                 }
             }
         ) { paddingValues ->
-            val markerTypeValue =
-                if (selectedItem == 0) MarkerType.CENTROS_SINGULARES else MarkerType.INSTITUTOS_INVESTIGACION
+            val markerTypeValue = when (selectedItem) {
+                0 -> MarkerType.CENTROS_SINGULARES
+                1 -> MarkerType.INSTITUTOS_INVESTIGACION
+                else -> MarkerType.INSTITUTOS_e_CENTROS
+            }
+
+
 
             GoogleMapComponent(
                 markerType = markerTypeValue,
                 modifier = Modifier.padding(paddingValues)
             )
+
         }
 
         IconButton(
