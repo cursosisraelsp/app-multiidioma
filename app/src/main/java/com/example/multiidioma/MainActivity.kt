@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.ui.MyApp
+import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 class MainActivity : ComponentActivity() {
@@ -14,6 +15,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val languageViewModel: LanguageViewModel = viewModel()
             MyApp(languageViewModel)
+            //MapScreen()
         }
     }
 }

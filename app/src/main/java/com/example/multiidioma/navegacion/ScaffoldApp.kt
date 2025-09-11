@@ -164,26 +164,20 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
     )
     {
         Scaffold(
-            topBar = { TopBarUtils(topBarVisible = topBarVisible, navController = navController,drawerState,scope = scope) },
+            topBar = {
+
+                TopBarUtils(
+                    topBarVisible = topBarVisible,
+                    navController = navController,
+                    drawerState,scope = scope)
+                     },
             bottomBar = {
                 BottomBarUtils(
                     bottomBarVisible = bottomBarVisible,
                     navController = navController
                 )
             }
-            /*
-            bottomBar = {
 
-                if(condicions.CondicionBottomBarMap(navController)){
-                    BottomBarUtils(
-                        bottomBarVisible = bottomBarVisible,
-                        navController = navController
-                    )
-                }
-
-            }
-
-             */
         ) { padding ->
             NavHostApp(
                 navController = navController,
@@ -191,21 +185,6 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                 languageViewModel = languageViewModel,
                 listState = listState
             )
-            /*
-            innerPadding  ->
-            val navHostModifier = if (condicions.CondicionBottomBarMap(navController)) {
-                Modifier.padding(innerPadding)
-            } else {
-                Modifier.padding(
-                    PaddingValues(
-                        start = innerPadding.calculateStartPadding(LocalLayoutDirection.current),
-                        end = innerPadding.calculateEndPadding(LocalLayoutDirection.current),
-                        bottom = innerPadding.calculateBottomPadding()
-                        // 👈 omitimos el top
-                    )
-                )
-            }
-            */
         }
     }
 }

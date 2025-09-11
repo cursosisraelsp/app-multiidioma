@@ -10,9 +10,9 @@ import androidx.navigation.navArgument
 fun NavGraphBuilder.detailNavGraph(navController: NavHostController){
     composable(
         route = Destination.Detail.route,
-        arguments = listOf(
+        /*arguments = listOf(
             navArgument("screenId") { type = NavType.StringType }
-        )
+        )*/
         ) {
         DetailScreen(navController)
     }
