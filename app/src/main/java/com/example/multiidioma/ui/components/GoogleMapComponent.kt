@@ -37,24 +37,9 @@ import com.google.maps.android.compose.MapUiSettings
 @Composable
 fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
 
-    /*val cameraPositionState = rememberCameraPositionState {
-        position = CameraPosition.fromLatLngZoom(santiago, 13.5f)
-    }*/
+
     val cameraPositionState = rememberCameraPositionState()
-    val uiSettings = remember {
-        MapUiSettings(
-            compassEnabled = true,
-            indoorLevelPickerEnabled = true,
-            mapToolbarEnabled = true,
-            myLocationButtonEnabled = true,
-            rotationGesturesEnabled = true,   // 👈 rotación con dos dedos
-            scrollGesturesEnabled = true,     // mover el mapa
-            scrollGesturesEnabledDuringRotateOrZoom = true,
-            tiltGesturesEnabled = true,       // inclinar con dos dedos
-            zoomControlsEnabled = true,       // botones +/-
-            zoomGesturesEnabled = true        // zoom con los dedos 👈
-        )
-    }
+
     // 👇 Esto mueve la cámara automáticamente al entrar en la pantalla
     // 👇 centramos la primera vez
     LaunchedEffect(Unit) {
@@ -72,7 +57,7 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
     GoogleMap(
         modifier = modifier.fillMaxSize(),
         cameraPositionState = cameraPositionState,
-        uiSettings = uiSettings
+
     ) {
         markers.forEach { centro ->
             Marker(
