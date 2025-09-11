@@ -7,6 +7,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
@@ -30,7 +34,8 @@ import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 @Composable
 fun DetailScreen(
     navController: NavController,
-    detailViewModel: DetailViewModel = viewModel()
+    detailViewModel: DetailViewModel = viewModel(),
+    onClose : ()-> Unit
 ){
     val state by detailViewModel.detailScreenState.collectAsState()
 
@@ -38,6 +43,12 @@ fun DetailScreen(
     val listSingulars = state.detailListSingularsCenters
     val listInstitus = state.detailListInstitus
 
+    var mapOpened by rememberSaveable { mutableStateOf(false) } // ✅ controla apertura
+
+    if (imaxenClick != null && imaxenClick.contentType is ContentType.MapContent && !mapOpened) {
+        onClose()
+        mapOpened = true
+    }
     when {
         imaxenClick == null || listSingulars == null -> {
             CircularProgressIndicator()
@@ -48,7 +59,12 @@ fun DetailScreen(
                 when (imaxenClick.contentType) {
                     is ContentType.MultimediaContent -> MultimediaScreen()
                     is ContentType.MinervaContent -> Text(text = "Estou en minerva")
-                    is ContentType.MapContent -> MapScreen()
+                    //is ContentType.MapContent -> MapScreen(onClose = {showMap = false})
+                    is ContentType.MapContent -> {
+                        // En vez de abrir el MapScreen aquí,
+                        // dispara el overlay:
+                        onClose()
+                    }
                     is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
                     is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
                     is ContentType.MinervaContent -> MinervaScreen()

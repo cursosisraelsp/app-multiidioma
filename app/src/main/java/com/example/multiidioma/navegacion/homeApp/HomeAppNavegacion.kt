@@ -13,7 +13,10 @@ fun NavGraphBuilder.HomeAppNavHost(languageViewModel: LanguageViewModel,listStat
         // 👉 pásale listState para que funcione el scroll
         HomeScreen(languageViewModel, listState,onImageClick = { screenId ->
             val ruta = Destination.createDetailRoute(screenId)
-            navController.navigate(ruta)
+            if(ruta != "detail/{screenId}"){
+                navController.navigate(ruta)
+            }
+
         })
     }
 }

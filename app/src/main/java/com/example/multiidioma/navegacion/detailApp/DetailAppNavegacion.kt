@@ -7,13 +7,13 @@ import com.example.multiidioma.data.Destination
 import com.example.multiidioma.ui.screens.detail.DetailScreen
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-fun NavGraphBuilder.detailNavGraph(navController: NavHostController){
+fun NavGraphBuilder.detailNavGraph(navController: NavHostController,onClose : ()-> Unit){
     composable(
         route = Destination.Detail.route,
         /*arguments = listOf(
             navArgument("screenId") { type = NavType.StringType }
         )*/
         ) {
-        DetailScreen(navController)
+        DetailScreen(navController, onClose = onClose)
     }
 }
