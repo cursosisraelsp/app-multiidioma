@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
@@ -22,17 +23,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.multiidioma.data.types.MarkerType
 import com.example.multiidioma.ui.components.GoogleMapComponent
 
 @Composable
 fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
     var selectedItem by remember { mutableStateOf(0) }
-    var outra by remember { mutableStateOf("boas") }
     val items = listOf("Centros", "Institutos")
-    val navBackStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = navBackStackEntry?.destination?.route
+
     Box(modifier = Modifier.fillMaxSize()) {
         Scaffold(
             bottomBar = {
@@ -57,36 +55,20 @@ fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
             )
         }
 
-Column {
-    IconButton(
-        /*onClick = {
-            onClose()
-            outra = "outras variables"},*/
-        onClick = { onClose() },
-        modifier = Modifier
-            //.align(Alignment.TopEnd)
-            .padding(16.dp)
-            .background(Color.White, CircleShape)
-    ) {
-        Icon(Icons.Default.Close, contentDescription = "Cerrar mapa")
-    }
-    IconButton(
-        onClick = {
-            onClose()
-            outra = "outras de novoss"},
-        modifier = Modifier
-            //.align(Alignment.TopEnd)
-            .padding(16.dp)
-            .background(Color.White, CircleShape)
-    ) {
-        Icon(Icons.Default.Settings, contentDescription = "Cerrar mapa")
-    }
-}
+        IconButton(
 
-        Column{
-            Text("ruta ? $currentRoute")
-            Text("$outra")
+            onClick = {
+                onClose()
+                navController.navigate("home")
+            },
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(16.dp)
+                .background(Color.White, CircleShape)
+        ) {
+            Icon(Icons.Default.Close, contentDescription = "Cerrar mapa")
         }
+
 
     }
 }

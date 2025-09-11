@@ -68,7 +68,7 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
     }
     var selectedCentro by remember { mutableStateOf<String?>(null) }
     GoogleMap(
-        modifier = modifier.fillMaxSize().border(2.dp, Color.Red),
+        modifier = modifier.fillMaxSize(),
         cameraPositionState = cameraPositionState,
         uiSettings = uiSettings
     ) {

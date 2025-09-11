@@ -48,7 +48,7 @@ fun NavHostApp(
 
         StartAppNavHost(navController)
         composable(route = Destination.Home.route) {
-            // 👉 pásale listState para que funcione el scroll
+
             HomeScreen(
                 languageViewModel,
                 listState,
@@ -58,10 +58,6 @@ fun NavHostApp(
                         navController.navigate(ruta)
                     }
                     onOpenMap()
-                    /*if (!mapOpened) {
-                        onOpenMap()
-                        mapOpened = true
-                    }*/
                 },
 
             )

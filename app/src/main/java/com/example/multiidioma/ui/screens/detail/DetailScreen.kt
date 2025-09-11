@@ -60,11 +60,11 @@ fun DetailScreen(
                     is ContentType.MultimediaContent -> MultimediaScreen()
                     is ContentType.MinervaContent -> Text(text = "Estou en minerva")
                     //is ContentType.MapContent -> MapScreen(onClose = {showMap = false})
-                    is ContentType.MapContent -> {
+                    /*is ContentType.MapContent -> {
                         // En vez de abrir el MapScreen aquí,
                         // dispara el overlay:
                         onClose()
-                    }
+                    }*/
                     is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
                     is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
                     is ContentType.MinervaContent -> MinervaScreen()
