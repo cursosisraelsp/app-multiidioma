@@ -5,7 +5,8 @@ import com.google.android.gms.maps.model.LatLng
 data class Centro(
     val position: LatLng,
     val title: String,
-    val description: String
+    val description: String,
+    val tipo:String
 )
 // Marcadores
 val iARCUS = LatLng(42.87434584313793, -8.561456786566236)
@@ -41,37 +42,38 @@ val descriptionImatus = "Instituto de Materiales"
 val descriptionIpsius = "Instituto de Psicología"
 
 val centrosSingulares = listOf(
-    Centro(cIQUS,"cIQUS",descriptionCiqus), // CIQUS
-    Centro(cIMUS,"cIMUS",descriptionCimus), // CIMUS
-    Centro(cITIUS,"cITIUS",descriptionCitius), // CITIUS
-    Centro(cRETUS,"cRETUS",descriptionCretus), // CRETUS
-    Centro(iGFAE,"iGFAE",descriptionIgfae), // IGFAE
-    Centro(iDIS,"iDIS", descriptionIdis) // IDIS
+    Centro(cIQUS,"cIQUS",descriptionCiqus,"centro"), // CIQUS
+    Centro(cIMUS,"cIMUS",descriptionCimus,"centro"), // CIMUS
+    Centro(cITIUS,"cITIUS",descriptionCitius,"centro"), // CITIUS
+    Centro(cRETUS,"cRETUS",descriptionCretus,"centro"), // CRETUS
+    Centro(iGFAE,"iGFAE",descriptionIgfae,"centro"), // IGFAE
+    Centro(iDIS,"iDIS", descriptionIdis,"centro") // IDIS
 )
 
 val institutosInvestigacion = listOf(
-    Centro(iLG,"ilga", descriptionIlg), // ILG
-    Centro(iARCUS,"iarcus", descriptionIarcus), // Iarcus
-    Centro(iCE,"ice", descriptionIce), // ICE
-    Centro(iNCIFOR,"iNCIFOR", descriptionIncifor), // INCIFOR
-    Centro(iDEGA,"iDEGA", descriptionIdega), // IDEGA
-    Centro(iHUS,"iHUS", descriptionIhus), // IHUS
-    Centro(iMATUS,"iMATUS", descriptionImatus), // iMATUS
-    Centro(iPSIUS,"iPSIUS", descriptionIpsius)  // IPSIUS
+    Centro(iLG,"ilga", descriptionIlg,"instituto"), // ILG
+    Centro(iARCUS,"iarcus", descriptionIarcus,"instituto"), // Iarcus
+    Centro(iCE,"ice", descriptionIce,"instituto"), // ICE
+    Centro(iNCIFOR,"iNCIFOR", descriptionIncifor,"instituto"), // INCIFOR
+    Centro(iDEGA,"iDEGA", descriptionIdega,"instituto"), // IDEGA
+    Centro(iHUS,"iHUS", descriptionIhus,"instituto"), // IHUS
+    Centro(iMATUS,"iMATUS", descriptionImatus,"instituto"), // iMATUS
+    Centro(iPSIUS,"iPSIUS", descriptionIpsius,"instituto")  // IPSIUS
 )
+
 val institutosEcentros = listOf(
-    Centro(cIQUS,"cIQUS",descriptionCiqus), // CIQUS
-    Centro(cIMUS,"cIMUS",descriptionCimus), // CIMUS
-    Centro(cITIUS,"cITIUS",descriptionCitius), // CITIUS
-    Centro(cRETUS,"cRETUS",descriptionCretus), // CRETUS
-    Centro(iGFAE,"iGFAE",descriptionIgfae), // IGFAE
-    Centro(iDIS,"iDIS", descriptionIdis), // IDIS
-    Centro(iLG,"ilga", descriptionIlg), // ILG
-    Centro(iARCUS,"iarcus", descriptionIarcus), // Iarcus
-    Centro(iCE,"ice", descriptionIce), // ICE
-    Centro(iNCIFOR,"iNCIFOR", descriptionIncifor), // INCIFOR
-    Centro(iDEGA,"iDEGA", descriptionIdega), // IDEGA
-    Centro(iHUS,"iHUS", descriptionIhus), // IHUS
-    Centro(iMATUS,"iMATUS", descriptionImatus), // iMATUS
-    Centro(iPSIUS,"iPSIUS", descriptionIpsius)  // IPSIUS
+    Centro(cIQUS,"cIQUS",descriptionCiqus,"centro"), // CIQUS
+    Centro(cIMUS,"cIMUS",descriptionCimus,"centro"), // CIMUS
+    Centro(cITIUS,"cITIUS",descriptionCitius,"centro"), // CITIUS
+    Centro(cRETUS,"cRETUS",descriptionCretus,"centro"), // CRETUS
+    Centro(iGFAE,"iGFAE",descriptionIgfae,"centro"), // IGFAE
+    Centro(iDIS,"iDIS", descriptionIdis,"centro"), // IDIS
+    Centro(iLG,"ilga", descriptionIlg,"instituto"), // ILG
+    Centro(iARCUS,"iarcus", descriptionIarcus,"instituto"), // Iarcus
+    Centro(iCE,"ice", descriptionIce,"instituto"), // ICE
+    Centro(iNCIFOR,"iNCIFOR", descriptionIncifor,"instituto"), // INCIFOR
+    Centro(iDEGA,"iDEGA", descriptionIdega,"instituto"), // IDEGA
+    Centro(iHUS,"iHUS", descriptionIhus,"instituto"), // IHUS
+    Centro(iMATUS,"iMATUS", descriptionImatus,"instituto"), // iMATUS
+    Centro(iPSIUS,"iPSIUS", descriptionIpsius,"instituto")  // IPSIUS
 )

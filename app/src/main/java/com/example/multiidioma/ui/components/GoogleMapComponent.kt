@@ -14,6 +14,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.repository.cIMUS
 import com.example.multiidioma.data.repository.cIQUS
@@ -29,7 +30,9 @@ import com.google.maps.android.compose.MarkerState
 import com.google.maps.android.compose.rememberCameraPositionState
 import com.google.android.gms.maps.model.LatLng
 import com.example.multiidioma.data.types.MarkerType
+import com.example.multiidioma.utils.conversionIconDrawableToBitMarker
 import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.maps.android.compose.MapUiSettings
 
@@ -59,11 +62,24 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
         cameraPositionState = cameraPositionState,
 
     ) {
+        val context = LocalContext.current
+
         markers.forEach { centro ->
+            // Aquí convertimos el icono de Compose a un BitmapDescriptor
+            val icono = when(centro.tipo){
+                "centro" -> MarkerType.CENTROS_SINGULARES.selectedIcon
+                else -> MarkerType.INSTITUTOS_INVESTIGACION.selectedIcon
+            } // Tu recurso Vector Asset
+            val markerIcon: BitmapDescriptor =
+                conversionIconDrawableToBitMarker(
+                    context = context,
+                    vectorResId = icono
+                )
             Marker(
                 state = MarkerState(position = centro.position),
                 anchor = Offset(0.2f, 1.0f),
                 title = centro.title,
+                icon = markerIcon,
                 //snippet = centro.description,
                 onClick = {
                     selectedCentro = centro.description // Aquí metes tu descripción

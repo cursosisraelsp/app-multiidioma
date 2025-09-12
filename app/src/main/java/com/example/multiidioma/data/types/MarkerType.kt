@@ -1,5 +1,6 @@
 package com.example.multiidioma.data.types
 
+import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Place
@@ -10,29 +11,29 @@ import com.example.multiidioma.R
 
 enum class MarkerType(
     @StringRes val title: Int,
-    val selectedIcon: ImageVector,
-    val unselectedIcon: ImageVector,
-    val selectedTint: Color,
+    //val selectedIcon: ImageVector,
+    @DrawableRes val selectedIcon: Int,
+
 ) {
 
     CENTROS_SINGULARES(
         title = R.string.centros_singulares,
-        selectedIcon = Icons.Filled.Place,
-        unselectedIcon = Icons.Outlined.Place,
-        selectedTint = Color.Red
+        selectedIcon = R.drawable.marcador_de_posicion_rojo,
+
     ),
     INSTITUTOS_INVESTIGACION(
         title = R.string.institutos_investigacion,
-        selectedIcon = Icons.Filled.Place,
-        unselectedIcon = Icons.Outlined.Place,
-        selectedTint = Color.Green
+        //selectedIcon = Icons.Filled.Place,
+        selectedIcon = R.drawable.marcador_de_posicion_azul,
+
     ),
 
     INSTITUTOS_e_CENTROS(
         title = R.string.institutosEcentros,
-        selectedIcon = Icons.Filled.Place,
-        unselectedIcon = Icons.Outlined.Place,
-        selectedTint = Color.Green
+        //selectedIcon = Icons.Filled.Place,
+        selectedIcon = R.drawable.marcador_de_posicion_azul,
+
+
     )
 
 }
