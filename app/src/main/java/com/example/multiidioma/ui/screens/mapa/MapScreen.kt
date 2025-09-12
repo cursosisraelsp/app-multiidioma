@@ -2,15 +2,13 @@ package com.example.multiidioma.ui.screens.mapa
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Place
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -21,8 +19,10 @@ import androidx.compose.material3.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MarkerType
 import com.example.multiidioma.ui.components.GoogleMapComponent
 
@@ -37,7 +37,19 @@ fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
                 NavigationBar {
                     items.forEachIndexed { index, item ->
                         NavigationBarItem(
-                            icon = { Icon(Icons.Filled.Place, contentDescription = null) },
+                            icon = {
+                                if(item == "Centros"){
+                                    Icon(painterResource(R.drawable.centro_de_investigacion), contentDescription = null, modifier = Modifier.size(20.dp))
+                                    //Icon(Icons.Filled.Place)// ImageVector
+                                }
+                                if(item == "Institutos"){
+                                    Icon(painterResource(R.drawable.cientifico), contentDescription = null, modifier = Modifier.size(20.dp))
+                                }
+                                if(item == "Institutos e centros"){
+                                    Icon(painterResource(R.drawable.instituto_all), contentDescription = null, modifier = Modifier.size(20.dp))
+                                }
+
+                                   },
                             label = { Text(item) },
                             selected = selectedItem == index,
                             onClick = { selectedItem = index }
@@ -51,8 +63,6 @@ fun MapScreen(onClose: () -> Unit,navController : NavHostController) {
                 1 -> MarkerType.INSTITUTOS_INVESTIGACION
                 else -> MarkerType.INSTITUTOS_e_CENTROS
             }
-
-
 
             GoogleMapComponent(
                 markerType = markerTypeValue,
