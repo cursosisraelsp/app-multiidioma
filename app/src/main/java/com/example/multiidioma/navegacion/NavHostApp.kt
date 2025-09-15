@@ -16,6 +16,7 @@ import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
+import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavegacion
 import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
@@ -36,9 +37,8 @@ fun NavHostApp(
     modifier: Modifier,
     languageViewModel: LanguageViewModel,
     listState: LazyListState,
-    onOpenMap: () -> Unit,
-    visibilityMap:  () -> Unit,){
-    var mapOpened by rememberSaveable { mutableStateOf(false) }
+    onOpenMap: () -> Unit){
+
     NavHost(
         navController = navController,
         startDestination = "splash",
@@ -47,28 +47,10 @@ fun NavHostApp(
     ) {
 
         StartAppNavHost(navController)
-        composable(route = Destination.Home.route) {
 
-            HomeScreen(
-                languageViewModel,
-                listState,
-                onImageClick = { screenId ->
-                    val ruta = Destination.createDetailRoute(screenId)
-                    if(ruta != "detail/{screenId}"){
-                        navController.navigate(ruta)
-                    }
-                    onOpenMap()
-                },
-
-            )
-        }
-        //HomeAppNavHost(languageViewModel, listState,navController = navController)
+        HomeAppNavHost(languageViewModel, listState,navController = navController)
         SettingsAppNavegacion(languageViewModel)
-        //## MAPA
-        /*MapaAppNavegacion(onClose = {
-            visibilityMap()
-            mapOpened = false} , navController)*/
-        // ---
+
         MinervaAppNavegacion()
         //## INSTITUTOS
         IhusAppNavegacion()

@@ -195,7 +195,6 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                     languageViewModel = languageViewModel,
                     listState = listState,
                     onOpenMap = { showMap = true }, // 👈 cuando se pulse en HomeScreen,
-                    visibilityMap = { showMap = false }
                 )
             }
 

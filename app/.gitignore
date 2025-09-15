@@ -1,1 +1,8 @@
 /build
+# Android/Gradle
+.gradle/
+build/
+**/build/
+
+# UnityLibrary build output
+unityLibrary/build/

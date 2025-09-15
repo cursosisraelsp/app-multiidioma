@@ -10,13 +10,10 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 
 fun NavGraphBuilder.HomeAppNavHost(languageViewModel: LanguageViewModel,listState: LazyListState,navController: NavHostController){
     composable(route = Destination.Home.route) {
-        // 👉 pásale listState para que funcione el scroll
+
         HomeScreen(languageViewModel, listState,onImageClick = { screenId ->
             val ruta = Destination.createDetailRoute(screenId)
-            if(ruta != "detail/{screenId}"){
-                navController.navigate(ruta)
-            }
-
+            navController.navigate(ruta)
         })
     }
 }
