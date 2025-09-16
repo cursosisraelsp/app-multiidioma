@@ -10,8 +10,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import com.example.multiidioma.data.Destination
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
@@ -56,7 +54,7 @@ fun NavHostApp(
         IhusAppNavegacion()
         IdegaAppNavegacion()
         IceAppNavegacion()
-        InciforAppNavegacion()
+        InciforAppNavegacion(listState,navController)
         ImatusAppNavegacion()
         IlgAppNavegacion()
         //## CENTROS
@@ -66,6 +64,6 @@ fun NavHostApp(
         CretusAppNavegacion()
         IgfaeAppNavegacion()
 
-        detailNavGraph(navController,onClose = onOpenMap)
+        detailNavGraph(navController,onClose = onOpenMap,listState)
     }
 }

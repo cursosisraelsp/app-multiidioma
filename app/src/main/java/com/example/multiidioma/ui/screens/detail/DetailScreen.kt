@@ -1,7 +1,9 @@
 package com.example.multiidioma.ui.screens.detail
 
+import InciforScreen
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,7 +28,6 @@ import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
 import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
-import com.example.multiidioma.ui.screens.institutes.incifor.InciforScreen
 import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
@@ -35,7 +36,8 @@ import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 fun DetailScreen(
     navController: NavController,
     detailViewModel: DetailViewModel = viewModel(),
-    onClose : ()-> Unit
+    onClose : ()-> Unit,
+    listState: LazyListState
 ){
     val state by detailViewModel.detailScreenState.collectAsState()
 
@@ -94,7 +96,7 @@ fun DetailScreen(
                     is ContentType.IHUS -> IhusScreen()
                     is ContentType.IDEGA -> IdegaScreen()
                     is ContentType.ICE -> IceScreen()
-                    is ContentType.INCIFOR -> InciforScreen()
+                    is ContentType.INCIFOR -> InciforScreen(listState, navController)
                     is ContentType.IMATUS -> ImatusScreen()
                     is ContentType.ILG -> IlgScreen()
                     else -> Text("screen non atopado")

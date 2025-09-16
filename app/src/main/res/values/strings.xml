@@ -12,10 +12,13 @@
     <string name="map">map</string>
     <string name="multimedia">multimedia</string>
     <string name="institutos">institus</string>
-    <string name="atras">back</string>
+    <string name="atras">Back</string>
     <string name="centrossingulares">Singular Center</string>
     <string name="minerva">minerva</string>
     <string name="centros_singulares">Singulars centers</string>
     <string name="institutos_investigacion">Investigation instituts</string>
     <string name="institutosEcentros">institutsAndCenters</string>
+
+    <string name="back_arrow">Previous Page Arrow</string>
+
 </resources>
