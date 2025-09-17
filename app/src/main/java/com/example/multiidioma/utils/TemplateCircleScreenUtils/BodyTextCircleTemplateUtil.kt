@@ -15,13 +15,12 @@ import com.example.multiidioma.data.types.MiniScreenData
 @Composable
 fun BodyTextCircleTemplateUtil(
     data: MiniScreenData,
-    BodyText: @Composable (MiniScreenData) -> Unit = {}
+    BodyText: @Composable (MiniScreenData) -> Unit = {},
+    modifier: Modifier = Modifier
 ) {
-
-
     Column(
         modifier = Modifier
-            .padding(start = 100.dp, bottom = 10.dp)
+            .padding(start = 67.dp, bottom = 10.dp)
 
     ) {
         BodyText(data)

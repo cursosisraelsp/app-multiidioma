@@ -19,6 +19,7 @@ import androidx.compose.ui.text.googlefonts.GoogleFont
 import com.example.multiidioma.R
 
 
+
 // Define el proveedor de la fuente
 val provider = GoogleFont.Provider(
     providerAuthority = "com.google.android.gms.fonts",

@@ -4,7 +4,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.states.StyleImages
+import com.example.multiidioma.data.types.StyleImages
 
 
 @Composable

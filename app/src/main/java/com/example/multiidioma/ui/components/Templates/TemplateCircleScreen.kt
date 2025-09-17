@@ -13,7 +13,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BoxArrowBackSpace
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil
-import com.example.multiidioma.utils.TemplateCircleScreenUtils.TitleTextCircleTemplateutil
+import com.example.multiidioma.utils.TemplateCircleScreenUtils.TitleTextCircleTemplateUtil
 
 @Composable
 fun TemplateCircleScreen(
@@ -31,18 +31,18 @@ fun TemplateCircleScreen(
         //Row con circulo y titulo
         Row(
             modifier = Modifier
-                .fillMaxHeight(0.25f)
+                .fillMaxHeight(0.30f)
                 .fillMaxWidth()
         ) {
             //Imagen Circulo
             CircleImageUtil(data, CircleImage)
 
             //Titulo
-            TitleTextCircleTemplateutil(data, TitleText)
+            TitleTextCircleTemplateUtil(data, TitleText)
         }
 
         //Columna con texto
-        BodyTextCircleTemplateUtil(data, BodyText)
+        BodyTextCircleTemplateUtil(data, BodyText,)
 
         //Box con flecha, ATRAS y espacio final
         BoxArrowBackSpace(navController = navController)

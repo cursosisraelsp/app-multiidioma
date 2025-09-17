@@ -3,6 +3,7 @@ package com.example.multiidioma.utils.TemplateCircleScreenUtils
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,18 +20,13 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 
 @Composable
-fun ArrowImageUtil(modifier: Modifier) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(25.dp),
-    ) {
-        Image(
-            painter = painterResource(R.drawable.incifor_img_36),
-            contentScale = ContentScale.FillHeight,
-            contentDescription = stringResource(R.string.back_arrow),
-            modifier = Modifier
-                .fillMaxSize()
-        )
-    }
+fun ArrowImageUtil(modifier: Modifier = Modifier) {
+    Image(
+        painter = painterResource(R.drawable.incifor_img_36),
+        contentDescription = stringResource(R.string.back_arrow),
+        contentScale = ContentScale.Fit,
+        modifier = modifier
+            .height(24.dp)
+            .aspectRatio(1f) // mantiene proporción cuadrada
+    )
 }
