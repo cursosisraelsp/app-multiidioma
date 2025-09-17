@@ -20,5 +20,3 @@ fun OpenSpotify(context: Context, podcast: Podcast) {
         context.startActivity(webIntent)
     }
 }
-
-

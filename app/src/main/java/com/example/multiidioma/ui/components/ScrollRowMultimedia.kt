@@ -49,5 +49,3 @@ fun ScrollRowMultimedia(multimediaList: List<MultimediaData>) {
     }
 
 }
-
-

@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun LineVerticaRightlComponent(){
     Box(modifier = Modifier.fillMaxWidth().background(color = Color.Red).fillMaxHeight(0.5f), contentAlignment = Alignment.Center){
-        
+
         VerticalDivider(
             modifier = Modifier.padding(horizontal = 0.dp),
             color = Color.Gray,

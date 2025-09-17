@@ -15,11 +15,11 @@ import androidx.compose.ui.unit.Dp
 /*
 @Composable
 fun OrganicShape(modifier: Modifier = Modifier, funcionImaxen: (Size) -> Path,tamanho: Dp) {*/
-    @Composable
-    fun OrganicShape(modifier: Modifier = Modifier, funcionImaxen: (Size) -> Path,tamanho: Float) {
+@Composable
+fun OrganicShape(modifier: Modifier = Modifier, funcionImaxen: (Size) -> Path,tamanho: Float) {
     Canvas(
         modifier = modifier.fillMaxSize(tamanho)
-            //.size(tamanho) // ajusta el tamaño
+        //.size(tamanho) // ajusta el tamaño
     ) {
         //val path = ImaxenMultimedia(size)
         val path = funcionImaxen(size)

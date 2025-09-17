@@ -54,7 +54,7 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
         modifier = modifier.fillMaxSize(),
         cameraPositionState = cameraPositionState,
 
-    ) {
+        ) {
         val context = LocalContext.current
 
         markers.forEach { centro ->
@@ -92,6 +92,3 @@ fun GoogleMapComponent(modifier: Modifier = Modifier, markerType: MarkerType) {
         }
     }
 }
-
-
-

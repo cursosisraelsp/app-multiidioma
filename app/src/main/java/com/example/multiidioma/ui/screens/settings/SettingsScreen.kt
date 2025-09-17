@@ -32,7 +32,7 @@ fun SettingsScreen(languageViewModel: LanguageViewModel) {
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = context.getString(R.string.greeting),
+                    text = "Black Lives Matter",//context.getString(R.string.greeting),
                     style = MaterialTheme.typography.headlineMedium,
                     modifier = Modifier.padding(16.dp)
                 )

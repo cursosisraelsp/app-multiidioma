@@ -33,6 +33,8 @@ fun ImaxenClickHomeUtils(
             .border(width = 1.dp, color = Color.Red),
         contentAlignment = Alignment.Center
     ) {
+
+
         OrganicShape(
             modifier = Modifier
                 .fillMaxSize()
@@ -42,6 +44,7 @@ fun ImaxenClickHomeUtils(
             funcionImaxen = item.funcionImaxen,
             tamanho = item.tamanho
         )
+
 
         Box{
             Text(
