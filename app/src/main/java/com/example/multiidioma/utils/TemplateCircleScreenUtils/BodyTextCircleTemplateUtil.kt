@@ -1,6 +1,7 @@
 package com.example.multiidioma.utils.TemplateCircleScreenUtils
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,10 +20,11 @@ fun BodyTextCircleTemplateUtil(
     modifier: Modifier = Modifier
 ) {
     Column(
-        modifier = Modifier
-            .padding(start = 67.dp, bottom = 10.dp)
-
+        modifier = modifier
+            .fillMaxWidth()
     ) {
-        BodyText(data)
+        Box(modifier = Modifier.padding(start = 67.dp, bottom = 10.dp)) {
+            BodyText(data)
+        }
     }
 }

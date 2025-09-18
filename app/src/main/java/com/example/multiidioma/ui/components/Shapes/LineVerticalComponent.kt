@@ -1,6 +1,7 @@
 package com.example.multiidioma.ui.components.Shapes
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.VerticalDivider
@@ -13,6 +14,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun LineVerticalComponent(
+    modifier: Modifier = Modifier,
     contentAlignment: Alignment = Alignment.Center,
     color: Color = Color.White
 ) {
@@ -21,7 +23,9 @@ fun LineVerticalComponent(
         contentAlignment = contentAlignment
     ) {
         VerticalDivider(
-            modifier = Modifier.padding(start = 0.dp),
+            modifier = Modifier
+                .padding(start = 0.dp)
+                .fillMaxHeight(),
             color = color,
             thickness = 3.dp
         )

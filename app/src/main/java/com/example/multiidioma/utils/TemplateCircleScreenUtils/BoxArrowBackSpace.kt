@@ -19,15 +19,19 @@ import androidx.navigation.NavController
 
 @Composable
 fun BoxArrowBackSpace(navController: NavController) {
+    // Columna para apilar texto anterior y botón
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp), // opcional: espacio con los borde
-    horizontalAlignment = Alignment.End
-        ) {
+            .padding(horizontal = 16.dp) // margen opcional
+    ) {
+        // Aquí estaría tu bloque de texto (BodyTextCircleTemplateUtil o lo que uses)
+
+        // Botón Back alineado al end
         BackWithArrowButtonCircleTemplate(
             navController = navController,
-            modifier = Modifier.wrapContentSize()
+            modifier = Modifier
+                .align(Alignment.End) // 🔑 se pega al final del texto anterior
         )
     }
 }

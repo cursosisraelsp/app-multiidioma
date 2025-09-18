@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.ParallaxComponent
+
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5.contentInciforMiniScreen5.contentInciforMiniScreen5Box1
@@ -29,7 +29,6 @@ fun InciforMiniScreen5(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        ParallaxComponent()
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.6f, Box3 = 0.1f),
             data = data,

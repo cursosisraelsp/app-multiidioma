@@ -33,6 +33,7 @@ import coil.request.ImageRequest
 
 
 
+/*
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable
 
@@ -54,7 +55,8 @@ fun ParallaxComponent() {
         )
 
         // LazyColumn para scroll
-        /*LazyColumn(
+        */
+/*LazyColumn(
             state = scrollState,
             contentPadding = PaddingValues(top = 250.dp)
         ) {
@@ -66,7 +68,9 @@ fun ParallaxComponent() {
                         .padding(16.dp)
                 )
             }
-        }*/
+        }*//*
+
     }
 }
 
+*/

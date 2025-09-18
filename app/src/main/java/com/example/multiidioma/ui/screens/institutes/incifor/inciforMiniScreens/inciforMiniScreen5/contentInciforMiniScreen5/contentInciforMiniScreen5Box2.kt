@@ -20,14 +20,15 @@ import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.StyleImages
 
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.ParallaxComponent
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
-@RequiresApi(Build.VERSION_CODES.P)
+
 @Composable
 fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxHeight().fillMaxWidth(0.5f),
+        modifier = Modifier
+            .fillMaxHeight()
+            .fillMaxWidth(0.5f),
         alignment = Alignment.BottomEnd,
         contentScale = ContentScale.FillBounds
     )
@@ -45,14 +46,14 @@ fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
         ) {
             TextBodyMedium(data, estilosTextos)
         }
-        /*Box(
+        Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.3f),
             contentAlignment = Alignment.BottomEnd
         ) {
-            //ReusableImage(data, estilosImagen)
-            ParallaxComponent()
-        }*/
+            ReusableImage(data, estilosImagen)
+
+        }
     }
 }

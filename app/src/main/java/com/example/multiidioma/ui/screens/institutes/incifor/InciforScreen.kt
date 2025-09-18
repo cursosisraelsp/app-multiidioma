@@ -1,3 +1,5 @@
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -32,7 +34,11 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen7.InciforMiniScreen7
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.InciforMiniScreen8
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.InciforMiniScreen9
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen25.InciforMiniScreen16
+import com.example.multiidioma.data.samplePodcasts
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen17
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun InciforScreen(
     listState: LazyListState,
@@ -174,8 +180,22 @@ fun InciforScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
+
                         )
 
+                        16 -> InciforMiniScreen16(
+                            navController = navController,
+                            podcasts = samplePodcasts(),
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        17 -> InciforMiniScreen17(
+                            navController = navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
 
                         else -> Text("MiniScreen desconocida")
                     }
@@ -195,4 +215,7 @@ fun InciforScreen(
             }
         }
     }
+
 }
+
+
