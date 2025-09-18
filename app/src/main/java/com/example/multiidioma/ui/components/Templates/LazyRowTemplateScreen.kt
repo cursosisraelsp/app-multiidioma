@@ -41,6 +41,11 @@ import androidx.compose.ui.res.painterResource
 fun LazyRowTemplateScreen(
     navController: NavController,
     podcasts: List<Podcast>,
+    data: MiniScreenData,
+    FirstDirectiveImage: @Composable (MiniScreenData) -> Unit = {},
+    FirstDirectiveDescriptionText: @Composable (MiniScreenData) -> Unit = {},
+    SecondDirectiveImage: @Composable (MiniScreenData) -> Unit = {},
+    SecondDirectiveDescriptionText: @Composable (MiniScreenData) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     Column(modifier = modifier.fillMaxSize()) {
@@ -58,6 +63,11 @@ fun LazyRowTemplateScreen(
 
         // Equipo Directivo
         DirectiveTeamUtil(
+            data,
+            FirstDirectiveImage,
+            FirstDirectiveDescriptionText,
+            SecondDirectiveImage,
+            SecondDirectiveDescriptionText,
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.4f)
