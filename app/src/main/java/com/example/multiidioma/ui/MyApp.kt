@@ -2,9 +2,7 @@ package com.example.multiidioma.ui
 
 
 import android.content.Context
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -13,16 +11,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.navigation.compose.rememberNavController
+import com.example.multiidioma.navegacion.ScaffoldApp
+import com.example.multiidioma.utils.DetectScroll
 import com.example.multiidioma.utils.setLocale
 import com.example.multiidioma.viewmodel.LanguageViewModel
-import com.example.multiidioma.navegacion.NavHostApp
-import com.example.multiidioma.navegacion.ScaffoldApp
-import com.example.multiidioma.utils.BottomBarUtils
-import com.example.multiidioma.utils.DetectScroll
-import com.example.multiidioma.utils.TopBarUtils
 
 val LocalizedContext = compositionLocalOf<Context> {
     error("No LocalizedContext provided")

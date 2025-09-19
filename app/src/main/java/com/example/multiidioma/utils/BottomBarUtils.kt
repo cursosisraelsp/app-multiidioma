@@ -5,7 +5,6 @@ import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.icons.Icons
@@ -13,8 +12,6 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.BottomAppBar
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -28,7 +25,6 @@ import com.example.multiidioma.data.CONDICIONS
 import com.example.multiidioma.data.CorBottomAndTop
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.navegacion.componentes.BottomBarItem
-import com.example.multiidioma.navegacion.componentes.ToggableIconButton
 import com.example.multiidioma.utils.imaxes.TopEllipticalShape
 
 @Composable

@@ -1,4 +1,4 @@
-
+package com.example.multiidioma.ui.components.Text
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -11,8 +11,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.StyleText
+import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Shapes.CircleComponent
 
 

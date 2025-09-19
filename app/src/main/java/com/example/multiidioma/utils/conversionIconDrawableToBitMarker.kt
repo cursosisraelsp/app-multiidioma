@@ -3,7 +3,6 @@ package com.example.multiidioma.utils
 import android.content.Context
 import android.graphics.Bitmap
 import androidx.annotation.DrawableRes
-import androidx.compose.foundation.Canvas
 import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.BitmapDescriptorFactory

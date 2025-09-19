@@ -1,7 +1,7 @@
 package com.example.multiidioma.utils.imaxes
 
-import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Path
 
 fun ImaxenMultimedia(size: Size) : Path {
     return Path().apply {

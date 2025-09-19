@@ -1,7 +1,7 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
-import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.data.types.MiniScreenData
 
 class IpsiusRepository {
     fun getMiniScreens(): List<MiniScreenData> {
@@ -18,7 +18,7 @@ class IpsiusRepository {
             MiniScreenData(
                 id = 1,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen1_paragraph_0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -64,25 +64,74 @@ class IpsiusRepository {
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
-                id = 7
+                id = 7,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_05_eng
             ),
             MiniScreenData(
-                id = 8
+                id = 8,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_06_eng
             ),
             MiniScreenData(
-                id = 9
+                id = 9,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_07_eng
             ),
             MiniScreenData(
-                id = 10
+                id = 10,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_08_eng
             ),
             MiniScreenData(
-                id = 11
+                id = 11,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_09_eng
             ),
             MiniScreenData(
-                id = 12
+                id = 12,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_10_eng
             ),
             MiniScreenData(
-                id = 13
+                id = 13,
+                bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+
+                ),
+                imageRes = R.drawable.ipsius_img_11_eng
             ),
             MiniScreenData(
                 id = 14,
@@ -136,10 +185,9 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_0_paragraph0,
 
                     ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.ipsius_img_21
             ),
         )
-
     }
 
     fun getData(i: Int): MiniScreenData {

@@ -12,5 +12,6 @@ val listaInstitutos = listOf(
     CarouselItem("3", R.drawable.patron6, nomeInstitutos[3],"incifor", contentType = ContentType.INCIFOR),
     CarouselItem("4", R.drawable.patron6, nomeInstitutos[4],"imatus", contentType = ContentType.IMATUS),
     CarouselItem("5", R.drawable.patron6, nomeInstitutos[5],"ilg", contentType = ContentType.ILG),
+    CarouselItem("6", R.drawable.patron6, nomeInstitutos[6],"ipsius", contentType = ContentType.IPSIUS)
 )
 

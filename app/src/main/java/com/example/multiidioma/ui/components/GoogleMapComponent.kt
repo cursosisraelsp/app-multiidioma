@@ -1,9 +1,7 @@
 package com.example.multiidioma.ui.components
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -20,14 +18,14 @@ import com.example.multiidioma.data.repository.centrosSingulares
 import com.example.multiidioma.data.repository.institutosEcentros
 import com.example.multiidioma.data.repository.institutosInvestigacion
 import com.example.multiidioma.data.repository.santiago
-import com.google.maps.android.compose.GoogleMap
-import com.google.maps.android.compose.Marker
-import com.google.maps.android.compose.MarkerState
-import com.google.maps.android.compose.rememberCameraPositionState
 import com.example.multiidioma.data.types.MarkerType
 import com.example.multiidioma.utils.conversionIconDrawableToBitMarker
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.BitmapDescriptor
+import com.google.maps.android.compose.GoogleMap
+import com.google.maps.android.compose.Marker
+import com.google.maps.android.compose.MarkerState
+import com.google.maps.android.compose.rememberCameraPositionState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

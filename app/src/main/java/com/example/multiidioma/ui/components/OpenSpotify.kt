@@ -3,8 +3,6 @@ package com.example.multiidioma.ui.components
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import com.example.multiidioma.data.repository.MultimediaRepository
-
 import com.example.multiidioma.data.types.Podcast
 
 fun OpenSpotify(context: Context, podcast: Podcast) {

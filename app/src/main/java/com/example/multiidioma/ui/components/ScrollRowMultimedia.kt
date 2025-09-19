@@ -5,11 +5,11 @@ import android.net.Uri
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.runtime.Composable
-import com.example.multiidioma.data.types.MultimediaData
 import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import com.example.multiidioma.data.types.MultimediaData
 
 @Composable
 fun ScrollRowMultimedia(multimediaList: List<MultimediaData>) {
