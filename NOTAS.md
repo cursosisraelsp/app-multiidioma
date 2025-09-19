@@ -8,6 +8,52 @@ Deberemos crear unha carpeta dentro de ``app`` que chamaremos `libs`, deixando n
 
 ## Configuración iniciais
 
+### O ``settings.gradle.kts``
+
+O arquivo onde deberemos crear cómo arrancar a nosa ``app`` é o `settings.gradle.kts`, deberemos configuralo da seguinte maneira:
+
+````kotlin
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+        // Para AAR locales
+        flatDir {
+            dirs("unityLibrary/libs")
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Para AAR locales
+        flatDir {
+            dirs("unityLibrary/libs")
+        }
+    }
+}
+
+rootProject.name = "multiidioma"
+include(":app")
+
+include(":unityLibrary")
+include(":unityLibrary:xrmanifest.androidlib")
+
+// Apuntar correctamente a las carpetas si no están en la raíz
+project(":unityLibrary").projectDir = File(rootDir, "unityLibrary")
+project(":unityLibrary:xrmanifest.androidlib").projectDir = File(rootDir, "unityLibrary/xrmanifest.androidlib")
+````
+
+### O ``build.gradle.kts``
 > Dentro desta configuración inicial, os arquivos más importantes son os seguintes:
 
 -   ``build.gradle.kts`` , este arquivo está en dous lugares, como pode ser:
