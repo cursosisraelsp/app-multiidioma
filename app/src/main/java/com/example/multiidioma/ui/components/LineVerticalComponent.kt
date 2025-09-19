@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun LineVerticalComponent(){
+fun LineVerticalComponent(modifier : Modifier= Modifier){
     Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center){
         VerticalDivider(
             modifier = Modifier.padding(horizontal = 0.dp),

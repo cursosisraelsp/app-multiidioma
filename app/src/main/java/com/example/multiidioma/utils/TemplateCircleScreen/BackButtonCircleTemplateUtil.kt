@@ -33,7 +33,7 @@ fun BackButtonCircleTemplateUtil(
             modifier = Modifier.wrapContentSize()
         ) {
             Text(
-                text = stringResource(R.string.atras),
+                text = stringResource(R.string.back_arrow),
                 style = MaterialTheme.typography.bodyMedium,
                 color = Color.White
             )

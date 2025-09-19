@@ -10,6 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen11a.contentCretusMiniScreen11.contentIgfaeMiniScreen11BodyText
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen11a.contentCretusMiniScreen11.contentIgfaeMiniScreen11CircleImage
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen11a.contentCretusMiniScreen11.contentIgfaeMiniScreen11TitleText
 
 @Composable
 fun IgfaeMiniScreen11(

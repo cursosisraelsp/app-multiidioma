@@ -21,6 +21,7 @@ import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus_andre.CretusScreen
 import com.example.multiidioma.ui.screens.centros.igfae_andre.IgfaeScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.IarcusScreen
 import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
 import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
 import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus_andre.CretusMiniScreens.cretusMiniScreen13a.contentIpsiusMiniScreen13
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.contentIpsiusMiniScreen13
 
 
 import androidx.compose.foundation.layout.Arrangement

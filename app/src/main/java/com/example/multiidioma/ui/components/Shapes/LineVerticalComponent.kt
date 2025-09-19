@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun LineVerticalComponent(
+fun LineVerticalComponent(modifier : Modifier= Modifier,
     contentAlignment: Alignment = Alignment.Center,
     color: Color = Color.White
 ) {

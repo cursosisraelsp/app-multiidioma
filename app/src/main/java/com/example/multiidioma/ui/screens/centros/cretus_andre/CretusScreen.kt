@@ -18,31 +18,21 @@ import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen0.CretusMiniScreen0
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen1.CretusMiniScreen1
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen10a.CretusMiniScreen10
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen11.CretusMiniScreen11
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen12.CretusMiniScreen12
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen13.CretusMiniScreen13
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen14.CretusMiniScreen14
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen15.CretusMiniScreen15
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen16.CretusMiniScreen16
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen17.CretusMiniScreen17
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen18.CretusMiniScreen18
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen19aaa.CretusMiniScreen19
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen2.CretusMiniScreen2
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen20aaa.CretusMiniScreen20
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen21.CretusMiniScreen21
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen3.CretusMiniScreen3
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen4.CretusMiniScreen4
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen5.CretusMiniScreen5
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen6.CretusMiniScreen6
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen7.CretusMiniScreen7
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen8.CretusMiniScreen8
-import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusMiniScreens.CretusMiniScreen9a.CretusMiniScreen9
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.CretusMiniScreen10
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen11a.CretusMiniScreen11
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen12a.CretusMiniScreen12
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.CretusMiniScreen13
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.CretusMiniScreen14
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen15a.CretusMiniScreen15
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen9a.CretusMiniScreen9
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen16a.CretusMiniScreen16
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen4a.CretusMiniScreen4
+import com.example.multiidioma.ui.screens.institutes.Cretus_andre.CretusViewModel
+
+
 
 @Composable
-fun CretusScreen(listState: LazyListState,navController: NavController) {
+fun CretusScreen(listState: LazyListState, navController: NavController) {
     val viewModel: CretusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -168,19 +158,21 @@ fun CretusScreen(listState: LazyListState,navController: NavController) {
                         )
                         14 -> CretusMiniScreen14(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
                         15 -> CretusMiniScreen15(
                             data,
-
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
                         16 -> CretusMiniScreen16(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

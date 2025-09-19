@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus_andre
+package com.example.multiidioma.ui.screens.institutes.Cretus_andre
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

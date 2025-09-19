@@ -18,31 +18,32 @@ import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen0.IgfaeMiniScreen0
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen1.IgfaeMiniScreen1
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen10a.IgfaeMiniScreen10
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen11.IgfaeMiniScreen11
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen12.IgfaeMiniScreen12
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen13.IgfaeMiniScreen13
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen14.IgfaeMiniScreen14
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen15.IgfaeMiniScreen15
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen16.IgfaeMiniScreen16
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen17.IgfaeMiniScreen17
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen18.IgfaeMiniScreen18
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen19aaa.IgfaeMiniScreen19
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen2.IgfaeMiniScreen2
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen20aaa.IgfaeMiniScreen20
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen21.IgfaeMiniScreen21
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen3.IgfaeMiniScreen3
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen4.IgfaeMiniScreen4
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen5.IgfaeMiniScreen5
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen6.IgfaeMiniScreen6
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen7.IgfaeMiniScreen7
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen8.IgfaeMiniScreen8
-import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen9a.IgfaeMiniScreen9
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen10a.IgfaeMiniScreen10
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen11a.IgfaeMiniScreen11
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen12a.IgfaeMiniScreen12
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen13a.IgfaeMiniScreen13
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen14a.IgfaeMiniScreen14
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen15a.IgfaeMiniScreen15
+import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen9a.IgfaeMiniScreen9
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen0a.IgfaeMiniScreen0
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen1.IgfaeMiniScreen1
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen16a.IgfaeMiniScreen16
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen17.IgfaeMiniScreen17
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen18.IgfaeMiniScreen18
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen19.IgfaeMiniScreen19
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen2.IgfaeMiniScreen2
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen20.IgfaeMiniScreen20
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.IgfaeMiniScreen21
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen3.IgfaeMiniScreen3
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.IgfaeMiniScreen4
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen5.IgfaeMiniScreen5
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen6.IgfaeMiniScreen6
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen7a.IgfaeMiniScreen7
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen8a.IgfaeMiniScreen8
+import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeViewModel
 
 @Composable
-fun IgfaeScreen(listState: LazyListState,navController: NavController) {
+fun IgfaeScreen(listState: LazyListState, navController: NavController) {
     val viewModel: IgfaeViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 

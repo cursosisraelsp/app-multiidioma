@@ -6,14 +6,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import com.example.multiidioma.navegacion.centros.cretusApp.CretusAppNavegacion
+import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
-import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
-import com.example.multiidioma.navegacion.iarcusApp.IarcusAppNavegacion
-import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
+import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
@@ -59,9 +59,8 @@ fun NavHostApp(
         CiqusAppNavegacion()
         //->CimusAppNavegacion(listState)
         CitiusAppNavegacion()
-        CretusAppNavegacion(listState,navController))
-        IgfaeAppNavegacion(listState,navController))
-
+        CretusAppNavegacion(listState,navController)
+        IgfaeAppNavegacion(listState,navController)
         detailNavGraph(listState,navController,onClose = onOpenMap )
     }
 }

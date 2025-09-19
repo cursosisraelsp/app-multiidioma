@@ -12,7 +12,7 @@ class IarcusRepository {
                 id = 0,
 
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
 
@@ -20,7 +20,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 1,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -28,31 +28,31 @@ class IarcusRepository {
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
-                imageRes = R.drawable.Iarcus_img_01
+                imageRes = R.drawable.IARCUS_img_01
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
-                imageRes = R.drawable.Iarcus_img_02
+                imageRes = R.drawable.IARCUS_img_02
             ),
 
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
             ),
             MiniScreenData(
                 id = 5,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -60,7 +60,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -68,77 +68,74 @@ class IarcusRepository {
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+
 
                 ),
-                imageRes = R.drawable.Iarcus_img_05_eng
+
             ),
             MiniScreenData(
                 id = 8,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0
 
                 ),
-                imageRes = R.drawable.Iarcus_img_06_eng
+                imageRes = R.drawable.IARCUS_img_06_eng
             ),
             MiniScreenData(
                 id = 9,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0
 
                 ),
-                imageRes = R.drawable.Iarcus_img_07_eng
+                imageRes = R.drawable.IARCUS_img_07_eng
             ),
             MiniScreenData(
                 id = 10,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0
 
                 ),
-                imageRes = R.drawable.Iarcus_img_08_eng
+                imageRes = R.drawable.IARCUS_img_08_eng
             ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0
 
                 ),
-                imageRes = R.drawable.Iarcus_img_09_eng
+                imageRes = R.drawable.IARCUS_img_09_eng
             ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+
 
                 ),
-                imageRes = R.drawable.Iarcus_img_10_eng
+
             ),
             MiniScreenData(
                 id = 13,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
-                    R.string.II_Iarcus_miniscreen_0_paragraph0
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
+
 
                 ),
-                imageRes = R.drawable.Iarcus_img_11_eng
+
             ),
             MiniScreenData(
                 id = 14,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -146,7 +143,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 15,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -154,7 +151,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 16,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -162,7 +159,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 17,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
 
@@ -170,7 +167,7 @@ class IarcusRepository {
             MiniScreenData(
                 id = 18,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
                 imageRes = R.drawable.noimagen
@@ -184,10 +181,10 @@ class IarcusRepository {
             MiniScreenData(
                 id = 21,
                 bodyParagraphs = listOf(
-                    R.string.II_Iarcus_miniscreen_0_paragraph0,
+                    R.string.II_IARCUS_miniscreen_0_paragraph0,
 
                     ),
-                imageRes = R.drawable.Iarcus_img_21
+                imageRes = R.drawable.IARCUS_img_21
             ),
         )
     }

@@ -11,6 +11,7 @@ import com.example.multiidioma.data.types.VideoYoutube
 val porcentaxeBandeira = 0.5f;
 val podcastsMultimedia = listOf(
     Podcast(
+        id = 1,
         uriSpotifyApp = "spotify:track:3n3Ppam7vgaVa1iaRUc9Lp",
         uriSpotifyWeb = "https://open.spotify.com/track/3n3Ppam7vgaVa1iaRUc9Lp",
         protagonista = "Juanito",
@@ -24,6 +25,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 2,
         uriSpotifyApp = "spotify:track:5vXPLxljVKyHDHuv3kIuKV",
         uriSpotifyWeb = "https://open.spotify.com/track/5vXPLxljVKyHDHuv3kIuKV",
         protagonista = "Lewis Capaldi",
@@ -37,6 +39,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 3,
         uriSpotifyApp = "spotify:track:7gKxCvTDWwV9wBhdeBbr3l",
         uriSpotifyWeb = "https://open.spotify.com/track/7gKxCvTDWwV9wBhdeBbr3l",
         protagonista = "Olivia Dean",
@@ -50,6 +53,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 4,
         uriSpotifyApp = "spotify:track:2dylnPaUPcOvzBLokj8DZa",
         uriSpotifyWeb = "https://open.spotify.com/track/2dylnPaUPcOvzBLokj8DZa",
         protagonista = "Myles Smith",
@@ -63,6 +67,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 5,
         uriSpotifyApp = "spotify:track:3n3Ppam7vgaVa1iaRUc9Lp",
         uriSpotifyWeb = "https://open.spotify.com/track/3n3Ppam7vgaVa1iaRUc9Lp",
         protagonista = "Juanito",
@@ -76,6 +81,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 6,
         uriSpotifyApp = "spotify:track:5vXPLxljVKyHDHuv3kIuKV",
         uriSpotifyWeb = "https://open.spotify.com/track/5vXPLxljVKyHDHuv3kIuKV",
         protagonista = "Lewis Capaldi",
@@ -89,6 +95,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 7,
         uriSpotifyApp = "spotify:track:7gKxCvTDWwV9wBhdeBbr3l",
         uriSpotifyWeb = "https://open.spotify.com/track/7gKxCvTDWwV9wBhdeBbr3l",
         protagonista = "Olivia Dean",
@@ -102,6 +109,7 @@ val podcastsMultimedia = listOf(
         }
     ),
     Podcast(
+        id = 7,
         uriSpotifyApp = "spotify:track:2dylnPaUPcOvzBLokj8DZa",
         uriSpotifyWeb = "https://open.spotify.com/track/2dylnPaUPcOvzBLokj8DZa",
         protagonista = "Myles Smith",

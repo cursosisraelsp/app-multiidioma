@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-    This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
 <resources>
     <!-- PANTALLA 1 -->
     <string name="II_IARCUS_miniscreen_0_paragraph_0">"La Tierra es, ante todo, el planeta azul. El agua cubre el 70% de la superficie de nuestro mundo y, de ese total de superficie acuática, el agua dulce representa tan sólo un 2,5 %, lo que la convierte en uno de los recursos más preciado del planeta. El medio acuático es un componente clave de los ecosistemas globales y fuente esencial de alimentación, biodiversidad y recursos económicos. Se estima que es el hábitat de más del 70% de todas las formas de vida que existen. Genera la mitad del oxígeno que consumimos y absorbe un cuarto de todas las emisiones de CO2. Su degradación impacta directamente en la salud humana, animal y ambiental, e influye en la propagación de enfermedades y contaminantes. "</string>
@@ -170,4 +170,3 @@
     <string name="II_IARCUS_miniscreen_28_texto_buscado_0">ampliar tus conocimientos</string>
     <string name="II_IARCUS_miniscreen_28_title_0">https://arcus.usc.gal/</string>
 </resources>
-<resources></resources>

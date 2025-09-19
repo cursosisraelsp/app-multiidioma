@@ -27,6 +27,7 @@ sealed class Destination(val route: String) {
     object Imatus : Destination("imatus")
     object Ilg : Destination("ilg")
     object Ipsius : Destination("ipsius")
+    object Iarcus : Destination("iarcus")
     // CENTROS
     object Cimus : Destination("cimus")
     object Ciqus : Destination("ciqus")

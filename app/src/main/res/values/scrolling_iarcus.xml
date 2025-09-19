@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-    This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
 <resources>
     <!-- PANTALLA 1 -->
     <string name="II_IARCUS_miniscreen_0_paragraph_0">Earth is first and foremost the blue planet. Water covers 70% of our world\'s surface and, of this total water surface, freshwater accounts for only 2.5%, making it one of the planet\'s most precious resources. The aquatic environment is a key component of global ecosystems and an essential source of food, biodiversity and economic resources. It is estimated to be the habitat of more than 70% of all life forms. It generates half of the oxygen we consume and absorbs a quarter of all CO2 emissions. Its degradation directly impacts human, animal and environmental health, and influences the spread of diseases and pollutants.</string>
@@ -32,8 +32,8 @@
     <!-- PANTALLA 6 -->
     <string name="II_IARCUS_miniscreen_5_paragraph_0">At the same time, it seeks to train new generations of scientists, face the great challenges of the 21st century through research and open up science to the public, actively involving them in its advances.</string>
     <string name="II_IARCUS_miniscreen_5_texto_buscado_0">seeks to train new generations of scientists</string>
-    <string name="II_IARCUS_miniscreen_5_paragraph_1">In order to achieve the proposed objectives, strategic R&D&I priorities have been established focusing on the sustainable production of aquatic animals, the monitoring of the quality of the aquatic environment and its impact on health, food safety and traceability, the use of fish as biomedical models, and the development of analytical methodologies.</string>
-    <string name="II_IARCUS_miniscreen_5_texto_buscado_1">strategic R&D&I priorities</string>
+    <string name="II_IARCUS_miniscreen_5_paragraph_1">In order to achieve the proposed objectives, strategic R&amp;D&amp;I priorities have been established focusing on the sustainable production of aquatic animals, the monitoring of the quality of the aquatic environment and its impact on health, food safety and traceability, the use of fish as biomedical models, and the development of analytical methodologies.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_1">strategic R&amp;D&amp;I priorities</string>
     <string name="II_IARCUS_miniscreen_5_paragraph_2">In a cross-cutting manner, education in resilience and knowledge of the environment is promoted as a fundamental axis for tackling environmental and health challenges.</string>
     <string name="II_IARCUS_miniscreen_5_texto_buscado_2">education in resilience and knowledge of the environment</string>
     <!-- PANTALLA 7 -->
@@ -170,4 +170,3 @@
     <string name="II_IARCUS_miniscreen_28_texto_buscado_0">learning more</string>
     <string name="II_IARCUS_miniscreen_28_title_0">https://arcus.usc.gal/</string>
 </resources>
-<resources></resources>

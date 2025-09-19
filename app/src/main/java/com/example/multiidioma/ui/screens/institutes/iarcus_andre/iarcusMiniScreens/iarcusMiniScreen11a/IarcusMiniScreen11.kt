@@ -10,6 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen11a.contentIarcusMiniScreen11.contentIarcusMiniScreen11BodyText
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen11a.contentIarcusMiniScreen11.contentIarcusMiniScreen11CircleImage
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen11a.contentIarcusMiniScreen11.contentIarcusMiniScreen11TitleText
 
 @Composable
 fun IarcusMiniScreen11(

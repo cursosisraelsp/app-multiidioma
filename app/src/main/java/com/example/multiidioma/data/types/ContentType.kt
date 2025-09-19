@@ -14,6 +14,7 @@ sealed class ContentType (){
     object IMATUS : ContentType()
     object ILG : ContentType()
     object IPSIUS : ContentType()
+    object IARCUS : ContentType()
     /////////CENTROS///////
     object CIQUS : ContentType()
     object CIMUS : ContentType()

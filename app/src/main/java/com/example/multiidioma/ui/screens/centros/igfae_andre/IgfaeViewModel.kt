@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae_andre
+package com.example.multiidioma.ui.screens.institutes.Igfae_andre
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,7 +16,6 @@ class IgfaeViewModel : ViewModel() {
 
 
     init {
-
         loadMiniScreens()
     }
 
