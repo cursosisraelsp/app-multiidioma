@@ -2,8 +2,8 @@ package com.example.multiidioma.data
 
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
-import com.example.multiidioma.data.types.Podcast
 import com.example.multiidioma.R
+import com.example.multiidioma.data.types.Podcast
 
 fun samplePodcasts(): List<Podcast> {
     return listOf(

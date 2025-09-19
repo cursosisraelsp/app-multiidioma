@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreenA
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen23
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -10,9 +10,12 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMini23ScreenBox3
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen23Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen23Box2
 
 @Composable
-fun InciforMiniScreen(
+fun InciforMiniScreen23(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -25,9 +28,9 @@ fun InciforMiniScreen(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
             data = data,
-            Box1 = { },
-            Box2 = { },
-            Box3 = { }
+            Box1 = { contentInciforMiniScreen23Box1(it) },
+            Box2 = { contentInciforMiniScreen23Box2(it) },
+            Box3 = { contentInciforMini23ScreenBox3() }
         )
     }
 }

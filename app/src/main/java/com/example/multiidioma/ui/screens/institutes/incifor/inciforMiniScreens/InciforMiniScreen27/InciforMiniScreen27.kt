@@ -3,11 +3,12 @@ package com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
+import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
 @Composable
-fun InciforMiniScreen17(navController: NavController, modifier: Modifier) {
+fun InciforMiniScreen27(data: MiniScreenData, navController: NavController, modifier: Modifier) {
 
-    PersonalTemplateScreen(navController)
+    PersonalTemplateScreen(data, navController)
 
 }

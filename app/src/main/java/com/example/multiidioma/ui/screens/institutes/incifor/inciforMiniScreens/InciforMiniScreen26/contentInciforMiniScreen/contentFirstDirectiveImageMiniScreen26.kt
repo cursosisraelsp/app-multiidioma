@@ -7,7 +7,6 @@ import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.utils.LazyRowTemplateScreenUtils.FirstDirective
 
 @Composable
 fun contentFirstDirectiveImageMiniScreen26(data: MiniScreenData) {

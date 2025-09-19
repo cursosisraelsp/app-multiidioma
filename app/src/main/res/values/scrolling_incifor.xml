@@ -24,6 +24,22 @@
     <string name="II_INCIFOR_miniscreen_15_title0">Forensic</string>
     <string name="II_INCIFOR_miniscreen_15_title1">Toxicology</string>
     <string name="II_INCIFOR_miniscreen_15_paragraph0">Its activity focuses on the analysis of biological samples from living or deceased persons for the detection, identification and quantification of drugs, alcohol, poisons and all types of substances in the context of judicial investigations, such as homicides, accidents or cases of chemical submission. \nMany types of biological samples are analysed in its laboratory, in many cases revealing recent consumption and, in others, prolonged exposure over time to different types of substances, making it possible to establish a retrospective chronology of their consumption. This laboratory is constantly developing and publishing new analytical methods in influential scientific journals that improve the ability to detect and quantify new substances.\n</string>
-
+    <string name="II_INCIFOR_miniscreen_16_title0">"Clinical and Behavioural "</string>
+    <string name="II_INCIFOR_miniscreen_16_title1">Toxicology</string>
+    <string name="II_INCIFOR_miniscreen_16_paragraph0">The group is composed of a team of expert toxicologists specialising in the analytical determination of psychoactive substances whose effect on human behaviour can have serious consequences, both for the individual and for society. This unit carries out analyses requested by hospital emergency services in cases of poisoning. In addition, they have agreements with various local police forces for the control of drugs of abuse, confirming the saliva tests carried out by them.</string>
+    <string name="II_INCIFOR_miniscreen_17_title0">Pathology and Forensic</string>
+    <string name="II_INCIFOR_miniscreen_17_title1">" Medicine"</string>
+    <string name="II_INCIFOR_miniscreen_17_paragraph0">Its activity is focused on developing new methods and strategies in the field of Pathology and Forensic Medicine to resolve important issues in different areas of law: time of death, medical-legal cause and aetiology of death, personal identification, assessment of bodily harm, domestic violence.</string>
+    <string name="II_INCIFOR_miniscreen_18_title0">Criminology</string>
+    <string name="II_INCIFOR_miniscreen_18_paragraph0">It carries out teaching work in the Criminology degree programme and specialised training for institutions and professionals in this field, as well as research and advisory work in this area.</string>
+    <string name="II_INCIFOR_miniscreen_19_title0">Forensic Genetics:</string>
+    <string name="II_INCIFOR_miniscreen_19_paragraph0">Through its areas of research—forensic genetics, forensic toxicology, clinical toxicology, forensic pathology, and criminology—INCIFOR has participated in numerous high-profile cases at the Galician, national, and international levels.</string>
+    <string name="II_INCIFOR_miniscreen_19_paragraph1">Identification and Justice</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph1">Identification of disaster victims: They have collaborated in the identification of victims in tragedies such as the 11 March attacks in Madrid, applying advanced DNA techniques in extreme conditions.</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph0">The genetic analyses carried out in this laboratory have made it possible to solve high-profile murder cases in Spain, even years after they were committed.</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph2">Exhumation of Civil War graves: They participate in the recovery and identification of remains from the Civil War, restoring identity and dignity to families who had been waiting decades for answers.</string>
+    <string name="II_INCIFOR_miniscreen_21_title0">"Forensic and Clinical Toxicology: "</string>
+    <string name="II_INCIFOR_miniscreen_21_paragraph0">Detecting the invisible, protecting lives</string>
+    <string name="II_INCIFOR_miniscreen_21_paragraph1">"The main fields of application at present are: ●\tAnalytical diagnosis of acute clinical poisoning ●\tExpert activity for the Administration of Justice ●\tDrug control in road traffic Other types of analysis carried out: ●\tDiagnosis of foetal exposure to drugs during pregnancy ●\tDrug control in the workplace ●\tCases of chemical submission. ●\tAnalysis for individuals "</string>
 
 </resources>

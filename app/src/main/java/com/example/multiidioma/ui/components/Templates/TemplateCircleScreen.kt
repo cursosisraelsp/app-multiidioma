@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.components.Templates
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -15,7 +14,6 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BackWithArrowButtonCircleTemplate
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
-import com.example.multiidioma.utils.TemplateCircleScreenUtils.BoxArrowBackSpace
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.TitleTextCircleTemplateUtil
 

@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.WorkersCenter
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
 import com.example.multiidioma.ui.components.Templates.LazyRowTemplateScreen
@@ -17,7 +18,7 @@ import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.
 
 
 @Composable
-fun InciforMiniScreen16(
+fun InciforMiniScreen26(
     data: MiniScreenData,
     navController: NavController,
     podcasts: List<Podcast>,
@@ -28,7 +29,17 @@ fun InciforMiniScreen16(
             .fillMaxSize()
             .background(Color(0xFF32627E))
     ) {
-        LazyRowTemplateScreen(
+        val lista = listOf<@Composable ((MiniScreenData) -> Unit)>(
+            { contentFirstDirectiveImageMiniScreen26(it) },
+            { contentFirstDirectiveTextDescriptionMiniScreen26(it) },
+            { contentSecondDirectiveImageMiniScreen26(it) },
+            { contentSecondDirectiveTextDescriptionMiniScreen26(it) }
+        )
+        val elementosLazyRowTemplate = WorkersCenter(
+            infoWorkerCenter = lista,
+            podcast = podcasts
+        )
+        /*LazyRowTemplateScreen(
             data = data,
             navController = navController,
             podcasts = podcasts,
@@ -36,6 +47,11 @@ fun InciforMiniScreen16(
             FirstDirectiveDescriptionText = { contentFirstDirectiveTextDescriptionMiniScreen26(it) },
             SecondDirectiveImage = { contentSecondDirectiveImageMiniScreen26(it) },
             SecondDirectiveDescriptionText = { contentSecondDirectiveTextDescriptionMiniScreen26(it) },
+        )*/
+        LazyRowTemplateScreen(
+            navController = navController,
+            data = data,
+            elementosLazyRowTemplate = elementosLazyRowTemplate,
         )
 
 

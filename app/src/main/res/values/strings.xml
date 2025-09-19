@@ -21,5 +21,10 @@
 
     <string name="back_arrow">Back</string>
     <string name="Directive_Team">Directive Team</string>
+    <string name="MORE_INFO">MORE INFO</string>
+    <string name="II_INCIFOR_miniscreen_22_title0">Pathology and Forensic Medicine</string>
+    <string name="II_INCIFOR_miniscreen_22_paragraph0">This Unit is responsible for providing forensic medical expertise, issuing reports and opinions on the assessment of bodily harm, date and cause of death, exhumations and expertise related to medical liability in criminal, civil and administrative matters.</string>
+    <string name="II_INCIFOR_miniscreen_23_title0">Criminology</string>
+    <string name="II_INCIFOR_miniscreen_23_paragraph0">It offers advisory services (reports, opinions, studies, regulatory projects and regulatory compliance programmes) to professionals and public and private entities in the field of criminology and criminal sciences. It also offers specialised training on demand for all institutions and professionals involved or interested in these areas.</string>
 
 </resources>

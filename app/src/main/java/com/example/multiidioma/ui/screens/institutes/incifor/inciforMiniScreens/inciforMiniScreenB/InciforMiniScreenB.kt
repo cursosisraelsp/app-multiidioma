@@ -1,19 +1,11 @@
 package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 
 /*
-
-
 @Composable
 fun InciforMiniScreenB(
     data: MiniScreenData,
+    navController: NavController,
     modifier: Modifier = Modifier,
 ) {
 
@@ -24,12 +16,12 @@ fun InciforMiniScreenB(
     ) {
         TemplateCircleScreen(
             data = data,
-            CircleImage = { },
-            TitleText = {  },
-            BodyText = { }
+            navController = navController,
+            CircleImage = {  contentInciforMiniScreenBCircleImage(it)},
+            TitleText = { contentInciforMiniScreenBTitleText(it)},
+            BodyText = {contentInciforMiniScreenBBodyText(it) }
         )
     }
 }
-
-
 */
+

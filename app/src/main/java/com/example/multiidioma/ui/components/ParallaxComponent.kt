@@ -1,36 +1,8 @@
 package com.example.multiidioma.ui.components
 
-import android.graphics.drawable.AnimatedImageDrawable
-import android.graphics.drawable.Drawable
-import android.os.Build
-import android.widget.ImageView
-import androidx.annotation.RequiresApi
-import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.platform.LocalContext
 // Android y Compose
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material3.Text
-
-import androidx.compose.runtime.*
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.viewinterop.AndroidView
-import coil.ImageLoader
-import coil.compose.AsyncImage
-
-import com.example.multiidioma.R
 // Coil
-
-import coil.request.ImageRequest
-
-
-
-
 
 
 /*

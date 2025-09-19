@@ -16,7 +16,7 @@ import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 
 @Composable
-fun contentInciforMiniScreenBodyText(data: MiniScreenData) {
+fun contentInciforMiniScreenBBodyText(data: MiniScreenData) {
     val estilosTextos = StyleText(
         style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
     )

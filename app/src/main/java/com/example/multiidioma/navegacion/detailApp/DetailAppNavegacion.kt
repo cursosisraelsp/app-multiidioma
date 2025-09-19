@@ -6,8 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.ui.screens.detail.DetailScreen
-import androidx.navigation.NavType
-import androidx.navigation.navArgument
+
 fun NavGraphBuilder.detailNavGraph(navController: NavHostController,onClose : ()-> Unit,listState: LazyListState){
     composable(
         route = Destination.Detail.route,

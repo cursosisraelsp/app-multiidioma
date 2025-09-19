@@ -1,7 +1,5 @@
 package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5.contentInciforMiniScreen5
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -16,9 +14,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.StyleImages
-
+import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 

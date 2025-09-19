@@ -3,7 +3,6 @@ package com.example.multiidioma.utils
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.snapshotFlow
 
 @Composable

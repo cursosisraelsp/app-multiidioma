@@ -8,7 +8,7 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.utils.CircleStyleImage
 
 @Composable
-fun contentInciforMiniScreenCircleImage(data: MiniScreenData) {
+fun contentInciforMiniScreenBCircleImage(data: MiniScreenData) {
 
     ReusableImage(data, CircleStyleImage)
 }

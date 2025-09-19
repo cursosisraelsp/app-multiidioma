@@ -22,7 +22,23 @@
     <string name="II_INCIFOR_miniscreen_15_title0">Forense</string>
     <string name="II_INCIFOR_miniscreen_15_title1">Forense</string>
     <string name="II_INCIFOR_miniscreen_15_paragraph0">"A súa actividade céntrase na análise de mostras biolóxicas procedentes de persoas vivas ou mortas para a detección, identificación e cuantificación de drogas, alcohol, velenos e todo tipo de substancias no contexto de investigacións xudiciais, como homicidios, accidentes ou casos de submisión química.   Son moitos os tipos de mostras biolóxicas que se analizan no seu laboratorio, evidenciando en moitos casos un consumo recente e, noutros, unha exposición prolongada no tempo a distintos tipos de substancias, podendo establecer unha cronoloxía retrospectiva do seu consumo. Neste laboratorio desenvólvense permanentemente e publican en revistas científicas de impacto novos métodos analíticos que permitan mellorar a capacidade de detección e cuantificación de novas substancias. "</string>
-
+    <string name="II_INCIFOR_miniscreen_16_title0">"Toxicología Clínica y "</string>
+    <string name="II_INCIFOR_miniscreen_16_title1">Conductual</string>
+    <string name="II_INCIFOR_miniscreen_16_paragraph0">"O grupo está composto por un equipo de expertos toxicólogos especializados na determinación analítica de substancias psicoactivas cuxo efecto sobre o comportamento humano pode ter graves consecuencias, tanto para o propio individuo como para a sociedade.   Esta unidade realiza análises solicitadas polos servizos de urxencia hospitalarios en casos de intoxicación. Ademais, teñen convenios con diferentes Policías Locais para o control de abuso de drogas, confirmando os test de saliva realizados por eles. "</string>
+    <string name="II_INCIFOR_miniscreen_17_title0">"Patología y "</string>
+    <string name="II_INCIFOR_miniscreen_17_title1">Clínica Forense</string>
+    <string name="II_INCIFOR_miniscreen_17_paragraph0">A súa actividade oriéntase ao desenvolvemento de novos métodos e estratexias no ámbito da Patoloxía e Clínica Forense para a resolución de cuestións de transcendencia nos distintos campos do dereito: data da morte, causa e etioloxía médico-legal da morte, identificación persoal, avaliación do dano corporal, violencia de parella.</string>
+    <string name="II_INCIFOR_miniscreen_18_title0">Criminología</string>
+    <string name="II_INCIFOR_miniscreen_18_paragraph0">"Desenvolve labores docentes no grao de Criminoloxía e formación especializada ao servizo de institucións e profesionais deste ámbito, así como labores de investigación e asesoramento na materia.  "</string>
+    <string name="II_INCIFOR_miniscreen_19_title0">XENÉTICA FORENSE</string>
+    <string name="II_INCIFOR_miniscreen_19_paragraph0">A través das súas áreas de investigación —clínica forense, toxicoloxía xenética, toxicoloxía forense, patoloxía forense e criminoloxía—, o INCIFOR participou en numerosos casos de gran relevancia, tanto a nivel galego como nacional e internacional.</string>
+    <string name="II_INCIFOR_miniscreen_19_paragraph1">Identificación e Xustiza</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph0">As análises xenéticas realizadas neste laboratorio permitiron resolver, mesmo anos despois da súa comisión, casos de asasinato de impacto mediático en España.</string>
+    <string name="II_INCIFOR_miniscreen_21_title0">TOXICOLOXÍA FORENSE E CLÍNICA</string>
+    <string name="II_INCIFOR_miniscreen_21_paragraph0">" Detectar o invisible, protexer vidas"</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph1">Identificación de vítimas de catástrofes: Colaboraron na identificación de vítimas en traxedias como os atentados do 11M en Madrid, aplicando técnicas avanzadas de ADN en condicións extremas.</string>
+    <string name="II_INCIFOR_miniscreen_20_paragraph2">Exhumación de fosas da Guerra Civil: Participa na recuperación e identificación de restos da Guerra Civil, devolvendo a identidade e a dignidade a familias que levaban décadas esperando respostas.</string>
+    <string name="II_INCIFOR_miniscreen_21_paragraph1">"Os principais campos de aplicación, no momento actual, son: •\tDiagnóstico analítico de intoxicacións agudas clínicas •\tActividade pericial para a Administración de Xustiza •\tControl de drogas no tráfico rodado Outros tipos de análises que realizan: •\tDiagnóstico da exposición do feto a drogas durante o embarazo •\tControl de drogas no ámbito laboral •\tCasos de submisión química. •\tAnálise a particulares "</string>
 
 
 </resources>

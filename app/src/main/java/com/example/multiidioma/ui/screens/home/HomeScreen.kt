@@ -15,11 +15,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.R
-import com.example.multiidioma.data.repository.listaImaxesHome
 import com.example.multiidioma.ui.components.SplashImaxen
 import com.example.multiidioma.utils.ImaxenClickHomeUtils
 import com.example.multiidioma.viewmodel.LanguageViewModel
-
 
 
 @Composable

@@ -1,12 +1,11 @@
 package com.example.multiidioma.data.repository
-import com.example.multiidioma.data.types.ImaxenClickData
-import com.example.multiidioma.utils.imaxes.ImaxenMultimedia
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.ContentType
+import com.example.multiidioma.data.types.ImaxenClickData
 import com.example.multiidioma.data.types.ListaImaxenClickData
 import com.example.multiidioma.utils.imaxes.ImaxenMapa
+import com.example.multiidioma.utils.imaxes.ImaxenMultimedia
 import com.example.multiidioma.utils.imaxes.institutosCentrosSingularesPath
 import com.example.multiidioma.utils.imaxes.institutosInvestigacionPath
 
