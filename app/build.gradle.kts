@@ -28,7 +28,11 @@ android {
             )
         }
     }
-
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -64,6 +68,15 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.3")
     implementation(libs.androidx.navigation.runtime.android)
 
+    //Para FakeCameraActivity
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    // Camara fake
+    val cameraxVersion = "1.3.4"
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+
     // YouTube Player
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0") {
         exclude(group = "com.android.support")
@@ -72,6 +85,7 @@ dependencies {
     // Google Maps Compose y Play Services
     implementation("com.google.maps.android:maps-compose:4.3.0")
     implementation("com.google.android.gms:play-services-maps:19.0.0")
+
 
     // SVG con Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
