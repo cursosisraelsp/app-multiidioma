@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.cimus.miniscreens
+package com.example.multiidioma.ui.screens.centros.cimus.miniscreens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding

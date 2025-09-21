@@ -18,4 +18,6 @@
     <string name="centros_singulares">Singulars centers</string>
     <string name="institutos_investigacion">Investigation instituts</string>
     <string name="institutosEcentros">institutsAndCenters</string>
+    <string name="mi_texto">Hey</string>
+    <string name="otro_texto">World</string>
 </resources>

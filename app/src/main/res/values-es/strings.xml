@@ -19,4 +19,6 @@
     <string name="centros_singulares">Centros singulares</string>
     <string name="institutos_investigacion">Institutos de investigación</string>
     <string name="institutosEcentros">Institutos y centros</string>
+    <string name="mi_texto">Hola</string>
+    <string name="otro_texto">Mundo</string>
 </resources>

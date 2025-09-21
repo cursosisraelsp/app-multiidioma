@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.detail
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -16,6 +17,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
+import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
@@ -35,6 +37,7 @@ import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 fun DetailScreen(
     navController: NavController,
     detailViewModel: DetailViewModel = viewModel(),
+    listState: LazyListState,
     onClose : ()-> Unit
 ){
     val state by detailViewModel.detailScreenState.collectAsState()
@@ -79,7 +82,7 @@ fun DetailScreen(
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
                     is ContentType.CIQUS -> CiqusScreen()
-                    //is ContentType.CIMUS -> CimusScreen()
+                    is ContentType.CIMUS -> CimusScreen(listState)
                     is ContentType.CITIUS -> CitiusScreen()
                     is ContentType.CRETUS -> CretusScreen()
                     is ContentType.IGFAE -> IgfaeScreen()

@@ -27,7 +27,7 @@ import com.example.multiidioma.utils.TopBarUtils
 import com.example.multiidioma.viewmodel.LanguageViewModel
 import kotlinx.coroutines.launch
 import com.example.multiidioma.ui.screens.mapa.MapScreen
-import kotlinx.coroutines.delay
+
 
 
 @Composable
@@ -71,33 +71,9 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                             modifier = Modifier
                                 .padding(16.dp)
                                 .clickable {
-                                    /*
+
                                     navController.navigate(Destination.Citius.route)
                                     scope.launch { drawerState.close() }
-                                    */
-                                    /*
-                                    *  scope.launch {
-                                            drawerState.close() // 🔒 animación primero
-                                            navController.navigate(Destination.Citius.route) // luego navega
-                                        }
-                                    * */
-                                    /*navController.navigate(Destination.Citius.route) {
-                                        launchSingleTop = true
-                                        restoreState = true
-                                    }
-                                    scope.launch { drawerState.close() }
-                                    */
-                                    scope.launch {
-                                        delay(150) // 👈 opcional: asegura que Compose termine la transición
-                                        drawerState.close() // se cierra suavemente encima de la nueva pantalla
-
-                                        navController.navigate(Destination.Citius.route) {
-                                            launchSingleTop = true
-                                            restoreState = true
-                                        }
-
-
-                                    }
 
                                 }
                         )
