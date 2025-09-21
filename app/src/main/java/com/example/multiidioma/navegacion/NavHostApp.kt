@@ -52,6 +52,7 @@ fun NavHostApp(
         SettingsAppNavegacion(languageViewModel)
 
         MinervaAppNavegacion()
+        //MapaAppNavegacion()
         //## INSTITUTOS
         IhusAppNavegacion()
         IdegaAppNavegacion()
