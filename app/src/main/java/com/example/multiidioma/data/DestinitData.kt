@@ -5,13 +5,14 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 
-enum class TitulosNavegacion(val titulo:String){
+enum class TitulosNavegacion(val titulo: String) {
     CentroSigular("Centros Singulares"),
     InstitusInvestigacion("Institutos de investigacion"),
     Mapa("Mapa"),
     Minerva("Proxecto minerva"),
     Multimedia("Multimedia")
 }
+
 sealed class Destination(val route: String) {
     // Rutas sin argumentos
     object Start : Destination("start")
@@ -19,24 +20,28 @@ sealed class Destination(val route: String) {
     object Home : Destination("home")
     object Minerva : Destination("minerva")
     object Mapa : Destination("mapa")
+
     // INSTITUTOS
     object Ihus : Destination("ihus")
     object Idega : Destination("idega")
     object Ice : Destination("ice")
     object Incifor : Destination("incifor")
-        //Miniscreens - incifor
-        object InciforMiniscreen27: Destination("miniscreen27")
+
+    //Miniscreens - incifor
+    object InciforMiniscreen27 : Destination("miniscreen27")
 
     object Imatus : Destination("imatus")
     object Ilg : Destination("ilg")
+
     // CENTROS
     object Cimus : Destination("cimus")
     object Ciqus : Destination("ciqus")
     object Citius : Destination("citius")
     object Cretus : Destination("cretus")
     object Igfae : Destination("igfae")
+
     // Rutas en enum
-    enum class RutasBottomBar (
+    enum class RutasBottomBar(
         val route: String,
         val label: String,
         val icon: ImageVector?,
@@ -46,6 +51,7 @@ sealed class Destination(val route: String) {
         HOME("home", "Homes", Icons.Default.Home, "Homes"),
         SETTINGS("settings", "Settings", Icons.Default.Settings, "Settings")
     }
+
     // Ruta de detalle con un argumento.
     object Detail : Destination("detail/{screenId}")
 

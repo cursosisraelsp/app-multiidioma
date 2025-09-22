@@ -41,5 +41,12 @@
     <string name="II_INCIFOR_miniscreen_21_title0">"Forensic and Clinical Toxicology: "</string>
     <string name="II_INCIFOR_miniscreen_21_paragraph0">Detecting the invisible, protecting lives</string>
     <string name="II_INCIFOR_miniscreen_21_paragraph1">"The main fields of application at present are: ●\tAnalytical diagnosis of acute clinical poisoning ●\tExpert activity for the Administration of Justice ●\tDrug control in road traffic Other types of analysis carried out: ●\tDiagnosis of foetal exposure to drugs during pregnancy ●\tDrug control in the workplace ●\tCases of chemical submission. ●\tAnalysis for individuals "</string>
-
+    <string name="II_INCIFOR_miniscreen_22_title0">Pathology and Forensic Medicine</string>
+    <string name="II_INCIFOR_miniscreen_22_paragraph0">This Unit is responsible for providing forensic medical expertise, issuing reports and opinions on the assessment of bodily harm, date and cause of death, exhumations and expertise related to medical liability in criminal, civil and administrative matters.</string>
+    <string name="II_INCIFOR_miniscreen_23_title0">Criminology</string>
+    <string name="II_INCIFOR_miniscreen_23_paragraph0">It offers advisory services (reports, opinions, studies, regulatory projects and regulatory compliance programmes) to professionals and public and private entities in the field of criminology and criminal sciences. It also offers specialised training on demand for all institutions and professionals involved or interested in these areas.</string>
+    <string name="II_INCIFOR_miniscreen_24_paragraph0">INCIFOR is a clear example of how science improves people\'s lives. Its work does not stay in the laboratories: it reaches the courts, hospitals and also families seeking answers. Thanks to the application of scientific knowledge, they have managed to solve crimes, clarify deaths, help victims, train new professionals and provide evidence that ensures justice is based on objective, clear and demonstrable facts.</string>
+    <string name="II_INCIFOR_miniscreen_25_paragraph0">TALENT AMBASSADORS</string>
+    <string name="II_INCIFOR_miniscreen_26_paragraph0">Prueba Directivo 1</string>
+    <string name="II_INCIFOR_miniscreen_26_paragraph1">Prueba Directivo 2</string>
 </resources>
