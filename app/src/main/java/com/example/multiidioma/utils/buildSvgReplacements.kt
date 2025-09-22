@@ -2,10 +2,11 @@ package com.example.multiidioma.utils
 
 import android.content.Context
 import com.example.multiidioma.R
-
-fun buildSvgReplacements(context: Context): Map<String, String> {
+// R.string.mi_texto R.string.otro_texto
+//
+fun buildSvgReplacements(context: Context,texto1: Int,texto2: Int): Map<String, String> {
     return mapOf(
-        "label1" to context.getString(R.string.mi_texto),
-        "label2" to context.getString(R.string.otro_texto)
+        "label1" to context.getString(texto1),
+        "label2" to context.getString(texto2)
     )
 }

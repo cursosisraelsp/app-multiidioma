@@ -43,7 +43,7 @@ fun HomeScreen(
         context.setLocale(language)
     }
     //val textoTraducido = localizedContext.getString(R.string.mi_texto)
-    val textosTraducidos = buildSvgReplacements(localizedContext)
+    val textosTraducidos = buildSvgReplacements(localizedContext, texto1 = R.string.num_01, texto2 = R.string.transpsicologico)
     // Contenedor principal
     Box(
         modifier = Modifier.fillMaxSize(),
@@ -68,7 +68,7 @@ fun HomeScreen(
 
             SvgImageComposable(
                 context = localizedContext,
-                rawResId = R.raw.mi_svg,
+                rawResId = R.raw.ipsius_img_05,
                 textos = textosTraducidos,
                 modifier = Modifier.fillMaxWidth()
             )
