@@ -8,5 +8,5 @@ data class MiniScreenData(
     val lottieAnimRes: Int? = null,
     val mapLocation: List<String>? = emptyList(),
     @DrawableRes val imageRes: Int? = null,
-
+    val personalResearcher: List<PersonalResearcher>? = null
 )

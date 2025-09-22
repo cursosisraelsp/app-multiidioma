@@ -9,10 +9,7 @@ import com.example.multiidioma.ui.screens.detail.DetailScreen
 
 fun NavGraphBuilder.detailNavGraph(navController: NavHostController,onClose : ()-> Unit,listState: LazyListState){
     composable(
-        route = Destination.Detail.route,
-        /*arguments = listOf(
-            navArgument("screenId") { type = NavType.StringType }
-        )*/
+        route = Destination.Detail.route
         ) {
         DetailScreen(
             navController, onClose = onClose,

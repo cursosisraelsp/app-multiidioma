@@ -3,6 +3,8 @@ package com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -39,11 +41,18 @@ fun InciforMiniScreen26(
             infoWorkerCenter = lista,
             podcast = podcasts
         )
+        
         LazyRowTemplateScreen(
             navController = navController,
             data = data,
             elementosLazyRowTemplate = elementosLazyRowTemplate,
         )
 
+        Button(onClick = {
+            navController.navigate("miniscreen27")
+        },
+            modifier = Modifier.background(color = Color.Green)) {
+            Text("ir a miniscreen 27")
+        }
     }
 }

@@ -19,4 +19,7 @@ sealed class ContentType (){
     object CITIUS : ContentType()
     object CRETUS : ContentType()
     object IGFAE : ContentType()
+    ///////MINISCREENS-INCIFOR/////
+    object MINISCREEN27: ContentType()
+    object MINISCREEN28: ContentType()
 }

@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.example.multiidioma.data.repository.formasClickHome
 import com.example.multiidioma.data.repository.listSingularsCenters
 import com.example.multiidioma.data.repository.listaInstitutos
+import com.example.multiidioma.data.repository.personalResearcher
 import com.example.multiidioma.data.types.DetailScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -19,6 +20,7 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
         loadDetailImaxenClick()
         loadDetailListSingularsCenter()
         loadDetailListInstitutes()
+        //loadDetailListMiniScreensIncifor()
     }
 
     private fun loadDetailImaxenClick(){
@@ -44,4 +46,11 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
             detailListInstitus = itemListFinded
         )
     }
+    /*private fun loadDetailListMiniScreensIncifor(){
+        val itemListFinded = personalResearcher.find { it.id == screenId }
+        //_detailScreenState.value = DetailScreenState(detailListSingularsCenters = itemListFinded)
+        _detailScreenState.value = _detailScreenState.value.copy(
+            detailListMiniScreensIncifor = itemListFinded
+        )
+    }*/
 }

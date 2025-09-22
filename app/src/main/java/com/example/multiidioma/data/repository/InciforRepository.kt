@@ -1,8 +1,27 @@
 package com.example.multiidioma.data.repository
 
 
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 import com.example.multiidioma.R
+import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.PersonalResearcher
+
+val personalResearcher = listOf(
+    PersonalResearcher(
+        id = "0",
+        foto = R.drawable.cientifico,
+        ruta = "miniscreen27",
+        contentType = ContentType.MINISCREEN27
+    ),
+    PersonalResearcher(
+        id = "1",
+        foto = R.drawable.instituto,
+        ruta = "miniscreen28",
+        contentType = ContentType.MINISCREEN28
+    ),
+)
 
 class InciforRepository {
 
@@ -220,14 +239,22 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph0,
                     R.string.II_INCIFOR_miniscreen_26_paragraph1
                 ),
-                imageRes = R.drawable.incifor_img_01_d
-            ),
+                imageRes = R.drawable.incifor_img_01_d,
+                personalResearcher = personalResearcher
+            )
 
 
             )
     }
 
+    fun getPersonalResearcher(): List<PersonalResearcher>{
+        return personalResearcher
+    }
     fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]
+    }
+
+    fun getDataResearcher(i: Int): PersonalResearcher{
+        return getPersonalResearcher()[i]
     }
 }

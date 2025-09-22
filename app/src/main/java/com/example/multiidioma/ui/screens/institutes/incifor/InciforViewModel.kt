@@ -57,10 +57,10 @@ class InciforViewModel : ViewModel() {
                     listaInciforRepository.getData(26),
 
 
-
                 )
             )
 
         }
     }
+
 }

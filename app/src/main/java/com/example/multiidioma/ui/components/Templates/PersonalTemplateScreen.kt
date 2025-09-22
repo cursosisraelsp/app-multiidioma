@@ -24,14 +24,9 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
 
 @Composable
-fun PersonalTemplateScreen(
-    data: MiniScreenData,
-    navController: NavController,
-    PersonalPosition: @Composable (MiniScreenData) -> Unit = {},
-    PersonalNameText: @Composable (MiniScreenData) -> Unit = {},
-    PersonalImage: @Composable (MiniScreenData) -> Unit = {},
-    PersonalText: @Composable (MiniScreenData) -> Unit = {}
-) {
+fun PersonalTemplateScreen() {
+    Text("Estou en personal template")
+    /*
     Row(
         modifier = Modifier
             .fillMaxHeight(0.15f)
@@ -84,5 +79,5 @@ fun PersonalTemplateScreen(
                 )
             }
         }
-    }
+    }*/
 }

@@ -13,20 +13,24 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.modifier.modifierLocalOf
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
+import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
+import com.example.multiidioma.ui.screens.incifor.InciforViewModel
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
 import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
 import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
 import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
@@ -37,11 +41,12 @@ fun DetailScreen(
     onClose : ()-> Unit,
     listState: LazyListState
 ){
-    val state by detailViewModel.detailScreenState.collectAsState()
+    val state by detailViewModel.detailScreenState.collectAsState() // viene de val detailScreenState: StateFlow<DetailScreenState> = _detailScreenState.asStateFlow()
 
     val imaxenClick = state.detailImaxenClick
     val listSingulars = state.detailListSingularsCenters
     val listInstitus = state.detailListInstitus
+    //val listMiniScreenIncifor = state.detailListMiniScreensIncifor
 
     var mapOpened by rememberSaveable { mutableStateOf(false) } // ✅ controla apertura
 
@@ -101,6 +106,17 @@ fun DetailScreen(
                 }
             }
         }
+
+        /*listMiniScreenIncifor != null -> {
+
+            Box(modifier = Modifier.fillMaxSize()){
+                when(listMiniScreenIncifor.contentType){
+                    is ContentType.MINISCREEN27 -> InciforMiniScreen27()
+                    else -> Text("screen non atopado")
+                }
+            }
+
+        }*/
     }
 
 }
