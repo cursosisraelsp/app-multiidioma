@@ -10,12 +10,10 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreenA.contentCitiusMiniScreen.contentCitiusMiniScreen4Box1
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreenA.contentCitiusMiniScreen.contentCitiusMiniScreen4Box2
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreenA.contentCitiusMiniScreen.contentCitiusMiniScreen4Box3
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.contentCitiusMiniScreen.contentCitiusMiniScreen0Box2
 
 @Composable
-fun CitiusMiniScreen4(
+fun CitiusMiniScreen0(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -26,11 +24,9 @@ fun CitiusMiniScreen4(
             .background(Color(0xFF4189B5))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
+            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.20f, Box3 = 0.60f),
             data = data,
-            Box1 = { contentCitiusMiniScreen4Box1(it) },
-            Box2 = { contentCitiusMiniScreen4Box2(it) },
-            Box3 = { contentCitiusMiniScreen4Box3() }
+            Box2 = { contentCitiusMiniScreen0Box2(it) },
         )
     }
 }

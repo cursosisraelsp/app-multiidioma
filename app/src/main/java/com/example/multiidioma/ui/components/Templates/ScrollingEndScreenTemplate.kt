@@ -23,7 +23,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.ui.components.LineCircleComponent
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
+
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 
