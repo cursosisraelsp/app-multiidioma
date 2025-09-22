@@ -188,19 +188,43 @@ class InciforRepository {
                     ),
                 imageRes = R.drawable.incifor_img_05
             ),
-                    MiniScreenData(
-                    id = 23,
-            bodyParagraphs = listOf(
-                R.string.II_INCIFOR_miniscreen_23_title0,
-                R.string.II_INCIFOR_miniscreen_23_paragraph0,
+            MiniScreenData(
+                id = 23,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_23_title0,
+                    R.string.II_INCIFOR_miniscreen_23_paragraph0,
 
 
+                    ),
+                imageRes = R.drawable.incifor_img_05
+            ),
+            MiniScreenData(
+                id = 24,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_24_paragraph0,
+
+
+                    ),
+                imageRes = R.drawable.incifor_img_05
+            ),
+            MiniScreenData(
+                id = 25,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_25_paragraph0
                 ),
-            imageRes = R.drawable.incifor_img_05
-        )
+                imageRes = R.drawable.incifor_img_01_d
+            ),
+            MiniScreenData(
+                id = 26,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_26_paragraph0,
+                    R.string.II_INCIFOR_miniscreen_26_paragraph1
+                ),
+                imageRes = R.drawable.incifor_img_01_d
+            ),
 
 
-        )
+            )
     }
 
     fun getData(i: Int): MiniScreenData {

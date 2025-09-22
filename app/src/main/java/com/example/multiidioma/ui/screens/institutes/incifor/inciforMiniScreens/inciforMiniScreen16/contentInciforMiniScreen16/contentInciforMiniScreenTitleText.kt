@@ -17,14 +17,14 @@ import com.example.multiidioma.ui.components.Text.TextBodyMedium
 @Composable
 fun contentInciforMiniScreen16TitleText(data: MiniScreenData) {
     val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
+        style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Start
     )
 
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+            .padding(start = 4.dp),
+        horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, estilosTextos, index = 0)

@@ -4,10 +4,10 @@ import androidx.compose.runtime.Composable
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.utils.CircleStyleImage
+import com.example.multiidioma.utils.CircleStyleImages
 
 @Composable
 fun contentInciforMiniScreen15CircleImage(data: MiniScreenData) {
 
-    ReusableImage(data, CircleStyleImage)
+    ReusableImage(data, CircleStyleImages)
 }

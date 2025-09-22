@@ -32,18 +32,19 @@ fun DirectiveTeamUtil(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Título
+        // Título Directive Team
         Row(
             modifier = Modifier
                 .fillMaxWidth(),
-            horizontalArrangement = Arrangement.Center
+            horizontalArrangement = Arrangement.Start
         ) {
             Text(
                 text = stringResource(R.string.Directive_Team),
-                textAlign = TextAlign.Center,
+                textAlign = TextAlign.Start,
                 fontSize = 25.sp,
-                color = Color.Black, modifier = Modifier
-                    .padding(bottom = 10.dp)
+                color = Color.Black,
+                modifier = Modifier
+                    .padding(top = 20.dp, start = 16.dp)
             )
         }
 

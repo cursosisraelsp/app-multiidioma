@@ -24,6 +24,9 @@ sealed class Destination(val route: String) {
     object Idega : Destination("idega")
     object Ice : Destination("ice")
     object Incifor : Destination("incifor")
+        //Miniscreens - incifor
+        object InciforMiniscreen27: Destination("miniscreen27")
+
     object Imatus : Destination("imatus")
     object Ilg : Destination("ilg")
     // CENTROS

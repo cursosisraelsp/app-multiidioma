@@ -1,11 +1,15 @@
 package com.example.multiidioma.navegacion
 
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import com.example.multiidioma.data.Destination
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
@@ -21,8 +25,10 @@ import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavega
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun NavHostApp(
     navController: NavHostController,
@@ -59,5 +65,12 @@ fun NavHostApp(
         IgfaeAppNavegacion()
 
         detailNavGraph(navController,onClose = onOpenMap,listState)
+
+
+        ////
+
+        /*composable (Destination.InciforMiniscreen27.route) {
+            InciforMiniScreen27(data = ,navController = navController)
+        }*/
     }
 }

@@ -5,7 +5,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
-fun contentInciforMiniScreen5Box1(data: MiniScreenData) {
+fun contentInciforMiniScreen5Box1() {
 
     LineCircleComponent()
 }

@@ -32,7 +32,7 @@ fun InciforMiniScreen5(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.6f, Box3 = 0.1f),
             data = data,
-            Box1 = { contentInciforMiniScreen5Box1(it) },
+            Box1 = { contentInciforMiniScreen5Box1() },
             Box2 = { contentInciforMiniScreen5Box2(it) },
             Box3 = { contentInciforMiniScreen5Box3() }
         )

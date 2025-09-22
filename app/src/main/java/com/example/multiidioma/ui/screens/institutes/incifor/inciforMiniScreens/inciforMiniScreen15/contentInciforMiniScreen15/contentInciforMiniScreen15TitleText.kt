@@ -24,8 +24,8 @@ fun contentInciforMiniScreen15TitleText(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(end = 50.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+            .padding(start = 4.dp),
+        horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, estilosTextos, index = 0)

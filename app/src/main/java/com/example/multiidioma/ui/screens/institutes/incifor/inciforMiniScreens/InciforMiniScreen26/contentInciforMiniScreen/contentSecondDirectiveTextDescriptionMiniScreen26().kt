@@ -13,5 +13,5 @@ fun contentSecondDirectiveTextDescriptionMiniScreen26(data: MiniScreenData) {
         style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
     )
 
-    TextBodyMedium(data, estilosTextos)
+    TextBodyMedium(data, estilosTextos, index = 1)
 }

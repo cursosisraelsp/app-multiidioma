@@ -8,7 +8,6 @@ import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
 @Composable
 fun InciforMiniScreen27(data: MiniScreenData, navController: NavController, modifier: Modifier) {
-
     PersonalTemplateScreen(data, navController)
 
 }

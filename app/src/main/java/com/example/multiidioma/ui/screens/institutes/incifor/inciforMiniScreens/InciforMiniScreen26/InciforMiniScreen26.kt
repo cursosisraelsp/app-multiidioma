@@ -39,21 +39,11 @@ fun InciforMiniScreen26(
             infoWorkerCenter = lista,
             podcast = podcasts
         )
-        /*LazyRowTemplateScreen(
-            data = data,
-            navController = navController,
-            podcasts = podcasts,
-            FirstDirectiveImage = { contentFirstDirectiveImageMiniScreen26(it) },
-            FirstDirectiveDescriptionText = { contentFirstDirectiveTextDescriptionMiniScreen26(it) },
-            SecondDirectiveImage = { contentSecondDirectiveImageMiniScreen26(it) },
-            SecondDirectiveDescriptionText = { contentSecondDirectiveTextDescriptionMiniScreen26(it) },
-        )*/
         LazyRowTemplateScreen(
             navController = navController,
             data = data,
             elementosLazyRowTemplate = elementosLazyRowTemplate,
         )
-
 
     }
 }

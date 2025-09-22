@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.StyleImages
 
 
-val CircleStyleImage = StyleImages(
+val CircleStyleImages = StyleImages(
     modifier = Modifier.size(200.dp),
     alignment = Alignment.CenterStart,
     contentScale = ContentScale.Crop
