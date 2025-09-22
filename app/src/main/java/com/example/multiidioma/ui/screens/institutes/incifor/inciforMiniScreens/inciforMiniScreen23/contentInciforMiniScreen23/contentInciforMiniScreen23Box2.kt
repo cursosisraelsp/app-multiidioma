@@ -20,7 +20,7 @@ import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -52,7 +52,7 @@ fun contentInciforMiniScreen23Box2(data: MiniScreenData) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            TextBodyMedium(data, estilosTextos, index = 2)
+            AppText(data, estilosTextos, index = 2)
             Spacer(modifier = Modifier.height(20.dp))
 
             ReusableImage(data, estilosImagen)

@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -46,9 +46,9 @@ fun contentInciforMiniScreen22Box1(data: MiniScreenData) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            TextBodyMedium(data, estilosTextos, index = 0)
+            AppText(data, estilosTextos, index = 0)
             Spacer(modifier = Modifier.height(20.dp))
-            TextBodyMedium(data, estilosTextos, index = 1)
+            AppText(data, estilosTextos, index = 1)
         }
     }
 }

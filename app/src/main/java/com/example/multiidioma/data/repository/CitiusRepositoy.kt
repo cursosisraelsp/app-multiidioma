@@ -1,5 +1,6 @@
 package com.example.multiidioma.data.repository
 
+/*
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 
@@ -230,3 +231,4 @@ class CitiusRepository {
         return getMiniScreens()[i]
     }
 }
+*/

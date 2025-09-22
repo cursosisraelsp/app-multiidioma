@@ -11,7 +11,7 @@ import com.example.multiidioma.data.types.StyleText
 
 
 @Composable
-fun TextBodyMedium(
+fun AppText(
     data: MiniScreenData,
     style: StyleText,
     index: Int? = null

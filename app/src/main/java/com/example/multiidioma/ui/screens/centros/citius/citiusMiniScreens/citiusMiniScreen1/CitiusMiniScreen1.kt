@@ -10,9 +10,9 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen.contentCitiusMiniScreen.contentCitiusMiniScreen1Box1
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen.contentCitiusMiniScreen.contentCitiusMiniScreen1Box2
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen.contentCitiusMiniScreen.contentCitiusMiniScreen1Box3
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.contentCitiusMiniScreen1.contentCitiusMiniScreen1Box1
 
 @Composable
 fun CitiusMiniScreen1(

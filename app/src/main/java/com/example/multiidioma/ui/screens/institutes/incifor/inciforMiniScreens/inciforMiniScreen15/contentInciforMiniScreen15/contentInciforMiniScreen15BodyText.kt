@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -29,7 +29,7 @@ fun contentInciforMiniScreen15BodyText(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TextBodyMedium(data, estilosTextos, index = 2)
+        AppText(data, estilosTextos, index = 2)
     }
 }
 

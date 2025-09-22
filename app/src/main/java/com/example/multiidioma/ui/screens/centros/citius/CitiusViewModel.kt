@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.centros.citius
 
+/*
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 
@@ -63,4 +64,4 @@ class CitiusViewModel : ViewModel() {
 
         }
     }
-}
+}*/

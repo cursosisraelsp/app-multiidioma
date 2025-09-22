@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -33,7 +33,7 @@ fun contentCitiusMiniScreen3Box2(data: MiniScreenData) {
             .fillMaxSize()
             .padding(top = 10.dp, bottom = 50.dp, start = 50.dp, end = 50.dp)
     ) {
-        TextBodyMedium(data, estilosTextos)
+        AppText(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(10.dp))
     }

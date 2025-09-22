@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens6.citiusMiniScreen6
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

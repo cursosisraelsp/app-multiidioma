@@ -1,5 +1,5 @@
 package com.example.multiidioma.ui.screens.centros.citius
-
+/*
 import android.os.Build
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -47,6 +47,7 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen8.CitiusMiniScreen8
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen9.CitiusMiniScreen9
 import com.example.multiidioma.ui.screens.institutes.citius.citiusMiniScreens.CitiusMiniScreen26.CitiusMiniScreen26
+
 
 @Composable
 fun CitiusScreen(
@@ -293,4 +294,4 @@ fun CitiusScreen(
         }
     }
 
-}
+}*/

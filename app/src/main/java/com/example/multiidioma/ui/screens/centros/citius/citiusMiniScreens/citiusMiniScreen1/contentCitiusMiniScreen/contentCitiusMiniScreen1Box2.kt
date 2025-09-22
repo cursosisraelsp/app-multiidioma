@@ -15,7 +15,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -34,7 +34,7 @@ fun contentCitiusMiniScreen1Box2(data: MiniScreenData) {
 
 
     ) {
-        TextBodyMedium(data, estilosTextos)
+        AppText(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(25.dp))
 

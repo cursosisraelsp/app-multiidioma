@@ -17,7 +17,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -41,7 +41,7 @@ fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
                 .weight(0.3f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data, estilosTextos)
+            AppText(data, estilosTextos)
         }
         Box(
             modifier = Modifier

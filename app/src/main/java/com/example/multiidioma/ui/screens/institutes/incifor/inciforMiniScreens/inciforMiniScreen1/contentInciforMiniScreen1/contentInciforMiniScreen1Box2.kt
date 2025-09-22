@@ -15,14 +15,11 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
 fun contentInciforMiniScreen1Box2(data: MiniScreenData) {
-
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
-    )
 
     val estilosImagen = StyleImages(
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
@@ -31,10 +28,9 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData) {
         modifier = Modifier
             .fillMaxSize()
             .padding(start = 50.dp, end = 50.dp, top = 50.dp)
-        /*.background(Color.Green)*/
 
     ) {
-        TextBodyMedium(data, estilosTextos)
+        TextTitleMedium(data)
 
         Spacer(modifier = Modifier.height(25.dp))
 

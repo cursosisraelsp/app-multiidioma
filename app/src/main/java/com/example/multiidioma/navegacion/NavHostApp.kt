@@ -11,7 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
-import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
+/*import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion*/
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
@@ -60,7 +60,7 @@ fun NavHostApp(
         //## CENTROS
         CiqusAppNavegacion()
         //->CimusAppNavegacion(listState)
-        CitiusAppNavegacion()
+        /*CitiusAppNavegacion()*/
         CretusAppNavegacion()
         IgfaeAppNavegacion()
 

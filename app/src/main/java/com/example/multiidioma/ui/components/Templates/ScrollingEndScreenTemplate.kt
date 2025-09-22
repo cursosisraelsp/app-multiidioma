@@ -1,7 +1,6 @@
 package com.example.multiidioma.ui.components.Templates
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,7 +24,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -51,7 +50,7 @@ fun ScrollingEndScreenTemplate(data: MiniScreenData, modifier: Modifier = Modifi
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            TextBodyMedium(data, estilosTextos, index = 0)
+            AppText(data, estilosTextos, index = 0)
         }
         Button(
             onClick = {},
@@ -64,7 +63,7 @@ fun ScrollingEndScreenTemplate(data: MiniScreenData, modifier: Modifier = Modifi
                     .fillMaxHeight(0.1f)
 
             ) {
-                TextBodyMedium(data, estilosTextos, index = 1)
+                AppText(data, estilosTextos, index = 1)
             }
         }
     }
