@@ -13,9 +13,6 @@ import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box1
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box2
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box3
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen1.contentIpsiusMiniScreen1.contentIpsiusMiniScreen1Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen1.contentIpsiusMiniScreen1.contentIpsiusMiniScreen1Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen1.contentIpsiusMiniScreen1.contentIpsiusMiniScreen1Box3
 
 
 @Composable

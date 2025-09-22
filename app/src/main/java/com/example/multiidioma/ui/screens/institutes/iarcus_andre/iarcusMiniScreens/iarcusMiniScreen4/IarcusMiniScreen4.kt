@@ -9,14 +9,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-
 import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen4.contentIarcusMiniScreen4.contentIarcusMiniScreen4Box1
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen4.contentIarcusMiniScreen4.contentIarcusMiniScreen4Box2
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen4.contentIarcusMiniScreen4.contentIarcusMiniScreen4Box3
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen4.contentIpsiusMiniScreen4.contentIpsiusMiniScreen4Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen4.contentIpsiusMiniScreen4.contentIpsiusMiniScreen4Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen4.contentIpsiusMiniScreen4.contentIpsiusMiniScreen4Box3
 
 
 @Composable

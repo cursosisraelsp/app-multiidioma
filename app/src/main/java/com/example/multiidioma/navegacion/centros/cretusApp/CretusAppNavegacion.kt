@@ -1,7 +1,6 @@
 package com.example.multiidioma.navegacion.centros.cretusApp
 
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable

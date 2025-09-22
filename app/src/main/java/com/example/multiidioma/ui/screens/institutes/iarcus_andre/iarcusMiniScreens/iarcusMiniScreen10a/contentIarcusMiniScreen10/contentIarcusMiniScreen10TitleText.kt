@@ -29,6 +29,6 @@ fun contentIarcusMiniScreen10TitleText(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, estilosTextos, index = 0)
-        TextBodyMedium(data, estilosTextos, index = 1)
+
     }
 }

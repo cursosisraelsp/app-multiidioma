@@ -13,9 +13,6 @@ import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.contentIgfaeMiniScreen21.contentIgfaeMiniScreen21Box1
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.contentIgfaeMiniScreen21.contentIgfaeMiniScreen21Box2
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.contentIgfaeMiniScreen21.contentIgfaeMiniScreen21Box3
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen21.contentIpsiusMiniScreen21.contentIpsiusMiniScreen21Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen21.contentIpsiusMiniScreen21.contentIpsiusMiniScreen21Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen21.contentIpsiusMiniScreen21.contentIpsiusMiniScreen21Box3
 
 
 @Composable

@@ -55,6 +55,7 @@ class CONDICIONS {
                         || currentRoute == Destination.Imatus.route
                         || currentRoute == Destination.Ilg.route
                         || currentRoute == Destination.Ipsius.route
+                        || currentRoute == Destination.Iarcus.route
                 )
     }
 

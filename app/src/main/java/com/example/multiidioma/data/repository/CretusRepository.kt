@@ -8,188 +8,160 @@ class CretusRepository {
         return listOf(
             MiniScreenData(
                 id = 0,
-
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
                 ),
+            ),
             MiniScreenData(
                 id = 1,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_01
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
+                imageRes = R.drawable.ipsius_img_01
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_02
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
+                imageRes = R.drawable.ipsius_img_02
             ),
-
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
             ),
             MiniScreenData(
                 id = 5,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
                 ),
-
             ),
             MiniScreenData(
                 id = 8,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
                 ),
-
             ),
             MiniScreenData(
                 id = 9,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
                 ),
-                imageRes = R.drawable.CRETUS_img_07_eng
+                imageRes = R.drawable.ipsius_img_07_eng
             ),
             MiniScreenData(
                 id = 10,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
                 ),
-                imageRes = R.drawable.CRETUS_img_08_eng
+                imageRes = R.drawable.ipsius_img_08_eng
             ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
                 ),
-                imageRes = R.drawable.CRETUS_img_09_eng
+                imageRes = R.drawable.ipsius_img_09_eng
             ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
                 ),
-                imageRes = R.drawable.CRETUS_img_10_eng
+                imageRes = R.drawable.ipsius_img_10_eng
             ),
             MiniScreenData(
                 id = 13,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
                 ),
-                imageRes = R.drawable.CRETUS_img_11_eng
+                imageRes = R.drawable.ipsius_img_11_eng
             ),
             MiniScreenData(
                 id = 14,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_11_eng
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+                ),
+                imageRes = R.drawable.ipsius_img_11_eng
             ),
             MiniScreenData(
                 id = 15,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_11_eng
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+                ),
+                imageRes = R.drawable.ipsius_img_11_eng
             ),
             MiniScreenData(
                 id = 16,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-                    R.string.II_CRETUS_miniscreen_0_paragraph0
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_11_eng
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0
+                ),
+                imageRes = R.drawable.ipsius_img_11_eng
             ),
             MiniScreenData(
                 id = 17,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
-
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
                 ),
+            ),
             MiniScreenData(
                 id = 18,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
-                id = 19
+                id = 19,
             ),
             MiniScreenData(
-                id = 20
+                id = 20,
             ),
             MiniScreenData(
                 id = 21,
                 bodyParagraphs = listOf(
-                    R.string.II_CRETUS_miniscreen_0_paragraph0,
-
-                    ),
-                imageRes = R.drawable.CRETUS_img_21
+                    R.string.II_IPSIUS_miniscreen_0_paragraph0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
             ),
         )
     }

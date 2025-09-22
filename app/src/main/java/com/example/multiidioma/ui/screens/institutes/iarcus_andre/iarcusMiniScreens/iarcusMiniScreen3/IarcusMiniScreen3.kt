@@ -12,8 +12,6 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen3.contentIarcusMiniScreen3.ContentIarcusMiniScreen3Box1
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen3.contentIarcusMiniScreen3.ContentIarcusMiniScreen3Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen3.contentIpsiusMiniScreen3.ContentIpsiusMiniScreen3Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen3.contentIpsiusMiniScreen3.ContentIpsiusMiniScreen3Box2
 
 
 @Composable
