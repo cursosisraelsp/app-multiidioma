@@ -8,12 +8,15 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.viewmodel.LanguageViewModel
 
 
 @RequiresApi(Build.VERSION_CODES.P)
-fun NavGraphBuilder.InciforAppNavegacion(listState: LazyListState,
-                                         navController: NavController){
+fun NavGraphBuilder.InciforAppNavegacion(
+    listState: LazyListState,
+    navController: NavController,
+) {
     composable(Destination.Incifor.route) {
-        InciforScreen(listState,navController)
+        InciforScreen(listState, navController)
     }
 }

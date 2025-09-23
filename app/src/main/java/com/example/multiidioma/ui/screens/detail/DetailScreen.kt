@@ -1,6 +1,8 @@
 package com.example.multiidioma.ui.screens.detail
 
 import InciforScreen
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyListState
@@ -29,14 +31,16 @@ import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
+import com.example.multiidioma.viewmodel.LanguageViewModel
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun DetailScreen(
     navController: NavController,
     detailViewModel: DetailViewModel = viewModel(),
-    onClose : ()-> Unit,
-    listState: LazyListState
-){
+    onClose: () -> Unit,
+    listState: LazyListState,
+) {
     val state by detailViewModel.detailScreenState.collectAsState()
 
     val imaxenClick = state.detailImaxenClick
@@ -80,7 +84,7 @@ fun DetailScreen(
                 when (listSingulars.contentType) {
                     is ContentType.CIQUS -> CiqusScreen()
                     //is ContentType.CIMUS -> CimusScreen()
-                /*    is ContentType.CITIUS -> CitiusScreen()*/
+                    /*    is ContentType.CITIUS -> CitiusScreen()*/
                     is ContentType.CRETUS -> CretusScreen()
                     is ContentType.IGFAE -> IgfaeScreen()
                     else -> Text("screen non atopado")
@@ -94,7 +98,11 @@ fun DetailScreen(
                     is ContentType.IHUS -> IhusScreen()
                     is ContentType.IDEGA -> IdegaScreen()
                     is ContentType.ICE -> IceScreen()
-                    is ContentType.INCIFOR -> InciforScreen(listState, navController)
+                    is ContentType.INCIFOR -> InciforScreen(
+                        listState,
+                        navController,
+                    )
+
                     is ContentType.IMATUS -> ImatusScreen()
                     is ContentType.ILG -> IlgScreen()
                     else -> Text("screen non atopado")

@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.LocalizedContext
 
 
 @Composable
@@ -16,7 +17,8 @@ fun AppText(
     style: StyleText,
     index: Int? = null
 ) {
-    val context = LocalContext.current
+    // Context localizado proporcionado por CompositionLocal
+    val context = LocalizedContext.current
 
     Column {
         if (index != null) {
@@ -27,19 +29,17 @@ fun AppText(
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
         } else {
             data.bodyParagraphs.forEach { res ->
                 Text(
-                    text = runCatching { context.getString(res) }.getOrElse {
-                        "???"
-                    },
+                    text = runCatching { context.getString(res) }.getOrElse { "???" },
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
         }

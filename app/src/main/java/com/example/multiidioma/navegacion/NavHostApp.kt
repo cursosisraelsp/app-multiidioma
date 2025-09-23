@@ -35,18 +35,19 @@ fun NavHostApp(
     modifier: Modifier,
     languageViewModel: LanguageViewModel,
     listState: LazyListState,
-    onOpenMap: () -> Unit){
+    onOpenMap: () -> Unit
+) {
 
     NavHost(
         navController = navController,
         startDestination = "splash",
         modifier = modifier,
 
-    ) {
+        ) {
 
         StartAppNavHost(navController)
 
-        HomeAppNavHost(languageViewModel, listState,navController = navController)
+        HomeAppNavHost(languageViewModel, listState, navController = navController)
         SettingsAppNavegacion(languageViewModel)
 
         MinervaAppNavegacion()
@@ -54,7 +55,7 @@ fun NavHostApp(
         IhusAppNavegacion()
         IdegaAppNavegacion()
         IceAppNavegacion()
-        InciforAppNavegacion(listState,navController)
+        InciforAppNavegacion(listState, navController)
         ImatusAppNavegacion()
         IlgAppNavegacion()
         //## CENTROS
@@ -64,7 +65,7 @@ fun NavHostApp(
         CretusAppNavegacion()
         IgfaeAppNavegacion()
 
-        detailNavGraph(navController,onClose = onOpenMap,listState)
+        detailNavGraph(navController, onClose = onOpenMap, listState)
 
 
         ////

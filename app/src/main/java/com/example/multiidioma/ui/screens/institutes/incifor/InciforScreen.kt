@@ -48,16 +48,18 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniscreen28
+import com.example.multiidioma.viewmodel.LanguageViewModel
 
 
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun InciforScreen(
     listState: LazyListState,
-    navController: NavController
+    navController: NavController,
 ) {
     val viewModel: InciforViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
+
 
     when (uiState) {
         is MiniScreenState.Loading -> {
@@ -284,6 +286,7 @@ fun InciforScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         28 -> InciforMiniscreen28(
                             data,
                             Modifier
