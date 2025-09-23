@@ -16,6 +16,7 @@ import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
@@ -30,7 +31,7 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData) {
             .padding(start = 50.dp, end = 50.dp, top = 50.dp)
 
     ) {
-        TextTitleMedium(data)
+        TextBodyMedium(data)
 
         Spacer(modifier = Modifier.height(25.dp))
 

@@ -8,18 +8,19 @@ import androidx.activity.compose.setContent
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.ui.MyApp
+import com.example.multiidioma.ui.theme.MultiidiomaTheme
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.P)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            val languageViewModel: LanguageViewModel = viewModel()
-            MyApp(languageViewModel) // tu función principal de navegación
-            //ParallaxComponent()
 
+        setContent {
+            MultiidiomaTheme {
+                val languageViewModel: LanguageViewModel = viewModel()
+                MyApp(languageViewModel)
+            }
         }
     }
 }
-

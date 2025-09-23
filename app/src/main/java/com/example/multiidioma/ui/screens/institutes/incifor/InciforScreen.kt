@@ -46,6 +46,7 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.InciforMiniScreen8
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.InciforMiniScreen9
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -270,6 +271,14 @@ fun InciforScreen(
                             data,
                             navController,
                             podcastsMultimedia,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        27 -> InciforMiniScreen27(
+                            data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
