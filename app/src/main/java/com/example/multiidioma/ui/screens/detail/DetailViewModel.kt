@@ -2,9 +2,9 @@ package com.example.multiidioma.ui.screens.detail
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
-import com.example.multiidioma.data.repository.formasClickHome
-import com.example.multiidioma.data.repository.listSingularsCenters
-import com.example.multiidioma.data.repository.listaInstitutos
+import com.example.multiidioma.data.data.formasClickHome
+import com.example.multiidioma.data.data.listSingularsCenters
+import com.example.multiidioma.data.data.listaInstitutos
 import com.example.multiidioma.data.types.DetailScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

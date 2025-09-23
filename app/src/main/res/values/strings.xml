@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">multiidioma</string>
+    <string name="greeting">Hello!</string>
+    <string name="change_language">Switch to Spanish</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="switch_to_galician">Switch to Galician</string>
     <string name="map">map</string>
     <string name="multimedia">multimedia</string>
     <string name="institutos">institus</string>
-    <string name="atras">back</string>
+    <string name="atras">Back</string>
     <string name="centrossingulares">Singular Center</string>
     <string name="minerva">minerva</string>
     <string name="centros_singulares">Singulars centers</string>
     <string name="institutos_investigacion">Investigation instituts</string>
     <string name="institutosEcentros">institutsAndCenters</string>
+    <string name="MORE_INFO">MORE INFO</string>
+    <string name="back_arrow">Back</string>
+    <string name="Directive_Team">Directive Team</string>
+
 </resources>

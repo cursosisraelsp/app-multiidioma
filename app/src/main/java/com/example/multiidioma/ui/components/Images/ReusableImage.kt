@@ -3,7 +3,7 @@ package com.example.multiidioma.ui.components.Images
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
-import com.example.multiidioma.data.repository.StyleImages
+import com.example.multiidioma.data.data.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
 
 
@@ -17,10 +17,9 @@ fun ReusableImage(
         Image(
             painter = painterResource(res),
             contentDescription = "",
-            modifier =  style.modifier,
-            style.alignment,
             contentScale = style.contentScale,
-
+            modifier = style.modifier,
+            alignment = style.alignment
         )
     }
 }

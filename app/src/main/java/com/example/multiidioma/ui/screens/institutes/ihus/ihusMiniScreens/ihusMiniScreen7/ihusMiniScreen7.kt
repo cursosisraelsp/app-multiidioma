@@ -6,16 +6,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.data.repository.BOX
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box1
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box2
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box3
+import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7BodyText
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7CircleImage
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7TitleText
+
 
 @Composable
 fun IhusMiniScreen7(
+    // pantalla
     data: MiniScreenData,
+    navController: NavController,
     modifier: Modifier = Modifier,
 ) {
 
@@ -24,12 +27,12 @@ fun IhusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        PlantillaScreen(
-            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.25f, Box3 = 0.6f),
+        TemplateCircleScreen(
+            navController = navController,
             data = data,
-            Box1 = { contentIhusMiniScreen7Box1(it) },
-            Box2 = { contentIhusMiniScreen7Box2(it) },
-            Box3 = { contentIhusMiniScreen7Box3() }
+            CircleImage = { contentIhusMiniScreen7CircleImage(it) },
+            TitleText = { contentIhusMiniScreen7TitleText(it) },
+            BodyText = { contentIhusMiniScreen7BodyText(it) }
         )
     }
 }

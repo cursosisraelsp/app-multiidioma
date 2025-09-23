@@ -1,4 +1,6 @@
 package com.example.multiidioma.ui.screens.ihus
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -14,6 +16,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
+import androidx.navigation.NavController
+import com.example.multiidioma.data.data.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen3.IhusMiniScreen3
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.IhusMiniScreen4
@@ -21,13 +25,22 @@ import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen5.I
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.IhusMiniScreen6
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.IhusMiniScreen0
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen1.IhusMiniScreen1
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10.IhusMiniScreen10
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10.IhusMiniScreen11
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen2.IhusMiniScreen2
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.IhusMiniScreen7
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen8.IhusMiniScreen8
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen9.IhusMiniScreen9
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen12.IhusMiniScreen12
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14.IhusMiniScreen13
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14.IhusMiniScreen14
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
-fun IhusScreen(listState: LazyListState) {
+fun IhusScreen(
+    listState: LazyListState,
+    navController: NavController
+) {
     val viewModel: IhusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -92,21 +105,27 @@ fun IhusScreen(listState: LazyListState) {
                         )
                         6 -> IhusMiniScreen6(
                             data,
+                            navController,
                             Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+
+
+
                         )
                         7 -> IhusMiniScreen7(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
                         )
                         8 -> IhusMiniScreen8(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
                         )
                         9 -> IhusMiniScreen9(
                             data,
@@ -115,6 +134,45 @@ fun IhusScreen(listState: LazyListState) {
                                 .fillParentMaxHeight()
                         )
 
+                        10 -> IhusMiniScreen10(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        11 -> IhusMiniScreen11(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        12 -> IhusMiniScreen12(
+                            data,
+                            navController,
+                            podcastsMultimedia,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        13 -> IhusMiniScreen13(
+
+                        data,
+                        navController,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight()
+                            )
+
+
+                        14 -> IhusMiniScreen14(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
 
                         else -> Text("MiniScreen desconocida")
                     }

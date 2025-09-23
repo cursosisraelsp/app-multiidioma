@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">multiidioma</string>
+    <string name="greeting">Ola</string>
+    <string name="change_language">Cambia a español</string>
+    <string name="switch_to_english">Cambia a inglés</string>
+    <string name="switch_to_galician">Cambia a galego</string>
     <string name="map">mapa</string>
     <string name="multimedia">multimedia</string>
     <string name="institutos">institutos</string>
@@ -10,4 +14,7 @@
     <string name="centros_singulares">Centros singulares</string>
     <string name="institutos_investigacion">Institutos de investigación</string>
     <string name="institutosEcentros">Institutos e centros</string>
+    <string name="back_arrow">Atrás</string>
+    <string name="Directive_Team">Equipo Directivo</string>
+    <string name="MORE_INFO">MAIS INFO</string>
 </resources>

@@ -14,7 +14,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
-import com.example.multiidioma.data.repository.listSingularsCenters
+import com.example.multiidioma.data.data.listSingularsCenters
 import com.example.multiidioma.ui.components.Carrusel
 
 @Composable

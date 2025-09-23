@@ -2,7 +2,7 @@ package com.example.multiidioma.ui.screens.multimedia
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.multiidioma.data.repository.MultimediaRepository
+import com.example.multiidioma.data.data.MultimediaRepository
 import com.example.multiidioma.data.types.MultimediaData
 import com.example.multiidioma.data.types.states.MultimediaState
 import kotlinx.coroutines.flow.MutableStateFlow

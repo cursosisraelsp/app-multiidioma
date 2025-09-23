@@ -12,8 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.repository.StyleImages
-import com.example.multiidioma.data.repository.StyleText
+import com.example.multiidioma.data.data.StyleImages
+import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Images.ReusableImage

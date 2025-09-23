@@ -2,7 +2,7 @@ package com.example.multiidioma.ui.screens.ihus
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.multiidioma.data.repository.IhusRepository
+import com.example.multiidioma.data.data.IhusRepository
 import com.example.multiidioma.data.types.MiniScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -17,7 +17,7 @@ class IhusViewModel : ViewModel() {
         loadMiniScreens()
     }
 
-    private fun loadMiniScreens(){
+    private fun loadMiniScreens() {
         viewModelScope.launch {
             //delay(500) // Simula tiempo de carga
             val listaIhusRepository = IhusRepository()
@@ -33,11 +33,13 @@ class IhusViewModel : ViewModel() {
                     listaIhusRepository.getData(7),
                     listaIhusRepository.getData(8),
                     listaIhusRepository.getData(9),
+                    listaIhusRepository.getData(10),
+                    listaIhusRepository.getData(11),
+                    listaIhusRepository.getData(12),
+                    listaIhusRepository.getData(13),
+                    listaIhusRepository.getData(14),
 
-
-
-
-                )
+                    )
             )
         }
     }

@@ -6,15 +6,16 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.example.multiidioma.data.repository.BOX
-import com.example.multiidioma.data.repository.valoresPlantillaScreen
+import com.example.multiidioma.data.BOX
+import com.example.multiidioma.data.valoresTemplateScreen
 import com.example.multiidioma.data.types.MiniScreenData
+
 
 
 @Composable
 fun PlantillaScreen(
     data: MiniScreenData,
-    BoxWeight: BOX = valoresPlantillaScreen,
+    BoxWeight: BOX = valoresTemplateScreen,
     Box1: @Composable (MiniScreenData) -> Unit = {},
     Box2: @Composable (MiniScreenData) -> Unit = {},
     Box3: @Composable (MiniScreenData) -> Unit = {}

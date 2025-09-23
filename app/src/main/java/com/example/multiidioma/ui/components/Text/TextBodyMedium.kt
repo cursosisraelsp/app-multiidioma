@@ -1,12 +1,13 @@
 package com.example.multiidioma.ui.components.Text
 
+
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import com.example.multiidioma.data.repository.StyleText
+import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 
 
@@ -27,7 +28,7 @@ fun TextBodyMedium(
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
                 )
             }
         } else {
@@ -39,7 +40,7 @@ fun TextBodyMedium(
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
                 )
             }
         }

@@ -1,9 +1,7 @@
 package com.example.multiidioma.ui.components
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -16,10 +14,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.repository.centrosSingulares
-import com.example.multiidioma.data.repository.institutosEcentros
-import com.example.multiidioma.data.repository.institutosInvestigacion
-import com.example.multiidioma.data.repository.santiago
+import com.example.multiidioma.data.data.centrosSingulares
+import com.example.multiidioma.data.data.institutosEcentros
+import com.example.multiidioma.data.data.institutosInvestigacion
+import com.example.multiidioma.data.data.santiago
 import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.MarkerState

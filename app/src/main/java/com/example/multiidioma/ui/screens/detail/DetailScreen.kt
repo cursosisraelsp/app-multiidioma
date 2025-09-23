@@ -94,7 +94,7 @@ fun DetailScreen(
         listInstitus != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listInstitus.contentType) {
-                    is ContentType.IHUS -> IhusScreen(listState)
+                    is ContentType.IHUS -> IhusScreen(listState, navController)
 //IhusScreen()
                     is ContentType.IDEGA -> IdegaScreen()
                     is ContentType.ICE -> IceScreen()
