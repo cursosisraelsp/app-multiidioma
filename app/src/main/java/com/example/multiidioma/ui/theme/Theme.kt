@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
@@ -64,7 +65,11 @@ val AppTypography = Typography(
         fontSize = 36.sp
     ),
 
-    // ... y agregas lo que necesites
+    displayMedium = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontStyle = FontStyle.Italic,
+        fontSize = 24.sp
+    )
 
 )
 

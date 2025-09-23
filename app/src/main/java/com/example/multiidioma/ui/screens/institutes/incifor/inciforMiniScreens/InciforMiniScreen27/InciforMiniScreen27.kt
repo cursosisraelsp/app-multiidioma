@@ -1,8 +1,5 @@
 package com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
@@ -15,8 +12,5 @@ fun InciforMiniScreen27(
     navController: NavController,
     modifier: Modifier = Modifier
 ) {
-    Box(modifier = Modifier
-        .fillMaxSize()) {
-        PersonalTemplateScreen(data, navController)
-    }
+   PersonalTemplateScreen(data, navController)
 }

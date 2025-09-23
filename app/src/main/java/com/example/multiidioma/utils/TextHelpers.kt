@@ -43,6 +43,23 @@ fun TextTitleMedium(
 )
 
 @Composable
+fun TextDisplayMedium(
+    data: MiniScreenData,
+    index: Int? = null,
+    modifier: Modifier = Modifier,
+    textAlign: TextAlign = TextAlign.Start,
+    color: Color = Color.White,
+) = AppText(
+    data = data,
+    style = StyleText(
+        style = MaterialTheme.typography.displayMedium,
+        textAlign = TextAlign.Start
+    ),
+    index = index,
+)
+
+
+@Composable
 fun TextTitleLarge(
     data: MiniScreenData,
     index: Int? = null,
@@ -72,5 +89,5 @@ fun TextBodyMedium(
         textAlign = textAlign
     ),
     index = index,
+)
 
-    )
