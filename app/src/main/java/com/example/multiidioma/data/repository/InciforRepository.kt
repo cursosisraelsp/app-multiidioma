@@ -12,15 +12,43 @@ val personalResearcher = listOf(
     PersonalResearcher(
         id = "0",
         foto = R.drawable.cientifico,
+        name = "Pepe",
+        info = "Investigador",
         ruta = "miniscreen27",
         contentType = ContentType.MINISCREEN27
     ),
     PersonalResearcher(
         id = "1",
         foto = R.drawable.instituto,
+        name = "Xoan",
+        info = "Investigador na área de ...",
         ruta = "miniscreen28",
         contentType = ContentType.MINISCREEN28
     ),
+    PersonalResearcher(
+        id = "2",
+        foto = R.drawable.instituto_all,
+        name = "Anxo",
+        info = "Investigador na área do Citius",
+        ruta = "miniscreen27",
+        contentType = ContentType.MINISCREEN27
+    ),
+    PersonalResearcher(
+        id = "3",
+        foto = R.drawable.centro_de_investigacion,
+        name = "Xoan",
+        info = "Investigador",
+        ruta = "miniscreen28",
+        contentType = ContentType.MINISCREEN28
+    ),
+    PersonalResearcher(
+        id = "4",
+        foto = R.drawable.instituto_all,
+        name = "Alexandre",
+        info = "Investigador",
+        ruta = "detalles/2",
+        contentType = ContentType.MINISCREEN28
+    )
 )
 
 class InciforRepository {

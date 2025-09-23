@@ -31,6 +31,7 @@ import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
 import com.example.multiidioma.ui.screens.incifor.InciforViewModel
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
+import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -78,5 +79,17 @@ fun NavHostApp(
 
             InciforMiniScreen27()
         }
+
+        composable("detalles/{itemId}") { backStackEntry ->
+            // Aquí puedes acceder a los argumentos
+
+            val itemId = backStackEntry.arguments?.getString("itemId")
+
+            if (itemId != null) {
+                Plantilla(itemId = itemId)
+            } // Pasa el argumento al Composable
+
+        }
+
     }
 }
