@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -11,11 +12,12 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
 fun contentInciforMiniScreen3Box1() {
-    Box(
+    Column(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Gray),
+        horizontalAlignment = Alignment.End
     ) {
-        LineCircleComponent(contentAlignment = Alignment.TopEnd)
+        LineCircleComponent()
     }
 }

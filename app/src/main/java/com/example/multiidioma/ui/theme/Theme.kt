@@ -45,6 +45,7 @@ val merriweatherFamily = FontFamily(
 
 // Configuración de tipografía
 val AppTypography = Typography(
+
     bodyMedium = TextStyle(
         fontFamily = robotoFamily,
         fontSize = 16.sp
