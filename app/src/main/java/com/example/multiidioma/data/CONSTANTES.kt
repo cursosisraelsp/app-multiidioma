@@ -11,6 +11,11 @@ val whiteColor = Color.White
 val nomeInstitutos = listOf("IHUS", "IDEGA", "ICE", "INCIFOR", "IMATUS", "ILG")
 val nomeCentros = listOf("CIQUS", "CIMUS", "CITIUS", "CRETUS", "IGFAE", "IDIS")
 
+val urlIncifor = "https://www.usc.gal/gl/investigar-na-usc/investigar/institutos-centros-investigacion/institutos/INCIFOR"
+val urlCitius = "https://citius.gal/es/ "
+
+
+
 data class BOX(
     val Box1: Float,
     val Box2: Float,

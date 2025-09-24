@@ -35,15 +35,17 @@ import com.example.multiidioma.utils.TextBodyMedium
 import androidx.core.net.toUri
 import com.example.multiidioma.ui.theme.robotoFamily
 import com.example.multiidioma.R
+import com.example.multiidioma.ui.LocalizedContext
 
 @Composable
 fun ScrollingEndScreenTemplate(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
     buttonTextIndex: Int = 1,
-    buttonLink: String = "https://www.usc.gal/gl/investigar-na-usc/investigar/institutos-centros-investigacion/institutos/INCIFOR"
+    buttonLink: String
 ) {
-    val context = LocalContext.current
+    val androidContext = LocalContext.current
+    val localizedContext = LocalizedContext.current
 
     Column(
         modifier = modifier
@@ -53,7 +55,7 @@ fun ScrollingEndScreenTemplate(
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Línea vertical arriba (30% de altura)
+        // Línea vertical
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -62,7 +64,7 @@ fun ScrollingEndScreenTemplate(
             LineCircleComponent()
         }
 
-        // Bloque de texto + botón (70% de altura)
+        // Bloque texto con botón
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -79,18 +81,19 @@ fun ScrollingEndScreenTemplate(
 
                 Spacer(modifier = Modifier.height(16.dp))
 
-                // Botón justo debajo del texto
+                // Botón
                 Button(
                     onClick = {
                         val intent = Intent(Intent.ACTION_VIEW, buttonLink.toUri())
-                        context.startActivity(intent)
+                        androidContext.startActivity(intent)   // 👉 este sigue con el de Android
                     },
                     shape = RoundedCornerShape(16.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF18325)),
                     modifier = Modifier.fillMaxWidth(0.7f)
                 ) {
                     Text(
-                        text = stringResource(id = data.bodyParagraphs[buttonTextIndex]),
+                        text = runCatching { localizedContext.getString(data.bodyParagraphs[buttonTextIndex]) }
+                            .getOrElse { "???" },
                         fontFamily = robotoFamily,
                         fontSize = 16.sp,
                         color = Color.White

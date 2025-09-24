@@ -12,5 +12,5 @@ fun InciforMiniScreen27(
     navController: NavController,
     modifier: Modifier = Modifier
 ) {
-   PersonalTemplateScreen(data, navController)
+    PersonalTemplateScreen(data, navController)
 }

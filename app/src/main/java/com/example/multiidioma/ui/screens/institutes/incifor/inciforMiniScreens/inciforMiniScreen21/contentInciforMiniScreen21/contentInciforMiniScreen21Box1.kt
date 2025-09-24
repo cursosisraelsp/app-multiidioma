@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen21.contentInciforMiniScreen21
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen14
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -10,11 +10,12 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMini21ScreenBox3
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen21Box1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen21Box2
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen13.contentCitiusMiniScreen13.contentCitiusMiniScreen13Box3
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen13.contentCitiusMiniScreen13.contentCitiusMiniScreen13Box1
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen13.contentCitiusMiniScreen13.contentCitiusMiniScreen13Box2
+
 @Composable
-fun InciforMiniScreen21(
+fun CitiusMiniScreen14(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -27,9 +28,9 @@ fun InciforMiniScreen21(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
             data = data,
-            Box1 = { contentInciforMiniScreen21Box1(it) },
-            Box2 = { contentInciforMiniScreen21Box2(it) },
-            Box3 = { contentInciforMini21ScreenBox3() }
+            Box1 = { contentCitiusMiniScreen13Box1(it) },
+            Box2 = { contentCitiusMiniScreen13Box2(it) },
+            Box3 = { contentCitiusMiniScreen13Box3() }
         )
     }
 }

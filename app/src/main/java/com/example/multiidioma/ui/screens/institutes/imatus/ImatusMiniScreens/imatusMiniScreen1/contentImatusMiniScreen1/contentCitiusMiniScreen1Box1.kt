@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.contentCitiusMiniScreen1
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.contentImatusMiniScreen1
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -8,12 +8,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 
 @Composable
-fun contentCitiusMiniScreen1Box1(data: MiniScreenData) {
+fun contentImatusMiniScreen1Box1() {
     Column(
         modifier = Modifier
             .fillMaxSize(),

@@ -10,9 +10,9 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMini22ScreenBox3
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen22Box1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen22Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.contentInciforMiniScreen22.contentInciforMiniScreen22Box3
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.contentInciforMiniScreen22.contentInciforMiniScreen22Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.contentInciforMiniScreen22.contentInciforMiniScreen22Box2
 
 @Composable
 fun InciforMiniScreen22(
@@ -30,7 +30,7 @@ fun InciforMiniScreen22(
             data = data,
             Box1 = { contentInciforMiniScreen22Box1(it) },
             Box2 = { contentInciforMiniScreen22Box2(it) },
-            Box3 = { contentInciforMini22ScreenBox3() }
+            Box3 = { contentInciforMiniScreen22Box3() }
         )
     }
 }

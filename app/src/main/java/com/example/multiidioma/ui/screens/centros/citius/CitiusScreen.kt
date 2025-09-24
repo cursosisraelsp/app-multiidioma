@@ -1,5 +1,5 @@
 package com.example.multiidioma.ui.screens.centros.citius
-/*
+
 import android.os.Build
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,10 +19,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.citius.CitiusViewModel
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen.CitiusMiniScreen21
+
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.CitiusMiniScreen0
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
+
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen10.CitiusMiniScreen10
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen11.CitiusMiniScreen11
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen12.CitiusMiniScreen12
@@ -34,11 +33,6 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen19.CitiusMiniScreen19
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen2.CitiusMiniScreen2
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen20.CitiusMiniScreen20
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen22.CitiusMiniScreen22
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen23.CitiusMiniScreen23
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen24.CitiusMiniScreen24
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen25.CitiusMiniScreen25
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen3.CitiusMiniScreen3
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen4.CitiusMiniScreen4
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen5.CitiusMiniScreen5
@@ -46,7 +40,7 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen7.CitiusMiniScreen7
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen8.CitiusMiniScreen8
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen9.CitiusMiniScreen9
-import com.example.multiidioma.ui.screens.institutes.citius.citiusMiniScreens.CitiusMiniScreen26.CitiusMiniScreen26
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
 
 
 @Composable
@@ -121,6 +115,7 @@ fun CitiusScreen(
 
                         6 -> CitiusMiniScreen6(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -129,6 +124,7 @@ fun CitiusScreen(
 
                         7 -> CitiusMiniScreen7(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -136,6 +132,7 @@ fun CitiusScreen(
 
                         8 -> CitiusMiniScreen8(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -143,6 +140,7 @@ fun CitiusScreen(
 
                         9 -> CitiusMiniScreen9(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -150,6 +148,7 @@ fun CitiusScreen(
 
                         10 -> CitiusMiniScreen10(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -186,7 +185,6 @@ fun CitiusScreen(
 
                         15 -> CitiusMiniScreen15(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -195,81 +193,18 @@ fun CitiusScreen(
 
                         16 -> CitiusMiniScreen16(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         17 -> CitiusMiniScreen17(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
                         )
 
-                        18 -> CitiusMiniScreen18(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
+                        18 -> CitiusMiniScreen18()
 
                         19 -> CitiusMiniScreen19(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        20 -> CitiusMiniScreen20(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        21 -> CitiusMiniScreen21(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        22 -> CitiusMiniScreen22(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        23 -> CitiusMiniScreen23(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        24 -> CitiusMiniScreen24(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        25 -> CitiusMiniScreen25(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        26 -> CitiusMiniScreen26(
-                            data,
-                            navController,
-                            podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -294,4 +229,4 @@ fun CitiusScreen(
         }
     }
 
-}*/
+}

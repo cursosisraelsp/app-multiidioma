@@ -1,9 +1,10 @@
 package com.example.multiidioma.data.repository
 
-/*
+
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 
+/*
 class CitiusRepository {
 
     fun getMiniScreens(): List<MiniScreenData> {
@@ -158,73 +159,9 @@ class CitiusRepository {
                     R.string.II_Citius_miniscreen_19_paragraph1
                 ),
                 imageRes = R.drawable.Citius_img_05
+
             ),
-            MiniScreenData(
-                id = 20,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_20_paragraph0,
-                    R.string.II_Citius_miniscreen_20_paragraph1,
-                    R.string.II_Citius_miniscreen_20_paragraph2,
-                ),
-                imageRes = R.drawable.Citius_img_05
-            ),
-            MiniScreenData(
-                id = 21,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_21_title0,
-                    R.string.II_Citius_miniscreen_21_paragraph0,
-                    R.string.II_Citius_miniscreen_21_paragraph1,
-
-                    ),
-                imageRes = R.drawable.Citius_img_05
-            ),
-            MiniScreenData(
-                id = 22,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_22_title0,
-                    R.string.II_Citius_miniscreen_22_paragraph0,
-
-
-                    ),
-                imageRes = R.drawable.Citius_img_05
-            ),
-            MiniScreenData(
-                id = 23,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_23_title0,
-                    R.string.II_Citius_miniscreen_23_paragraph0,
-
-
-                    ),
-                imageRes = R.drawable.Citius_img_05
-            ),
-            MiniScreenData(
-                id = 24,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_24_paragraph0,
-
-
-                    ),
-                imageRes = R.drawable.Citius_img_05
-            ),
-            MiniScreenData(
-                id = 25,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_25_paragraph0
-                ),
-                imageRes = R.drawable.Citius_img_01_d
-            ),
-            MiniScreenData(
-                id = 26,
-                bodyParagraphs = listOf(
-                    R.string.II_Citius_miniscreen_26_paragraph0,
-                    R.string.II_Citius_miniscreen_26_paragraph1
-                ),
-                imageRes = R.drawable.Citius_img_01_d
-            ),
-
-
-            )
+        )
     }
 
     fun getData(i: Int): MiniScreenData {
@@ -232,3 +169,5 @@ class CitiusRepository {
     }
 }
 */
+
+

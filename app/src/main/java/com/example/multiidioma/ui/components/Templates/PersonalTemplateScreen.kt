@@ -72,14 +72,15 @@ fun PersonalTemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .fillMaxHeight(0.4f)
+                    .fillMaxHeight(0.6f),
+                contentAlignment = Alignment.Center
             ) {
                 // Imagen principal si existe
                 data.imageRes?.let { res ->
                     Image(
                         painter = painterResource(res),
                         contentDescription = null,
-                        modifier = Modifier.size(120.dp)
+                        modifier = Modifier.size(200.dp)
                     )
                 }
             }

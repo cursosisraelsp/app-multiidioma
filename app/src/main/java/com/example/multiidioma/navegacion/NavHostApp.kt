@@ -56,7 +56,7 @@ fun NavHostApp(
         IdegaAppNavegacion()
         IceAppNavegacion()
         InciforAppNavegacion(listState, navController)
-        ImatusAppNavegacion()
+        ImatusAppNavegacion(listState, navController)
         IlgAppNavegacion()
         //## CENTROS
         CiqusAppNavegacion()

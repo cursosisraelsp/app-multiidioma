@@ -102,8 +102,10 @@ fun DetailScreen(
                         listState,
                         navController,
                     )
-
-                    is ContentType.IMATUS -> ImatusScreen()
+                    is ContentType.IMATUS -> ImatusScreen(
+                        listState,
+                        navController
+                    )
                     is ContentType.ILG -> IlgScreen()
                     else -> Text("screen non atopado")
                 }

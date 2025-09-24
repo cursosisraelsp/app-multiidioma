@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen25
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -9,13 +9,13 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen25Box1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen25Box2
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreen25Box3
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.contentCitiusMiniScreen16.contentCitiusMiniScreen16Box1
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.contentCitiusMiniScreen16.contentCitiusMiniScreen16Box2
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.contentCitiusMiniScreen16.contentCitiusMiniScreen16Box3
 
 
 @Composable
-fun InciforMiniScreen25(
+fun CitiusMiniScreen16(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -28,9 +28,9 @@ fun InciforMiniScreen25(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.40f, Box3 = 0.15f),
             data = data,
-            Box1 = { contentInciforMiniScreen25Box1(it) },
-            Box2 = { contentInciforMiniScreen25Box2(it) },
-            Box3 = { contentInciforMiniScreen25Box3() }
+            Box1 = { contentCitiusMiniScreen16Box1(it) },
+            Box2 = { contentCitiusMiniScreen16Box2(it) },
+            Box3 = { contentCitiusMiniScreen16Box3() }
         )
     }
 }
