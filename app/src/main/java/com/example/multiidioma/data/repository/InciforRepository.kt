@@ -14,21 +14,21 @@ fun persoasInvestigadoras() :
         MutableList<PersonalResearcher2>{
     val listaMutable = mutableListOf<PersonalResearcher2>()
     val datosAinsertar = listOf(
-        listOf(R.drawable.cientifico,"Pepe","Investigador","detalles",ContentType.MINISCREEN27),
-        listOf(R.drawable.instituto,"Xoan","Investigador","detalles",ContentType.MINISCREEN27),
-        listOf(R.drawable.instituto_all,"Anxo","Investigador","detalles",ContentType.MINISCREEN27),
-        listOf(R.drawable.centro_de_investigacion,"Alexandre","Investigador","detalles",ContentType.MINISCREEN27),
-        listOf(R.drawable.instituto,"Breixo","Investigador","detalles",ContentType.MINISCREEN27),
-        listOf(R.drawable.instituto_all,"Xoan","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.cientifico,"Pepe","Investigador",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto,"Xoan","Investigador",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto_all,"Anxo","Investigador",ContentType.MINISCREEN27),
+        listOf(R.drawable.centro_de_investigacion,"Alexandre","Investigador",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto,"Breixo","Investigador",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto_all,"Xoan","Investigador",ContentType.MINISCREEN27),
     )
 
     for (i in 0 until datosAinsertar.size) {
         val investigador = PersonalResearcher2(
             id = i.toString(),
-            foto = datosAinsertar[i][1] as Int,
-            name = datosAinsertar[i][2] as String,
-            info = datosAinsertar[i][3] as String,
-            contentType = datosAinsertar[i][4] as ContentType
+            foto = datosAinsertar[i][0] as Int,
+            name = datosAinsertar[i][1] as String,
+            info = datosAinsertar[i][2] as String,
+            contentType = datosAinsertar[i][3] as ContentType
         )
         listaMutable.add(investigador)
     }
@@ -319,8 +319,8 @@ class InciforRepository {
             )
 
         }
-        //    return lista1
-        return personalResearcher
+            return lista1
+        //return personalResearcher
     }
     fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]
