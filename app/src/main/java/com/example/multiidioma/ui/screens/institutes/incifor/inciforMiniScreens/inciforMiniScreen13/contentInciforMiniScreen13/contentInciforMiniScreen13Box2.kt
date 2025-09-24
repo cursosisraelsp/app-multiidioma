@@ -23,7 +23,6 @@ fun contentInciforMiniScreen13Box2() {
 
     Box(modifier = Modifier
         .border(width = 1.dp, color = Color.Black)
-        .background(color = Color.Red)
         .offset(x=50.dp,y=20.dp), contentAlignment = Alignment.Center){
         SvgImageUtils(
             resId = R.raw.circulo_blanco,
@@ -37,11 +36,10 @@ fun contentInciforMiniScreen13Box2() {
     }
     Box(modifier = Modifier
         .border(width = 1.dp, color = Color.Black)
-        .background(color = Color.Red)
-        .offset(x=150.dp,y=80.dp), contentAlignment = Alignment.Center){
+        .offset(x=13.dp,y=175.dp), contentAlignment = Alignment.Center){
         SvgImageUtils(
             resId = R.raw.circulo_blanco,
-            modifier = Modifier.size(150.dp)
+            modifier = Modifier.size(400.dp)
         )
         Column (horizontalAlignment = Alignment.CenterHorizontally) {
             Text("03")
@@ -49,38 +47,7 @@ fun contentInciforMiniScreen13Box2() {
         }
 
     }
-    /*Column {
 
-        Box(modifier = Modifier
-            .border(width = 1.dp, color = Color.Black)
-            .background(color = Color.Red)
-            .offset(x=50.dp,y=20.dp), contentAlignment = Alignment.Center){
-            SvgImageUtils(
-                resId = R.raw.circulo_blanco,
-                modifier = Modifier.size(300.dp)
-            )
-            Column (horizontalAlignment = Alignment.CenterHorizontally) {
-                Text("03")
-                Text("este texto en Incifor")
-            }
-
-        }
-        Box(modifier = Modifier
-            .border(width = 1.dp, color = Color.Black)
-            .background(color = Color.Red)
-            .offset(x=150.dp,y=80.dp), contentAlignment = Alignment.Center){
-            SvgImageUtils(
-                resId = R.raw.circulo_blanco,
-                modifier = Modifier.size(150.dp)
-            )
-            Column (horizontalAlignment = Alignment.CenterHorizontally) {
-                Text("03")
-                Text("este texto en Incifor")
-            }
-
-        }
-
-    }*/
 
 }
 
