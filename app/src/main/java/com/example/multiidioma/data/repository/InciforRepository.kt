@@ -7,6 +7,35 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.PersonalResearcher
+import com.example.multiidioma.data.types.PersonalResearcher2
+
+
+fun persoasInvestigadoras() :
+        MutableList<PersonalResearcher2>{
+    val listaMutable = mutableListOf<PersonalResearcher2>()
+    val datosAinsertar = listOf(
+        listOf(R.drawable.cientifico,"Pepe","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto,"Xoan","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto_all,"Anxo","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.centro_de_investigacion,"Alexandre","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto,"Breixo","Investigador","detalles",ContentType.MINISCREEN27),
+        listOf(R.drawable.instituto_all,"Xoan","Investigador","detalles",ContentType.MINISCREEN27),
+    )
+
+    for (i in 0 until datosAinsertar.size) {
+        val investigador = PersonalResearcher2(
+            id = i.toString(),
+            foto = datosAinsertar[i][1] as Int,
+            name = datosAinsertar[i][2] as String,
+            info = datosAinsertar[i][3] as String,
+            contentType = datosAinsertar[i][4] as ContentType
+        )
+        listaMutable.add(investigador)
+    }
+    return listaMutable
+}
+
+
 
 val personalResearcher = listOf(
     PersonalResearcher(
@@ -14,7 +43,7 @@ val personalResearcher = listOf(
         foto = R.drawable.cientifico,
         name = "Pepe",
         info = "Investigador",
-        ruta = "miniscreen27",
+        ruta = "detalles/0",
         contentType = ContentType.MINISCREEN27
     ),
     PersonalResearcher(
@@ -22,7 +51,7 @@ val personalResearcher = listOf(
         foto = R.drawable.instituto,
         name = "Xoan",
         info = "Investigador na área de ...",
-        ruta = "miniscreen28",
+        ruta = "detalles/1",
         contentType = ContentType.MINISCREEN28
     ),
     PersonalResearcher(
@@ -30,7 +59,7 @@ val personalResearcher = listOf(
         foto = R.drawable.instituto_all,
         name = "Anxo",
         info = "Investigador na área do Citius",
-        ruta = "miniscreen27",
+        ruta = "detalles/2",
         contentType = ContentType.MINISCREEN27
     ),
     PersonalResearcher(
@@ -38,7 +67,7 @@ val personalResearcher = listOf(
         foto = R.drawable.centro_de_investigacion,
         name = "Xoan",
         info = "Investigador",
-        ruta = "miniscreen28",
+        ruta = "detalles/3",
         contentType = ContentType.MINISCREEN28
     ),
     PersonalResearcher(
@@ -46,10 +75,12 @@ val personalResearcher = listOf(
         foto = R.drawable.instituto_all,
         name = "Alexandre",
         info = "Investigador",
-        ruta = "detalles/2",
+        ruta = "detalles/4",
         contentType = ContentType.MINISCREEN28
     )
 )
+
+
 
 class InciforRepository {
 
@@ -276,6 +307,19 @@ class InciforRepository {
     }
 
     fun getPersonalResearcher(): List<PersonalResearcher>{
+        val personal = persoasInvestigadoras()
+        val lista1: List<PersonalResearcher> = personal.map{ investigador ->
+            PersonalResearcher(
+                id = investigador.id,
+                foto = investigador.foto,
+                name = investigador.name,
+                info = investigador.info,
+                ruta = investigador.ruta,
+                contentType = investigador.contentType
+            )
+
+        }
+        //    return lista1
         return personalResearcher
     }
     fun getData(i: Int): MiniScreenData {

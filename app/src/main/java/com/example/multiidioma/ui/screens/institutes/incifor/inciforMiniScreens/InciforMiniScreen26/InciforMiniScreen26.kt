@@ -72,19 +72,23 @@ List<PersonalResearcher>?
             items(data.personalResearcher!!){ researcher ->
                 Column (
                     modifier = Modifier.clickable {
+                        val ruta = "${researcher.ruta}/${researcher.id}"
+                        //navController.navigate(ruta)
+                        //navController.navigate("detalles/0")
                         navController.navigate(researcher.ruta)
                     }
                 ) {
+                    val ruta = "${researcher.ruta}/${researcher.id}"
                     Image(painter = painterResource(researcher.foto), contentDescription = "foto")
+                    Text("### A ruta é ###")
+                    Text("${researcher.ruta}")
+                    Text("······O id é····")
+                    Text("${researcher.id}")
+                    Text("····A RUTA CONCACT")
+                    Text("$ruta")
                 }
             }
         }
-        Button(onClick = {
-            //navController.navigate("miniscreen27")
-            data.personalResearcher?.get(0)?.let { navController.navigate(it.ruta) }
-        },
-            modifier = Modifier.background(color = Color.Green)) {
-            Text("ir a miniscreen 27")
-        }
+
     }
 }

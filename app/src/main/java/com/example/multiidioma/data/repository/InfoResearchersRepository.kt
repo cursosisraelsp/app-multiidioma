@@ -4,7 +4,7 @@ import com.example.multiidioma.data.types.PersonalResearcher
 import kotlinx.coroutines.delay
 
 
-class InfoRepositoryResearchers(){
+class InfoResearchersRepository(){
 
    private val infoReaseachersIncifor = InciforRepository()
 

@@ -2,7 +2,7 @@ package com.example.multiidioma.ui.screens.plantilla
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.multiidioma.data.repository.InfoRepositoryResearchers
+import com.example.multiidioma.data.repository.InfoResearchersRepository
 import com.example.multiidioma.data.types.PersonalResearcher
 import com.example.multiidioma.data.types.states.PlantillaState
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -19,7 +19,7 @@ class PlantillaViewModel : ViewModel(){
     }
 
     private fun loadPlantillaIncifor(){
-        val datesIncifor = InfoRepositoryResearchers()
+        val datesIncifor = InfoResearchersRepository()
         viewModelScope.launch {
             val listaResearchersIncifor = datesIncifor.infoReaseachersIncifor()
             _uiState.value = PlantillaState.Success(listaResearchersIncifor)
