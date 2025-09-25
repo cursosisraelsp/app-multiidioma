@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
@@ -26,16 +27,17 @@ val provider = GoogleFont.Provider(
 )
 
 // Define las fuentes que usarás
-val bodyFontFamily = GoogleFont(name = "Roboto")
+val bodyFontFamily = GoogleFont(name = "Roboto Condensed")
 val displayFontFamily = GoogleFont(name = "Montserrat")
-
+//val displayFontFamily = GoogleFont(name = "Oswald")
 val AppTypography = Typography(
     // Usa la familia de fuentes para el cuerpo del texto
     bodyLarge = TextStyle(
         fontFamily = FontFamily(
             Font(
                 googleFont = bodyFontFamily,
-                fontProvider = provider
+                fontProvider = provider,
+                weight = FontWeight.Bold
             )
 
         )
@@ -46,8 +48,7 @@ val AppTypography = Typography(
             Font(
                 googleFont = displayFontFamily,
                 fontProvider = provider,
-                weight = FontWeight.Bold,
-
+                weight = FontWeight.Medium
                 ),
             //Font(resId = R.font.roboto_bold)
         )

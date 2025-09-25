@@ -170,10 +170,10 @@ fun InciforScreen(
                         )
 
                         13 -> InciforMiniScreen13(
-                            data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            navController
                         )
 
                         14 -> InciforMiniScreen14(
