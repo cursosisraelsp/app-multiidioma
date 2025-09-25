@@ -5,8 +5,8 @@ data class PersonalResearcher(
     val id:String,
     val foto:Int,
     val name: String?,
-    //val info: List<String?>,
-    val info: String?,
+    val info: List<String?>,
+    //val info: String?,
     val ruta:String,
     val contentType: ContentType?,
 )
@@ -14,8 +14,8 @@ data class PersonalResearcher2(
     val id:String,
     val foto:Int,
     val name: String?,
-    //val info: List<String?>,
-    val info: String,
+    val info: List<String?>,
+    //val info: String,
     val contentType: ContentType?,
 ){
 
@@ -27,7 +27,7 @@ data class PersonalResearcher2(
 data class PersonResearcher(
     val foto:Int,
     val name: String?,
-    //val info: List<String?>,
-    val info: String?,
+    val info: List<String?>,
+   //val info: String?,
     val contentType: ContentType?
 )
