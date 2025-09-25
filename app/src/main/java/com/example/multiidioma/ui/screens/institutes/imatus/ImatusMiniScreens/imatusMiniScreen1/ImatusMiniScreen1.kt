@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen1
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -6,10 +6,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.Imatus.ImatusMiniScreens.ImatusMiniScreen1.contentImatusMiniScreen1.contentImatusMiniScreen1Box2
-
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.contentImatusMiniScreen1.contentImatusMiniScreen1Box2
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.contentImatusMiniScreen1.contentImatusMiniScreen1Box3
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.contentImatusMiniScreen1.contentImatusMiniScreen1Box1
 
 
@@ -22,7 +23,7 @@ fun ImatusMiniScreen1(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF32627E))
     ) {
         Box(
             modifier = modifier
@@ -30,9 +31,11 @@ fun ImatusMiniScreen1(
         ) {
 
             TemplateScreen(
+                BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.8f, Box3 = 0.1f),
                 data = data,
                 Box1 = { contentImatusMiniScreen1Box1() },
                 Box2 = { contentImatusMiniScreen1Box2(it) },
+                Box3 = { contentImatusMiniScreen1Box3() },
             )
         }
     }

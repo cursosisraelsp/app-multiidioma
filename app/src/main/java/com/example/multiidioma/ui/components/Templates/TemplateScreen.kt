@@ -16,31 +16,43 @@ import com.example.multiidioma.data.valoresTemplateScreen
 fun TemplateScreen(
     data: MiniScreenData,
     BoxWeight: BOX = valoresTemplateScreen,
-    Box1: @Composable (MiniScreenData) -> Unit = {},
-    Box2: @Composable (MiniScreenData) -> Unit = {},
-    Box3: @Composable (MiniScreenData) -> Unit = {}
+    Box1: (@Composable (MiniScreenData) -> Unit)? = null,
+    Box2: (@Composable (MiniScreenData) -> Unit)? = null,
+    Box3: (@Composable (MiniScreenData) -> Unit)? = null
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(BoxWeight.Box1)
-        ) {
-            Box1(data)
+
+        // Box1
+        if (Box1 != null && BoxWeight.Box1 > 0f) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(BoxWeight.Box1)
+            ) {
+                Box1(data)
+            }
         }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(BoxWeight.Box2)
-        ) {
-            Box2(data)
+
+        // Box2
+        if (Box2 != null && BoxWeight.Box2 > 0f) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(BoxWeight.Box2)
+            ) {
+                Box2(data)
+            }
         }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(BoxWeight.Box3)
-        ) {
-            Box3(data)
+
+        // Box3
+        if (Box3 != null && BoxWeight.Box3 > 0f) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(BoxWeight.Box3)
+            ) {
+                Box3(data)
+            }
         }
     }
 }

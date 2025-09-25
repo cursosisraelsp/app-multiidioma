@@ -237,7 +237,6 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_28_paragraph0,
                     R.string.More_info
                 ),
-                imageRes = R.drawable.incifor_img_01_d
             ),
 
 

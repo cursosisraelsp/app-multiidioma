@@ -1,3 +1,4 @@
+/*
 package com.example.multiidioma.ui.screens.centros.citius
 
 
@@ -56,3 +57,4 @@ class CitiusViewModel : ViewModel() {
         }
     }
 }
+*/

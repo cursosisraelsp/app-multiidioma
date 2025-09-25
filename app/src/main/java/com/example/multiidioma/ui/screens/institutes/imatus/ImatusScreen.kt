@@ -18,37 +18,14 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.imatus.ImatusViewModel
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen21.ImatusMiniScreen21
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0.ImatusMiniScreen0
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen10.ImatusMiniScreen10
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen11.ImatusMiniScreen11
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen12.ImatusMiniScreen12
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen13.ImatusMiniScreen13
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen14.ImatusMiniScreen14
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen15.ImatusMiniScreen15
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen16.ImatusMiniScreen16
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen17.ImatusMiniScreen17
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen18.ImatusMiniScreen18
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen19.ImatusMiniScreen19
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen2.ImatusMiniScreen2
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen20.ImatusMiniScreen20
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen22.ImatusMiniScreen22
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen23.ImatusMiniScreen23
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen24.ImatusMiniScreen24
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen25.ImatusMiniScreen25
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen3.ImatusMiniScreen3
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.ImatusMiniScreen5
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen6.ImatusMiniScreen6
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.ImatusMiniScreen7
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen8.ImatusMiniScreen8
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen9.ImatusMiniScreen9
-import com.example.multiidioma.ui.screens.institutes.imatus.imatusMiniScreens.ImatusMiniScreen26.ImatusMiniScreen26
-import com.example.multiidioma.ui.screens.institutes.imatus.imatusMiniScreens.ImatusMiniScreen27.ImatusMiniScreen27
-import com.example.multiidioma.ui.screens.institutes.imatus.imatusMiniScreens.imatusMiniScreen28.ImatusMiniscreen28
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens0.imatusMiniScreen0.ImatusMiniScreen0
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen5.ImatusMiniScreen5
 
+@Composable
 fun ImatusScreen(
     listState: LazyListState,
     navController: NavController,
@@ -114,181 +91,12 @@ fun ImatusScreen(
 
                         5 -> ImatusMiniScreen5(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        6 -> ImatusMiniScreen6(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-
-                        )
-
-                        7 -> ImatusMiniScreen7(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        8 -> ImatusMiniScreen8(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        9 -> ImatusMiniScreen9(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        10 -> ImatusMiniScreen10(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        11 -> ImatusMiniScreen11(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        12 -> ImatusMiniScreen12(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        13 -> ImatusMiniScreen13(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        14 -> ImatusMiniScreen14(
-                            navController,
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        15 -> ImatusMiniScreen15(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-
-                        )
-
-                        16 -> ImatusMiniScreen16(
-                            data,
                             navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
-                        17 -> ImatusMiniScreen17(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        18 -> ImatusMiniScreen18(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        19 -> ImatusMiniScreen19(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        20 -> ImatusMiniScreen20(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        21 -> ImatusMiniScreen21(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        22 -> ImatusMiniScreen22(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        23 -> ImatusMiniScreen23(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        24 -> ImatusMiniScreen24(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        25 -> ImatusMiniScreen25(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        26 -> ImatusMiniScreen26(
-                            data,
-                            navController,
-                            podcastsMultimedia,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        27 -> ImatusMiniScreen27(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        28 -> ImatusMiniscreen28(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
 
                         else -> Text("MiniScreen desconocida")
                     }

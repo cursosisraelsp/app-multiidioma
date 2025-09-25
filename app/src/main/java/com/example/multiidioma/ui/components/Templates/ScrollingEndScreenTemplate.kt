@@ -85,11 +85,11 @@ fun ScrollingEndScreenTemplate(
                 Button(
                     onClick = {
                         val intent = Intent(Intent.ACTION_VIEW, buttonLink.toUri())
-                        androidContext.startActivity(intent)   // 👉 este sigue con el de Android
+                        androidContext.startActivity(intent)   //  este sigue con el de Android
                     },
                     shape = RoundedCornerShape(16.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF18325)),
-                    modifier = Modifier.fillMaxWidth(0.7f)
+                    modifier = Modifier
                 ) {
                     Text(
                         text = runCatching { localizedContext.getString(data.bodyParagraphs[buttonTextIndex]) }

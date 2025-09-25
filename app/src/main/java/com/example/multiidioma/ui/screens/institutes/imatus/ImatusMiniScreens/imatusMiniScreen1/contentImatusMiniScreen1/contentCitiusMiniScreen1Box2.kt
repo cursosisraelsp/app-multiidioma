@@ -1,17 +1,27 @@
-package com.example.multiidioma.ui.screens.Imatus.ImatusMiniScreens.ImatusMiniScreen1.contentImatusMiniScreen1
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.contentImatusMiniScreen1
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.BoxImage
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 
@@ -19,20 +29,39 @@ import com.example.multiidioma.utils.TextBodyMedium
 fun contentImatusMiniScreen1Box2(data: MiniScreenData) {
 
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        modifier = Modifier.fillMaxSize(),
+        alignment = Alignment.Center,
+        contentScale = ContentScale.Fit
     )
+
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, top = 50.dp)
-
-
+            .padding(horizontal = 50.dp, vertical = 20.dp)
     ) {
-        TextBodyMedium(data)
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(0.45f),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            TextBodyMedium(data, index = 0)
 
-        Spacer(modifier = Modifier.height(25.dp))
+            SpacerText()
 
-        ReusableImage(data, estilosImagen)
+            TextBodyMedium(data, index = 1)
+        }
 
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(0.55f),
+            contentAlignment = Alignment.Center
+        ) {
+            ReusableImage(data, estilosImagen)
+        }
     }
 }

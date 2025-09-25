@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen27
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

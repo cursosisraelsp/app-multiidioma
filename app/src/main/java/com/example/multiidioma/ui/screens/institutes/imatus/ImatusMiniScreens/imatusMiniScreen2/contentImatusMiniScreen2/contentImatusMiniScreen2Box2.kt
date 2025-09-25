@@ -9,10 +9,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
@@ -28,10 +30,8 @@ fun contentImatusMiniScreen2Box2(data: MiniScreenData) {
             .padding(top = 10.dp, bottom = 50.dp, start = 50.dp, end = 50.dp)
     ) {
 
-        TextBodyMedium(data)
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        ReusableImage(data, estilosImagen)
+        TextBodyMedium(data, index = 0, textAlign = TextAlign.Center)
+        SpacerText()
+        TextBodyMedium(data, index = 1, textAlign = TextAlign.Center)
     }
 }

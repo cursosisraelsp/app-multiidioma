@@ -1,3 +1,3 @@
-package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17
+package com.example.multiidioma.ui.screens.centros.citius.citiusMiniScreens.citiusMiniScreen17
 
-fun CitiusMiniScreen17 (){}
+fun CitiusMiniScreen17(){}

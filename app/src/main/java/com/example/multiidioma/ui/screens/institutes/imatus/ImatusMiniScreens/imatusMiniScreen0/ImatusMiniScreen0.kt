@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
@@ -23,7 +24,7 @@ fun ImatusMiniScreen0(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF32627E))
     ) {
         Box(
             modifier = modifier
@@ -36,7 +37,9 @@ fun ImatusMiniScreen0(
                     .aspectRatio(9f / 16f)
             )
         }
+
         TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.5f, Box3 = 0.2f),
             data = data,
             Box2 = { contentImatusMiniScreen0Box2(it) },
             Box3 = { contentImatusMiniScreen0Box3() })

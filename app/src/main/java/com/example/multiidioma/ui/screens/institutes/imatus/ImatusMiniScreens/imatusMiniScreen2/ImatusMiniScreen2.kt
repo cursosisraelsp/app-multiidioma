@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen3
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen2
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -14,18 +14,17 @@ import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScr
 
 
 @Composable
-fun ImatusMiniScreen3(
+fun ImatusMiniScreen2(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
-
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.7f, Box3 = 0.2f),
+            BoxWeight = BOX(Box1 = 0f, Box2 = 0.5f, Box3 = 0.5f),
             data = data,
             Box2 = { contentImatusMiniScreen2Box2(it) },
             Box3 = { contentImatusMiniScreen2Box3(it) }
