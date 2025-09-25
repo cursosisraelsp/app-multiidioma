@@ -31,5 +31,8 @@
     <string name="II_INCIFOR_miniscreen_26_paragraph0">Prueba Directivo 1</string>
     <string name="II_INCIFOR_miniscreen_26_paragraph1">Prueba Directivo 2</string>
     <string name="Research_Staff">PERSOAL INVESTIGADOR</string>
+    <string name="info_investigador_test_1">Soy investigador</string>
+    <string name="info_investigador_test_2">na área de microbilioxía</string>
+    <string name="info_investigador_test_3">Nací en Coruña</string>
 
 </resources>

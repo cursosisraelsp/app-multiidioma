@@ -27,7 +27,7 @@ fun persoasInvestigadoras() :
             id = index.toString(),
             foto = investigador.foto,
             name = investigador.name ?: "",
-            info = investigador.info ?: listOf(""),
+            info = investigador.info ?: listOf(0),
             contentType = investigador.contentType ?: ContentType.MINISCREEN27
         )
         listaMutable.add(investigadorNuevo)

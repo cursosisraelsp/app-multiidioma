@@ -86,27 +86,27 @@ val valorFigura4 = NavegationFiguresData(
 val mvlhIncifor = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
-    info = listOf("Soy investigador ","en el área de microbilioxía","Nacín en Coruña"),
+    info = listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
 
 val ambbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Bermejo Barrera",
-    info =  listOf("Soy investigador ","en el área de microbilioxía","Nacín en Coruña"),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
 
 val jimbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Ignacio Muñoz Barús",
-    info =  listOf("Soy investigador ","en el área de microbilioxía","Nacín en Coruña"),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
 
 val aclIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Angelines Cruz Landeira",
-    info =  listOf("Soy investigador ","en el área de microbilioxía","Nacín en Coruña"),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )

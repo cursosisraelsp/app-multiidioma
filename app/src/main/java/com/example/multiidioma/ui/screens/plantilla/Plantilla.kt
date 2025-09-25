@@ -10,8 +10,11 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.data.types.states.PlantillaState
+import com.example.multiidioma.ui.LocalizedContext
 
 @Composable
 fun Plantilla(itemId : String){
@@ -30,6 +33,7 @@ fun Plantilla(itemId : String){
         }
 
         is PlantillaState.Success -> {
+            val context = LocalizedContext.current
             val itemIdInt = itemId.toInt()
             val datos = (uiState as PlantillaState.Success).infoResearchers[itemIdInt]
             if(datos != null){
@@ -41,7 +45,8 @@ fun Plantilla(itemId : String){
                     datos.info?.let {  lista ->
                         lista.forEach { item ->
                             if (item != null) {
-                                Text("Elemento: $item")
+
+                                Text(context.getString(item))
                             }
                         } }
                 }

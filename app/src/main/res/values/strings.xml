@@ -31,5 +31,8 @@
     <string name="II_INCIFOR_miniscreen_26_paragraph0">Prueba Directivo 1</string>
     <string name="II_INCIFOR_miniscreen_26_paragraph1">Prueba Directivo 2</string>
     <string name="Research_Staff">RESEARCH STAFF</string>
+    <string name="info_investigador_test_1">I am a researcher</string>
+    <string name="info_investigador_test_2">in the area of microbiology</string>
+    <string name="info_investigador_test_3">I was born in Coruña.</string>
 
 </resources>
