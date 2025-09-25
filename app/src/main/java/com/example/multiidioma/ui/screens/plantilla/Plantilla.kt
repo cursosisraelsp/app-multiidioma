@@ -38,7 +38,12 @@ fun Plantilla(itemId : String){
                     datos.name?.let { Text(it) }
 
                     // comento a seguinte liña porque será un párrafo
-                    //datos.info?.let { Text(it) }
+                    datos.info?.let {  lista ->
+                        lista.forEach { item ->
+                            if (item != null) {
+                                Text("Elemento: $item")
+                            }
+                        } }
                 }
 
             }else{
