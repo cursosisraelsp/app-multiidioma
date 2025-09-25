@@ -86,27 +86,27 @@ val valorFigura4 = NavegationFiguresData(
 val mvlhIncifor = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
-    info = "dfasdf",
+    info = "",
     contentType = ContentType.MINISCREEN27
 )
 
 val ambbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Bermejo Barrera",
-    info = "",
+    info =  "",
     contentType = ContentType.MINISCREEN27
 )
 
 val jimbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Ignacio Muñoz Barús",
-    info = "listOf",
+    info =  "",
     contentType = ContentType.MINISCREEN27
 )
 
 val aclIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Angelines Cruz Landeira",
-    info = "fasdf",
+    info =  "",
     contentType = ContentType.MINISCREEN27
 )

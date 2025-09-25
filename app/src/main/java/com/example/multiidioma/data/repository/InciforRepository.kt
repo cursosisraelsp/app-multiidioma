@@ -37,55 +37,12 @@ fun persoasInvestigadoras() :
 
 
 
-val personalResearcher = listOf(
-    PersonalResearcher(
-        id = "0",
-        foto = R.drawable.cientifico,
-        name = "Pepe",
-        info = "Investigador",
-        ruta = "detalles/0",
-        contentType = ContentType.MINISCREEN27
-    ),
-    PersonalResearcher(
-        id = "1",
-        foto = R.drawable.instituto,
-        name = "Xoan",
-        info = "Investigador na área de ...",
-        ruta = "detalles/1",
-        contentType = ContentType.MINISCREEN28
-    ),
-    PersonalResearcher(
-        id = "2",
-        foto = R.drawable.instituto_all,
-        name = "Anxo",
-        info = "Investigador na área do Citius",
-        ruta = "detalles/2",
-        contentType = ContentType.MINISCREEN27
-    ),
-    PersonalResearcher(
-        id = "3",
-        foto = R.drawable.centro_de_investigacion,
-        name = "Xoan",
-        info = "Investigador",
-        ruta = "detalles/3",
-        contentType = ContentType.MINISCREEN28
-    ),
-    PersonalResearcher(
-        id = "4",
-        foto = R.drawable.instituto_all,
-        name = "Alexandre",
-        info = "Investigador",
-        ruta = "detalles/4",
-        contentType = ContentType.MINISCREEN28
-    )
-)
-
 
 
 class InciforRepository {
 
     fun getMiniScreens(): List<MiniScreenData> {
-        //val lista = persoasInvestigadoras()
+
         return listOf(
             MiniScreenData(
                 id = 0,
@@ -300,8 +257,8 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph1
                 ),
                 imageRes = R.drawable.incifor_img_01_d,
-                personalResearcher = personalResearcher
-                //personalResearcher = lista
+                personalResearcher = getPersonalResearcher()
+
             )
 
 
@@ -322,7 +279,7 @@ class InciforRepository {
 
         }
             return lista1
-        //return personalResearcher
+
     }
     fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]

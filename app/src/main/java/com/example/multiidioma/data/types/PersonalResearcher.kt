@@ -27,6 +27,7 @@ data class PersonalResearcher2(
 data class PersonResearcher(
     val foto:Int,
     val name: String?,
+    //val info: List<String?>,
     val info: String?,
     val contentType: ContentType?
 )
