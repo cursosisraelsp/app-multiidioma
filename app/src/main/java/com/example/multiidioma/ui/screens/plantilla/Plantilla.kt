@@ -36,7 +36,9 @@ fun Plantilla(itemId : String){
                 Column {
                     Text("Isto é un texto de plantilla $itemId")
                     datos.name?.let { Text(it) }
-                    datos.info?.let { Text(it) }
+
+                    // comento a seguinte liña porque será un párrafo
+                    //datos.info?.let { Text(it) }
                 }
 
             }else{

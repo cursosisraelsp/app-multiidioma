@@ -41,7 +41,6 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
         ModalNavigationDrawer(
             drawerState = drawerState,
             drawerContent = {
-
                 if (condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen) {
                     ModalDrawerSheet {
                         Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))

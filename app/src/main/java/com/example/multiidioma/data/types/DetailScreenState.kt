@@ -5,4 +5,5 @@ data class DetailScreenState(
     val detailListSingularsCenters : CarouselItem? = null,
     val detailListInstitus : CarouselItem? = null,
     val detailListMiniScreensIncifor : PersonalResearcher? = null
+    //val detailListMiniScreensIncifor : PersonalResearcher2? = null
 )

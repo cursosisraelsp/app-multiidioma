@@ -5,7 +5,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
+import com.example.multiidioma.data.types.PersonResearcher
 
 val des = Resources.getSystem().displayMetrics
 val numLetra = (80/des.density).sp
@@ -76,4 +78,35 @@ val valorFigura4 = NavegationFiguresData(
     textoInfo = "este texto en Incifor",
     anchoTexto = relacionTextoGrande,
     relacionText = numLetra
+)
+
+
+/// INVESTIGADORES
+
+val mvlhIncifor = PersonResearcher(
+    foto = R.drawable.cientifico,
+    name = "María Victoria Lareu Huidobro",
+    info = "dfasdf",
+    contentType = ContentType.MINISCREEN27
+)
+
+val ambbIncifor =  PersonResearcher(
+    foto = R.drawable.cientifico,
+    name = "Ana María Bermejo Barrera",
+    info = "",
+    contentType = ContentType.MINISCREEN27
+)
+
+val jimbIncifor =  PersonResearcher(
+    foto = R.drawable.cientifico,
+    name = "José Ignacio Muñoz Barús",
+    info = "listOf",
+    contentType = ContentType.MINISCREEN27
+)
+
+val aclIncifor =  PersonResearcher(
+    foto = R.drawable.cientifico,
+    name = "Angelines Cruz Landeira",
+    info = "fasdf",
+    contentType = ContentType.MINISCREEN27
 )
