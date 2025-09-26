@@ -11,6 +11,8 @@ val whiteColor = Color.White
 val nomeInstitutos = listOf("IHUS", "IDEGA", "ICE", "INCIFOR", "IMATUS", "ILG")
 val nomeCentros = listOf("CIQUS", "CIMUS", "CITIUS", "CRETUS", "IGFAE", "IDIS")
 
+val urlIhus = "https://www.usc.gal/es/node/49934"
+
 data class BOX(
     val Box1: Float,
     val Box2: Float,
@@ -18,3 +20,4 @@ data class BOX(
 )
 
 val valoresTemplateScreen = BOX(Box1 = 0.1f, Box2 = 0.33f, Box3 = 0.33f)
+

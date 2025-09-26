@@ -12,7 +12,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIhusMiniScreen7TitleText(data: MiniScreenData) {
@@ -28,8 +28,8 @@ fun contentIhusMiniScreen7TitleText(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        TextBodyMedium(data, estilosTextos, index = 0)
-        TextBodyMedium(data, estilosTextos, index = 1)
-        TextBodyMedium(data, estilosTextos, index = 2)
+        AppText(data, estilosTextos, index = 0)
+        AppText(data, estilosTextos, index = 1)
+        AppText(data, estilosTextos, index = 2)
     }
 }

@@ -17,7 +17,7 @@ import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIhusMiniScreen3Box2(data: MiniScreenData) {
@@ -33,7 +33,7 @@ fun contentIhusMiniScreen3Box2(data: MiniScreenData) {
             .padding(top = 40.dp, bottom = 15.dp, start = 50.dp, end = 50.dp)
     ) {
 
-        TextBodyMedium(data, estilosTextos)
+        AppText(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(5.dp))
 

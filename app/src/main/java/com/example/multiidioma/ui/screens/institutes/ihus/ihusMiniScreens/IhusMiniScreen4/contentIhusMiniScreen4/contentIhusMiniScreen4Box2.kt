@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.data.StyleImages
 import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
@@ -40,7 +40,7 @@ fun contentIhusMiniScreen4Box2(data: MiniScreenData) {
             .fillMaxSize()
                 .fillMaxWidth()
                 .weight(0.4f))
-        {TextBodyMedium(data, estilosTextos)}
+        {AppText(data, estilosTextos)}
         Box(
             modifier = Modifier
                 .fillMaxSize()

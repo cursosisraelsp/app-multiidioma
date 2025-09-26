@@ -50,7 +50,7 @@ fun NavHostApp(
         IceAppNavegacion()
         InciforAppNavegacion()
         ImatusAppNavegacion()
-        IlgAppNavegacion()
+        IlgAppNavegacion(listState, navController)
         //## CENTROS
         CiqusAppNavegacion()
         //->CimusAppNavegacion(listState)

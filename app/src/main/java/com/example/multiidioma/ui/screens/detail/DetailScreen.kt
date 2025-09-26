@@ -100,7 +100,7 @@ fun DetailScreen(
                     is ContentType.ICE -> IceScreen()
                     is ContentType.INCIFOR -> InciforScreen()
                     is ContentType.IMATUS -> ImatusScreen()
-                    is ContentType.ILG -> IlgScreen()
+                    is ContentType.ILG -> IlgScreen(listState, navController)
                     else -> Text("screen non atopado")
                 }
             }

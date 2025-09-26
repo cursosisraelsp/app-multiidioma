@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -9,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7BodyText
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7CircleImage
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7TitleText
@@ -27,12 +29,30 @@ fun IhusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        TemplateCircleScreen(
-            navController = navController,
-            data = data,
-            CircleImage = { contentIhusMiniScreen7CircleImage(it) },
-            TitleText = { contentIhusMiniScreen7TitleText(it) },
-            BodyText = { contentIhusMiniScreen7BodyText(it) }
-        )
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+
+            VideoScreen(
+                videoId = "92UgRKX8ooM", // tu ID de video
+                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f)
+            )
+        }
+
+
+
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+            TemplateCircleScreen(
+                navController = navController,
+                data = data,
+                CircleImage = { contentIhusMiniScreen7CircleImage(it) },
+                TitleText = { contentIhusMiniScreen7TitleText(it) },
+                BodyText = { contentIhusMiniScreen7BodyText(it) }
+            )
+        }
     }
 }

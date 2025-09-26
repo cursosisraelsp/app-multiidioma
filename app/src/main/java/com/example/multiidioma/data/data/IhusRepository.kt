@@ -22,7 +22,7 @@ class IhusRepository {
                     R.string.II_IHUS_miniscreen_1_paragraph0,
                     R.string.II_IHUS_miniscreen_1_paragraph1,
                 ),
-                imageRes = R.drawable.ihus_img_03
+                imageRes = R.drawable.ihus_img_01
 
             ),
             MiniScreenData(

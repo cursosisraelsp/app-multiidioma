@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -13,11 +12,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
-
 
 
 // Define el proveedor de la fuente
@@ -30,31 +30,48 @@ val provider = GoogleFont.Provider(
 // Define las fuentes que usarás
 val bodyFontFamily = GoogleFont(name = "Roboto")
 val displayFontFamily = GoogleFont(name = "Montserrat")
+val titleFontFamily = GoogleFont("Merriweather")
 
+//Definir variables para especificar familias de manera clara
+val robotoFamily = FontFamily(
+    Font(googleFont = bodyFontFamily, fontProvider = provider)
+)
+val montserratFamily = FontFamily(
+    Font(googleFont = displayFontFamily, fontProvider = provider)
+)
+val merriweatherFamily = FontFamily(
+    Font(googleFont = titleFontFamily, fontProvider = provider)
+)
+
+// Configuración de tipografía
 val AppTypography = Typography(
-    // Usa la familia de fuentes para el cuerpo del texto
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily(
-            Font(
-                googleFont = bodyFontFamily,
-                fontProvider = provider
-            )
 
-        )
+    bodyMedium = TextStyle(
+        fontFamily = robotoFamily,
+        fontSize = 16.sp
     ),
-    // Y para los títulos o display text
-    displayLarge = TextStyle(
-        fontFamily = FontFamily(
-            Font(
-                googleFont = displayFontFamily,
-                fontProvider = provider,
-                weight = FontWeight.Bold,
+    titleSmall = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 28.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 36.sp
+    ),
 
-                ),
-            //Font(resId = R.font.roboto_bold)
-        )
+    displayMedium = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontStyle = FontStyle.Italic,
+        fontSize = 24.sp
     )
-    // ... y los demás estilos de Typography
+
 )
 
 private val DarkColorScheme = darkColorScheme(
@@ -98,7 +115,7 @@ fun MultiidiomaTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = AppTypography,
         content = content
     )
 }

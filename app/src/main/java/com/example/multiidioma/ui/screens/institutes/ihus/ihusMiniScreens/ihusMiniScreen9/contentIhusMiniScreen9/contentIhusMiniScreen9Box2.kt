@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.data.StyleImages
 import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIhusMiniScreen9Box2(data: MiniScreenData) {
@@ -32,14 +32,14 @@ fun contentIhusMiniScreen9Box2(data: MiniScreenData) {
                 .fillMaxWidth()
                 .padding(start = 20.dp, end = 20.dp, top = 25.dp, bottom = 25.dp)
         ) {
-            TextBodyMedium(data, estilosTextos, index = 0)
+            AppText(data, estilosTextos, index = 0)
         }
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 20.dp, end = 20.dp)
         ) {
-            TextBodyMedium(data, estilosTextos, index = 1)
+            AppText(data, estilosTextos, index = 1)
         }
     }
 }

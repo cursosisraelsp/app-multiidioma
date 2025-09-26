@@ -46,7 +46,7 @@ fun TextWithCircle(
                 .fillMaxWidth(0.7f)
                 .background(Color.Blue)
         ) {
-            TextBodyMedium(data = data, style = style, index = index)
+            AppText(data = data, style = style, index = index)
         }
 
     }
