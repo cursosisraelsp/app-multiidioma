@@ -50,21 +50,39 @@ class ImatusRepository {
             MiniScreenData(
                 id = 5,
                 bodyParagraphs = listOf(
-                    R.string.II_IMATUS_miniscreen_5_paragraph_0
+                    R.string.II_IMATUS_miniscreen_5_title_0,
+                    R.string.II_IMATUS_miniscreen_5_paragraph_0,
+                    R.string.II_IMATUS_miniscreen_5_title_1,
+                    R.string.II_IMATUS_miniscreen_5_paragraph_1,
+                    R.string.II_IMATUS_miniscreen_5_title_2,
+                    R.string.II_IMATUS_miniscreen_5_paragraph_2,
+                    R.string.II_IMATUS_miniscreen_5_title_3,
+                    R.string.II_IMATUS_miniscreen_5_paragraph_3,
                 ),
 
                 ),
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
-                    R.string.II_IMATUS_miniscreen_6_paragraph_0
+                    R.string.II_IMATUS_miniscreen_6_title_0,
+                    R.string.II_IMATUS_miniscreen_6_paragraph_0,
+                    R.string.II_IMATUS_miniscreen_6_title_1,
+                    R.string.II_IMATUS_miniscreen_6_paragraph_1,
+                    R.string.II_IMATUS_miniscreen_6_title_2,
+                    R.string.II_IMATUS_miniscreen_6_paragraph_2,
+
                 ),
 
                 ),
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_IMATUS_miniscreen_7_paragraph_0
+                    R.string.II_IMATUS_miniscreen_7_title_0,
+                    R.string.II_IMATUS_miniscreen_7_paragraph_0,
+                    R.string.II_IMATUS_miniscreen_7_title_1,
+                    R.string.II_IMATUS_miniscreen_7_paragraph_1,
+                    R.string.II_IMATUS_miniscreen_7_title_2,
+                    R.string.II_IMATUS_miniscreen_7_paragraph_2,
                 ),
 
                 ),

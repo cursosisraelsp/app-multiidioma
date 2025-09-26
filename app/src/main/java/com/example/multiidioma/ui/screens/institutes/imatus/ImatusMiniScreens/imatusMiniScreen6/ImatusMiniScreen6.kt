@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen5
+package com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen6
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -10,14 +10,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.VideoScreen
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5BodyText
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5CircleImage
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5TitleText
-import com.example.multiidioma.utils.imatusUtils.ImatusTemplateScreen1
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen6.contentImatusMiniScreen6.contentImatusMiniScreen6BodyText
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen6.contentImatusMiniScreen6.contentImatusMiniScreen6CircleImage
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen6.contentImatusMiniScreen6.contentImatusMiniScreen6TitleText
+import com.example.multiidioma.utils.imatusUtils.ImatusTemplateScreen2
 
 
 @Composable
-fun ImatusMiniScreen5(
+fun ImatusMiniScreen6(
     data: MiniScreenData,
     navController: NavController,
     modifier: Modifier = Modifier,
@@ -38,12 +38,12 @@ fun ImatusMiniScreen5(
                     .aspectRatio(9f / 16f)
             )
         }
-        ImatusTemplateScreen1(
+        ImatusTemplateScreen2(
             navController = navController,
             data = data,
-            CircleImage = { contentImatusMiniScreen5CircleImage(it) },
-            TitleText = { contentImatusMiniScreen5TitleText(it) },
-            BodyText = { contentImatusMiniScreen5BodyText(it) }
+            CircleImage = { contentImatusMiniScreen6CircleImage(it) },
+            TitleText = { contentImatusMiniScreen6TitleText(it) },
+            BodyText = { contentImatusMiniScreen6BodyText(it) }
         )
     }
 }

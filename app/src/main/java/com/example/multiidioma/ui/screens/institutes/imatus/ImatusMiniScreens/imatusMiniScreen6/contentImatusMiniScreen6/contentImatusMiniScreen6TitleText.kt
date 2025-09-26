@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen6.contentImatusMiniScreen6
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -7,13 +7,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
-fun contentImatusMiniScreen5TitleText(data: MiniScreenData) {
+fun contentImatusMiniScreen6TitleText(data: MiniScreenData) {
 
     Column(
         modifier = Modifier
@@ -22,7 +21,7 @@ fun contentImatusMiniScreen5TitleText(data: MiniScreenData) {
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
-        TextTitleMedium(data, index = 0, textAlign = TextAlign.Center)
+        TextTitleMedium(data, index = 0)
 
         /*TextTitleMedium(data, index = 1) aqui puede que tenga que separar MATERIALES de PARA LA SALUD*/
     }

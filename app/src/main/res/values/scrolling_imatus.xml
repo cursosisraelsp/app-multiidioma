@@ -43,30 +43,30 @@
     <string name="II_IMATUS_miniscreen_5_title_0">MATERIALS FOR HEALTH</string>
     <string name="II_IMATUS_miniscreen_5_paragraph_0">The rise in diseases associated with changes in the lifestyle of modern society has highlighted the need to develop new tools for detection and treatment. Among the main challenges are early diagnosis in asymptomatic phases and personalization of treatments, with the aim of minimizing unwanted side effects in patients. To address these challenges, it is key to promote technologies that allow early diagnosis and better treatment. Some of the progress made is as follows.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_0">the need to develop new tools for detection and treatment</string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_1">Adapted medicines development:</string>
+    <string name="II_IMATUS_miniscreen_5_title_1">Adapted medicines development:</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_1">Adapted medicines development: </string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_2">Development of specialized treatments for diseases that do not have a commercial medicine available, and that adapt to the specific needs of each patient. A prominent example is personalized medicines for children with rare diseases, which ensure the effectiveness and safety of their treatments.</string>
+    <string name="II_IMATUS_miniscreen_5_paragraph_1">Development of specialized treatments for diseases that do not have a commercial medicine available, and that adapt to the specific needs of each patient. A prominent example is personalized medicines for children with rare diseases, which ensure the effectiveness and safety of their treatments.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_2">personalized medicines for children with rare diseases</string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_3">Regenerative medicine:</string>
+    <string name="II_IMATUS_miniscreen_5_title_2">Regenerative medicine:</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_3">Regenerative medicine:</string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_4">Through the creation of structures known as scaffolds, inspired by organic or biological forms, it is possible to stimulate regeneration of damaged tissues. These scaffolds are made from biocompatible materials, which avoid rejection by the organism, while stimulating tissue repair.</string>
+    <string name="II_IMATUS_miniscreen_5_paragraph_2">Through the creation of structures known as scaffolds, inspired by organic or biological forms, it is possible to stimulate regeneration of damaged tissues. These scaffolds are made from biocompatible materials, which avoid rejection by the organism, while stimulating tissue repair.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_4">avoid rejection by the organism</string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_5">Alternative methods of animal research:</string>
+    <string name="II_IMATUS_miniscreen_5_title_3">Alternative methods of animal research:</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_5">Alternative methods of animal research:</string>
-    <string name="II_IMATUS_miniscreen_5_paragraph_6">Develop artificial organs and disease models to improve the validity of preclinical trial results, while avoiding the technical and ethical challenges associated with research on living beings.</string>
+    <string name="II_IMATUS_miniscreen_5_paragraph_3">Develop artificial organs and disease models to improve the validity of preclinical trial results, while avoiding the technical and ethical challenges associated with research on living beings.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_6">avoiding the technical and ethical</string>
 
     <!--PANTALLA 7-->
     <string name="II_IMATUS_miniscreen_6_title_0">MATERIALS FOR INDUSTRY AND EMERGING TECHNOLOGIES</string>
     <string name="II_IMATUS_miniscreen_6_paragraph_0">The development of new materials that promote technological advances is essential to ensure the sustainability and viability of these innovations. Some of these materials are based on emerging technologies, such as photonics or quantum physics, and promise to play a key role in supercomputing and transmitting information at high speeds. Among the projects associated with this branch of research are:</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_0">sustainability and viability</string>
-    <string name="II_IMATUS_miniscreen_6_paragraph_1">Photonic materials and quantum computation:</string>
+    <string name="II_IMATUS_miniscreen_6_title_1">Photonic materials and quantum computation:</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_1">Photonic materials and quantum computation:</string>
-    <string name="II_IMATUS_miniscreen_6_paragraph_2">Encryption capacity and speed in communications, especially when it comes to sensitive information, are essential to preserve their safety. This is why studies are carried out in photonic materials, which allow faster and more accurate information transmissions, and in quantum computing, which enables much safer data encryption systems.</string>
+    <string name="II_IMATUS_miniscreen_6_paragraph_1">Encryption capacity and speed in communications, especially when it comes to sensitive information, are essential to preserve their safety. This is why studies are carried out in photonic materials, which allow faster and more accurate information transmissions, and in quantum computing, which enables much safer data encryption systems.</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_2">to preserve their safety</string>
-    <string name="II_IMATUS_miniscreen_6_paragraph_3">Advanced heterogeneous catalysts:</string>
+    <string name="II_IMATUS_miniscreen_6_title_2">Advanced heterogeneous catalysts:</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_3">Advanced heterogeneous catalysts:</string>
-    <string name="II_IMATUS_miniscreen_6_paragraph_4">In order to improve chemical processes, iMATUS develops materials that act as catalysts capable of activating chemical reactions without wearing out. These reusable catalysts allow for more accurate and efficient reactions, which contributes to reducing the energy consumption and environmental impact of numerous synthesis processes.</string>
+    <string name="II_IMATUS_miniscreen_6_paragraph_2">In order to improve chemical processes, iMATUS develops materials that act as catalysts capable of activating chemical reactions without wearing out. These reusable catalysts allow for more accurate and efficient reactions, which contributes to reducing the energy consumption and environmental impact of numerous synthesis processes.</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_4">catalysts capable of activating chemical reactions</string>
 
 
@@ -74,13 +74,13 @@
     <string name="II_IMATUS_miniscreen_7_title_0">MATERIALS FOR ENERGY AND ENVIRONMENT</string>
     <string name="II_IMATUS_miniscreen_7_paragraph_0">It is essential to find more sustainable solutions that reduce the environmental impact of human activities without compromising quality of life. This involves research focused both on energy efficiency and on the reduction of environmental pollution. Below are some of the research projects that the Institute develops within this line.</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_0">the environmental impact</string>
-    <string name="II_IMATUS_miniscreen_7_paragraph_1">Clean energy with better performance:</string>
+    <string name="II_IMATUS_miniscreen_7_title_1">Clean energy with better performance:</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_1">Clean energy with better performance:</string>
-    <string name="II_IMATUS_miniscreen_7_paragraph_2">The development of nanolubricants for wind mills (wind turbines) allows optimization of energy production by reducing friction between its components. In addition, iMATUS investigates the design of advanced devices for energy storage and new methods of hydrogen production as a clean source.</string>
+    <string name="II_IMATUS_miniscreen_7_paragraph_1">The development of nanolubricants for wind mills (wind turbines) allows optimization of energy production by reducing friction between its components. In addition, iMATUS investigates the design of advanced devices for energy storage and new methods of hydrogen production as a clean source.</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_2">optimization of energy production</string>
-    <string name="II_IMATUS_miniscreen_7_paragraph_3">Detection of microplastics:</string>
+    <string name="II_IMATUS_miniscreen_7_title_2">Detection of microplastics:</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_3">Detection of microplastics:</string>
-    <string name="II_IMATUS_miniscreen_7_paragraph_4">The increase in pollutants that are difficult to eliminate, such as microplastics and various chemical agents, requires the development of effective systems for the detection and elimination of the environment. iMATUS develops intensive research in the development of trap systems.</string>
+    <string name="II_IMATUS_miniscreen_7_paragraph_2">The increase in pollutants that are difficult to eliminate, such as microplastics and various chemical agents, requires the development of effective systems for the detection and elimination of the environment. iMATUS develops intensive research in the development of trap systems.</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_4">pollutants that are difficult to eliminate</string>
 
     <!--PANTALLA 9-->

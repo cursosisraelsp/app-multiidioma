@@ -24,6 +24,8 @@ import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens0.imatusMiniSc
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen5.ImatusMiniScreen5
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen6.ImatusMiniScreen6
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen7.ImatusMiniScreen7
 
 @Composable
 fun ImatusScreen(
@@ -90,6 +92,22 @@ fun ImatusScreen(
                         )
 
                         5 -> ImatusMiniScreen5(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        6 -> ImatusMiniScreen6(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        7 -> ImatusMiniScreen7(
                             data,
                             navController,
                             Modifier

@@ -54,6 +54,7 @@ val AppTypography = Typography(
         fontFamily = merriweatherFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
+
     ),
     titleMedium = TextStyle(
         fontFamily = merriweatherFamily,
