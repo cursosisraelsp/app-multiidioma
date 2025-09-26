@@ -31,7 +31,6 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_2_paragraph_0,
                     R.string.II_ILG_miniscreen_2_paragraph_1,
                 ),
-                imageRes = R.drawable.ilg_img_01_logotipO
             ) ,
             MiniScreenData(
                 id = 3,

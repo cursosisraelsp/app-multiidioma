@@ -14,11 +14,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.data.StyleImages
 import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.SvgImageComponent
 
 
 @Composable
@@ -63,7 +65,8 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
                     .weight(0.3f)
             )
             {
-                ReusableImage(data, estilosImagen)
+                SvgImageComponent(R.raw.logo_ilga_0)
+                //ReusableImage(data, estilosImagen)
             }
         }
     }
