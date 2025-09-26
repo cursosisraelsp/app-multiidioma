@@ -8,6 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen19aaa.contentIpsiusMiniScreen19.contentIpsiusMiniScreen19Box1
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen19aaa.contentIpsiusMiniScreen19.contentIpsiusMiniScreen19Box2
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen19aaa.contentIpsiusMiniScreen19.contentIpsiusMiniScreen19Box3
 
 
 @Composable
@@ -20,6 +24,11 @@ fun IpsiusMiniScreen19(
             .fillMaxSize()
             .background(Color(0xFFBCE0F0))
     ) {
+        PlantillaScreen(
+            data = data,
+            Box1 = { contentIpsiusMiniScreen19Box1()},
+            Box2 = { contentIpsiusMiniScreen19Box2(it) },
+            Box3 = { contentIpsiusMiniScreen19Box3(it) })
 
     }
 }

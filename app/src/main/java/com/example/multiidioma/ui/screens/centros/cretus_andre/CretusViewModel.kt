@@ -47,7 +47,23 @@ class CretusViewModel : ViewModel() {
                     listaCretusRepository.getData(18),
                     listaCretusRepository.getData(19),
                     listaCretusRepository.getData(20),
-                    listaCretusRepository.getData(21)
+                    listaCretusRepository.getData(21),
+                    listaCretusRepository.getData(22),
+                    listaCretusRepository.getData(23),
+                    listaCretusRepository.getData(24),
+                    listaCretusRepository.getData(25),
+                    listaCretusRepository.getData(26),
+                    listaCretusRepository.getData(27),
+                    listaCretusRepository.getData(28),
+                    listaCretusRepository.getData(29),
+                    listaCretusRepository.getData(30),
+                    listaCretusRepository.getData(31),
+                    listaCretusRepository.getData(32),
+                    listaCretusRepository.getData(33),
+                    listaCretusRepository.getData(34),
+                    listaCretusRepository.getData(35),
+                    listaCretusRepository.getData(36)
+
 
                 )
             )

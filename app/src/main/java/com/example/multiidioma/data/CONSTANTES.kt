@@ -10,6 +10,9 @@ val whiteColor = Color.White
 
 val nomeInstitutos = listOf("IHUS","IDEGA","ICE","INCIFOR","IMATUS","ILG","IPSIUS","IARCUS")
 val nomeCentros = listOf("CIQUS","CIMUS","CITIUS","CRETUS","IGFAE","IDIS")
+val urlCretus = "https://cretus.usc.es/"
+val urlIarcus= "https://arcus.usc.es/"
+val urlIgfae= "https://igfae.usc.es/igfae/"
 data class BOX(
     val Box1: Float,
     val Box2: Float,
@@ -17,4 +20,4 @@ data class BOX(
 )
 
 val valoresPlantillaScreen = BOX(Box1 = 0.1f, Box2 = 0.33f, Box3 = 0.33f)
-
+val valoresTemplateScreen = BOX(Box1 = 0.1f, Box2 = 0.33f, Box3 = 0.33f)

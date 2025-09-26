@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 @Composable
-fun ContentIgfaeMiniScreen3Box2() {
+fun contentIgfaeMiniScreen3Box2() {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,

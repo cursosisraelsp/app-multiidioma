@@ -13,7 +13,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIgfaeMiniScreen21Box2(data: MiniScreenData){
@@ -27,9 +27,9 @@ fun contentIgfaeMiniScreen21Box2(data: MiniScreenData){
         val estiloTextos =
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
 
-        TextBodyMedium(data, estiloTextos)
+        AppText(data, estiloTextos)
 
-        TextBodyMedium(data, estiloTextos)
+        AppText(data, estiloTextos)
 
 
     }

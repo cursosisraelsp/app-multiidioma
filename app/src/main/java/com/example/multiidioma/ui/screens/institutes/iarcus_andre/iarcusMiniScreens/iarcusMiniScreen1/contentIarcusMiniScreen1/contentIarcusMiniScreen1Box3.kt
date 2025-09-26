@@ -16,7 +16,7 @@ fun contentIarcusMiniScreen1Box3(data: MiniScreenData) {
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
     )
     ReusableImage(data, estilosImagen)
-        }
+}
 
 
 

@@ -17,7 +17,7 @@ import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -38,7 +38,7 @@ fun contentIgfaeMiniScreen2Box2(data: MiniScreenData) {
                     textAlign = TextAlign.Center
                 )
 
-            TextBodyMedium(data, estiloTextos)
+            AppText(data, estiloTextos)
 
 
             ReusableImage(

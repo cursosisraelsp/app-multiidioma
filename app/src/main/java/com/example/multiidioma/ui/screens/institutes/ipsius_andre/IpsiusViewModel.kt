@@ -47,7 +47,16 @@ class IpsiusViewModel : ViewModel() {
                     listaIpsiusRepository.getData(18),
                     listaIpsiusRepository.getData(19),
                     listaIpsiusRepository.getData(20),
-                    listaIpsiusRepository.getData(21)
+                    listaIpsiusRepository.getData(21),
+                    listaIpsiusRepository.getData(22),
+                    listaIpsiusRepository.getData(23),
+                    listaIpsiusRepository.getData(24),
+                    listaIpsiusRepository.getData(25),
+                    listaIpsiusRepository.getData(26),
+                    listaIpsiusRepository.getData(27),
+                    listaIpsiusRepository.getData(28),
+                    listaIpsiusRepository.getData(29),
+                    listaIpsiusRepository.getData(30)
 
                 )
             )

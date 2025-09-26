@@ -18,7 +18,7 @@ import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun ContentIarcusMiniScreen3Box1(data: MiniScreenData) {
@@ -45,7 +45,7 @@ fun ContentIarcusMiniScreen3Box1(data: MiniScreenData) {
             ReusableImage(data, estilosImagen)
 
 
-            TextBodyMedium(data, estilosTextos)
+            AppText(data, estilosTextos)
         }
     }
 }

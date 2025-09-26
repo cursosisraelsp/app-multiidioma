@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.screens.centros.igfae_andre
 
-
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -25,6 +24,8 @@ import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.I
 import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen14a.IgfaeMiniScreen14
 import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen15a.IgfaeMiniScreen15
 import com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen9a.IgfaeMiniScreen9
+
+
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen0a.IgfaeMiniScreen0
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen1.IgfaeMiniScreen1
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen16a.IgfaeMiniScreen16
@@ -34,6 +35,14 @@ import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.i
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen2.IgfaeMiniScreen2
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen20.IgfaeMiniScreen20
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.IgfaeMiniScreen21
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen22.IgfaeMiniScreen22
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen23.IgfaeMiniScreen23
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen24.IgfaeMiniScreen24
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen25.IgfaeMiniScreen25
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen26.IgfaeMiniScreen26
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen27.IgfaeMiniScreen27
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen28i.IgfaeMiniScreen28
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen29www.IgfaeMiniScreen29
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen3.IgfaeMiniScreen3
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.IgfaeMiniScreen4
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen5.IgfaeMiniScreen5
@@ -41,6 +50,7 @@ import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.i
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen7a.IgfaeMiniScreen7
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen8a.IgfaeMiniScreen8
 import com.example.multiidioma.ui.screens.institutes.Igfae_andre.IgfaeViewModel
+
 
 @Composable
 fun IgfaeScreen(listState: LazyListState, navController: NavController) {
@@ -218,7 +228,54 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-
+                        22 -> IgfaeMiniScreen22(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        23 -> IgfaeMiniScreen23(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        24 -> IgfaeMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        25 -> IgfaeMiniScreen25(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        26 -> IgfaeMiniScreen26(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        27 -> IgfaeMiniScreen27(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        28 -> IgfaeMiniScreen28(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        29 -> IgfaeMiniScreen29(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
 
                         else -> Text("MiniScreen desconocida")
                     }

@@ -11,10 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.utils.TemplateCircleScreen.BodyTextCircleTemplateUtil
-import com.example.multiidioma.utils.TemplateCircleScreen.BoxArrowBackSpace
-import com.example.multiidioma.utils.TemplateCircleScreen.CircleImageUtil
-import com.example.multiidioma.utils.TemplateCircleScreen.TitleTextCircleTemplateutil
+import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
+import com.example.multiidioma.utils.TemplateCircleScreenUtils.BoxArrowBackSpace
+import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil
+import com.example.multiidioma.utils.TemplateCircleScreenUtils.TitleTextCircleTemplateutil
 
 
 @Composable

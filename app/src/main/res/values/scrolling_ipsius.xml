@@ -1,113 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-
-
-        <string name="II_IPSIUS_miniscreen_0_paragraph0">The human mind is perhaps the greatest mystery in the known universe. It is capable of imagining galaxies, composing symphonies, solving impossible equations and building entire worlds from an idea. But it can also be fragile, vulnerable, prey to pain, fear and uncertainty. Mental health, for too long relegated to the background, is today one of the central axes of social well-being.</string>
-        <string name="paragraph_11">asdasdasd</string>
-        <string name="paragraph_22">asdasdasd</string>
-        <string name="paragraph_33">asdasda</string>
-        <string name="IPSIUS_miniscreen_0_paragraph0">asdasdasd</string>
-
-        <!-- <string name="II_IPSIUS_miniscreen_0_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_1_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_1_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_2_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_2_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_3_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_3_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_4_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_4_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_5_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_5_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_5_paragraph2"></string>
-       <string name="II_IPSIUS_miniscreen_6_title0"></string>
-       <string name="II_IPSIUS_miniscreen_7_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_7_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_7_title0"></string>
-       <string name="II_IPSIUS_miniscreen_8_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_8_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_8_title0"></string>
-       <string name="II_IPSIUS_miniscreen_9_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_9_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_9_title0"></string>
-       <string name="II_IPSIUS_miniscreen_10_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_10_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_10_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_10_title0"></string>
-       <string name="II_IPSIUS_miniscreen_11_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_11_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_11_title0"></string>
-       <string name="II_IPSIUS_miniscreen_12_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_12_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_12_title0"></string>
-       <string name="II_IPSIUS_miniscreen_13_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_13_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_13_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_13_title0"></string>
-       <string name="II_IPSIUS_miniscreen_14_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_14_title0"></string>
-       <string name="II_IPSIUS_miniscreen_15_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_15_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_16_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_16_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_17_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_17_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_17_paragraph2"></string>
-       <string name="II_IPSIUS_miniscreen_18_title0"></string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph0">Directora: Isabel Fraga Carou</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph1">Secretaria: Socorro Rodríguez Holguín</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph2">Carmela Martínez Vispo</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph3">Elisardo Becoña Iglesias</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph4">Francisco Caamaño Isorna</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph5">Narmeen Mallah Nasrallah</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph6">Fernando Cadaveira Mahía</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph7">Estrella Romero Triñanes</string>
-       <string name="II_IPSIUS_miniscreen_19_paragraph8">Laura López-Romero</string>
-       <string name="II_IPSIUS_miniscreen_19_title0">EQUIPO DIRECTIVO</string>
-       <string name="II_IPSIUS_miniscreen_19_title1">PERSONAL INVESTIGADOR</string>
-       <string name="II_IPSIUS_miniscreen_20_paragraph0">Directora</string>
-       <string name="II_IPSIUS_miniscreen_20_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_20_title0">ISABEL FRAGA CAROU</string>
-       <string name="II_IPSIUS_miniscreen_20_title0">ISABEL FRAGA CAROU</string>
-       <string name="II_IPSIUS_miniscreen_21_paragraph0">Secretaria</string>
-       <string name="II_IPSIUS_miniscreen_21_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_21_title0">SOCORRO RODRÍGUEZ HOLGUÍN</string>
-       <string name="II_IPSIUS_miniscreen_21_title0">SOCORRO RODRÍGUEZ HOLGUÍN</string>
-       <string name="II_IPSIUS_miniscreen_22_paragraph0">Investigadora</string>
-       <string name="II_IPSIUS_miniscreen_22_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_22_title0">CARMELA MARTÍNEZ VISPO</string>
-       <string name="II_IPSIUS_miniscreen_22_title0">SOCORRO RODRÍGUEZ HOLGUÍN</string>
-       <string name="II_IPSIUS_miniscreen_23_paragraph0">Investigador</string>
-       <string name="II_IPSIUS_miniscreen_23_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_23_title0">ELISARDO BECOÑA IGLESIAS</string>
-       <string name="II_IPSIUS_miniscreen_23_title0">ELISARDO BECOÑA IGLESIAS</string>
-       <string name="II_IPSIUS_miniscreen_24_paragraph0">Investigador</string>
-       <string name="II_IPSIUS_miniscreen_24_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_24_title0">FRANCISCO CAAMAÑO ISORNA</string>
-       <string name="II_IPSIUS_miniscreen_24_title0">FRANCISCO CAAMAÑO ISORNA</string>
-       <string name="II_IPSIUS_miniscreen_25_paragraph0">Investigadora</string>
-       <string name="II_IPSIUS_miniscreen_25_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_25_title0">NARMEEN MALLAH NASRALLAH</string>
-       <string name="II_IPSIUS_miniscreen_25_title0">NARMEEN MALLAH NASRALLAH</string>
-       <string name="II_IPSIUS_miniscreen_26_paragraph0">Investigador</string>
-       <string name="II_IPSIUS_miniscreen_26_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_26_title0">FERNANDO CADAVEIRA MAHÍA</string>
-       <string name="II_IPSIUS_miniscreen_26_title0">FERNANDO CADAVEIRA MAHÍA</string>
-       <string name="II_IPSIUS_miniscreen_27_paragraph0">Investigadora</string>
-       <string name="II_IPSIUS_miniscreen_27_paragraph1">hello</string>
-       <string name="II_IPSIUS_miniscreen_27_title0">ESTRELLA ROMERO TRIÑANES</string>
-       <string name="II_IPSIUS_miniscreen_27_title0">ESTRELLA ROMERO TRIÑANES</string>
-       <string name="II_IPSIUS_miniscreen_28_paragraph0">Investigadora</string>
-       <string name="II_IPSIUS_miniscreen_28_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_28_title0">LAURA LÓPEZ-ROMERO</string>
-       <string name="II_IPSIUS_miniscreen_28_title0">LAURA LÓPEZ-ROMERO</string>
-       <string name="II_IPSIUS_miniscreen_29_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_29_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_30_paragraph0"></string>
-       <string name="II_IPSIUS_miniscreen_30_paragraph1"></string>
-       <string name="II_IPSIUS_miniscreen_30_paragraph1"></string>-->
-
-
+        <!-- PANTALLA 0 -->
+        <string name="II_IPSIUS_miniscreen_0_paragraph_0">The human mind is perhaps the greatest mystery in the known universe. It is capable of imagining galaxies, composing symphonies, solving impossible equations and building entire worlds from an idea. But it can also be fragile, vulnerable, prey to pain, fear and uncertainty. Mental health, for too long relegated to the background, is today one of the central axes of social well-being.</string>
+        <string name="II_IPSIUS_miniscreen_0_texto_buscado_0">human mind</string>
+        <string name="II_IPSIUS_miniscreen_0_texto_buscado_1">Mental health</string>
+        <!-- PANTALLA 1 -->
+        <string name="II_IPSIUS_miniscreen_1_paragraph_0">Every thought, every emotion, every decision we make is rooted in complex psychological processes. Understanding them improves our individual lives and the structures of our communities, our education, our working relationships and even the political decisions that affect us all.</string>
+        <string name="II_IPSIUS_miniscreen_1_texto_buscado_0">complex psychological processes</string>
+        <string name="II_IPSIUS_miniscreen_1_paragraph_1">In a world that is changing at a dizzying pace - technologically, socially, demographically - the study of human behaviour can no longer be confined to the walls of a consulting room. It is becoming an essential research front for adapting, protecting and growing. Mental health is more than a clinical issue: it is an issue of innovation, inclusion and sustainability.</string>
+        <string name="II_IPSIUS_miniscreen_1_texto_buscado_1">adapting, protecting and growing</string>
+        <!-- PANTALLA 2 -->
+        <string name="II_IPSIUS_miniscreen_2_paragraph_0">From Galicia, in the heart of the Campus Vida of the University of Santiago de Compostela, a firm commitment is born to place psychology at the centre of human progress. A structure that not only observes, but also acts. That not only evaluates, but also builds answers. A community of researchers working together to build bridges between psychological science and the challenges of the 21st century.</string>
+        <string name="II_IPSIUS_miniscreen_2_texto_buscado_0">University of Santiago de Compostela</string>
+        <string name="II_IPSIUS_miniscreen_2_paragraph_1">This is how the IPsiUS (Institute of Psychology of the USC), was created. A place where the mind becomes the engine of transformation.</string>
+        <string name="II_IPSIUS_miniscreen_2_texto_buscado_1">IPsiUS (Institute of Psychology of the USC)</string>
+        <!-- PANTALLA 3 -->
+        <string name="II_IPSIUS_miniscreen_3_paragraph_0">The IPsiUS (Instituto de Psicoloxía da Universidade de Santiago de Compostela) was born in 2024 in response to a growing need: to integrate psychological knowledge within the major social and scientific priorities of the present. Although young in its formal constitution, it represents the consolidation of decades of accumulated research in different areas of psychology developed at the USC.</string>
+        <string name="II_IPSIUS_miniscreen_3_texto_buscado_0">was born in 2024</string>
+        <string name="II_IPSIUS_miniscreen_3_texto_buscado_1">decades of accumulated research</string>
+        <string name="II_IPSIUS_miniscreen_3_paragraph_1">Provisionally located in the Faculty of Psychology, in the South Campus of the USC, the IPsiUS is one of the institutes promoted by the university to reinforce its commitment to research excellence. Its mission is clear: to understand, explain and predict the cognitive, affective and social processes that underpin human behaviour. But also - and this is essential - to transfer this knowledge to applied solutions that improve health, well-being and social cohesion.</string>
+        <string name="II_IPSIUS_miniscreen_3_texto_buscado_2">South Campus of the USC</string>
+        <string name="II_IPSIUS_miniscreen_3_texto_buscado_3">explain and predict the cognitive, affective and social processes that underpin human behaviour</string>
+        <!-- PANTALLA 4 -->
+        <string name="II_IPSIUS_miniscreen_4_paragraph_0">The institute functions as a structure for coordination and collaboration between different research groups. It currently brings together 46 researchers working in both basic and applied research. Its approach is multidisciplinary, dynamic, and highly oriented towards transfer and internationalisation.</string>
+        <string name="II_IPSIUS_miniscreen_4_texto_buscado_0">46 researchers working</string>
+        <string name="II_IPSIUS_miniscreen_4_paragraph_1">Its scientific strategy is articulated around three major global challenges: promoting health and well-being, building inclusive and diverse societies, and contributing to the development of a sustainable digital society. From this perspective, psychology becomes an essential tool for understanding phenomena as diverse as healthy ageing, social resilience, addictions and emotional education in childhood.</string>
+        <string name="II_IPSIUS_miniscreen_4_texto_buscado_1">promoting health and well-being, building inclusive and diverse societies, and contributing to the development of a sustainable digital society</string>
+        <!-- PANTALLA 5 -->
+        <string name="II_IPSIUS_miniscreen_5_paragraph_0">Beyond the USC itself, the IPsiUS maintains active collaborations with institutions all over the world: from Germany to Brazil, from China to Sweden. This global projection allows the knowledge generated in Galicia to have a real impact in different contexts, thus enriching both research and its practical application.</string>
+        <string name="II_IPSIUS_miniscreen_5_texto_buscado_0">collaborations with institutions all over the world</string>
+        <string name="II_IPSIUS_miniscreen_5_paragraph_1">With an agile structure, a committed scientific management and a transformative vision, the IPsiUS is committed to establishing itself as a benchmark for psychological research in Spain.</string>
+        <string name="II_IPSIUS_miniscreen_5_texto_buscado_1">IPsiUS</string>
+        <!-- PANTALLA 6 -->
+        <string name="II_IPSIUS_miniscreen_6_title_0">RESEARCH AREAS</string>
+        <!-- PANTALLA 7 -->
+        <string name="II_IPSIUS_miniscreen_7_title_0" translatable="false">TRATAPSICOLÓXICO:</string>
+        <string name="II_IPSIUS_miniscreen_7_paragraph_0">Mental Health and Addictions</string>
+        <string name="II_IPSIUS_miniscreen_7_paragraph_1">The Tratapsicolóxico group focuses on some of the most relevant areas of mental health: addictions, depression, anxiety and psychological intervention in physical health problems such as asthma or kidney disease. From smoking to cocaine dependence, pathological gambling and co-morbidity with mental health problems such as depression, her work focuses on people with problems that are detrimental to both their physical and mental health. The priority is always evidence-based intervention and direct improvement in patients\' quality of life.</string>
+        <string name="II_IPSIUS_miniscreen_7_texto_buscado_0">addictions, depression, anxiety and psychological intervention in physical health problems such as asthma or kidney disease</string>
+        <string name="II_IPSIUS_miniscreen_7_texto_buscado_1">evidence-based intervention and direct improvement in patients\' quality of life</string>
+        <!-- PANTALLA 8 -->
+        <string name="II_IPSIUS_miniscreen_8_title_0" translatable="false">UNDERISK:</string>
+        <string name="II_IPSIUS_miniscreen_8_paragraph_0">Risk behaviours and development</string>
+        <string name="II_IPSIUS_miniscreen_8_paragraph_1">The UNDERISK group focuses on the study of childhood and adolescence, and the behavioural and emotional problems that emerge in the early stages of life. UNDERISK adopts a developmental perspective, that is, it examines how, when and why problems and difficulties emerge, persist or change as individuals grow up. Its methods focus on following individuals over time, through longitudinal studies that look at multiple problems, including aggression, addictions, vulnerability to stress, problematic technology use or school maladjustment. In a complementary way, the emotional bases of these difficulties are studied through attentional and psychophysiological techniques. Based on these lines, the group proposes and validates prevention strategies adapted to the current challenges of child and adolescent development.</string>
+        <string name="II_IPSIUS_miniscreen_8_texto_buscado_0">study of childhood and adolescence, and the behavioural and emotional problems</string>
+        <string name="II_IPSIUS_miniscreen_8_texto_buscado_1">the emotional bases of these difficulties are studied through attentional and psychophysiological techniques</string>
+        <!-- PANTALLA 9 -->
+        <string name="II_IPSIUS_miniscreen_9_title_0" translatable="false">NECEA:</string>
+        <string name="II_IPSIUS_miniscreen_9_paragraph_0">Cognitive and affective neuroscience</string>
+        <string name="II_IPSIUS_miniscreen_9_paragraph_1">From the laboratory to the classroom, the NECEA group studies the neural bases of our emotions and cognitive processes in situations such as intensive alcohol consumption in young people or healthy ageing. They use psychophysiological techniques, such as EEG or functional magnetic resonance imaging, and neuropsychological assessment tests to analyse attention, learning and memory or emotion recognition. Their research is applied in the field of neuropsychological rehabilitation, which reinforces the role of neuroscience in improving health and well-being.</string>
+        <string name="II_IPSIUS_miniscreen_9_texto_buscado_0">our emotions and cognitive processes</string>
+        <string name="II_IPSIUS_miniscreen_9_texto_buscado_1">EEG or functional magnetic resonance imaging, and neuropsychological assessment tests</string>
+        <!-- PANTALLA 10 -->
+        <string name="II_IPSIUS_miniscreen_10_title_0" translatable="false">NEUCOGA-AGING:</string>
+        <string name="II_IPSIUS_miniscreen_10_paragraph_0">Ageing and cognitive functions</string>
+        <string name="II_IPSIUS_miniscreen_10_paragraph_1">The NeuCogA-Aging group addresses one of the major concerns of the 21st century: age-related cognitive decline. They study the rates of healthy ageing and ageing with deterioration in cognitive processes such as attention, memory, language and executive functions. To do this, they use psychological, neuropsychological and functional assessment techniques, techniques for recording brain electrical activity, structural and functional neuroimaging techniques, complemented with genetic and proteomic biomarkers in blood, specific to neurodegeneration.</string>
+        <string name="II_IPSIUS_miniscreen_10_texto_buscado_0">age-related cognitive decline</string>
+        <string name="II_IPSIUS_miniscreen_10_paragraph_2">In addition, they are investigating the usefulness of cognitive stimulation techniques and non-invasive brain stimulation to delay the onset of symptoms linked to neurodegenerative processes, such as Alzheimer\'s disease. These lines of work are essential to improve the health and well-being of an increasingly long-lived population.</string>
+        <string name="II_IPSIUS_miniscreen_10_texto_buscado_1">cognitive stimulation techniques and non-invasive brain stimulation</string>
+        <!-- PANTALLA 11 -->
+        <string name="II_IPSIUS_miniscreen_11_title_0">COGNITION AND BEHAVIOUR:</string>
+        <string name="II_IPSIUS_miniscreen_11_paragraph_0">This area investigates how we learn, how we remember, how we feel and how we decide. From language comprehension in a multilingual world, through emotional processing and memory, to the keys to implicit learning and decision-making, its researchers seek to unravel the keys to everyday human behaviour. This line serves as a bridge between classical experimental psychology, linguistics and the new challenges of the digital society.</string>
+        <string name="II_IPSIUS_miniscreen_11_texto_buscado_0">how we learn, how we remember, how we feel and how we decide</string>
+        <!-- PANTALLA 12 -->
+        <string name="II_IPSIUS_miniscreen_12_title_0" translatable="false">COSOYPA:</string>
+        <string name="II_IPSIUS_miniscreen_12_paragraph_0">Social psychology and psychometrics</string>
+        <string name="II_IPSIUS_miniscreen_12_paragraph_1">The COSOYPA group delves into the complex terrain of collective behaviour. It investigates how attitudes, social movements and political behaviour are shaped. They also develop psychometric tools such as scales and tests to accurately measure these dynamics. Their work has become particularly relevant in times of hate speech, political disaffection, polarisation and ideological extremism, where understanding the collective and the defence of democratic behaviour is more urgent than ever.</string>
+        <string name="II_IPSIUS_miniscreen_12_texto_buscado_0">collective behaviour</string>
+        <string name="II_IPSIUS_miniscreen_12_texto_buscado_1">hate speech, political disaffection, polarisation and ideological extremism</string>
+        <!-- PANTALLA 13 -->
+        <string name="II_IPSIUS_miniscreen_13_title_0" translatable="false">BENESTAR</string>
+        <string name="II_IPSIUS_miniscreen_13_paragraph_0">Quality of life and chronic illnesses</string>
+        <string name="II_IPSIUS_miniscreen_13_paragraph_1">BENESTAR studies how to improve the quality of life of people with chronic diseases, such as cancer or fibromyalgia, from an interdisciplinary perspective and in close collaboration with patients and associations. One of its main objectives is to improve intervention strategies for patients with chronic pain, a health problem that affects approximately 20% of the population.</string>
+        <string name="II_IPSIUS_miniscreen_13_texto_buscado_0">quality of life of people with chronic diseases, such as cancer or fibromyalgia</string>
+        <string name="II_IPSIUS_miniscreen_13_paragraph_2">Its lines include areas such as research into the neuroscience of pain, the development of health education programmes and digital tools for self-care and the carrying out of cost-effectiveness analyses of the proposed interventions to ensure that they can be implemented in current health systems. This approach brings together science, empathy and technology to provide innovative responses to physical and emotional suffering.</string>
+        <string name="II_IPSIUS_miniscreen_13_texto_buscado_1">the neuroscience of pain, the development of health education programmes and digital tools for self-care</string>
+        <!-- PANTALLA 14 -->
+        <string name="II_IPSIUS_miniscreen_14_paragraph_0">From the heart of Santiago de Compostela, IPsiUS does not limit itself to research: it transforms. Knowledge transfer is not an abstract objective, but an everyday reality that manifests itself in clinical applications, community interventions and digital tools with social impact.</string>
+        <string name="II_IPSIUS_miniscreen_14_texto_buscado_0">transforms</string>
+        <string name="II_IPSIUS_miniscreen_14_texto_buscado_1">social impact</string>
+        <string name="II_IPSIUS_miniscreen_14_paragraph_1">One of the most outstanding cases is the TREATINTSMOKE project, a pioneering initiative that evaluates the effectiveness of smoking cessation treatments through a mobile application. It is not just about research for research\'s sake, but about putting technology at the service of public health, and adapting the level of intervention according to the intensity of the therapeutic contact.</string>
+        <string name="II_IPSIUS_miniscreen_14_texto_buscado_2" translatable="false">TREATINTSMOKE</string>
+        <!-- PANTALLA 15 -->
+        <string name="II_IPSIUS_miniscreen_15_paragraph_0">In the field of childhood and adolescence, IPsiUS is actively working on the proposal of prevention strategies aimed at schools and families. Programmes such as Construyendo Salud (Building health) or EmPeCemos have already been validated and put at the service of the community to promote the health and well-being of both the young population as a whole and individuals at risk.</string>
+        <string name="II_IPSIUS_miniscreen_15_texto_buscado_0" translatable="false">Construyendo Salud</string>
+        <string name="II_IPSIUS_miniscreen_15_texto_buscado_1" translatable="false">EmPeCemos</string>
+        <string name="II_IPSIUS_miniscreen_15_paragraph_1">Also noteworthy are the HipnoGal and PSYSUB projects, focused on the psychosocial and socioeconomic determinants of the misuse of psychoactive drugs and substance use in university students, both in Spain and in several European countries. This line of research has made it possible to identify risk profiles and design specific prevention strategies for educational contexts.</string>
+        <string name="II_IPSIUS_miniscreen_15_texto_buscado_2">HipnoGal and PSYSUB</string>
+        <!-- PANTALLA 16 -->
+        <string name="II_IPSIUS_miniscreen_16_paragraph_0">Its research has also played a key role in European projects such as PAINLESS, which studies pain relief in palliative care through home neuromodulation.</string>
+        <string name="II_IPSIUS_miniscreen_16_texto_buscado_0" translatable="false">PAINLESS</string>
+        <string name="II_IPSIUS_miniscreen_16_paragraph_1">In the area of neuropsychology of ageing, IPsiUS groups participate in international networks researching biomarkers to predict cognitive decline. They also work with local and third sector entities in the promotion of active ageing and brain health, from a psycho-educational approach and co-design of services for the elderly".</string>
+        <string name="II_IPSIUS_miniscreen_16_texto_buscado_1">active ageing and brain health</string>
+        <!-- PANTALLA 17 -->
+        <string name="II_IPSIUS_miniscreen_17_paragraph_0">In short, they collaborate with public and private entities to offer psychological assessment, counselling and the design of personalised interventions. From clinical trials to community prevention programmes, the institute puts its knowledge at the service of society.</string>
+        <string name="II_IPSIUS_miniscreen_17_texto_buscado_0">psychological assessment, counselling and the design of personalised interventions</string>
+        <string name="II_IPSIUS_miniscreen_17_paragraph_1">The transfer is also expressed in dissemination actions: open days, training of professionals, collaboration with town councils and schools, participation in international congresses and presence in the media. The IPsiUS does not isolate itself: it dialogues, teaches and listens.</string>
+        <string name="II_IPSIUS_miniscreen_17_texto_buscado_1">The IPsiUS does not isolate itself: it dialogues, teaches and listens</string>
+        <string name="II_IPSIUS_miniscreen_17_paragraph_2">What begins in the laboratories and offices of the Faculty of Psychology becomes real solutions that improve lives, both in Galicia and in other corners of the world. Because mental health, social inclusion and emotional education know no borders.</string>
+        <string name="II_IPSIUS_miniscreen_17_texto_buscado_2">becomes real solutions that improve lives</string>
+        <!-- PANTALLA 18 -->
+        <string name="II_IPSIUS_miniscreen_18_title_0">TALENT AMBASSADORS</string>
+        <!-- PANTALLA 19 -->
+        <string name="II_IPSIUS_miniscreen_19_title_0">MANAGEMENT TEAM</string>
+        <string name="II_IPSIUS_miniscreen_19_texto_buscado_0">MANAGEMENT TEAM</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_0">Director: Isabel Fraga Carou</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_1">Secretary: Socorro Rodríguez Holguín</string>
+        <string name="II_IPSIUS_miniscreen_19_title_1">RESEARCH STAFF</string>
+        <string name="II_IPSIUS_miniscreen_19_texto_buscado_1">RESEARCH STAFF</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_2" translatable="false">Carmela Martínez Vispo</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_3" translatable="false">Elisardo Becoña Iglesias</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_4" translatable="false">Francisco Caamaño Isorna</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_5" translatable="false">Narmeen Mallah Nasrallah</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_6" translatable="false">Fernando Cadaveira Mahía</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_7" translatable="false">Estrella Romero Triñanes</string>
+        <string name="II_IPSIUS_miniscreen_19_paragraph_8" translatable="false">Laura López-Romero</string>
+        <!-- PANTALLA 20 -->
+        <string name="II_IPSIUS_miniscreen_20_title_0" translatable="false">ISABEL FRAGA CAROU</string>
+        <string name="II_IPSIUS_miniscreen_20_texto_buscado_0" translatable="false">ISABEL FRAGA CAROU</string>
+        <string name="II_IPSIUS_miniscreen_20_title_1">Director</string>
+        <string name="II_IPSIUS_miniscreen_20_texto_buscado_1">Director</string>
+        <string name="II_IPSIUS_miniscreen_20_paragraph_0">//falta a info</string>
+        <string name="II_IPSIUS_miniscreen_20_paragraph_1">//falta a info</string>
+        <!-- PANTALLA 21 -->
+        <string name="II_IPSIUS_miniscreen_21_title_0" translatable="false">Socorro Rodríguez Holguín</string>
+        <string name="II_IPSIUS_miniscreen_21_texto_buscado_0" translatable="false">Socorro Rodríguez Holguín</string>
+        <string name="II_IPSIUS_miniscreen_21_title_1">Secretary</string>
+        <string name="II_IPSIUS_miniscreen_21_texto_buscado_1">Secretary</string>
+        <string name="II_IPSIUS_miniscreen_21_paragraph_0">Secretary of the IPsiUS and coordinator of the NECEA research group from 2025, taking over from Fernando Cadaveira Mahía. She has led research projects on the neurocognitive consequences of intensive alcohol consumption in university students, as a risk pathway to alcoholism. She is the author of 54 JCR publications (29 Q1) and has supervised 6 doctoral theses.</string>
+        <string name="II_IPSIUS_miniscreen_21_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/60164/detalle?lang=en</string>
+        <!-- PANTALLA 22 -->
+        <string name="II_IPSIUS_miniscreen_22_title_0" translatable="false">Carmela Martínez Vispo</string>
+        <string name="II_IPSIUS_miniscreen_22_texto_buscado_0" translatable="false">Carmela Martínez Vispo</string>
+        <string name="II_IPSIUS_miniscreen_22_paragraph_0">Permanent Lecturer in the Department of Clinical Psychology and Psychobiology. Her research work focuses on the treatment and prevention of addictive behaviours and other associated mental health problems. He is currently conducting a research stay at the University of Utah (USA).</string>
+        <string name="II_IPSIUS_miniscreen_22_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/192946/detalle?lang=en</string>
+        <!-- PANTALLA 23 -->
+        <string name="II_IPSIUS_miniscreen_23_title_0" translatable="false">Elisardo Becoña Iglesias</string>
+        <string name="II_IPSIUS_miniscreen_23_texto_buscado_0" translatable="false">Elisardo Becoña Iglesias</string>
+        <string name="II_IPSIUS_miniscreen_23_paragraph_0">Professor in the Department of Clinical Psychology and Psychobiology. He is a reference in the treatment of smoking at national and international level and in the field of drug addiction prevention. ). He has carried out several research stays in other countries (e.g., University of Glasgow, UK) and has been a consultant for the United Nations (UNODOC) and the Pan-American Health Organization (PAHO).</string>
+        <string name="II_IPSIUS_miniscreen_23_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/58365/detalle?lang=en</string>
+        <!-- PANTALLA 24 -->
+        <string name="II_IPSIUS_miniscreen_24_title_0" translatable="false">Francisco Caamaño Isorna</string>
+        <string name="II_IPSIUS_miniscreen_24_texto_buscado_0" translatable="false">Francisco Caamaño Isorna</string>
+        <string name="II_IPSIUS_miniscreen_24_paragraph_0">Professor in the area of Preventive Medicine at the USC. He has led several research projects and has >80 publications in high impact journals. His research focuses on pharmacoepidemiology and alcohol consumption in young people, as well as on the social integration of the individual. </string>
+        <string name="II_IPSIUS_miniscreen_24_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/58469/detalle?lang=en</string>
+        <!-- PANTALLA 25 -->
+        <string name="II_IPSIUS_miniscreen_25_title_0" translatable="false">Narmeen Mallah Nasrallah</string>
+        <string name="II_IPSIUS_miniscreen_25_texto_buscado_0" translatable="false">Narmeen Mallah Nasrallah</string>
+        <string name="II_IPSIUS_miniscreen_25_paragraph_0">Associate Professor in the area of Preventive Medicine at the USC and a young researcher with more than 50 publications in prestigious journals. She leads and collaborates in several national and international projects. Her research focuses on pharmacoepidemiology and psychoactive substance use, especially in young adults.</string>
+        <string name="II_IPSIUS_miniscreen_25_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/844843/detalle?lang=en</string>
+        <!-- PANTALLA 26 -->
+        <string name="II_IPSIUS_miniscreen_26_title_0" translatable="false">Fernando Cadaveira Mahía</string>
+        <string name="II_IPSIUS_miniscreen_26_texto_buscado_0" translatable="false">Fernando Cadaveira Mahía</string>
+        <string name="II_IPSIUS_miniscreen_26_paragraph_0">Coordinator of the NECEA research group until 2005, he has been principal investigator in 18 projects in basic and applied fields of cognitive neuroscience. He is the author of 89 JCR publications (42 Q1) and director of 17 doctoral theses.</string>
+        <string name="II_IPSIUS_miniscreen_26_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/58495/detalle?lang=en</string>
+        <!-- PANTALLA 27 -->
+        <string name="II_IPSIUS_miniscreen_27_title_0" translatable="false">Estrella Romero Triñanes</string>
+        <string name="II_IPSIUS_miniscreen_27_texto_buscado_0" translatable="false">Estrella Romero Triñanes</string>
+        <string name="II_IPSIUS_miniscreen_27_paragraph_0">Professor of the area of Personality, Assessment and Psychological Treatment. With more than 100 scientific publications and multiple research projects, she has extensive experience in the study of the development of antisocial behaviour, with special attention to the role played by temperament and personality variables. He has also developed intervention programmes for the prevention of behavioural problems in childhood and adolescence.</string>
+        <string name="II_IPSIUS_miniscreen_27_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/60245/detalle?lang=en</string>
+        <!-- PANTALLA 28 -->
+        <string name="II_IPSIUS_miniscreen_28_title_0" translatable="false">Laura López-Romero</string>
+        <string name="II_IPSIUS_miniscreen_28_texto_buscado_0" translatable="false">Laura López-Romero</string>
+        <string name="II_IPSIUS_miniscreen_28_paragraph_0">Postdoctoral researcher in the Ramón y Cajal programme. Her career, supported by an international collaboration network and more than 50 publications, has focused on the study of the development of behavioural problems from early childhood, taking into account temperamental, cognitive, emotional and environmental factors that allow us to understand their heterogeneity.</string>
+        <string name="II_IPSIUS_miniscreen_28_paragraph_1">Further information: https://investigacion.usc.gal/investigadores/120505/detalle?lang=en </string>
+        <!-- PANTALLA 29 -->
+        <string name="II_IPSIUS_miniscreen_29_paragraph_0">The Instituto de Psicoloxía da Universidade de Santiago de Compostela is, above all, an open door. To understanding, to collaboration, to the possibility of transforming the world from the knowledge of the human being.</string>
+        <string name="II_IPSIUS_miniscreen_29_texto_buscado_0">Psicoloxía da Universidade de Santiago de Compostela</string>
+        <string name="II_IPSIUS_miniscreen_29_paragraph_1">From addiction care to healthy ageing, from the prevention of childhood disorders to the evaluation of well-being in chronic diseases, the IPsiUS works on the margins where society needs it most. It is not content to simply study the mind: it embraces it, listens to it and accompanies it.</string>
+        <string name="II_IPSIUS_miniscreen_29_texto_buscado_1">the IPsiUS works on the margins where society needs it most</string>
+        <!-- PANTALLA 30 -->
+        <string name="II_IPSIUS_miniscreen_30_paragraph_0">Each line of research, each team, each advance stems from the same conviction: that understanding the mind also means taking care of people and building more conscious and caring societies.</string>
+        <string name="II_IPSIUS_miniscreen_30_texto_buscado_0">understanding the mind</string>
+        <string name="II_IPSIUS_miniscreen_30_paragraph_1">If you are interested in how mental health, development, emotions, behaviour or learning are being researched today; if you wonder how science can respond to the great challenges of our time; or if you simply want to get to know closely those who are working on it from Galicia, the IPsiUS has something to tell you.</string>
+        <string name="II_IPSIUS_miniscreen_30_texto_buscado_1">IPsiUS has something to tell you</string>
+        <string name="II_IPSIUS_miniscreen_30_paragraph_2">"If you are interested in learning more about this institute, you can access more information by clicking on the following link: https://www.usc.gal/es/investigar-usc/investigar/institutos-centros-investigacion/institutos/IPsiUS "</string>
+        <string name="II_IPSIUS_miniscreen_30_texto_buscado_2">learning more</string>
 </resources>

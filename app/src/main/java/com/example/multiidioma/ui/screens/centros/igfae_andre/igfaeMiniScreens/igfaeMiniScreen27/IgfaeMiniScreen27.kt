@@ -1,0 +1,38 @@
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen27
+
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
+import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen27.contentIgfaeMiniScreen27.contentIgfaeMiniScreen27Box1
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen27.contentIgfaeMiniScreen27.contentIgfaeMiniScreen27Box2
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen27.contentIgfaeMiniScreen27.contentIgfaeMiniScreen27Box3
+
+
+@Composable
+fun IgfaeMiniScreen27(
+    data: MiniScreenData,
+    modifier: Modifier = Modifier,
+) {
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF32627E))
+    ) {
+        PlantillaScreen(
+            data = data,
+            BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.4f, Box3 = 0.3f),
+            Box1 = { contentIgfaeMiniScreen27Box1(it) },
+            Box2 = { contentIgfaeMiniScreen27Box2(it) },
+            Box3 = { contentIgfaeMiniScreen27Box3() })
+    }
+}
+
+
+

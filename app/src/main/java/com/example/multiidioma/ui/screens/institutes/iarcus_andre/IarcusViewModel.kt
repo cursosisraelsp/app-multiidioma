@@ -47,7 +47,14 @@ class IarcusViewModel : ViewModel() {
                     listaIarcusRepository.getData(18),
                     listaIarcusRepository.getData(19),
                     listaIarcusRepository.getData(20),
-                    listaIarcusRepository.getData(21)
+                    listaIarcusRepository.getData(21),
+                    listaIarcusRepository.getData(22),
+                    listaIarcusRepository.getData(23),
+                    listaIarcusRepository.getData(24),
+                    listaIarcusRepository.getData(25),
+                    listaIarcusRepository.getData(26),
+                    listaIarcusRepository.getData(27),
+                    listaIarcusRepository.getData(28),
 
                 )
             )

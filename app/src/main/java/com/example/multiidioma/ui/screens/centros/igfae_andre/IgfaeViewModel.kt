@@ -46,8 +46,15 @@ class IgfaeViewModel : ViewModel() {
                     listaIgfaeRepository.getData(18),
                     listaIgfaeRepository.getData(19),
                     listaIgfaeRepository.getData(20),
-                    listaIgfaeRepository.getData(21)
-
+                    listaIgfaeRepository.getData(21),
+                    listaIgfaeRepository.getData(22),
+                    listaIgfaeRepository.getData(23),
+                    listaIgfaeRepository.getData(24),
+                    listaIgfaeRepository.getData(25),
+                    listaIgfaeRepository.getData(26),
+                    listaIgfaeRepository.getData(27),
+                    listaIgfaeRepository.getData(28),
+                    listaIgfaeRepository.getData(29)
                 )
             )
 

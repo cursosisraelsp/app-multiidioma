@@ -2,36 +2,14 @@ package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScr
 
 
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen20.contentIarcusMiniScreen20.contentIarcusMiniScreen20Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen20.contentIarcusMiniScreen20.contentIarcusMiniScreen20Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen20.contentIarcusMiniScreen20.contentIarcusMiniScreen20Box3
+import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
 @Composable
-fun IarcusMiniScreen20(
-    data: MiniScreenData,
-    modifier: Modifier = Modifier,
-) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color(0xFFBCE0F0))
-    ) {
+fun IarcusMiniScreen20(data: MiniScreenData, navController: NavController, modifier: Modifier) {
+    PersonalTemplateScreen(data, navController)
 
-
-        PlantillaScreen(
-            data = data,
-            Box1 = { contentIarcusMiniScreen20Box1(it) },
-            Box2 = { contentIarcusMiniScreen20Box2(it) },
-            Box3 = { contentIarcusMiniScreen20Box3() })
-    }
 }
-
-

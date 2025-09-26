@@ -19,7 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIarcusMiniScreen16Box2(data: MiniScreenData){
@@ -33,9 +33,9 @@ fun contentIarcusMiniScreen16Box2(data: MiniScreenData){
         val estiloTextos =
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFF000000)), textAlign = TextAlign.Center)
 
-        TextBodyMedium(data, estiloTextos)
+        AppText(data, estiloTextos)
         Spacer(modifier = Modifier.height(15.dp))
-        TextBodyMedium(data, estiloTextos)
+        AppText(data, estiloTextos)
 
 
     }

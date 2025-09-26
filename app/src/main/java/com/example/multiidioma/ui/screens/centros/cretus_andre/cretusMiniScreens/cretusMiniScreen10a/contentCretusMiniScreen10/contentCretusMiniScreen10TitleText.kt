@@ -13,7 +13,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentCretusMiniScreen10TitleText(data: MiniScreenData) {
@@ -28,6 +28,6 @@ fun contentCretusMiniScreen10TitleText(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TextBodyMedium(data, estilosTextos, index = 0)
+        AppText(data, estilosTextos, index = 0)
     }
 }

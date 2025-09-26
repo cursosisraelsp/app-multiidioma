@@ -10,6 +10,7 @@ class IarcusRepository {
                 id = 0,
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_0_paragraph_0,
+
                 ),
             ),
             MiniScreenData(
@@ -31,13 +32,14 @@ class IarcusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_3_paragraph_0,
                 ),
-                imageRes = R.drawable.ipsius_img_02
+                imageRes = R.drawable.iarcus_img_01
             ),
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_4_paragraph_0,
                 ),
+                imageRes = R.drawable.iarcus_img_02
             ),
             MiniScreenData(
                 id = 5,
@@ -50,6 +52,8 @@ class IarcusRepository {
                 id = 6,
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_6_paragraph_0,
+                    R.string.II_IARCUS_miniscreen_6_paragraph_1,
+
                 ),
                 imageRes = R.drawable.noimagen
             ),
@@ -64,16 +68,14 @@ class IarcusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_8_title_0,
                     R.string.II_IARCUS_miniscreen_8_paragraph_0,
-
                 ),
-                imageRes = R.drawable.ipsius_img_06_eng
+                imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 9,
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_9_title_0,
                     R.string.II_IARCUS_miniscreen_9_paragraph_0,
-
                 ),
                 imageRes = R.drawable.ipsius_img_07_eng
             ),
@@ -82,7 +84,6 @@ class IarcusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_10_title_0,
                     R.string.II_IARCUS_miniscreen_10_paragraph_0,
-
                 ),
                 imageRes = R.drawable.ipsius_img_08_eng
             ),
@@ -91,7 +92,6 @@ class IarcusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_11_title_0,
                     R.string.II_IARCUS_miniscreen_11_paragraph_0,
-
                 ),
                 imageRes = R.drawable.ipsius_img_09_eng
             ),
@@ -108,6 +108,7 @@ class IarcusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IARCUS_miniscreen_13_paragraph_0,
                 ),
+                imageRes = R.drawable.iarcus_img_09
             ),
             MiniScreenData(
                 id = 14,
@@ -115,7 +116,7 @@ class IarcusRepository {
                     R.string.II_IARCUS_miniscreen_14_paragraph_0,
                     R.string.II_IARCUS_miniscreen_14_paragraph_1,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.iarcus_img_10
             ),
             MiniScreenData(
                 id = 15,
@@ -162,15 +163,21 @@ class IarcusRepository {
             ),
             MiniScreenData(
                 id = 19,
-                R.string.II_IARCUS_miniscreen_19_title_0,
-                R.string.II_IARCUS_miniscreen_19_title_1,
-                R.string.II_IARCUS_miniscreen_19_paragraph_0,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_19_title_0,
+                    R.string.II_IARCUS_miniscreen_19_title_1,
+                    R.string.II_IARCUS_miniscreen_19_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
             ),
             MiniScreenData(
                 id = 20,
-                R.string.II_IARCUS_miniscreen_20_title_0,
-                R.string.II_IARCUS_miniscreen_20_title_1,
-                R.string.II_IARCUS_miniscreen_20_paragraph_0,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_20_title_0,
+                    R.string.II_IARCUS_miniscreen_20_title_1,
+                    R.string.II_IARCUS_miniscreen_20_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
             ),
             MiniScreenData(
                 id = 21,
@@ -180,6 +187,67 @@ class IarcusRepository {
                     R.string.II_IARCUS_miniscreen_21_paragraph_0,
                 ),
                 imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 22,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_22_title_0,
+                    R.string.II_IARCUS_miniscreen_22_title_1,
+                    R.string.II_IARCUS_miniscreen_22_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 23,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_23_title_0,
+                    R.string.II_IARCUS_miniscreen_23_title_1,
+                    R.string.II_IARCUS_miniscreen_23_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 24,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_24_title_0,
+                    R.string.II_IARCUS_miniscreen_24_title_1,
+                    R.string.II_IARCUS_miniscreen_24_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 25,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_25_title_0,
+                    R.string.II_IARCUS_miniscreen_25_title_1,
+                    R.string.II_IARCUS_miniscreen_25_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 26,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_26_title_0,
+                    R.string.II_IARCUS_miniscreen_26_title_1,
+                    R.string.II_IARCUS_miniscreen_26_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 27,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_27_title_0,
+                    R.string.II_IARCUS_miniscreen_27_title_1,
+                    R.string.II_IARCUS_miniscreen_27_paragraph_0,
+                ),
+                imageRes = R.drawable.ipsius_img_21
+            ),
+            MiniScreenData(
+                id = 28,
+                bodyParagraphs = listOf(
+                    R.string.II_IARCUS_miniscreen_28_paragraph_0,
+                    R.string.II_IARCUS_miniscreen_28_title_0,
+                ),
             ),
         )
     }
