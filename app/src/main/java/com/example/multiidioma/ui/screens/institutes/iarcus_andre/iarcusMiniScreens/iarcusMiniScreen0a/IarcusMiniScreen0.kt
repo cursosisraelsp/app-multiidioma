@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
@@ -40,6 +41,7 @@ fun IarcusMiniScreen0(
             )
         }
         TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.50f, Box3 = 0.30f),
             data = data,
             Box2 = { contentIarcusMiniScreen0Box2(it) },
             Box3 = { contentIarcusMiniScreen0Box3() })

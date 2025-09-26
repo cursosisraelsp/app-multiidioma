@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
@@ -14,6 +15,6 @@ fun contentCretusMiniScreen4Box3() {
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
-        LineVerticalComponent(color = Color(0xFF000000))
+        CircleLineComponent(color = Color(0xFFFFFFFF))
     }
 }

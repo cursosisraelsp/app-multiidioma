@@ -81,7 +81,6 @@ class CretusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_10_title_0,
                     R.string.CS_CRETUS_miniscreen_10_paragraph_0,
-                    R.string.CS_CRETUS_miniscreen_0_paragraph_0
                 ),
                 imageRes = R.drawable.noimagen
             ),
@@ -185,9 +184,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_22_paragraph_9,
                     R.string.CS_CRETUS_miniscreen_22_paragraph_10,
                     R.string.CS_CRETUS_miniscreen_22_paragraph_11,
-                    R.string.CS_CRETUS_miniscreen_22_paragraph_12
+                    R.string.CS_CRETUS_miniscreen_22_paragraph_12,
                 ),
-
             ),
             MiniScreenData(
                 id = 23,

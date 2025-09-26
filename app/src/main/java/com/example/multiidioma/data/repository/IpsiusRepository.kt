@@ -127,12 +127,14 @@ class IpsiusRepository {
                 id = 14,
                 bodyParagraphs = listOf(
                     R.string.II_IPSIUS_miniscreen_15_paragraph_0,
+                    R.string.II_IPSIUS_miniscreen_15_paragraph_1,
                 ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 15,
                 bodyParagraphs = listOf(
+                    R.string.II_IPSIUS_miniscreen_15_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_15_paragraph_1,
                 ),
                 imageRes = R.drawable.noimagen
@@ -192,7 +194,7 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_21_title_0,
                     R.string.II_IPSIUS_miniscreen_21_title_1,
                     R.string.II_IPSIUS_miniscreen_21_paragraph_0,
-                    R.string.II_IPSIUS_miniscreen_20_paragraph_1,
+                    R.string.II_IPSIUS_miniscreen_21_paragraph_1,
                 ),
                 imageRes = R.drawable.ipsius_img_21
             ),

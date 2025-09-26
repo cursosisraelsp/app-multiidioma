@@ -33,7 +33,7 @@ fun contentCretusMiniScreen4Box2(data: MiniScreenData){
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
 
         AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
+
 
     }
 }

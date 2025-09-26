@@ -1,7 +1,6 @@
 package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen1.contentIarcusMiniScreen1
 
 
-
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,7 +12,10 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 @Composable
 fun contentIarcusMiniScreen1Box3(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+
+        modifier = Modifier
+            .fillMaxSize(),
+        alignment = Alignment.BottomCenter
     )
     ReusableImage(data, estilosImagen)
 }

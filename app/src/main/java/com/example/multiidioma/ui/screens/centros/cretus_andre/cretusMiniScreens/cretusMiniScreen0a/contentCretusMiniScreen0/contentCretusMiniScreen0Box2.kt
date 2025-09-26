@@ -18,7 +18,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentCretusMiniScreen0Box2(data: MiniScreenData){
@@ -30,12 +32,10 @@ fun contentCretusMiniScreen0Box2(data: MiniScreenData){
         verticalArrangement = Arrangement.Center
 
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
 
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
+        TextBodyMedium(data, textAlign = TextAlign.Center, index = 0)
+        SpacerText()
+        TextBodyMedium(data, textAlign = TextAlign.Center, index = 1)
 
     }
 }

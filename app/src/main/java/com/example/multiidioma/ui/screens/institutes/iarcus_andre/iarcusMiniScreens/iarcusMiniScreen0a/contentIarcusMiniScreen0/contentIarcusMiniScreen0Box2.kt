@@ -26,7 +26,7 @@ fun contentIarcusMiniScreen0Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp),
+            .padding(start = 30.dp, end = 30.dp, top = 50.dp, bottom = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
