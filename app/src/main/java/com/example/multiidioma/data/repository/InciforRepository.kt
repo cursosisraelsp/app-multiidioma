@@ -6,7 +6,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.PersonalResearcher
 import com.example.multiidioma.data.types.PersonalResearcher2
 import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadores
-import com.example.multiidioma.utils.PersonsResearchers
+import com.example.multiidioma.utils.PersonsResearchersUtils
 
 class InciforRepository {
 
@@ -222,7 +222,7 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph1
                 ),
                 imageRes = R.drawable.incifor_img_01_d,
-                personalResearcher = getPersonalResearcher(PersonsResearchers(datosInvestigadores))
+                personalResearcher = getPersonalResearcher(PersonsResearchersUtils(datosInvestigadores))
             )
 
 

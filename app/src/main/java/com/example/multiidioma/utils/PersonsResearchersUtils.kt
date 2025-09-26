@@ -4,7 +4,7 @@ import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.PersonResearcher
 import com.example.multiidioma.data.types.PersonalResearcher2
 
-fun PersonsResearchers( datosInvestigadores: List<PersonResearcher>) :
+fun PersonsResearchersUtils( datosInvestigadores: List<PersonResearcher>) :
         MutableList<PersonalResearcher2>{
     val listaMutable = mutableListOf<PersonalResearcher2>()
 
