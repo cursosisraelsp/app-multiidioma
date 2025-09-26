@@ -3,9 +3,8 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.PersonalResearcher
-import com.example.multiidioma.data.types.PersonalResearcher2
 import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadores
+import com.example.multiidioma.utils.GetPersonalResearcher
 import com.example.multiidioma.utils.PersonsResearchersUtils
 
 class InciforRepository {
@@ -222,28 +221,13 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph1
                 ),
                 imageRes = R.drawable.incifor_img_01_d,
-                personalResearcher = getPersonalResearcher(PersonsResearchersUtils(datosInvestigadores))
+                personalResearcher = GetPersonalResearcher(PersonsResearchersUtils(datosInvestigadores))
             )
 
 
             )
     }
 
-    fun getPersonalResearcher(personal :  MutableList<PersonalResearcher2>): List<PersonalResearcher>{
-        val lista1: List<PersonalResearcher> = personal.map{ investigador ->
-            PersonalResearcher(
-                id = investigador.id,
-                foto = investigador.foto,
-                name = investigador.name,
-                info = investigador.info,
-                ruta = investigador.ruta,
-                contentType = investigador.contentType
-            )
-
-        }
-            return lista1
-
-    }
     fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]
     }
