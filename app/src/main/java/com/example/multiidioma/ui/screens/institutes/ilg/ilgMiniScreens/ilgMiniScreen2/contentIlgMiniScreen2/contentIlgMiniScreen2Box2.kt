@@ -63,9 +63,11 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(0.3f)
+                    .align(alignment = Alignment.End)
             )
             {
-                SvgImageComponent(R.raw.logo_ilga_0)
+                SvgImageComponent(R.raw.logo_ilga_0
+                    )
                 //ReusableImage(data, estilosImagen)
             }
         }
