@@ -1,43 +1,12 @@
 package com.example.multiidioma.data.repository
 
 
-import androidx.compose.foundation.Image
-import androidx.compose.ui.res.painterResource
 import com.example.multiidioma.R
-import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.PersonalResearcher
-
 import com.example.multiidioma.data.types.PersonalResearcher2
-import com.example.multiidioma.ui.screens.institutes.incifor.aclIncifor
-import com.example.multiidioma.ui.screens.institutes.incifor.ambbIncifor
-import com.example.multiidioma.ui.screens.institutes.incifor.jimbIncifor
-import com.example.multiidioma.ui.screens.institutes.incifor.mvlhIncifor
-
-
-
-
-fun persoasInvestigadoras() :
-        MutableList<PersonalResearcher2>{
-    val listaMutable = mutableListOf<PersonalResearcher2>()
-
-    val datosInvestigadores = listOf(mvlhIncifor, ambbIncifor, jimbIncifor, aclIncifor)
-    for ((index, investigador) in datosInvestigadores.withIndex()) {
-        val investigadorNuevo = PersonalResearcher2(
-            id = index.toString(),
-            foto = investigador.foto,
-            name = investigador.name ?: "",
-            info = investigador.info ?: listOf(0),
-            contentType = investigador.contentType ?: ContentType.MINISCREEN27
-        )
-        listaMutable.add(investigadorNuevo)
-    }
-    return listaMutable
-}
-
-
-
-
+import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadores
+import com.example.multiidioma.utils.PersonsResearchers
 
 class InciforRepository {
 
@@ -229,8 +198,6 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_23_title0,
                     R.string.II_INCIFOR_miniscreen_23_paragraph0,
-
-
                     ),
                 imageRes = R.drawable.incifor_img_05
             ),
@@ -238,8 +205,6 @@ class InciforRepository {
                 id = 24,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_24_paragraph0,
-
-
                     ),
                 imageRes = R.drawable.incifor_img_05
             ),
@@ -257,16 +222,14 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph1
                 ),
                 imageRes = R.drawable.incifor_img_01_d,
-                personalResearcher = getPersonalResearcher()
-
+                personalResearcher = getPersonalResearcher(PersonsResearchers(datosInvestigadores))
             )
 
 
             )
     }
 
-    fun getPersonalResearcher(): List<PersonalResearcher>{
-        val personal = persoasInvestigadoras()
+    fun getPersonalResearcher(personal :  MutableList<PersonalResearcher2>): List<PersonalResearcher>{
         val lista1: List<PersonalResearcher> = personal.map{ investigador ->
             PersonalResearcher(
                 id = investigador.id,
@@ -285,7 +248,5 @@ class InciforRepository {
         return getMiniScreens()[i]
     }
 
-    fun getDataResearcher(i: Int): PersonalResearcher{
-        return getPersonalResearcher()[i]
-    }
+
 }

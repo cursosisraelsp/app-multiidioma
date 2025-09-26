@@ -110,3 +110,5 @@ val aclIncifor =  PersonResearcher(
     info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
+
+val datosInvestigadores = listOf(mvlhIncifor, ambbIncifor, jimbIncifor, aclIncifor)
