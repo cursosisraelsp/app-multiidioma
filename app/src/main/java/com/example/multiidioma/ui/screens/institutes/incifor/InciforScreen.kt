@@ -1,8 +1,10 @@
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
@@ -52,7 +54,8 @@ import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.
 @Composable
 fun InciforScreen(
     listState: LazyListState,
-    navController: NavController
+    navController: NavController,
+    modifier: Modifier
 ) {
     val viewModel: InciforViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
@@ -71,7 +74,7 @@ fun InciforScreen(
             val screens = (uiState as MiniScreenState.Success).screens
             LazyColumn(
                 state = listState,
-                modifier = Modifier.fillMaxSize()
+                modifier = modifier
             ) {
                 items(screens) { data ->
                     when (data.id) {
@@ -79,99 +82,99 @@ fun InciforScreen(
                         0 -> InciforMiniScreen0(
                             data,
                             Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                //.fillMaxHeight()
+                                //.fillParentMaxHeight()
                         )
 
                         1 -> InciforMiniScreen1(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                            modifier
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
 
                         )
 
                         2 -> InciforMiniScreen2(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                            modifier
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         3 -> InciforMiniScreen3(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                            modifier
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         4 -> InciforMiniScreen4(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
+                            modifier
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         5 -> InciforMiniScreen5(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         6 -> InciforMiniScreen6(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
 
                         )
 
                         7 -> InciforMiniScreen7(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         8 -> InciforMiniScreen8(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         9 -> InciforMiniScreen9(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         10 -> InciforMiniScreen10(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         11 -> InciforMiniScreen11(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         12 -> InciforMiniScreen12(
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         13 -> InciforMiniScreen13(
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight(),
                             navController
                         )
@@ -179,16 +182,16 @@ fun InciforScreen(
                         14 -> InciforMiniScreen14(
                             navController,
                             data,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         15 -> InciforMiniScreen15(
                             data,
                             navController,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
 
                         )
@@ -196,72 +199,72 @@ fun InciforScreen(
                         16 -> InciforMiniScreen16(
                             data,
                             navController,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         17 -> InciforMiniScreen17(
                             data,
                             navController,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         18 -> InciforMiniScreen18(
                             data,
                             navController,
-                            Modifier
-                                .fillMaxWidth()
+                            modifier
+                                //.fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         19 -> InciforMiniScreen19(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         20 -> InciforMiniScreen20(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         21 -> InciforMiniScreen21(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         22 -> InciforMiniScreen22(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         23 -> InciforMiniScreen23(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         24 -> InciforMiniScreen24(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
                         25 -> InciforMiniScreen25(
                             data,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
@@ -270,7 +273,7 @@ fun InciforScreen(
                             data,
                             navController,
                             podcastsMultimedia,
-                            Modifier
+                            modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
@@ -283,7 +286,7 @@ fun InciforScreen(
 
         is MiniScreenState.Error -> {
             Box(
-                modifier = Modifier.fillMaxSize(),
+                modifier = modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
                 Text(

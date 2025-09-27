@@ -5,15 +5,11 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
-import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
@@ -29,7 +25,6 @@ import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavega
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
-import com.example.multiidioma.ui.screens.incifor.InciforViewModel
 import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel

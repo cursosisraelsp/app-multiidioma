@@ -17,7 +17,7 @@ class HomeViewModel: ViewModel() {
 
     private fun loadHomeDatas(){
         //_homeScreenState.value =  listaImaxesHome
-        _homeScreenState.value = ListaImaxenClickData(lista = formasClickHome)
+        _homeScreenState.value = ListaImaxenClickData(lista = figurasHome)
 
     }
 }

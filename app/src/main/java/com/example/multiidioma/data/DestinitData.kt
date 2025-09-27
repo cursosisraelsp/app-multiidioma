@@ -13,12 +13,15 @@ enum class TitulosNavegacion(val titulo:String){
     Multimedia("Multimedia")
 }
 sealed class Destination(val route: String) {
-    // Rutas sin argumentos
+    // Rutas dende HOME
     object Start : Destination("start")
     object Settings : Destination("settings")
     object Home : Destination("home")
     object Minerva : Destination("minerva")
     object Mapa : Destination("mapa")
+    object Multimedia : Destination("multimedia")
+    object Institutos : Destination("institutos")
+    object CentrosSingulares : Destination("centrossingulares")
     // INSTITUTOS
     object Ihus : Destination("ihus")
     object Idega : Destination("idega")

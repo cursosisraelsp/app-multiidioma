@@ -1,6 +1,8 @@
 package com.example.multiidioma.utils
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
@@ -41,8 +43,10 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
     if (condicionVision.CondicionTopBar(navController)) {
         AnimatedVisibility(
             visible = topBarVisible,
-            enter = slideInVertically(initialOffsetY = { it }),
-            exit = slideOutVertically(targetOffsetY = { it })
+            enter = slideInVertically { -it } + fadeIn(),
+            exit  = slideOutVertically { -it } + fadeOut()
+            //enter = slideInVertically(initialOffsetY = { it }),
+            //exit = slideOutVertically(targetOffsetY = { it })
         ){
             TopAppBar(
                 colors = topAppBarColors(

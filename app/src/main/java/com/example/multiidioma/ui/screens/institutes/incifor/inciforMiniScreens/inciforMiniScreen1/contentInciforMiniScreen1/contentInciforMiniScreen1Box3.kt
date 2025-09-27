@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -14,7 +15,7 @@ fun contentInciforMiniScreen1Box3() {
 
     Column(
         modifier = Modifier
-            .fillMaxWidth()
+            .fillMaxWidth().height(500.dp)
             .padding(start = 50.dp, top = 20.dp),
         horizontalAlignment = Alignment.Start
     ) {

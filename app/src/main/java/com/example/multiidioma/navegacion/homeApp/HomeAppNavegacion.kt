@@ -11,9 +11,9 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 fun NavGraphBuilder.HomeAppNavHost(languageViewModel: LanguageViewModel,listState: LazyListState,navController: NavHostController){
     composable(route = Destination.Home.route) {
 
-        HomeScreen(languageViewModel, listState,onImageClick = { screenId ->
+        HomeScreen(navController,languageViewModel, listState,onImageClick = { screenId ->
             val ruta = Destination.createDetailRoute(screenId)
             navController.navigate(ruta)
-        })
+        },)
     }
 }

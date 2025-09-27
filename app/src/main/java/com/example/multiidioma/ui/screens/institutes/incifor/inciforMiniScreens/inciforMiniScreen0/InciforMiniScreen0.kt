@@ -5,7 +5,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
@@ -17,22 +19,24 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 @Composable
 fun InciforMiniScreen0(
     data: MiniScreenData,
-    modifier: Modifier = Modifier,
+    modifier: Modifier,
 ) {
 
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
         Box(
             modifier = modifier
+                .align(Alignment.Center) // centra el contenido
                 .fillMaxSize()
         ) {
             VideoScreen(
                 videoId = "ut_8lkPwRU4", // tu ID de video
                 modifier = Modifier
-                    .fillMaxSize()
+                    //.fillMaxSize()
+                    .fillMaxWidth()
                     .aspectRatio(9f / 16f)
             )
         }

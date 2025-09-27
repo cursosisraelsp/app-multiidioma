@@ -37,7 +37,9 @@ fun contentInciforMiniScreen3Box2(data: MiniScreenData) {
         TextBodyMedium(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(10.dp))
+        Column (modifier = Modifier.height(200.dp)){
+            ReusableImage(data, estilosImagen)
+        }
 
-        ReusableImage(data, estilosImagen)
     }
 }

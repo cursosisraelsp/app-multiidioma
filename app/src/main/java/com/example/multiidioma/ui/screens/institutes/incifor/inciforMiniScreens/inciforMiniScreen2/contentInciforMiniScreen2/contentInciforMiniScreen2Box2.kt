@@ -46,8 +46,7 @@ fun contentInciforMiniScreen2Box2(data: MiniScreenData) {
 
         Box(
             modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.5f)
+                .fillMaxWidth().height(200.dp)
                 .padding(start = 50.dp)
         ) {
             ReusableImage(data, estilosImagen)

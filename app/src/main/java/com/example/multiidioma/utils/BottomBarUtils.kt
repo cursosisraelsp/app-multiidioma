@@ -1,6 +1,8 @@
 package com.example.multiidioma.utils
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.Arrangement
@@ -35,8 +37,10 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
     if (condicionVision.CondicionBottomBar(currentRoute)) {
         AnimatedVisibility(
             visible = bottomBarVisible,
-            enter = slideInVertically(initialOffsetY = { it }),
-            exit = slideOutVertically(targetOffsetY = { it })
+            enter = slideInVertically { it } + fadeIn(),   // entra desde abajo
+            exit = slideOutVertically { it } + fadeOut()   // sale hacia abajo
+            //enter = slideInVertically(initialOffsetY = { it }),
+            //exit = slideOutVertically(targetOffsetY = { it })
         ) {
             BottomAppBar(
                 modifier = Modifier
