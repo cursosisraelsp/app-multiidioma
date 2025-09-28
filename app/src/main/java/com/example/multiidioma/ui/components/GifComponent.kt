@@ -6,14 +6,7 @@ import coil.ImageLoader
 import coil.compose.AsyncImage
 import coil.decode.GifDecoder
 import coil.request.ImageRequest
-import coil.request.ImageResult
-import coil.size.Size
-import android.content.Context
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.unit.dp
-import com.example.multiidioma.R
 
 @Composable
 fun GifComponent(modifier: Modifier = Modifier,gif: Int) {

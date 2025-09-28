@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.ui.MyApp
 import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.ui.components.LottieAutoPlay
+import com.example.multiidioma.ui.components.LottieScrollComponent
 //import com.example.multiidioma.ui.components.ParallaxEffect
 import com.example.multiidioma.ui.components.ParallaxHeader
 import com.example.multiidioma.viewmodel.LanguageViewModel
@@ -23,11 +25,12 @@ class MainActivity : ComponentActivity() {
             //MyApp(languageViewModel) // tu función principal de navegación
             //ParallaxHeader()
             //ParallaxEffect()
-            Column {
+            /*Column {
                 GifComponent(gif = R.drawable.incifor_anim_06)
                 GifComponent(gif = R.drawable.incifor_anim_01)
-            }
-
+            }*/
+            LottieScrollComponent(R.raw.figuritas)
+            //LottieAutoPlay(R.raw.figuritas)
         }
     }
 }
