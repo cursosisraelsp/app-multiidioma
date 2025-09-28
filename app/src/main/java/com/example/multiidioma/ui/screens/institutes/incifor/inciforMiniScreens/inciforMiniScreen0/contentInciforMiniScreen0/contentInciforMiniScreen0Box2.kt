@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
@@ -15,21 +16,24 @@ import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 @Composable
-fun contentInciforMiniScreen0Box2(data: MiniScreenData) {
+fun contentInciforMiniScreen0Box2(data: MiniScreenData, offset: Int) {
     val estiloTextos =
         StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
 
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp),
+            .padding(start = 50.dp, end = 50.dp).graphicsLayer {
+                translationY = -offset * 0.8f // 👈 efecto parallax
+                translationX = -offset * 0.5f
+            },
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
 
         TextBodyMedium(data, estiloTextos)
 
-
+        //ParallaxHeader()
     }
 }
 

@@ -1,3 +1,4 @@
+/*
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -5,7 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -50,7 +51,7 @@ import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.
 
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable
-fun InciforScreen(
+fun InciforScreenCopia(
     listState: LazyListState,
     navController: NavController,
     modifier: Modifier
@@ -74,43 +75,44 @@ fun InciforScreen(
                 state = listState,
                 modifier = modifier
             ) {
-                itemsIndexed(screens) { index,data ->
+                items(screens) { data ->
                     when (data.id) {
 
                         0 -> InciforMiniScreen0(
                             data,
-                            modifier = Modifier.fillParentMaxHeight(),
-                            listState = listState, // 👈 Pasamos el scroll global
-                            itemIndex = index      // 👈 Para saber en qué posición está
+                            Modifier,
+                            listState,
+                            //.fillMaxHeight()
+                                //.fillParentMaxHeight()
                         )
 
                         1 -> InciforMiniScreen1(
                             data,
                             modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
 
                         )
 
                         2 -> InciforMiniScreen2(
                             data,
                             modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         3 -> InciforMiniScreen3(
                             data,
                             modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         4 -> InciforMiniScreen4(
                             data,
                             modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                                //.fillMaxWidth()
+                                //.fillParentMaxHeight()
                         )
 
                         5 -> InciforMiniScreen5(
@@ -297,4 +299,4 @@ fun InciforScreen(
 
 }
 
-
+*/
