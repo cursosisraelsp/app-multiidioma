@@ -86,17 +86,17 @@ fun InciforScreen(
 
                         1 -> InciforMiniScreen1(
                             data,
-                            modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                            modifier = Modifier.fillParentMaxHeight(),
+                            listState = listState, // 👈 Pasamos el scroll global
+                            itemIndex = index      // 👈 Para saber en qué posición está
 
                         )
 
                         2 -> InciforMiniScreen2(
                             data,
-                            modifier
-                            //.fillMaxWidth()
-                            //.fillParentMaxHeight()
+                            modifier = Modifier.fillParentMaxHeight(),
+                            listState = listState, // 👈 Pasamos el scroll global
+                            itemIndex = index      // 👈 Para saber en qué posición está
                         )
 
                         3 -> InciforMiniScreen3(

@@ -25,11 +25,18 @@ fun InciforMiniScreen0(
     listState: LazyListState,
     itemIndex: Int,
 ) {
+    // Buscar info de este item en la lista visible
+    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
+
+    // Offset vertical real en píxeles
+    val offset = itemInfo?.let {
+        it.offset - listState.firstVisibleItemScrollOffset
+    } ?: 0
 // Calcular offset relativo al ítem
-    val offset = if (listState.layoutInfo.visibleItemsInfo.any { it.index == itemIndex }) {
+    /*val offset = if (listState.layoutInfo.visibleItemsInfo.any { it.index == itemIndex }) {
         val itemInfo = listState.layoutInfo.visibleItemsInfo.first { it.index == itemIndex }
         itemInfo.offset // posición Y del item en el scroll
-    } else 0
+    } else 0*/
     Box(
         modifier = Modifier
             .fillMaxSize()

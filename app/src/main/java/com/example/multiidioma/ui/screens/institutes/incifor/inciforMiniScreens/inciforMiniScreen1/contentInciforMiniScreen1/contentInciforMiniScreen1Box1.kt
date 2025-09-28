@@ -19,7 +19,7 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 fun contentInciforMiniScreen1Box1() {
     Column(
         modifier = Modifier
-            .fillMaxSize().height(50.dp).background(Color(0xFF4189B5)),
+            .height(25.dp).background(Color(0xFF4189B5)),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
