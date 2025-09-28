@@ -31,7 +31,7 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData) {
             .padding(start = 50.dp, end = 50.dp, top = 50.dp)
 
     ) {
-        TextBodyMedium(data)
+        TextBodyMedium(data, textAlign = TextAlign.Center)
 
         Spacer(modifier = Modifier.height(25.dp))
 

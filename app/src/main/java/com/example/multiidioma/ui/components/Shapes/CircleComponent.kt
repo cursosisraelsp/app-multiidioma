@@ -14,16 +14,19 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 
 @Composable
-fun CircleComponent(width: Dp, height: Dp, widthBox: Float, color: Color = Color.White
+fun CircleComponent(
+    width: Dp, height: Dp, widthBox: Float, color: Color = Color.White
 ) {
     Box(
         modifier = Modifier
             .fillMaxWidth(widthBox)
-            /*.background(color = Color.Green)*/
-            /*.border(width = 1.dp, color = Color.Red)*/,
+        /*.background(color = Color.Green)*/
+        /*.border(width = 1.dp, color = Color.Red)*/,
         contentAlignment = Alignment.Center
     ) {
-        Box(modifier = Modifier.size(width, height), contentAlignment = Alignment.Center) {
+        Box(modifier = Modifier.size(width, height),
+            contentAlignment = Alignment.Center) {
+
             Canvas(modifier = Modifier.fillMaxSize()) {
                 val canvasWidth = size.width
                 val canvasHeight = size.height

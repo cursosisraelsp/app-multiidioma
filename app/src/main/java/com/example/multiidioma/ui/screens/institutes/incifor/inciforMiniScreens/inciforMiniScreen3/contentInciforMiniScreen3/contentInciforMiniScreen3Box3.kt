@@ -19,7 +19,5 @@ fun contentInciforMiniScreen3Box3(data: MiniScreenData) {
     )
     Box(modifier = Modifier.fillMaxSize()) {
 
-
-        ReusableImage(data, estilosImagen)
     }
 }

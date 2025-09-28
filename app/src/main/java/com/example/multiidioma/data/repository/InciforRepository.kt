@@ -20,14 +20,14 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_1_paragraph0,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_01
             ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_2_paragraph0
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_01_b
             ),
             MiniScreenData(
                 id = 3,
