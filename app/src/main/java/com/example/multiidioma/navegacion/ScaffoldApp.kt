@@ -51,11 +51,13 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                     val titulosInstitos = titulosCentros.Institutos(navController, scope, drawerState)
                     if (drawerState.isOpen) {
                         titulosCentrosSingulares.titulosModalDrawSheet.forEach { it() }
-                    }
-                    // Títulos Institutos
-                    if(drawerState.isOpen) {
                         titulosInstitos.titulosModalDrawSheet.forEach { it() }
                     }
+
+                    // Títulos Institutos
+                    /*if(drawerState.isOpen) {
+
+                    }*/
                 }
                 /*if (drawerState.isOpen) {
                     ModalDrawerSheet {
