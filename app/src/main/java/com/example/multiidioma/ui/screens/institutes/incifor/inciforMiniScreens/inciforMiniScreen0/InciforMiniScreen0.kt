@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoExoPlayerComponent
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentInciforMiniScreen0Box2
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentIniciforMiniScreenBox3
 
@@ -47,7 +48,7 @@ fun InciforMiniScreen0(
                 .align(Alignment.Center) // centra el contenido
                 .fillMaxSize()
         ) {
-            VideoScreen(
+            /*VideoScreen(
                 videoId = "ut_8lkPwRU4", // tu ID de video
                 modifier = Modifier
                     //.fillMaxSize()
@@ -58,7 +59,14 @@ fun InciforMiniScreen0(
                         translationY = offset * 0.5f // 👈 efecto parallax
                         translationX = offset * 0.5f
                     }
+            )*/
+            VimeoExoPlayerComponent(
+                videoUrl = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .aspectRatio(16f / 9f) // Relación de aspecto 16:9
             )
+
         }
 
         TemplateScreen(

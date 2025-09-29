@@ -86,6 +86,7 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
                                 } else {
                                     drawerState.close()
                                 }
+
                             } }
                         ) {
                             Icon(

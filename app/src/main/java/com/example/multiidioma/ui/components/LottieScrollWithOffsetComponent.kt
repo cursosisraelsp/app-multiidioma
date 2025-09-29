@@ -45,7 +45,7 @@ fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,i
     Column(
         modifier = Modifier
             //.border(width = 1.dp, color = Color.Black)
-            //.height(650.dp)
+            .height(650.dp)
             //.fillMaxSize()
             //.verticalScroll(scrollState)
             //.padding(16.dp)

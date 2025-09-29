@@ -93,5 +93,9 @@ dependencies {
 
     // Lotti
     implementation ("com.airbnb.android:lottie-compose:6.4.0") // última versión estable
+
+    // ExoPlayer (Google Media3)
+    implementation("androidx.media3:media3-exoplayer:1.4.1")
+    implementation("androidx.media3:media3-ui:1.4.1")
 }
 
