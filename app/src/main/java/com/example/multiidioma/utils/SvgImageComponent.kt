@@ -25,6 +25,5 @@ fun SvgImageComponent(@RawRes resId: Int, modifier: Modifier = Modifier) {
         contentDescription = null,
         modifier = modifier,
         contentScale = ContentScale.Crop
-
     )
 }

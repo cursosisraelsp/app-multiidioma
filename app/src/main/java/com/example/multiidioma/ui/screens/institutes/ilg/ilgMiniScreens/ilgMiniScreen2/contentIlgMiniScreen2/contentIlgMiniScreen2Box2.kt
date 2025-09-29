@@ -44,8 +44,8 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(0.35f)
-                    .padding(start = 20.dp, end =10.dp )
+                    .weight(0.45f)
+                    .padding(start = 20.dp, end = 25.dp )
             ) {
                 AppText(data, estilosTextos, index = 0)
 
@@ -53,7 +53,8 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(0.35f)
+                    .weight(0.45f)
+                    .padding(start = 20.dp, end = 25.dp)
             ) {
                 AppText(data, estilosTextos, index = 1)
             }
@@ -63,10 +64,10 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(0.3f)
-                    .align(alignment = Alignment.End)
+                    .padding(start = 260.dp)
             )
             {
-                SvgImageComponent(R.raw.logo_ilga_0
+                SvgImageComponent(R.raw.logo_ilga_0,
                     )
                 //ReusableImage(data, estilosImagen)
             }

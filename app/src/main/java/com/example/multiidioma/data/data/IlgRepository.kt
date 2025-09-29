@@ -35,18 +35,25 @@ class IlgRepository {
             MiniScreenData(
                 id = 3,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_3_paragraph0,
-                ),
-                imageRes = R.drawable.ihus_img_02
+                    R.string.II_ILG_miniscreen_3_paragraph_0,
+                    R.string.II_ILG_miniscreen_3_paragraph_1,
+                    R.string.II_ILG_miniscreen_3_paragraph_2,
+                    R.string.II_ILG_miniscreen_3_paragraph_3,
+                    R.string.II_ILG_miniscreen_3_paragraph_4,
+                    R.string.II_ILG_miniscreen_3_paragraph_5,
+                    R.string.II_ILG_miniscreen_3_paragraph_6,
+                    ),
+
 
             ),
 
             MiniScreenData(
                 id = 4,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_4_paragraph0,
+                    R.string.II_ILG_miniscreen_4_paragraph_0,
+                    R.string.II_ILG_miniscreen_4_paragraph_1,
                 ),
-                imageRes = R.drawable.ihus_img_02
+                imageRes = R.drawable.ilg_img_02
 
 
 
@@ -55,9 +62,10 @@ class IlgRepository {
             MiniScreenData(
                 id = 5,  //Esta es la pagina q tiene q hacer isra//
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_5_paragraph0,
-                ),
-                imageRes = R.drawable.ihus_img_03
+                    R.string.II_ILG_miniscreen_5_paragraph_0,
+                    R.string.II_ILG_miniscreen_5_paragraph_1
+                    ),
+                imageRes = R.drawable.bgalega
 
 
 

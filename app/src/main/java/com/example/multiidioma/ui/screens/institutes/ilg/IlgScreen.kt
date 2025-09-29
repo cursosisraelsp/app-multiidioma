@@ -19,6 +19,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenState
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen3.IlgMiniScreen3
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen4.IlgMiniScreen4
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen5.IlgMiniScreen5
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen0.ilgMiniScreen0
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.ilgMiniScreen1
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen2.IlgMiniScreen2
@@ -72,7 +75,7 @@ fun IlgScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        /*
+
                         3 -> IlgMiniScreen3(
                             data,
                             Modifier
@@ -86,13 +89,15 @@ fun IlgScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         5 -> IlgMiniScreen5(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        6 -> IlgMiniScreen6(
+
+                       /* 6 -> IlgMiniScreen6(
                             data,
                             navController,
                             Modifier
