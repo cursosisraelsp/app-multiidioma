@@ -27,7 +27,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box1)
+                /*.weight(BoxWeight.Box1)*/
             ) {
                 Box1(data)
             }
@@ -38,7 +38,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box2)
+                /*.weight(BoxWeight.Box2)*/
             ) {
                 Box2(data)
             }
@@ -49,7 +49,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box3)
+               /* .weight(BoxWeight.Box3)*/
             ) {
                 Box3(data)
             }

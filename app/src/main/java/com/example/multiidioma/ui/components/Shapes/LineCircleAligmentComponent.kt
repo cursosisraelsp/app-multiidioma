@@ -23,7 +23,8 @@ fun LineCircleAligmentComponent(
     contentAlignment: Alignment = Alignment.TopEnd,
     color: Color = Color.White,
     modifier: Modifier = Modifier,
-    lineHeight: Dp = 60.dp
+    lineHeight: Dp = 60.dp,
+    thickness: Dp = 3.dp
 ) {
     Box(
         modifier = modifier.fillMaxSize(),
@@ -34,7 +35,7 @@ fun LineCircleAligmentComponent(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
         ) {
-            LineForCircle(color = color, height = lineHeight)
+            LineForCircle(color = color, height = lineHeight, thickness = thickness)
 
             Spacer(modifier = Modifier.height(8.dp))
 

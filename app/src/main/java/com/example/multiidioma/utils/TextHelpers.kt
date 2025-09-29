@@ -21,7 +21,8 @@ fun TextTitleSmall(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.titleSmall,
-        textAlign = TextAlign.Start
+        textAlign = TextAlign.Start,
+        color = color
     ),
     index = index,
 )
@@ -37,7 +38,8 @@ fun TextTitleMedium(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.titleMedium,
-        textAlign = TextAlign.Start
+        textAlign = TextAlign.Start,
+        color = color
     ),
     index = index,
 )
@@ -53,7 +55,8 @@ fun TextDisplayMedium(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.displayMedium,
-        textAlign = TextAlign.Start
+        textAlign = TextAlign.Start,
+        color = color
     ),
     index = index,
 )
@@ -70,7 +73,8 @@ fun TextTitleLarge(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.titleLarge,
-        textAlign = TextAlign.Start
+        textAlign = TextAlign.Start,
+        color = color
     ),
     index = index,
 )
@@ -86,7 +90,8 @@ fun TextBodyMedium(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.bodyMedium,
-        textAlign = textAlign
+        textAlign = textAlign,
+        color = color
     ),
     index = index,
 )

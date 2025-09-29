@@ -30,11 +30,16 @@ import kotlinx.coroutines.launch
 
 
 @Composable
-fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewModel: LanguageViewModel,listState: LazyListState){
+fun ScaffoldApp(
+    topBarVisible: Boolean,
+    bottomBarVisible: Boolean,
+    languageViewModel: LanguageViewModel,
+    listState: LazyListState
+) {
     val navController = rememberNavController()
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     val scope = rememberCoroutineScope()
-    var showMap by rememberSaveable  { mutableStateOf(false) } // 👈 controla la visibilidad del mapa
+    var showMap by rememberSaveable { mutableStateOf(false) } // 👈 controla la visibilidad del mapa
     val condicions = CONDICIONS()
 
     Box(modifier = Modifier.fillMaxSize()) {
@@ -42,7 +47,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
             drawerState = drawerState,
             drawerContent = {
 
-                if (condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen) {
+                if (condicions.CondicionCentrosSingulares(navController)) {
                     ModalDrawerSheet {
                         Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
                         Text(
@@ -99,7 +104,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
 
                     }
                 }
-                if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
+                if (condicions.CondicionInstitutos(navController)) {
                     ModalDrawerSheet {
                         Text(
                             text = "INSTITUTOS DE INVESTIGACIÓN",
