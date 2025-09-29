@@ -47,7 +47,7 @@ fun NavHostApp(
 
         StartAppNavHost(navController)
 
-        HomeAppNavHost(languageViewModel, listState,navController = navController)
+        HomeAppNavHost(languageViewModel, listState,navController = navController,modifier)
         SettingsAppNavegacion(languageViewModel)
 
         MinervaAppNavegacion()

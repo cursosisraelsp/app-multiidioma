@@ -28,13 +28,11 @@ fun NavigationFigures1TextComponent(valorFigura :
         SvgImageComponent(
             resId = valorFigura.imaxen,
             modifier = Modifier.size(valorFigura.tamanhoFigura).clickable {
-                //navController.navigate(valorFigura.ruta)
                 onImageClick(valorFigura.ruta)
             }
         )
         Column (horizontalAlignment = Alignment.CenterHorizontally) {
-            //Text("$valorFigura.ruta ")
-            //Text(" $onImageClick")
+
             Text(
                 valorFigura.textoInfo,
                 color = Color.White,

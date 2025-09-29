@@ -1,7 +1,6 @@
 package com.example.multiidioma.navegacion
 
 import android.annotation.SuppressLint
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -10,7 +9,6 @@ import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -19,16 +17,13 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.data.CONDICIONS
-import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.listaTitulos
 import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.utils.BottomBarUtils
 import com.example.multiidioma.utils.TopBarUtils
 import com.example.multiidioma.viewmodel.LanguageViewModel
-import kotlinx.coroutines.launch
 
 
 @SuppressLint("NewApi")
@@ -54,24 +49,8 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                         titulosInstitos.titulosModalDrawSheet.forEach { it() }
                     }
 
-                    // Títulos Institutos
-                    /*if(drawerState.isOpen) {
-
-                    }*/
                 }
-                /*if (drawerState.isOpen) {
-                    ModalDrawerSheet {
-                        val titulosCentrosSingulares = titulosCentros.CentrosSingulares(navController,scope,drawerState)
 
-                        titulosCentrosSingulares.titulosModalDrawSheet.map { titulo -> titulo() }
-                    }
-                }
-                if (drawerState.isOpen) {
-                    ModalDrawerSheet {
-                       val titulosInstitos = titulosCentros.Institutos(navController,scope,drawerState)
-                       titulosInstitos.titulosModalDrawSheet.map { titulo -> titulo() }
-                    }
-                }*/
             }
         )
         {

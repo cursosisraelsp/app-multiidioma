@@ -12,7 +12,7 @@ import com.example.multiidioma.ui.screens.institutes.incifor.relacionTexto
 
 val figuraMultimediaHome = NavegationFiguresHomeData(
     offset_x = 100.dp,
-    offset_y = 250.dp,
+    offset_y = 200.dp,
     imaxen = R.raw.circulo_azul,
     tamanhoFigura = 250.dp,
     ruta = Destination.Multimedia.route,
@@ -25,7 +25,7 @@ val figuraMultimediaHome = NavegationFiguresHomeData(
 )
 val figuraMapaHome = NavegationFiguresHomeData(
     offset_x = 50.dp,
-    offset_y = 500.dp,
+    offset_y = 475.dp,
     imaxen = R.raw.circulo_azul,
     tamanhoFigura = 80.dp,
     ruta = Destination.Mapa.route,
@@ -51,7 +51,7 @@ val figuraInstitutosHome = NavegationFiguresHomeData(
 )
 val figuraCentrosSingularesHome = NavegationFiguresHomeData(
     offset_x = 20.dp,
-    offset_y = 80.dp,
+    offset_y = 70.dp,
     imaxen = R.raw.circulo_azul,
     tamanhoFigura = 150.dp,
     ruta = Destination.CentrosSingulares.route,
@@ -65,7 +65,7 @@ val figuraCentrosSingularesHome = NavegationFiguresHomeData(
 
 val figuraMinervaHome = NavegationFiguresHomeData(
     offset_x = 230.dp,
-    offset_y = 550.dp,
+    offset_y = 480.dp,
     imaxen = R.raw.circulo_azul,
     tamanhoFigura = 75.dp,
     ruta = Destination.Minerva.route,

@@ -2,10 +2,8 @@ package com.example.multiidioma.ui.screens.detail
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
-import com.example.multiidioma.data.repository.formasClickHome
 import com.example.multiidioma.data.repository.listSingularsCenters
 import com.example.multiidioma.data.repository.listaInstitutos
-//import com.example.multiidioma.data.repository.personalResearcher
 import com.example.multiidioma.data.types.DetailScreenState
 import com.example.multiidioma.ui.screens.home.figurasHome
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -18,20 +16,14 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
     val detailScreenState: StateFlow<DetailScreenState> = _detailScreenState.asStateFlow()
 
     init {
-        loadDetailImaxenClick()
+        //loadDetailImaxenClick()
         loadDetailListSingularsCenter()
         loadDetailListInstitutes()
         loadDetailListScreensHome()
         //loadDetailListMiniScreensIncifor()
     }
 
-    private fun loadDetailImaxenClick(){
-        val imaxenClickEncontrada = formasClickHome.find { it.id == screenId }// it.<valor> debe tamén estar no elemento click
-        //_detailScreenState.value = DetailScreenState(detailImaxenClick = imaxenClickEncontrada)
-        _detailScreenState.value = _detailScreenState.value.copy(
-            detailImaxenClick = imaxenClickEncontrada
-        )
-    }
+
 
     private fun loadDetailListSingularsCenter(){
         val itemListFinded = listSingularsCenters.find { it.id == screenId }
@@ -56,11 +48,5 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
             detailListScreensHome = itemListFinded
         )
     }
-    /*private fun loadDetailListMiniScreensIncifor(){
-        val itemListFinded = personalResearcher.find { it.id == screenId }
-        //_detailScreenState.value = DetailScreenState(detailListSingularsCenters = itemListFinded)
-        _detailScreenState.value = _detailScreenState.value.copy(
-            detailListMiniScreensIncifor = itemListFinded
-        )
-    }*/
+
 }
