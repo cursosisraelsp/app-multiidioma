@@ -10,7 +10,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
-fun contentIpsiusMiniScreen21Box1(data: MiniScreenData){
+fun contentCretusMiniScreen21Box1(data: MiniScreenData){
 
     val estilosImagen = StyleImages(
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter

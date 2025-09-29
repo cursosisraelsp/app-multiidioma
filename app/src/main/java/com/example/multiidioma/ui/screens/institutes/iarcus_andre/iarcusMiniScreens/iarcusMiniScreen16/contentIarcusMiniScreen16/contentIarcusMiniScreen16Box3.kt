@@ -4,6 +4,8 @@ package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScr
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -17,11 +19,14 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 @Composable
 fun contentIarcusMiniScreen16Box3(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        modifier = Modifier
+            .padding(top = 10.dp)
+            .size(250.dp),
+        alignment = Alignment.CenterStart
     )
     ReusableImage(data, estilosImagen)
-    Spacer(modifier = Modifier.height(15.dp))
     LineVerticalComponent(
-        color =(Color(0xFFFFFFFF))
+        color = (Color(0xFFFFFFFF))
     )
 }
+

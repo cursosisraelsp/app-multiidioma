@@ -8,6 +8,8 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -16,26 +18,37 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIpsiusMiniScreen18Box2(data: MiniScreenData){
+fun contentCretusMiniScreen18Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 10.dp, bottom = 10.dp, start = 50.dp, end = 50.dp),
-        horizontalAlignment = Alignment.End,
+            .padding(start = 50.dp, end = 50.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
+
+        val estiloTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFFFFFFFF),
+            textAlign = TextAlign.Center
+        )
+
+
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxWidth().height(70.dp),
+            alignment = Alignment.BottomCenter
+        )
 
         AppText(data, estiloTextos)
-
-        AppText(data, estiloTextos)
-
-
+        SpacerText()
+        ReusableImage(data, estilosImagen)
     }
 }

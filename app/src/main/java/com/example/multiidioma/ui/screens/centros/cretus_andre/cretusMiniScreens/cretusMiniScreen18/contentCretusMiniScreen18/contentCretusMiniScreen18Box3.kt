@@ -4,10 +4,11 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun contentIpsiusMiniScreen18Box3() {
-    CircleLineComponent(
-        color =(Color(0xFFFFFFFF))
-    )
+fun contentCretusMiniScreen18Box3() {
+    LineVerticalComponent(
+         color =(Color(0xFFFFFFFF))
+     )
 }

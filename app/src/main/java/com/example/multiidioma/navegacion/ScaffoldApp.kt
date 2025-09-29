@@ -41,8 +41,8 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
         ModalNavigationDrawer(
             drawerState = drawerState,
             drawerContent = {
-
-                if (condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen) {
+    //&& drawerState.isOpen
+                if (condicions.CondicionCentrosSingulares(navController)) {
                     ModalDrawerSheet {
                         Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
                         Text(
@@ -99,7 +99,8 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
 
                     }
                 }
-                if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
+                //&& drawerState.isOpen
+                if (condicions.CondicionInstitutos(navController) ) {
                     ModalDrawerSheet {
                         Text(
                             text = "INSTITUTOS DE INVESTIGACIÓN",

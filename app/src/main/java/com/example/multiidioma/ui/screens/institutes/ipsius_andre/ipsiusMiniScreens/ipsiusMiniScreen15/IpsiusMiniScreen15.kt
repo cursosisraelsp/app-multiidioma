@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PlantillaScreen
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen15.contentIpsiusMiniScreen15.contentIpsiusMiniScreen15Box1
@@ -24,14 +25,12 @@ fun IpsiusMiniScreen15(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-
-
         PlantillaScreen(
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.70f, Box3 = 0.15f),
             data = data,
             Box1 = { contentIpsiusMiniScreen15Box1() },
             Box2 = { contentIpsiusMiniScreen15Box2(it) },
-            Box3 = { contentIpsiusMiniScreen15Box3(it)
-            })
+            Box3 = { contentIpsiusMiniScreen15Box3() })
     }
 }
 

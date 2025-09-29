@@ -7,7 +7,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen18.contentCretusMiniScreen18.contentCretusMiniScreen18Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen18.contentCretusMiniScreen18.contentCretusMiniScreen18Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen18.contentCretusMiniScreen18.contentCretusMiniScreen18Box3
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen19.contentCretusMiniScreen19.contentCretusMiniScreen19Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen19.contentCretusMiniScreen19.contentCretusMiniScreen19Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen19.contentCretusMiniScreen19.contentCretusMiniScreen19Box3
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen20.contentCretusMiniScreen20.contentCretusMiniScreen20Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen20.contentCretusMiniScreen20.contentCretusMiniScreen20Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen20.contentCretusMiniScreen20.contentCretusMiniScreen20Box3
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen30i.contentCretusMiniScreen30.contentCretusMiniScreen30Box2
 
 
 @Composable
@@ -18,11 +30,13 @@ fun CretusMiniScreen20(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFBCE0F0))
+            .background(Color(0xFFE5F4F9))
     ) {
-
+        PlantillaScreen(
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
+            data = data,
+            Box1 = { contentCretusMiniScreen20Box1() },
+            Box2 = { contentCretusMiniScreen20Box2(it) },
+            Box3 = { contentCretusMiniScreen20Box3() })
     }
 }
-
-
-

@@ -31,9 +31,9 @@ fun contentIpsiusMiniScreen4Box2(data: MiniScreenData){
         verticalArrangement = Arrangement.Center
     ) {
         val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
+            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Start)
 
-        AppText(data, estiloTextos, index = 0)
+        AppText(data, estiloTextos, index = 0,)
         SpacerText()
         AppText(data, estiloTextos, index = 1)
 

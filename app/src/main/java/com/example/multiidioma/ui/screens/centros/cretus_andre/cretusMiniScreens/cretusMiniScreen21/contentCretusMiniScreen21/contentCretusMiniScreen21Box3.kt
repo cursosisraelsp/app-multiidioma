@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 @Composable
-fun contentIpsiusMiniScreen21Box3() {
+fun contentCretusMiniScreen21Box3() {
     CircleLineComponent(
         color =(Color(0xFFFFFFFF))
     )

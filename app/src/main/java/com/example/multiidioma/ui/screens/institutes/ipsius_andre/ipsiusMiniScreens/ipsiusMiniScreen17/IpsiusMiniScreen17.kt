@@ -27,7 +27,7 @@ fun IpsiusMiniScreen17(
             .background(Color(0xFF4189B5))
     ) {
         PlantillaScreen(
-            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.60f, Box3 = 0.20f),
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.70f, Box3 = 0.15f),
             data = data,
             Box1 = { contentIpsiusMiniScreen17Box1() },
             Box2 = { contentIpsiusMiniScreen17Box2(it) },

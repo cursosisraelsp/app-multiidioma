@@ -1,6 +1,10 @@
 package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen15.contentIpsiusMiniScreen15
 
 
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
@@ -14,15 +18,13 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun contentIpsiusMiniScreen15Box3(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
+fun contentIpsiusMiniScreen15Box3() {
+    Column(
         modifier = Modifier
-            .padding(top = 10.dp)
-            .size(250.dp),
-        alignment = Alignment.CenterStart
-    )
-    ReusableImage(data, estilosImagen)
-    LineVerticalComponent(
-        color = (Color(0xFFFFFFFF))
-    )
+            .fillMaxSize()
+            .padding(start = 50.dp,top = 20.dp)
+    ) {
+        LineVerticalComponent(contentAlignment = Alignment.BottomStart)
+    }
 }
+

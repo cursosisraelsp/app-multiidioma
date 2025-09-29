@@ -10,13 +10,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 @Composable
-fun contentIpsiusMiniScreen17Box3() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color(0xFF32627E))
-
+fun contentCretusMiniScreen17Box3() {
+    CircleLineComponent(
+        color =(Color(0xFFFFFFFF))
     )
 }

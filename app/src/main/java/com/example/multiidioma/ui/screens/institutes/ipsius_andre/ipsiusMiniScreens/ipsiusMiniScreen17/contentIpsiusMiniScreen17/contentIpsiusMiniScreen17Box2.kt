@@ -4,7 +4,6 @@ package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScr
 
 
 
-
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -20,6 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -27,16 +27,17 @@ fun contentIpsiusMiniScreen17Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(bottom = 20.dp, start = 50.dp, end = 50.dp),
+            .padding(top = 10.dp, bottom = 10.dp, start = 50.dp, end = 50.dp),
         horizontalAlignment = Alignment.End,
         verticalArrangement = Arrangement.Center
     ) {
         val estiloTextos =
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
+
+        AppText(data, estiloTextos,index=0)
+        SpacerText()
+        AppText(data, estiloTextos,index=1)
+        SpacerText()
+        AppText(data, estiloTextos,index=2)
     }
 }

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -18,25 +19,37 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIpsiusMiniScreen17Box2(data: MiniScreenData){
+fun contentCretusMiniScreen17Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(bottom = 20.dp, start = 50.dp, end = 50.dp),
-        horizontalAlignment = Alignment.End,
+            .padding(start = 50.dp, end = 50.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
+
+        val estiloTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFFFFFFFF),
+            textAlign = TextAlign.Center
+        )
+
+
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxWidth().height(45.dp),
+            alignment = Alignment.BottomCenter
+        )
+
         AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
+        SpacerText()
+        ReusableImage(data, estilosImagen)
     }
 }

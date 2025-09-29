@@ -16,7 +16,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIpsiusMiniScreen21Box2(data: MiniScreenData){
+fun contentCretusMiniScreen21Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
