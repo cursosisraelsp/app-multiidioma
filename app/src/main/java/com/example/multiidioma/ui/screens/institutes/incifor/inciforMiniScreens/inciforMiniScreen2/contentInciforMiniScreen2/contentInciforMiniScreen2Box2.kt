@@ -16,10 +16,13 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.GifComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 
@@ -45,7 +48,7 @@ fun contentInciforMiniScreen2Box2(data: MiniScreenData, offset: Int) {
         ) {
             TextBodyMedium(data, estilosTextos)
         }
-
+        //GifComponent(gif = R.drawable.incifor_anim_06)
         Spacer(modifier = Modifier.height(10.dp))
 
         Box(

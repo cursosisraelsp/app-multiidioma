@@ -44,7 +44,7 @@ fun InciforMiniScreen1(
             data = data,
             //BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.6f, Box3 = 0.15f),
             Box1 = { contentInciforMiniScreen1Box1() },
-            Box2 = { contentInciforMiniScreen1Box2(it,offset) },
+            Box2 = { contentInciforMiniScreen1Box2(it,offset,listState,itemIndex) },
             Box3 = { contentInciforMiniScreen1Box3() }
         )
     }
