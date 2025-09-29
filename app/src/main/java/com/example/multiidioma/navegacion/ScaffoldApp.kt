@@ -45,7 +45,19 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
             drawerState = drawerState,
             drawerContent = {
                 val titulosCentros = listaTitulos()
-                if (drawerState.isOpen) {
+                ModalDrawerSheet {
+                    // Títulos Centros Singulares
+                    val titulosCentrosSingulares = titulosCentros.CentrosSingulares(navController, scope, drawerState)
+                    val titulosInstitos = titulosCentros.Institutos(navController, scope, drawerState)
+                    if (drawerState.isOpen) {
+                        titulosCentrosSingulares.titulosModalDrawSheet.forEach { it() }
+                    }
+                    // Títulos Institutos
+                    if(drawerState.isOpen) {
+                        titulosInstitos.titulosModalDrawSheet.forEach { it() }
+                    }
+                }
+                /*if (drawerState.isOpen) {
                     ModalDrawerSheet {
                         val titulosCentrosSingulares = titulosCentros.CentrosSingulares(navController,scope,drawerState)
 
@@ -57,7 +69,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                        val titulosInstitos = titulosCentros.Institutos(navController,scope,drawerState)
                        titulosInstitos.titulosModalDrawSheet.map { titulo -> titulo() }
                     }
-                }
+                }*/
             }
         )
         {

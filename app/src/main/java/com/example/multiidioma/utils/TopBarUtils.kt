@@ -77,10 +77,11 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
                     }
                 },
                 actions = {
+
                     if(condicionVision.CondicionInstitutos(navController) || condicionVision.CondicionCentrosSingulares(navController)){
                         IconButton(
                             onClick = { scope.launch {
-                                //drawerState.open()
+
                                 if (drawerState.isClosed) {
                                     drawerState.open()
                                 } else {
