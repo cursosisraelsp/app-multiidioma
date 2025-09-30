@@ -85,5 +85,17 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("io.coil-kt:coil-svg:2.4.0")
 
+    //implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-svg:2.4.0")
+
+
+//gif
+    implementation ("io.coil-kt:coil:2.4.0")
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+    implementation ("io.coil-kt:coil-gif:2.4.0")
+//implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.26")
+
+    // Lotti
+    implementation ("com.airbnb.android:lottie-compose:6.4.0") // última versión estable
 }
 

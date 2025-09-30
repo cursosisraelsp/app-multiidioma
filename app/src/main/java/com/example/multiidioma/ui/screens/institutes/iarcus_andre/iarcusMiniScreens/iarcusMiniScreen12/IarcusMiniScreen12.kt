@@ -31,7 +31,7 @@ fun IarcusMiniScreen12(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF66AAD1))
     ) {
         Box(
             modifier = modifier

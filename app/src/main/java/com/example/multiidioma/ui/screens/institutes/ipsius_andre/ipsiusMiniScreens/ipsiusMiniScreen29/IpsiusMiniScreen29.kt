@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29
 
 
 import androidx.compose.foundation.background
@@ -7,16 +7,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box1
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box2
-
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box3
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29.contentIpsiusMiniScreen29Box2
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29.contentIpsiusMiniScreen29Box3
 
 
 @Composable
-fun IpsiusMiniScreen20(
+fun IpsiusMiniScreen29(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -27,12 +30,10 @@ fun IpsiusMiniScreen20(
     ) {
         TemplateScreen(
             data = data,
-            Box1 = { contentIpsiusMiniScreen20Box1()},
-            Box2 = { contentIpsiusMiniScreen20Box2(it) },
-            Box3 = { contentIpsiusMiniScreen20Box3(it) })
+            Box2 = { contentIpsiusMiniScreen29Box2(it) },
+            Box3 = { contentIpsiusMiniScreen29Box3(it) })
 
     }
 }
-
 
 

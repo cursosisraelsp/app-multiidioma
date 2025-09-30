@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen5.contentIpsiusMiniScreen5.contentIpsiusMiniScreen5Box1
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen5.contentIpsiusMiniScreen5.contentIpsiusMiniScreen5Box2
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen5.contentIpsiusMiniScreen5.contentIpsiusMiniScreen5Box3
@@ -26,7 +26,7 @@ fun IpsiusMiniScreen5(
     ) {
 
 
-        PlantillaScreen(
+        TemplateScreen(
             data = data,
             Box1 = { contentIpsiusMiniScreen5Box1() },
             Box2 = { contentIpsiusMiniScreen5Box2(it) },

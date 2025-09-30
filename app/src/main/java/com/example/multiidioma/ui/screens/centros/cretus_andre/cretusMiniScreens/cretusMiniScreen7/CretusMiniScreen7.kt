@@ -24,7 +24,7 @@ fun CretusMiniScreen7(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFBCE0F0))
+            .background(Color(0xFFE5F4F9))
     ) {
         TemplateCircleScreen(
             data = data,

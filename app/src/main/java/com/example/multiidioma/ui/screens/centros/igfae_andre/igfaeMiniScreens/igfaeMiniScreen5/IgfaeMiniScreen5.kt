@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen5.contentIgfaeMiniScreen5.contentIgfaeMiniScreen5Box1
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen5.contentIgfaeMiniScreen5.contentIgfaeMiniScreen5Box2
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen5.contentIgfaeMiniScreen5.contentIgfaeMiniScreen5Box3
@@ -22,11 +22,11 @@ fun IgfaeMiniScreen5(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFBCE0F0))
+            .background(Color(0xFF66AAD1))
     ) {
 
 
-        PlantillaScreen(
+        TemplateScreen(
             data = data,
             Box1 = { contentIgfaeMiniScreen5Box1() },
             Box2 = { contentIgfaeMiniScreen5Box2(it) },

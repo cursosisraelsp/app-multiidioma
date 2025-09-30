@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.contentIpsiusMiniScreen14.contentIarcusMiniScreen14Box1
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.contentIpsiusMiniScreen14.contentIarcusMiniScreen14Box2
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.contentIpsiusMiniScreen14.contentIarcusMiniScreen14Box3
@@ -22,9 +22,9 @@ fun IarcusMiniScreen14(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFFE5F4F9))
     ) {
-        PlantillaScreen(
+      TemplateScreen(
             data = data,
             Box1 = { contentIarcusMiniScreen14Box1() },
             Box2 = { contentIarcusMiniScreen14Box2(it) },

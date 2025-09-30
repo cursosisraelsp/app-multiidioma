@@ -11,7 +11,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.valoresPlantillaScreen
 
 @Composable
-fun PlantillaScreen(
+fun TemplateScreen(
     data: MiniScreenData,
     BoxWeight: BOX = valoresPlantillaScreen, // Usamos valores predeterminados para el peso de las cajas
     Box1: (@Composable (MiniScreenData) -> Unit)? = null,

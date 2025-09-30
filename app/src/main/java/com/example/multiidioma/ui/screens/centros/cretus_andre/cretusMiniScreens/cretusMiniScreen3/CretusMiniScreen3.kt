@@ -9,7 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen3.contentCretusMiniScreen3.ContentCretusMiniScreen3Box1
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen3.contentCretusMiniScreen3.ContentCretusMiniScreen3Box2
 
@@ -23,11 +24,11 @@ fun CretusMiniScreen3(
         modifier = modifier
             .fillMaxSize()
 
-            .background(Color(0xFFBCE0F0))
+            .background(Color(0xFF66AD1))
     ) {
 
 
-        PlantillaScreen(
+        TemplateScreen(
             BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.54f, Box3 = 0.01f),
             data = data,
             Box1 = { ContentCretusMiniScreen3Box1(it) },

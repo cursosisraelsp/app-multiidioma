@@ -24,7 +24,7 @@ fun IarcusMiniScreen7(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFBCE0F0))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateCircleScreen(
             data = data,

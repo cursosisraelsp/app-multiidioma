@@ -43,7 +43,7 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScre
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen26i.IpsiusMiniScreen26
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen27i.IpsiusMiniScreen27
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen28i.IpsiusMiniScreen28
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29i.IpsiusMiniScreen29
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.IpsiusMiniScreen29
 
 
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen3.IpsiusMiniScreen3
@@ -285,7 +285,6 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                         )
                         29 -> IpsiusMiniScreen29(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

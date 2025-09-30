@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 
 
 @Composable
@@ -21,9 +21,9 @@ fun IgfaeMiniScreen20(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF32627E))
+            .background(Color(0xFF66AD1))
     ) {
-        PlantillaScreen(
+        TemplateScreen(
             BoxWeight = BOX(Box1 = 0.35f, Box2 = 0.40f, Box3 = 0.25f),
             data = data,
             Box1 = { contentIgfaeMiniScreen20Box1(it) },
