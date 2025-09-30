@@ -8,14 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-
-import com.example.multiidioma.data.valoresTemplateScreen
-
+import com.example.multiidioma.data.valoresPlantillaScreen
 
 @Composable
-fun TemplateScreen(
+fun PlantillaScreen(
     data: MiniScreenData,
-    BoxWeight: BOX = valoresTemplateScreen,
+    BoxWeight: BOX = valoresPlantillaScreen, // Usamos valores predeterminados para el peso de las cajas
     Box1: (@Composable (MiniScreenData) -> Unit)? = null,
     Box2: (@Composable (MiniScreenData) -> Unit)? = null,
     Box3: (@Composable (MiniScreenData) -> Unit)? = null
@@ -27,9 +25,9 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box1)
+                //.weight(BoxWeight.Box1) // Puedes activar este si quieres usar weight
             ) {
-                Box1(data)
+                Box1(data)  // Solo se ejecutará si Box1 no es nulo
             }
         }
 
@@ -38,9 +36,9 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box2)
+                //.weight(BoxWeight.Box2) // Igualmente puedes activar este si quieres usar weight
             ) {
-                Box2(data)
+                Box2(data)  // Solo se ejecutará si Box2 no es nulo
             }
         }
 
@@ -49,9 +47,9 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(BoxWeight.Box3)
+                //.weight(BoxWeight.Box3) // Puedes activar este si quieres usar weight
             ) {
-                Box3(data)
+                Box3(data)  // Solo se ejecutará si Box3 no es nulo
             }
         }
     }
