@@ -16,24 +16,14 @@ import com.example.multiidioma.R
 
 @Composable
 fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,itemIndex: Int) {
-    //val scrollState = rememberScrollState()
-
-
-    // Carga la composición desde la URL
     val composition by rememberLottieComposition(
         //LottieCompositionSpec.Url(url2)
         LottieCompositionSpec.RawRes(debuxoLottie)
     )
-
-    // Normalizamos scroll a valor de animación 0..1
-    //val scrollProgress = (scrollState.value.toFloat() / scrollState.maxValue.toFloat()).coerceIn(0f, 1f)
-    //val scrollProgress = (offset.toFloat() / 600f).coerceIn(0f, 1f)
-    // Estado reactivo que se recalcula al hacer scroll
     val scrollProgress by remember {
         derivedStateOf {
             val firstVisible = listState.firstVisibleItemIndex
             val scrollOffset = listState.firstVisibleItemScrollOffset
-
             // Si este item es visible, calculamos su progreso
             if (firstVisible <= itemIndex) {
                 (scrollOffset.toFloat() / 600f).coerceIn(0f, 1f)
@@ -42,18 +32,7 @@ fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,i
             }
         }
     }
-    Column(
-        modifier = Modifier
-            //.border(width = 1.dp, color = Color.Black)
-            .height(650.dp)
-            //.fillMaxSize()
-            //.verticalScroll(scrollState)
-            //.padding(16.dp)
-    ) {
-        // Espacio arriba para permitir scroll
-        //repeat(10) { Spacer(modifier = Modifier.height(50.dp)) }
-
-        // Lottie animación
+    Column(modifier = Modifier.height(650.dp)) {
         LottieAnimation(
             composition = composition,
             progress = { scrollProgress },
@@ -61,8 +40,5 @@ fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,i
                 .fillMaxWidth()
                 .height(250.dp)
         )
-
-        // Espacio abajo para permitir scroll
-        //repeat(10) { Spacer(modifier = Modifier.height(50.dp)) }
     }
 }

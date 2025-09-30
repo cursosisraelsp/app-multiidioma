@@ -40,16 +40,19 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData, offset: Int,listState: L
         /*.background(Color.Green)*/
 
     ) {
-        TextBodyMedium(data, estilosTextos)
-
+        Box(modifier = Modifier.height(200.dp).graphicsLayer {
+            translationY = offset * 0.3f // 👈 efecto parallax
+            //translationX = offset * 0.5f
+        }) {
+            TextBodyMedium(data, estilosTextos)
+        }
         Spacer(modifier = Modifier.height(25.dp))
         GifComponent(gif = R.drawable.incifor_anim_06)
         LottieScrollWithOffsetComponent(R.raw.figuritas,listState,itemIndex)
         Box(modifier = Modifier.height(200.dp).graphicsLayer {
-            translationY = offset * 0.5f // 👈 efecto parallax
-            translationX = offset * 0.5f
+            translationY = offset * 0.3f // 👈 efecto parallax
+            //translationX = offset * 0.5f
         }){
-
             ReusableImage(data, estilosImagen)
         }
 
