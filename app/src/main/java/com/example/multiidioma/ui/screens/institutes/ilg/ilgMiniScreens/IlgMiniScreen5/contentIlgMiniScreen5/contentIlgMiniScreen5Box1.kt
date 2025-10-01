@@ -23,6 +23,7 @@ fun contentIlgMiniScreen5Box1() {
     Box(
         modifier = Modifier
             .fillMaxSize()
+            .background(Color.Red)
     ) {
         LineVerticalComponent(color = Color.Black, contentAlignment = Alignment.Center)
     }

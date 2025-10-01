@@ -17,10 +17,6 @@ import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentIlgMiniScreen3Box1(data : MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center, color = Color.Black
-    )
-
 Column(modifier = Modifier
         .fillMaxSize() ){
 

@@ -28,22 +28,9 @@ fun contentIlgMiniScreen4Box1(data: MiniScreenData) {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.6f)
-        ) {
 
-            LineVerticalComponent(color = Color.Black)
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.4f)
-                .padding(top = 15.dp)
-        ) {
-            AppText(data, estilosTextos, index = 0)
-        }
+
+        LineVerticalComponent(color = Color.Black)
 
     }
 }

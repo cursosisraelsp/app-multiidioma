@@ -25,7 +25,7 @@ fun IlgMiniScreen4(
             .background(Color(0xFFE5F4F9))
     ) {
         PlantillaScreen(
-            BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.6f, Box3 = 0.2f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.7f, Box3 = 0.2f),
             data = data,
             Box1 = { contentIlgMiniScreen4Box1(it) },
             Box2 = { contentIlgMiniScreen4Box2(it) },

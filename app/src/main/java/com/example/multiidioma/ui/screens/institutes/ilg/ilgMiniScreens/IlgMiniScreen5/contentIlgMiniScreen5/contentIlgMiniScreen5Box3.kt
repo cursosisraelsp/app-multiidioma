@@ -20,7 +20,7 @@ fun contentIlgMiniScreen5Box3() {
             .padding(start = 50.dp, top = 20.dp),
        horizontalAlignment = Alignment.Start
    ){
-        LineVerticalComponent(modifier = Modifier, contentAlignment = Alignment.TopStart, color = Color.Black)
+        LineVerticalComponent(modifier = Modifier, contentAlignment = Alignment.BottomStart, color = Color.Black)
     }
 
 }
