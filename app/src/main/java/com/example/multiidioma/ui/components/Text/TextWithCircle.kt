@@ -14,20 +14,17 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Shapes.CircleComponent
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun TextWithCircle(
     data: MiniScreenData,
-    style: StyleText,
     index: Int? = null
 ) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(5.dp)
-            .background(Color.Gray),
-        horizontalArrangement = Arrangement.SpaceBetween,
-        verticalAlignment = Alignment.CenterVertically
+            .padding(start = 10.dp)
     ) {
         Box(
             modifier = Modifier
@@ -43,10 +40,10 @@ fun TextWithCircle(
         }
         Box(
             modifier = Modifier
-                .fillMaxWidth(0.7f)
+                .fillMaxWidth()
                 .background(Color.Blue)
         ) {
-            AppText(data = data, style = style, index = index)
+            TextBodyMedium(data, index = index)
         }
 
     }

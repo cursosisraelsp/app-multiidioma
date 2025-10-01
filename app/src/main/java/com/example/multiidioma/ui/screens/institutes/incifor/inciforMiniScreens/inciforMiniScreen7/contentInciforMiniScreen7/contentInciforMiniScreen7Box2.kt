@@ -11,6 +11,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 import com.example.multiidioma.utils.TextBodyMedium
 
@@ -21,10 +22,12 @@ fun contentInciforMiniScreen7Box2(data: MiniScreenData) {
         modifier = Modifier
             .fillMaxSize()
             .padding(
-                start = 50.dp, end = 50.dp, top = 15.dp,
-
-                )
+                start = 30.dp, end = 30.dp, top = 15.dp,)
     ) {
-        TextBodyMedium(data, color = Color.Black, textAlign = TextAlign.End)
+        TextBodyMedium(data, index = 0, color = Color.Black, textAlign = TextAlign.End)
+
+        SpacerText()
+
+        TextBodyMedium(data, index = 1, color = Color.Black, textAlign = TextAlign.End)
     }
 }

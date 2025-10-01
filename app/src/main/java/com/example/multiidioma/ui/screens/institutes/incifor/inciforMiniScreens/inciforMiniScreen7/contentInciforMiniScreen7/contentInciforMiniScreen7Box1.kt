@@ -21,9 +21,10 @@ fun contentInciforMiniScreen7Box1() {
             .fillMaxSize()
     ) {
         LineCircleAligmentComponent(
-            modifier = Modifier.padding(end = 44.dp),
+            modifier = Modifier.padding(end = 36.dp),
             contentAlignment = Alignment.TopEnd,
             lineHeight = 25.dp,
+            color = Color(0xFF32627E)
         )
     }
 }

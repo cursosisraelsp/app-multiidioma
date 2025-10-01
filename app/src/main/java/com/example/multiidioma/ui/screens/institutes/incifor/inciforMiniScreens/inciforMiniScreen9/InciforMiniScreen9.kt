@@ -29,7 +29,7 @@ fun InciforMiniScreen9(
 
         TemplateScreen(
             BoxWeight = BOX(
-                Box1 = 0.20f, Box2 = 0.25f, Box3 =
+                Box1 = 0.10f, Box2 = 0.35f, Box3 =
                     0.55f
             ),
             data = data,

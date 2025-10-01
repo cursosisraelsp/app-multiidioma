@@ -68,7 +68,8 @@ class InciforRepository {
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_7_paragraph_0
+                    R.string.II_INCIFOR_miniscreen_7_paragraph_0,
+                    R.string.II_INCIFOR_miniscreen_7_paragraph_1
                 ),
                 imageRes =
                     R.drawable.noimagen

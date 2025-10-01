@@ -11,8 +11,12 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentInciforMiniScreen10Box1() {
-    Box(modifier = Modifier.fillMaxSize()
-        .padding(start = 50.dp)){
-    LineVerticalComponent(contentAlignment = Alignment.TopStart)
-    }}
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(start = 50.dp, bottom = 20.dp)
+    ) {
+        LineVerticalComponent(contentAlignment = Alignment.TopStart)
+    }
+}
 

@@ -27,6 +27,6 @@ fun contentInciforMiniScreen8Box2(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TextBodyMedium(data)
+        TextBodyMedium(data, textAlign = TextAlign.Center)
     }
 }
