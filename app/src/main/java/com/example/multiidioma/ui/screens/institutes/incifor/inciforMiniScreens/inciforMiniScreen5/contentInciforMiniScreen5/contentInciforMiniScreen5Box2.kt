@@ -25,13 +25,6 @@ import com.example.multiidioma.R
 
 @Composable
 fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier
-            .fillMaxHeight()
-            .fillMaxWidth(0.5f),
-        alignment = Alignment.BottomEnd,
-        contentScale = ContentScale.Crop
-    )
 
     Column(modifier = Modifier.fillMaxSize()) {
         Box(

@@ -29,7 +29,7 @@ fun InciforMiniScreen7(
             data = data,
             Box1 = { contentInciforMiniScreen7Box1() },
             Box2 = { contentInciforMiniScreen7Box2(it)},
-            Box3 = { contentInciforMiniScreen7Box3(it)}
+            Box3 = { contentInciforMiniScreen7Box3()}
         )
     }
 }

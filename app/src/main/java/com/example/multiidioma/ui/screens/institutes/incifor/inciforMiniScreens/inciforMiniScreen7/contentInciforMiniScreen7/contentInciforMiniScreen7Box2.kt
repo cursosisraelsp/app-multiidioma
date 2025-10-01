@@ -12,22 +12,19 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentInciforMiniScreen7Box2(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium,
-        textAlign = TextAlign.End,
-        color = Color.Black
-    )
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(
                 start = 50.dp, end = 50.dp, top = 15.dp,
 
-            )
+                )
     ) {
-        AppText(data, estilosTextos)
+        TextBodyMedium(data, color = Color.Black, textAlign = TextAlign.End)
     }
 }

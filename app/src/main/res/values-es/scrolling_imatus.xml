@@ -21,7 +21,6 @@
     <string name="II_IMATUS_miniscreen_3_texto_buscado_3">universidades, centros de investigación y empresas, tanto a nivel nacional como internacional</string>
     <string name="II_IMATUS_miniscreen_4_paragraph_0">La investigación en el iMATUS se organiza en tres grandes ejes:</string>
     <string name="II_IMATUS_miniscreen_4_texto_buscado_0">tres grandes ejes</string>
-
     <string name="II_IMATUS_miniscreen_5_title_0">MATERIALES PARA LA SALUD</string>
     <string name="II_IMATUS_miniscreen_5_paragraph_0">El aumento de enfermedades asociadas a los cambios en el estilo de vida de la sociedad moderna ha puesto de relieve la necesidad de desarrollar nuevas herramientas de detección y tratamiento. Entre los principales retos se encuentran el diagnóstico precoz en fases asintomáticas y la personalización de los tratamientos, con el objetivo de minimizar efectos secundarios no deseados en los pacientes. Para afrontar estos desafíos, resulta clave impulsar tecnologías que permitan diagnosticar antes y tratar mejor. Algunos de los avances que se han producido son los siguientes.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_0">necesidad de desarrollar nuevas herramientas de detección y tratamiento</string>
@@ -37,7 +36,6 @@
     <string name="II_IMATUS_miniscreen_5_texto_buscado_5">Métodos alternativos a la investigación en animales:</string>
     <string name="II_IMATUS_miniscreen_5_paragraph_3">Desarrollar órganos artificiales y modelos de enfermedad que mejoren la validez de los resultados de los ensayos preclínicos, evitando las dificultades técnicas y éticas asociadas a la investigación en seres vivos.</string>
     <string name="II_IMATUS_miniscreen_5_texto_buscado_6">evitando las dificultades técnicas y éticas</string>
-
     <string name="II_IMATUS_miniscreen_6_title_0">MATERIALES PARA LA INDUSTRIA Y TECNOLOGÍAS EMERGENTES</string>
     <string name="II_IMATUS_miniscreen_6_paragraph_0">El desarrollo de nuevos materiales que impulsen avances tecnológicos es  fundamental para garantizar la sostenibilidad y viabilidad de estas innovaciones. Algunos de  estos materiales se basan en tecnologías emergentes,como la fotónica o la física cuántica y prometen desempeñar un papel clave en la supercomputación y en la transmisión de información a altas velocidades. Por ello, entre los proyectos asociados a esta rama de investigación se encuentran:</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_0">sostenibilidad y viabilidad</string>
@@ -49,7 +47,6 @@
     <string name="II_IMATUS_miniscreen_6_texto_buscado_3">Catalizadores heterogéneos avanzados:</string>
     <string name="II_IMATUS_miniscreen_6_paragraph_2">Con el objetivo de mejorar los procesos químicos, iMATUS desarrolla materiales que actúan como catalizadores capaces de activar reacciones químicas sin desgastarse. Estos catalizadores reutilizables permiten reacciones más eficientes y precisas, lo que contribuye a reducir el consumo energético y el impacto ambiental de numerosos procesos de síntesis.</string>
     <string name="II_IMATUS_miniscreen_6_texto_buscado_4">catalizadores capaces de activar reacciones químicas</string>
-
     <string name="II_IMATUS_miniscreen_7_title_0">"MATERIALES PARA LA ENERGÍA Y EL MEDIO AMBIENTE "</string>
     <string name="II_IMATUS_miniscreen_7_paragraph_0">Es fundamental encontrar soluciones más sostenibles que reduzcan el impacto ambiental de las actividades humanas sin comprometer la calidad de vida. Esto implica  investigaciones enfocadas tanto en la eficiencia energética como en la disminución de la contaminación ambiental. A continuación, se muestran algunos de los proyectos de investigación que el Instituto desarrolla dentro de esta línea.</string>
     <string name="II_IMATUS_miniscreen_7_texto_buscado_0">impacto ambiental de las actividades humanas</string>

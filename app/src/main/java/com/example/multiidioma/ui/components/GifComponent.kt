@@ -9,7 +9,7 @@ import coil.request.ImageRequest
 import androidx.compose.ui.platform.LocalContext
 
 @Composable
-fun GifComponent(modifier: Modifier = Modifier,gif: Int) {
+fun GifComponent(modifier: Modifier = Modifier, gif: Int) {
     val context = LocalContext.current
 
     val imageLoader = ImageLoader.Builder(context)

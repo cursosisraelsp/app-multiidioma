@@ -45,7 +45,7 @@ fun TimelineTemplateBoxUtil(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            CircleLineTimelineUtil()
+            CircleLineTimelineUtil(color = Color.Black)
         }
     }
 }

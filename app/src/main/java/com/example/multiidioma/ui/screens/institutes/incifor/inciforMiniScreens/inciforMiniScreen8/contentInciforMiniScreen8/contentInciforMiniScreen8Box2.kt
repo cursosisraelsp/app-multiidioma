@@ -14,12 +14,11 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentInciforMiniScreen8Box2(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
-    )
+
 
     Column(
         modifier = Modifier
@@ -28,6 +27,6 @@ fun contentInciforMiniScreen8Box2(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        AppText(data, estilosTextos)
+        TextBodyMedium(data)
     }
 }

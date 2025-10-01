@@ -73,7 +73,7 @@ fun TimelineTemplate(
         Column(
             modifier = Modifier
                 .fillMaxHeight()
-                .padding(start = 20.dp, end = 20.dp),
+                .padding(start = 10.dp, end = 20.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Box(

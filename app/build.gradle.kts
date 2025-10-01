@@ -75,6 +75,8 @@ dependencies {
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
     implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
     implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha01")
+    // Lotti
+    implementation("com.airbnb.android:lottie-compose:6.4.0") // última versión estable
 
     // Google Maps Compose
     implementation("com.google.maps.android:maps-compose:4.3.0")
@@ -86,10 +88,10 @@ dependencies {
     implementation("io.coil-kt:coil-svg:2.4.0")
 
     //
-    implementation ("io.coil-kt:coil:2.4.0")
-    implementation ("io.coil-kt:coil-compose:2.4.0")
-    implementation ("io.coil-kt:coil-gif:2.4.0")
-    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.26")
+    implementation("io.coil-kt:coil:2.4.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-gif:2.4.0")
+    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.26")
 
 
 }
