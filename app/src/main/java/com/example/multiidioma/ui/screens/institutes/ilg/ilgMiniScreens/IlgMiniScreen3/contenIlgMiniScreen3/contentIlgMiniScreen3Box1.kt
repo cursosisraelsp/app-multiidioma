@@ -32,13 +32,6 @@ Column(modifier = Modifier
                 LineVerticalComponent(contentAlignment = Alignment.Center, color = Color.Black)
             }
 
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .weight(0.2f)
-            )
-            {
-                AppText(data, estilosTextos, index = 0)
-            }
+
         }
 }

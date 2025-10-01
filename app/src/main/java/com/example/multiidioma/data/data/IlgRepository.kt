@@ -71,34 +71,30 @@ class IlgRepository {
 
             ),
             MiniScreenData(
-                id = 6,  //Pagina Kike 1//
+                id = 6,
                 bodyParagraphs = listOf(
-                    R.string.II_IHUS_miniscreen_6_title0,
-                    R.string.II_IHUS_miniscreen_6_title1,
-                    R.string.II_IHUS_miniscreen_6_title2,
-                    R.string.II_IHUS_miniscreen_6_paragraph0,
+                    R.string.II_ILG_miniscreen_6_paragraph_0,
+                    R.string.II_ILG_miniscreen_6_paragraph_1,
+
                 ),
-                imageRes = R.drawable.ihus_img_03
+                imageRes = R.drawable.bgalega
             ),
 
             MiniScreenData(
-                id = 7,  //Pagina Kike 2//
+                id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_IHUS_miniscreen_7_title0,
-                    R.string.II_IHUS_miniscreen_7_title1,
-                    R.string.II_IHUS_miniscreen_7_title2,
-                    R.string.II_IHUS_miniscreen_7_paragraph0,
+                    R.string.II_ILG_miniscreen_7_paragraph_0,
+                    R.string.II_ILG_miniscreen_7_paragraph_1,
                 ),
-                imageRes = R.drawable.ihus_img_03
+                imageRes = R.drawable.bgalega
+
             ),
 
             MiniScreenData(
-                id = 8,  //Pagina Kike 2//
+                id = 8,
                 bodyParagraphs = listOf(
-                    R.string.II_IHUS_miniscreen_8_title0,
-                    R.string.II_IHUS_miniscreen_8_title1,
-                    R.string.II_IHUS_miniscreen_8_title2,
-                    R.string.II_IHUS_miniscreen_8_paragraph0,
+                    R.string.II_ILG_miniscreen_8_paragraph_0,
+                   // R.string.II_ILG_miniscreen_8_paragraph_1,
                 ),
                 imageRes = R.drawable.ihus_img_05_eng
 

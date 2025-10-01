@@ -22,6 +22,9 @@ import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen3.IlgMiniScreen3
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen4.IlgMiniScreen4
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen5.IlgMiniScreen5
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen6.IlgMiniScreen6
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen7.IlgMiniScreen7
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen8.IlgMiniScreen8
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen0.ilgMiniScreen0
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.ilgMiniScreen1
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen2.IlgMiniScreen2
@@ -97,31 +100,26 @@ fun IlgScreen(
                                 .fillParentMaxHeight()
                         )
 
-                       /* 6 -> IlgMiniScreen6(
+                        6 -> IlgMiniScreen6(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight(),
-
-
-
+                                .fillParentMaxHeight()
                             )
                         7 -> IlgMiniScreen7(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight(),
+                                .fillParentMaxHeight()
                         )
-                        8 -> IlgMiniScreen8(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
+
+                         8 -> IlgMiniScreen8(
+                             data,
+                             Modifier
+                                 .fillMaxWidth()
+                                 .fillParentMaxHeight()
                         )
-                        9 -> IlgMiniScreen9(
+                       /* 9 -> IlgMiniScreen9(
                             data,
                             Modifier
                                 .fillMaxWidth()

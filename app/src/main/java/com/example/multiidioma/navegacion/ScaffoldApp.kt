@@ -43,7 +43,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
             drawerState = drawerState,
             drawerContent = {
 
-                if (condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen) {
+                if (drawerState.isOpen) {
                     ModalDrawerSheet {
                         Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
                         Text(
@@ -97,11 +97,6 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
 
                                 }
                         )
-
-                    }
-                }
-                if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
-                    ModalDrawerSheet {
                         Text(
                             text = "INSTITUTOS DE INVESTIGACIÓN",
                             modifier = Modifier.padding(16.dp)
@@ -167,8 +162,14 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
 
                                 }
                         )
+
                     }
                 }
+                /*if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
+                    ModalDrawerSheet {
+
+                    }
+                }*/
             }
         )
         {
@@ -176,14 +177,16 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                 topBar = {
 
                     TopBarUtils(
-                        topBarVisible = topBarVisible,
+                        //topBarVisible = topBarVisible,
+                        topBarVisible = true,
                         navController = navController,
                         drawerState, scope = scope
                     )
                 },
                 bottomBar = {
                     BottomBarUtils(
-                        bottomBarVisible = bottomBarVisible,
+                        //bottomBarVisible = bottomBarVisible,
+                        bottomBarVisible = true,
                         navController = navController
                     )
                 }
