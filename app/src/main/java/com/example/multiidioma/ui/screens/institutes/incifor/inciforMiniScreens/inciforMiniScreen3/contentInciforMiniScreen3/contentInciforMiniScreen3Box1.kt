@@ -19,6 +19,10 @@ fun contentInciforMiniScreen3Box1() {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        LineCircleAligmentComponent(modifier = Modifier.padding(end = 44.dp))
+        LineCircleAligmentComponent(
+            modifier = Modifier.padding(end = 44.dp),
+            contentAlignment = Alignment.TopEnd,
+            lineHeight = 25.dp,
+        )
     }
 }

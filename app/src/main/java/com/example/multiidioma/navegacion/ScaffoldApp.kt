@@ -1,5 +1,7 @@
 package com.example.multiidioma.navegacion
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,6 +31,7 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 import kotlinx.coroutines.launch
 
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewModel: LanguageViewModel,listState: LazyListState){
     val navController = rememberNavController()
@@ -42,7 +45,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
             drawerState = drawerState,
             drawerContent = {
 
-                if (condicions.CondicionCentrosSingulares(navController) && drawerState.isOpen) {
+                if (condicions.CondicionInstitutos(navController)) {
                     ModalDrawerSheet {
                         Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
                         Text(
@@ -97,77 +100,14 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                                 }
                         )
 
+
                     }
                 }
-                if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
+                /*if (condicions.CondicionInstitutos(navController) && drawerState.isOpen) {
                     ModalDrawerSheet {
-                        Text(
-                            text = "INSTITUTOS DE INVESTIGACIÓN",
-                            modifier = Modifier.padding(16.dp)
-                        )
-                        Text(
-                            text = "IHUS",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Ihus.route)
-                                    scope.launch { drawerState.close() }
 
-                                }
-                        )
-
-                        Text(
-                            text = "IDEGA",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Idega.route)
-                                    scope.launch { drawerState.close() }
-
-                                }
-                        )
-                        Text(
-                            text = "ICE",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Ice.route)
-                                    scope.launch { drawerState.close() }
-
-                                }
-                        )
-                        Text(
-                            text = "INCIFOR",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Incifor.route)
-                                    scope.launch { drawerState.close() }
-
-                                }
-                        )
-                        Text(
-                            text = "IMATUS",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Imatus.route)
-                                    scope.launch { drawerState.close() }
-
-                                }
-                        )
-                        Text(
-                            text = "ILG",
-                            modifier = Modifier
-                                .padding(16.dp)
-                                .clickable {
-                                    navController.navigate(Destination.Ilg.route)
-                                    scope.launch { drawerState.close() }
-
-                                }
-                        )
                     }
-                }
+                }*/
             }
         )
         {
@@ -175,14 +115,16 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                 topBar = {
 
                     TopBarUtils(
-                        topBarVisible = topBarVisible,
+                        /*topBarVisible = topBarVisible*/
+                        topBarVisible = true,
                         navController = navController,
                         drawerState, scope = scope
                     )
                 },
                 bottomBar = {
                     BottomBarUtils(
-                        bottomBarVisible = bottomBarVisible,
+                        /*bottomBarVisible = bottomBarVisible,*/
+                        bottomBarVisible = true,
                         navController = navController
                     )
                 }

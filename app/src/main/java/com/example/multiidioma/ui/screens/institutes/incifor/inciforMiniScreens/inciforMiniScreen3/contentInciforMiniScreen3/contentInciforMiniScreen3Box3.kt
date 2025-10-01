@@ -12,11 +12,6 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
 fun contentInciforMiniScreen3Box3(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(),
-        alignment = Alignment.BottomCenter,
-        contentScale = ContentScale.FillBounds
-    )
     Box(modifier = Modifier.fillMaxSize()) {
 
     }
