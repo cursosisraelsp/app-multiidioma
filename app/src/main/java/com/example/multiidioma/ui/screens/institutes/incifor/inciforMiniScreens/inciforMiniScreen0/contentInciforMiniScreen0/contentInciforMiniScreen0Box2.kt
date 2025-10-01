@@ -25,7 +25,7 @@ fun contentInciforMiniScreen0Box2(data: MiniScreenData, offset: Int) {
             .fillMaxSize()
             .padding(start = 50.dp, end = 50.dp).graphicsLayer {
                 translationY = -offset * 0.8f // 👈 efecto parallax
-                translationX = -offset * 0.5f
+                //translationX = -offset * 0.5f
             },
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center

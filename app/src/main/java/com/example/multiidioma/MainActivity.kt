@@ -9,6 +9,7 @@ import androidx.annotation.RequiresApi
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Alignment
@@ -22,6 +23,8 @@ import com.example.multiidioma.ui.components.LottieAutoPlay
 import com.example.multiidioma.ui.components.LottieScrollComponent
 //import com.example.multiidioma.ui.components.ParallaxEffect
 import com.example.multiidioma.ui.components.ParallaxHeader
+import com.example.multiidioma.ui.components.YouTubePlayerCompose
+
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 class MainActivity : ComponentActivity() {
@@ -42,6 +45,7 @@ class MainActivity : ComponentActivity() {
             }*/
 
             //LottieAutoPlay(R.raw.figuritas)
+
         }
     }
 }

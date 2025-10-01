@@ -18,8 +18,8 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 @Composable
 fun contentInciforMiniScreen1Box1() {
     Column(
-        modifier = Modifier
-            .height(25.dp).background(Color(0xFF4189B5)),
+        modifier = Modifier.background(Color(0xFF4189B5)),
+            //.height(25.dp).background(Color(0xFF4189B5)),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

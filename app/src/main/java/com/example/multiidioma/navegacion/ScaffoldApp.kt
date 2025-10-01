@@ -58,14 +58,16 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                 topBar = {
 
                     TopBarUtils(
-                        topBarVisible = topBarVisible,
+                        //topBarVisible = topBarVisible,
+                        topBarVisible = true,
                         navController = navController,
                         drawerState, scope = scope
                     )
                 },
                 bottomBar = {
                     BottomBarUtils(
-                        bottomBarVisible = bottomBarVisible,
+                        //bottomBarVisible = bottomBarVisible,
+                        bottomBarVisible = true,
                         navController = navController
                     )
                 }

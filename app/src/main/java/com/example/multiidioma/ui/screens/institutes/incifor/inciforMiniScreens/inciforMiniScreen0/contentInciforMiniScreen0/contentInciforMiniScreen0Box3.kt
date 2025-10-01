@@ -15,8 +15,8 @@ import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 @Composable
 fun contentIniciforMiniScreenBox3() {
     Column(
-        modifier = Modifier
-            .height(10.dp),
+        modifier = Modifier,
+            //.height(10.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {

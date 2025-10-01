@@ -14,9 +14,9 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 fun contentInciforMiniScreen1Box3() {
 
     Column(
-        modifier = Modifier
-            .height(25.dp)
-            .padding(start = 50.dp, top = 20.dp),
+        modifier = Modifier,
+            //.height(25.dp)
+            //.padding(start = 50.dp, top = 20.dp),
         horizontalAlignment = Alignment.Start
     ) {
         LineVerticalComponent(
