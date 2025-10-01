@@ -52,7 +52,7 @@ fun NavHostApp(
 
         MinervaAppNavegacion()
         //## INSTITUTOS
-        IhusAppNavegacion()
+        IhusAppNavegacion(listState)
         IdegaAppNavegacion()
         IceAppNavegacion()
         InciforAppNavegacion(listState,navController)
