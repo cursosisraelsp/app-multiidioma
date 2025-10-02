@@ -38,7 +38,7 @@ fun IpsiusMiniScreen0(
             )
         }
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.00f, Box2 = 0.70f, Box3 = 0.30f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.70f, Box3 = 0.30f),
             data = data,
             Box2 = { contentIpsiusMiniScreen0Box2(it) },
             Box3 = { contentIpsiusMiniScreen0Box3() })

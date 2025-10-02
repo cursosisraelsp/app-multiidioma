@@ -26,7 +26,7 @@ fun InstitutesScreen(navController: NavController){
     }
     Column (){
         Carrusel(carouselItems = carouselItems, navController)
-        Box(modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.Red)){
+        Box(modifier = Modifier.fillMaxWidth()){
             Image(
 
                 painterResource(R.drawable.imaxen_centros_investigacion),

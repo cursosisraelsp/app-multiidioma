@@ -1,6 +1,7 @@
 package com.example.multiidioma.ui.screens.detail
 
 import InciforScreen
+import IpsiusScreen
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -63,7 +64,6 @@ fun DetailScreen(
 
 
         listSingulars != null -> {
-
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
                     is ContentType.CIQUS -> CiqusScreen()
@@ -85,6 +85,7 @@ fun DetailScreen(
                     is ContentType.INCIFOR -> InciforScreen(listState, navController, modifier)
                     is ContentType.IMATUS -> ImatusScreen()
                     is ContentType.ILG -> IlgScreen()
+                    is ContentType.IPSIUS -> IpsiusScreen(listState, navController)
                     else -> Text("screen non atopado")
                 }
             }

@@ -29,7 +29,7 @@ fun contentInciforMiniScreen10Box2(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
 
-        TextWithCircle(data, estilosTextos, index = 0)
+        TextWithCircle(data, index = 0)
 
         TextBodyMedium(data, estilosTextos, index = 1)
 

@@ -21,7 +21,7 @@ val accentColor = Color(0xFF00BCD4) // Un cian claro
 val corLetras = Color(0xFF66aad1)
 val whiteColor = Color.White
 
-val nomeInstitutos = listOf("IHUS", "IDEGA", "ICE", "INCIFOR", "IMATUS", "ILG")
+val nomeInstitutos = listOf("IHUS", "IDEGA", "ICE", "INCIFOR", "IMATUS", "ILG","IPSIUS")
 val nomeCentros = listOf("CIQUS", "CIMUS", "CITIUS", "CRETUS", "IGFAE", "IDIS")
 
 data class BOX(
@@ -91,73 +91,83 @@ class listaTitulos{
             TitulosEnlaces {
         return TitulosEnlaces(listOf
             (
-            {Text(
-                text = "INSTITUTOS DE INVESTIGACIÓN",
-                modifier = Modifier.padding(16.dp),
-                fontWeight = FontWeight. W800
-            )},
-            {Text(
-                text = "IHUS",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Ihus.route)
-                        scope.launch { drawerState.close() }
+                {Text(
+                    text = "INSTITUTOS DE INVESTIGACIÓN",
+                    modifier = Modifier.padding(16.dp),
+                    fontWeight = FontWeight. W800
+                )},
+                {Text(
+                    text = "IHUS",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Ihus.route)
+                            scope.launch { drawerState.close() }
 
-                    }
-            )},
-            {Text(
-                text = "IDEGA",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Idega.route)
-                        scope.launch { drawerState.close() }
+                        }
+                )},
+                {Text(
+                    text = "IDEGA",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Idega.route)
+                            scope.launch { drawerState.close() }
 
-                    }
-            )},
-            {Text(
-                text = "ICE",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Ice.route)
-                        scope.launch { drawerState.close() }
+                        }
+                )},
+                {Text(
+                    text = "ICE",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Ice.route)
+                            scope.launch { drawerState.close() }
 
-                    }
-            )},
-            {Text(
-                text = "INCIFOR",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Incifor.route)
-                        scope.launch { drawerState.close() }
+                        }
+                )},
+                {Text(
+                    text = "INCIFOR",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Incifor.route)
+                            scope.launch { drawerState.close() }
 
-                    }
+                        }
+                )
+                },
+                {Text(
+                    text = "IMATUS",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Imatus.route)
+                            scope.launch { drawerState.close() }
+
+                        }
+                )},
+                {Text(
+                    text = "ILG",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Ilg.route)
+                            scope.launch { drawerState.close() }
+
+                        }
+                )},
+                {Text(
+                    text = "IPSIUS",
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .clickable {
+                            navController.navigate(Destination.Ipsius.route)
+                            scope.launch { drawerState.close() }
+
+                        }
+                )}
             )
-            },
-            {Text(
-                text = "IMATUS",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Imatus.route)
-                        scope.launch { drawerState.close() }
-
-                    }
-            )},
-            {Text(
-                text = "ILG",
-                modifier = Modifier
-                    .padding(16.dp)
-                    .clickable {
-                        navController.navigate(Destination.Ilg.route)
-                        scope.launch { drawerState.close() }
-
-                    }
-            )}
-        )
         )
     }
 }
