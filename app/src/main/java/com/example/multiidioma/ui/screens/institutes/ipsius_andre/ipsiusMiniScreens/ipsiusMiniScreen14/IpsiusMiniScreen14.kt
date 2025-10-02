@@ -26,7 +26,7 @@ fun IpsiusMiniScreen14(
             .background(Color(0xFF4189B5))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.90f, Box3 = 0.05f),
             data = data,
             Box1 = { contentIpsiusMiniScreen14Box1() },
             Box2 = { contentIpsiusMiniScreen14Box2(it) },

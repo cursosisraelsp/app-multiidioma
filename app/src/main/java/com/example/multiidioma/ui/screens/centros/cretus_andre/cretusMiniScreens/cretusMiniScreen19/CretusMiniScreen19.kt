@@ -26,7 +26,7 @@ fun CretusMiniScreen19(
             .background(Color(0xFFBCE0F0))
     ) {
        TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
+            BoxWeight = BOX(Box1 = 0.07f, Box2 = 0.86f, Box3 = 0.07f),
             data = data,
             Box1 = { contentCretusMiniScreen19Box1() },
             Box2 = { contentCretusMiniScreen19Box2(it) },

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -37,7 +38,7 @@ fun contentCretusMiniScreen19Box2(data: MiniScreenData) {
 
         val estiloTextos = StyleText(
             style = MaterialTheme.typography.bodyMedium,
-            color = Color(0xFFFFFFFF),
+            color = Color(0xFF000000),
             textAlign = TextAlign.Center
         )
 

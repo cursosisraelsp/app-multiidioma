@@ -133,7 +133,6 @@ fun CretusScreen(listState: LazyListState, navController: NavController) {
                         )
                         7 -> CretusMiniScreen7(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

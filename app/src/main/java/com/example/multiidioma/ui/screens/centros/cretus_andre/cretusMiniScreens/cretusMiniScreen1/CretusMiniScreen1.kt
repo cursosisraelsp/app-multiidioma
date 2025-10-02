@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 
@@ -30,9 +31,10 @@ fun CretusMiniScreen1(
     ) {
         TemplateScreen(
             data = data,
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             Box1 = { contentCretusMiniScreen1Box1()},
             Box2 = { contentCretusMiniScreen1Box2(it) },
-            Box3 = { contentCretusMiniScreen1Box3(it) })
+            Box3 = { contentCretusMiniScreen1Box3() })
 
     }
 }

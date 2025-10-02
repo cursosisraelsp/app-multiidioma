@@ -11,9 +11,10 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.IpsiusScreen
 
 fun NavGraphBuilder.IpsiusAppNavegacion(
     listState: LazyListState,
+
     navController: NavController,
 ) {
     composable(Destination.Ipsius.route) {
-        IpsiusScreen(listState, navController)
+        IpsiusScreen(listState,navController)
     }
 }

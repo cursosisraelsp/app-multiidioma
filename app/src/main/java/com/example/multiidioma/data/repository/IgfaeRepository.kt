@@ -16,6 +16,7 @@ class IgfaeRepository {
                 id = 1,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_1_paragraph_0,
+
                 ),
                 imageRes = R.drawable.noimagen
             ),
@@ -191,7 +192,7 @@ class IgfaeRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_22_title_0,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 23,

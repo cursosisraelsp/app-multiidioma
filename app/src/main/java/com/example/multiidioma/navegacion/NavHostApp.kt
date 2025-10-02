@@ -28,6 +28,7 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 @Composable
 fun NavHostApp(
     navController: NavHostController,
+
     modifier: Modifier,
     languageViewModel: LanguageViewModel,
     listState: LazyListState,

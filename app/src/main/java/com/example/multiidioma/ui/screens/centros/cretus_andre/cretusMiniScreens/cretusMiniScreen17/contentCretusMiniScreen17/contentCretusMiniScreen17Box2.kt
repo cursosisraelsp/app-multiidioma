@@ -44,12 +44,12 @@ fun contentCretusMiniScreen17Box2(data: MiniScreenData) {
 
 
         val estilosImagen = StyleImages(
-            modifier = Modifier.fillMaxWidth().height(45.dp),
+            modifier = Modifier.fillMaxWidth(),
             alignment = Alignment.BottomCenter
         )
 
         AppText(data, estiloTextos)
-        SpacerText()
+        Spacer(Modifier.height(15.dp))
         ReusableImage(data, estilosImagen)
     }
 }

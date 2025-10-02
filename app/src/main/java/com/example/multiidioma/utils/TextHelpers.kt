@@ -1,5 +1,6 @@
 package com.example.multiidioma.utils
 
+import android.R.style
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,9 +19,11 @@ fun TextTitleSmall(
     color: Color = Color.White,
 ) = AppText(
     data = data,
+    modifier = modifier,
     style = StyleText(
         style = MaterialTheme.typography.titleSmall,
-        textAlign = TextAlign.Start
+        textAlign = textAlign,
+        color = color,
     ),
     index = index,
 )
@@ -34,9 +37,11 @@ fun TextTitleMedium(
     color: Color = Color.White,
 ) = AppText(
     data = data,
+    modifier = modifier,
     style = StyleText(
         style = MaterialTheme.typography.titleMedium,
-        textAlign = TextAlign.Start
+        textAlign = textAlign,
+        color = color,
     ),
     index = index,
 )
@@ -50,9 +55,11 @@ fun TextDisplayMedium(
     color: Color = Color.White,
 ) = AppText(
     data = data,
+    modifier = modifier,
     style = StyleText(
         style = MaterialTheme.typography.displayMedium,
-        textAlign = TextAlign.Start
+        textAlign = textAlign,
+        color = color,
     ),
     index = index,
 )
@@ -67,9 +74,11 @@ fun TextTitleLarge(
     color: Color = Color.White,
 ) = AppText(
     data = data,
+    modifier = modifier,
     style = StyleText(
         style = MaterialTheme.typography.titleLarge,
-        textAlign = TextAlign.Start
+        textAlign = textAlign,
+        color = color,
     ),
     index = index,
 )
@@ -83,9 +92,11 @@ fun TextBodyMedium(
     color: Color = Color.White,
 ) = AppText(
     data = data,
+    modifier = modifier,
     style = StyleText(
         style = MaterialTheme.typography.bodyMedium,
-        textAlign = textAlign
+        textAlign = textAlign,
+        color = color,
     ),
     index = index,
 )

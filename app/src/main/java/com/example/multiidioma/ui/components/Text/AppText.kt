@@ -14,7 +14,8 @@ import com.example.multiidioma.ui.LocalizedContext
 fun AppText(
     data: MiniScreenData,
     style: StyleText,
-    index: Int? = null
+    index: Int? = null,
+    modifier: Modifier = Modifier
 ) {
     val context = LocalizedContext.current
 

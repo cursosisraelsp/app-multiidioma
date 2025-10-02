@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -18,36 +19,22 @@ import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun ContentCretusMiniScreen3Box1(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier
-            .size(60.dp)
-            .padding(start = 10.dp, top = 10.dp),
-        alignment = Alignment.TopStart
-    )
-    val estilosTextos =
-        StyleText(
-            style = MaterialTheme.typography.bodyMedium,
-            color = (Color(0xFF000000)),
-            textAlign = TextAlign.Start
-        )
-
-    Box(
+fun ContentCretusMiniScreen3Box1() {
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 20.dp, start = 20.dp, end = 20.dp)
+            .padding( bottom = 20.dp)
     ) {
-        Row {
-
-            ReusableImage(data, estilosImagen)
-
-
-            AppText(data, estilosTextos)
-        }
+        LineCircleComponent(contentAlignment = Alignment.TopStart)
     }
 }
+
+
+
 
 

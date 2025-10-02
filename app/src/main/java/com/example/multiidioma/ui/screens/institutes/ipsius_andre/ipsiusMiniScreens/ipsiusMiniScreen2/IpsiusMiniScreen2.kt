@@ -9,7 +9,6 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen2.contentMiniScreen2.contentIpsiusMiniScreen2Box1
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen2.contentMiniScreen2.contentIpsiusMiniScreen2Box2
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen2.contentMiniScreen2.contentIpsiusMiniScreen2Box3
 
@@ -29,8 +28,7 @@ fun IpsiusMiniScreen2(
     ) {
             TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.5f, Box2 = 0.4f, Box3 = 0.1f),
-            Box1 = { contentIpsiusMiniScreen2Box1(it) },
+            BoxWeight = BOX(Box1 = 0.0f, Box2 = 0.9f, Box3 = 0.1f),
             Box2 = { contentIpsiusMiniScreen2Box2(it) },
             Box3 = { contentIpsiusMiniScreen2Box3() })
     }

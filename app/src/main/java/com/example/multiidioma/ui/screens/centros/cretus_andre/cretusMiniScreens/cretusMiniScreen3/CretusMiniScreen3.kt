@@ -24,16 +24,15 @@ fun CretusMiniScreen3(
         modifier = modifier
             .fillMaxSize()
 
-            .background(Color(0xFF66AD1))
+            .background(Color(0xFF66AAD1))
     ) {
 
 
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.54f, Box3 = 0.01f),
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.70f, Box3 = 0.15f),
             data = data,
-            Box1 = { ContentCretusMiniScreen3Box1(it) },
-
-            Box2 = { ContentCretusMiniScreen3Box2() })
+            Box1 = { ContentCretusMiniScreen3Box1() },
+            Box2 = { ContentCretusMiniScreen3Box2(it) })
     }
 }
 

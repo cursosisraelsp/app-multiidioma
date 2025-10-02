@@ -9,10 +9,5 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
 fun contentCretusMiniScreen5Box1(){
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        LineCircleComponent( color =(Color(0xFF000000)))
-    }
+    LineCircleComponent(color =(Color(0xFFFFFFFF)))
 }

@@ -1,15 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen16.contentIpsiusMiniScreen16
-
-
-
-
-
-
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,22 +14,31 @@ import com.example.multiidioma.utils.TextBodyMedium
 @Composable
 fun contentIpsiusMiniScreen16Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(),
-        alignment = Alignment.BottomEnd,
-        contentScale = ContentScale.FillBounds
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(250.dp),
+
+        contentScale = ContentScale.Fit
     )
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
 
-    Column {
+    ) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.5f)
-                .padding(start = 50.dp, end = 50.dp)
+                .padding(horizontal = 50.dp),
+
+            contentAlignment = Alignment.TopStart
         ) {
-            TextBodyMedium(data,textAlign = TextAlign.Center)
-            SpacerText()
-            TextBodyMedium(data,textAlign = TextAlign.Center)
+            Column {
+                TextBodyMedium(data, textAlign = TextAlign.Start,index= 0)
+                SpacerText()
+                TextBodyMedium(data, textAlign = TextAlign.Start, index= 1)
+            }
         }
 
         SpacerText()
@@ -48,8 +46,9 @@ fun contentIpsiusMiniScreen16Box2(data: MiniScreenData) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.5f)
-                .padding(start = 50.dp, end = 100.dp)
+                .weight(0.5f),
+
+            contentAlignment = Alignment.Center
         ) {
             ReusableImage(data, estilosImagen)
         }

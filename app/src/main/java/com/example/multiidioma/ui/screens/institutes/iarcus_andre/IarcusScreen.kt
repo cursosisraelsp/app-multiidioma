@@ -160,7 +160,6 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
 
                         12 -> IarcusMiniScreen12(
                             data,
-
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

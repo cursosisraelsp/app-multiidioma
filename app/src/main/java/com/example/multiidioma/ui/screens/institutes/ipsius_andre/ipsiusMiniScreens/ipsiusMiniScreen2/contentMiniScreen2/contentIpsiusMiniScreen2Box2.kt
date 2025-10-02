@@ -4,7 +4,10 @@ package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
@@ -17,6 +20,7 @@ import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 
@@ -25,22 +29,34 @@ fun contentIpsiusMiniScreen2Box2(data: MiniScreenData) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp),
+            .padding(start = 50.dp, end = 50.dp, top = 20.dp),
         contentAlignment = Alignment.Center
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            val estiloTextos =
-                StyleText(
-                    style = MaterialTheme.typography.bodyMedium,
-                    textAlign = TextAlign.Center
+            val estiloTextos = StyleText(
+                style = MaterialTheme.typography.bodyMedium,
+                textAlign = TextAlign.End
+            )
+
+            Box(
+                modifier = Modifier.fillMaxWidth(),
+                contentAlignment = Alignment.CenterEnd
+            ) {
+                ReusableImage(
+                    data,
+                    StyleImages(
+                        alignment = Alignment.CenterEnd
+                    )
                 )
+            }
+
+            Spacer(modifier = Modifier.height(30.dp))
 
             AppText(data, estiloTextos)
-
-
+            SpacerText()
             ReusableImage(
                 data,
                 StyleImages(
@@ -51,5 +67,3 @@ fun contentIpsiusMiniScreen2Box2(data: MiniScreenData) {
         }
     }
 }
-
-

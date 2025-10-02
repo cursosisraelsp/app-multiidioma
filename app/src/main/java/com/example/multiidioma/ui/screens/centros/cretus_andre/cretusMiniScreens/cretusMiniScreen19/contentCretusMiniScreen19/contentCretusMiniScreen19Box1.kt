@@ -23,6 +23,6 @@ fun contentCretusMiniScreen19Box1() {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        LineVerticalComponent( color =(Color(0xFFFFFFFF)))
+        LineVerticalComponent( color =(Color(0xFF000000)))
     }
 }

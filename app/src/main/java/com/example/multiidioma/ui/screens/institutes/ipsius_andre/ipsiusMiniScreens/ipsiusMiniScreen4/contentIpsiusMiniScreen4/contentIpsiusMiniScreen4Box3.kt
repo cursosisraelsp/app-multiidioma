@@ -16,11 +16,10 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 @Composable
 fun contentIpsiusMiniScreen4Box3() {
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(start = 50.dp,top = 20.dp)
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
-        LineVerticalComponent(contentAlignment = Alignment.BottomStart,
-            color = (Color(0xFF000000)))
+        LineVerticalComponent(color = Color(0xFF000000))
     }
 }

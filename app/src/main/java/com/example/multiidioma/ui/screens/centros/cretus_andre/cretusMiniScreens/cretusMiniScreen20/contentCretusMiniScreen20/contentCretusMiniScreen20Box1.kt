@@ -16,11 +16,10 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 fun contentCretusMiniScreen20Box1() {
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(top = 10.dp),
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        LineCircleComponent(color = (Color(0xFFFFFFFF)))
+        LineCircleComponent(color = (Color(0xFF000000)))
     }
 }

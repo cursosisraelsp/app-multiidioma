@@ -28,8 +28,8 @@ fun CretusMiniScreen2(
     ) {
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.5f, Box2 = 0.4f, Box3 = 0.1f),
-            Box1 = { contentCretusMiniScreen2Box1(it) },
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.7f, Box3 = 0.15f),
+            Box1 = { contentCretusMiniScreen2Box1() },
             Box2 = { contentCretusMiniScreen2Box2(it) },
             Box3 = { contentCretusMiniScreen2Box3() })
     }

@@ -30,7 +30,7 @@ fun IarcusMiniScreen13(
             navController = navController,
             CircleImage = { contentIarcusMiniScreen13Box1(it) },
             TitleText = { contentIarcusMiniScreen13Box2(it) },
-            BodyText = { contentIarcusMiniScreen13Box3(it) }
+            BodyText = { contentIarcusMiniScreen13Box3() }
         )
     }
 }

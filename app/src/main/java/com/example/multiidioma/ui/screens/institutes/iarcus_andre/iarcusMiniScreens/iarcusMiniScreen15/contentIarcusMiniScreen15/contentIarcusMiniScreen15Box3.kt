@@ -1,6 +1,8 @@
 package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen15.contentIarcusMiniScreen15
 
 
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
@@ -11,18 +13,16 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun contentIarcusMiniScreen15Box3(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier
-            .padding(top = 10.dp)
-            .size(250.dp),
-        alignment = Alignment.CenterStart
-    )
-    ReusableImage(data, estilosImagen)
-    LineVerticalComponent(
-        color = (Color(0xFFFFFFFF))
-    )
+fun contentIarcusMiniScreen15Box3() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        CircleLineComponent( color =(Color(0xFFFFFFFF)))
+    }
 }
+

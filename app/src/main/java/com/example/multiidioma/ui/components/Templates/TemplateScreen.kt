@@ -25,7 +25,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                //.weight(BoxWeight.Box1) // Puedes activar este si quieres usar weight
+                .weight(BoxWeight.Box1) // Puedes activar este si quieres usar weight
             ) {
                 Box1(data)  // Solo se ejecutará si Box1 no es nulo
             }
@@ -36,7 +36,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                //.weight(BoxWeight.Box2) // Igualmente puedes activar este si quieres usar weight
+                .weight(BoxWeight.Box2) // Igualmente puedes activar este si quieres usar weight
             ) {
                 Box2(data)  // Solo se ejecutará si Box2 no es nulo
             }
@@ -47,7 +47,7 @@ fun TemplateScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                //.weight(BoxWeight.Box3) // Puedes activar este si quieres usar weight
+                .weight(BoxWeight.Box3) // Puedes activar este si quieres usar weight
             ) {
                 Box3(data)  // Solo se ejecutará si Box3 no es nulo
             }

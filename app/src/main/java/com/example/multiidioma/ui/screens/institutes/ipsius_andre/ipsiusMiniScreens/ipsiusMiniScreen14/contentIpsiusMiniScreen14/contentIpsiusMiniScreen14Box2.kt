@@ -32,30 +32,40 @@ import com.example.multiidioma.utils.TextBodyMedium
 @Composable
 fun contentIpsiusMiniScreen14Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(),
-
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(250.dp),
+        alignment = Alignment.BottomStart,
+        contentScale = ContentScale.Fit
     )
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
 
-    Column {
+    ) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.5f)
-                .padding(start = 50.dp, end = 50.dp)
+                .padding(horizontal = 50.dp),
+
+            contentAlignment = Alignment.TopStart
         ) {
-            TextBodyMedium(data)
-            SpacerText()
-            TextBodyMedium(data)
+            Column {
+                TextBodyMedium(data, textAlign = TextAlign.Center,index= 0)
+                Spacer(modifier= Modifier.height(10.dp))
+                TextBodyMedium(data, textAlign = TextAlign.Center, index= 1)
+            }
         }
 
-        Spacer(modifier = Modifier.height(10.dp))
 
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.5f)
-                .padding(start = 100.dp)
+                .padding (start = 180.dp),
+
+            contentAlignment = Alignment.Center
         ) {
             ReusableImage(data, estilosImagen)
         }

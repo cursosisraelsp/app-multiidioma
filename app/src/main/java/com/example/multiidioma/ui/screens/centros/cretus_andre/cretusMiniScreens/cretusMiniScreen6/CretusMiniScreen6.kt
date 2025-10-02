@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
@@ -29,9 +30,10 @@ fun CretusMiniScreen6(
 
         TemplateScreen(
             data = data,
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             Box1 = { contentCretusMiniScreen6Box1() },
             Box2 = { contentCretusMiniScreen6Box2(it) },
-            Box3 = { contentCretusMiniScreen6Box3(it) })
+            Box3 = { contentCretusMiniScreen6Box3() })
     }
 }
 

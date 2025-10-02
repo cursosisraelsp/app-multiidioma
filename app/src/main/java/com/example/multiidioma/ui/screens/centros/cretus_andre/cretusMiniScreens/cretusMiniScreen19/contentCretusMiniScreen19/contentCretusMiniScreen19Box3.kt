@@ -9,6 +9,6 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 @Composable
 fun contentCretusMiniScreen19Box3() {
     LineVerticalComponent(
-        color =(Color(0xFFFFFFFF))
+        color =(Color(0xFF000000))
     )
 }

@@ -37,13 +37,13 @@ fun contentCretusMiniScreen20Box2(data: MiniScreenData) {
 
         val estiloTextos = StyleText(
             style = MaterialTheme.typography.bodyMedium,
-            color = Color(0xFFFFFFFF),
+            color = Color(0xFF000000),
             textAlign = TextAlign.Center
         )
 
 
         val estilosImagen = StyleImages(
-            modifier = Modifier.fillMaxWidth().height(50.dp),
+            modifier = Modifier.fillMaxWidth(),
             alignment = Alignment.BottomCenter
         )
 
