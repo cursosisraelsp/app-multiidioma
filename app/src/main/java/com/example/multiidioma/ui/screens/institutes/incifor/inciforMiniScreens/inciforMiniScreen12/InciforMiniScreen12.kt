@@ -23,7 +23,7 @@ fun InciforMiniScreen12(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.5f, Box3 = 0.2f),

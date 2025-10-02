@@ -16,7 +16,12 @@ import com.airbnb.lottie.compose.*
 import com.example.multiidioma.R
 
 @Composable
-fun LottieScrollWithOffsetComponent(debuxoLottie: Int, listState: LazyListState, itemIndex: Int) {
+fun LottieScrollWithOffsetComponent(
+    debuxoLottie: Int,
+    listState: LazyListState,
+    itemIndex: Int,
+    modifier: Modifier = Modifier
+) {
     val composition by rememberLottieComposition(
         LottieCompositionSpec.RawRes(debuxoLottie)
     )
@@ -36,7 +41,7 @@ fun LottieScrollWithOffsetComponent(debuxoLottie: Int, listState: LazyListState,
             //val scrollOffset = listState.firstVisibleItemScrollOffset
 
             // Si este item es visible, calculamos su progreso
-            if (firstVisible<= itemIndex) {
+            if (firstVisible <= itemIndex) {
 
                 (scrollOffset.toFloat() / 1500f).coerceIn(0f, 1f)
             } else {
@@ -44,11 +49,12 @@ fun LottieScrollWithOffsetComponent(debuxoLottie: Int, listState: LazyListState,
             }
         }
     }
-    Column(modifier = Modifier.height(650.dp)) {
-     /*   Text("INDEX $INDEX")
-        Text(" firstVisible $firstVisible")
-        Text(" scrollOffset $scrollOffset")
-        Text(" scrollProgress $scrollProgress")*/
+    Column(modifier = modifier
+        .height(650.dp)) {
+        /*   Text("INDEX $INDEX")
+           Text(" firstVisible $firstVisible")
+           Text(" scrollOffset $scrollOffset")
+           Text(" scrollProgress $scrollProgress")*/
         LottieAnimation(
             composition = composition,
             progress = { scrollProgress },
