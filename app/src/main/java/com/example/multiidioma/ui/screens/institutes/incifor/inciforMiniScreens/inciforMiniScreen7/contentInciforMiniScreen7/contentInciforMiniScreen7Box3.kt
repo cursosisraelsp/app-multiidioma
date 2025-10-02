@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -17,15 +18,16 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.ui.components.GifComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 
 
 @Composable
-fun contentInciforMiniScreen7Box3() {
+fun contentInciforMiniScreen7Box3(offset: Int, listState: LazyListState, itemIndex: Int) {
     Box(
         modifier = Modifier
             .fillMaxSize(),
         contentAlignment = Alignment.BottomStart
     ) {
-        GifComponent(gif = R.drawable.incifor_anim_01)
+        LottieScrollWithOffsetComponent(R.raw.incifor_anim_02, listState, itemIndex)
     }
 }

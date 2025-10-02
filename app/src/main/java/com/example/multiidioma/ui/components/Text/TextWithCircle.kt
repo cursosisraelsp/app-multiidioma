@@ -24,12 +24,12 @@ fun TextWithCircle(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 10.dp)
+            .padding(end = 15.dp)
     ) {
         Box(
             modifier = Modifier
                 .fillMaxWidth(0.1f)
-                .background(Color.Green)
+
         ) {
             CircleComponent(
                 width = 15.dp,
@@ -41,7 +41,6 @@ fun TextWithCircle(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .background(Color.Blue)
         ) {
             TextBodyMedium(data, index = index)
         }

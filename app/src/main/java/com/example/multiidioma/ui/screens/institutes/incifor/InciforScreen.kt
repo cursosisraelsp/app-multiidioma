@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -50,7 +51,6 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniscreen28
 
 
-
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun InciforScreen(
@@ -77,22 +77,23 @@ fun InciforScreen(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(screens) { data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
 
                         0 -> InciforMiniScreen0(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         1 -> InciforMiniScreen1(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-
+                                .fillParentMaxHeight(),
                         )
 
                         2 -> InciforMiniScreen2(
@@ -135,7 +136,9 @@ fun InciforScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         8 -> InciforMiniScreen8(
@@ -149,7 +152,10 @@ fun InciforScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
+
                         )
 
                         10 -> InciforMiniScreen10(
@@ -163,7 +169,10 @@ fun InciforScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
+
                         )
 
                         12 -> InciforMiniScreen12(

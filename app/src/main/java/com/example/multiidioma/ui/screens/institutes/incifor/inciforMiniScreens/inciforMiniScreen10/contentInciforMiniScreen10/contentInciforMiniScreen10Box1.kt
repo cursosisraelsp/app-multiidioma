@@ -14,7 +14,7 @@ fun contentInciforMiniScreen10Box1() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, bottom = 20.dp)
+            .padding(start = 49.dp, bottom = 20.dp)
     ) {
         LineVerticalComponent(contentAlignment = Alignment.TopStart)
     }

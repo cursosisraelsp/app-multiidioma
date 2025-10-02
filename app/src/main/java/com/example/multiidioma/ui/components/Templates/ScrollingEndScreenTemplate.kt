@@ -77,7 +77,8 @@ fun ScrollingEndScreenTemplate(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 // Texto principal
-                TextBodyMedium(data, index = 0, textAlign = TextAlign.Center
+                TextBodyMedium(
+                    data, index = 0, textAlign = TextAlign.Center
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))

@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -19,6 +20,8 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 fun InciforMiniScreen9(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
+    listState: LazyListState,
+    itemIndex: Int
 ) {
 
     Box(
@@ -34,8 +37,8 @@ fun InciforMiniScreen9(
             ),
             data = data,
             Box1 = { contentInciforMiniScreen9Box1(it) },
-            Box2 = { contentInciforMiniScreen9Box2(it) },
-            Box3 = { contentInciforMiniScreen9Box3(it) }
+            Box2 = { contentInciforMiniScreen9Box2(it,) },
+            Box3 = { contentInciforMiniScreen9Box3(it, listState, itemIndex) }
         )
     }
 }
