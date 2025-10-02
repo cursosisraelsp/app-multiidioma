@@ -1,9 +1,12 @@
 package com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen6.contentIlgMiniScreen6
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -30,30 +33,36 @@ fun contentIlgMiniScreen6Box2(data: MiniScreenData) {
 
         )
     Column(modifier = Modifier.fillMaxSize()) {
-        Box(
+        Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.7f)
-                .padding(top = 5.dp, end = 120.dp)
+                .padding(top = 5.dp, start = 25.dp, end = 25.dp)
 
-        ) {
-            ReusableImage(data, estilosImagen)
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.5f)
-                .padding(start = 25.dp, end = 25.dp)
+
         ) {
             AppText(data, estilosTextos, index = 0)
         }
-        Box(
+
+        Spacer(modifier = Modifier.height(15.dp))
+
+        Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.5f)
+               /* .weight(0.5f)*/
                 .padding(start = 25.dp, end = 25.dp)
         ) {
             AppText(data, estilosTextos, index = 1)
+        }
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(end = 35.dp)
+                .background(Color.Red)
+        ) {
+            ReusableImage(data, estilosImagen)
         }
     }
 }

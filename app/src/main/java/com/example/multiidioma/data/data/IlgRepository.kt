@@ -77,7 +77,7 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_6_paragraph_1,
 
                 ),
-                imageRes = R.drawable.bgalega
+                imageRes = R.drawable.ilg_img_03
             ),
 
             MiniScreenData(

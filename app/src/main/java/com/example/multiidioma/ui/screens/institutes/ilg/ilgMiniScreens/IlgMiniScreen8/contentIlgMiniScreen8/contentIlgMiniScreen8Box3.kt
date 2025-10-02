@@ -8,6 +8,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
@@ -15,11 +16,10 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 fun contentIlgMiniScreen8Box3() {
    Column (
         modifier = Modifier
-            .fillMaxSize()
-            .padding(start = 50.dp, top = 20.dp),
+            .fillMaxSize(),
        horizontalAlignment = Alignment.Start
    ){
-        LineVerticalComponent(modifier = Modifier, contentAlignment = Alignment.TopStart, color = Color.Black)
+        CircleLineComponent(contentAlignment = Alignment.Center, color = Color.White)
     }
 
 }

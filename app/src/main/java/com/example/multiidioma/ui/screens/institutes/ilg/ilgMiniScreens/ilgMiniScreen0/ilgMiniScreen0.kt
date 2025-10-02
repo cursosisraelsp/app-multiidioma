@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen0.contentIlgMiniScreen0.contentIlgMiniScreenBox3
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen0.contentIlgMiniScreen0.contentIlgMiniScreen0Box2
@@ -37,7 +37,7 @@ fun ilgMiniScreen0(
                 modifier = modifier
                     .fillMaxSize()
             ) {
-                PlantillaScreen(
+                TemplateScreen(
                     data = data,
                     Box2 = { contentIlgMiniScreen0Box2(it) },
                     Box3 = { contentIlgMiniScreenBox3()})

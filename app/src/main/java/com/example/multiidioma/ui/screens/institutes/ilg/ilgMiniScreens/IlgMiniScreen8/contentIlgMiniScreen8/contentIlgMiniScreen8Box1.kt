@@ -13,7 +13,5 @@ fun contentIlgMiniScreen8Box1() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-    ) {
-        LineVerticalComponent(color = Color.Black, contentAlignment = Alignment.Center)
-    }
+    ) {}
 }

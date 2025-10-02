@@ -13,7 +13,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 
 
 @Composable
-fun PlantillaScreen(
+fun TemplateScreen(
     data: MiniScreenData,
     BoxWeight: BOX = valoresTemplateScreen,
     Box1: @Composable (MiniScreenData) -> Unit = {},

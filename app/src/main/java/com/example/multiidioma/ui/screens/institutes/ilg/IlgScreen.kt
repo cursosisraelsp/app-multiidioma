@@ -117,7 +117,8 @@ fun IlgScreen(
                              data,
                              Modifier
                                  .fillMaxWidth()
-                                 .fillParentMaxHeight()
+                                 .fillParentMaxHeight(),
+                             navController
                         )
                        /* 9 -> IlgMiniScreen9(
                             data,

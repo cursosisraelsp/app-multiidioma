@@ -1,14 +1,12 @@
 package com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.contentIlgMiniScreen1.contentIlgMiniScreen1Box1
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.contentIlgMiniScreen1.contentIlgMiniScreen1Box2
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.contentIlgMiniScreen1.contentIlgMiniScreen1Box3
@@ -24,7 +22,7 @@ fun ilgMiniScreen1(
         modifier = modifier
             .fillMaxSize()
     ) {
-        PlantillaScreen(
+        TemplateScreen(
             data = data,
             BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.7f, Box3 = 0.05f),
             Box1 = { contentIlgMiniScreen1Box1() },

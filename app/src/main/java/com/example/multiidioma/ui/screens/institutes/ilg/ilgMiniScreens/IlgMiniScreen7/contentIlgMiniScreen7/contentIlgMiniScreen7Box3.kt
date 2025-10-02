@@ -16,10 +16,7 @@ fun contentIlgMiniScreen7Box3() {
    Column (
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, top = 20.dp),
-       horizontalAlignment = Alignment.Start
    ){
-        LineVerticalComponent(modifier = Modifier, contentAlignment = Alignment.TopStart, color = Color.Black)
     }
 
 }
