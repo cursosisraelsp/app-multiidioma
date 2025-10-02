@@ -1,6 +1,8 @@
 package com.example.multiidioma.ui.screens.detail
 
 import InciforScreen
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,16 +24,18 @@ import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
+import com.example.multiidioma.ui.screens.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
 import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
 import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
-import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
+//import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun DetailScreen(
     navController: NavController,
@@ -75,7 +79,7 @@ fun DetailScreen(
         listInstitus != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listInstitus.contentType) {
-                    is ContentType.IHUS -> IhusScreen()
+                    is ContentType.IHUS -> IhusScreen(listState)
                     is ContentType.IDEGA -> IdegaScreen()
                     is ContentType.ICE -> IceScreen()
                     is ContentType.INCIFOR -> InciforScreen(listState, navController, modifier)

@@ -24,7 +24,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
 
 @Composable
-fun PersonalTemplateScreen() {
+fun PersonalTemplateScreen(data: MiniScreenData, navController: NavController) {
     Text("Estou en personal template")
     /*
     Row(

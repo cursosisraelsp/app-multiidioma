@@ -18,21 +18,28 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.StyleImages
-import com.example.multiidioma.data.StyleText
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
-import com.example.multiidioma.utils.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.TextBodyMedium
+
 
 @Composable
 fun contentIpsiusMiniScreen15Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
         modifier = Modifier.fillMaxSize(),
         alignment = Alignment.BottomEnd,)
+    val estiloText = StyleText(
+        style = TextStyle(),
+        textAlign = TextAlign.Center,
+        color = Color.Black
+    )
     Column {
         Box(
             modifier = Modifier
@@ -40,9 +47,9 @@ fun contentIpsiusMiniScreen15Box2(data: MiniScreenData) {
                 .weight(0.5f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data)
+            TextBodyMedium(data,estiloText)
             SpacerText()
-            TextBodyMedium(data)
+            TextBodyMedium(data,estiloText)
         }
 
         Spacer(modifier = Modifier.height(10.dp))
