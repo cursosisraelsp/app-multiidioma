@@ -67,10 +67,7 @@ class IhusRepository {
             MiniScreenData(
                 id = 6,  //Pagina Kike 1//
                 bodyParagraphs = listOf(
-                    R.string.II_IHUS_miniscreen_6_title0,
-                    R.string.II_IHUS_miniscreen_6_title1,
-                    R.string.II_IHUS_miniscreen_6_title2,
-                    R.string.II_IHUS_miniscreen_6_paragraph0,
+                    R.string.II_IHUS_miniscreen_5_paragraph0
                 ),
                 imageRes = R.drawable.ihus_img_03
             ),
@@ -78,10 +75,7 @@ class IhusRepository {
             MiniScreenData(
                 id = 7,  //Pagina Kike 2//
                 bodyParagraphs = listOf(
-                    R.string.II_IHUS_miniscreen_7_title0,
-                    R.string.II_IHUS_miniscreen_7_title1,
-                    R.string.II_IHUS_miniscreen_7_title2,
-                    R.string.II_IHUS_miniscreen_7_paragraph0,
+                    R.string.II_IHUS_miniscreen_5_paragraph0
                 ),
                 imageRes = R.drawable.ihus_img_03
             ),
@@ -94,7 +88,7 @@ class IhusRepository {
                     R.string.II_IHUS_miniscreen_8_title2,
                     R.string.II_IHUS_miniscreen_8_paragraph0,
                 ),
-                imageRes = R.drawable.ihus_img_05_eng
+                //imageRes = R.drawable.ihus_img_05_eng
 
             ),
 

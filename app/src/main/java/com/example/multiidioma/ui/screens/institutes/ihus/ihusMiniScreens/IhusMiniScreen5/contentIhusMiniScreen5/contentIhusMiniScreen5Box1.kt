@@ -14,7 +14,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
-import com.example.multiidioma.data.repository.StyleText
+import com.example.multiidioma.data.types.StyleText
 @Composable
 fun contentIhusMiniScreen5Box1(data: MiniScreenData) {
     val estilosTextos = StyleText(

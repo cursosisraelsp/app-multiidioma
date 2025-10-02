@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.contentIhusMiniScreen0.contentIhusMiniScreen0Box2
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.contentIhusMiniScreen0.contentIhusMiniScreenBox3
 
@@ -26,6 +26,6 @@ fun IhusMiniScreen0(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        PlantillaScreen(data = data, Box2 = { contentIhusMiniScreen0Box2(it) } , Box3 = { contentIhusMiniScreenBox3() })
+        TemplateScreen(data = data, Box2 = { contentIhusMiniScreen0Box2(it) } , Box3 = { contentIhusMiniScreenBox3() })
     }
 }

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="paragraph_1">Este é o primeiro parágrafo de texto.Describe o inicio da historia ou a información principal que se desexa presentar.</string>
-    <string name="texto_buscado">Describe o inicio da historia</string>
-    <string name="texto_buscado2">Este  é o primeiro parágrafo</string>
-    <string name="paragraph_2"><b>A continuación, preséntase o segundo parágrafo</b>. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
-    <string name="paragraph_3">O <font color="#ff8000">terceiro e último parágrafo conclúe</font> a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
-    <string name="sin_valor">--------------</string>
     <string name="II_IHUS_miniscreen_0_paragraph0">Nun mundo marcado pola desinformación, a globalización, os conflitos xeopolíticos e o cambio climático, as Humanidades son máis necesarias que nunca. Estas buscan desenvolver na sociedade unha visión crítica e global, dándolle aos cidadáns as ferramentas para cuestionar todo o que os rodea e actuar con conciencia, para que sexan capaces de entender e transformar a súa realidade.</string>
     <string name="II_IHUS_miniscreen_1_paragraph0">As Humanidades e as novas tecnoloxías, como a intelixencia artificial, están cada vez máis interconectadas, ofrecendo os estudos humanísticos perspectivas críticas necesarias para reflexionar sobre o uso ético e social das tecnoloxías, e cuestionando como afectan aos dereitos, á identidade e á convivencia. Así, axudamos a garantir que o avance tecnolóxico sirva para promover o benestar, a igualdade e a diversidade cultural.</string>
     <string name="II_IHUS_miniscreen_1_paragraph1">Neste contexto nace o Instituto de Investigación en Humanidades da Universidade de Santiago de Compostela (iHUS), que busca dar resposta aos desafíos do presente e do futuro e crear un espazo de referencia e recoñecemento para a investigación.</string>
@@ -17,22 +11,22 @@
     <string name="II_IHUS_miniscreen_5_button0">Boton01</string>
     <string name="II_IHUS_miniscreen_5_button1">Boton02</string>
     <string name="II_IHUS_miniscreen_5_button2">Boton03</string>
-    <string name="II_IHUS_miniscreen_6_title0">ANTROPOCENO, BENESTAR E XUSTIZA</string>
+    <string name="II_IHUS_miniscreen_6_title0">ANTROPOCENO</string>
+    <string name="II_IHUS_miniscreen_6_title1">BENESTAR E</string>
+    <string name="II_IHUS_miniscreen_6_title2">XUSTIZA</string>
     <string name="II_IHUS_miniscreen_6_paragraph0">"A investigación debe superar a visión tradicional do mundo onde o ser humano occidental é o centro de todo, buscando enfoques que integren múltiples perspectivas e a importancia da relación entre home e natureza. Neste reto caben investigacións desenvoltas dende liñas de investigación como a ecocrítica, os estudos de xénero, o posthumanismo, a ética aplica ou os estudos pos/de-coloniais, entre outras. "</string>
-    <string name="II_IHUS_miniscreen_6_button0">Boton01</string>
-    <string name="II_IHUS_miniscreen_6_button1">BotonAtras</string>
     <string name="II_IHUS_miniscreen_7_title0">TECNOCIENCIA, DIXITALIZACIÓN E MUNDOS VIRTUAIS</string>
+    <string name="II_IHUS_miniscreen_7_title1">DIXITALIZACIÓN</string>
+    <string name="II_IHUS_miniscreen_7_title2">E MUNDOS VIRTUAIS</string>
     <string name="II_IHUS_miniscreen_7_paragraph0">"O impacto da transformación dixital das últimas décadas na natureza e na vida das persoas pode ser tanto positiva como negativa. Isto implica reflexionar sobre os retos éticos e ambientais que supón o uso de tecnoloxías e estudar como estas inflúen na creación e preservación da cultura. Este reto aglutina liñas de investigación tan relevantes como as Humanidades Dixitais, o Transhumanismo, a intermedialidade e estudos teatrais, da performance e da música, os estudos da creatividade e tamén aquelas relacionadas coas industrias culturais, ademais do que teña que ver coa mente, linguaxe, cognición e razoamento e a filosofía da tecnociencia, da intelixencia artificial e da realidade virtual. "</string>
-    <string name="II_IHUS_miniscreen_7_button0">Boton02</string>
-    <string name="II_IHUS_miniscreen_7_button1">BotonAtras</string>
-    <string name="II_IHUS_miniscreen_8_title0">IDENTIDADES, CAMBIO GLOBAL E MOBILIDADES</string>
+    <string name="II_IHUS_miniscreen_8_title0">IDENTIDADES</string>
+    <string name="II_IHUS_miniscreen_8_title1">CAMBIO GLOBAL</string>
+    <string name="II_IHUS_miniscreen_8_title2">E MOBILIDADES</string>
     <string name="II_IHUS_miniscreen_8_paragraph0">A actualidade está marcada polas migracións e a globalización, nun proceso no que as identidades semellan reforzarse e esvaecerse ao mesmo tempo. A partir de investigacións sobre estudos da globalización e dos fluxos transnacionais, memoria e herdanzas culturais, estudos da fronteira, identidades culturais e (etno) territoriais e os estudos das emocións, no iHUS desenvólvese unha análise crítica da globalización e do pasado permite cuestionar a idea dunha única forma de sociedade, favorecendo a diversidade e o recoñecemento das comunidades minoritarias.</string>
-    <string name="II_IHUS_miniscreen_8_button0">Boton03</string>
-    <string name="II_IHUS_miniscreen_8_button1">BotonAtras</string>
     <string name="II_IHUS_miniscreen_9_paragraph0">Se ben se pensa que a principal oportunidade de transferencia do coñecemento nas Humanidades ten que ver coa organización de simposios e obradoiros, o certo é que existe moito persoal do iHUS que traballa para diseminar información científica no campo do patrimonio cultural tanto material como inmaterial, con achegas técnicas constantes aos eidos cultural, educativo ou sanitario.</string>
     <string name="II_IHUS_miniscreen_9_paragraph1">O persoal investigador tamén ofrece servizos especializados relativos a arquivos, bibliotecas, administracións públicas, medios de comunicación, centros educativos, etc; e asesoramento técnico en ámbitos como a arqueoloxía, xestión e planificación territorial, catalogación artística e patrimonial ou desenvolvemento de Humanidades dixitais.</string>
     <string name="II_IHUS_miniscreen_10_paragraph0">O iHUS pretende fomentar o diálogo entre a academia e a sociedade, facilitando o acceso aberto aos resultados de investigación tanto para un público especializado como xeral. A realización de labores de divulgación e interacción coa sociedade é clave para acercar os resultados das investigacións á sociedade galega en particular e mundial en xeral, para o que tamén é importante a colaboración con universidades doutros países.</string>
-    <string name="II_IHUS_miniscreen_11_paragraph0">EMBAIXADORES DO TALENTO</string>
+    <string name="II_IHUS_miniscreen_11_title0">EMBAIXADORES DO TALENTO</string>
     <string name="II_IHUS_miniscreen_12_title0">EQUIPO DIRECTIVO</string>
     <string name="II_IHUS_miniscreen_12_title1">PERSOAL INVESTIGADOR</string>
     <string name="II_IHUS_miniscreen_12_button1">Imagen Anxo</string>
