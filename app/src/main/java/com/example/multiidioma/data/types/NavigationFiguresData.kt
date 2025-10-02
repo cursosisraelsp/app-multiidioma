@@ -11,9 +11,10 @@ data class NavegationFiguresData(
     val ruta: String,
     val numString: String?,
     val relacionNum: TextUnit?,
-    val textoInfo: String,
+    val textoInfo: Int,
     val anchoTexto: Dp,
-    val relacionText: TextUnit
+    val relacionText: TextUnit,
+    val lineHeight: TextUnit
 )
 data class NavegationFiguresHomeData(
     val offset_x : Dp,

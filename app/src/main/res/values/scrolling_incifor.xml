@@ -27,6 +27,12 @@
     <string name="II_INCIFOR_miniscreen_11_paragraph_0">INCIFOR\'s work not only contributes to solving cases, but also drives scientific advances in forensic medicine, toxicology, forensic genetics and criminology. Its work has a direct impact on justice, security and the training of highly qualified professionals.</string>
     <string name="II_INCIFOR_miniscreen_11_paragraph_1">INCIFOR has 14 teaching and research staff members and 6 affiliated researchers.</string>
     <string name="II_INCIFOR_miniscreen_12_paragraph_0">The Institute of Forensic and Criminological Sciences of Santiago de Compostela is a leader in scientific research applied to solving legal cases and, ultimately, improving public safety.</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_0">INCIFOR is structured into five units:</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_1">Forensic Genetics</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_2">Forensic Toxicology</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_3">Clinical and Behavioral Toxicology</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_4">Pathology and Forensic Clinic</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_5">Criminology</string>
     <string name="II_INCIFOR_miniscreen_14_title_0">Forensic</string>
     <string name="II_INCIFOR_miniscreen_14_title_1"> Genetics</string>
     <string name="II_INCIFOR_miniscreen_14_paragraph_0">Here, DNA is analysed to identify individuals, establish kinship or solve crimes. They also work on identifying victims of disasters and studying ancient human remains.</string>

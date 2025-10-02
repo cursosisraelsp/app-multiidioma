@@ -184,6 +184,7 @@ fun InciforScreen(
 
                         13 -> InciforMiniScreen13(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

@@ -22,6 +22,12 @@
     <string name="II_INCIFOR_miniscreen_11_paragraph_0">El trabajo del INCIFOR no solo contribuye a la resolución de casos, sino que también impulsa el avance científico en Medicina Legal, Toxicología y Genética Forense, y Criminología. Su labor tiene un impacto directo en la justicia, la seguridad y la formación de profesionales altamente cualificados.</string>
     <string name="II_INCIFOR_miniscreen_11_paragraph_1">El INCIFOR cuenta, entre sus miembros, con 14 PDIs (personal docente e investigador) y 6 investigadores vinculados.</string>
     <string name="II_INCIFOR_miniscreen_12_paragraph_0">El Instituto de Ciencias Forenses y Criminológicas de Santiago de Compostela es un referente en la investigación científica aplicada a resolver casos judiciales y, en definitiva, mejorar la seguridad de la población.</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_0">El INCIFOR se estructura en cinco unidades</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_1">Genética Forense</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_2">Toxicología Forense</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_3">Toxicología Clínica y Conductual</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_4">Patología y Clínica Forense</string>
+    <string name="II_INCIFOR_miniscreen_13_paragraph_5">Criminología</string>
     <string name="II_INCIFOR_miniscreen_14_title_0">"Genética Forense "</string>
     <string name="II_INCIFOR_miniscreen_14_title_1">Genética</string>
     <string name="II_INCIFOR_miniscreen_14_paragraph_0">Aquí analizan el ADN para identificar personas, establecer parentescos o resolver crímenes. También trabajan en la identificación de víctimas de catástrofes y en el estudio de restos humanos antiguos.</string>
