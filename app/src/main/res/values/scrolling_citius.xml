@@ -16,7 +16,7 @@
     <string name="CS_CITIUS_miniscreen_1_texto_buscado_1" translatable="false">CAPTCHA</string>
 
     <!--PANTALLA 3-->
-    <string name="CS_CITIUS_miniscreen_2_paragraph_0">The technological leap represented by the emergence of Artificial Intelligence and the technologies that make it possible, such as Big Data, Deep Learning, and the Internet of Things (IoT), is comparable to the advent of the internet or the invention of the printing press. It has irrevocably changed the world we live in and the way we inhabit it.</string>
+    <string name="CS_CITIUS_miniscreen_2_paragraph_0">\tThe technological leap represented by the emergence of Artificial Intelligence and the technologies that make it possible, such as Big Data, Deep Learning, and the Internet of Things (IoT), is comparable to the advent of the internet or the invention of the printing press. It has irrevocably changed the world we live in and the way we inhabit it.</string>
     <string name="CS_CITIUS_miniscreen_2_texto_buscado_0">Big Data, Deep Learning, and the Internet of Things (IoT)</string>
 
     <!--PANTALLA 4-->
@@ -34,6 +34,11 @@
     <!--PANTALLA 6-->
     <string name="CS_CITIUS_miniscreen_5_paragraph_0">CiTIUS conducts research in various areas of intelligent technologies. Some recent examples illustrate the scope and transformative nature of the work carried out at CiTIUS:</string>
     <string name="CS_CITIUS_miniscreen_5_texto_buscado_0">areas of intelligent technologies</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_1" translatable="false">HYBRIDS</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_2" translatable="false">RePowerSiC</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_3" translatable="false">NUMADELIC</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_4" translatable="false">SOSFood</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_5" translatable="false">Proyecto Nós</string>
 
     <!--PANTALLA 7-->
     <string name="CS_CITIUS_miniscreen_6_title_0" translatable="false">HYBRIDS</string>

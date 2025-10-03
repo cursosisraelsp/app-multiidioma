@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.contentInciforMiniScreen13
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen5.contentCitiusMiniScreen5
 
 
 import androidx.compose.foundation.layout.Column
@@ -11,12 +11,13 @@ import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 
 @Composable
-fun contentInciforMiniScreen13Box3() {
+fun contentCitiusMiniScreen5Box3() {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 40.dp)
     ) {
         CircleLineComponent()
+
     }
 }

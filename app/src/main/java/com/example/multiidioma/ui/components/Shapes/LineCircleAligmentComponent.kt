@@ -24,7 +24,7 @@ fun LineCircleAligmentComponent(
     contentAlignment: Alignment = Alignment.TopEnd,
     color: Color = Color.White,
     modifier: Modifier = Modifier,
-    lineHeight: Dp = 60.dp,
+    lineHeight: Dp = 25.dp,
     thickness: Dp = 3.dp
 ) {
     Box(

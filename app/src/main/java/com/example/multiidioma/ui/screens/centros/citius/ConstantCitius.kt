@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.incifor
+package com.example.multiidioma.ui.screens.centros.citius
 
 import android.content.res.Resources
 import androidx.compose.ui.unit.dp
@@ -19,68 +19,68 @@ val numNumeroGrande = ((317.9 / des.density)).sp
 
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
-val valorFiguraIncifor0 = NavegationFiguresData(
-    offset_x = 50.dp,
+val valorFiguraCitius0 = NavegationFiguresData(
+    offset_x = 30.dp,
     offset_y = 20.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.InciforMiniscreen14.route,
+    tamanhoFigura = 200.dp,
+    ruta = Destination.CitiusMiniScreen6.route,
     numString = "01",
-    relacionNum = numNumero,
-    textoInfo = R.string.II_INCIFOR_miniscreen_13_paragraph_1,
+    relacionNum = numNumeroGrande,
+    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFiguraIncifor1 = NavegationFiguresData(
-    offset_x = 260.dp,
-    offset_y = 70.dp,
+val valorFiguraCitius1 = NavegationFiguresData(
+    offset_x = 220.dp,
+    offset_y = 50.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.InciforMiniscreen15.route,
+    tamanhoFigura = 180.dp,
+    ruta = Destination.CitiusMiniScreen7.route,
     numString = "02",
     relacionNum = numNumero,
-    textoInfo = R.string.II_INCIFOR_miniscreen_13_paragraph_2,
+    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFiguraIncifor2 = NavegationFiguresData(
+val valorFiguraCitius2 = NavegationFiguresData(
     offset_x = 50.dp,
-    offset_y = 460.dp,
+    offset_y = 250.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.InciforMiniscreen16.route,
+    tamanhoFigura = 135.dp,
+    ruta = Destination.CitiusMiniScreen8.route,
     numString = "03",
     relacionNum = numNumero,
-    textoInfo = R.string.II_INCIFOR_miniscreen_13_paragraph_3,
+    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_3,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFiguraIncifor3 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
+val valorFiguraCitius3 = NavegationFiguresData(
+    offset_x = 200.dp,
+    offset_y = 240.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.InciforMiniscreen17.route,
+    tamanhoFigura = 225.dp,
+    ruta = Destination.CitiusMiniScreen9.route,
     numString = "04",
-    relacionNum = numNumero,
-    textoInfo = R.string.II_INCIFOR_miniscreen_13_paragraph_4,
+    relacionNum = numNumeroGrande,
+    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_4,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFiguraIncifor4 = NavegationFiguresData(
-    offset_x = 80.dp,
-    offset_y = 175.dp,
+val valorFiguraCitius4 = NavegationFiguresData(
+    offset_x = 40.dp,
+    offset_y = 400.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 300.dp,
-    ruta = Destination.InciforMiniscreen18.route,
+    tamanhoFigura = 120.dp,
+    ruta = Destination.CitiusMiniScreen10.route,
     numString = "05",
-    relacionNum = numNumeroGrande,
-    textoInfo = R.string.II_INCIFOR_miniscreen_13_paragraph_5,
-    anchoTexto = relacionTextoGrande,
+    relacionNum = numNumero,
+    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
+    anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
 )
@@ -88,7 +88,7 @@ val valorFiguraIncifor4 = NavegationFiguresData(
 
 /// INVESTIGADORES
 
-val mvlhIncifor = PersonResearcher(
+val mvlhCitius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
     info = listOf(
@@ -99,7 +99,7 @@ val mvlhIncifor = PersonResearcher(
     contentType = ContentType.MINISCREEN27
 )
 
-val ambbIncifor = PersonResearcher(
+val ambbCitius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Bermejo Barrera",
     info = listOf(
@@ -110,7 +110,7 @@ val ambbIncifor = PersonResearcher(
     contentType = ContentType.MINISCREEN27
 )
 
-val jimbIncifor = PersonResearcher(
+val jimbCitius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Ignacio Muñoz Barús",
     info = listOf(
@@ -121,7 +121,7 @@ val jimbIncifor = PersonResearcher(
     contentType = ContentType.MINISCREEN27
 )
 
-val aclIncifor = PersonResearcher(
+val aclCitius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Angelines Cruz Landeira",
     info = listOf(
@@ -132,4 +132,4 @@ val aclIncifor = PersonResearcher(
     contentType = ContentType.MINISCREEN27
 )
 
-val datosInvestigadores = listOf(mvlhIncifor, ambbIncifor, jimbIncifor, aclIncifor)
+val datosInvestigadores = listOf(mvlhCitius, ambbCitius, jimbCitius, aclCitius)

@@ -7,9 +7,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -19,17 +21,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.centros.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17
+
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.CitiusMiniScreen0
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen10.CitiusMiniScreen10
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen11.CitiusMiniScreen11
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen12.CitiusMiniScreen12
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen13.CitiusMiniScreen13
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen14.CitiusMiniScreen14
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen15.CitiusMiniScreen15
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.CitiusMiniScreen16
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen19.CitiusMiniScreen19
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen2.CitiusMiniScreen2
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen3.CitiusMiniScreen3
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen4.CitiusMiniScreen4
@@ -38,10 +32,19 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen7.CitiusMiniScreen7
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen8.CitiusMiniScreen8
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen9.CitiusMiniScreen9
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen10.CitiusMiniScreen10
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen11.CitiusMiniScreen11
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen12.CitiusMiniScreen12
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen13.CitiusMiniScreen13
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen14.CitiusMiniScreen14
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen15.CitiusMiniScreen15
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.CitiusMiniScreen16
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen19.CitiusMiniScreen19
 
 
-/*
+
 @Composable
 fun CitiusScreen(
     listState: LazyListState,
@@ -62,21 +65,23 @@ fun CitiusScreen(
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
-               LaunchedEffect(Unit) {
+            LaunchedEffect(Unit) {
                 listState.scrollToItem(0)
             }
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(screens) { data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
 
                         0 -> CitiusMiniScreen0(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         1 -> CitiusMiniScreen1(
@@ -105,59 +110,14 @@ fun CitiusScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         5 -> CitiusMiniScreen5(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        6 -> CitiusMiniScreen6(
-                            data,
                             navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-
-                        )
-
-                        7 -> CitiusMiniScreen7(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        8 -> CitiusMiniScreen8(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        9 -> CitiusMiniScreen9(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        10 -> CitiusMiniScreen10(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        11 -> CitiusMiniScreen11(
-                            data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -231,4 +191,3 @@ fun CitiusScreen(
     }
 
 }
-*/

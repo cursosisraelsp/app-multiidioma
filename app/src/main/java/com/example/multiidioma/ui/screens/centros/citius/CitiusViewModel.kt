@@ -1,11 +1,10 @@
-/*
+
 package com.example.multiidioma.ui.screens.centros.citius
 
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-
-import com.example.multiidioma.data.repository.
+import com.example.multiidioma.data.repository.CitiusRepository
 import com.example.multiidioma.data.types.MiniScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -36,12 +35,6 @@ class CitiusViewModel : ViewModel() {
                     listaCitiusRepository.getData(3),
                     listaCitiusRepository.getData(4),
                     listaCitiusRepository.getData(5),
-                    listaCitiusRepository.getData(6),
-                    listaCitiusRepository.getData(7),
-                    listaCitiusRepository.getData(8),
-                    listaCitiusRepository.getData(9),
-                    listaCitiusRepository.getData(10),
-                    listaCitiusRepository.getData(11),
                     listaCitiusRepository.getData(12),
                     listaCitiusRepository.getData(13),
                     listaCitiusRepository.getData(14),
@@ -57,4 +50,4 @@ class CitiusViewModel : ViewModel() {
         }
     }
 }
-*/
+

@@ -19,6 +19,7 @@ import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextBodyMedium
 
 
 @Composable
@@ -28,8 +29,6 @@ fun contentCitiusMiniScreen2Box2(data: MiniScreenData) {
         alignment = Alignment.BottomEnd,
         contentScale = ContentScale.FillBounds
     )
-    val estilosTextos =
-        StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start)
 
     Column {
         Box(
@@ -38,10 +37,8 @@ fun contentCitiusMiniScreen2Box2(data: MiniScreenData) {
                 .weight(0.5f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            AppText(data, estilosTextos)
+            TextBodyMedium(data)
         }
-
-        Spacer(modifier = Modifier.height(10.dp))
 
         Box(
             modifier = Modifier

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.contentInciforMiniScreen13
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen5.contentCitiusMiniScreen5
 
 
 import androidx.compose.foundation.layout.Box
@@ -11,19 +11,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.utils.NavigationFIgures.NavigationFiguresCitius
 import com.example.multiidioma.utils.TextBodyMedium
-import com.example.multiidioma.utils.NavigationFIgures.NavigationFiguresIncifor
-
 
 @Composable
-fun contentInciforMiniScreen13Box2(data: MiniScreenData, navController: NavController) {
+fun contentCitiusMiniScreen5Box2(data: MiniScreenData, navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
     ) {
         Box(
             modifier = Modifier
-                .padding(top = 20.dp)
         ) {
             TextBodyMedium(
                 data,
@@ -35,7 +33,7 @@ fun contentInciforMiniScreen13Box2(data: MiniScreenData, navController: NavContr
             modifier = Modifier
                 .fillMaxSize()
         ) {
-            NavigationFiguresIncifor(navController)
+            NavigationFiguresCitius(navController)
         }
     }
 }
