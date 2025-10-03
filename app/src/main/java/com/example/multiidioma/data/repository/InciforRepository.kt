@@ -236,7 +236,8 @@ class InciforRepository {
             MiniScreenData(
                 id = 25,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_25_paragraph_0
+                    R.string.II_INCIFOR_miniscreen_25_title_0,
+                    R.string.II_INCIFOR_miniscreen_25_title_1
                 ),
                 imageRes = R.drawable.incifor_img_01_d
             ),

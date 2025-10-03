@@ -23,7 +23,6 @@ fun InciforMiniScreen7(
 ) {
     val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
 
-
     val offset = itemInfo?.let {
         it.offset - listState.firstVisibleItemScrollOffset
     } ?: 0

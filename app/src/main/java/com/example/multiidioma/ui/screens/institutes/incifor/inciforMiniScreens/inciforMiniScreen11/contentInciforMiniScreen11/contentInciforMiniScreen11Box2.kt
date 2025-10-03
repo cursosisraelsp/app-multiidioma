@@ -50,7 +50,6 @@ fun contentInciforMiniScreen11Box2(
             TextBodyMedium(data, index = 0, textAlign = TextAlign.Center)
             SpacerText()
 
-            // Pasamos el modifier aquí
             LottieScrollWithOffsetComponent(
                 debuxoLottie = R.raw.incifor_anim_04,
                 listState = listState,
@@ -69,7 +68,6 @@ fun contentInciforMiniScreen11Box2(
             TextBodyMedium(data, index = 1, textAlign = TextAlign.Center)
             SpacerText()
 
-            // Pasamos el modifier aquí también
             LottieScrollWithOffsetComponent(
                 debuxoLottie = R.raw.incifor_anim_06,
                 listState = listState,
