@@ -28,7 +28,6 @@ fun contentInciforMiniScreen18TitleText(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
         AppText(data, estilosTextos, index = 0)
-        AppText(data, estilosTextos, index = 1)
     }
 }
 

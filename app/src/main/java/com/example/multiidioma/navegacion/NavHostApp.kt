@@ -5,11 +5,13 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.repository.InciforRepository
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 /*import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion*/
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
@@ -36,6 +38,7 @@ fun NavHostApp(
     listState: LazyListState,
     onOpenMap: () -> Unit
 ) {
+    val repository = remember { InciforRepository() }
 
     NavHost(
         navController = navController,
@@ -54,7 +57,7 @@ fun NavHostApp(
         IhusAppNavegacion()
         IdegaAppNavegacion()
         IceAppNavegacion()
-        InciforAppNavegacion(listState, navController)
+        InciforAppNavegacion(listState, navController, repository)
         ImatusAppNavegacion(listState, navController)
         IlgAppNavegacion()
         //## CENTROS
@@ -63,17 +66,10 @@ fun NavHostApp(
         /*CitiusAppNavegacion()*/
         CretusAppNavegacion()
         IgfaeAppNavegacion()
-
         detailNavGraph(navController, onClose = onOpenMap, listState)
 
 
-        ////InciforNavigation
-        composable(Destination.InciforMiniscreen14.route) {
-            InciforMiniScreen14(
-                data = MiniScreenData(/* aquí pasas los datos que quieras */),
-                navController = navController
-            )
-        }
+
 
         /*composable (Destination.InciforMiniscreen27.route) {
             InciforMiniScreen27(data = ,navController = navController)

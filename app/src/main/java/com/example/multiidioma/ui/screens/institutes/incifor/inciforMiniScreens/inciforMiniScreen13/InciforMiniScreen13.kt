@@ -3,7 +3,9 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -15,13 +17,9 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.NavigationFiguresComponent
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura0
-import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura1
-import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura2
-import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura3
-import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura4
-import com.example.multiidioma.utils.TextBodyMedium
-import com.example.multiidioma.utils.inciforUtils.NavigationFiguresIncifor
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.contentInciforMiniScreen13.contentInciforMiniScreen13Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.contentInciforMiniScreen13.contentInciforMiniScreen13Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.contentInciforMiniScreen13.contentInciforMiniScreen13Box3
 
 
 @Composable
@@ -30,26 +28,21 @@ fun InciforMiniScreen13(
     navController: NavController,
     modifier: Modifier = Modifier,
 ) {
-    Column(
-        modifier = Modifier
-            .background(Color(0xFF4189B5))
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF66AAD1))
     ) {
-        Box(
-            modifier = Modifier
-                .padding(top = 20.dp)
-        ) {
-            TextBodyMedium(
-                data,
-                index = 0,
-                textAlign = TextAlign.Center
-            )
-        }
-        Box(
-            modifier = modifier
-                .fillMaxSize()
-        ) {
-            NavigationFiguresIncifor(navController)
-        }
+        TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.7f, Box3 = 0.2f),
+            data = data,
+            Box1 = { contentInciforMiniScreen13Box1() },
+            Box2 = { contentInciforMiniScreen13Box2(it, navController) },
+            Box3 = { contentInciforMiniScreen13Box3() }
+        )
     }
 }
+
+
+
 
