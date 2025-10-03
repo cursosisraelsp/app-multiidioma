@@ -62,6 +62,9 @@ fun CitiusScreen(
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
+               LaunchedEffect(Unit) {
+                listState.scrollToItem(0)
+            }
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()

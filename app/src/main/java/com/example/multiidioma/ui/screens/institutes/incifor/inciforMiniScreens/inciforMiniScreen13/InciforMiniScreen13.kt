@@ -21,6 +21,7 @@ import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura2
 import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura3
 import com.example.multiidioma.ui.screens.institutes.incifor.valorFigura4
 import com.example.multiidioma.utils.TextBodyMedium
+import com.example.multiidioma.utils.inciforUtils.NavigationFiguresIncifor
 
 
 @Composable
@@ -47,11 +48,7 @@ fun InciforMiniScreen13(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            NavigationFiguresComponent(valorFigura0, navController)
-            NavigationFiguresComponent(valorFigura1, navController)
-            NavigationFiguresComponent(valorFigura2, navController)
-            NavigationFiguresComponent(valorFigura3, navController)
-            NavigationFiguresComponent(valorFigura4, navController)
+            NavigationFiguresIncifor(navController)
         }
     }
 }

@@ -10,6 +10,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -73,6 +74,9 @@ fun InciforScreen(
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
+            LaunchedEffect(Unit) {
+                listState.scrollToItem(0)
+            }
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
@@ -183,47 +187,6 @@ fun InciforScreen(
                         )
 
                         13 -> InciforMiniScreen13(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        14 -> InciforMiniScreen14(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        15 -> InciforMiniScreen15(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-
-                        )
-
-                        16 -> InciforMiniScreen16(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        17 -> InciforMiniScreen17(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        18 -> InciforMiniScreen18(
                             data,
                             navController,
                             Modifier

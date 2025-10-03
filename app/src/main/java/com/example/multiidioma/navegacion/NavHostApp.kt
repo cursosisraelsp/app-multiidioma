@@ -67,7 +67,13 @@ fun NavHostApp(
         detailNavGraph(navController, onClose = onOpenMap, listState)
 
 
-        ////
+        ////InciforNavigation
+        composable(Destination.InciforMiniscreen14.route) {
+            InciforMiniScreen14(
+                data = MiniScreenData(/* aquí pasas los datos que quieras */),
+                navController = navController
+            )
+        }
 
         /*composable (Destination.InciforMiniscreen27.route) {
             InciforMiniScreen27(data = ,navController = navController)
