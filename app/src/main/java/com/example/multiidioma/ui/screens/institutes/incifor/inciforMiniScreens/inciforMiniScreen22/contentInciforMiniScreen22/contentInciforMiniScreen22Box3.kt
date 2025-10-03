@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
@@ -15,6 +16,6 @@ fun contentInciforMiniScreen22Box3() {
             .fillMaxWidth()
             .fillMaxHeight()
     ) {
-        LineVerticalComponent()
+        LineVerticalComponent(color = Color.Black)
     }
 }

@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
@@ -44,6 +45,7 @@ val merriweatherFamily = FontFamily(
 )
 
 // Configuración de tipografía
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
 val AppTypography = Typography(
 
     bodyMedium = TextStyle(
@@ -71,9 +73,14 @@ val AppTypography = Typography(
         fontFamily = merriweatherFamily,
         fontStyle = FontStyle.Italic,
         fontSize = 24.sp
-    )
-
+    ),
+    titleMediumEmphasized = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 28.sp
+    ),
 )
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,

@@ -14,7 +14,7 @@ fun contentInciforMiniScreen19Box3() {
     Box(modifier = Modifier
         .fillMaxWidth()
         .fillMaxHeight()
-        .background(Color.Red)) {
+    ) {
         LineVerticalComponent()
     }
 }

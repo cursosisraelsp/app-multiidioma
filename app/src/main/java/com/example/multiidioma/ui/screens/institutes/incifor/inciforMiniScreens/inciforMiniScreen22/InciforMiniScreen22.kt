@@ -23,10 +23,10 @@ fun InciforMiniScreen22(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFFBCE0F0))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
+            BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.6f, Box3 = 0.2f),
             data = data,
             Box1 = { contentInciforMiniScreen22Box1(it) },
             Box2 = { contentInciforMiniScreen22Box2(it) },

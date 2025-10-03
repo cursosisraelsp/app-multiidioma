@@ -19,7 +19,7 @@ fun LineVerticalComponent(
     color: Color = Color.White
 ) {
     Box(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier.fillMaxWidth(),
         contentAlignment = contentAlignment
     ) {
         VerticalDivider(

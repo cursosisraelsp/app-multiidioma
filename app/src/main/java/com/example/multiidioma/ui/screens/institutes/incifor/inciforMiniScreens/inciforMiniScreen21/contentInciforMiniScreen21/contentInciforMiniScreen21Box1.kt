@@ -23,33 +23,14 @@ import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentInciforMiniScreen21Box1(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
-    )
-    Column(
+    Box(
         modifier = Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
+            .fillMaxHeight(0.3f)
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
-            LineVerticalComponent()
-        }
-
-
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = 50.dp, end = 50.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            AppText(data, estilosTextos, index = 0)
-            Spacer(modifier = Modifier.height(20.dp))
-            AppText(data, estilosTextos, index = 1)
-        }
+        LineVerticalComponent()
     }
+
 }
+
 

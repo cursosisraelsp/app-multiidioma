@@ -38,7 +38,7 @@ fun NavHostApp(
     listState: LazyListState,
     onOpenMap: () -> Unit
 ) {
-    val repository = remember { InciforRepository() }
+    val Inciforrepository = remember { InciforRepository() }
 
     NavHost(
         navController = navController,
@@ -57,7 +57,7 @@ fun NavHostApp(
         IhusAppNavegacion()
         IdegaAppNavegacion()
         IceAppNavegacion()
-        InciforAppNavegacion(listState, navController, repository)
+        InciforAppNavegacion(listState, navController, Inciforrepository)
         ImatusAppNavegacion(listState, navController)
         IlgAppNavegacion()
         //## CENTROS

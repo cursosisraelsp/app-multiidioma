@@ -19,26 +19,19 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentInciforMiniScreen20Box1(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
-    Column(
+    Box(
         modifier = Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
+            .fillMaxHeight()
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
-            LineVerticalComponent()
-        }
-        Spacer(modifier = Modifier.height(20.dp))
-
-        ReusableImage(data, estilosImagen)
+        LineVerticalComponent()
     }
-
 }
+
+
+
+
+
 
 
 

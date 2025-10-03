@@ -19,38 +19,30 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.TextTitleMedium
+import com.example.multiidioma.utils.TextTitleMediumRegular
 
 @Composable
 fun contentInciforMiniScreen19Box2(data: MiniScreenData) {
-
     Column(
-        modifier = Modifier.fillMaxSize()
-            .background(Color.Green)
-
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(start = 50.dp, end = 50.dp)
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
-            LineVerticalComponent()
-        }
+        SpacerText()
 
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = 50.dp, end = 50.dp, top = 10.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            TextTitleMedium(data, index = 0, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)//parrafo1
+        Spacer(modifier = Modifier.height(25.dp))
 
-            Spacer(modifier = Modifier.height(12.dp))
+        LineVerticalComponent(modifier = Modifier.fillMaxHeight(0.3f))
+        Spacer(modifier = Modifier.height(25.dp))
 
-            TextBodyMedium(data, index = 2,textAlign = TextAlign.Center)
-        }
+        TextTitleMedium(data, index = 0, textAlign = TextAlign.Center) //Titulo 1
+        TextTitleMediumRegular(data, index = 1, textAlign = TextAlign.Center) //Titulo 2
+        SpacerText()
+
+        TextBodyMedium(data, index = 3, textAlign = TextAlign.Center) //Parrafo2
     }
 }
-

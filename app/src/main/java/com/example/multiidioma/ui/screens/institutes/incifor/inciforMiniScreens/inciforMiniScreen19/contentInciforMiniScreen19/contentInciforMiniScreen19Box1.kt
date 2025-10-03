@@ -21,31 +21,15 @@ import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentInciforMiniScreen19Box1(data: MiniScreenData) {
-    Column(
+    Box(
         modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Gray)
+            .fillMaxWidth()
+            .fillMaxHeight()
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
-            LineVerticalComponent()
-        }
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.7f)
-                .padding(start = 50.dp, end = 50.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            TextBodyMedium(data, index = 1, textAlign = TextAlign.Center)
-        }
+        LineVerticalComponent()
     }
-
 }
+
 
 
 
