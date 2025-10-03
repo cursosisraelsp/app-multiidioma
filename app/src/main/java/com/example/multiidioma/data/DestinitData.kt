@@ -34,6 +34,17 @@ sealed class Destination(val route: String) {
     object Citius : Destination("citius")
     object Cretus : Destination("cretus")
     object Igfae : Destination("igfae")
+    //miniscreens
+
+    object IpsiusMiniscreen7 : Destination("IpsiusMiniScreen7")
+    object IpsiusMiniscreen8 : Destination("IpsiusMiniScreen8")
+    object IpsiusMiniscreen9 : Destination("IpsiusMiniScreen9")
+    object IpsiusMiniscreen10 : Destination("IpsiusMiniScreen10")
+    object IpsiusMiniscreen11 : Destination("IpsiusMiniScreen11")
+    object IpsiusMiniscreen12 : Destination("IpsiusMiniScreen12")
+    object IpsiusMiniscreen13 : Destination("IpsiusMiniScreen13")
+
+
     // Rutas en enum
     enum class RutasBottomBar (
         val route: String,

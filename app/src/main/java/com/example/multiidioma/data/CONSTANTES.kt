@@ -7,6 +7,7 @@ val CorBottomAndTop = Color(0xFF32627E)
 val darkBlue = Color(0xFF32627E)
 val accentColor = Color(0xFF00BCD4) // Un cian claro
 val whiteColor = Color.White
+val corLetras = Color(0xFF66aad1)
 
 val nomeInstitutos = listOf("IHUS","IDEGA","ICE","INCIFOR","IMATUS","ILG","IPSIUS","IARCUS")
 val nomeCentros = listOf("CIQUS","CIMUS","CITIUS","CRETUS","IGFAE","IDIS")

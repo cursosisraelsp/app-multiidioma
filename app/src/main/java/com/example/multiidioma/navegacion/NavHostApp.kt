@@ -1,11 +1,15 @@
 package com.example.multiidioma.navegacion
 
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import com.example.multiidioma.data.repository.IpsiusRepository
 import com.example.multiidioma.navegacion.centros.cretusApp.CretusAppNavegacion
 import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
@@ -25,6 +29,7 @@ import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun NavHostApp(
     navController: NavHostController,
@@ -33,13 +38,14 @@ fun NavHostApp(
     languageViewModel: LanguageViewModel,
     listState: LazyListState,
     onOpenMap: () -> Unit){
-
+val Ipsiusrepository =remember { IpsiusRepository()}
     NavHost(
         navController = navController,
         startDestination = "splash",
         modifier = modifier,
 
     ) {
+
 
         StartAppNavHost(navController)
 
@@ -54,7 +60,7 @@ fun NavHostApp(
         InciforAppNavegacion()
         ImatusAppNavegacion()
         IlgAppNavegacion()
-        IpsiusAppNavegacion(listState,navController)
+        IpsiusAppNavegacion(listState,navController,Ipsiusrepository)
         IarcusAppNavegacion(listState,navController)
         //## CENTROS
         CiqusAppNavegacion()
@@ -63,5 +69,7 @@ fun NavHostApp(
         CretusAppNavegacion(listState,navController)
         IgfaeAppNavegacion(listState,navController)
         detailNavGraph(listState,navController,onClose = onOpenMap )
+
+
     }
 }

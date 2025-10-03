@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.Igfae_andre.IgfaeMiniScreens.IgfaeMiniScreen10a
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.IgfaeMiniScreen10a
 
 
 import androidx.compose.foundation.background

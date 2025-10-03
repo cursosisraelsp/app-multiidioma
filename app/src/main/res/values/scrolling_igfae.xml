@@ -41,12 +41,14 @@
     <string name="CS_IGFAE_miniscreen_7_paragraph_1">This research program of the IGFAE studies from the most theoretical aspects of physics, such as the relationship between the laws that explain particles and gravity, as well as how matter behaves when many particles interact with each other. This is known as “condensed matter” and is key to understanding materials with special properties, such as superconductors. These studies are also beginning to be applied to more practical areas, such as the development of quantum computing, which will allow for calculations to be made simultaneously and more quickly than current computers.</string>
     <string name="CS_IGFAE_miniscreen_7_texto_buscado_1">condensed matter</string>
     <string name="CS_IGFAE_miniscreen_7_texto_buscado_2">development of quantum computing</string>
+    <string name="CS_IGFAE_miniscreen_7_paragraph_2"></string>
     <!-- PANTALLA 8 -->
     <string name="CS_IGFAE_miniscreen_8_title_0">HOT AND DENSE QCD IN THE LHC ERA AND BEYOND</string>
     <string name="CS_IGFAE_miniscreen_8_paragraph_0">Quantum chromodynamics (QCD) is the theory that describes the strong nuclear force that holds protons and neutrons together in the atomic nucleus. To deepen its study, it is necessary to recreate extreme temperature and density conditions, such as those that existed in the earliest moments of the universe, just after the Big Bang. These conditions are recreated in colliders such as the LHC at CERN or the RHIC at Brookhaven (United States).</string>
     <string name="CS_IGFAE_miniscreen_8_texto_buscado_0">describes the strong nuclear force that holds protons and neutrons together in the atomic nucleus</string>
     <string name="CS_IGFAE_miniscreen_8_paragraph_1">The team at the IGFAE is an international reference in the study of quantum chromodynamics under extreme conditions, and holds positions of responsibility in the design and configuration of future particle accelerators, leading projects such as the YoctoLHC, which will allow us to continue to delve into this field.</string>
     <string name="CS_IGFAE_miniscreen_8_texto_buscado_1">IGFAE is an international reference</string>
+    <string name="CS_IGFAE_miniscreen_8_paragraph_2"></string>
     <!-- PANTALLA 9 -->
     <string name="CS_IGFAE_miniscreen_9_title_0">BEYOND THE SM SEARCHES WITH LHCB</string>
     <string name="CS_IGFAE_miniscreen_9_paragraph_0">This research line consists of seeking answers to one of the great questions in modern physics: the dominance of matter over antimatter in the universe, when, in theory, they should have been created equally. To do this, a particle called the quark bottom or beauty (quark b) and a phenomenon called the violation of charge-parity symmetry (symmetry CP) are studied, which occurs when matter and antimatter do not behave exactly the same.</string>
@@ -55,12 +57,14 @@
     <string name="CS_IGFAE_miniscreen_9_paragraph_1">This field is developed both theoretically and through participation in international experiments such as those at the LHCb at CERN, in which the IGFAE has been participating since its beginnings. Today, it is one of the most important teams within LHCb, and its personnel collaborates in the design and construction of highly precise sensors, such as those of the VELO vertex locator subdetector, the development of the Allen supercomputer, capable of analyzing experiment data in real time, or the proposal for a new CODEX-b detector. The IGFAE also assumes a large part of the work of processing all the information generated in LHCb thanks to its powerful computing center.</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_2">one of the most important teams within LHCb</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_3">work of processing all the information generated in LHCb</string>
+    <string name="CS_IGFAE_miniscreen_9_paragraph_2"></string>
     <!-- PANTALLA 10 -->
     <string name="CS_IGFAE_miniscreen_10_title_0">COSMIC PARTICLES AND FUNDAMENTAL PHYSICS</string>
     <string name="CS_IGFAE_miniscreen_10_paragraph_0">Thanks to increasingly powerful technologies, it is now possible to study cosmic phenomena in many diverse ways. Not only are stars now observed with the traditional telescope, but signals such as gravitational waves or neutrinos can also be detected. This new way of understanding the universe is called multi-messenger astronomy and allows us to study particles that come from the cosmos and understand its most extreme phenomena.</string>
     <string name="CS_IGFAE_miniscreen_10_texto_buscado_0">gravitational waves or neutrinos can also be detected</string>
     <string name="CS_IGFAE_miniscreen_10_paragraph_1">These are some of the research programs that the Institute develops within this line.</string>
     <string name="CS_IGFAE_miniscreen_10_texto_buscado_1">research programs</string>
+    <string name="CS_IGFAE_miniscreen_10_paragraph_2"> </string>
     <!-- PANTALLA 11 -->
     <string name="CS_IGFAE_miniscreen_11_title_0">DARK MATTER AND THE NATURE OF NEUTRINOS</string>
     <string name="CS_IGFAE_miniscreen_11_paragraph_0">Dark matter is one of the greatest mysteries in modern physics, a form of matter that cannot be seen directly, but whose existence is deduced by its gravitational effects on visible matter surrounding it. It is believed to make up more than 80% of the matter in the universe and does not fit within the current Standard Model of physics.</string>
@@ -73,18 +77,21 @@
     <string name="CS_IGFAE_miniscreen_12_texto_buscado_0">perturbations in space-time caused by violent cosmic phenomena</string>
     <string name="CS_IGFAE_miniscreen_12_paragraph_1">The IGFAE has its own team incorporated into the LIGO collaboration since 2018, dedicated to important tasks of analysis within the experiment. With the opening of its new headquarters, the institute plans to dedicate a laboratory to the development of new technologies for gravitational wave experiments.</string>
     <string name="CS_IGFAE_miniscreen_12_texto_buscado_1">team incorporated into the LIGO</string>
+    <string name="CS_IGFAE_miniscreen_12_paragraph_2"></string>
     <!-- PANTALLA 13 -->
     <string name="CS_IGFAE_miniscreen_13_title_0">EXTREMELY ENERGETIC COSMIC RAYS AND NEUTRINOS – LARGE EXPOSURE EXPERIMENTS</string>
     <string name="CS_IGFAE_miniscreen_13_paragraph_0">The Earth receives a constant bombardment of cosmic rays, particles that travel at speeds close to the speed of light and originate from very distant places in the universe. This radiation is harmless to people, but its study is key to understanding very energetic and distant cosmic phenomena.</string>
     <string name="CS_IGFAE_miniscreen_13_texto_buscado_0">particles that travel at speeds close to the speed of light</string>
     <string name="CS_IGFAE_miniscreen_13_paragraph_1">Since 2002, the IGFAE has led Spain\’s participation in the Pierre Auger Observatory experiment in Argentina, one of the most important for the study of cosmic rays and neutrinos. In this field, the Institute’s team has developed pioneering analysis methods that are crucial for the interpretation of the data. This research, in addition, connects with other IGFAE programs and complements other theoretical work on astroparticle physics.</string>
     <string name="CS_IGFAE_miniscreen_13_texto_buscado_1">Pierre Auger Observatory</string>
+    <string name="CS_IGFAE_miniscreen_13_paragraph_2"></string>
     <!-- PANTALLA 14 -->
     <string name="CS_IGFAE_miniscreen_14_title_0">NUCLEAR PHYSICS FROM THE LAB TO IMPROVE PEOPLE\’S HEALTH</string>
     <string name="CS_IGFAE_miniscreen_14_paragraph_0">The study of atomic nuclei is fundamental for understanding the interactions and reactions that occur within them. Research in this field not only allows us to explain the origin of the elements in the periodic table, but also to advance areas such as atomic energy and the development of new medical techniques that improve healthcare.</string>
     <string name="CS_IGFAE_miniscreen_14_texto_buscado_0">the origin of the elements in the periodic table</string>
     <string name="CS_IGFAE_miniscreen_14_paragraph_1">The Institute works on several programs within this theme and among them stand out the following.</string>
     <string name="CS_IGFAE_miniscreen_14_texto_buscado_1">programs within this theme</string>
+    <string name="CS_IGFAE_miniscreen_14_paragraph_2"></string>
     <!-- PANTALLA 15 -->
     <string name="CS_IGFAE_miniscreen_15_title_0">EXPLOITATION OF THE LASER LABORATORY OF ACCELERATION AND APPLICATIONS (L2A2) AT USC</string>
     <string name="CS_IGFAE_miniscreen_15_paragraph_0">Laser-plasma acceleration is a technique that allows particles to be accelerated using very powerful laser pulses, and in this way, to obtain more precise images for diagnoses in the medical field.</string>
@@ -92,12 +99,14 @@
     <string name="CS_IGFAE_miniscreen_15_paragraph_1">Through the construction of the Laser Acceleration of Applications Laboratory (L2A2) in Santiago de Compostela, the Institute\’s team focuses on researching the possible medical applications of this technique. They are currently focused on two main research lines. On the one hand, the production of radioisotopes using lasers for their use in positron emission tomography, and on the other, the development of new X-ray sources generated by laser and their application in imaging diagnostics. These research lines are also deeply linked with other disciplines such as radiobiology and other areas of health, making collaboration between all disciplines indispensable.</string>
     <string name="CS_IGFAE_miniscreen_15_texto_buscado_1">construction of the Laser Acceleration of Applications Laboratory (L2A2) in Santiago de Compostela</string>
     <string name="CS_IGFAE_miniscreen_15_texto_buscado_2">production of radioisotopes</string>
+    <string name="CS_IGFAE_miniscreen_15_paragraph_2"></string>
     <!-- PANTALLA 16 -->
     <string name="CS_IGFAE_miniscreen_16_title_0">THE STRUCTURE OF THE NUCLEAR MANY-BODY SYSTEMS AND ITS ASTROPHYSICAL AND COSMOLOGICAL IMPLICATIONS</string>
     <string name="CS_IGFAE_miniscreen_16_paragraph_0">This field deals with studying exotic and unstable atomic nuclei, which are not easily found in nature, to analyze their properties and try to understand the formation of elements in the universe. To achieve this, specific nuclear reactions are triggered to generate these nuclei for brief moments in time.</string>
     <string name="CS_IGFAE_miniscreen_16_texto_buscado_0">exotic and unstable atomic nuclei</string>
     <string name="CS_IGFAE_miniscreen_16_paragraph_1">The IGFAE participates in international facilities such as FAIR in Germany and GANIL in France, where the team has accumulated over 20 years of experience, and more recently, at FRIB in the United States. In this field, the Institute stands out for its contribution to the design and construction of detectors and for the quality in the analysis of experimental data.</string>
     <string name="CS_IGFAE_miniscreen_16_texto_buscado_1">FAIR in Germany and GANIL in France</string>
+    <string name="CS_IGFAE_miniscreen_16_paragraph_2"></string>
     <!-- PANTALLA 17 -->
     <string name="CS_IGFAE_miniscreen_17_paragraph_0">The research of the IGFAE not only seeks to better understand the universe, but also to improve everyday life. From Santiago de Compostela, its advances translate into new medical technologies, collaboration with hospitals, talent training, and participation in important scientific experiments, connecting Galicia with global science challenges.</string>
     <string name="CS_IGFAE_miniscreen_17_texto_buscado_0">medical technologies, collaboration with hospitals, talent training, and participation in important scientific experiments</string>
