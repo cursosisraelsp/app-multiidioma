@@ -19,6 +19,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
 import com.example.multiidioma.data.CONDICIONS
@@ -45,7 +46,7 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
 
                 if (drawerState.isOpen) {
                     ModalDrawerSheet {
-                        Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp))
+                        Text(text = "CENTROS SINGULARES", modifier = Modifier.padding(16.dp),fontWeight= FontWeight.ExtraBold)
                         Text(
                             text = "CIQUS",
                             modifier = Modifier
@@ -99,7 +100,8 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                         )
                         Text(
                             text = "INSTITUTOS DE INVESTIGACIÓN",
-                            modifier = Modifier.padding(16.dp)
+                            modifier = Modifier.padding(16.dp),
+                            fontWeight = FontWeight.ExtraBold
                         )
                         Text(
                             text = "IHUS",

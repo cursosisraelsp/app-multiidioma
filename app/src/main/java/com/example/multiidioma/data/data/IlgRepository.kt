@@ -96,7 +96,7 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_8_paragraph_0,
                    // R.string.II_ILG_miniscreen_8_paragraph_1,
                 ),
-                imageRes = R.drawable.ihus_img_05_eng
+
 
             ),
 
@@ -104,36 +104,35 @@ class IlgRepository {
             MiniScreenData(
                 id = 9,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_9_paragraph0,
-                    R.string.II_IHUS_miniscreen_9_paragraph1,
+                    R.string.II_ILG_miniscreen_9_title_0,
+                    R.string.II_ILG_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.bgalega
-
+                imageRes = R.drawable.ilg_img_04
             ),
 
             MiniScreenData(
                 id = 10,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_10_paragraph0,
-                ),
-                imageRes = R.drawable.bgalega
+                    R.string.II_ILG_miniscreen_10_title_0,
+                    R.string.II_ILG_miniscreen_10_paragraph_0,
+                    ),
+                imageRes = R.drawable.ilg_img_05
 
             ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_11_title0,
+                    R.string.II_ILG_miniscreen_11_paragraph_0,
                 ),
-                imageRes = R.drawable.bgalega
+
 
             ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_11_title0,
+                    R.string.II_ILG_miniscreen_12_paragraph_0,
+                    R.string.II_ILG_miniscreen_12_paragraph_1,
                 ),
-                imageRes = R.drawable.bgalega
-
             ),
             MiniScreenData(
                 id = 13,

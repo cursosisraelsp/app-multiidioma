@@ -20,10 +20,10 @@ val numNumeroGrande = ((317.9/des.density)).sp
 val numNumero = ((317.9/des.density)/relacionDimen).sp
 
 val valorFigura0 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 20.dp,
+    offset_x = 15.dp,
+    offset_y = 35.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 240.dp,
     ruta = Destination.Ilg.route,
     numString = "01",
     relacionNum = numNumero,
@@ -32,10 +32,10 @@ val valorFigura0 = NavegationFiguresData(
     relacionText = numLetra2
 )
 val valorFigura1 = NavegationFiguresData(
-    offset_x = 260.dp,
-    offset_y = 70.dp,
+    offset_x = 175.dp,
+    offset_y = 255.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 240.dp,
     ruta = Destination.Ilg.route,
     numString = "02",
     relacionNum = numNumero,
