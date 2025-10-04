@@ -14,36 +14,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 import com.example.multiidioma.utils.TextTitleMedium
 
 
 @Composable
-fun contentCitiusMiniScreen15Box1(data: MiniScreenData) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-    ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
-            LineVerticalComponent()
-        }
-
-
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = 50.dp, end = 50.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            TextTitleMedium(data, index = 0)
-            Spacer(modifier = Modifier.height(20.dp))
-            TextTitleMedium(data, index = 1)
-        }
-    }
+fun contentCitiusMiniScreen15Box1() {
+    LineCircleComponent()
 }
 

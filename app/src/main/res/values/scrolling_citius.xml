@@ -173,9 +173,10 @@
     <string name="CS_CITIUS_miniscreen_25_paragraph_1">MORE INFO: https://citius.gal/es/team/natalia-seoane-iglesias/</string>
 
     <!--PANTALLA 27-->
+    <string name="CS_CITIUS_miniscreen_26_title_0" translatable="false">https://citius.gal/es/</string>
     <string name="CS_CITIUS_miniscreen_26_paragraph_0">If you are interested in learning more about CiTIUS, you can access further information by clicking on the following link:</string>
     <string name="CS_CITIUS_miniscreen_26_texto_buscado_0">learning more</string>
-    <string name="CS_CITIUS_miniscreen_26_title_0" translatable="false">https://citius.gal/es/</string>
+
 
 
 

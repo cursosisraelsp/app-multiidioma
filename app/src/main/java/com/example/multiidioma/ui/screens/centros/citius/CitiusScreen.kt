@@ -41,8 +41,7 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.CitiusMiniScreen16
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen19.CitiusMiniScreen19
-
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen26.CitiusMiniScreen26
 
 
 @Composable
@@ -123,6 +122,13 @@ fun CitiusScreen(
                                 .fillParentMaxHeight()
                         )
 
+                        11 -> CitiusMiniScreen11(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
                         12 -> CitiusMiniScreen12(
                             data,
                             Modifier
@@ -156,15 +162,24 @@ fun CitiusScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         17 -> CitiusMiniScreen17(
                         )
 
                         18 -> CitiusMiniScreen18()
+                     /*   19 -> CitiusMiniScreen19()
+                        20 -> CitiusMiniScreen20()
+                        21 -> CitiusMiniScreen21()
+                        22 -> CitiusMiniScreen22()
+                        23 -> CitiusMiniScreen23()
+                        24 -> CitiusMiniScreen24()
+                        25 -> CitiusMiniScreen25()*/
 
-                        19 -> CitiusMiniScreen19(
+                        26 -> CitiusMiniScreen26(
                             data,
                             Modifier
                                 .fillMaxWidth()

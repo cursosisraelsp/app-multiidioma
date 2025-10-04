@@ -25,7 +25,7 @@ fun CitiusMiniScreen12(
             .background(Color(0xFF4189B5))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.45f, Box3 = 0.4f),
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.55f, Box3 = 0.3f),
             data = data,
             Box1 = { contentCitiusMiniScreen12Box1() },
             Box2 = { contentCitiusMiniScreen12Box2(it) },

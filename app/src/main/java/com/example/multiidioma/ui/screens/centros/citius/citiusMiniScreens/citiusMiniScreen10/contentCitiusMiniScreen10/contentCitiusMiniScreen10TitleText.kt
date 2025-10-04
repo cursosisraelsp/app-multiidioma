@@ -13,8 +13,6 @@ import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
 fun contentCitiusMiniScreen10TitleText(data: MiniScreenData) {
-
-
     Column(
         modifier = Modifier
             .fillMaxWidth()

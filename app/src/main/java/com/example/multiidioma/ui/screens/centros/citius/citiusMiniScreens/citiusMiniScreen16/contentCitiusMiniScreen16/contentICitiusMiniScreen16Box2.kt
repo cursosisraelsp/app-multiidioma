@@ -13,21 +13,20 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextTitleMedium
+import com.example.multiidioma.utils.TextTitleMediumRegular
 
 @Composable
 fun contentCitiusMiniScreen16Box2(data: MiniScreenData) {
 
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
-    )
     Column(
         modifier = Modifier
             .fillMaxSize()
-
             .padding(start = 50.dp, end = 50.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        AppText(data, estilosTextos)
+        TextTitleMedium(data, index = 0, textAlign = TextAlign.Center)
+        TextTitleMediumRegular(data, index = 1, textAlign = TextAlign.Center)
     }
 }

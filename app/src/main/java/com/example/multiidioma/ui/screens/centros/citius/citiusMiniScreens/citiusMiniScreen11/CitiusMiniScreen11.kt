@@ -19,17 +19,16 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 @Composable
 fun CitiusMiniScreen11(
     data: MiniScreenData,
-    navController: NavController,
     modifier: Modifier = Modifier,
 ) {
 
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.6f, Box3 = 0.15f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.75f, Box3 = 0.15f),
             data = data,
             Box1 = { contentCitiusMiniScreen11Box1() },
             Box2 = { contentCitiusMiniScreen11Box2(it) },

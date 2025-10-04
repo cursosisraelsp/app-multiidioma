@@ -10,11 +10,5 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentCitiusMiniScreen14Box3() {
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .fillMaxHeight()
-    ) {
-        LineVerticalComponent()
-    }
+    LineVerticalComponent()
 }

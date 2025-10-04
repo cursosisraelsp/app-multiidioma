@@ -19,6 +19,6 @@ fun contentCitiusMiniScreen5Box1() {
             .fillMaxSize()
             .padding(bottom = 10.dp)
     ) {
-        LineVerticalComponent()
+        LineVerticalComponent(color = Color.Black)
     }
 }

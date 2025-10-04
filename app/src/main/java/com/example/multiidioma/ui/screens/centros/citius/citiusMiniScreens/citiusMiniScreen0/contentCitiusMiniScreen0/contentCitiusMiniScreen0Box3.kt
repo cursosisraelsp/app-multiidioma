@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen11.contentCitiusMiniScreen11
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.contentCitiusMiniScreen1
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,6 +12,8 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
 @Composable
-fun contentCitiusMiniScreen11Box3() {
-    CircleLineComponent()
-}
+fun contentCitiusMiniScreen0Box3() {
+
+        CircleLineComponent()
+    }
+

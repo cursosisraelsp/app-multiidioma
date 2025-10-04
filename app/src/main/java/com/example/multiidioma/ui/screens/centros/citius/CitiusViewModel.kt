@@ -35,6 +35,7 @@ class CitiusViewModel : ViewModel() {
                     listaCitiusRepository.getData(3),
                     listaCitiusRepository.getData(4),
                     listaCitiusRepository.getData(5),
+                    listaCitiusRepository.getData(11),
                     listaCitiusRepository.getData(12),
                     listaCitiusRepository.getData(13),
                     listaCitiusRepository.getData(14),

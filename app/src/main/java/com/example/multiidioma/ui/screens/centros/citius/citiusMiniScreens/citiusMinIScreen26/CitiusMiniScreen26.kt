@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen19
+package com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen26
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -8,7 +8,7 @@ import com.example.multiidioma.data.urlCitius
 import com.example.multiidioma.ui.components.Templates.ScrollingEndScreenTemplate
 
 @Composable
-fun CitiusMiniScreen19(
+fun CitiusMiniScreen26(
     data: MiniScreenData,
     modifier: Modifier = Modifier
 ) {

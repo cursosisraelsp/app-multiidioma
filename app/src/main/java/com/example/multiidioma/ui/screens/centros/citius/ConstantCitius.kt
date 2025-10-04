@@ -16,8 +16,12 @@ val relacionDimen = 300 / 150
 val relacionTexto = (90).dp
 val relacionTextoGrande = (175).dp
 val numNumeroGrande = ((317.9 / des.density)).sp
+val numBigCitius = (200 / des.density).sp
+val numSmallCitius = (150  / des.density).sp
+
 
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
+
 
 val valorFiguraCitius0 = NavegationFiguresData(
     offset_x = 30.dp,
@@ -26,11 +30,11 @@ val valorFiguraCitius0 = NavegationFiguresData(
     tamanhoFigura = 200.dp,
     ruta = Destination.CitiusMiniScreen6.route,
     numString = "01",
-    relacionNum = numNumeroGrande,
+    relacionNum = numBigCitius,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_1,
-    anchoTexto = relacionTexto,
+    anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    relacionText = numLetra
 )
 val valorFiguraCitius1 = NavegationFiguresData(
     offset_x = 220.dp,
@@ -39,50 +43,50 @@ val valorFiguraCitius1 = NavegationFiguresData(
     tamanhoFigura = 180.dp,
     ruta = Destination.CitiusMiniScreen7.route,
     numString = "02",
-    relacionNum = numNumero,
+    relacionNum = numBigCitius,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_2,
-    anchoTexto = relacionTexto,
+    anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    relacionText = numLetra
 )
 val valorFiguraCitius2 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 250.dp,
+    offset_x = 45.dp,
+    offset_y = 210.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 135.dp,
+    tamanhoFigura = 150.dp,
     ruta = Destination.CitiusMiniScreen8.route,
     numString = "03",
-    relacionNum = numNumero,
+    relacionNum = numSmallCitius,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_3,
-    anchoTexto = relacionTexto,
+    anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    relacionText = numLetra
 )
 val valorFiguraCitius3 = NavegationFiguresData(
     offset_x = 200.dp,
-    offset_y = 240.dp,
+    offset_y = 200.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 225.dp,
     ruta = Destination.CitiusMiniScreen9.route,
     numString = "04",
-    relacionNum = numNumeroGrande,
+    relacionNum = numBigCitius,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_4,
-    anchoTexto = relacionTexto,
+    anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
 val valorFiguraCitius4 = NavegationFiguresData(
-    offset_x = 40.dp,
-    offset_y = 400.dp,
+    offset_x = 90.dp,
+    offset_y = 370.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 120.dp,
     ruta = Destination.CitiusMiniScreen10.route,
     numString = "05",
-    relacionNum = numNumero,
+    relacionNum = numSmallCitius,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra
+    relacionText = numLetra2
 )
 
 

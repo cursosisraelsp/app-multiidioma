@@ -59,11 +59,4 @@ fun NavGraphBuilder.CitiusAppNavegacion(
             navController = navController
         )
     }
-
-    composable(Destination.CitiusMiniScreen11.route) {
-        CitiusMiniScreen11(
-            data = repository.getData(11),
-            navController = navController
-        )
-    }
 }

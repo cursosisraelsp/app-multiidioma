@@ -23,12 +23,12 @@ fun CitiusMiniScreen13(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
+            BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.6f, Box3 = 0.2f),
             data = data,
-            Box1 = { contentCitiusMiniScreen13Box1(it) },
+            Box1 = { contentCitiusMiniScreen13Box1() },
             Box2 = { contentCitiusMiniScreen13Box2(it) },
             Box3 = { contentCitiusMiniScreen13Box3() }
         )

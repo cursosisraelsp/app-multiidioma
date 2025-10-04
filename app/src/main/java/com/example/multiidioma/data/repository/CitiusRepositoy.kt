@@ -55,14 +55,18 @@ class CitiusRepository {
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_6_paragraph_0
+                    R.string.CS_CITIUS_miniscreen_6_title_0,
+                    R.string.CS_CITIUS_miniscreen_6_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_6_paragraph_1
                 ),
-
-                ),
+                imageRes = R.drawable.noimagen
+            ),
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_7_paragraph_0
+                    R.string.CS_CITIUS_miniscreen_7_title_0,
+                    R.string.CS_CITIUS_miniscreen_7_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_7_paragraph_1
                 ),
                 imageRes =
                     R.drawable.noimagen
@@ -70,14 +74,18 @@ class CitiusRepository {
             MiniScreenData(
                 id = 8,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_8_paragraph_0
+                    R.string.CS_CITIUS_miniscreen_8_title_0,
+                    R.string.CS_CITIUS_miniscreen_8_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_8_paragraph_1
                 ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 9,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_9_paragraph_0
+                    R.string.CS_CITIUS_miniscreen_9_title_0,
+                    R.string.CS_CITIUS_miniscreen_9_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_9_paragraph_1
                 ),
                 imageRes = R.drawable.noimagen
             ),
@@ -85,6 +93,7 @@ class CitiusRepository {
             MiniScreenData(
                 id = 10,
                 bodyParagraphs = listOf(
+                    R.string.CS_CITIUS_miniscreen_10_title_0,
                     R.string.CS_CITIUS_miniscreen_10_paragraph_0,
                 ),
             ),
@@ -93,19 +102,29 @@ class CitiusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CITIUS_miniscreen_11_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.citius_img_10
             ),
 
             MiniScreenData(
                 id = 12,
                 bodyParagraphs = listOf(
                     R.string.CS_CITIUS_miniscreen_12_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_12_paragraph_1,
                 ),
 
                 ),
             MiniScreenData(
                 id = 13,
+                bodyParagraphs = listOf(
+                    R.string.CS_CITIUS_miniscreen_13_title_0,
+                    R.string.CS_CITIUS_miniscreen_13_paragraph_0,
+
+                    ),
+
+                imageRes = R.drawable.citius_img_11
             ),
+
+
             MiniScreenData(
                 id = 14,
                 bodyParagraphs = listOf(
@@ -113,13 +132,15 @@ class CitiusRepository {
                     R.string.CS_CITIUS_miniscreen_14_paragraph_0,
                 ),
 
-                ),
+                imageRes = R.drawable.citius_img_12
+            ),
             MiniScreenData(
                 id = 15,
                 bodyParagraphs = listOf(
                     R.string.CS_CITIUS_miniscreen_15_title_0,
                     R.string.CS_CITIUS_miniscreen_15_paragraph_0,
                 ),
+                imageRes = R.drawable.citius_img_13
 
                 ),
             MiniScreenData(
@@ -148,11 +169,10 @@ class CitiusRepository {
 
                 ),
             MiniScreenData(
-                id = 19,
+                id = 26,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_19_title_0,
-                    R.string.CS_CITIUS_miniscreen_19_paragraph_0,
-                    R.string.CS_CITIUS_miniscreen_19_paragraph_1
+                    R.string.CS_CITIUS_miniscreen_26_paragraph_0,
+                    R.string.CS_CITIUS_miniscreen_26_title_0,
                 ),
 
 

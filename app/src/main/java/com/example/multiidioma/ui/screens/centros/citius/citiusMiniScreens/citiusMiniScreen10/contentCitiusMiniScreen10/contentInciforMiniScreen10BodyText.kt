@@ -9,6 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 
@@ -23,6 +24,7 @@ fun contentCitiusMiniScreen10BodyText(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, index = 1)
+
     }
 }
 
