@@ -43,6 +43,12 @@ sealed class Destination(val route: String) {
     object CitiusMiniScreen10 : Destination("CitiusMiniScreen10")
     object CitiusMiniScreen11 : Destination("CitiusMiniScreen11")
 
+    //Miniscreens - imatus
+    object ImatusMiniScreen5 : Destination("ImatusMiniScreen5")
+    object ImatusMiniScreen6 : Destination("ImatusMiniScreen6")
+    object ImatusMiniScreen7 : Destination("ImatusMiniScreen7")
+
+
 
     object Imatus : Destination("imatus")
     object Ilg : Destination("ilg")

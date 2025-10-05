@@ -1,6 +1,5 @@
 package com.example.multiidioma.utils.imatusUtils
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -8,10 +7,11 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
@@ -30,15 +30,19 @@ fun ImatusTemplateScreen1(
     TitleText: @Composable (MiniScreenData) -> Unit = {},
     BodyText: @Composable (MiniScreenData) -> Unit = {},
 ) {
+
+    val scrollState = rememberScrollState()
+
     Column(
         modifier = modifier
             .fillMaxSize()
+            .verticalScroll(scrollState)
     ) {
         // Parte superior: CircleImage + Título
         Row(
             modifier = Modifier
-                .fillMaxHeight(0.30f)
                 .fillMaxWidth()
+                .padding(top = 16.dp)
         ) {
             CircleImageUtil(data, CircleImage)
             TitleTextCircleTemplateUtil(data, TitleText)
@@ -48,6 +52,7 @@ fun ImatusTemplateScreen1(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
+                .padding(bottom = 24.dp)
         ) {
             BodyTextCircleTemplateUtil(
                 data = data,
@@ -56,11 +61,11 @@ fun ImatusTemplateScreen1(
                     .fillMaxWidth()
             )
 
-            // Imatus específico 3 bloques con imágenes y texto
+            // Bloques de imágenes y texto
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(start = 67.dp)
+                    .padding(start = 67.dp, end = 2.dp)
             ) {
                 // Bloque 1
                 Row(
@@ -69,8 +74,7 @@ fun ImatusTemplateScreen1(
                 ) {
                     Column(
                         modifier = Modifier.fillMaxWidth(0.3f),
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.Top
+                        horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         ImatusImage1()
                         LineVerticalComponent()
@@ -85,8 +89,7 @@ fun ImatusTemplateScreen1(
                 ) {
                     Column(
                         modifier = Modifier.fillMaxWidth(0.3f),
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.Top
+                        horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         ImatusImage2()
                         LineVerticalComponent()
@@ -101,12 +104,11 @@ fun ImatusTemplateScreen1(
                 ) {
                     Column(
                         modifier = Modifier.fillMaxWidth(0.3f),
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.Top
+                        horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         ImatusImage3()
                     }
-                    ImatusTextBox(data, index = 5, modifier = Modifier.weight(1f))
+                    ImatusTextBox(data, index = 6, modifier = Modifier.weight(1f))
                 }
             }
 
@@ -114,7 +116,7 @@ fun ImatusTemplateScreen1(
             BackWithArrowButtonCircleTemplate(
                 navController = navController,
                 modifier = Modifier
-                    .padding(end = 16.dp)
+                    .padding(top = 24.dp, end = 16.dp)
                     .align(Alignment.End)
             )
         }

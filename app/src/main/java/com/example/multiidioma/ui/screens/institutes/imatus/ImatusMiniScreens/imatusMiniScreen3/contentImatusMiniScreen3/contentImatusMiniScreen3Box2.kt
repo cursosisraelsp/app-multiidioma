@@ -25,14 +25,14 @@ fun contentImatusMiniScreen3Box2(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TextBodyMedium(data, index = 0, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 0,)
 
         SpacerText()
 
-        TextBodyMedium(data, index = 1, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 1)
 
         SpacerText()
 
-        TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 2)
     }
 }

@@ -96,6 +96,7 @@ class CitiusRepository {
                     R.string.CS_CITIUS_miniscreen_10_title_0,
                     R.string.CS_CITIUS_miniscreen_10_paragraph_0,
                 ),
+                imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 11,

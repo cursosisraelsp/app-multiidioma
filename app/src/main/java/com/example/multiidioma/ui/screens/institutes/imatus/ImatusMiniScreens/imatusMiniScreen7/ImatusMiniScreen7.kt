@@ -10,14 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.VideoScreen
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5BodyText
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5CircleImage
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen5.contentImatusMiniScreen5.contentImatusMiniScreen5TitleText
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7BodyText
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7CircleImage
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7TitleText
-import com.example.multiidioma.utils.imatusUtils.ImatusTemplateScreen1
-import com.example.multiidioma.utils.imatusUtils.ImatusTemplateScreen2
 import com.example.multiidioma.utils.imatusUtils.ImatusTemplateScreen3
 
 

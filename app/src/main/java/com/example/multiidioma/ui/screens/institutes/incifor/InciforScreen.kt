@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
@@ -21,9 +20,22 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.incifor.InciforViewModel
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.InciforMiniScreen0
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.InciforMiniScreen1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen10.InciforMiniScreen10
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.InciforMiniScreen11
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.InciforMiniScreen12
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.InciforMiniScreen13
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen19.InciforMiniScreen19
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen2.InciforMiniScreen2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen20.InciforMiniScreen20
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen21.InciforMiniScreen21
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.InciforMiniScreen22
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen23.InciforMiniScreen23
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen24.InciforMiniScreen24
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen25.InciforMiniScreen25
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniscreen28
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen3.InciforMiniScreen3
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.InciforMiniScreen4
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5.InciforMiniScreen5
@@ -31,25 +43,6 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen7.InciforMiniScreen7
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.InciforMiniScreen8
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.InciforMiniScreen9
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen10.InciforMiniScreen10
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.InciforMiniScreen11
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.InciforMiniScreen12
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen13.InciforMiniScreen13
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen14.InciforMiniScreen14
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen15.InciforMiniScreen15
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen16.InciforMiniScreen16
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen17.InciforMiniScreen17
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen18.InciforMiniScreen18
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen19.InciforMiniScreen19
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen20.InciforMiniScreen20
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen21.InciforMiniScreen21
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.InciforMiniScreen22
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen23.InciforMiniScreen23
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen24.InciforMiniScreen24
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen25.InciforMiniScreen25
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniscreen28
 
 
 @RequiresApi(Build.VERSION_CODES.P)

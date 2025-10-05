@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.detail
 
+/*import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen*/
 import InciforScreen
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -20,7 +21,6 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
-/*import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen*/
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
@@ -31,7 +31,6 @@ import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
-import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable

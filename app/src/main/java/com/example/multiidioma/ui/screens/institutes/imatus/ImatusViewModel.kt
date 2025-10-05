@@ -31,34 +31,15 @@ class ImatusViewModel : ViewModel() {
                     listaImatusRepository.getData(2),
                     listaImatusRepository.getData(3),
                     listaImatusRepository.getData(4),
-                    listaImatusRepository.getData(5),
-                    listaImatusRepository.getData(6),
-                    listaImatusRepository.getData(7),
                     listaImatusRepository.getData(8),
                     listaImatusRepository.getData(9),
                     listaImatusRepository.getData(10),
                     listaImatusRepository.getData(11),
                     listaImatusRepository.getData(12),
-                    listaImatusRepository.getData(13),
-                    listaImatusRepository.getData(14),
-                    listaImatusRepository.getData(15),
-                    listaImatusRepository.getData(16),
-                    listaImatusRepository.getData(17),
-                    listaImatusRepository.getData(18),
-                    listaImatusRepository.getData(19),
-                    listaImatusRepository.getData(20),
-                    listaImatusRepository.getData(21),
-                    listaImatusRepository.getData(22),
-                    listaImatusRepository.getData(23),
-                    listaImatusRepository.getData(24),
-                    listaImatusRepository.getData(25),
-                    listaImatusRepository.getData(26),
-                    listaImatusRepository.getData(27),
-                    listaImatusRepository.getData(28),
+                    listaImatusRepository.getData(13)
 
 
-
-                    )
+                )
             )
 
         }

@@ -19,8 +19,6 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 fun CitiusMiniScreen16(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
-    listState: LazyListState,
-    itemIndex: Int
 ) {
 
     Box(
@@ -28,15 +26,11 @@ fun CitiusMiniScreen16(
             .fillMaxSize()
             .background(Color(0xFF32627E))
     ) {
-        val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
 
-        val offset = itemInfo?.let {
-            it.offset - listState.firstVisibleItemScrollOffset
-        } ?: 0
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.40f, Box3 = 0.15f),
             data = data,
-            Box1 = { contentCitiusMiniScreen16Box1(offset, listState, itemIndex) },
+            Box1 = { contentCitiusMiniScreen16Box1() },
             Box2 = { contentCitiusMiniScreen16Box2(it) },
             Box3 = { contentCitiusMiniScreen16Box3() }
         )

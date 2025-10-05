@@ -33,7 +33,6 @@ import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
 import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.TextDisplayMedium
 import com.example.multiidioma.utils.TextTitleMedium
-import com.example.multiidioma.utils.TextTitleSmall
 
 @Composable
 fun PersonalTemplateScreen(

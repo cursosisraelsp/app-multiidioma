@@ -8,7 +8,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.ui.screens.detail.DetailScreen
-import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @RequiresApi(Build.VERSION_CODES.P)
 fun NavGraphBuilder.detailNavGraph(

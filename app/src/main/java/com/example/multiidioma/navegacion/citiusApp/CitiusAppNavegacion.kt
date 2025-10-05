@@ -10,12 +10,11 @@ import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.repository.CitiusRepository
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
+import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen10.CitiusMiniScreen10
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen6.CitiusMiniScreen6
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen7.CitiusMiniScreen7
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen8.CitiusMiniScreen8
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen9.CitiusMiniScreen9
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen10.CitiusMiniScreen10
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen11.CitiusMiniScreen11
 
 @RequiresApi(Build.VERSION_CODES.P)
 fun NavGraphBuilder.CitiusAppNavegacion(

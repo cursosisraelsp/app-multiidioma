@@ -322,7 +322,7 @@
     <string name="II_IMATUS_miniscreen_34_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60527/detalle</string>
 
     <!--PANTALLA 36-->
-    <string name="II_IMATUS_miniscreen_35_paragraph_0">If you are interested in learning more about iMATUS you can access more information by clicking on the following link</string>
     <string name="II_IMATUS_miniscreen_35_title_0" translatable="false"> https://imatus.usc.es/ </string>
+    <string name="II_IMATUS_miniscreen_35_paragraph_0">If you are interested in learning more about iMATUS you can access more information by clicking on the following link</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens0.imatusMiniScreen0
+package com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0
 
 
 import androidx.compose.foundation.background

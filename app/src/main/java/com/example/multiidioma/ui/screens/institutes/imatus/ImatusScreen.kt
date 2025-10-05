@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -17,16 +17,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0.ImatusMiniScreen0
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen2.ImatusMiniScreen2
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen3.ImatusMiniScreen3
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens0.imatusMiniScreen0.ImatusMiniScreen0
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
-import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen5.ImatusMiniScreen5
-import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen6.ImatusMiniScreen6
-import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen7.ImatusMiniScreen7
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen8.ImatusMiniScreen8
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen9.ImatusMiniScreen9
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen10.ImatusMiniScreen10
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen11.ImatusMiniScreen11
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen16.ImatusMiniScreen12
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen35.ImatusMiniScreen35
+
 
 @Composable
 fun ImatusScreen(
@@ -56,7 +59,7 @@ fun ImatusScreen(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(screens) { data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
 
                         0 -> ImatusMiniScreen0(
@@ -90,34 +93,62 @@ fun ImatusScreen(
 
                         4 -> ImatusMiniScreen4(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        5 -> ImatusMiniScreen5(
-                            data,
                             navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
+                                .fillParentMaxHeight(),
 
-                        6 -> ImatusMiniScreen6(
+                            )
+
+                        8 -> ImatusMiniScreen8(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
-                        7 -> ImatusMiniScreen7(
+                        9 -> ImatusMiniScreen9(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
+
+                        10 -> ImatusMiniScreen10(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
+                        )
+
+                        11 -> ImatusMiniScreen11(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
+                        )
+
+                        12 -> ImatusMiniScreen12(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+                        )
+                        35 -> ImatusMiniScreen35(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+                        )
+
 
 
                         else -> Text("MiniScreen desconocida")
