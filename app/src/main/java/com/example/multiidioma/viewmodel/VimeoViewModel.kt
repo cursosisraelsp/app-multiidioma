@@ -1,4 +1,4 @@
-package com.example.multiidioma.viewmodel
+/*package com.example.multiidioma.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
