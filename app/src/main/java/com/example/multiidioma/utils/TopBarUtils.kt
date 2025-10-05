@@ -1,15 +1,21 @@
 package com.example.multiidioma.utils
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material3.DrawerState
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults.topAppBarColors
 import androidx.compose.runtime.Composable
@@ -25,12 +31,6 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.CONDICIONS
 import com.example.multiidioma.data.CorBottomAndTop
 import com.example.multiidioma.data.whiteColor
-import com.example.multiidioma.utils.TitleNames
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material3.DrawerState
-import androidx.compose.material3.Text
-import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -44,8 +44,10 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
     if (condicionVision.CondicionTopBar(navController)) {
         AnimatedVisibility(
             visible = topBarVisible,
-            enter = slideInVertically(initialOffsetY = { it }),
-            exit = slideOutVertically(targetOffsetY = { it })
+            enter = slideInVertically { -it } + fadeIn(),
+            exit  = slideOutVertically { -it } + fadeOut()
+            //enter = slideInVertically(initialOffsetY = { it }),
+            //exit = slideOutVertically(targetOffsetY = { it })
         ){
             TopAppBar(
                 colors = topAppBarColors(
@@ -76,15 +78,17 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
                     }
                 },
                 actions = {
+
                     if(condicionVision.CondicionInstitutos(navController) || condicionVision.CondicionCentrosSingulares(navController)){
                         IconButton(
                             onClick = { scope.launch {
-                                //drawerState.open()
+
                                 if (drawerState.isClosed) {
                                     drawerState.open()
                                 } else {
                                     drawerState.close()
                                 }
+
                             } }
                         ) {
                             Icon(

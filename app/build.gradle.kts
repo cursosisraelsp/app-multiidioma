@@ -67,6 +67,14 @@ dependencies {
     implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
     implementation("androidx.navigation:navigation-compose:2.7.3")
     implementation(libs.androidx.navigation.runtime.android)
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+
+    // OkHttp (para el interceptor)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    // si usas coroutines
+    implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
     // PARA SVG
 
     implementation("com.caverock:androidsvg-aar:1.4")
@@ -83,12 +91,24 @@ dependencies {
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0") {
         exclude(group = "com.android.support")
     }
+    /// PARA SVG
 
+    //implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-svg:2.4.0")
+
+    //
+    implementation ("io.coil-kt:coil:2.4.0")
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+    implementation ("io.coil-kt:coil-gif:2.4.0")
+    // Lotti
+    implementation ("com.airbnb.android:lottie-compose:6.4.0") // última versión estable
     // Google Maps Compose y Play Services
     implementation("com.google.maps.android:maps-compose:4.3.0")
     implementation("com.google.android.gms:play-services-maps:19.0.0")
 
-
+    // ExoPlayer (Google Media3)
+    implementation("androidx.media3:media3-exoplayer:1.4.1")
+    implementation("androidx.media3:media3-ui:1.4.1")
     // SVG con Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("io.coil-kt:coil-svg:2.4.0")

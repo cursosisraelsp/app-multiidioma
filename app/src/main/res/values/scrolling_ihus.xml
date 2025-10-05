@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="II_IHUS_miniscreen_0_paragraph0">In a world marked by disinformation, globalization, geopolitical conflicts and climate change, humanities are more necessary than ever. They seek to develop in society a critical and global vision, giving citizens the tools to question everything around them and to act with conscience, so that they are able to understand and transform their reality.</string>
+    <string name="II_IHUS_miniscreen_1_paragraph0">Humanities and new technologies, such as artificial intelligence, are increasingly interconnected, offering humanistic studies critical perspectives necessary to reflect on the ethical and social use of technologies, and questioning how they affect rights, identity and coexistence. We therefore help to ensure that technological progress serves to promote well-being, equality and cultural diversity.</string>
+    <string name="II_IHUS_miniscreen_1_paragraph1">In this context the Institute of Humanities Research of the University of Santiago de Compostela (iHUS) was born, which seeks to respond to the challenges of the present and the future and create a reference and recognition space for research.</string>
+    <string name="II_IHUS_miniscreen_2_paragraph0">The iHUS was created in 2024, and is currently headquartered in the Center for Advanced Studies, in the Vista Alegre Park. The USC has great strength in the field of Humanities, placing it in rankings as the QS among the best universities in the world in this field, so the creation of the iHUS was a logical and a necessary step within a scientific policy that seeks to articulate research in more competitive units. It is the first research institute in Humanities of the Galician University System.</string>
+    <string name="II_IHUS_miniscreen_2_paragraph1">It presents itself as an attractive space for the scientific development of the Humanities, with capacity and commitment for attraction, training and retention of talent. It is proposed to address society’s most urgent challenges, such as climate change, the impact of technology and migration policies.</string>
+    <string name="II_IHUS_miniscreen_3_paragraph0">Transversality and interdisciplinarity are key elements for iHUS, since in order to address the problems of the 21st century it is necessary to understand not only the humanities, but also the scientific-technical disciplines such as Physics, Nature Sciences, Health or Computer Science.</string>
+    <string name="II_IHUS_miniscreen_4_paragraph0">	It currently has more than a hundred researchers, 66 permanent and 46 non-permanent researchers, from fields such as Philology, Philosophy, History, History of Art or Geography, which accentuates this commitment to collaboration between various scientific fields.</string>
+    <string name="II_IHUS_miniscreen_5_paragraph0">The main mission of iHUS is to critically address the current and future challenges of our society from the perspective of Humanities. These challenges are set out in three priorities, which are intended to be complementary but not static, opening up to the possibility of rethinking them by virtue of the changes facing us in the future.</string>
+    <string name="II_IHUS_miniscreen_5_button0">Boton01</string>
+    <string name="II_IHUS_miniscreen_5_button1">Boton02</string>
+    <string name="II_IHUS_miniscreen_5_button2">Boton03</string>
+    <string name="II_IHUS_miniscreen_6_title0">ANTRHOPOCENE</string>
+    <string name="II_IHUS_miniscreen_6_title1">WELFARE AND </string>
+    <string name="II_IHUS_miniscreen_6_title2">JUSTICE</string>
+    <string name="II_IHUS_miniscreen_6_paragraph0">Research must overcome the traditional worldview where Western human beings are at the center of everything, seeking approaches that integrate multiple perspectives and the importance of the relationship between man and nature. This challenge includes research developed from lines of research such as ecocriticism, gender studies, posthumanism, ethics applied or post-colonial studies, among others.</string>
+    <string name="II_IHUS_miniscreen_7_title0">TECNOLOGY</string>
+    <string name="II_IHUS_miniscreen_7_title1">DIGITALIZATION</string>
+    <string name="II_IHUS_miniscreen_7_title2">AND VIRTUAL WORLDS</string>
+    <string name="II_IHUS_miniscreen_7_paragraph0">The impact of digital transformation over recent decades on the nature and life of people can be both positive and negative. This involves reflecting on the ethical and environmental challenges posed by the use of technologies and studying how they influence the creation and preservation of culture. This challenge brings together research lines as relevant as the Digital Humanities, Transhumanism, Intermediality and theatrical studies, performance and music, the studies of creativity and also those related to the cultural industries, in addition to what has to do with the mind, language, cognition and reasoning and the philosophy of technoscience, artificial intelligence and virtual reality.</string>
+    <string name="II_IHUS_miniscreen_8_title0">IDENTITIES</string>
+    <string name="II_IHUS_miniscreen_8_title1">GLOBAL CHANGE</string>
+    <string name="II_IHUS_miniscreen_8_title2">AND MOBILITIES</string>
+    <string name="II_IHUS_miniscreen_8_paragraph0">Current events are marked by migrations and globalization, in a process in which identities seem to reinforce and fade at the same time. Based on research into studies of globalization and transnational flows, cultural memory and inheritance, frontier studies, cultural and (etno) territorial identities and emotion studies, the iHUS develops a critical analysis of globalization and the past allows us to question the idea of a single form of society, favoring the diversity and recognition of minority communities.</string>
+    <string name="II_IHUS_miniscreen_9_paragraph0">Although it is thought that the main opportunity for the transfer of knowledge in Humanities has to do with the organization of symposiums and workshops, the truth is that there are many staff of the iHUS who work to disseminate scientific information in the field of cultural heritage both material and intangible, with constant technical contributions to the cultural, educational or health fields. </string>
+    <string name="II_IHUS_miniscreen_9_paragraph1">The research staff also offers specialized services related to archives, libraries, public administrations, media, educational centres, etc; and technical advice in areas such as archaeology, management and territorial planning, artistic and patrimonial cataloging or the development of digital humanities.</string>
+    <string name="II_IHUS_miniscreen_10_paragraph0">The IHUS aims to foster dialogue between the academy and society, facilitating open access to research results for both a specialized and general public. The dissemination and interaction work with society is key to bringing the results of research closer to Galician society in particular and worldwide in general, for which collaboration with universities in other countries is also important.</string>
+    <string name="II_IHUS_miniscreen_11_title0">TALENT AMBASSADORS</string>
+    <string name="II_IHUS_miniscreen_12_title0">MANAGEMENT TEAM</string>
+    <string name="II_IHUS_miniscreen_12_paragraph0">Laura María Lojo Rodríguez</string>
+    <string name="II_IHUS_miniscreen_12_title1">RESEARCH STAFF</string>
+    <string name="II_IHUS_miniscreen_12_button1">Imagen Anxo</string>
+    <string name="II_IHUS_miniscreen_12_paragraph1">Anxo Abuín González</string>
+    <string name="II_IHUS_miniscreen_12_button2">Imagen Fernando</string>
+    <string name="II_IHUS_miniscreen_12_paragraph2">Fernando Cabo Asegurinolaza</string>
+    <string name="II_IHUS_miniscreen_12_button3">Imagen Etienne</string>
+    <string name="II_IHUS_miniscreen_12_paragraph3">Etienne Helmer</string>
+    <string name="II_IHUS_miniscreen_12_button4">Imagen Mari Conchi</string>
+    <string name="II_IHUS_miniscreen_12_paragraph4">María de la Concepción Martínez Vidal</string>
+    <string name="II_IHUS_miniscreen_12_button5">Imagen Xose</string>
+    <string name="II_IHUS_miniscreen_12_paragraph5">Xosé Manoel Núñez Seixas</string>
+    <string name="II_IHUS_miniscreen_12_button6">Imagen Valeria</string>
+    <string name="II_IHUS_miniscreen_12_paragraph6">Valerià Paül Carril</string>
+    <string name="II_IHUS_miniscreen_12_button7">Imagen Rocio</string>
+    <string name="II_IHUS_miniscreen_12_paragraph7">Rocío Sánchez Ameijeiras</string>
+    <string name="II_IHUS_miniscreen_12_button8">Imagen Jesus</string>
+    <string name="II_IHUS_miniscreen_12_paragraph8">Jesús Ángel Sánchez García</string>
+    <string name="II_IHUS_miniscreen_12_button9">Imagen Monica</string>
+    <string name="II_IHUS_miniscreen_12_paragraph9">Mónica Rial Molanes</string>
+    <string name="II_IHUS_miniscreen_12_button10">Imagen Alejandra</string>
+    <string name="II_IHUS_miniscreen_12_paragraph10">Alejandra Ulla Lorenzo</string>
+    <string name="II_IHUS_miniscreen_13_title0">LAURA MARÍA LOJO RODRÍGUEZ</string>
+    <string name="II_IHUS_miniscreen_13_paragraph0">Directora</string>
+    <string name="II_IHUS_miniscreen_13_paragraph1">falta texto</string>
+    <string name="II_IHUS_miniscreen_13_button0">boton atras</string>
+    <string name="II_IHUS_miniscreen_13_button1">MORE INFO: https://investigacion.usc.gal/investigadores/59423/detalle?lang=es</string>
+    <string name="II_IHUS_miniscreen_14_paragraph0">If you are interested in expanding your knowledge about iHUS you can access more information through the following link:</string>
+    <string name="II_IHUS_miniscreen_14_button0">https://www.usc.gal/es/node/49934</string>
+    <string name="II_IHUS_miniscreen_15_title0">ANXO ABUÍN GONZÁLEZ</string>
+    <string name="II_IHUS_miniscreen_15_paragraph0">Falta texto</string>
+    <string name="II_IHUS_miniscreen_15_button0">boton atras</string>
+    <string name="II_IHUS_miniscreen_15_button1">MORE INFO: https://investigacion.usc.gal/investigadores/58151/detalle</string>
+    <string name="II_IHUS_miniscreen_16_title0">FERNANDO CABO ASEGURINOLAZA</string>
+    <string name="II_IHUS_miniscreen_16_paragraph0">Fernando Cabo Assinolaza is Professor of Theory of Literature and Comparative Literature at the University and co-director of the Institutional Chair Rosalía de Castro (USC). He is currently developing a line of research on literary geography and public memory, with a particular emphasis on the work and figure of Rosalía Castro. Throughout his career, he worked in lyric theory, literary history theory, and literature and literatura.
+    He earned a doctorate with a thesis, published in 1992 with the title “El concepto de género y la picaresca”. He has made critical editions of the Spanish Golden Century works such as El guitón Onofre (1988) , El Buscón (Crítica 1993, RAE, 2011) and, with Santiago Fernández Mosquera, Educción contra los judíos (Crítica, 1996). He is the author of monographs such as Infancia y modernidad literaria (Biblioteca Nueva, 2001) , Manual de teoría de la literatura (Castalia, 2006) , together with María do Cebreiro Rábade Villar, and El placo de la literatura española (Critica, 2012). He directed the editorial team of the first volume of A Comparative History of Literature in the Iberian Peninsula (John Benjamins, 2010) , as well as, more recently, literary Textualities (inter). New theoretical and critical perspectives (Ibero-American Vervuert, 2020) and Space, Affect, Memory: Literary geography in transnational and transdisciplinary comparison (UCL Press, 2025). He was one of the members of Team Glifo, responsible for the Dictionary of Literary Terms (DITERLI, Centro Ramón Piñeiro). He has also published chapters in publishers such as Rodopi, Peter Lang, Arco or Iberoamericana, as well as articles in magazines such as Bulletin Hispanique, Bulletin of Hispanic Studies, Revista de Estudios Hispanicos, Hispanic Review, Comparative Literature, Journal of World Literature, Neohelicon, Literature Magazine or Studi Ispanici.
+    Currently, he participates in a research project entitled "The inscription of cultural memory in the public space: strategies of institutional consumption of the literary past (1837-1978 )", whose IP is María do Cebreiro Rábade.
+    </string>
+    <string name="II_IHUS_miniscreen_16_button0">boton atras</string>
+    <string name="II_IHUS_miniscreen_16_button1">MORE INFO: https://investigacion.usc.gal/investigadores/58485/detalle </string>
+    <string name="II_IHUS_miniscreen_17_title0">ETIENNE HELMER</string>
+    <string name="II_IHUS_miniscreen_17_button0">boton atras</string>
+    <string name="II_IHUS_miniscreen_17_button1">MORE INFO: https://investigacion.usc.gal/investigadores/1380226/detalle </string>
+    <string name="II_IHUS_miniscreen_18_title0">MARÍA DE LA CONCEPCIÓN MARTÍNEZ VIDAL</string>
+    <string name="II_IHUS_miniscreen_18_paragraph0">Concha Martínez Vidal has been Senior Lecturer at the University of Santiago de Compostela since 1993, after doctoral studies at the University of Valencia and research stays in Stockholm. She later expanded her training in the United Kingdom, taught logic and analytical philosophy, and published important works in prestigious academic journals and publishing houses.
+    Among her most notable publications are the entry Abstract Objects at Stanford Encyclopedia of Philosophy, articles in Synthesis, Acta Philosophia or Theoria, as well as two books with the- edited in Springer: Abstract Objects. For and Against and Deflationist Conceptions of Abstract Objects.
+    She has participated in numerous research projects, and since 2014 she has coordinated the EPISTEME group (USC) , as well as the state network “Philosophy of Science” (2023–2025). She chaired the Society of Logic and Philosophy of Science in Spain (2012–2018) and collaborated with the Division of Logic, Methodology and Philosophy of Science and Technology (2021–2022). She was also director of the Department of Logic and Moral Philosophy of the USC, and member of scientific committees in a congress organized by national and international academic societies. He has participated in evaluation commissions such as ANEP, ANECA and EURIAS Fellowships. She directed doctoral theses, tutored scholarships of excellence and organized scientific meetings of reference. Her research is notable for philosophical rigor and deep interest in the foundations of logic and the philosophy of mathematics.</string>
+    <string name="II_IHUS_miniscreen_18_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_18_button1">MORE INFO: https://investigacion.usc.gal/investigadores/59605/detalle </string>
+    <string name="II_IHUS_miniscreen_19_title0">XOSÉ MANOEL NÚÑEZ SEIXAS</string>
+    <string name="II_IHUS_miniscreen_19_paragraph0">Falta texto</string>
+    <string name="II_IHUS_miniscreen_19_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_19_button1">MORE INFO: https://investigacion.usc.gal/investigadores/59781/detalle </string>
+    <string name="II_IHUS_miniscreen_20_title0">VALERIÀ PAÜL CARRIL</string>
+    <string name="II_IHUS_miniscreen_20_paragraph0">Since 2022, Valerià Paül is Senior Lecturer at the Department of Geography of the University of Santiago de Compostela, currently accredited by ANECA and by AQU for Professor. Previously, she was Assistant Professor at the University of Western Australia (2014-2015) and won two postdoctoral contracts in competitive competition (2008-2013). She has a degree in Geography (2001) and a PhD in Territorial Planning and Regional Development (2006) from the University of Barcelona, both with an Extraordinary Prize.
+    Its main lines of academic research focus on territorial management and management, in particular the spaces designated as protected natural in mountain contexts and rural areas of low densities, focusing on the relationships between the environment (natural) and people within the framework of a critical approach to endogenous (sustainable) territorial development. And by means of a scenic perspective that puts the emphasis on the perceptual, representative and sensitive questions present in these relations. The last few years have specialized in the study of border areas, both in Europe and in Latin America, in key of cross-border cooperation and persistence of barreiras les/barriers, for example in the management of shared protected spaces: Reserves of the Transboundary Biosphere Gerês/Xurés and Forests of Peace, Mountains of. inca, Ancares Leoneses and Galician Ancares, East Pyrenees nor- and South-Catalan, etc.</string>
+    <string name="II_IHUS_miniscreen_20_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_20_button1">MORE INFO:  https://investigacion.usc.gal/investigadores/59850/detalle</string>
+    <string name="II_IHUS_miniscreen_21_title0">ROCÍO SANCHEZ AMEIJEIRAS</string>
+    <string name="II_IHUS_miniscreen_21_paragraph0">No hay Texto</string>
+    <string name="II_IHUS_miniscreen_21_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_21_button1">MORE INFO: https://investigacion.usc.gal/investigadores/60297/detalle </string>
+    <string name="II_IHUS_miniscreen_22_title0">JESÚS ÁNGEL SÁNCHEZ GARCÍA</string>
+    <string name="II_IHUS_miniscreen_22_paragraph0">Jesús Ángel Sánchez García (A Coruña, 1967) is a researcher of the architecture and heritage of Galicia who has made his studies at the University of Santiago de Compostela, in which he is currently Professor in the Department of Art History. Investigating the dynamics behind the origin and characteristics of the historic buildings of Galicia has the main sense of making known and interpreting in depth the values of outstanding elements of our cultural heritage. And also the intention to offer citizens the means to better understand the places and environments in which they live, especially in the case of towns and cities.
+    Although they come from the history of art, for ten years they have been implementing in their research new digital tools, for example the refunds with hyper-realistic 3D models of the main architectures destroyed in Galicia. Buildings such as the Palace of the Counts of Pontedeume, the Gran Hotel da Toxa or the Castromil of Santiago, return to virtual life in collaboration with the rest of researchers of the IDEAHS group and the graphic designers of the CIAG, as a means to explore new methodologies of work and diffusion of these witnesses of our historical memory. With the idea of transferring to society the critical perspective that always demands the terrain of the cultural heritage, the challenges of the conservation of historical buildings in the face of the dynamics of abandonment and speculation, or in the face of the risk of the massive tourism, are other fields that connect with the most recent research and reports.</string>
+    <string name="II_IHUS_miniscreen_22_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_22_button1">MORE INFO: https://investigacion.usc.gal/investigadores/60305/detalle </string>
+    <string name="II_IHUS_miniscreen_23_title0">MÓNICA RIAL MOLANES</string>
+    <string name="II_IHUS_miniscreen_23_paragraph0">Falta Texto</string>
+    <string name="II_IHUS_miniscreen_23_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_23_button1">MORE INFO: https://investigacion.usc.es/investigadores/1009145/detalle</string>
+    <string name="II_IHUS_miniscreen_24_title0">ALEJANDRA ULLA LORENZO</string>
+    <string name="II_IHUS_miniscreen_24_paragraph0">Alejandra Ulla Lorenzo is Senior Lecturer of Spanish Literature and vice-dean at the Faculty of Philology of the University of Santiago de Compostela, in which she teaches and directs academic works. He is a member of the Institute of Humanities and the Calderón Research Group (GI-1377) of the same institution.
+    She completed research studies at the City University of New York and at the Università degli Studi di Firenze. She was a postdoctoral researcher at University College Dublin, where she managed the European project Iberian Books, r	elated to the study of the European bibliographic heritage of the Modern Age.
+    She currently conducts a research team made up of twenty people and funded by the Ministry of Science that explores unknown bibliographic collections of old theatre printed books (https://istae.uv.es/).
+    Through technologies, she studies hidden data from these editions: processes of autorial falsification, notes relating to the libraries of which they have been a part, trips made between wars or conservation interventions to which they have been subjected.</string>
+    <string name="II_IHUS_miniscreen_24_button0">Boton Atras</string>
+    <string name="II_IHUS_miniscreen_24_button1">MORE INFO: https://investigacion.usc.gal/investigadores/152309/detalle </string>
+</resources>

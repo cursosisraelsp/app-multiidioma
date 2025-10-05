@@ -1,29 +1,36 @@
 package com.example.multiidioma.navegacion
 
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
+import androidx.navigation.compose.composable
+import com.example.multiidioma.data.Destination
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
-import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavegacion
 import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
 import com.example.multiidioma.navegacion.institutos.imatusApp.ImatusAppNavegacion
+import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavegacion
+import com.example.multiidioma.navegacion.institutos.ipsiusApp.IpsiusAppNavegacion
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
+import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
+import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun NavHostApp(
     navController: NavHostController,
@@ -39,27 +46,48 @@ fun NavHostApp(
 
     ) {
 
+
         StartAppNavHost(navController)
 
-        HomeAppNavHost(languageViewModel, listState,navController = navController)
+        HomeAppNavHost(languageViewModel, listState,navController = navController,modifier)
         SettingsAppNavegacion(languageViewModel)
 
         MinervaAppNavegacion()
-        //MapaAppNavegacion()
         //## INSTITUTOS
-        IhusAppNavegacion()
+        IhusAppNavegacion(listState)
         IdegaAppNavegacion()
         IceAppNavegacion()
-        InciforAppNavegacion()
+        InciforAppNavegacion(listState,navController)
         ImatusAppNavegacion()
         IlgAppNavegacion()
+        IpsiusAppNavegacion(listState,navController)
         //## CENTROS
         CiqusAppNavegacion()
-        CimusAppNavegacion(listState)
+        //->CimusAppNavegacion(listState)
         CitiusAppNavegacion()
         CretusAppNavegacion()
         IgfaeAppNavegacion()
 
         detailNavGraph(navController,onClose = onOpenMap,listState)
+
+
+        ////
+
+        composable (Destination.InciforMiniscreen27.route) {
+
+            InciforMiniScreen27()
+        }
+
+        composable("detalles/{itemId}") { backStackEntry ->
+            // Aquí puedes acceder a los argumentos
+
+            val itemId = backStackEntry.arguments?.getString("itemId")
+
+            if (itemId != null) {
+                Plantilla(itemId = itemId)
+            } // Pasa el argumento al Composable
+
+        }
+
     }
 }

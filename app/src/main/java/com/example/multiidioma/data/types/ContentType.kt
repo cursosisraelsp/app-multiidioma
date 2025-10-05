@@ -1,6 +1,13 @@
 package com.example.multiidioma.data.types
 
 sealed class ContentType (){
+    //
+    object Minerva : ContentType()
+    object Mapa : ContentType()
+    object Multimedia : ContentType()
+    object Institutos : ContentType()
+    object CentrosSingulares : ContentType()
+    //##########
     object CentroSingularContent : ContentType()
     object MapContent : ContentType()
     object MultimediaContent : ContentType()
@@ -13,10 +20,14 @@ sealed class ContentType (){
     object INCIFOR : ContentType()
     object IMATUS : ContentType()
     object ILG : ContentType()
+    object IPSIUS : ContentType()
     /////////CENTROS///////
     object CIQUS : ContentType()
     object CIMUS : ContentType()
     object CITIUS : ContentType()
     object CRETUS : ContentType()
     object IGFAE : ContentType()
+    ///////MINISCREENS-INCIFOR/////
+    object MINISCREEN27: ContentType()
+    object MINISCREEN28: ContentType()
 }

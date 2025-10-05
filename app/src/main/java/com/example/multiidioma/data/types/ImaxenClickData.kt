@@ -10,8 +10,10 @@ data class ImaxenClickData(
     val id: String,
     @StringRes val title: Int,
     val funcionImaxen: (Size)->Path,
-    val xOffset: Float?,
-    val yOffset: Float?,
+    //val xOffset: Float?,
+    //val yOffset: Float?,
+    val xOffset: Dp,
+    val yOffset: Dp,
     //val tamanho: Dp,
     val tamanho: Float,
     val contentType: ContentType?,
@@ -31,7 +33,7 @@ data class ImaxenClickData(
 )
 */
 data class ListaImaxenClickData(
-    val lista: List<ImaxenClickData> = emptyList() // se non se coloca emptyList sae erro no ViewModel
+    val lista: List<NavegationFiguresHomeData> = emptyList() // se non se coloca emptyList sae erro no ViewModel
 )
 
 
