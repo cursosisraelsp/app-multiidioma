@@ -53,8 +53,9 @@
             android:name="com.unity3d.player.UnityPlayerGameActivity"
             android:exported="true"
             android:theme="@style/Theme.Multiidioma.Fullscreen"
-            android:launchMode="singleTask"
-            tools:replace="android:theme,android:exported"/>
+            android:launchMode="standard"
+            android:taskAffinity="com.example.multiidioma.unity"
+            tools:replace="android:theme,android:exported,android:launchMode"/>
 
 
     </application>

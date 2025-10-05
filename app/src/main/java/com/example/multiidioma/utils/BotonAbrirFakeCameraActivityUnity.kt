@@ -25,11 +25,12 @@ fun BotonAbrirFakeCameraActivityUnity() {
             modifier = Modifier.clickable {
                 //val intent = Intent(context, FakeCameraActivity::class.java)
                 val intent = Intent(context, LoaderUnityActivity::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 //val intent = Intent(context, UnityLauncherActivity::class.java)
                 // Si el context no es Activity, hace falta esta flag
-                if (context !is Activity) {
+                /*if (context !is Activity) {
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                }
+                }*/
                 context.startActivity(intent)
             }
         )

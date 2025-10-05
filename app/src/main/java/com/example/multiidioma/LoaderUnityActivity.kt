@@ -79,9 +79,10 @@ class LoaderUnityActivity : AppCompatActivity() {
             // Abrimos Unity
             val intent = Intent(this@LoaderUnityActivity, com.unity3d.player.UnityPlayerGameActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            //intent.addFlags(Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
             startActivity(intent)
 
-            finish()
+            //finish()
         }
     }
 
