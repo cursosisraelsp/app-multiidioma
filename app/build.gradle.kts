@@ -97,5 +97,18 @@ dependencies {
     // ExoPlayer (Google Media3)
     implementation("androidx.media3:media3-exoplayer:1.4.1")
     implementation("androidx.media3:media3-ui:1.4.1")
+
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+
+    // OkHttp (para el interceptor)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    // si usas coroutines
+    implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
+
+    //VIMEO PLAYER
+    //implementation("com.vimeo:vimeo-player-android:1.0.0")
 }
 

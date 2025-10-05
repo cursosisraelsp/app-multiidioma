@@ -46,7 +46,7 @@ class CONDICIONS {
     fun CondicionInstitutos(navController: NavHostController) : Boolean{
         val navBackStackEntry by navController.currentBackStackEntryAsState()
         val currentRoute = navBackStackEntry?.destination?.route
-
+        val constante = "?resetScroll={resetScroll}"
         return (
                 currentRoute == Destination.Ihus.route
                         || currentRoute == Destination.Idega.route

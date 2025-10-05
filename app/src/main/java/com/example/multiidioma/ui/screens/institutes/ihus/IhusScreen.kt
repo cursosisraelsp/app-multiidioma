@@ -14,6 +14,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.LaunchedEffect
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen3.IhusMiniScreen3
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.IhusMiniScreen4
@@ -27,7 +28,7 @@ import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen8.I
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen9.IhusMiniScreen9
 
 @Composable
-fun IhusScreen(listState: LazyListState) {
+fun IhusScreen(listState: LazyListState, resetScroll: Boolean = false,) {
     val viewModel: IhusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -43,6 +44,14 @@ fun IhusScreen(listState: LazyListState) {
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
+            LaunchedEffect(Unit) {
+                listState.scrollToItem(0)
+            }
+            /*if (resetScroll) {
+                LaunchedEffect(Unit) {
+                    listState.scrollToItem(0)
+                }
+            }*/
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()

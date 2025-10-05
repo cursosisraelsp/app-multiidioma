@@ -79,13 +79,13 @@ fun DetailScreen(
         listInstitus != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listInstitus.contentType) {
-                    is ContentType.IHUS -> IhusScreen(listState)
+                    is ContentType.IHUS -> IhusScreen(listState,false)
                     is ContentType.IDEGA -> IdegaScreen()
                     is ContentType.ICE -> IceScreen()
-                    is ContentType.INCIFOR -> InciforScreen(listState, navController, modifier)
+                    is ContentType.INCIFOR -> InciforScreen(listState, navController,false, modifier)
                     is ContentType.IMATUS -> ImatusScreen()
                     is ContentType.ILG -> IlgScreen()
-                    is ContentType.IPSIUS -> IpsiusScreen(listState, navController)
+                    is ContentType.IPSIUS -> IpsiusScreen(listState, navController,false)
                     else -> Text("screen non atopado")
                 }
             }

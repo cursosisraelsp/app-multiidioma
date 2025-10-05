@@ -23,11 +23,27 @@ import com.example.multiidioma.ui.components.LottieAutoPlay
 import com.example.multiidioma.ui.components.LottieScrollComponent
 //import com.example.multiidioma.ui.components.ParallaxEffect
 import com.example.multiidioma.ui.components.ParallaxHeader
+import com.example.multiidioma.ui.components.VimeoExoPlayerComponent
+import com.example.multiidioma.ui.components.VimeoPlayerWebViewComponet
 import com.example.multiidioma.ui.components.YouTubePlayerCompose
 
 import com.example.multiidioma.viewmodel.LanguageViewModel
+import com.example.multiidioma.viewmodel.VimeoViewModel
+
+// VIMEO
+import android.annotation.SuppressLint
+import android.webkit.WebChromeClient
+import android.webkit.WebSettings
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.material3.MaterialTheme
 
 class MainActivity : ComponentActivity() {
+    private val viewModel = VimeoViewModel()
     //@RequiresApi(Build.VERSION_CODES.P)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +62,11 @@ class MainActivity : ComponentActivity() {
 
             //LottieAutoPlay(R.raw.figuritas)
 
+            //VimeoExoPlayerComponent(videoUrl = "1124127714")
+            //VimeoPlayerWebViewComponet(videoId = "1124127714")
+            //viewModel.fetchVideo("1124127714")
+
+
         }
     }
 }
-

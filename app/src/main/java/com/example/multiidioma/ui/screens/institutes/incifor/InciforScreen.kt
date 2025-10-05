@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -53,6 +54,7 @@ import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.
 fun InciforScreen(
     listState: LazyListState,
     navController: NavController,
+    resetScroll: Boolean = false, // indica si queremos resetear,
     modifier: Modifier
 ) {
     val viewModel: InciforViewModel = viewModel()
@@ -70,6 +72,14 @@ fun InciforScreen(
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
+            LaunchedEffect(Unit) {
+                listState.scrollToItem(0)
+            }
+            /*if (resetScroll) {
+                LaunchedEffect(Unit) {
+                    listState.scrollToItem(0)
+                }
+            }*/
             LazyColumn(
                 state = listState,
                 modifier = modifier

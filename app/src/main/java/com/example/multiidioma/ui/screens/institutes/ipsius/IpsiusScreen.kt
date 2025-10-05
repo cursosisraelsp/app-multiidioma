@@ -7,6 +7,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -55,7 +56,11 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScre
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen9a.IpsiusMiniScreen9
 
 @Composable
-fun IpsiusScreen(listState: LazyListState,navController: NavController) {
+fun IpsiusScreen(
+    listState: LazyListState,
+    navController: NavController,
+    resetScroll: Boolean = false, // indica si queremos resetear,
+     ) {
     val viewModel: IpsiusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -71,6 +76,14 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
 
         is MiniScreenState.Success -> {
             val screens = (uiState as MiniScreenState.Success).screens
+            LaunchedEffect(Unit) {
+                listState.scrollToItem(0)
+            }
+            /*if (resetScroll) {
+                LaunchedEffect(Unit) {
+                    listState.scrollToItem(0)
+                }
+            }*/
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()

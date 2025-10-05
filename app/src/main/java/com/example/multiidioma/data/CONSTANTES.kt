@@ -101,7 +101,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Ihus.route)
+                            navController.navigate("${Destination.Ihus.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -111,7 +111,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Idega.route)
+                            navController.navigate("${Destination.Idega.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -121,7 +121,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Ice.route)
+                            navController.navigate("${Destination.Ice.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -131,7 +131,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Incifor.route)
+                            navController.navigate("${Destination.Incifor.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -142,7 +142,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Imatus.route)
+                            navController.navigate("${Destination.Imatus.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -152,7 +152,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Ilg.route)
+                            navController.navigate("${Destination.Ilg.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
@@ -162,7 +162,7 @@ class listaTitulos{
                     modifier = Modifier
                         .padding(16.dp)
                         .clickable {
-                            navController.navigate(Destination.Ipsius.route)
+                            navController.navigate("${Destination.Ipsius.route}?resetScroll=true")
                             scope.launch { drawerState.close() }
 
                         }
