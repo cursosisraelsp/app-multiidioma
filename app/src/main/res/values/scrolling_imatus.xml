@@ -38,7 +38,9 @@
     <!--PANTALLA 5-->
     <string name="II_IMATUS_miniscreen_4_paragraph_0">Research at iMATUS is organized into three major areas:</string>
     <string name="II_IMATUS_miniscreen_4_texto_buscado_0">three major areas</string>
-
+    <string name="II_IMATUS_miniscreen_4_paragraph_1">Materials for health</string>
+    <string name="II_IMATUS_miniscreen_4_paragraph_2">Materials for industry and emerging technologies</string>
+    <string name="II_IMATUS_miniscreen_4_paragraph_3">Materials for energy and the environment</string>
     <!--PANTALLA 6-->
     <string name="II_IMATUS_miniscreen_5_title_0">MATERIALS FOR HEALTH</string>
     <string name="II_IMATUS_miniscreen_5_paragraph_0">The rise in diseases associated with changes in the lifestyle of modern society has highlighted the need to develop new tools for detection and treatment. Among the main challenges are early diagnosis in asymptomatic phases and personalization of treatments, with the aim of minimizing unwanted side effects in patients. To address these challenges, it is key to promote technologies that allow early diagnosis and better treatment. Some of the progress made is as follows.</string>
