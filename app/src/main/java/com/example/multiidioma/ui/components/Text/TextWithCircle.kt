@@ -1,0 +1,57 @@
+package com.example.multiidioma.ui.components.Text
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.Shapes.CircleComponent
+import com.example.multiidioma.ui.components.Text.TextBodyMedium
+
+@Composable
+fun TextWithCircle(
+    data: MiniScreenData,
+    index: Int? = null
+) {
+    val estiloTexto = StyleText(
+        style = TextStyle(),
+        textAlign = TextAlign.Left,
+    )
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(start = 10.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.1f)
+                .background(Color.Green)
+        ) {
+            CircleComponent(
+                width = 15.dp,
+                height = 15.dp,
+                widthBox = 1f,
+                color = Color.White,
+            )
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(Color.Blue)
+        ) {
+
+            TextBodyMedium(data, style = estiloTexto, index = index)
+        }
+
+    }
+}
