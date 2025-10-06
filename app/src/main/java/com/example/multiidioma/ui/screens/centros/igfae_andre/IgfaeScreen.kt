@@ -122,6 +122,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
 
                         6 -> IgfaeMiniScreen6(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

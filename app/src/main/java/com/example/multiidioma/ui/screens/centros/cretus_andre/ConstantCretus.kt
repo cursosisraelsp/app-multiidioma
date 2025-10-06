@@ -22,106 +22,106 @@ val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
 
-val valorFigura0 = NavegationFiguresData(
+val valorFiguraCretus0 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 20.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.CretusMiniscreen9.route,
     numString = "01",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_9_paragraph_2,
+    textoInfo = R.string.CS_CRETUS_miniscreen_9_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura1 = NavegationFiguresData(
+val valorFiguraCretus1 = NavegationFiguresData(
     offset_x = 260.dp,
     offset_y = 70.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.CretusMiniscreen10.route,
     numString = "02",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_10_paragraph_2,
+    textoInfo = R.string.CS_CRETUS_miniscreen_10_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura2 = NavegationFiguresData(
+val valorFiguraCretus2 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 460.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.CretusMiniscreen11.route,
     numString = "03",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_11_paragraph_2,
+    textoInfo = R.string.CS_CRETUS_miniscreen_11_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura3 = NavegationFiguresData(
+val valorFiguraCretus3 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.CretusMiniscreen12.route,
     numString = "04",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_12_paragraph_3,
+    textoInfo = R.string.CS_CRETUS_miniscreen_12_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura4 = NavegationFiguresData(
+val valorFiguraCretus4 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.CretusMiniscreen13.route,
     numString = "05",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_13_paragraph_3,
+    textoInfo = R.string.CS_CRETUS_miniscreen_13_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura5 = NavegationFiguresData(
+val valorFiguraCretus5 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.CretusMiniscreen14.route,
     numString = "06",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_14_paragraph_3,
+    textoInfo = R.string.CS_CRETUS_miniscreen_14_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura6 = NavegationFiguresData(
+val valorFiguraCretus6 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.CretusMiniscreen15.route,
     numString = "07",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_15_paragraph_3,
+    textoInfo = R.string.CS_CRETUS_miniscreen_15_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura7 = NavegationFiguresData(
+val valorFiguraCretus7 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.CretusMiniscreen16.route,
     numString = "08",
     relacionNum = numNumero,
-    textoInfo = R.string.II_CRETUS_miniscreen_16_paragraph_3,
+    textoInfo = R.string.CS_CRETUS_miniscreen_16_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
@@ -141,7 +141,7 @@ val mtmCretus = PersonResearcher(
             R.string.info_investigador_test_2,
             R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN23
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val sfCretus = PersonResearcher(
@@ -152,7 +152,7 @@ val sfCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN24
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val abfCretus = PersonResearcher(
@@ -163,7 +163,7 @@ val abfCretus = PersonResearcher(
              R.string.info_investigador_test_2,
              R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN25
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val gfcCretus = PersonResearcher(
@@ -174,7 +174,7 @@ val gfcCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN26
+    contentType = ContentType.PersonalTemplateScreen
 )
 val cgrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -184,7 +184,7 @@ val cgrCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN27
+    contentType = ContentType.PersonalTemplateScreen
 )
 val jmlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -194,7 +194,7 @@ val jmlrCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN28
+    contentType = ContentType.PersonalTemplateScreen
 )
 val mlvCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -204,7 +204,7 @@ val mlvCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN29
+    contentType = ContentType.PersonalTemplateScreen
 )
 val olcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -214,7 +214,7 @@ val olcCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN30
+    contentType = ContentType.PersonalTemplateScreen
 )
 val jlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -224,7 +224,7 @@ val jlrCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN31
+    contentType = ContentType.PersonalTemplateScreen
 )
 val amcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -234,7 +234,7 @@ val amcCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN32
+    contentType = ContentType.PersonalTemplateScreen
 )
 val xlopCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -244,7 +244,7 @@ val xlopCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN33
+    contentType = ContentType.PersonalTemplateScreen
 )
 val vpmCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -254,7 +254,7 @@ val vpmCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN34
+    contentType = ContentType.PersonalTemplateScreen
 )
 val svlCretus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -264,7 +264,7 @@ val svlCretus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN35
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val datosInvestigadores = listOf(mtmCretus, sfCretus, abfCretus, gfcCretus, cgrCretus, jmlrCretus, mlvCretus,olcCretus,jlrCretus,amcCretus,xlopCretus,vpmCretus,svlCretus )

@@ -5,6 +5,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.screens.detail.DetailScreen
 
 fun NavGraphBuilder.detailNavGraph(listState: LazyListState,navController: NavHostController,onClose : ()-> Unit){
@@ -14,6 +15,6 @@ fun NavGraphBuilder.detailNavGraph(listState: LazyListState,navController: NavHo
             navArgument("screenId") { type = NavType.StringType }
         )*/
         ) {
-        DetailScreen(navController, listState = listState ,onClose = onClose)
+        DetailScreen( listState = listState, navController= navController, onClose=onClose )
     }
 }

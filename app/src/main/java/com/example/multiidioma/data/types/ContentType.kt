@@ -21,9 +21,9 @@ sealed class ContentType (){
     object CITIUS : ContentType()
     object CRETUS : ContentType()
     object IGFAE : ContentType()
-
+    object PersonalTemplateScreen : ContentType()
     ///////MINISCREENS-IPSIUS/////
-
+/*
     object MINISCREEN20: ContentType()
     object MINISCREEN21: ContentType()
     object MINISCREEN22: ContentType()
@@ -71,5 +71,6 @@ sealed class ContentType (){
     object MINISCREEN26: ContentType()
     object MINISCREEN27: ContentType()
     object MINISCREEN28: ContentType()
+    */
 
 }

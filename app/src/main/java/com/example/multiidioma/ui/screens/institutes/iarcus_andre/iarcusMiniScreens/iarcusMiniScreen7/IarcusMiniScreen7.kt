@@ -9,10 +9,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box3
+import com.example.multiidioma.ui.components.NavigationFiguresComponent
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus0
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus1
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus3
 
 
 @Composable
@@ -26,13 +27,10 @@ fun IarcusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        TemplateCircleScreen(
-            data = data,
-            navController = navController,
-            CircleImage = { contentIarcusMiniScreen7Box1(it) },
-            TitleText = { contentIarcusMiniScreen7Box2(it) },
-            BodyText = { contentIarcusMiniScreen7Box3(it) }
-        )
+        NavigationFiguresComponent(valorFiguraIarcus0, navController)
+        NavigationFiguresComponent(valorFiguraIarcus1, navController)
+        NavigationFiguresComponent(valorFiguraIarcus2, navController)
+        NavigationFiguresComponent(valorFiguraIarcus3, navController)
     }
 }
 

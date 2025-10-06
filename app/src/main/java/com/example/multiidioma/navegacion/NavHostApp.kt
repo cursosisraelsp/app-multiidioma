@@ -9,6 +9,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import com.example.multiidioma.data.repository.CretusRepository
+import com.example.multiidioma.data.repository.IarcusRepository
+import com.example.multiidioma.data.repository.IgfaeRepository
 import com.example.multiidioma.data.repository.IpsiusRepository
 import com.example.multiidioma.navegacion.centros.cretusApp.CretusAppNavegacion
 import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
@@ -33,23 +36,26 @@ import com.example.multiidioma.viewmodel.LanguageViewModel
 @Composable
 fun NavHostApp(
     navController: NavHostController,
-
-    modifier: Modifier,
+            modifier : Modifier,
     languageViewModel: LanguageViewModel,
     listState: LazyListState,
-    onOpenMap: () -> Unit){
-val Ipsiusrepository =remember { IpsiusRepository()}
+    onOpenMap: () -> Unit,
+) {
+    val Ipsiusrepository = remember { IpsiusRepository() }
+    val Cretusrepository = remember { CretusRepository() }
+    val Iarcusrepository = remember { IarcusRepository() }
+    val Igfaerepository = remember { IgfaeRepository() }
     NavHost(
         navController = navController,
         startDestination = "splash",
         modifier = modifier,
 
-    ) {
+        ) {
 
 
         StartAppNavHost(navController)
 
-        HomeAppNavHost(languageViewModel, listState,navController = navController)
+        HomeAppNavHost(languageViewModel, listState, navController = navController)
         SettingsAppNavegacion(languageViewModel)
 
         MinervaAppNavegacion()
@@ -60,15 +66,15 @@ val Ipsiusrepository =remember { IpsiusRepository()}
         InciforAppNavegacion()
         ImatusAppNavegacion()
         IlgAppNavegacion()
-        IpsiusAppNavegacion(listState,navController,Ipsiusrepository)
-        IarcusAppNavegacion(listState,navController)
+        IpsiusAppNavegacion(listState, navController, Ipsiusrepository)
+        IarcusAppNavegacion(listState, navController, Iarcusrepository)
         //## CENTROS
         CiqusAppNavegacion()
         //->CimusAppNavegacion(listState)
         CitiusAppNavegacion()
-        CretusAppNavegacion(listState,navController)
-        IgfaeAppNavegacion(listState,navController)
-        detailNavGraph(listState,navController,onClose = onOpenMap )
+        CretusAppNavegacion(listState, navController, Cretusrepository)
+        IgfaeAppNavegacion(listState, navController, Igfaerepository)
+        detailNavGraph(listState, navController, onClose = onOpenMap)
 
 
     }

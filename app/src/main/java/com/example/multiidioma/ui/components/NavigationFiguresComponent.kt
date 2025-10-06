@@ -16,7 +16,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.corLetras
-
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.ui.theme.AppTypography
 import com.example.multiidioma.utils.SvgImageComponent

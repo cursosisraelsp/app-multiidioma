@@ -45,38 +45,46 @@
     <string name="CS_CRETUS_miniscreen_9_title_0">REMEDIATION AND SUSTAINABLE USES OF SOIL</string>
     <string name="CS_CRETUS_miniscreen_9_paragraph_0">Soil is essential for food production, nutrient recycling and biodiversity conservation, as well as playing a key role in climate regulation by acting as a carbon sink and reducing CO2 emissions. CRETUS studies the quality and condition of soils and how to remediate degraded or contaminated soils using laboratory-designed soils (technosols), biomaterials or plants (phytoremediation). In addition, the reuse of bio-waste as soil amendments is promoted.</string>
     <string name="CS_CRETUS_miniscreen_9_texto_buscado_0">quality and condition of soils</string>
+    <string name="CS_CRETUS_miniscreen_9_paragraph_1">Remediation and sustainable uses of soil</string>
     <!-- PANTALLA 10 -->
     <string name="CS_CRETUS_miniscreen_10_title_0">WATER TREATMENT AND RECLAMATION</string>
     <string name="CS_CRETUS_miniscreen_10_paragraph_0">Water scarcity is a global concern, but it is even more worrying that the water available is of poor quality. CRETUS seeks alternative technologies to treat wastewater, recover useful compounds and minimise the environmental impact of treatment systems.</string>
     <string name="CS_CRETUS_miniscreen_10_texto_buscado_0">wastewater, recover useful compounds and minimise the environmental impact of treatment systems</string>
+    <string name="CS_CRETUS_miniscreen_10_paragraph_1">Water treatment and reclamation</string>
     <!-- PANTALLA 11 -->
     <string name="CS_CRETUS_miniscreen_11_title_0">WASTE RECOVERY</string>
     <string name="CS_CRETUS_miniscreen_11_paragraph_0">From a circular economy perspective, the aim is to take advantage of products that were traditionally considered waste to create new valuable resources. For example, research is being carried out into the production of bioplastics from vegetable oils, biofuels from agro-industrial and forestry waste, or obtaining products of interest to industry from fishing and food waste.</string>
     <string name="CS_CRETUS_miniscreen_11_texto_buscado_0">waste to create new valuable resources</string>
+    <string name="CS_CRETUS_miniscreen_11_paragraph_1">Waste recovery</string>
     <!-- PANTALLA 12 -->
     <string name="CS_CRETUS_miniscreen_12_title_0">BIODIVERSITY, BIOMONITORING AND BIOARCHAEOLOGY</string>
     <string name="CS_CRETUS_miniscreen_12_paragraph_0">The study of living organisms provides key information to develop new technologies and better understand what is happening on our planet. In this context, organisms can be used to detect and measure pollution in different areas (biomonitoring) and to create detailed maps reflecting how that pollution is distributed (biomodelling). In addition, changes in biodiversity indicate the impact of human activity and archaeological remains can be used to study the effects of climate change by adding a temporal perspective (bioarchaeology).</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_0">biomonitoring</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_1">biomodelling</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_2">bioarchaeology</string>
+    <string name="CS_CRETUS_miniscreen_12_paragraph_1">Biodiversity biomonitoring bioarchaeology</string>
     <!-- PANTALLA 13 -->
     <string name="CS_CRETUS_miniscreen_13_title_0">DATA INTEGRATION AND MODELLING</string>
     <string name="CS_CRETUS_miniscreen_13_paragraph_0">Collecting and analysing environmental data, such as meteorological, biological or chemical information, and building models that simulate natural processes is key to predicting the dispersion of pollutants, the spread of fires or the risk of flooding.</string>
     <string name="CS_CRETUS_miniscreen_13_texto_buscado_0">to predicting the dispersion of pollutants, the spread of fires or the risk of flooding</string>
+    <string name="CS_CRETUS_miniscreen_13_paragraph_1">Data integration and modeling</string>
     <!-- PANTALLA 14 -->
     <string name="CS_CRETUS_miniscreen_14_title_0">PHYSICO-CHEMICAL MONITORING</string>
     <string name="CS_CRETUS_miniscreen_14_paragraph_0">Analysing water, soil and air to know their state is essential to detect pollution and its evolution or to know if a decontamination treatment has been effective. It is essential to develop environmentally friendly analytical methods that are effective using low amounts of reagents, energy and time. CRETUS has laboratories specialised in the measurement of pollutants in the different environmental compartments. One example, with great repercussion in Galicia, is the detection of radon in air (accredited by ENAC).</string>
     <string name="CS_CRETUS_miniscreen_14_texto_buscado_0">is essential to detect pollution and its evolution</string>
     <string name="CS_CRETUS_miniscreen_14_texto_buscado_1">detection of radon in air (accredited by ENAC)</string>
+    <string name="CS_CRETUS_miniscreen_14_paragraph_1">Physico-chemical monitoring</string>
     <!-- PANTALLA 15 -->
     <string name="CS_CRETUS_miniscreen_15_title_0">SUSTAINABLE PROCESSES</string>
     <string name="CS_CRETUS_miniscreen_15_paragraph_0">From this area, CRETUS works on the design of sustainable processes such as the production of enzymes, which are proteins involved in chemical reactions, the use of less toxic and environmentally friendly alternative solvents, or oil recovery techniques.</string>
     <string name="CS_CRETUS_miniscreen_15_texto_buscado_0">design of sustainable processes such as the production of enzymes</string>
+    <string name="CS_CRETUS_miniscreen_15_paragraph_1">Sustainable processes</string>
     <!-- PANTALLA 16 -->
     <string name="CS_CRETUS_miniscreen_16_title_0">SOCIAL-ECONOMIC AND ENVIRONMENTAL IMPACT</string>
     <string name="CS_CRETUS_miniscreen_16_paragraph_0">CRETUS not only develops environmental technologies, but also ensures that they are accepted and adapted by society within a clear and effective regulatory framework. To this end, it analyses the environmental impact of technologies from the procurement of raw materials to their implementation (life cycle analysis) and tries to create efficient and environmentally friendly designs (eco-design, eco-efficiency). All this without forgetting the evaluation of social perception and the design of strategic implementation plans.</string>
     <string name="CS_CRETUS_miniscreen_16_texto_buscado_0">analyses the environmental impact of technologies</string>
     <string name="CS_CRETUS_miniscreen_16_texto_buscado_1">tries to create efficient and environmentally friendly designs</string>
+    <string name="CS_CRETUS_miniscreen_16_paragraph_1">Socio-economic and environmental impact</string>
     <!-- PANTALLA 17 -->
     <string name="CS_CRETUS_miniscreen_17_paragraph_0">CRETUS works actively to attract and retain talent, promoting equal opportunities and a multidisciplinary working culture. To this end, it offers grants for students and PhD students to start research and stays abroad, and organises symposia, seminars and courses that foster the continuous training and professional development of its researchers. In this way, the centre ensures an environment of scientific and human excellence that sustains its long-term impact.</string>
     <string name="CS_CRETUS_miniscreen_17_texto_buscado_0">promoting equal opportunities and a multidisciplinary working culture</string>

@@ -33,44 +33,43 @@ fun NavGraphBuilder.IpsiusAppNavegacion(
     // Ruta de miniscreens
     composable(Destination.IpsiusMiniscreen7.route) {
         IpsiusMiniScreen7(
-            data = repository.getData(14),
+            data = repository.getData(7),
             navController = navController
         )
     }
     composable(Destination.IpsiusMiniscreen8.route) {
         IpsiusMiniScreen8(
-            data = repository.getData(15),
+            data = repository.getData(8),
             navController = navController
         )
     }
     composable(Destination.IpsiusMiniscreen9.route) {
         IpsiusMiniScreen9(
-            data = repository.getData(16),
+            data = repository.getData(9),
             navController = navController
         )
     }
     composable(Destination.IpsiusMiniscreen10.route) {
         IpsiusMiniScreen10(
-            data = repository.getData(17),
+            data = repository.getData(10),
             navController = navController
         )
     }
     composable(Destination.IpsiusMiniscreen11.route) {
         IpsiusMiniScreen11(
-            data = repository.getData(18),
+            data = repository.getData(11),
             navController = navController
         )
     }
-
     composable(Destination.IpsiusMiniscreen12.route) {
         IpsiusMiniScreen12(
-            data = repository.getData(27),
+            data = repository.getData(12),
             navController = navController
         )
     }
     composable(Destination.IpsiusMiniscreen13.route) {
         IpsiusMiniScreen13(
-            data = repository.getData(18),
+            data = repository.getData(13),
             navController = navController
         )
     }

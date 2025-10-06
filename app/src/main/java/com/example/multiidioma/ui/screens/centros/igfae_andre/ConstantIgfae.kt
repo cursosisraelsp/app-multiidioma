@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens
+package com.example.multiidioma.ui.screens.centros.igfae_andre
 
 
 import android.content.res.Resources
@@ -23,12 +23,12 @@ val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
 
-val valorFigura0 = NavegationFiguresData(
+val valorFiguraIgfae0 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 20.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
+    ruta = Destination.IgfaeMiniscreen7.route,
     numString = "01",
     relacionNum = numNumero,
     textoInfo = R.string.CS_IGFAE_miniscreen_7_paragraph_2,
@@ -36,12 +36,12 @@ val valorFigura0 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura1 = NavegationFiguresData(
+val valorFiguraIgfae1 = NavegationFiguresData(
     offset_x = 260.dp,
     offset_y = 70.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
+    ruta = Destination.IgfaeMiniscreen8.route,
     numString = "02",
     relacionNum = numNumero,
     textoInfo = R.string.CS_IGFAE_miniscreen_8_paragraph_2,
@@ -49,12 +49,12 @@ val valorFigura1 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura2 = NavegationFiguresData(
+val valorFiguraIgfae2 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 460.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
+    ruta = Destination.IgfaeMiniscreen9.route,
     numString = "03",
     relacionNum = numNumero,
     textoInfo = R.string.CS_IGFAE_miniscreen_9_paragraph_2,
@@ -62,98 +62,71 @@ val valorFigura2 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura3 = NavegationFiguresData(
+val valorFiguraIgfae3 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "04",
+    ruta = Destination.IgfaeMiniscreen11.route,
+    numString = "01",
     relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_10_paragraph_3,
+    textoInfo = R.string.CS_IGFAE_miniscreen_11_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura4 = NavegationFiguresData(
+val valorFiguraIgfae4 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "05",
+    ruta = Destination.IgfaeMiniscreen12.route,
+    numString = "02",
     relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_11_paragraph_3,
+    textoInfo = R.string.CS_IGFAE_miniscreen_12_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura5 = NavegationFiguresData(
+val valorFiguraIgfae5 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "06",
+    ruta = Destination.IgfaeMiniscreen13.route,
+    numString = "03",
     relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_12_paragraph_3,
+    textoInfo = R.string.CS_IGFAE_miniscreen_13_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura6 = NavegationFiguresData(
+val valorFiguraIgfae6 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "07",
+    ruta = Destination.IgfaeMiniscreen15.route,
+    numString = "01",
     relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_13_paragraph_3,
+    textoInfo = R.string.CS_IGFAE_miniscreen_15_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura7 = NavegationFiguresData(
+val valorFiguraIgfae7 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "08",
+    ruta = Destination.IgfaeMiniscreen16.route,
+    numString = "02",
     relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_14_paragraph_3,
+    textoInfo = R.string.CS_IGFAE_miniscreen_16_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura8 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "09",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_15_paragraph_3,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFigura9 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.Igfae.route,
-    numString = "10",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_IGFAE_miniscreen_16_paragraph_3,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-
 
 
 
@@ -167,7 +140,7 @@ val caslIgfae = PersonResearcher(
             R.string.info_investigador_test_2,
             R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN24
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val mvdIgfae = PersonResearcher(
@@ -178,7 +151,7 @@ val mvdIgfae = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN25
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val napIgfae = PersonResearcher(
@@ -189,7 +162,7 @@ val napIgfae = PersonResearcher(
              R.string.info_investigador_test_2,
              R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN26
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val bfdIgfae = PersonResearcher(
@@ -200,7 +173,7 @@ val bfdIgfae = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN27
+    contentType = ContentType.PersonalTemplateScreen
 )
 val cgrIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -210,7 +183,7 @@ val cgrIgfae = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN28
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 

@@ -22,59 +22,58 @@ val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
 
-val valorFigura0 = NavegationFiguresData(
+val valorFiguraIarcus0 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 20.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.IarcusMiniscreen8.route,
     numString = "01",
     relacionNum = numNumero,
-    textoInfo = R.string.II_IPSIUS_miniscreen_7_paragraph_2,
+    textoInfo = R.string.II_IARCUS_miniscreen_8_paragraph_14,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura1 = NavegationFiguresData(
+val valorFiguraIarcus1 = NavegationFiguresData(
     offset_x = 260.dp,
     offset_y = 70.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.IarcusMiniscreen9.route,
     numString = "02",
     relacionNum = numNumero,
-    textoInfo = R.string.II_IPSIUS_miniscreen_8_paragraph_2,
+    textoInfo = R.string.II_IARCUS_miniscreen_9_paragraph_6,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura2 = NavegationFiguresData(
+val valorFiguraIarcus2 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 460.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Cretus.route,
+    ruta = Destination.IarcusMiniscreen10.route,
     numString = "03",
     relacionNum = numNumero,
-    textoInfo = R.string.II_IPSIUS_miniscreen_9_paragraph_2,
+    textoInfo = R.string.II_IARCUS_miniscreen_10_paragraph_4,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura3 = NavegationFiguresData(
+val valorFiguraIarcus3 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
-    ruta = Destination.Imatus.route,
+    ruta = Destination.IarcusMiniscreen11.route,
     numString = "04",
     relacionNum = numNumero,
-    textoInfo = R.string.II_IPSIUS_miniscreen_10_paragraph_3,
+    textoInfo = R.string.II_IARCUS_miniscreen_11_paragraph_3,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-
 
 
 /// INVESTIGADORES
@@ -87,7 +86,7 @@ val cpdIarcus = PersonResearcher(
             R.string.info_investigador_test_2,
             R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN16
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val jsqaIarcus = PersonResearcher(
@@ -98,7 +97,7 @@ val jsqaIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN17
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val mibmIarcus = PersonResearcher(
@@ -109,7 +108,7 @@ val mibmIarcus = PersonResearcher(
              R.string.info_investigador_test_2,
              R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN18
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val abiIarcus = PersonResearcher(
@@ -120,7 +119,7 @@ val abiIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN19
+    contentType = ContentType.PersonalTemplateScreen
 )
 val jmlvIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -130,7 +129,7 @@ val jmlvIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN20
+    contentType = ContentType.PersonalTemplateScreen
 )
 val bmfIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -140,7 +139,7 @@ val bmfIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN21
+    contentType = ContentType.PersonalTemplateScreen
 )
 val pmcIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -150,7 +149,7 @@ val pmcIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN22
+    contentType = ContentType.PersonalTemplateScreen
 )
 val amgIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -160,7 +159,7 @@ val amgIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN23
+    contentType = ContentType.PersonalTemplateScreen
 )
 val amocIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -170,7 +169,7 @@ val amocIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN24
+    contentType = ContentType.PersonalTemplateScreen
 )
 val mrrrIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -180,7 +179,7 @@ val mrrrIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN25
+    contentType = ContentType.PersonalTemplateScreen
 )
 val irpIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -190,7 +189,7 @@ val irpIarcus = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN26
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val datosInvestigadores = listOf(cpdIarcus, jsqaIarcus, mibmIarcus, abiIarcus, jmlvIarcus, bmfIarcus, pmcIarcus,amgIarcus,amocIarcus,mrrrIarcus,irpIarcus )

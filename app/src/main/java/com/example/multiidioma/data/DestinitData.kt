@@ -44,6 +44,29 @@ sealed class Destination(val route: String) {
     object IpsiusMiniscreen12 : Destination("IpsiusMiniScreen12")
     object IpsiusMiniscreen13 : Destination("IpsiusMiniScreen13")
 
+    object CretusMiniscreen9 : Destination("CretusMiniScreen9")
+    object CretusMiniscreen10 : Destination("CretusMiniScreen10")
+    object CretusMiniscreen11 : Destination("CretusMiniScreen11")
+    object CretusMiniscreen12 : Destination("CretusMiniScreen12")
+    object CretusMiniscreen13 : Destination("CretusMiniScreen13")
+    object CretusMiniscreen14 : Destination("CretusMiniScreen14")
+    object CretusMiniscreen15 : Destination("CretusMiniScreen15")
+    object CretusMiniscreen16 : Destination("CretusMiniScreen16")
+
+    object IgfaeMiniscreen7 : Destination("IgfaeMiniScreen7")
+    object IgfaeMiniscreen8 : Destination("IgfaeMiniScreen8")
+    object IgfaeMiniscreen9 : Destination("IgfaeMiniScreen9")
+    object IgfaeMiniscreen11 : Destination("IgfaeMiniScreen11")
+    object IgfaeMiniscreen12 : Destination("IgfaeMiniScreen12")
+    object IgfaeMiniscreen13 : Destination("IgfaeMiniScreen13")
+    object IgfaeMiniscreen15 : Destination("IgfaeMiniScreen15")
+    object IgfaeMiniscreen16 : Destination("IgfaeMiniScreen16")
+
+    object IarcusMiniscreen8 : Destination("IarcusMiniScreen8")
+    object IarcusMiniscreen9 : Destination("IarcusMiniScreen9")
+    object IarcusMiniscreen10 : Destination("IarcusMiniScreen10")
+    object IarcusMiniscreen11 : Destination("IarcusMiniScreen11")
+
 
     // Rutas en enum
     enum class RutasBottomBar (

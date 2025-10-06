@@ -7,13 +7,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.contentIpsiusMiniScreen20.contentIpsiusMiniScreen20Box3
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29.contentIpsiusMiniScreen29Box2
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29.contentIpsiusMiniScreen29Box3
 
@@ -30,8 +26,9 @@ fun IpsiusMiniScreen29(
     ) {
         TemplateScreen(
             data = data,
+            BoxWeight = BOX(Box1 = 0f, Box2 = 0.70f, Box3 = 0.30f),
             Box2 = { contentIpsiusMiniScreen29Box2(it) },
-            Box3 = { contentIpsiusMiniScreen29Box3(it) })
+            Box3 = { contentIpsiusMiniScreen29Box3() })
 
     }
 }

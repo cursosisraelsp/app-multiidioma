@@ -276,6 +276,7 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_30_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_30_paragraph_1,
                     R.string.II_IPSIUS_miniscreen_30_paragraph_2,
+                    R.string.boton2
                 ),
                 imageRes = R.drawable.ipsius_img_23
             ),

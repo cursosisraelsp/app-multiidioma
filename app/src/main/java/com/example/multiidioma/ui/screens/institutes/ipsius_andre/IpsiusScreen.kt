@@ -125,15 +125,14 @@ fun IpsiusScreen(
                         5 -> IpsiusMiniScreen5(
                             data,
                             Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
 
-                            )
+                        )
 
-                            6
-
-                        -> IpsiusMiniScreen6(
+                        6 -> IpsiusMiniScreen6(
                             data,
+                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -317,7 +316,7 @@ fun IpsiusScreen(
 
                         30 -> IpsiusMiniScreen30(
                             data,
-                            navController,
+
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

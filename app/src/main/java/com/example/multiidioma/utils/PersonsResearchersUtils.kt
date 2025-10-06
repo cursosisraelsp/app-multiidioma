@@ -15,7 +15,7 @@ fun PersonsResearchersUtils( datosInvestigadores: List<PersonResearcher>) :
             foto = investigador.foto,
             name = investigador.name ?: "",
             info = investigador.info ?: listOf(0),
-            contentType = investigador.contentType ?: ContentType.MINISCREEN27
+            contentType = investigador.contentType ?: ContentType.PersonalTemplateScreen
         )
         listaMutable.add(investigadorNuevo)
     }

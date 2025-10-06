@@ -17,10 +17,9 @@ val relacionDimen = 300 / 150
 val relacionTexto = (90).dp
 val relacionTextoGrande = (175).dp
 val numNumeroGrande = ((317.9 / des.density)).sp
-
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
-val valorFigura0 = NavegationFiguresData(
+val valorFiguraIpsius0 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 20.dp,
     imaxen = R.raw.circulo_blanco,
@@ -33,7 +32,7 @@ val valorFigura0 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura1 = NavegationFiguresData(
+val valorFiguraIpsius1 = NavegationFiguresData(
     offset_x = 260.dp,
     offset_y = 70.dp,
     imaxen = R.raw.circulo_blanco,
@@ -46,7 +45,7 @@ val valorFigura1 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura2 = NavegationFiguresData(
+val valorFiguraIpsius2 = NavegationFiguresData(
     offset_x = 50.dp,
     offset_y = 460.dp,
     imaxen = R.raw.circulo_blanco,
@@ -59,7 +58,7 @@ val valorFigura2 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura3 = NavegationFiguresData(
+val valorFiguraIpsius3 = NavegationFiguresData(
     offset_x = 240.dp,
     offset_y = 470.dp,
     imaxen = R.raw.circulo_blanco,
@@ -72,7 +71,7 @@ val valorFigura3 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
-val valorFigura4 = NavegationFiguresData(
+val valorFiguraIpsius4 = NavegationFiguresData(
     offset_x = 80.dp,
     offset_y = 175.dp,
     imaxen = R.raw.circulo_blanco,
@@ -85,7 +84,7 @@ val valorFigura4 = NavegationFiguresData(
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
 )
-val valorFigura5 = NavegationFiguresData(
+val valorFiguraIpsius5 = NavegationFiguresData(
     offset_x = 80.dp,
     offset_y = 175.dp,
     imaxen = R.raw.circulo_blanco,
@@ -93,12 +92,12 @@ val valorFigura5 = NavegationFiguresData(
     ruta = Destination.Cretus.route,
     numString = "06",
     relacionNum = numNumeroGrande,
-    textoInfo = R.string.II_IPSIUS_miniscreen_12_paragraph_1,
+    textoInfo = R.string.II_IPSIUS_miniscreen_12_paragraph_2,
     anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
 )
-val valorFigura6 = NavegationFiguresData(
+val valorFiguraIpsius6 = NavegationFiguresData(
     offset_x = 80.dp,
     offset_y = 175.dp,
     imaxen = R.raw.circulo_blanco,
@@ -124,7 +123,7 @@ val ifcIpsius = PersonResearcher(
             R.string.info_investigador_test_2,
             R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN20
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val srhIpsius = PersonResearcher(
@@ -135,7 +134,7 @@ val srhIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN21
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val cmvIpsius = PersonResearcher(
@@ -146,7 +145,7 @@ val cmvIpsius = PersonResearcher(
              R.string.info_investigador_test_2,
              R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN22
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 val ebiIpsius = PersonResearcher(
@@ -157,7 +156,7 @@ val ebiIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN23
+    contentType = ContentType.PersonalTemplateScreen
 )
 val fciIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -167,7 +166,7 @@ val fciIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN24
+    contentType = ContentType.PersonalTemplateScreen
 )
 val nmnIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -177,7 +176,7 @@ val nmnIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN25
+    contentType = ContentType.PersonalTemplateScreen
 )
 val fcmIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -187,7 +186,7 @@ val fcmIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN26
+    contentType = ContentType.PersonalTemplateScreen
 )
 val ertIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -197,7 +196,7 @@ val ertIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN27
+    contentType = ContentType.PersonalTemplateScreen
 )
 val llrIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -207,7 +206,7 @@ val llrIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.MINISCREEN28
+    contentType = ContentType.PersonalTemplateScreen
 )
 
 

@@ -1,19 +1,19 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen16.contentIpsiusMiniScreen16
 
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen30
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
-fun contentIpsiusMiniScreen16Box3(){
+fun contentIpsiusMiniScreen30Box1(){
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        LineVerticalComponent( color =(Color(0xFFFFFFFF)))
+        LineCircleComponent( color =(Color(0xFF000000)))
     }
 }
