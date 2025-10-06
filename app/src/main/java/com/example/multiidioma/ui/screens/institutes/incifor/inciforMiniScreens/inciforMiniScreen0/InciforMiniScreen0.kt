@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentInciforMiniScreen0Box2
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentIniciforMiniScreenBox3
@@ -39,25 +40,13 @@ fun InciforMiniScreen0(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            /*VideoScreen(
+            VideoScreen(
                 videoId = "ut_8lkPwRU4", // tu ID de video
                 modifier = Modifier
                     .fillMaxSize()
                     .aspectRatio(9f / 16f)
-            )*/
-            //https://vimeo.com/1124127714
-            /*VimeoExoPlayerComponent(
-                videoUrl = "https://vimeo.com/1124127714",
-                modifier = Modifier
-                .fillMaxSize()
-                .aspectRatio(9f / 16f)
-            )*/
-//https://vimeo.com/1124127714?share=copy
-            VimeoWebViewComponent(
-                videoId = "1124127714",
-                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f)
             )
-            //VimeoIframeComponent(modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
+
         }
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.33f, Box3 = 0.3f),

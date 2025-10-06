@@ -24,12 +24,20 @@
     <string name="II_ICE_miniscreen_2_texto_buscado_0">education sciences</string>
     <string name="II_ICE_miniscreen_2_texto_buscado_1">only one in this field in Galicia</string>
     <!-- PANTALLA 4 -->
+    <string name="II_ICE_miniscreen_3_title_0" translatable="false">1969</string>
+    <string name="II_ICE_miniscreen_3_title_1" translatable="false">1974</string>
+    <string name="II_ICE_miniscreen_3_title_2" translatable="false">2019</string>
     <string name="II_ICE_miniscreen_3_paragraph_0">The ICE is the Institute of Education Sciences. It was founded in 1969 as a teacher training center.</string>
     <string name="II_ICE_miniscreen_3_texto_buscado_0">It was founded in 1969</string>
     <string name="II_ICE_miniscreen_3_paragraph_1">It was consolidated in 1974 with the creation of the Educational Guidance division, dedicated to providing technical advice to schools, teachers, and tutors in the University district of Santiago (the only one in Galicia at the time).</string>
     <string name="II_ICE_miniscreen_3_texto_buscado_1">Educational Guidance division</string>
     <string name="II_ICE_miniscreen_3_paragraph_2">Since 2019, the center has separated from its training branch to become exclusively a research institute specializing in Education Sciences, as teacher training at all educational levels, with the Bologna reform, is centralized in the Faculty of Education Sciences.</string>
     <string name="II_ICE_miniscreen_3_texto_buscado_2">research institute specializing in Education Sciences</string>
+    <string name="II_ICE_miniscreen_3_paragraph_3" >Training Center</string>
+    <string name="II_ICE_miniscreen_3_paragraph_4" >Educational Guidance</string>
+    <string name="II_ICE_miniscreen_3_paragraph_5">Research Institute</string>
+
+
     <!-- PANTALLA 5 -->
     <string name="II_ICE_miniscreen_4_paragraph_0">In the field of Educational Technology and resource production, the ICE was the first in Spain to launch an audiovisual media service and has played a very prominent role in the preparation of reports and evaluations of the education system throughout its history.</string>
     <string name="II_ICE_miniscreen_4_texto_buscado_0">the first in Spain to launch an audiovisual media service</string>

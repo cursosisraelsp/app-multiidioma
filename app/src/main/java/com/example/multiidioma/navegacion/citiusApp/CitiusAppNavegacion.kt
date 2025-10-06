@@ -20,8 +20,10 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 fun NavGraphBuilder.CitiusAppNavegacion(
     listState: LazyListState,
     navController: NavController,
-    repository: CitiusRepository
 ) {
+    val repository = CitiusRepository()
+
+
     composable(Destination.Citius.route) {
         CitiusScreen(listState, navController)
     }

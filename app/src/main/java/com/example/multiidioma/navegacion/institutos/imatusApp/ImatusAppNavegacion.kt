@@ -17,8 +17,9 @@ import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
 fun NavGraphBuilder.ImatusAppNavegacion(
     listState: LazyListState,
     navController: NavController,
-    repository: ImatusRepository
 ) {
+    val repository = ImatusRepository()
+
     composable(Destination.Imatus.route) {
         ImatusScreen(listState, navController)
     }

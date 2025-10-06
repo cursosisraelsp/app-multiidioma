@@ -18,7 +18,8 @@ import com.example.multiidioma.utils.inciforUtils.CircleLineTimelineUtil
 fun TimelineTemplateBoxUtil(
     data: MiniScreenData,
     index: Int,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    colorDisplay: Color = Color(0xFF32627E)
 ) {
     Row(
         modifier = modifier
@@ -32,7 +33,7 @@ fun TimelineTemplateBoxUtil(
             TextDisplayMedium(
                 data,
                 index = index,
-                color = Color(0xFF32627E)
+                color = colorDisplay
             )
             TextBodyMedium(
                 data,

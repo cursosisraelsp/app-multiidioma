@@ -4,14 +4,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TimelineTemplate
+import com.example.multiidioma.utils.inciforUtils.TimelineTemplateIncifor
 
 @Composable
 fun InciforMiniScreen6(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
-    TimelineTemplate(
+    TimelineTemplateIncifor(
         data = data,
         modifier = modifier.fillMaxSize()
     )

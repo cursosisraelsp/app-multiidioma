@@ -7,10 +7,12 @@ import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import com.example.multiidioma.data.repository.CitiusRepository
+import com.example.multiidioma.data.repository.IceRepository
 import com.example.multiidioma.data.repository.ImatusRepository
 import com.example.multiidioma.data.repository.InciforRepository
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
@@ -39,9 +41,6 @@ fun NavHostApp(
     listState: LazyListState,
     onOpenMap: () -> Unit
 ) {
-    val InciforRepository = remember { InciforRepository() }
-    val CitiusRepository = remember { CitiusRepository() }
-    val ImatusRepository = remember { ImatusRepository() }
 
     NavHost(
         navController = navController,
@@ -59,14 +58,14 @@ fun NavHostApp(
         //## INSTITUTOS
         IhusAppNavegacion()
         IdegaAppNavegacion()
-        IceAppNavegacion()
-        InciforAppNavegacion(listState, navController, InciforRepository)
-        ImatusAppNavegacion(listState, navController, ImatusRepository)
+        IceAppNavegacion(listState, navController)
+        InciforAppNavegacion(listState, navController)
+        ImatusAppNavegacion(listState, navController)
         IlgAppNavegacion()
         //## CENTROS
         CiqusAppNavegacion()
         //->CimusAppNavegacion(listState)
-        CitiusAppNavegacion(listState, navController, CitiusRepository)
+        CitiusAppNavegacion(listState, navController)
         CretusAppNavegacion()
         IgfaeAppNavegacion()
         detailNavGraph(navController, onClose = onOpenMap, listState)

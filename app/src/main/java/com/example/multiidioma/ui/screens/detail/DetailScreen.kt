@@ -96,15 +96,21 @@ fun DetailScreen(
                 when (listInstitus.contentType) {
                     is ContentType.IHUS -> IhusScreen()
                     is ContentType.IDEGA -> IdegaScreen()
-                    is ContentType.ICE -> IceScreen()
+                    is ContentType.ICE -> IceScreen(
+                        listState,
+                        navController,
+                    )
+
                     is ContentType.INCIFOR -> InciforScreen(
                         listState,
                         navController,
                     )
+
                     is ContentType.IMATUS -> ImatusScreen(
                         listState,
                         navController
                     )
+
                     is ContentType.ILG -> IlgScreen()
                     else -> Text("screen non atopado")
                 }

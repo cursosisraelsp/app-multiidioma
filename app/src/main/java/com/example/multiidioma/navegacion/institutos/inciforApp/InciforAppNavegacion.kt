@@ -20,8 +20,9 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 fun NavGraphBuilder.InciforAppNavegacion(
     listState: LazyListState,
     navController: NavController,
-    repository: InciforRepository
 ) {
+    val repository = InciforRepository()
+
     // Ruta principal de Incifor
     composable(Destination.Incifor.route) {
         InciforScreen(listState, navController)

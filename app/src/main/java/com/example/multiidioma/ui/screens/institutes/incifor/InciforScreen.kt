@@ -35,7 +35,7 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen23.InciforMiniScreen23
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen24.InciforMiniScreen24
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen25.InciforMiniScreen25
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniscreen28
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen28.InciforMiniScreen28
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen3.InciforMiniScreen3
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.InciforMiniScreen4
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5.InciforMiniScreen5
@@ -249,7 +249,7 @@ fun InciforScreen(
                                 .fillParentMaxHeight()
                         )
 
-                        28 -> InciforMiniscreen28(
+                        28 -> InciforMiniScreen28(
                             data,
                             Modifier
                                 .fillMaxWidth()
