@@ -137,11 +137,9 @@ class IlgRepository {
             MiniScreenData(
                 id = 13,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_13_title0,
-                    R.string.II_IHUS_miniscreen_13_paragraph0,
-                    R.string.II_IHUS_miniscreen_13_paragraph1,
+                    R.string.II_ILG_miniscreen_13_paragraph_0,
                 ),
-                imageRes = R.drawable.bgalega
+                imageRes = R.drawable.ilg_img_07
 
 
             ),
@@ -150,11 +148,139 @@ class IlgRepository {
             MiniScreenData(
                 id = 14,
                 bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_11_title0,
-                    R.string.II_IHUS_miniscreen_6_title0,
+                    R.string.II_ILG_miniscreen_14_title_0,
+                    R.string.II_ILG_miniscreen_14_title_1,
+                ),
                 ),
 
+            MiniScreenData(
+                id = 15,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_15_title_0,
+                    R.string.II_ILG_miniscreen_15_paragraph_0,
+                    R.string.II_ILG_miniscreen_15_title_1,
+                    R.string.II_ILG_miniscreen_15_paragraph_1,
+            ),
+            ),
+
+            MiniScreenData(
+                id = 16,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_16_title_0,
+                    R.string.II_ILG_miniscreen_16_title_1,
+                    R.string.II_ILG_miniscreen_16_paragraph_0,
+                    R.string.II_ILG_miniscreen_16_paragraph_1,
+                    ),
+            ),
+
+            MiniScreenData(
+                id = 17,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_17_title_0,
+                    R.string.II_ILG_miniscreen_17_title_1,
+                    R.string.II_ILG_miniscreen_17_paragraph_0,
+                    R.string.II_ILG_miniscreen_17_paragraph_1,
                 ),
+            ),
+
+            MiniScreenData(
+                id = 18,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_18_title_0,
+                    R.string.II_ILG_miniscreen_18_title_1,
+                    R.string.II_ILG_miniscreen_18_paragraph_0,
+                    /*R.string.II_ILG_miniscreen_18_paragraph_1,*/
+                ),
+            ),
+
+            MiniScreenData(
+                id = 19,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_19_title_0,
+                    R.string.II_ILG_miniscreen_19_title_1,
+                    R.string.II_ILG_miniscreen_19_paragraph_0,
+                    R.string.II_ILG_miniscreen_19_paragraph_1,
+                ),
+            ),
+
+            MiniScreenData(
+                id = 20,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_20_title_0,
+                    R.string.II_ILG_miniscreen_20_title_1,
+                    R.string.II_ILG_miniscreen_20_paragraph_0,
+                    /*R.string.II_ILG_miniscreen_20_paragraph_1,*/
+                ),
+            ),
+
+            MiniScreenData(
+                id = 21,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_21_title_0,
+                    R.string.II_ILG_miniscreen_21_title_1,
+                    R.string.II_ILG_miniscreen_21_paragraph_0,
+                    R.string.II_ILG_miniscreen_21_paragraph_1,
+                ),
+            ),
+
+            MiniScreenData(
+                id = 22,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_22_title_0,
+                    R.string.II_ILG_miniscreen_22_title_1,
+                    R.string.II_ILG_miniscreen_22_paragraph_0,
+                    R.string.II_ILG_miniscreen_22_paragraph_1,
+                ),
+            ),
+
+            MiniScreenData(
+                id = 23,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_23_title_0,
+                    R.string.II_ILG_miniscreen_23_title_1,
+                    R.string.II_ILG_miniscreen_23_paragraph_0,
+                   /* R.string.II_ILG_miniscreen_23_paragraph_1,*/
+                ),
+            ),
+
+            MiniScreenData(
+                id = 24,
+                bodyParagraphs =listOf(
+                    R.string.II_ILG_miniscreen_24_paragraph_0,
+                ),
+            ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             )
     }

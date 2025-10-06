@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.institutes.ilg
 
+import IlgMiniScreen20
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -17,11 +18,22 @@ import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.navigation.NavController
+import com.example.multiidioma.data.data.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen10.IlgMiniScreen10
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen11.IlgMiniScreen11
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen12.IlgMiniScreen12
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen13.IlgMiniScreen13
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen14.IlgMiniScreen14
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen16.IlgMiniScreen16
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen17.IlgMiniScreen17
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen18.IlgMiniScreen18
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen19.IlgMiniScreen19
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen21.IlgMiniScreen21
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen22.IlgMiniScreen22
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen23.IlgMiniScreen23
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen3.IlgMiniScreen3
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen4.IlgMiniScreen4
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen5.IlgMiniScreen5
@@ -32,6 +44,8 @@ import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen9.IlgM
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen0.ilgMiniScreen0
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen1.ilgMiniScreen1
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen2.IlgMiniScreen2
+import com.example.multiidioma.ui.screens.institutes.ilg.ilgMiniScreens.ilgMiniScreen15.IlgMiniScreen15
+import com.example.multiidioma.ui.screens.institutes.ilg.ilgMiniScreens.ilgMiniScreen24.IlgMiniScreen24
 
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -59,7 +73,7 @@ fun IlgScreen(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(screens) { data ->
+                itemsIndexed(screens) { index,data ->
                     when (data.id) {
                         0 -> ilgMiniScreen0(
                             data,
@@ -154,10 +168,9 @@ fun IlgScreen(
                                 .fillParentMaxHeight()
                         )
 
-                        /*13 -> IlgMiniScreen13(
+                        13 -> IlgMiniScreen13(
 
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
@@ -168,9 +181,78 @@ fun IlgScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )*/
+                                .fillParentMaxHeight(),
+                            /*listState = listState,
+                            itemIndex = index,*/
+                        )
 
+                        15 -> IlgMiniScreen15(
+                            data,
+                            navController,
+                            podcastsMultimedia,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+
+                        )
+                        16 -> IlgMiniScreen16(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        )
+                        17 -> IlgMiniScreen17(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        )
+                        18 -> IlgMiniScreen18(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        )
+                        19 -> IlgMiniScreen19(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        )
+                        20 -> IlgMiniScreen20(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        )
+                        21 -> IlgMiniScreen21(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+
+                            )
+                        22 -> IlgMiniScreen22(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+
+                            )
+                        23 -> IlgMiniScreen23(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+
+                            )
+                        24 -> IlgMiniScreen24(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+
+                        )
                         else -> Text("MiniScreen desconocida")
                     }
                 }

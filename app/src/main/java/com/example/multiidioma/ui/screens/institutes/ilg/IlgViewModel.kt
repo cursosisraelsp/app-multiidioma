@@ -38,7 +38,16 @@ class IlgViewModel : ViewModel() {
                     listaIlgRepository.getData(12),
                     listaIlgRepository.getData(13),
                     listaIlgRepository.getData(14),
-
+                    listaIlgRepository.getData(15),
+                    listaIlgRepository.getData(16),
+                    listaIlgRepository.getData(17),
+                    listaIlgRepository.getData(18),
+                    listaIlgRepository.getData(19),
+                    listaIlgRepository.getData(20),
+                    listaIlgRepository.getData(21),
+                    listaIlgRepository.getData(22),
+                    listaIlgRepository.getData(23),
+                    listaIlgRepository.getData(24),
                     )
             )
         }

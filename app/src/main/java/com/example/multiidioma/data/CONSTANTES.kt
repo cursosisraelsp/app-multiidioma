@@ -13,7 +13,7 @@ val nomeInstitutos = listOf("IHUS", "IDEGA", "ICE", "INCIFOR", "IMATUS", "ILG")
 val nomeCentros = listOf("CIQUS", "CIMUS", "CITIUS", "CRETUS", "IGFAE", "IDIS")
 
 val urlIhus = "https://www.usc.gal/es/node/49934"
-
+val urlIlg = "https://www.usc.gal/es/node/49934"
 data class BOX(
     val Box1: Float,
     val Box2: Float,

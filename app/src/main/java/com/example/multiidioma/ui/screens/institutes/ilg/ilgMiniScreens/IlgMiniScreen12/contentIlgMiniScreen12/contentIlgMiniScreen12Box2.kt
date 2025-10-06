@@ -43,7 +43,7 @@ fun contentIlgMiniScreen12Box2(data: MiniScreenData) {
                 .padding(start = 25.dp, end = 25.dp),
 
         ) {
-            AppText(data, estilosTextos, index = 0)
+            AppText(data, estilosTextos, index = 1)
         }
     }
 }

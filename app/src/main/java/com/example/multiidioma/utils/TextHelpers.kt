@@ -1,5 +1,6 @@
 package com.example.multiidioma.utils
 
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -85,7 +86,26 @@ fun TextBodyMedium(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.bodyMedium,
-        textAlign = textAlign
+        textAlign = textAlign,
+        color = color
+    ),
+    index = index,
+)
+
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
+@Composable
+fun TextTitleMediumRegular(
+    data: MiniScreenData,
+    index: Int? = null,
+    modifier: Modifier = Modifier,
+    textAlign: TextAlign = TextAlign.Start,
+    color: Color = Color.White,
+) = AppText(
+    data = data,
+    style = StyleText(
+        style = MaterialTheme.typography.titleMediumEmphasized,
+        textAlign = textAlign,
+        color = color
     ),
     index = index,
 )

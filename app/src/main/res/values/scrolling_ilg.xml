@@ -94,8 +94,8 @@
     <string name="II_ILG_miniscreen_13_texto_buscado_1">collaboration with the RAG</string>
 
     <!--PANTALLA 15-->
-    <string name="II_ILG_miniscreen_14_title_0">TALENT AMBASSADORS</string>
-
+    <string name="II_ILG_miniscreen_14_title_0">TALENT</string>
+    <string name="II_ILG_miniscreen_14_title_1">AMBASSADORS</string>
     <!--PANTALLA 16-->
     <string name="II_ILG_miniscreen_15_title_0">MANAGEMENT TEAM</string>
     <string name="II_ILG_miniscreen_15_paragraph_0" translatable="false">Elisa Fernández Rei</string>

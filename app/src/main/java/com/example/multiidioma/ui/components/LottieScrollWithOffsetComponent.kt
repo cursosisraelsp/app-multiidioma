@@ -15,7 +15,7 @@ import com.airbnb.lottie.compose.*
 import com.example.multiidioma.R
 
 @Composable
-fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,itemIndex: Int) {
+fun LottieScrollWithOffsetComponent(debuxoLottie: Int,listState: LazyListState,itemIndex: Int, modifier: Modifier= Modifier) {
     val composition by rememberLottieComposition(
         //LottieCompositionSpec.Url(url2)
         LottieCompositionSpec.RawRes(debuxoLottie)

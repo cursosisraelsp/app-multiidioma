@@ -13,16 +13,12 @@ fun IhusMiniScreen14(
     data: MiniScreenData,
     modifier: Modifier = Modifier
 ) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-    ) {
-        val url = urlIhus
-        ScrollingEndScreenTemplate(
-            data,
-            modifier,
-            buttonTextIndex = 1,
-            buttonLink = url
-        )
-    }
+    val url = urlIhus
+
+    ScrollingEndScreenTemplate(
+        data = data,
+        modifier = modifier,
+        buttonTextIndex = 1,
+        buttonLink = url
+    )
 }
