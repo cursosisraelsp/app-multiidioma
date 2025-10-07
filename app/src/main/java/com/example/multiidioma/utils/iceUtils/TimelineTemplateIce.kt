@@ -86,7 +86,7 @@ fun TimelineTemplateIce(
         Column(
             modifier = Modifier
                 .fillMaxHeight()
-                .padding(start = 10.dp, end = 20.dp),
+                .padding(start = 10.dp, end = 15.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Box(

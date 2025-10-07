@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-class PlantillaViewModel : ViewModel(){
+class PlantillaViewModel : ViewModel() {
     private val _uiState = MutableStateFlow<PlantillaState>(PlantillaState.Loading)
     val uiState: StateFlow<PlantillaState> = _uiState.asStateFlow()
 
@@ -18,7 +18,7 @@ class PlantillaViewModel : ViewModel(){
         loadPlantillaIncifor()
     }
 
-    private fun loadPlantillaIncifor(){
+    private fun loadPlantillaIncifor() {
         val datesIncifor = InfoResearchersRepository()
         viewModelScope.launch {
             val listaResearchersIncifor = datesIncifor.infoReaseachersIncifor()

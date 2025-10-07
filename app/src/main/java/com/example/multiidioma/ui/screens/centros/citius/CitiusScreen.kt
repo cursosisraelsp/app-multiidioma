@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.CitiusMiniScreen0
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
@@ -156,17 +157,26 @@ fun CitiusScreen(
                                 .fillParentMaxHeight(),
                         )
 
-                        17 -> CitiusMiniScreen17(
-                        )
+                      /*  17 -> CitiusMiniScreen17(
+                            data,
+                            navController,
+                            podcastsMultimedia,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+                        )*/
 
-                        18 -> CitiusMiniScreen18()
-                     /*   19 -> CitiusMiniScreen19()
-                        20 -> CitiusMiniScreen20()
-                        21 -> CitiusMiniScreen21()
-                        22 -> CitiusMiniScreen22()
-                        23 -> CitiusMiniScreen23()
-                        24 -> CitiusMiniScreen24()
-                        25 -> CitiusMiniScreen25()*/
+
+                        /*18 -> CitiusMiniScreen18(data, navController)*/
+
+
+                        /*   19 -> CitiusMiniScreen19()
+                           20 -> CitiusMiniScreen20()
+                           21 -> CitiusMiniScreen21()
+                           22 -> CitiusMiniScreen22()
+                           23 -> CitiusMiniScreen23()
+                           24 -> CitiusMiniScreen24()
+                           25 -> CitiusMiniScreen25()*/
 
                         26 -> CitiusMiniScreen26(
                             data,

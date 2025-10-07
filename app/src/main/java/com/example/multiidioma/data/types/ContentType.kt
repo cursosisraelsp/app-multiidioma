@@ -6,6 +6,7 @@ sealed class ContentType (){
     object MultimediaContent : ContentType()
     object MinervaContent : ContentType()
     object InstitutoInvestigation : ContentType()
+    object PLANTILLA: ContentType()
     ///////INSTITUTOS//////
     object IHUS : ContentType()
     object IDEGA : ContentType()
@@ -22,4 +23,5 @@ sealed class ContentType (){
     ///////MINISCREENS-INCIFOR/////
     object MINISCREEN27: ContentType()
     object MINISCREEN28: ContentType()
+
 }

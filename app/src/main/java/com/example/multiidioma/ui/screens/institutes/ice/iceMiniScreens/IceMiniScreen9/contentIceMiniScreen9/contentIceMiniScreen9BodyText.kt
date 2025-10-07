@@ -21,8 +21,10 @@ fun contentIceMiniScreen9BodyText(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TextBodyMedium(data, index = 2)
+        TextBodyMedium(data, index = 3)
     }
 }
+
+
 
 

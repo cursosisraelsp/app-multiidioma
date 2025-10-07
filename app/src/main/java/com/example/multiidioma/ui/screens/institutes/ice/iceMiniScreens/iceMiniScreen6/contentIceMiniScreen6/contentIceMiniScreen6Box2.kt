@@ -24,7 +24,7 @@ fun contentIceMiniScreen6Box2(data: MiniScreenData, navController: NavController
     ) {
         Box(
             modifier = Modifier
-                .padding(top = 20.dp)
+                .padding(top = 20.dp, start = 50.dp, end = 50.dp)
         ) {
             TextBodyMedium(
                 data,

@@ -63,6 +63,7 @@ class IceRepository {
 
                     ),
                 imageRes = R.drawable.noimagen
+                /* R.drawable.ice_img_03*/
 
             ),
             MiniScreenData(
@@ -78,6 +79,8 @@ class IceRepository {
                 id = 7,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_7_title_0,
+                    R.string.II_ICE_miniscreen_7_title_1,
+                    R.string.II_ICE_miniscreen_7_title_2,
                     R.string.II_ICE_miniscreen_7_paragraph_0,
 
                     ),
@@ -87,7 +90,9 @@ class IceRepository {
                 id = 8,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_8_title_0,
-                    R.string.II_ICE_miniscreen_8_paragraph_0
+                    R.string.II_ICE_miniscreen_8_title_1,
+                    R.string.II_ICE_miniscreen_8_title_2,
+                    R.string.II_ICE_miniscreen_8_paragraph_0,
                 ),
 
                 ),
@@ -95,9 +100,10 @@ class IceRepository {
                 id = 9,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_9_title_0,
+                    R.string.II_ICE_miniscreen_9_title_1,
+                    R.string.II_ICE_miniscreen_9_title_2,
                     R.string.II_ICE_miniscreen_9_paragraph_0,
-
-                    ),
+                ),
 
                 ),
 
@@ -105,14 +111,18 @@ class IceRepository {
                 id = 10,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_10_title_0,
+                    R.string.II_ICE_miniscreen_10_title_1,
+                    R.string.II_ICE_miniscreen_10_title_2,
                     R.string.II_ICE_miniscreen_10_paragraph_0,
+                ),
 
-                    ),
-            ),
+                ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_11_title_0,
+                    R.string.II_ICE_miniscreen_11_title_1,
+                    R.string.II_ICE_miniscreen_11_title_2,
                     R.string.II_ICE_miniscreen_11_paragraph_0,
                 ),
 
@@ -122,6 +132,8 @@ class IceRepository {
                 id = 12,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_12_title_0,
+                    R.string.II_ICE_miniscreen_12_title_1,
+                    R.string.II_ICE_miniscreen_12_title_2,
                     R.string.II_ICE_miniscreen_12_paragraph_0,
 
                     ),
@@ -131,6 +143,8 @@ class IceRepository {
                 id = 13,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_13_title_0,
+                    R.string.II_ICE_miniscreen_13_title_1,
+                    R.string.II_ICE_miniscreen_13_title_2,
                     R.string.II_ICE_miniscreen_13_paragraph_0,
 
                     ),
@@ -149,16 +163,19 @@ class IceRepository {
                 id = 15,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_15_title_0,
+                    R.string.II_ICE_miniscreen_15_title_1,
                     R.string.II_ICE_miniscreen_15_paragraph_0,
                 ),
-
+imageRes = R.drawable.ice_img_12
                 ),
             MiniScreenData(
                 id = 16,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_16_title_0,
+                    R.string.II_ICE_miniscreen_16_title_1,
                     R.string.II_ICE_miniscreen_16_paragraph_0,
                 ),
+                imageRes = R.drawable.ice_img_13
 
                 ),
             MiniScreenData(
@@ -167,6 +184,7 @@ class IceRepository {
                     R.string.II_ICE_miniscreen_17_title_0,
                     R.string.II_ICE_miniscreen_17_paragraph_0,
                 ),
+                imageRes = R.drawable.ice_img_14
 
                 ),
             MiniScreenData(

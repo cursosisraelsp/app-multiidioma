@@ -53,31 +53,45 @@
     <string name="II_ICE_miniscreen_6_paragraph_0">The ICE addresses the following key challenges in its research activity:</string>
     <string name="II_ICE_miniscreen_6_texto_buscado_0">key challenges in its research activity</string>
     <!-- PANTALLA 8 -->
-    <string name="II_ICE_miniscreen_7_title_0">BUILDING INCLUSIVE COMMUNITIES:</string>
+    <string name="II_ICE_miniscreen_7_title_0">BUILDING</string>
+    <string name="II_ICE_miniscreen_7_title_1">INCLUSIVE</string>
+    <string name="II_ICE_miniscreen_7_title_2">COMMUNITIES:</string>
     <string name="II_ICE_miniscreen_7_paragraph_0">The ICE promotes research and the transfer of educational knowledge as a cross-cutting theme, collaborating with associations and research centers to ensure that all citizens, regardless of their circumstances, have access to quality education.</string>
     <string name="II_ICE_miniscreen_7_texto_buscado_0">research and the transfer of educational knowledge</string>
     <!-- PANTALLA 9 -->
-    <string name="II_ICE_miniscreen_8_title_0">EQUITY AND SOCIAL JUSTICE IN EDUCATION:</string>
+    <string name="II_ICE_miniscreen_8_title_0">EQUITY AND </string>
+    <string name="II_ICE_miniscreen_8_title_1"> SOCIAL JUSTICE IN</string>
+    <string name="II_ICE_miniscreen_8_title_2">EDUCATION:</string>
     <string name="II_ICE_miniscreen_8_paragraph_0">We promote a pedagogical vision in research that recognizes diversity and fights against structural inequalities in the education system, especially in vulnerable contexts.</string>
     <string name="II_ICE_miniscreen_8_texto_buscado_0">recognizes diversity and fights against structural inequalities</string>
     <!-- PANTALLA 10 -->
-    <string name="II_ICE_miniscreen_9_title_0">TRANSFORMATIVE TEACHER TRAINING:</string>
+    <string name="II_ICE_miniscreen_9_title_0">TRANSFORMATIVE</string>
+    <string name="II_ICE_miniscreen_9_title_1">TEACHER</string>
+    <string name="II_ICE_miniscreen_9_title_2">TRAINING:</string>
     <string name="II_ICE_miniscreen_9_paragraph_0">ICE designs and tests programs, methodologies, and resources that respond to current educational needs, promoting citizen science, critical thinking, professional ethics, and the ability to adapt to changing contexts through innovative proposals. These proposals are validated through experimentation and scientific evaluation in real contexts.</string>
     <string name="II_ICE_miniscreen_9_texto_buscado_0">promoting citizen science, critical thinking, professional ethics, and the ability to adapt to changing contexts through innovative proposals</string>
     <!-- PANTALLA 11 -->
-    <string name="II_ICE_miniscreen_10_title_0">EVIDENCE-BASED PEDAGOGICAL INTERVENTION:</string>
+    <string name="II_ICE_miniscreen_10_title_0">EVIDENCE-BASED</string>
+    <string name="II_ICE_miniscreen_10_title_1">PEDAGOGICAL</string>
+    <string name="II_ICE_miniscreen_10_title_2">INTERVENTION:</string>
     <string name="II_ICE_miniscreen_10_paragraph_0">Applied research is carried out to improve understanding of educational processes and guide effective public policies and teaching practices.</string>
     <string name="II_ICE_miniscreen_10_texto_buscado_0">to improve understanding of educational processes</string>
     <!-- PANTALLA 12 -->
-    <string name="II_ICE_miniscreen_11_title_0">INTERNATIONALIZATION AND EDUCATIONAL COOPERATION:</string>
+    <string name="II_ICE_miniscreen_11_title_0">INTERNATIONALIZATION</string>
+    <string name="II_ICE_miniscreen_11_title_1">AND EDUCATIONAL</string>
+    <string name="II_ICE_miniscreen_11_title_2">COOPERATION:</string>
     <string name="II_ICE_miniscreen_11_paragraph_0">ICE participates in international networks and projects, which enriches its scientific agenda with global perspectives and promotes the exchange of best practices.</string>
     <string name="II_ICE_miniscreen_11_texto_buscado_0">international networks and projects</string>
     <!-- PANTALLA 13 -->
     <string name="II_ICE_miniscreen_12_title_0">DISSEMINATION OF EDUCATIONAL KNOWLEDGE:</string>
+    <string name="II_ICE_miniscreen_12_title_1">EDUCATIONAL</string>
+    <string name="II_ICE_miniscreen_12_title_2">KNOWLEDGE:</string>
     <string name="II_ICE_miniscreen_12_paragraph_0">Through publications in high-impact journals and in its own collections, ICE contributes to the transfer of knowledge and scientifically validated educational proposals that strengthen contemporary pedagogical debate.</string>
     <string name="II_ICE_miniscreen_12_texto_buscado_0">transfer of knowledge</string>
     <!-- PANTALLA 14 -->
-    <string name="II_ICE_miniscreen_13_title_0">COMMITMENT TO DEMOCRATIC VALUES:</string>
+    <string name="II_ICE_miniscreen_13_title_0">COMMITMENT TO:</string>
+    <string name="II_ICE_miniscreen_13_title_1"> DEMOCRATIC</string>
+    <string name="II_ICE_miniscreen_13_title_2">VALUES:</string>
     <string name="II_ICE_miniscreen_13_paragraph_0">The scientific agenda is aligned with principles such as participation, equality, sustainability, respect for human rights, and the development of active citizenship through education.</string>
     <string name="II_ICE_miniscreen_13_texto_buscado_0">participation, equality, sustainability, respect for human rights</string>
     <!-- PANTALLA 15 -->
@@ -86,33 +100,40 @@
     <string name="II_ICE_miniscreen_14_paragraph_1">Currently, ICE researchers come from 8 research groups, some of which have been at the USC for more than 25 years.</string>
     <string name="II_ICE_miniscreen_14_texto_buscado_1">8 research groups</string>
     <!-- PANTALLA 16 -->
-    <string name="II_ICE_miniscreen_15_title_0">ESCULCA - Knowledge and educational action</string>
+    <string name="II_ICE_miniscreen_15_title_0">ESCULCA</string>
+    <string name="II_ICE_miniscreen_15_title_1">Knowledge and educational action</string>
     <string name="II_ICE_miniscreen_15_paragraph_0">It is dedicated to the study and improvement of education in various contexts. Its main areas of work include pedagogical innovation, educational inclusion, program evaluation, learning in social contexts (such as prisons or communities), and attention to diversity and groups at risk of exclusion. They seek to connect educational theory with practice to achieve a positive social impact.</string>
     <string name="II_ICE_miniscreen_15_texto_buscado_0">social contexts</string>
     <!-- PANTALLA 17 -->
-    <string name="II_ICE_miniscreen_16_title_0">GEFIL - Galician Study Group for Training and Job Placement</string>
+    <string name="II_ICE_miniscreen_16_title_0">GEFIL </string>
+    <string name="II_ICE_miniscreen_16_title_1">Galician Study Group for Training and Job Placement</string>
     <string name="II_ICE_miniscreen_16_paragraph_0">It researches how to improve vocational training and facilitate job placement in Galicia. It works on training quality, social inclusion, and gender perspective. It carries out projects on digital education and continuous learning, and collaborates with other universities and entities to promote research and innovation in these areas.</string>
     <string name="II_ICE_miniscreen_16_texto_buscado_0">digital education and continuous learning</string>
     <!-- PANTALLA 18 -->
-    <string name="II_ICE_miniscreen_17_title_0">IDEA - Research, educational diagnosis, and evaluation</string>
+    <string name="II_ICE_miniscreen_17_title_0">IDEA </string>
+    <string name="II_ICE_miniscreen_17_title_1">Research, educational diagnosis, and evaluation</string>
     <string name="II_ICE_miniscreen_17_paragraph_0">It is dedicated to studying and improving the educational system from different perspectives. They research educational research methodologies, the influence of gender on education and employment, and the quality of the system and its impact on labor market integration.</string>
     <string name="II_ICE_miniscreen_17_texto_buscado_0">educational research methodologies</string>
     <string name="II_ICE_miniscreen_17_paragraph_1">They also focus on gifted students, educational inclusion, and diagnosis and intervention in educational contexts. Their goal is to contribute to a more equitable, inclusive, and effective education.</string>
     <string name="II_ICE_miniscreen_17_texto_buscado_1">gifted students</string>
     <!-- PANTALLA 19 -->
-    <string name="II_ICE_miniscreen_18_title_0">LITER21 - Galician literature. Children\'s and young adult literature. Literary, artistic, intercultural, and educational research</string>
+    <string name="II_ICE_miniscreen_18_title_0">LITER21</string>
+    <string name="II_ICE_miniscreen_18_title_1"> Galician literature. Children\'s and young adult literature. Literary, artistic, intercultural, and educational research</string>
+
     <string name="II_ICE_miniscreen_18_paragraph_0">This is an interdisciplinary group made up of experts in teaching, philology, and fine arts who study literature from various perspectives, with a special focus on Galician children\'s and young adult literature (LIJ). They also conduct research in areas such as arts, music, and literary education, as well as arts-based educational innovation.</string>
     <string name="II_ICE_miniscreen_18_texto_buscado_0">interdisciplinary</string>
     <string name="II_ICE_miniscreen_18_paragraph_1">Among their main lines of research are the educational analysis of LIJ, the relationship between text and illustration, and visual narratives.</string>
     <string name="II_ICE_miniscreen_18_texto_buscado_1">main lines</string>
     <!-- PANTALLA 20 -->
-    <string name="II_ICE_miniscreen_19_title_0">TECNOEDUC - Educational Technology</string>
+    <string name="II_ICE_miniscreen_19_title_0">TECNOEDUC</string>
+    <string name="II_ICE_miniscreen_19_title_1">Educational Technology</string>
     <string name="II_ICE_miniscreen_19_paragraph_0">Its work focuses on improving learning through digital tools, promoting educational inclusion for students with difficulties, and fostering the development of digital skills, artificial intelligence, and emerging technologies in the field of education. In addition, it carries out projects that integrate these technologies to facilitate access to and the quality of education.</string>
     <string name="II_ICE_miniscreen_19_texto_buscado_0">digital tools</string>
     <string name="II_ICE_miniscreen_19_paragraph_1">It is currently the only research unit at the USC specializing in e-learning in the Galician University System and maintains ongoing collaboration with the Galician Supercomputing Center (CESGA).</string>
     <string name="II_ICE_miniscreen_19_texto_buscado_1" translatable="false">e-learning</string>
     <!-- PANTALLA 21 -->
-    <string name="II_ICE_miniscreen_20_title_0">TEXE - Third generation</string>
+    <string name="II_ICE_miniscreen_20_title_0">TEXE</string>
+    <string name="II_ICE_miniscreen_20_title_1">Third generation</string>
     <string name="II_ICE_miniscreen_20_paragraph_0">It investigates how to improve education from different angles, such as teaching, teacher training, educational policies, technology, culture, and society.</string>
     <string name="II_ICE_miniscreen_20_texto_buscado_0">technology, culture, and society</string>
     <string name="II_ICE_miniscreen_20_paragraph_1">They study adult education and the influence of history and migration on education. Their goal is to understand and transform education so that it better responds to current challenges.</string>

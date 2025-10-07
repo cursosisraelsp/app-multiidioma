@@ -38,7 +38,7 @@ fun IceMiniScreen14(
             )
         }
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.30f, Box3 = 0.25f),
+            BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.6f, Box3 = 0.2f),
             data = data,
             Box1 = { contentIceMiniScreen14Box1() },
             Box2 = { contentIceMiniScreen14Box2(it) },

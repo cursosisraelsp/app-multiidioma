@@ -13,13 +13,10 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
 fun contentIceMiniScreen8TitleText(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Start
-    )
-
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -27,8 +24,9 @@ fun contentIceMiniScreen8TitleText(data: MiniScreenData) {
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
-        AppText(data, estilosTextos, index = 0)
-        AppText(data, estilosTextos, index = 1)
+        TextTitleMedium(data,  index = 0)
+        TextTitleMedium(data,  index = 1)
+        TextTitleMedium(data,  index = 2)
     }
 }
 

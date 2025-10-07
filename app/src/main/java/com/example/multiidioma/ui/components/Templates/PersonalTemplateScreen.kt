@@ -35,7 +35,7 @@ import com.example.multiidioma.utils.TextDisplayMedium
 import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
-fun PersonalTemplateScreen(
+    fun PersonalTemplateScreen(
     data: MiniScreenData,
     navController: NavController,
 ) {

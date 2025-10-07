@@ -37,6 +37,11 @@ import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen10.Ice
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen11.IceMiniScreen11
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen12.IceMiniScreen12
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen13.IceMiniScreen13
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen14.IceMiniScreen14
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen15.IceMiniScreen15
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen16.IceMiniScreen16
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen17.IceMiniScreen17
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen18.IceMiniScreen18
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen19.IceMiniScreen19
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen2.IceMiniScreen2
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen20.IceMiniScreen20
@@ -139,63 +144,42 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
-
-                        7 -> IceMiniScreen7(
+                        14 -> IceMiniScreen14(
                             data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                        )
-
-                        8 -> IceMiniScreen8(
-                            data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
 
-                        9 -> IceMiniScreen9(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
                         )
-
-                        10 -> IceMiniScreen10(
+                        15 -> IceMiniScreen15(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
+
                         )
-
-                        11 -> IceMiniScreen11(
+                        16 -> IceMiniScreen16(
                             data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-
-                            )
-
-                        12 -> IceMiniScreen12(
-                            data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
 
-                        13 -> IceMiniScreen13(
+                        )
+                        17 -> IceMiniScreen17(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
+
                         )
+                        18 -> IceMiniScreen18(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+
+                        )
+
 
                         19 -> IceMiniScreen19(
                             data,

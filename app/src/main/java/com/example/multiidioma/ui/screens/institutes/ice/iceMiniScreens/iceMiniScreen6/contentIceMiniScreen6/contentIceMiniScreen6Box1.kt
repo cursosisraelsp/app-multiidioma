@@ -19,6 +19,6 @@ fun contentIceMiniScreen6Box1() {
             .padding(bottom = 20.dp)
             .background(Color(0xFF32627E))
     ) {
-        LineCircleAligmentComponent(lineHeight = 30.dp, contentAlignment = Alignment.Center)
+        LineCircleAligmentComponent(lineHeight = 31.dp, contentAlignment = Alignment.Center)
     }
 }

@@ -49,13 +49,6 @@ fun Plantilla(itemId : String){
 
 
 
-
-
-
-
-
-
-
                             }
                         } }
                 }

@@ -3,6 +3,9 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.screens.centros.citius.datosInvestigadoresCitius
+import com.example.multiidioma.utils.GetPersonalResearcherUtils
+import com.example.multiidioma.utils.PersonsResearchersUtils
 
 class CitiusRepository {
 
@@ -48,7 +51,7 @@ class CitiusRepository {
             MiniScreenData(
                 id = 5,
                 bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_5_paragraph_0
+                    R.string.CS_CITIUS_miniscreen_5_paragraph_0,
                 ),
                 imageRes = R.drawable.noimagen
             ),
@@ -143,7 +146,7 @@ class CitiusRepository {
                 ),
                 imageRes = R.drawable.citius_img_13
 
-                ),
+            ),
             MiniScreenData(
                 id = 16,
                 bodyParagraphs = listOf(
@@ -167,8 +170,14 @@ class CitiusRepository {
                     R.string.CS_CITIUS_miniscreen_18_title_0,
                     R.string.CS_CITIUS_miniscreen_18_paragraph_0,
                 ),
+                imageRes = R.drawable.citius_img_21,
+                personalResearcher = GetPersonalResearcherUtils(
+                    PersonsResearchersUtils(
+                        datosInvestigadoresCitius
+                    )
+                )
 
-                ),
+            ),
             MiniScreenData(
                 id = 26,
                 bodyParagraphs = listOf(

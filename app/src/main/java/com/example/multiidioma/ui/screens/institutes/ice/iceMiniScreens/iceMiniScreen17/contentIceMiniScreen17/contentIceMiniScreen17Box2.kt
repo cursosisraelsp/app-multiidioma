@@ -43,7 +43,6 @@ fun contentIceMiniScreen17Box2(data: MiniScreenData) {
         TextTitleMedium(data, index = 0, textAlign = TextAlign.Center) //Titulo 1
         TextTitleMediumRegular(data, index = 1, textAlign = TextAlign.Center) //Titulo 2
         SpacerText()
-        TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)//parrafo1
 
         Spacer(modifier = Modifier.height(25.dp))
         LineVerticalComponent(modifier = Modifier.fillMaxHeight(0.1f))
@@ -58,14 +57,7 @@ fun contentIceMiniScreen17Box2(data: MiniScreenData) {
         }
         Spacer(modifier = Modifier.height(5.dp))
 
-        TextBodyMedium(data, index = 3, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 4, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 5, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 6, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 7, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 8, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 9, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 10, textAlign = TextAlign.Center)
-        TextBodyMedium(data, index = 11, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)
+
     }
 }

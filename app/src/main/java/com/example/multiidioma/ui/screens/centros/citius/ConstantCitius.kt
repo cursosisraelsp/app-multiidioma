@@ -17,7 +17,7 @@ val relacionTexto = (90).dp
 val relacionTextoGrande = (175).dp
 val numNumeroGrande = ((317.9 / des.density)).sp
 val numBigCitius = (200 / des.density).sp
-val numSmallCitius = (150  / des.density).sp
+val numSmallCitius = (150 / des.density).sp
 
 
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
@@ -89,36 +89,58 @@ val valorFiguraCitius4 = NavegationFiguresData(
     relacionText = numLetra2
 )
 
+//No ponerlos en datosInvestigadoresCitius a los directores sino ponerlos en otro nombre para ponerlo en directores?
 
 //investigadores
-val mvlhIncifor = PersonResearcher(
-    foto = R.drawable.cientifico,
-    name = "María Victoria Lareu Huidobro",
-    info = listOf(R.string.II_IMATUS_miniscreen_4_paragraph_1,R.string.II_IMATUS_miniscreen_2_paragraph_1,R.string.II_IMATUS_miniscreen_1_paragraph_1),
-    contentType = ContentType.MINISCREEN27
+val sbCitius = PersonResearcher(
+    foto = R.drawable.citius_img_14,
+    name = "SENÉN BARRO",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val plCitius = PersonResearcher(
+    foto = R.drawable.citius_img_15,
+    name = "PAULA LÓPEZ",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
 )
 
-/*
-val ambbIncifor =  PersonResearcher(
-    foto = R.drawable.cientifico,
-    name = "Ana María Bermejo Barrera",
-    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
-    contentType = ContentType.MINISCREEN27
+val pgCitius = PersonResearcher(
+    foto = R.drawable.citius_img_16,
+    name = "PABLO GAMALLO",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val dgCitius = PersonResearcher(
+    foto = R.drawable.citius_img_17,
+    name = "DAVID GLOWACKI",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
 )
 
-val jimbIncifor =  PersonResearcher(
-    foto = R.drawable.cientifico,
-    name = "José Ignacio Muñoz Barús",
-    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
-    contentType = ContentType.MINISCREEN27
+val mnCitius = PersonResearcher(
+    foto = R.drawable.citius_img_18,
+    name = "MARTA NÚÑEZ",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
 )
-
-val aclIncifor =  PersonResearcher(
-    foto = R.drawable.cientifico,
-    name = "Angelines Cruz Landeira",
-    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
-    contentType = ContentType.MINISCREEN27
+val mjcCitius = PersonResearcher(
+    foto = R.drawable.citius_img_19,
+    name = "MARIA JOSÉ CARREIRA",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
 )
-*/
-
-val datosInvestigadores = listOf(mvlhIncifor,/* ambbIncifor, jimbIncifor, aclIncifor*/)
+val dlCitius = PersonResearcher(
+    foto = R.drawable.citius_img_20,
+    name = "DAVID LOSADA",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val nsCitius = PersonResearcher(
+    foto = R.drawable.citius_img_21,
+    name = "NATALIA SEOANE",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val datosInvestigadoresCitius =
+    listOf(sbCitius, plCitius, pgCitius, mnCitius, mjcCitius, dlCitius, nsCitius)

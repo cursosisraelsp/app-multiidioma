@@ -35,43 +35,43 @@ fun NavGraphBuilder.IceAppNavegacion(
     // Ruta de miniscreens
     composable(Destination.IceMiniScreen7.route) {
         IceMiniScreen7(
-            data = repository.getData(5),
+            data = repository.getData(7),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen8.route) {
         IceMiniScreen8(
-            data = repository.getData(6),
+            data = repository.getData(8),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen9.route) {
         IceMiniScreen9(
-            data = repository.getData(7),
+            data = repository.getData(9),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen10.route) {
         IceMiniScreen10(
-            data = repository.getData(7),
+            data = repository.getData(10),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen11.route) {
         IceMiniScreen11(
-            data = repository.getData(7),
+            data = repository.getData(11),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen12.route) {
         IceMiniScreen12(
-            data = repository.getData(7),
+            data = repository.getData(12),
             navController = navController
         )
     }
     composable(Destination.IceMiniScreen13.route) {
         IceMiniScreen13(
-            data = repository.getData(7),
+            data = repository.getData(13),
             navController = navController
         )
     }
