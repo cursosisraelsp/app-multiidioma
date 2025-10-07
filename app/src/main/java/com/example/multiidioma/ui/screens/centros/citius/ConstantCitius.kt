@@ -90,50 +90,35 @@ val valorFiguraCitius4 = NavegationFiguresData(
 )
 
 
-/// INVESTIGADORES
-
-val mvlhCitius = PersonResearcher(
+//investigadores
+val mvlhIncifor = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
-    info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
-    ),
+    info = listOf(R.string.II_IMATUS_miniscreen_4_paragraph_1,R.string.II_IMATUS_miniscreen_2_paragraph_1,R.string.II_IMATUS_miniscreen_1_paragraph_1),
     contentType = ContentType.MINISCREEN27
 )
 
-val ambbCitius = PersonResearcher(
+/*
+val ambbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Bermejo Barrera",
-    info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
-    ),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
 
-val jimbCitius = PersonResearcher(
+val jimbIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Ignacio Muñoz Barús",
-    info = listOf(
-        /*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*/
-    ),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
 
-val aclCitius = PersonResearcher(
+val aclIncifor =  PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Angelines Cruz Landeira",
-    info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
-    ),
+    info =  listOf(R.string.info_investigador_test_1,R.string.info_investigador_test_2,R.string.info_investigador_test_3),
     contentType = ContentType.MINISCREEN27
 )
+*/
 
-val datosInvestigadores = listOf(mvlhCitius, ambbCitius, jimbCitius, aclCitius)
+val datosInvestigadores = listOf(mvlhIncifor,/* ambbIncifor, jimbIncifor, aclIncifor*/)

@@ -2,6 +2,9 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.screens.institutes.imatus.datosInvestigadores
+import com.example.multiidioma.utils.GetPersonalResearcherUtils
+import com.example.multiidioma.utils.PersonsResearchersUtils
 
 class ImatusRepository {
 
@@ -126,16 +129,28 @@ class ImatusRepository {
                     ),
 
                 ),
+            MiniScreenData(
+                id = 13,
+                bodyParagraphs = listOf(
+                    R.string.II_IMATUS_miniscreen_12_title_0,
+                ),
+                imageRes = R.drawable.imatus_img_19,
+                personalResearcher = GetPersonalResearcherUtils(
+                    PersonsResearchersUtils(
+                        datosInvestigadores
+                    )
+                )
+            ),
+            MiniScreenData(
+                id = 14,
+                bodyParagraphs = listOf(
+                    R.string.II_IMATUS_miniscreen_14_title_0,
+                    R.string.II_IMATUS_miniscreen_14_title_1,
+                    R.string.II_IMATUS_miniscreen_14_paragraph_0,
+                ),
 
-               /* MiniScreenData(
-                    id = 14,
-                    bodyParagraphs = listOf(
-                        R.string.II_IMATUS_miniscreen_14_title_0,
-                        R.string.II_IMATUS_miniscreen_14_title_1,
-                        R.string.II_IMATUS_miniscreen_14_paragraph_0,
-                    ),
 
-                    ),
+                /*
                 MiniScreenData(
                     id = 15,
                     bodyParagraphs = listOf(
@@ -258,13 +273,14 @@ class ImatusRepository {
                         R.string.More_info
                     ),
                 ),*/
-               MiniScreenData(
-                   id = 35,
-                   bodyParagraphs = listOf(
-                       R.string.II_IMATUS_miniscreen_35_paragraph_0,
-                       R.string.II_IMATUS_miniscreen_35_title_0,
-                   ),
-                   ),
+                /*         MiniScreenData(
+                             id = 35,
+                             bodyParagraphs = listOf(
+                                 R.string.II_IMATUS_miniscreen_35_paragraph_0,
+                                 R.string.II_IMATUS_miniscreen_35_title_0,
+                             ),
+                         ),*/
+            ),
         )
     }
 

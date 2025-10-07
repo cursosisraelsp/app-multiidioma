@@ -71,9 +71,9 @@ val mvlhImatus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
     info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
+            R.string.II_IMATUS_miniscreen_4_paragraph_1,
+            R.string.II_IMATUS_miniscreen_5_title_0,
+            R.string.II_INCIFOR_miniscreen_0_paragraph_0
     ),
     contentType = ContentType.MINISCREEN27
 )

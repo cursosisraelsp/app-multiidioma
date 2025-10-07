@@ -11,6 +11,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import com.example.multiidioma.data.repository.CitiusRepository
 import com.example.multiidioma.data.repository.IceRepository
 import com.example.multiidioma.data.repository.ImatusRepository
@@ -30,6 +31,7 @@ import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavega
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
+import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -74,5 +76,16 @@ fun NavHostApp(
         /*composable (Destination.InciforMiniscreen27.route) {
             InciforMiniScreen27(data = ,navController = navController)
         }*/
+
+        composable("detalles/{itemId}") { backStackEntry ->
+            // Aquí puedes acceder a los argumentos
+
+            val itemId = backStackEntry.arguments?.getString("itemId")
+
+            if (itemId != null) {
+                Plantilla(itemId = itemId)
+            } // Pasa el argumento al Composable
+
+        }
     }
 }

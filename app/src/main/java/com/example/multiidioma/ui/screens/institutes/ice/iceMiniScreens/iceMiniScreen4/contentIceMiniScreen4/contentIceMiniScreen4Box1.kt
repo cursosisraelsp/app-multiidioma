@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.ui.components.Shapes.LineCircleAligmentComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentIceMiniScreen4Box1() {
@@ -16,10 +17,9 @@ fun contentIceMiniScreen4Box1() {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        LineCircleAligmentComponent(
+        LineVerticalComponent(
             modifier = Modifier.padding(end = 36.dp),
             contentAlignment = Alignment.TopEnd,
-            lineHeight = 25.dp,
             color = Color.Black
 
 

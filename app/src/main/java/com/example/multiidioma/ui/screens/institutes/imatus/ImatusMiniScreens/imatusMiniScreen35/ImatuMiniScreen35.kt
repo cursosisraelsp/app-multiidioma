@@ -6,6 +6,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.urlImatus
 import com.example.multiidioma.ui.components.Templates.ScrollingEndScreenTemplate
 
+/*
 @Composable
 fun ImatusMiniScreen35(data: MiniScreenData, modifier: Modifier) {
     val url = urlImatus
@@ -16,4 +17,4 @@ fun ImatusMiniScreen35(data: MiniScreenData, modifier: Modifier) {
         buttonTextIndex = 1,
         buttonLink = url
     )
-}
+}*/
