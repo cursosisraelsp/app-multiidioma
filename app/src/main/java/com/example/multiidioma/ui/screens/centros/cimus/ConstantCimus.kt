@@ -79,7 +79,7 @@ val valorFiguraCimus4 = NavegationFiguresData(
     offset_y = 370.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 120.dp,
-    ruta = Destination.CimusMiniScreen13.route,
+    ruta = Destination.CimusMiniScreen14.route,
     numString = "05",
     relacionNum = numSmallCimus,
     textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
@@ -131,7 +131,7 @@ val valorFiguraCimus7 = NavegationFiguresData(
 
 //No ponerlos en datosInvestigadoresCimus a los directores sino ponerlos en otro nombre para ponerlo en directores?
 
-//investigadores
+/*//investigadores
 val sbCimus = PersonResearcher(
     foto = R.drawable.cimus_img_14,
     name = "SENÉN BARRO",
@@ -183,4 +183,4 @@ val nsCimus = PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 val datosInvestigadoresCimus =
-    listOf(sbCimus, plCimus, pgCimus, mnCimus, mjcCimus, dlCimus, nsCimus)
+    listOf(sbCimus, plCimus, pgCimus, mnCimus, mjcCimus, dlCimus, nsCimus)*/

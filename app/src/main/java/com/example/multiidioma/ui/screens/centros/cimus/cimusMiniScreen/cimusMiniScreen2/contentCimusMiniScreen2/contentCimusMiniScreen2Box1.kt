@@ -14,9 +14,9 @@ fun contentCimusMiniScreen2Box1() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, bottom = 10.dp)
+            .padding(end = 50.dp, bottom = 10.dp)
     ) {
-        LineVerticalComponent(contentAlignment = Alignment.TopStart)
+        LineVerticalComponent(contentAlignment = Alignment.TopEnd)
 
     }
 }

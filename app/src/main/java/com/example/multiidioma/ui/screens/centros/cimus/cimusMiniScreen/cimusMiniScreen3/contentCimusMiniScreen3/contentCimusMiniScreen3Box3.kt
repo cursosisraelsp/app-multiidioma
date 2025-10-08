@@ -15,9 +15,10 @@ fun contentCimusMiniScreen3Box3() {
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .padding(start = 50.dp,)
     ) {
         LineVerticalComponent(
             contentAlignment = Alignment.TopStart
-            )
+        )
     }
 }

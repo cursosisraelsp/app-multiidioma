@@ -57,6 +57,16 @@ sealed class Destination(val route: String) {
     object IceMiniScreen12 : Destination("IceMiniScreen12")
     object IceMiniScreen13 : Destination("IceMiniScreen13")
 
+    //Miniscreens - cimus
+    object CimusMiniScreen9 : Destination("CimusMiniScreen9")
+    object CimusMiniScreen10 : Destination("CimusMiniScreen10")
+    object CimusMiniScreen11 : Destination("CimusMiniScreen11")
+    object CimusMiniScreen12 : Destination("CimusMiniScreen12")
+    object CimusMiniScreen14 : Destination("CimusMiniScreen14")
+    object CimusMiniScreen15 : Destination("CimusMiniScreen15")
+    object CimusMiniScreen16 : Destination("CimusMiniScreen16")
+    object CimusMiniScreen17 : Destination("CimusMiniScreen17")
+
 
     object Imatus : Destination("imatus")
     object Ilg : Destination("ilg")

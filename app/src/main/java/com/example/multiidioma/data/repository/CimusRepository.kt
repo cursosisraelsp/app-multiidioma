@@ -2,6 +2,7 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+
 class CimusRepository {
 
     fun getMiniScreens(): List<MiniScreenData> {
@@ -12,14 +13,14 @@ class CimusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_0_paragraph_0,
 
-                ),
+                    ),
             ),
             MiniScreenData(
                 id = 1,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_1_paragraph_0,
 
-                ),
+                    ),
             ),
             MiniScreenData(
                 id = 2,
@@ -35,13 +36,14 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_3_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_3_paragraph_1,
 
-                ),
+                    ),
             ),
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_4_paragraph_0,
-                    R.string.CS_CIMUS_miniscreen_4_paragraph_1
+                    R.string.CS_CIMUS_miniscreen_4_paragraph_1,
+                    R.string.CS_CIMUS_miniscreen_4_paragraph_2
 
                 ),
 
@@ -139,7 +141,7 @@ class CimusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_14_paragraph_0,
 
-                ),
+                    ),
 
                 ),
             MiniScreenData(
@@ -159,7 +161,7 @@ class CimusRepository {
                 ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 17,
                 bodyParagraphs = listOf(
@@ -169,7 +171,7 @@ class CimusRepository {
                 ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 18,
                 bodyParagraphs = listOf(
@@ -179,7 +181,7 @@ class CimusRepository {
                 ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 19,
                 bodyParagraphs = listOf(
@@ -188,7 +190,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_19_paragraph_1
                 ),
 
-            ),
+                ),
             MiniScreenData(
                 id = 20,
                 bodyParagraphs = listOf(
@@ -199,15 +201,15 @@ class CimusRepository {
                     ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 21,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_21_title_0,
 
-                ),
+                    ),
 
-            ),
+                ),
             MiniScreenData(
                 id = 22,
                 bodyParagraphs = listOf(
@@ -217,7 +219,7 @@ class CimusRepository {
                 ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 23,
                 bodyParagraphs = listOf(
@@ -235,11 +237,10 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_24_paragraph_1,
 
 
-
                     ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 25,
                 bodyParagraphs = listOf(
@@ -249,7 +250,7 @@ class CimusRepository {
                     ),
 
 
-            ),
+                ),
             MiniScreenData(
                 id = 26,
                 bodyParagraphs = listOf(

@@ -2,8 +2,10 @@ package com.example.multiidioma.utils.cimusUtils
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -18,47 +20,25 @@ import com.example.multiidioma.utils.TemplateCircleScreenUtils.BackWithArrowButt
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.TitleTextCircleTemplateUtil
+import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.cimusUtils.CimusImage1
 
 @Composable
 fun CimusTemplateScreen1(
     data: MiniScreenData,
-    navController: NavController,
     modifier: Modifier = Modifier,
-    CircleImage: @Composable (MiniScreenData) -> Unit = {},
-    TitleText: @Composable (MiniScreenData) -> Unit = {},
-    BodyText: @Composable (MiniScreenData) -> Unit = {},
 ) {
-
-    val scrollState = rememberScrollState()
-
     Column(
         modifier = modifier
             .fillMaxSize()
-            .verticalScroll(scrollState)
     ) {
-        // Parte superior: CircleImage + Título
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(top = 16.dp)
-        ) {
-            CircleImageUtil(data, CircleImage)
-            TitleTextCircleTemplateUtil(data, TitleText)
-        }
-
         // Body principal
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 24.dp)
         ) {
-            BodyTextCircleTemplateUtil(
-                data = data,
-                BodyText = BodyText,
-                modifier = Modifier
-                    .fillMaxWidth()
-            )
+            TextBodyMedium(data, index = 0)
 
             // Bloques de imágenes y texto
             Column(
@@ -76,9 +56,11 @@ fun CimusTemplateScreen1(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         CimusImage1()
+                        Spacer(modifier = Modifier.height(10.dp))
                         LineVerticalComponent()
                     }
-                    CimusTextBox(data, index = 2, modifier = Modifier.weight(1f))
+
+                    TextBodyMedium(data, index = 1, modifier = Modifier.weight(1f))
                 }
 
                 // Bloque 2
@@ -93,31 +75,9 @@ fun CimusTemplateScreen1(
                         CimusImage2()
                         LineVerticalComponent()
                     }
-                    CimusTextBox(data, index = 4, modifier = Modifier.weight(1f))
-                }
-
-                // Bloque 3
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.Top
-                ) {
-                    Column(
-                        modifier = Modifier.fillMaxWidth(0.3f),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        CimusImage3()
-                    }
-                    CimusTextBox(data, index = 6, modifier = Modifier.weight(1f))
+                    TextBodyMedium(data, index = 2, modifier = Modifier.weight(1f))
                 }
             }
-
-            // Botón Back
-            BackWithArrowButtonCircleTemplate(
-                navController = navController,
-                modifier = Modifier
-                    .padding(top = 24.dp, end = 16.dp)
-                    .align(Alignment.End)
-            )
         }
     }
 }

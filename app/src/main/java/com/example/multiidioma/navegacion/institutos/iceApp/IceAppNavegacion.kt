@@ -3,14 +3,11 @@ package com.example.multiidioma.navegacion.institutos.iceApp
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.repository.IceRepository
-import com.example.multiidioma.data.repository.ImatusRepository
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen10.IceMiniScreen10
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen11.IceMiniScreen11
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen12.IceMiniScreen12

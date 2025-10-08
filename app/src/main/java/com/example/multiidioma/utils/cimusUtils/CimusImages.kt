@@ -8,13 +8,23 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import com.example.multiidioma.R
 
-/*
+
 @Composable
 fun CimusImage1() {
     Image(
-        painter = painterResource(R.drawable.cimus_img_02),
+        painter = painterResource(R.drawable.noimagen),
         contentDescription = "",
         modifier = Modifier.fillMaxSize(),
         contentScale = ContentScale.Fit
     )
-}*/
+}
+
+@Composable
+fun CimusImage2() {
+    Image(
+        painter = painterResource(R.drawable.noimagen),
+        contentDescription = "",
+        modifier = Modifier.fillMaxSize(),
+        contentScale = ContentScale.Fit
+    )
+}

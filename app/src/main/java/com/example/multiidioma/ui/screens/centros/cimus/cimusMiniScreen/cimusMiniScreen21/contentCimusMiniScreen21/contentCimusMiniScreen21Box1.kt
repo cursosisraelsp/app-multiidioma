@@ -24,7 +24,7 @@ fun contentCimusMiniScreen21Box1(
     ) {
 
         LottieScrollWithOffsetComponent(
-            debuxoLottie = R.raw.cimus_anim_06,
+            debuxoLottie = R.raw.figuritas, //R.raw.cimus_anim_06,
             listState = listState,
             itemIndex = itemIndex,
             modifier = Modifier.align(Alignment.CenterHorizontally)
