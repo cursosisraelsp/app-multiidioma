@@ -22,3 +22,8 @@ gradle
 UnityAndroidPermissions
 UnityARCoreModule
 VuforiaEngineModule_
+*.aab
+*.apk
+libs
+shared/
+release
