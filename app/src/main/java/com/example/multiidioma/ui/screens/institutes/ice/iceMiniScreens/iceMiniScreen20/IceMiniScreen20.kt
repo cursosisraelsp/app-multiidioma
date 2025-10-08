@@ -10,7 +10,6 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen20.contentIceMiniScreen20.contentIceMiniScreen20Box3
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen20.contentIceMiniScreen20.contentIceMiniScreen20Box1
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen20.contentIceMiniScreen20.contentIceMiniScreen20Box2
 @Composable
@@ -25,11 +24,11 @@ fun IceMiniScreen20(
             .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.9f, Box3 = 0f),
+            BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.8f, Box3 = 0f),
             data = data,
             Box1 = { contentIceMiniScreen20Box1(it) },
             Box2 = { contentIceMiniScreen20Box2(it) },
-            Box3 = { contentIceMiniScreen20Box3() }
+
         )
     }
 }

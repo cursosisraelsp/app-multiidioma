@@ -16,9 +16,8 @@ fun contentIceMiniScreen24Box1(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, bottom = 10.dp)
     ) {
-        LineVerticalComponent(contentAlignment = Alignment.TopStart)
+        LineVerticalComponent()
 
     }
 }

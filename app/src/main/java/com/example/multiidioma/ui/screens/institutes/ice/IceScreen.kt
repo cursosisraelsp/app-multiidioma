@@ -241,9 +241,7 @@ fun IceScreen(
 
                         )
 
-                        28
-
-                            -> IceMiniScreen30(
+                        28 -> IceMiniScreen30(
                             data,
                             Modifier
                                 .fillMaxWidth()

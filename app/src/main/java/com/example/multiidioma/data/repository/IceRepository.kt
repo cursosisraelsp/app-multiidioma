@@ -196,6 +196,7 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_18_paragraph_0,
                     R.string.II_ICE_miniscreen_18_paragraph_1,
                 ),
+                imageRes = R.drawable.ice_img_15
 
                 ),
             MiniScreenData(
@@ -205,7 +206,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_19_title_1,
                     R.string.II_ICE_miniscreen_19_paragraph_0,
                     R.string.II_ICE_miniscreen_19_paragraph_1
-                )
+                ),
+                        imageRes = R.drawable.ice_img_16
             ),
             MiniScreenData(
                 id = 20,
@@ -216,6 +218,7 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_20_paragraph_1,
 
                     ),
+                imageRes = R.drawable.ice_img_17
 
                 ),
             MiniScreenData(
@@ -223,9 +226,8 @@ imageRes = R.drawable.ice_img_12
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_21_title_0,
                     R.string.II_ICE_miniscreen_21_paragraph_0,
-
                     ),
-
+                imageRes = R.drawable.ice_img_18
                 ),
             MiniScreenData(
                 id = 22,
@@ -233,9 +235,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_22_title_0,
                     R.string.II_ICE_miniscreen_22_paragraph_0,
                     R.string.II_ICE_miniscreen_22_paragraph_1,
-
-
                     ),
+                imageRes = R.drawable.ice_img_19
 
                 ),
             MiniScreenData(
@@ -257,6 +258,7 @@ imageRes = R.drawable.ice_img_12
 
 
                     ),
+                imageRes = R.drawable.ice_img_21
 
                 ),
             MiniScreenData(
@@ -266,12 +268,13 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_25_paragraph_1,
 
                     ),
+                imageRes = R.drawable.ice_img_22
 
                 ),
             MiniScreenData(
                 id = 26,
                 bodyParagraphs = listOf(
-                    R.string.II_ICE_miniscreen_27_title_0,
+                    R.string.II_ICE_miniscreen_26_title_0,
 
                     ),
 

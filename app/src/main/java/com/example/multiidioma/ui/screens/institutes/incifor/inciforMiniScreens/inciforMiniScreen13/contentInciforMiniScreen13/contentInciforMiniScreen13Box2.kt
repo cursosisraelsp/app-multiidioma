@@ -11,7 +11,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.utils.NavigationFIgures.NavigationFiguresIncifor
+import com.example.multiidioma.utils.NavigationFigures.NavigationFiguresIncifor
 import com.example.multiidioma.utils.TextBodyMedium
 
 

@@ -36,7 +36,7 @@ fun contentIceMiniScreen19Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 30.dp, end = 30.dp, bottom = 10.dp)
+            .padding(start = 15.dp, end = 15.dp, bottom = 10.dp)
     ) {
         SpacerText()
 

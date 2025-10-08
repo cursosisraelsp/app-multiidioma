@@ -16,6 +16,7 @@ import com.example.multiidioma.data.repository.CitiusRepository
 import com.example.multiidioma.data.repository.IceRepository
 import com.example.multiidioma.data.repository.ImatusRepository
 import com.example.multiidioma.data.repository.InciforRepository
+import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
 import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
 import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
@@ -66,7 +67,7 @@ fun NavHostApp(
         IlgAppNavegacion()
         //## CENTROS
         CiqusAppNavegacion()
-        //->CimusAppNavegacion(listState)
+        CimusAppNavegacion(listState, navController)
         CitiusAppNavegacion(listState, navController)
         CretusAppNavegacion()
         IgfaeAppNavegacion()

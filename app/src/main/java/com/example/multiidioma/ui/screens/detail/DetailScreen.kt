@@ -20,7 +20,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
+import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
+import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
@@ -82,8 +84,16 @@ fun DetailScreen(
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
                     is ContentType.CIQUS -> CiqusScreen()
-                    //is ContentType.CIMUS -> CimusScreen()
-                    /*    is ContentType.CITIUS -> CitiusScreen()*/
+                    is ContentType.CIMUS -> CimusScreen(
+                        listState,
+                        navController,
+                    )
+
+                    is ContentType.CITIUS -> CitiusScreen(
+                        listState,
+                        navController,
+                    )
+
                     is ContentType.CRETUS -> CretusScreen()
                     is ContentType.IGFAE -> IgfaeScreen()
                     else -> Text("screen non atopado")

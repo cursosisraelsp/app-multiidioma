@@ -28,8 +28,8 @@ fun contentIceMiniScreen25Box2(data: MiniScreenData) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.5f)
-                .padding(start = 50.dp, end = 50.dp)
+                .weight(0.65f)
+                .padding(start = 30.dp, end = 30.dp)
         ) {
             TextBodyMedium(data)
         }
@@ -37,7 +37,7 @@ fun contentIceMiniScreen25Box2(data: MiniScreenData) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.5f)
+                .weight(0.35f)
                 .padding(start = 50.dp)
         ) {
             ReusableImage(data, estilosImagen)

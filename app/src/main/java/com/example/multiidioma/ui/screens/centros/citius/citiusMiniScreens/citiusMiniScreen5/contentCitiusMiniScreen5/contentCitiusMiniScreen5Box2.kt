@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.utils.NavigationFIgures.NavigationFiguresCitius
+import com.example.multiidioma.utils.NavigationFigures.NavigationFiguresCitius
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable

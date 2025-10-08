@@ -12,6 +12,7 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen0.contentIceMiniScreen0.contentIceMiniScreen0Box2
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen0.contentIceMiniScreen0.contentIceMiniScreen0Box3
 
@@ -32,12 +33,7 @@ fun IceMiniScreen0(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            VideoScreen(
-                videoId = "paWE-GvDO1c",
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+            VimeoWebViewComponent(identificador = "1124127236", width = "425px", height = "800px")
         }
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.5f, Box3 = 0.25f),

@@ -11,6 +11,7 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen7.contentIceMiniScreen7.contentIceMiniScreen7BodyText
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen7.contentIceMiniScreen7.contentIceMiniScreen7CircleImage
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen7.contentIceMiniScreen7.contentIceMiniScreen7TitleText
@@ -31,12 +32,7 @@ fun IceMiniScreen7(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            VideoScreen(
-                videoId = "paWE-GvDO1c",
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+            VimeoWebViewComponent(identificador = "1124127249", width = "425px", height = "800px")
         }
         Box(
             modifier = modifier

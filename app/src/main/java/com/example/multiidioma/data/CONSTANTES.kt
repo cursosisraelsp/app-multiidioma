@@ -17,6 +17,7 @@ val urlCitius = "https://citius.gal/es/ "
 val urlIpsius = ""
 val urlImatus = "https://investigacion.usc.gal/investigadores/60527/detalle"
 val urlIce = ""
+val urlCimus = ""
 data class BOX(
     val Box1: Float,
     val Box2: Float,

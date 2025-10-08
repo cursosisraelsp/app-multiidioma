@@ -54,7 +54,7 @@ fun contentIceMiniScreen21Box2(data: MiniScreenData) {
         ) {
             ReusableImage(data, estilosImagen)
         }
-        Spacer(modifier = Modifier.height(5.dp))
+        Spacer(modifier = Modifier.height(25.dp))
 
         TextBodyMedium(data, index = 1, textAlign = TextAlign.Center)
 
