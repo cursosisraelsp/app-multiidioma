@@ -1,17 +1,17 @@
-package com.example.multiidioma.ui.components.Shapes
+package com.example.multiidioma.utils
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.ui.components.Shapes.CircleComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun CircleLineComponent(
+fun CircleLineTimelineUtil(
     contentAlignment: Alignment = Alignment.Center,
     color: Color = Color.White
 ) {
@@ -27,9 +27,6 @@ fun CircleLineComponent(
         ) {
 
             CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f, color = color)
-
-            Spacer(modifier = Modifier.height(15.dp))
-
             LineVerticalComponent(color = color)
 
         }

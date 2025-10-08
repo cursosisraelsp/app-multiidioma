@@ -1,0 +1,53 @@
+package com.example.multiidioma.utils
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.types.MiniScreenData
+
+
+@Composable
+fun TimelineTemplateBoxUtil(
+    data: MiniScreenData,
+    index: Int,
+    modifier: Modifier = Modifier,
+    colorDisplay: Color = Color(0xFF32627E)
+) {
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+    ) {
+        // Columna de texto (más ancha)
+        Column(
+            modifier = Modifier
+                .weight(1f) // más ancho que la columna del círculo
+        ) {
+            TextDisplayMedium(
+                data,
+                index = index,
+                color = colorDisplay
+            )
+            TextBodyMedium(
+                data,
+                index = index + 1,
+                color = Color.Black
+            )
+        }
+        // Columna del círculo (más estrecha)
+        Column(
+            modifier = Modifier
+                .weight(0.5f)
+                .fillMaxHeight(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            CircleLineTimelineUtil(color = Color.Black)
+        }
+    }
+}

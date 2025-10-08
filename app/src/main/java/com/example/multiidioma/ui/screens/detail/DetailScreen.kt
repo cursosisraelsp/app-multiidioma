@@ -1,5 +1,7 @@
 package com.example.multiidioma.ui.screens.detail
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyListState
@@ -20,6 +22,7 @@ import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
+import com.example.multiidioma.ui.screens.centros.idis.IdisScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
 import com.example.multiidioma.ui.screens.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
@@ -33,6 +36,7 @@ import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 
+@RequiresApi(Build.VERSION_CODES.P)
 @Composable
 fun DetailScreen(
     navController: NavController,
@@ -86,6 +90,7 @@ fun DetailScreen(
                     is ContentType.CITIUS -> CitiusScreen()
                     is ContentType.CRETUS -> CretusScreen()
                     is ContentType.IGFAE -> IgfaeScreen()
+                    is ContentType.IDIS -> IdisScreen(listState, navController)
                     else -> Text("screen non atopado")
                 }
             }

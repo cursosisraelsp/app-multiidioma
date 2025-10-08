@@ -10,5 +10,6 @@ val listSingularsCenters = listOf(
     CarouselItem("1", R.drawable.patron6, nomeCentros[1],"cimus",contentType = ContentType.CIMUS),
     CarouselItem("2", R.drawable.patron6, nomeCentros[2],"citius",contentType = ContentType.CITIUS),
     CarouselItem("3", R.drawable.patron6, nomeCentros[3],"cretus",contentType = ContentType.CRETUS),
-    CarouselItem("4", R.drawable.patron6, nomeCentros[4],"igfae",contentType = ContentType.IGFAE)
+    CarouselItem("4", R.drawable.patron6, nomeCentros[4],"igfae",contentType = ContentType.IGFAE),
+    CarouselItem("5", R.drawable.patron6, nomeCentros[5],"idis",contentType = ContentType.IDIS),
 )

@@ -19,4 +19,5 @@ sealed class ContentType (){
     object CITIUS : ContentType()
     object CRETUS : ContentType()
     object IGFAE : ContentType()
+    object IDIS : ContentType()
 }
