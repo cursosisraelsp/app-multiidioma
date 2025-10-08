@@ -3,11 +3,11 @@ package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentIgfaeMiniScreen19Box3() {
-    CircleLineComponent(
+    LineVerticalComponent(
         color =(Color(0xFFFFFFFF))
     )
 }

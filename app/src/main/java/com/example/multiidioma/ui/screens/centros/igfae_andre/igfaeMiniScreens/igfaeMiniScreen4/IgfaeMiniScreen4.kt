@@ -10,7 +10,6 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.contentIgfaeMiniScreen4.contentIgfaeMiniScreen4Box1
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.contentIgfaeMiniScreen4.contentIgfaeMiniScreen4Box2
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.contentIgfaeMiniScreen4.contentIgfaeMiniScreen4Box3
 
@@ -29,8 +28,8 @@ fun IgfaeMiniScreen4(
 
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.30f, Box2 = 0.45f, Box3 = 0.25f),
-            Box1 = { contentIgfaeMiniScreen4Box1() },
+            BoxWeight = BOX(Box1 = 0.30f, Box2 = 0.9f, Box3 = 0.1f),
+
             Box2 = {contentIgfaeMiniScreen4Box2(it) },
             Box3 = { contentIgfaeMiniScreen4Box3() }
         )

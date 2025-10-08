@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen13.contentIarcusMiniScreen13
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen3.contentIarcusMiniScreen3
 
 
 import androidx.compose.foundation.background
@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun contentIarcusMiniScreen13Box3() {
+fun ContentIarcusMiniScreen3Box3() {
     Box(
         modifier = Modifier
             .fillMaxSize()

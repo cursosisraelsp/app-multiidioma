@@ -16,8 +16,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -25,17 +28,21 @@ fun contentIgfaeMiniScreen20Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 10.dp, bottom = 10.dp, start = 50.dp, end = 50.dp),
+            .padding(top = 20.dp, bottom =20.dp, start = 50.dp, end = 50.dp),
         horizontalAlignment = Alignment.End,
         verticalArrangement = Arrangement.Center
     ) {
         val estiloTextos =
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
 
-        AppText(data, estiloTextos)
+        AppText(data, estiloTextos,index=0)
+        SpacerText()
 
-        AppText(data, estiloTextos)
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        )
+        ReusableImage(data , estilosImagen)
+    }
 
 
     }
-}

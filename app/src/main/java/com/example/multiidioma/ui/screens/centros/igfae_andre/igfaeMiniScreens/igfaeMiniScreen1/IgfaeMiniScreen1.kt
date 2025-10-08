@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
@@ -29,10 +30,11 @@ fun IgfaeMiniScreen1(
             .background(Color(0xFF32627E))
     ) {
        TemplateScreen(
+           BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.80f, Box3 = 0.1f),
             data = data,
             Box1 = { contentIgfaeMiniScreen1Box1() },
             Box2 = { contentIgfaeMiniScreen1Box2(it) },
-            Box3 = { contentIgfaeMiniScreen1Box3(it) })
+            Box3 = { contentIgfaeMiniScreen1Box3() })
 
     }
 }

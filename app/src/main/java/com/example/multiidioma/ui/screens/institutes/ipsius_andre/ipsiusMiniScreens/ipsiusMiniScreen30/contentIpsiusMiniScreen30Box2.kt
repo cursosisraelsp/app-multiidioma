@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -49,18 +50,22 @@ fun contentIpsiusMiniScreen30Box2(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
+
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 15.dp),
-            contentAlignment = Alignment.Center
+            contentAlignment = Alignment.TopEnd
         ) {
             val estilosImagen = StyleImages(
-                modifier = Modifier.height(150.dp),
+                modifier = Modifier
+                    .height(150.dp)
+                    .offset(x = 40.dp),
                 alignment = Alignment.TopEnd
             )
             ReusableImage(data, estilosImagen)
         }
+
 
         val estiloTextos = StyleText(
             style = MaterialTheme.typography.bodyMedium,
@@ -68,12 +73,12 @@ fun contentIpsiusMiniScreen30Box2(
             textAlign = TextAlign.End
         )
 
+
         AppText(data, estiloTextos, index = 0)
         SpacerText()
         AppText(data, estiloTextos, index = 1)
         SpacerText()
         AppText(data, estiloTextos, index = 2)
-
 
         Spacer(modifier = Modifier.height(24.dp))
 

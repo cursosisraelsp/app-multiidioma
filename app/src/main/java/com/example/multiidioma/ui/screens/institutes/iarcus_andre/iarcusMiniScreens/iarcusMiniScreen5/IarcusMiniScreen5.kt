@@ -25,10 +25,9 @@ fun IarcusMiniScreen5(
             .background(Color(0xFF4189B5))
     ) {
 
-
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.0f, Box2 = 0.8f, Box3 = 0.20f),
+            BoxWeight = BOX(Box1 = 0.0f, Box2 = 0.9f, Box3 = 0.1f),
             Box2 = { contentIarcusMiniScreen5Box2(it) },
             Box3 = { contentIarcusMiniScreen5Box3() })
     }

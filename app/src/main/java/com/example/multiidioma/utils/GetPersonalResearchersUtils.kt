@@ -2,7 +2,6 @@ package com.example.multiidioma.utils
 
 import com.example.multiidioma.data.types.PersonalResearcher
 import com.example.multiidioma.data.types.PersonalResearcher2
-import kotlin.collections.map
 
 
 fun GetPersonalResearcherUtils(personal :  MutableList<PersonalResearcher2>): List<PersonalResearcher>{

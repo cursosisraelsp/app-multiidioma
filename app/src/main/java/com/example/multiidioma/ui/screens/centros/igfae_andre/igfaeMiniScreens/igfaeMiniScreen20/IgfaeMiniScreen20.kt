@@ -21,12 +21,12 @@ fun IgfaeMiniScreen20(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF66AD1))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.35f, Box2 = 0.40f, Box3 = 0.25f),
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             data = data,
-            Box1 = { contentIgfaeMiniScreen20Box1(it) },
+            Box1 = { contentIgfaeMiniScreen20Box1() },
             Box2 = { contentIgfaeMiniScreen20Box2(it) },
             Box3 = { contentIgfaeMiniScreen20Box3() })
     }

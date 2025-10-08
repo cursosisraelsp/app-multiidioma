@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
-import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentCretusMiniScreen4Box3() {

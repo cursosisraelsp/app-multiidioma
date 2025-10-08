@@ -3,7 +3,6 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable

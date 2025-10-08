@@ -2,11 +2,11 @@ package com.example.multiidioma.ui.components
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import coil.ImageLoader
 import coil.compose.AsyncImage
 import coil.decode.GifDecoder
 import coil.request.ImageRequest
-import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun GifComponent(modifier: Modifier = Modifier,gif: Int) {

@@ -8,6 +8,6 @@ import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 @Composable
 fun contentIgfaeMiniScreen20Box3() {
     CircleLineComponent(
-        color =(Color(0xFFFFFFFF))
+        color =(Color(0xFF000000))
     )
 }

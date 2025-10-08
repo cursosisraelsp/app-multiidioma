@@ -22,6 +22,8 @@ sealed class ContentType (){
     object CRETUS : ContentType()
     object IGFAE : ContentType()
     object PersonalTemplateScreen : ContentType()
+    object PLANTILLA : ContentType()
+
     ///////MINISCREENS-IPSIUS/////
 /*
     object MINISCREEN20: ContentType()

@@ -2,6 +2,9 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.datosInvestigadores
+import com.example.multiidioma.utils.GetPersonalResearcherUtils
+import com.example.multiidioma.utils.PersonsResearchersUtils
 
 class IpsiusRepository {
     fun getMiniScreens(): List<MiniScreenData> {
@@ -178,7 +181,7 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_19_paragraph_7,
                     R.string.II_IPSIUS_miniscreen_19_paragraph_8,
                 ),
-
+                personalResearcher = GetPersonalResearcherUtils(PersonsResearchersUtils(datosInvestigadores))
                 ),
             MiniScreenData(
                 id = 20,

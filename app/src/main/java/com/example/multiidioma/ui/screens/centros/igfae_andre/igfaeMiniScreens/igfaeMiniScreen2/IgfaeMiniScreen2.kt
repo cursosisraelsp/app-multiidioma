@@ -30,8 +30,8 @@ fun IgfaeMiniScreen2(
     ) {
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.5f, Box2 = 0.4f, Box3 = 0.1f),
-            Box1 = { contentIgfaeMiniScreen2Box1(it) },
+            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.60f, Box3 = 0.20f),
+            Box1 = { contentIgfaeMiniScreen2Box1() },
             Box2 = { contentIgfaeMiniScreen2Box2(it) },
             Box3 = { contentIgfaeMiniScreen2Box3() })
     }

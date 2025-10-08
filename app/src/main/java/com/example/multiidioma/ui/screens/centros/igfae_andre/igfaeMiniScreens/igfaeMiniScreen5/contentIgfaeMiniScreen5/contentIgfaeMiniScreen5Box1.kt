@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentIgfaeMiniScreen5Box1(){
@@ -13,6 +13,6 @@ fun contentIgfaeMiniScreen5Box1(){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        LineCircleComponent( color =(Color(0xFF000000)))
+        LineVerticalComponent( color =(Color(0xFFFFFFFF)))
     }
 }

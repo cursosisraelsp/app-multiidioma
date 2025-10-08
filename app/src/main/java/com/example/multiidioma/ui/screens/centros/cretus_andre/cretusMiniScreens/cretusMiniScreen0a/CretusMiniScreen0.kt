@@ -10,7 +10,6 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-
 import com.example.multiidioma.ui.components.VideoScreen
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen0a.contentCretusMiniScreen0.contentCretusMiniScreen0Box2
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen0a.contentCretusMiniScreen0.contentCretusMiniScreen0Box3
@@ -31,6 +30,7 @@ fun CretusMiniScreen0(
             modifier = modifier
                 .fillMaxSize()
         ) {
+
             VideoScreen(
                 videoId = "", // tu ID de video
                 modifier = Modifier
@@ -38,6 +38,7 @@ fun CretusMiniScreen0(
                     .aspectRatio(9f / 16f)
             )
         }
+
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.00f, Box2 = 0.70f, Box3 = 0.30f),
             data = data,

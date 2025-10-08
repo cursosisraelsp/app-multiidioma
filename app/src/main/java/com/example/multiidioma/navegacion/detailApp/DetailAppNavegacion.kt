@@ -5,7 +5,6 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
-import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.screens.detail.DetailScreen
 
 fun NavGraphBuilder.detailNavGraph(listState: LazyListState,navController: NavHostController,onClose : ()-> Unit){

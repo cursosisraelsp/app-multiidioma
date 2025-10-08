@@ -9,6 +9,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import com.example.multiidioma.data.repository.CretusRepository
 import com.example.multiidioma.data.repository.IarcusRepository
 import com.example.multiidioma.data.repository.IgfaeRepository
@@ -30,6 +31,7 @@ import com.example.multiidioma.navegacion.institutos.ipsiusApp.IpsiusAppNavegaci
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
+import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -74,8 +76,22 @@ fun NavHostApp(
         CitiusAppNavegacion()
         CretusAppNavegacion(listState, navController, Cretusrepository)
         IgfaeAppNavegacion(listState, navController, Igfaerepository)
+
         detailNavGraph(listState, navController, onClose = onOpenMap)
 
 
+        //////////////////////////////
+
+
+
+        composable("detalles/{itemId}") { backStackEntry ->
+            // Aquí puedes acceder a los argumentos
+
+            val itemId = backStackEntry.arguments?.getString("itemId")
+
+            if (itemId != null) {
+                Plantilla(itemId = itemId)
+            } // Pasa el argumento al Composable
+        }
     }
 }

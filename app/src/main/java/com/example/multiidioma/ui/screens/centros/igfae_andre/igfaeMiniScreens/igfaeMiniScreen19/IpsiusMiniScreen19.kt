@@ -27,9 +27,9 @@ fun IgfaeMiniScreen19(
             .background(Color(0xFF765A40))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.35f, Box2 = 0.40f, Box3 = 0.25f),
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             data = data,
-            Box1 = { contentIgfaeMiniScreen19Box1(it) },
+            Box1 = { contentIgfaeMiniScreen19Box1() },
             Box2 = { contentIgfaeMiniScreen19Box2(it) },
             Box3 = { contentIgfaeMiniScreen19Box3() })
     }

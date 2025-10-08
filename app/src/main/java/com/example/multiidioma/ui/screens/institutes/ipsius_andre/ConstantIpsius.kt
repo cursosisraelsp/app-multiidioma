@@ -123,7 +123,7 @@ val ifcIpsius = PersonResearcher(
             R.string.info_investigador_test_2,
             R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 
 val srhIpsius = PersonResearcher(
@@ -134,7 +134,7 @@ val srhIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 
 val cmvIpsius = PersonResearcher(
@@ -145,7 +145,7 @@ val cmvIpsius = PersonResearcher(
              R.string.info_investigador_test_2,
              R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 
 val ebiIpsius = PersonResearcher(
@@ -156,7 +156,7 @@ val ebiIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 val fciIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -166,7 +166,7 @@ val fciIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 val nmnIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -176,7 +176,7 @@ val nmnIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 val fcmIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -186,7 +186,7 @@ val fcmIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 val ertIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -196,7 +196,7 @@ val ertIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 val llrIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
@@ -206,7 +206,7 @@ val llrIpsius = PersonResearcher(
            R.string.info_investigador_test_2,
            R.string.info_investigador_test_3*/
     ),
-    contentType = ContentType.PersonalTemplateScreen
+    contentType = ContentType.PLANTILLA
 )
 
 
