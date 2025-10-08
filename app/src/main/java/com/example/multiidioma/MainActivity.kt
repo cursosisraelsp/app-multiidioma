@@ -19,19 +19,29 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.ui.MyApp
 import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.viewmodel.LanguageViewModel
-import com.unity3d.player.UnityPlayerGameActivity
+
+import android.webkit.WebView
+import android.webkit.WebViewClient
+
+import androidx.compose.ui.Modifier
+
+import androidx.compose.ui.viewinterop.AndroidView
+import android.webkit.WebChromeClient
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             val languageViewModel: LanguageViewModel = viewModel()
-            MyApp(languageViewModel)
+            //MyApp(languageViewModel)
             //MapScreen()
             //AbrirUnity()
             //AbrirUnityConLoader()
             //BotonAbrirUnity()
             //BotonAbrirFakeCameraActivityUnity()
+            //VimeoWebView(videoUrl = "https://player.vimeo.com/video/1124127714?loop=1&autoplay=1&muted=1")
+            VimeoWebViewComponent(videoUrl = "https://player.vimeo.com/video/1124127714?loop=1&autoplay=1&muted=1", height = "800px", width = "400px")
         }
     }
 }
@@ -39,172 +49,45 @@ class MainActivity : ComponentActivity() {
 
 
 
-@Composable
-fun BotonAbrirUnity() {
-    val context = LocalContext.current
-
-    Button(onClick = {
-        val intent = Intent(context, LoaderUnityActivity::class.java)
-        context.startActivity(intent)
-    }) {
-        Text("Abrir Unity")
-    }
-}
-
-
-@Composable
-fun AbrirUnity() {
-    val context = LocalContext.current
-    Button(onClick = {
-        val intent = Intent(context, LoaderActivity::class.java)// cargo la ACTIVIDAD CREADA
-        context.startActivity(intent)
-    }) {
-        Text("Abrir Unity")
-    }
-}
 
 /*
-
 @Composable
-fun AbrirUnityConLoader() {
-    val context = LocalContext.current
-    var mostrarLoader by remember { mutableStateOf(false) }
-
-    // Launcher para pedir permiso de cámara
-    val launcher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission(),
-        onResult = { granted ->
-            if (granted) {
-                // mostramos loader mientras Unity arranca
-                mostrarLoader = true
-            } else {
-                Toast.makeText(context, "Permiso de cámara denegado", Toast.LENGTH_SHORT).show()
+fun VimeoWebView(videoUrl: String, modifier: Modifier = Modifier) {
+    AndroidView(
+        factory = { context ->
+            WebView(context).apply {
+                settings.javaScriptEnabled = true
+                settings.domStorageEnabled = true
+                webViewClient = WebViewClient()
+                webChromeClient = WebChromeClient()
             }
-        }
-    )
-
-    // Efecto que se dispara cuando mostrarLoader cambia a true
-    LaunchedEffect(mostrarLoader) {
-        if (mostrarLoader) {
-            // Pequeña espera para que el loader se muestre antes de abrir Unity
-            kotlinx.coroutines.delay(1000)
-
-            // Lanzamos Unity
-            val intent = Intent(context, com.unity3d.player.UnityPlayerGameActivity::class.java)
-            context.startActivity(intent)
-
-            // Ocultamos loader (opcional, ya que Unity reemplaza la pantalla)
-            //mostrarLoader = false
-        }
-    }
-
-    // UI principal
-    Box(
-        modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        if (mostrarLoader) {
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                CircularProgressIndicator()
-                Spacer(modifier = Modifier.height(16.dp))
-                Text("Cargando Unity...")
-            }
-        } else {
-            Button(
-                onClick = {
-                    //launcher.launch(Manifest.permission.CAMERA)
-                    val intent = Intent(context, com.unity3d.player.UnityPlayerGameActivity::class.java)
-                    context.startActivity(intent)
-                }
-            ) {
-                Text("Abrir Unity")
-            }
-        }
+        },
+        modifier = modifier
+    ) { webView ->
+        // Carga el embed de Vimeo
+        val html = """
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+           
+            <body style="margin:0;padding:0;">
+                <iframe 
+                    src="$videoUrl" 
+                    width="400px" 
+                    height="800px" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </body>
+            </html>
+        """
+        webView.loadData(html, "text/html", "utf-8")
     }
 }
 */
-/*
-@Composable
-fun AbrirUnityConLoader0() {
-    val context = LocalContext.current
-    var mostrarLoader by remember { mutableStateOf(false) }
 
-    // Launcher para el permiso de cámara
-    val launcher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission(),
-        onResult = { granted ->
-            if (granted) {
-                // Mostramos loader antes de abrir Unity
-                mostrarLoader = true
-
-                // Pequeño retardo para mostrar el loader (simula precarga)
-                Handler(Looper.getMainLooper()).postDelayed({
-                    val intent = Intent(context, com.unity3d.player.UnityPlayerGameActivity::class.java)
-                    context.startActivity(intent)
-
-                    // Ocultamos loader después de lanzar Unity
-                    mostrarLoader = false
-                }, 1000) // 1 segundo, puedes ajustarlo
-            } else {
-                Toast.makeText(context, "Permiso de cámara denegado", Toast.LENGTH_SHORT).show()
-            }
-        }
-    )
-
-    Box(
-        modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        if (mostrarLoader) {
-            // Pantalla de carga mientras arranca Unity
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                CircularProgressIndicator()
-                Spacer(modifier = Modifier.height(16.dp))
-                Text("Cargando Unity...")
-            }
-        } else {
-            // Botón normal
-            Button(
-                onClick = {
-                    //launcher.launch(Manifest.permission.CAMERA)
-                    val intent = Intent(context, com.unity3d.player.UnityPlayerGameActivity::class.java)
-                    context.startActivity(intent)
-                }
-            ) {
-                Text("Abrir Unity")
-            }
-        }
-    }
-}
-
-*/
-
-/* -- A primeira
-@Composable
-fun AbrirUnity(){
-    val context = LocalContext.current  // <-- obtenemos el Context
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Button(
-            onClick = {
-                // Lanzamos UnityPlayerActivity
-                val intent = Intent(context, com.unity3d.player.UnityPlayerGameActivity::class.java)
-                context.startActivity(intent)
-            }
-        ) {
-            Text("Abrir Unity")
-        }
-    }
-}
-
-
- */

@@ -30,4 +30,5 @@ sealed class ContentType (){
     ///////MINISCREENS-INCIFOR/////
     object MINISCREEN27: ContentType()
     object MINISCREEN28: ContentType()
+    object PLANTILLA: ContentType()
 }
