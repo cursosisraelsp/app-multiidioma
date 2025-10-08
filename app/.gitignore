@@ -8,3 +8,10 @@ shared/
 # UnityLibrary build output
 unityLibrary/
 unityLibrary/build/
+release
+# Ignorar archivos AAB y APK
+*.aab
+*.apk
+
+# Ignorar carpeta de release dentro de cualquier módulo
+**/release/
