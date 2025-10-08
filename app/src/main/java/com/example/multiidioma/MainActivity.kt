@@ -41,7 +41,8 @@ class MainActivity : ComponentActivity() {
             //BotonAbrirUnity()
             //BotonAbrirFakeCameraActivityUnity()
             //VimeoWebView(videoUrl = "https://player.vimeo.com/video/1124127714?loop=1&autoplay=1&muted=1")
-            VimeoWebViewComponent(videoUrl = "https://player.vimeo.com/video/1124127714?loop=1&autoplay=1&muted=1", height = "800px", width = "400px")
+            val INCIFOR_VC= "1124127714"
+            VimeoWebViewComponent(videoUrl = "https://player.vimeo.com/video/$INCIFOR_VC?loop=1&autoplay=1&muted=1", height = "800px", width = "400px")
         }
     }
 }

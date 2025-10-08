@@ -3,6 +3,8 @@
 .gradle/
 build/
 **/build/
-
+libs
+shared/
 # UnityLibrary build output
+unityLibrary/
 unityLibrary/build/
