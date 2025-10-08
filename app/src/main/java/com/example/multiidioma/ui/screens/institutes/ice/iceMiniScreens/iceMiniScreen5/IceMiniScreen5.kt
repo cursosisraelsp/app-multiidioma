@@ -27,7 +27,7 @@ fun IceMiniScreen5(
             .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.8f, Box3 = 0.1f),
+            BoxWeight = BOX(Box1 = 0.08f, Box2 = 0.82f, Box3 = 0.1f),
             data = data,
             Box1 = { contentIceMiniScreen5Box1() },
             Box2 = { contentIceMiniScreen5Box2(it, navController) },

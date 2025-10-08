@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen16.contentIceMiniScreen16
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -36,7 +37,9 @@ fun contentIceMiniScreen16Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 30.dp, end = 30.dp, bottom = 10.dp)
+            .padding(start = 30.dp, end = 30.dp, bottom = 10.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         SpacerText()
 

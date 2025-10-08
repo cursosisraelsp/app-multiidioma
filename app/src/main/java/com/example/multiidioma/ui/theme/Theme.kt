@@ -77,7 +77,7 @@ val AppTypography = Typography(
     titleMediumEmphasized = TextStyle(
         fontFamily = merriweatherFamily,
         fontWeight = FontWeight.Normal,
-        fontSize = 28.sp
+        fontSize = 24.sp
     ),
 )
 

@@ -14,7 +14,6 @@ fun contentIceMiniScreen19Box1(data: MiniScreenData) {
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .fillMaxHeight(0.3f)
     ) {
         LineVerticalComponent()
     }

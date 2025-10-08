@@ -24,7 +24,7 @@ fun IceMiniScreen6(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF66AAD1))
+            .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.7f, Box3 = 0.2f),

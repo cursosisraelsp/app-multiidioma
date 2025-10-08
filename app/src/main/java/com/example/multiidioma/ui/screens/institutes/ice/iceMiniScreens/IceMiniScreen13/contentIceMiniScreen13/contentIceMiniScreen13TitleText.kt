@@ -14,6 +14,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Text.AppText
 import com.example.multiidioma.utils.TextTitleMedium
+import com.example.multiidioma.utils.TextTitleMediumRegular
 
 @Composable
 fun contentIceMiniScreen13TitleText(data: MiniScreenData) {
@@ -25,8 +26,8 @@ fun contentIceMiniScreen13TitleText(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
         TextTitleMedium(data,  index = 0)
-        TextTitleMedium(data,  index = 1)
-        TextTitleMedium(data,  index = 2)
+        TextTitleMediumRegular(data,  index = 1)
+        TextTitleMediumRegular(data,  index = 2)
     }
 }
 

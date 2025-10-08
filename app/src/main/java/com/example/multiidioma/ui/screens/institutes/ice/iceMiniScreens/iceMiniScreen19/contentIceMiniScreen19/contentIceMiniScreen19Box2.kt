@@ -58,6 +58,9 @@ fun contentIceMiniScreen19Box2(data: MiniScreenData) {
         Spacer(modifier = Modifier.height(5.dp))
 
         TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)
+        SpacerText()
+        TextBodyMedium(data, index = 3, textAlign = TextAlign.Center)
+
 
     }
 }

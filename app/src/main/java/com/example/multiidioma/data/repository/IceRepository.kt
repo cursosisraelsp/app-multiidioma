@@ -182,6 +182,7 @@ imageRes = R.drawable.ice_img_12
                 id = 17,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_17_title_0,
+                    R.string.II_ICE_miniscreen_17_title_1,
                     R.string.II_ICE_miniscreen_17_paragraph_0,
                 ),
                 imageRes = R.drawable.ice_img_14
@@ -191,7 +192,9 @@ imageRes = R.drawable.ice_img_12
                 id = 18,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_18_title_0,
+                    R.string.II_ICE_miniscreen_18_title_1,
                     R.string.II_ICE_miniscreen_18_paragraph_0,
+                    R.string.II_ICE_miniscreen_18_paragraph_1,
                 ),
 
                 ),
@@ -199,6 +202,7 @@ imageRes = R.drawable.ice_img_12
                 id = 19,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_19_title_0,
+                    R.string.II_ICE_miniscreen_19_title_1,
                     R.string.II_ICE_miniscreen_19_paragraph_0,
                     R.string.II_ICE_miniscreen_19_paragraph_1
                 )
@@ -207,6 +211,7 @@ imageRes = R.drawable.ice_img_12
                 id = 20,
                 bodyParagraphs = listOf(
                     R.string.II_ICE_miniscreen_20_title_0,
+                    R.string.II_ICE_miniscreen_20_title_1,
                     R.string.II_ICE_miniscreen_20_paragraph_0,
                     R.string.II_ICE_miniscreen_20_paragraph_1,
 

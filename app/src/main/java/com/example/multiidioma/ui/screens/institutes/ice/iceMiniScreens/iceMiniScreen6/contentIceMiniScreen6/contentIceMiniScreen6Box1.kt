@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.ui.components.Shapes.LineCircleAligmentComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentIceMiniScreen6Box1() {
@@ -19,6 +20,6 @@ fun contentIceMiniScreen6Box1() {
             .padding(bottom = 20.dp)
             .background(Color(0xFF32627E))
     ) {
-        LineCircleAligmentComponent(lineHeight = 31.dp, contentAlignment = Alignment.Center)
+        LineVerticalComponent(contentAlignment = Alignment.Center)
     }
 }

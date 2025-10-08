@@ -18,10 +18,9 @@ fun contentIceMiniScreen4Box1() {
             .fillMaxSize()
     ) {
         LineVerticalComponent(
-            modifier = Modifier.padding(end = 38.dp),
+            modifier = Modifier.padding(end = 37.8.dp),
             contentAlignment = Alignment.TopEnd,
             color = Color.Black,
-            thickness = 2.dp
 
 
         )

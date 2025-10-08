@@ -1,6 +1,7 @@
 package com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen5.contentIceMiniScreen5
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -13,12 +14,10 @@ import com.example.multiidioma.ui.components.Shapes.LineCircleAligmentComponent
 
 @Composable
 fun contentIceMiniScreen5Box1() {
-    Column(
+    Box(
         modifier = Modifier
             .fillMaxSize()
             .padding(bottom = 20.dp)
             .background(Color(0xFF32627E))
-    ) {
-        LineCircleAligmentComponent(lineHeight = 30.dp, contentAlignment = Alignment.Center)
-    }
+    ) {}
 }
