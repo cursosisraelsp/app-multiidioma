@@ -85,8 +85,8 @@ fun CimusScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                            listState = listState,
-                            itemIndex = index
+                            //listState = listState,
+                            //itemIndex = index
                         )
 
                         2 -> CimusMiniScreen2(
@@ -144,39 +144,6 @@ fun CimusScreen(
                                 .fillParentMaxHeight()
                         )
 
-                     /*   9 -> CimusMiniScreen9(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-
-
-                        )
-
-                        10 -> CimusMiniScreen10(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        11 -> CimusMiniScreen11(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                        )
-
-                        12 -> CimusMiniScreen12(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )*/
 
                         13 -> CimusMiniScreen13(
                             data,

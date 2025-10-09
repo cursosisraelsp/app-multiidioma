@@ -77,7 +77,7 @@ fun NavHostApp(
             val itemId = backStackEntry.arguments?.getString("itemId")
 
             if (itemId != null) {
-                Plantilla(itemId = itemId)
+                Plantilla(itemId = itemId,navController)
             } // Pasa el argumento al Composable
 
         }

@@ -23,6 +23,7 @@
     <string name="Directive_Team">EQUIPO DIRECTIVO</string>
     <string name="MORE_INFO">MAIS INFO</string>
     <string name="Research_Staff">PERSOAL INVESTIGADOR</string>
+    <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
 
 
 </resources>

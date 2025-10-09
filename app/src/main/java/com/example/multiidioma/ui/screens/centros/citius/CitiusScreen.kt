@@ -157,14 +157,14 @@ fun CitiusScreen(
                                 .fillParentMaxHeight(),
                         )
 
-                      /*  17 -> CitiusMiniScreen17(
+                        17 -> CitiusMiniScreen17(
                             data,
                             navController,
                             podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                        )*/
+                        )
 
 
                         /*18 -> CitiusMiniScreen18(data, navController)*/
@@ -178,12 +178,12 @@ fun CitiusScreen(
                            24 -> CitiusMiniScreen24()
                            25 -> CitiusMiniScreen25()*/
 
-                        26 -> CitiusMiniScreen26(
+                        /*26 -> CitiusMiniScreen26(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
+                        )*/
 
                         else -> Text("MiniScreen desconocida")
                     }

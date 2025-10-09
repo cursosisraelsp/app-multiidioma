@@ -9,9 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box1
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box2
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box3
@@ -20,8 +18,6 @@ import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen
 fun CimusMiniScreen1(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
-    listState: LazyListState,
-    itemIndex: Int,
 ) {
     Box(
         modifier = modifier

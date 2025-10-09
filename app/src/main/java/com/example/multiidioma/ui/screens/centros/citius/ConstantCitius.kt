@@ -5,22 +5,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.numBigCitius
+import com.example.multiidioma.data.numLetra
+import com.example.multiidioma.data.numLetra2
+import com.example.multiidioma.data.numSmallCitius
+import com.example.multiidioma.data.relacionTexto
+import com.example.multiidioma.data.relacionTextoGrande
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
-
-val des = Resources.getSystem().displayMetrics
-val numLetra = (80 / des.density).sp
-val numLetra2 = ((40 / des.density)).sp
-val relacionDimen = 300 / 150
-val relacionTexto = (90).dp
-val relacionTextoGrande = (175).dp
-val numNumeroGrande = ((317.9 / des.density)).sp
-val numBigCitius = (200 / des.density).sp
-val numSmallCitius = (150 / des.density).sp
-
-
-val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
 
 val valorFiguraCitius0 = NavegationFiguresData(
@@ -95,7 +88,11 @@ val valorFiguraCitius4 = NavegationFiguresData(
 val sbCitius = PersonResearcher(
     foto = R.drawable.citius_img_14,
     name = "SENÉN BARRO",
-    info = listOf(),
+    info = listOf(
+        R.string.CS_CITIUS_miniscreen_18_title_1,
+        R.string.CS_CITIUS_miniscreen_18_paragraph_0,
+        R.string.prueba_link,
+    ),
     contentType = ContentType.PLANTILLA
 )
 val plCitius = PersonResearcher(
@@ -143,4 +140,4 @@ val nsCitius = PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 val datosInvestigadoresCitius =
-    listOf(sbCitius, plCitius, pgCitius, mnCitius, mjcCitius, dlCitius, nsCitius)
+    listOf(sbCitius, plCitius, pgCitius, dgCitius, mnCitius, mjcCitius, dlCitius, nsCitius)

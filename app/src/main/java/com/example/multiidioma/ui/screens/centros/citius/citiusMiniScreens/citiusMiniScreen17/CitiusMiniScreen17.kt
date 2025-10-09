@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.WorkersCenter
@@ -48,6 +49,7 @@ fun CitiusMiniScreen17(
                 infoWorkerCenter = lista,
                 podcast = podcasts
             )
+            Text(text = stringResource(data.bodyParagraphs[0]))
 
             LazyRow(
                 modifier = modifier

@@ -162,15 +162,14 @@ class CitiusRepository {
                     R.string.CS_CITIUS_miniscreen_17_title_1,
                     R.string.CS_CITIUS_miniscreen_17_paragraph_0,
                 ),
-
+                personalResearcher = GetPersonalResearcherUtils(
+                    PersonsResearchersUtils(
+                        datosInvestigadoresCitius
+                    )
+                )
                 ),
             MiniScreenData(
                 id = 18,
-                bodyParagraphs = listOf(
-                    R.string.CS_CITIUS_miniscreen_18_title_0,
-                    R.string.CS_CITIUS_miniscreen_18_paragraph_0,
-                ),
-                imageRes = R.drawable.citius_img_21,
                 personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
                         datosInvestigadoresCitius

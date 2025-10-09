@@ -6,11 +6,8 @@ import androidx.navigation.NavController
 
 import com.example.multiidioma.data.types.MiniScreenData
 
-import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
-
 
 @Composable
 fun CitiusMiniScreen18(data: MiniScreenData, navController: NavController) {
-    PersonalTemplateScreen(data, navController)
 }
 
