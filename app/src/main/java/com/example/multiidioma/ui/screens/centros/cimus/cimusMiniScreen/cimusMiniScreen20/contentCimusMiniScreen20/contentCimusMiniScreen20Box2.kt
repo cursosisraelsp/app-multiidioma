@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScree
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
@@ -23,13 +24,14 @@ fun contentCimusMiniScreen20Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, bottom = 20.dp),
+            .padding(start = 20.dp, end = 20.dp, bottom = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, textAlign = TextAlign.Center, index = 0)
         SpacerText()
         TextBodyMedium(data, textAlign = TextAlign.Center,  index = 1)
+        SpacerText()
         ReusableImage(data, estilosImagen)
     }
 }

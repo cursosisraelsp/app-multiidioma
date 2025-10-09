@@ -26,6 +26,7 @@ import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen11.CimusMiniScreen11
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen12.CimusMiniScreen12
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen13.CimusMiniScreen13
+import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen18.CimusMiniScreen18
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen19.CimusMiniScreen19
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen2.CimusMiniScreen2
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen20.CimusMiniScreen20
@@ -180,6 +181,12 @@ fun CimusScreen(
                         13 -> CimusMiniScreen13(
                             data,
                             navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        18 -> CimusMiniScreen18(
+                            data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

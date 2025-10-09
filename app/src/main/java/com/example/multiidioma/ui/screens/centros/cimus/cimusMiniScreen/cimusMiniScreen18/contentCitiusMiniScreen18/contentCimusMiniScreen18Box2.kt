@@ -28,10 +28,12 @@ fun contentCimusMiniScreen18Box2(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+
         TextBodyMedium(data, textAlign = TextAlign.Center, index = 0)
         SpacerText()
         TextBodyMedium(data, textAlign = TextAlign.Center,  index = 1)
-
+        SpacerText()
         ReusableImage(data, estilosImagen)
     }
+
 }

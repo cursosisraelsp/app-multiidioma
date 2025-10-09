@@ -29,7 +29,7 @@ fun contentCimusMiniScreen6Box2(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 55.dp, end = 15.dp, top = 20.dp),
+            .padding(start = 55.dp, end = 15.dp, top = 15.dp, bottom = 5.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {

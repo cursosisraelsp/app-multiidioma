@@ -28,7 +28,7 @@ fun CimusMiniScreen7(
     ) {
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.5f, Box3 = 0.25f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.75f, Box3 = 0.15f),
             Box1 = { contentCimusMiniScreen7Box1() },
             Box2 = { contentCimusMiniScreen7Box2(it) },
             Box3 = { contentCimusMiniScreen7Box3() }

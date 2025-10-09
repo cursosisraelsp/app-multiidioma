@@ -32,7 +32,7 @@ fun contentCimusMiniScreen2Box2(data: MiniScreenData) {
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.5f)
-                .padding(start = 40.dp, end = 40.dp)
+                .padding(start = 40.dp, end = 40.dp, top = 10.dp)
         ) {
             TextBodyMedium(data, textAlign = TextAlign.End)
         }

@@ -23,13 +23,14 @@ fun contentCimusMiniScreen19Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, bottom = 20.dp),
+            .padding(start = 20.dp, end = 20.dp, bottom = 20.dp, top = 10.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
         TextBodyMedium(data, textAlign = TextAlign.Center, index = 0)
         SpacerText()
         TextBodyMedium(data, textAlign = TextAlign.Center,  index = 1)
+        SpacerText()
         ReusableImage(data, estilosImagen)
     }
 }

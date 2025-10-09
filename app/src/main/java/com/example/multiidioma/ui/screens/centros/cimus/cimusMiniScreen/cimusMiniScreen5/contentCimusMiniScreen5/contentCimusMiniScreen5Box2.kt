@@ -1,6 +1,7 @@
 package com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen5
 
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -31,7 +32,9 @@ fun contentCimusMiniScreen5Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp)
+            .padding(start = 50.dp, end = 50.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         SpacerText()
         Box(

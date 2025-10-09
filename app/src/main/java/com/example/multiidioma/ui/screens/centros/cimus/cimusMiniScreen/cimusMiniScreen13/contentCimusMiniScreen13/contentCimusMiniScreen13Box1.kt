@@ -17,6 +17,6 @@ fun contentCimusMiniScreen13Box1() {
             .fillMaxSize()
             .padding(bottom = 10.dp)
     ) {
-        LineVerticalComponent(color = Color.Black)
+        LineVerticalComponent()
     }
 }

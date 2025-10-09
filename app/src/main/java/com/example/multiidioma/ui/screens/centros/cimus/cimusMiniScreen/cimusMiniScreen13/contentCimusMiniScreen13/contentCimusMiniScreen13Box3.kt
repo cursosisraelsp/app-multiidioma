@@ -8,16 +8,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
 @Composable
 fun contentCimusMiniScreen13Box3() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(top = 40.dp)
-    ) {
-        CircleLineComponent()
 
-    }
+        LineVerticalComponent()
 }

@@ -25,7 +25,7 @@ fun CimusMiniScreen19(
             .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.55f, Box3 = 0.3f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.75f, Box3 = 0.15f),
             data = data,
             Box1 = { contentCimusMiniScreen19Box1() },
             Box2 = { contentCimusMiniScreen19Box2(it) },

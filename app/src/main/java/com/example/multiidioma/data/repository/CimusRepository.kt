@@ -72,6 +72,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_7_paragraph_1,
 
                     ),
+                imageRes = R.drawable.cimus_img_04
 
                 ),
             MiniScreenData(
