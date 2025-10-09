@@ -14,6 +14,7 @@ val nomeCentros = listOf("CIQUS","CIMUS","CITIUS","CRETUS","IGFAE","IDIS")
 val urlCretus = "https://cretus.usc.es/"
 val urlIarcus= "https://arcus.usc.es/"
 val urlIgfae= "https://igfae.usc.es/igfae/"
+
 data class BOX(
     val Box1: Float,
     val Box2: Float,

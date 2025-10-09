@@ -4,28 +4,51 @@ package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScr
 
 
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.StyleImages
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.NavigationFiguresComponent
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius0
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius1
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius2
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius3
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius4
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius5
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius6
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
-fun contentIpsiusMiniScreen6Box2(data: MiniScreenData){
-    val estilosImagen = StyleImages(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(top = 30.dp, bottom =  30.dp),
-        alignment = Alignment.BottomCenter
-    )
-    ReusableImage(data, estilosImagen)
-    ReusableImage(data, estilosImagen)
-    ReusableImage(data, estilosImagen)
-    ReusableImage(data, estilosImagen)
-    ReusableImage(data, estilosImagen)
-    ReusableImage(data, estilosImagen)
+fun contentIpsiusMiniScreen6Box2(data: MiniScreenData, navController: NavController) {
+    Column {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth().padding(top = 20.dp, start = 20.dp, end = 20.dp)
+        ) {
+            TextBodyMedium(data, textAlign = TextAlign.Center)
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color(0xFF66AAD1))
+        ) {
+            NavigationFiguresComponent(valorFiguraIpsius0, navController)
+            NavigationFiguresComponent(valorFiguraIpsius1, navController)
+            NavigationFiguresComponent(valorFiguraIpsius2, navController)
+            NavigationFiguresComponent(valorFiguraIpsius3, navController)
+            NavigationFiguresComponent(valorFiguraIpsius4, navController)
+            NavigationFiguresComponent(valorFiguraIpsius5, navController)
+            NavigationFiguresComponent(valorFiguraIpsius6, navController)
+        }
+    }
+
 }

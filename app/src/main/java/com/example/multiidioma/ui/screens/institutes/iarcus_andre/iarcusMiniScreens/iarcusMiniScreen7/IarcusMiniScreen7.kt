@@ -8,12 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.NavigationFiguresComponent
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus0
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus1
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus2
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.valorFiguraIarcus3
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box1
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box3
 
 
 @Composable
@@ -27,10 +27,13 @@ fun IarcusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        NavigationFiguresComponent(valorFiguraIarcus0, navController)
-        NavigationFiguresComponent(valorFiguraIarcus1, navController)
-        NavigationFiguresComponent(valorFiguraIarcus2, navController)
-        NavigationFiguresComponent(valorFiguraIarcus3, navController)
+        TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
+            data = data,
+            Box1 = { contentIarcusMiniScreen7Box1() },
+            Box2 = { contentIarcusMiniScreen7Box2(it, navController) },
+            Box3 = { contentIarcusMiniScreen7Box3() }
+        )
     }
 }
 

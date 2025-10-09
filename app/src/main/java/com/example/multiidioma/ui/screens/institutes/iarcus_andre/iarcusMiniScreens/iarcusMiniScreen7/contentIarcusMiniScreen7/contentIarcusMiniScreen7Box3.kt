@@ -2,13 +2,10 @@ package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScr
 
 
 import androidx.compose.runtime.Composable
-import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.utils.CircleStyleImage
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
 @Composable
-fun contentIarcusMiniScreen7Box3(data: MiniScreenData) {
-    ReusableImage(data, CircleStyleImage)
-
+fun contentIarcusMiniScreen7Box3() {
+    LineVerticalComponent ()
 }

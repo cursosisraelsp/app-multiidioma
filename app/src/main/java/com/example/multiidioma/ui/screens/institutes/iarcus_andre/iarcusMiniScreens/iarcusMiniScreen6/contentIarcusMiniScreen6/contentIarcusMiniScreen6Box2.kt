@@ -22,37 +22,41 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
+
 @Composable
 fun contentIarcusMiniScreen6Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(top = 30.dp),
+            .fillMaxWidth(),
         alignment = Alignment.BottomEnd
+    )
+    val estiloTextos = StyleText(
+        style = MaterialTheme.typography.bodyMedium,
+        color = Color(0xFFFFFFFF),
+        textAlign = TextAlign.Center
     )
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, top = 50.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
+            .fillMaxSize(),
+        verticalArrangement = Arrangement.SpaceBetween
     ) {
-
-        val estiloTextos =
-            StyleText(
-                style = MaterialTheme.typography.bodyMedium,
-                color = (Color(0xFFFFFFFF)),
-                textAlign = TextAlign.Center
-            )
-
-        AppText(data, estiloTextos, index = 0)
-        SpacerText()
-        AppText(data, estiloTextos, index = 1)
-        SpacerText()
-
-        ReusableImage(data, estilosImagen)
-
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 50.dp, end = 50.dp, top = 20.dp, bottom = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            AppText(data, estiloTextos, index = 0)
+            SpacerText()
+            AppText(data, estiloTextos, index = 1)
+            SpacerText()
+        }
+        Column(
+            modifier = Modifier
+                .fillMaxWidth(),
+            horizontalAlignment = Alignment.End
+        ) {
+            ReusableImage(data, estilosImagen)
+        }
     }
-
 }
-

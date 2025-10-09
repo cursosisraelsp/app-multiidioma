@@ -14,21 +14,18 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
 fun contentIarcusMiniScreen8TitleText(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Start
-    )
-
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+            .padding(start = 4.dp),
+        horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Center
     ) {
-        AppText(data, estilosTextos, index = 0)
-
+        TextTitleMedium(data, index = 0)
+        TextTitleMedium(data, index = 1)
     }
 }

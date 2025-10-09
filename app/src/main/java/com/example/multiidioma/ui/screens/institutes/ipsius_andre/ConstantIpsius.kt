@@ -8,6 +8,7 @@ import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.des
 
 
 val des = Resources.getSystem().displayMetrics
@@ -19,95 +20,150 @@ val relacionTextoGrande = (175).dp
 val numNumeroGrande = ((317.9 / des.density)).sp
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
+// 🔵 Tamaño del círculo
+val CirculoGigante = 260.dp
+val CirculoGrande = 230.dp
+val CirculoMediano = 200.dp
+val CirculoPequeno = 170.dp
+val CirculoDiminuto = 140.dp
+val CirculoMicro = 110.dp
+
+// 🔢 Tamaño del número dentro del círculo (relación proporcional)
+val NumeroGigante   = (300 / des.density).sp
+val NumeroGrande    = (240 / des.density).sp
+val NumeroMediano   = (180 / des.density).sp
+val NumeroPequeno   = (140 / des.density).sp
+val NumeroDiminuto  = (120 / des.density).sp
+val NumeroMicro     = (100 / des.density).sp
+
+// 🔠 Tamaño de letra general
+val LetraGigante = (96 / des.density).sp      // ~38sp
+val LetraGrande = (78 / des.density).sp       // ~31sp
+val LetraMediana = (60 / des.density).sp      // ~24sp
+val LetraPequena = (45 / des.density).sp      // ~18sp
+val LetraDiminuta = (30 / des.density).sp     // ~12sp
+val LetraMicro = (22 / des.density).sp        // ~8–9sp
+
+// 📏 Line height (más ajustado cuanto más pequeño)
+val LineHeightGigante = LetraGigante * 1.3f
+val LineHeightGrande = LetraGrande * 1.2f
+val LineHeightMediana = LetraMediana * 1.15f
+val LineHeightPequena = LetraPequena * 1.05f
+val LineHeightDiminuta = LetraDiminuta * 0.95f
+val LineHeightMicro = LetraMicro * 0.9f
+
+// Porcentajes para el ancho del texto según el tamaño del círculo
+val porcentajeAnchoTextoGigante = 0.7f
+val porcentajeAnchoTextoGrande = 0.7f
+val porcentajeAnchoTextoMediano = 0.7f
+val porcentajeAnchoTextoPequeno = 0.65f
+val porcentajeAnchoTextoDiminuto = 0.6f
+val porcentajeAnchoTextoMicro = 0.6f
+
+// Ancho del texto calculado dinámicamente
+val anchoTextoGigante = CirculoGigante * porcentajeAnchoTextoGigante
+val anchoTextoGrande = CirculoGrande * porcentajeAnchoTextoGrande
+val anchoTextoMediano = CirculoMediano * porcentajeAnchoTextoMediano
+val anchoTextoPequeno = CirculoPequeno * porcentajeAnchoTextoPequeno
+val anchoTextoDiminuto = CirculoDiminuto * porcentajeAnchoTextoDiminuto
+val anchoTextoMicro = CirculoMicro * porcentajeAnchoTextoMicro
+
+
 val valorFiguraIpsius0 = NavegationFiguresData(
     offset_x = 50.dp,
-    offset_y = 20.dp,
+    offset_y = 16.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoDiminuto,
     ruta = Destination.Cretus.route,
     numString = "01",
-    relacionNum = numNumero,
+    relacionNum = NumeroDiminuto,
     textoInfo = R.string.II_IPSIUS_miniscreen_7_paragraph_2,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
     relacionText = numLetra2
 )
+
 val valorFiguraIpsius1 = NavegationFiguresData(
-    offset_x = 260.dp,
-    offset_y = 70.dp,
+    offset_x = 90.dp,
+    offset_y = 100.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoGigante,
     ruta = Destination.Cretus.route,
     numString = "02",
-    relacionNum = numNumero,
+    relacionNum = NumeroGigante,
     textoInfo = R.string.II_IPSIUS_miniscreen_8_paragraph_2,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoGigante,
+    lineHeight = LineHeightGigante,
     relacionText = numLetra2
 )
+
 val valorFiguraIpsius2 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 460.dp,
+    offset_x = 280.dp,
+    offset_y = 22.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoMicro,
     ruta = Destination.Cretus.route,
     numString = "03",
-    relacionNum = numNumero,
+    relacionNum = NumeroMicro,
     textoInfo = R.string.II_IPSIUS_miniscreen_9_paragraph_2,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoMicro,
+    lineHeight = LineHeightMicro,
     relacionText = numLetra2
 )
+
 val valorFiguraIpsius3 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
+    offset_x = 16.dp,
+    offset_y = 275.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoDiminuto,
     ruta = Destination.Imatus.route,
     numString = "04",
-    relacionNum = numNumero,
+    relacionNum = NumeroDiminuto,
     textoInfo = R.string.II_IPSIUS_miniscreen_10_paragraph_3,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
     relacionText = numLetra2
 )
+
 val valorFiguraIpsius4 = NavegationFiguresData(
-    offset_x = 80.dp,
-    offset_y = 175.dp,
+    offset_x = 25.dp,
+    offset_y = 390.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 300.dp,
+    tamanhoFigura = CirculoMediano,
     ruta = Destination.Cretus.route,
     numString = "05",
-    relacionNum = numNumeroGrande,
+    relacionNum = NumeroMediano,
     textoInfo = R.string.II_IPSIUS_miniscreen_11_paragraph_1,
-    anchoTexto = relacionTextoGrande,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoMediano,
+    lineHeight = LineHeightMediana,
     relacionText = numLetra
 )
+
 val valorFiguraIpsius5 = NavegationFiguresData(
-    offset_x = 80.dp,
-    offset_y = 175.dp,
+    offset_x = 250.dp,
+    offset_y = 310.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 300.dp,
+    tamanhoFigura = CirculoMicro,
     ruta = Destination.Cretus.route,
     numString = "06",
-    relacionNum = numNumeroGrande,
+    relacionNum = NumeroMicro,
     textoInfo = R.string.II_IPSIUS_miniscreen_12_paragraph_2,
-    anchoTexto = relacionTextoGrande,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoMicro,
+    lineHeight = LineHeightMicro,
     relacionText = numLetra
 )
+
 val valorFiguraIpsius6 = NavegationFiguresData(
-    offset_x = 80.dp,
-    offset_y = 175.dp,
+    offset_x = 250.dp,
+    offset_y = 420.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 300.dp,
+    tamanhoFigura = CirculoPequeno,
     ruta = Destination.Cretus.route,
     numString = "07",
-    relacionNum = numNumeroGrande,
+    relacionNum = NumeroPequeno,
     textoInfo = R.string.II_IPSIUS_miniscreen_13_paragraph_3,
-    anchoTexto = relacionTextoGrande,
-    lineHeight = numLetra2 * 0.95f,
+    anchoTexto = anchoTextoPequeno,
+    lineHeight = LineHeightPequena,
     relacionText = numLetra
 )
 

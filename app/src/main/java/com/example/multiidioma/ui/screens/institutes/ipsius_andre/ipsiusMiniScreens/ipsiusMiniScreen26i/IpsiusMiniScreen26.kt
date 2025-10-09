@@ -11,8 +11,4 @@ import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 @Composable
 fun IpsiusMiniScreen26(data: MiniScreenData, navController: NavController, modifier: Modifier) {
     PersonalTemplateScreen(data, navController)
-
 }
-
-
-

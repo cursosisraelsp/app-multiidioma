@@ -18,15 +18,38 @@ val relacionTexto = (90).dp
 val relacionTextoGrande = (175).dp
 val numNumeroGrande = ((317.9 / des.density)).sp
 
+
+// Escala de texto progresiva
+// Tamaños de letra con más contraste entre ellos
+val letraGigante = (96 / des.density).sp       // Muy grande (~38sp en densidad 2.5)
+val letraGrande = (78 / des.density).sp        // Grande (~31sp)
+val letraMediana = (60 / des.density).sp       // Mediana (~24sp)
+val letraPequena = (45 / des.density).sp       // Pequeña (~18sp)
+val letraDiminuta = (30 / des.density).sp      // Muy pequeña (~12sp)
+
+
+// Altura de línea proporcional (mayor para letras más grandes)
+// Altura de línea proporcional a cada tamaño de letra
+
+
+val lineHeightGigante = letraGigante * 1.3f    // Título destacado
+val lineHeightGrande = letraGrande * 1.2f
+val lineHeightMediana = letraMediana * 1.15f
+val lineHeightPequena = letraPequena * 1.05f
+val lineHeightDiminuta = letraDiminuta * 1.0f  // Justo, sin espacio extra
+
+
+
+
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
 
 val valorFiguraIarcus0 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 20.dp,
+    offset_x = 40.dp,
+    offset_y = 10.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 195.dp,
     ruta = Destination.IarcusMiniscreen8.route,
     numString = "01",
     relacionNum = numNumero,
@@ -36,10 +59,10 @@ val valorFiguraIarcus0 = NavegationFiguresData(
     relacionText = numLetra2
 )
 val valorFiguraIarcus1 = NavegationFiguresData(
-    offset_x = 260.dp,
+    offset_x = 220.dp,
     offset_y = 70.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 170.dp,
     ruta = Destination.IarcusMiniscreen9.route,
     numString = "02",
     relacionNum = numNumero,
@@ -49,10 +72,10 @@ val valorFiguraIarcus1 = NavegationFiguresData(
     relacionText = numLetra2
 )
 val valorFiguraIarcus2 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 460.dp,
+    offset_x = 65.dp,
+    offset_y = 210.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 170.dp,
     ruta = Destination.IarcusMiniscreen10.route,
     numString = "03",
     relacionNum = numNumero,
@@ -62,17 +85,17 @@ val valorFiguraIarcus2 = NavegationFiguresData(
     relacionText = numLetra2
 )
 val valorFiguraIarcus3 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
+    offset_x = 230.dp,
+    offset_y = 270.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = 140.dp,
     ruta = Destination.IarcusMiniscreen11.route,
     numString = "04",
     relacionNum = numNumero,
     textoInfo = R.string.II_IARCUS_miniscreen_11_paragraph_3,
     anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    lineHeight = lineHeightDiminuta,
+    relacionText = letraDiminuta
 )
 
 
