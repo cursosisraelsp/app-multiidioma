@@ -22,7 +22,7 @@ fun CimusMiniScreen19(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4199B5))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.55f, Box3 = 0.3f),

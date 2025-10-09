@@ -10,6 +10,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
@@ -27,6 +28,7 @@ fun contentCimusMiniScreen3Box2(data: MiniScreenData) {
         SpacerText()
 
         TextBodyMedium(data, index = 1, color = Color.Black, textAlign = TextAlign.End)
-        /* LottieScrollWithOffsetComponent(R.raw.cimus_anim_02, listState, itemIndex)*/
+
+        VimeoWebViewComponent(identificador = "1124126442", width = "425px", height = "266px")
     }
 }

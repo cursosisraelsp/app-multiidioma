@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
@@ -33,16 +34,14 @@ fun contentCimusMiniScreen2Box2(data: MiniScreenData) {
                 .weight(0.5f)
                 .padding(start = 40.dp, end = 40.dp)
         ) {
-            TextBodyMedium(data)
+            TextBodyMedium(data, textAlign = TextAlign.End)
         }
-
-        Spacer(modifier = Modifier.height(10.dp))
 
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.5f)
-                .padding(start = 100.dp, top = 20.dp)
+                .padding(start = 100.dp)
         ) {
             ReusableImage(data, estilosImagen)
         }

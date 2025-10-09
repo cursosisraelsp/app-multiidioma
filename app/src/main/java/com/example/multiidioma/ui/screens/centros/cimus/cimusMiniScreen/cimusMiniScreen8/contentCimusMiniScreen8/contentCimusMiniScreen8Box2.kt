@@ -9,10 +9,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.utils.NavigationFigures.NavigationFiguresCimus.NavigationFiguresCimus1
 /*import com.example.multiidioma.utils.NavigationFigures.NavigationFiguresCimus*/
 import com.example.multiidioma.utils.TextBodyMedium
 
-/*
+
 @Composable
 fun contentCimusMiniScreen8Box2(data: MiniScreenData, navController: NavController) {
     Column(
@@ -32,11 +33,11 @@ fun contentCimusMiniScreen8Box2(data: MiniScreenData, navController: NavControll
             modifier = Modifier
                 .fillMaxSize()
         ) {
-            NavigationFiguresCimus(navController)
+            NavigationFiguresCimus1(navController)
         }
     }
 }
-*/
+
 
 
 

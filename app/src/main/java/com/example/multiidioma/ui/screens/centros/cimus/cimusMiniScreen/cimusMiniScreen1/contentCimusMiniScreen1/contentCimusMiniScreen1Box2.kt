@@ -14,15 +14,13 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.utils.TextBodyMedium
 
 
 @Composable
 fun contentCimusMiniScreen1Box2(
     data: MiniScreenData,
-    offset: Int,
-    listState: LazyListState,
-    itemIndex: Int
 ) {
     Column(
         modifier = Modifier
@@ -41,6 +39,6 @@ fun contentCimusMiniScreen1Box2(
 
         TextBodyMedium(data, index = 2, textAlign = TextAlign.Center)
 
-        LottieScrollWithOffsetComponent(R.raw.figuritas, listState, itemIndex)
+        VimeoWebViewComponent(identificador = "1124126429", width = "425px", height = "266px")
     }
 }

@@ -10,12 +10,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentCimusMiniScreen19Box2(data: MiniScreenData) {
-
+    val estilosImagen = StyleImages(
+        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+    )
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -26,5 +30,6 @@ fun contentCimusMiniScreen19Box2(data: MiniScreenData) {
         TextBodyMedium(data, textAlign = TextAlign.Center, index = 0)
         SpacerText()
         TextBodyMedium(data, textAlign = TextAlign.Center,  index = 1)
+        ReusableImage(data, estilosImagen)
     }
 }

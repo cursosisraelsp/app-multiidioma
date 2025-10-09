@@ -1,6 +1,5 @@
-@file:JvmName("ContentCimusMiniScreen102Box1Kt")
 
-package com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10
+package com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.contentCimusMiniScreen6
 
 
 import androidx.compose.foundation.layout.Arrangement
@@ -16,11 +15,12 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 
 @Composable
-fun contentCimusMiniScreen10Box2(
+fun contentCimusMiniScreen6Box2(
     data: MiniScreenData,
     offset: Int,
     listState: LazyListState,
@@ -29,14 +29,17 @@ fun contentCimusMiniScreen10Box2(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 25.dp, end = 25.dp, top = 10.dp, bottom = 10.dp),
+            .padding(start = 55.dp, end = 15.dp, top = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        TextBodyMedium(data, index = 0)
 
-        TextBodyMedium(data, textAlign = TextAlign.End)
+        SpacerText()
 
-        LottieScrollWithOffsetComponent(R.raw.figuritas, listState, itemIndex)
+        TextBodyMedium(data, index = 1)
+
+        LottieScrollWithOffsetComponent(R.raw.figuritas, listState, itemIndex)//cimus_anim_01
 
     }
 }

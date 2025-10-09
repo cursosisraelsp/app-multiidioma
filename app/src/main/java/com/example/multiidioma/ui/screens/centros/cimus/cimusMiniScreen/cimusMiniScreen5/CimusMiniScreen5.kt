@@ -20,10 +20,10 @@ fun CimusMiniScreen5(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.8f, Box3 = 0.1f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.6f, Box3 = 0.2f),
             data = data,
             Box1 = { contentCimusMiniScreen5Box1(it)},
             Box2 = { contentCimusMiniScreen5Box2(it)},

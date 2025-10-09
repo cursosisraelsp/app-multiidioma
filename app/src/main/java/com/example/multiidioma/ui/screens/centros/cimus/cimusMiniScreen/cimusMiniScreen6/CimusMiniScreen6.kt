@@ -11,9 +11,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10Box1
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10Box2
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10Box3
+import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.contentCimusMiniScreen6.contentCimusMiniScreen6Box1
+import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.contentCimusMiniScreen6.contentCimusMiniScreen6Box2
+import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.contentCimusMiniScreen6.contentCimusMiniScreen6Box3
 
 @Composable
 fun CimusMiniScreen6(
@@ -30,14 +30,14 @@ fun CimusMiniScreen6(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF4189B5))
+            .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.60f, Box3 = 0.3f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.5f, Box3 = 0.4f),
             data = data,
-            Box1 = { contentCimusMiniScreen10Box1() },
-            Box2 = { contentCimusMiniScreen10Box2(it, offset, listState, itemIndex)},
-            Box3 = { contentCimusMiniScreen10Box3() }
+            Box1 = { contentCimusMiniScreen6Box1() },
+            Box2 = { contentCimusMiniScreen6Box2(it, offset, listState, itemIndex)},
+            Box3 = { contentCimusMiniScreen6Box3() }
         )
     }
 }

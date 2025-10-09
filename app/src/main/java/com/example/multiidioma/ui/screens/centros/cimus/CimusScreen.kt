@@ -143,7 +143,7 @@ fun CimusScreen(
                                 .fillParentMaxHeight()
                         )
 
-                        9 -> CimusMiniScreen9(
+                     /*   9 -> CimusMiniScreen9(
                             data,
                             navController,
                             Modifier
@@ -175,7 +175,7 @@ fun CimusScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
+                        )*/
 
                         13 -> CimusMiniScreen13(
                             data,

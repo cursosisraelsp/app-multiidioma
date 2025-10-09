@@ -13,6 +13,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
@@ -27,9 +28,11 @@ fun contentCimusMiniScreen7Box2(data: MiniScreenData) {
             .padding(start = 50.dp, end = 50.dp, top = 50.dp)
 
     ) {
-        TextBodyMedium(data, textAlign = TextAlign.Center)
+        TextBodyMedium(data, index = 0, textAlign = TextAlign.End)
+        SpacerText()
+        TextBodyMedium(data, index = 1,textAlign = TextAlign.End)
 
-        Spacer(modifier = Modifier.height(25.dp))
+        SpacerText()
 
         ReusableImage(data, estilosImagen)
 

@@ -26,16 +26,14 @@ class CimusRepository {
                 id = 2,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_2_paragraph_0,
-                    /* R.string.CS_CIMUS_miniscreen_2_paragraph_1,*/
                 ),
-                imageRes = R.drawable.noimagen /*cimus_img_01*/
+                imageRes = R.drawable.cimus_img_01
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_3_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_3_paragraph_1,
-
                     ),
             ),
             MiniScreenData(
@@ -52,11 +50,8 @@ class CimusRepository {
                 id = 5,
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_5_paragraph_0,
-
-
                     ),
-                imageRes = R.drawable.noimagen
-                /* R.drawable.cimus_img_03*/
+                imageRes = R.drawable.cimus_img_03
 
             ),
             MiniScreenData(
@@ -64,6 +59,7 @@ class CimusRepository {
                 bodyParagraphs = listOf(
 
                     R.string.CS_CIMUS_miniscreen_6_paragraph_0,
+                    R.string.CS_CIMUS_miniscreen_6_paragraph_1,
 
                     ),
 
@@ -73,6 +69,7 @@ class CimusRepository {
                 bodyParagraphs = listOf(
 
                     R.string.CS_CIMUS_miniscreen_7_paragraph_0,
+                    R.string.CS_CIMUS_miniscreen_7_paragraph_1,
 
                     ),
 
@@ -179,8 +176,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_18_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_18_paragraph_1,
                 ),
-
-
+                imageRes = R.drawable.cimus_img_14
                 ),
             MiniScreenData(
                 id = 19,
@@ -189,6 +185,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_19_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_19_paragraph_1
                 ),
+                imageRes = R.drawable.cimus_img_15
 
                 ),
             MiniScreenData(
@@ -199,7 +196,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_20_paragraph_1,
 
                     ),
-
+                imageRes = R.drawable.cimus_img_16
 
                 ),
             MiniScreenData(

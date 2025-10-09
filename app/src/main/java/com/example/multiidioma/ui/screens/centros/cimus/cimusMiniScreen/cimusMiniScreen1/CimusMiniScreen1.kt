@@ -11,6 +11,7 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box1
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box2
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.contentCimusMiniScreen1.contentCimusMiniScreen1Box3
@@ -22,11 +23,6 @@ fun CimusMiniScreen1(
     listState: LazyListState,
     itemIndex: Int,
 ) {
-    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
-
-    val offset = itemInfo?.let {
-        it.offset - listState.firstVisibleItemScrollOffset
-    } ?: 0
     Box(
         modifier = modifier
             .fillMaxSize()
@@ -36,9 +32,9 @@ fun CimusMiniScreen1(
             BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.8f, Box3 = 0.2f),
             data = data,
             Box1 = { contentCimusMiniScreen1Box1() },
-            Box2 = { contentCimusMiniScreen1Box2(it, offset, listState, itemIndex) },
+            Box2 = { contentCimusMiniScreen1Box2(it) },
             Box3 = { contentCimusMiniScreen1Box3() },
 
-        )
+            )
     }
 }
