@@ -1,0 +1,51 @@
+package com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen5
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.navigation.NavController
+import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen5.contentIdisMiniScreen5.contentIdisMiniScreen5BodyText
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen5.contentIdisMiniScreen5.contentIdisMiniScreen5CircleImage
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen5.contentIdisMiniScreen5.contentIdisMiniScreen5TitleText
+
+
+@Composable
+fun IdisMiniScreen5(
+    // pantalla
+    data: MiniScreenData,
+    navController: NavController,
+    modifier: Modifier = Modifier,
+) {
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF4189B5))
+    ) {
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+
+            VimeoWebViewComponent(identificador = "1124127364",width="425px", height = "800px")
+        }
+
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+            TemplateCircleScreen(
+                navController = navController,
+                data = data,
+                CircleImage = { contentIdisMiniScreen5CircleImage(it) },
+                TitleText = { contentIdisMiniScreen5TitleText(it) },
+                BodyText = { contentIdisMiniScreen5BodyText(it) }
+            )
+        }
+    }
+}

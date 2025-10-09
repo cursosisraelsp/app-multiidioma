@@ -49,121 +49,117 @@ class IdisRepository {
                 ),
             ),
 
-            /*MiniScreenData(
-                id = 5,  //Esta es la pagina q tiene q hacer isra//
+            MiniScreenData(
+                id = 5,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_5_paragraph_0,
-                    R.string.II_ILG_miniscreen_5_paragraph_1
+                    R.string.CS_IDIS_miniscreen_5_title_0,
+                    R.string.CS_IDIS_miniscreen_5_paragraph_0,
                     ),
-                imageRes = R.drawable.bgalega
-
-
+                imageRes = R.drawable.idis_img_03
 
             ),
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
-                    R.string.II_ILG_miniscreen_6_paragraph_0,
-                    R.string.II_ILG_miniscreen_6_paragraph_1,
-
+                    R.string.CS_IDIS_miniscreen_6_title_0,
+                    R.string.CS_IDIS_miniscreen_6_title_1,
+                    R.string.CS_IDIS_miniscreen_6_title_2,
+                    R.string.CS_IDIS_miniscreen_6_paragraph_0,
                 ),
-                imageRes = R.drawable.ilg_img_03
+                imageRes = R.drawable.idis_img_04
             ),
 
             MiniScreenData(
                 id = 7,
                 bodyParagraphs = listOf(
-                    R.string.II_ILG_miniscreen_7_paragraph_0,
-                    R.string.II_ILG_miniscreen_7_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_7_title_0,
+                    R.string.CS_IDIS_miniscreen_7_title_1,
+                    R.string.CS_IDIS_miniscreen_7_title_2,
+                    R.string.CS_IDIS_miniscreen_7_paragraph_0,
                 ),
-                imageRes = R.drawable.bgalega
+                imageRes = R.drawable.idis_img_05
 
             ),
 
             MiniScreenData(
                 id = 8,
                 bodyParagraphs = listOf(
-                    R.string.II_ILG_miniscreen_8_paragraph_0,
-                   // R.string.II_ILG_miniscreen_8_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_8_title_0,
+                    R.string.CS_IDIS_miniscreen_8_paragraph_0,
                 ),
-
-
+                imageRes = R.drawable.idis_img_06
             ),
 
 
             MiniScreenData(
                 id = 9,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_9_title_0,
-                    R.string.II_ILG_miniscreen_9_paragraph_0,
+                    R.string.CS_IDIS_miniscreen_9_title_0,
+                    R.string.CS_IDIS_miniscreen_9_title_1,
+                    R.string.CS_IDIS_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.ilg_img_04
+                imageRes = R.drawable.idis_img_07
             ),
 
             MiniScreenData(
                 id = 10,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_10_title_0,
-                    R.string.II_ILG_miniscreen_10_paragraph_0,
-                    ),
-                imageRes = R.drawable.ilg_img_05
+                    R.string.CS_IDIS_miniscreen_10_title_0,
+                    R.string.CS_IDIS_miniscreen_10_paragraph_0,
+                ),
+                imageRes = R.drawable.idis_img_08
 
             ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_11_paragraph_0,
+                    R.string.CS_IDIS_miniscreen_11_title_0,
+                    R.string.CS_IDIS_miniscreen_11_title_1,
+                    R.string.CS_IDIS_miniscreen_11_title_2,
+                    R.string.CS_IDIS_miniscreen_11_paragraph_0,
                 ),
-
-
+                imageRes = R.drawable.idis_img_09
             ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_12_paragraph_0,
-                    R.string.II_ILG_miniscreen_12_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_12_paragraph_0,
                 ),
-            ),
+                ),
             MiniScreenData(
                 id = 13,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_13_paragraph_0,
+                    R.string.CS_IDIS_miniscreen_13_paragraph_0,
+                    R.string.CS_IDIS_miniscreen_13_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_13_paragraph_2,
                 ),
-                imageRes = R.drawable.ilg_img_07
-
-
             ),
 
 
             MiniScreenData(
                 id = 14,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_14_title_0,
-                    R.string.II_ILG_miniscreen_14_title_1,
+                    R.string.CS_IDIS_miniscreen_14_paragraph_0,
                 ),
                 ),
 
             MiniScreenData(
                 id = 15,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_15_title_0,
-                    R.string.II_ILG_miniscreen_15_paragraph_0,
-                    R.string.II_ILG_miniscreen_15_title_1,
-                    R.string.II_ILG_miniscreen_15_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_15_paragraph_0,
+                    R.string.CS_IDIS_miniscreen_15_paragraph_1,
             ),
             ),
 
             MiniScreenData(
                 id = 16,
                 bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_16_title_0,
-                    R.string.II_ILG_miniscreen_16_title_1,
-                    R.string.II_ILG_miniscreen_16_paragraph_0,
-                    R.string.II_ILG_miniscreen_16_paragraph_1,
+                    R.string.CS_IDIS_miniscreen_16_title_0,
+                    R.string.CS_IDIS_miniscreen_16_title_1,
                     ),
             ),
 
-            MiniScreenData(
+           /* MiniScreenData(
                 id = 17,
                 bodyParagraphs =listOf(
                     R.string.II_ILG_miniscreen_17_title_0,

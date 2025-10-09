@@ -42,13 +42,17 @@
     <string name="CS_IDIS_miniscreen_5_texto_buscado_0">personalised therapies for cancer</string>
 
     <!--PANTALLA 7-->
-    <string name="CS_IDIS_miniscreen_6_title_0">GENETICS AND SYSTEMS BIOLOGY</string>
+    <string name="CS_IDIS_miniscreen_6_title_0">GENETICS AND</string>
+    <string name="CS_IDIS_miniscreen_6_title_1">SYSTEMS</string>
+    <string name="CS_IDIS_miniscreen_6_title_2">BIOLOGY</string>
     <string name="CS_IDIS_miniscreen_6_paragraph_0">Studies how genes influence health, enabling better management of disease prognosis and response to treatment. Its aim is to find signals in DNA that help prevent disease or choose the best treatment for each person, contributing to the development of more personalised and effective medicine.</string>
     <string name="CS_IDIS_miniscreen_6_texto_buscado_0">genes influence health</string>
     <string name="CS_IDIS_miniscreen_6_texto_buscado_1">help prevent</string>
 
     <!--PANTALLA 8-->
-    <string name="CS_IDIS_miniscreen_7_title_0">ENDOCRINOLOGY, NUTRITION AND METABOLISM</string>
+    <string name="CS_IDIS_miniscreen_7_title_0">ENDOCRINOLOGY</string>
+    <string name="CS_IDIS_miniscreen_7_title_1">NUTRITION AND</string>
+    <string name="CS_IDIS_miniscreen_7_title_2">METABOLISM</string>
     <string name="CS_IDIS_miniscreen_7_paragraph_0">Studies obesity from different perspectives, such as the relationship between obesity and the brain or the role of nutrition. They analyse both the molecular bases of obesity and therapies against it and its associated pathologies.</string>
     <string name="CS_IDIS_miniscreen_7_texto_buscado_0">relationship between obesity and the brain or the role of nutrition</string>
 
@@ -59,7 +63,8 @@
     <string name="CS_IDIS_miniscreen_8_texto_buscado_1">cell and gene therapy</string>
 
     <!--PANTALLA 10-->
-    <string name="CS_IDIS_miniscreen_9_title_0">PLATFORMS AND METHODOLOGY</string>
+    <string name="CS_IDIS_miniscreen_9_title_0">PLATFORMS AND</string>
+    <string name="CS_IDIS_miniscreen_9_title_1">METHODOLOGY</string>
     <string name="CS_IDIS_miniscreen_9_paragraph_0">It does not research diseases directly. It helps to analyse data, organise resources , communication and decision-making processes in health, as well as to manage public resources and prioritise lines of research.</string>
     <string name="CS_IDIS_miniscreen_9_texto_buscado_0">analyse data, organise resources</string>
 
@@ -70,7 +75,9 @@
     <string name="CS_IDIS_miniscreen_10_texto_buscado_1">benefits that can be transferred to the diagnosis, prevention or cure</string>
 
     <!--PANTALLA 12-->
-    <string name="CS_IDIS_miniscreen_11_title_0">INFECTOLOGY, INFLAMMATION AND VACCINES</string>
+    <string name="CS_IDIS_miniscreen_11_title_0">INFECTOLOGY</string>
+    <string name="CS_IDIS_miniscreen_11_title_1">INFLAMMATION</string>
+    <string name="CS_IDIS_miniscreen_11_title_2">AND VACCINES</string>
     <string name="CS_IDIS_miniscreen_11_paragraph_0">It deals with infections, inflammatory processes and vaccine development. It works on both preventive and curative therapies, with special attention to paediatrics and the improvement of the immune response.</string>
     <string name="CS_IDIS_miniscreen_11_texto_buscado_0">preventive and curative therapies</string>
     <string name="CS_IDIS_miniscreen_11_texto_buscado_1">paediatrics</string>
@@ -105,8 +112,8 @@
     <string name="CS_IDIS_miniscreen_15_texto_buscado_4" translatable="false">Spanish Clinical Research Network (SCReN)</string>
 
     <!--PANTALLA 17-->
-    <string name="CS_IDIS_miniscreen_16_title_0">TALENT AMBASSADORS</string>
-
+    <string name="CS_IDIS_miniscreen_16_title_0">TALENT</string>
+    <string name="CS_IDIS_miniscreen_16_title_1">AMBASSADORS</string>
     <!--PANTALLA 18-->
     <string name="CS_IDIS_miniscreen_17_title_0">MANAGEMENT TEAM</string>
     <string name="CS_IDIS_miniscreen_17_paragraph_0" translatable="false">Mª Luz Couce Pico</string>

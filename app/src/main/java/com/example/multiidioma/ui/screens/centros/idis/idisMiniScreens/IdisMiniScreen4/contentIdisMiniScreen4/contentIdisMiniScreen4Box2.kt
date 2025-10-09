@@ -6,21 +6,14 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.modifier.modifierLocalMapOf
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.multiidioma.data.data.StyleImages
-import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.NavigationFiguresComponent
-import com.example.multiidioma.ui.components.Text.AppText
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura0
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura1
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura2
@@ -28,8 +21,6 @@ import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura3
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura4
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura5
 import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura6
-import com.example.multiidioma.ui.screens.institutes.ilg.valorFigura0
-import com.example.multiidioma.ui.screens.institutes.ilg.valorFigura1
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable

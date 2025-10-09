@@ -22,10 +22,22 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.navigation.NavController
 import com.example.multiidioma.data.data.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen10.IdisMiniScreen10
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen11.IdisMiniScreen11
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen3.IdisMiniScreen3
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen4.IdisMiniScreen4
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen5.IdisMiniScreen5
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen6.IdisMiniScreen6
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen7.IdisMiniScreen7
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen8.IdisMiniScreen8
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen9.IdisMiniScreen9
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen0.idisMiniScreen0
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen1.idisMiniScreen1
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen12.IdisMiniScreen12
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen13.IdisMiniScreen13
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen14.IdisMiniScreen14
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen15.IdisMiniScreen15
+import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen16.IdisMiniScreen16
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.idisMiniScreen2.idisMiniScreen2
 
 
@@ -93,34 +105,7 @@ fun IdisScreen(
                             navController
                         )
 
-                      /*  5 -> IlgMiniScreen5(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        6 -> IlgMiniScreen6(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        7 -> IlgMiniScreen7(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        8 -> IlgMiniScreen8(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                            navController
-                        )
-                        9 -> IlgMiniScreen9(
+                        5 -> IdisMiniScreen5(
                             data,
                             navController,
                             Modifier
@@ -128,7 +113,14 @@ fun IdisScreen(
                                 .fillParentMaxHeight()
                         )
 
-                        10 -> IlgMiniScreen10(
+                        6 -> IdisMiniScreen6(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        7 -> IdisMiniScreen7(
                             data,
                             navController,
                             Modifier
@@ -136,54 +128,74 @@ fun IdisScreen(
                                 .fillParentMaxHeight()
                         )
 
-                        11 -> IlgMiniScreen11(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        12 -> IlgMiniScreen12(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        13 -> IlgMiniScreen13(
-
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-
-                        14 -> IlgMiniScreen14(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                            *//*listState = listState,
-                            itemIndex = index,*//*
-                        )
-
-                        15 -> IlgMiniScreen15(
+                        8 -> IdisMiniScreen8(
                             data,
                             navController,
-                            podcastsMultimedia,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+                        9 -> IdisMiniScreen9(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        10 -> IdisMiniScreen10(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        11 -> IdisMiniScreen11(
+                            data,
+                            navController,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                       12 -> IdisMiniScreen12(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        13 -> IdisMiniScreen13(
+
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+
+                        14 -> IdisMiniScreen14(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        15 -> IdisMiniScreen15(
+                            data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
 
                         )
-                        16 -> IlgMiniScreen16(
+                        16 -> IdisMiniScreen16(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
-                        17 -> IlgMiniScreen17(
+                       /* 17 -> IlgMiniScreen17(
                             data,
                             Modifier
                                 .fillMaxWidth()
