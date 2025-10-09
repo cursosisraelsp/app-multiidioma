@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
@@ -77,7 +78,9 @@ class LoaderUnityActivity : AppCompatActivity() {
             loader.visibility = View.GONE
 
             // Abrimos Unity
+            Log.d("RA_DEBUG", "Lanzando UnityPlayerActivity...")
             val intent = Intent(this@LoaderUnityActivity, com.unity3d.player.UnityPlayerGameActivity::class.java)
+            Log.d("RA_DEBUG", "UnityPlayerActivity lanzada")
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             //intent.addFlags(Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
             startActivity(intent)
