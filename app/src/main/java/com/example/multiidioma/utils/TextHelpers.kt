@@ -37,7 +37,7 @@ fun TextTitleMedium(
     data = data,
     style = StyleText(
         style = MaterialTheme.typography.titleMedium,
-        textAlign = TextAlign.Start
+        textAlign = textAlign
     ),
     index = index,
 )
