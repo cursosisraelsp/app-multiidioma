@@ -36,8 +36,8 @@ class ImatusViewModel : ViewModel() {
                     listaImatusRepository.getData(10),
                     listaImatusRepository.getData(11),
                     listaImatusRepository.getData(12),
-                    listaImatusRepository.getData(13),
-                    listaImatusRepository.getData(14)
+                    listaImatusRepository.getData(13)
+                    //listaImatusRepository.getData(14)
 
 
                 )
