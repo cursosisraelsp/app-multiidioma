@@ -8,16 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.NavigationFiguresComponent
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus0
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus1
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus2
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus3
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus4
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus5
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus6
-import com.example.multiidioma.ui.screens.centros.cretus_andre.valorFiguraCretus7
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box3
 
 
 @Composable
@@ -31,16 +27,27 @@ fun CretusMiniScreen8(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        NavigationFiguresComponent(valorFiguraCretus0, navController)
-        NavigationFiguresComponent(valorFiguraCretus1, navController)
-        NavigationFiguresComponent(valorFiguraCretus2, navController)
-        NavigationFiguresComponent(valorFiguraCretus3, navController)
-        NavigationFiguresComponent(valorFiguraCretus4, navController)
-        NavigationFiguresComponent(valorFiguraCretus5, navController)
-        NavigationFiguresComponent(valorFiguraCretus6, navController)
-        NavigationFiguresComponent(valorFiguraCretus7, navController)
+        TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
+            data = data,
+            Box1 = { contentCretusMiniScreen8Box1() },
+            Box2 = { contentCretusMiniScreen8Box2(it, navController) },
+            Box3 = { contentCretusMiniScreen8Box3() }
+        )
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

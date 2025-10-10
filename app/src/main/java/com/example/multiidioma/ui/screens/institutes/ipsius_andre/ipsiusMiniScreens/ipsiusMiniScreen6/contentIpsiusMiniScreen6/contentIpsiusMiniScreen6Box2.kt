@@ -26,15 +26,16 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIps
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius5
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius6
 import com.example.multiidioma.utils.TextBodyMedium
+import com.example.multiidioma.utils.TextTitleLarge
 
 @Composable
 fun contentIpsiusMiniScreen6Box2(data: MiniScreenData, navController: NavController) {
     Column {
         Column(
             modifier = Modifier
-                .fillMaxWidth().padding(top = 20.dp, start = 20.dp, end = 20.dp)
+                .fillMaxWidth().padding(top = 10.dp, start = 20.dp, end = 20.dp)
         ) {
-            TextBodyMedium(data, textAlign = TextAlign.Center)
+            TextTitleLarge(data, textAlign = TextAlign.Center)
         }
         Box(
             modifier = Modifier

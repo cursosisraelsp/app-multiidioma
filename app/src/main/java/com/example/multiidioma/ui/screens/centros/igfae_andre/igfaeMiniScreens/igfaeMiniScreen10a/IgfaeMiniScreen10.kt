@@ -8,11 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10BodyText
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10CircleImage
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10TitleText
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.contentCretusMiniScreen10.contentIgfaeMiniScreen10Box3
 
 
 @Composable
@@ -26,12 +27,12 @@ fun IgfaeMiniScreen10(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        TemplateCircleScreen(
+        TemplateScreen(
             data = data,
-            navController = navController,
-            CircleImage = { contentIgfaeMiniScreen10CircleImage(it) },
-            TitleText = { contentIgfaeMiniScreen10TitleText(it) },
-            BodyText = { contentIgfaeMiniScreen10BodyText(it) }
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
+            Box1 = { contentIgfaeMiniScreen10Box1() },
+            Box2 = { contentIgfaeMiniScreen10Box2(it,navController) },
+            Box3 = { contentIgfaeMiniScreen10Box3() }
         )
     }
 }

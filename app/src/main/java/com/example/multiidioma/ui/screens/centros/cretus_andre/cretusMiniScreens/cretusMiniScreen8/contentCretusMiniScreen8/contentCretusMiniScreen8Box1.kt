@@ -3,12 +3,10 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 
 import androidx.compose.runtime.Composable
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.utils.CircleStyleImage
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
-fun contentCretusMiniScreen8CircleImage(data: MiniScreenData) {
-    ReusableImage(data, CircleStyleImage)
+fun contentCretusMiniScreen8Box1(){
 
 }

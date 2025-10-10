@@ -1,5 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8
-
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.contentCretusMiniScreen14
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -13,22 +12,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
-
 @Composable
-fun contentCretusMiniScreen8BodyText(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
-    )
-
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp, bottom = 10.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        AppText(data, estilosTextos, index = 2)
-    }
+fun contentIgfaeMiniScreen14Box1() {
+    LineCircleComponent()
 }

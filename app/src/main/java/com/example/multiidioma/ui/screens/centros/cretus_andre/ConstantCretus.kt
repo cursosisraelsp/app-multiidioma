@@ -1,15 +1,33 @@
 package com.example.multiidioma.ui.screens.centros.cretus_andre
 
-import android.content.res.Resources
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoDiminuto
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoGrande
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoMediano
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoMicro
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraDiminuta
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraGrande
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMediana
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMicro
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightDiminuta
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightGrande
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightMediana
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightMicro
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroDiminuto
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroGrande
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroMediano
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroMicro
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoDiminuto
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoGrande
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoMediano
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoMicro
 
-
+/*
 val des = Resources.getSystem().displayMetrics
 val numLetra = (80 / des.density).sp
 val numLetra2 = ((40 / des.density)).sp
@@ -20,113 +38,169 @@ val numNumeroGrande = ((317.9 / des.density)).sp
 
 val numNumero = ((317.9 / des.density) / relacionDimen).sp
 
+
+// 🔵 Tamaño del círculo
+val CirculoGigante = 260.dp
+val CirculoGrande = 230.dp
+val CirculoMediano = 200.dp
+val CirculoPequeno = 170.dp
+val CirculoDiminuto = 140.dp
+val CirculoMicro = 110.dp
+
+// 🔢 Tamaño del número dentro del círculo (relación proporcional)
+val NumeroGigante   = (300 / des.density).sp
+val NumeroGrande    = (240 / des.density).sp
+val NumeroMediano   = (180 / des.density).sp
+val NumeroPequeno   = (140 / des.density).sp
+val NumeroDiminuto  = (120 / des.density).sp
+val NumeroMicro     = (100 / des.density).sp
+
+// 🔠 Tamaño de letra general
+val LetraGigante = (96 / des.density).sp      // ~38sp
+val LetraGrande = (78 / des.density).sp       // ~31sp
+val LetraMediana = (60 / des.density).sp      // ~24sp
+val LetraPequena = (50 / des.density).sp      // ~18sp
+val LetraDiminuta = (40 / des.density).sp     // ~12sp
+val LetraMicro = (34 / des.density).sp        // ~8–9sp
+
+// 📏 Line height (más ajustado cuanto más pequeño)
+val LineHeightGigante = LetraGigante * 1.3f
+val LineHeightGrande = LetraGrande * 1.2f
+val LineHeightMediana = LetraMediana * 1.15f
+val LineHeightPequena = LetraPequena * 1.05f
+val LineHeightDiminuta = LetraDiminuta * 0.95f
+val LineHeightMicro = LetraMicro * 0.9f
+
+// Porcentajes para el ancho del texto según el tamaño del círculo
+val porcentajeAnchoTextoGigante = 0.7f
+val porcentajeAnchoTextoGrande = 0.7f
+val porcentajeAnchoTextoMediano = 0.7f
+val porcentajeAnchoTextoPequeno = 0.65f
+val porcentajeAnchoTextoDiminuto = 0.6f
+val porcentajeAnchoTextoMicro = 0.6f
+
+// Ancho del texto calculado dinámicamente
+val anchoTextoGigante = CirculoGigante * porcentajeAnchoTextoGigante
+val anchoTextoGrande = CirculoGrande * porcentajeAnchoTextoGrande
+val anchoTextoMediano = CirculoMediano * porcentajeAnchoTextoMediano
+val anchoTextoPequeno = CirculoPequeno * porcentajeAnchoTextoPequeno
+val anchoTextoDiminuto = CirculoDiminuto * porcentajeAnchoTextoDiminuto
+val anchoTextoMicro = CirculoMicro * porcentajeAnchoTextoMicro
+*/
+
+
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
 
 val valorFiguraCretus0 = NavegationFiguresData(
     offset_x = 50.dp,
-    offset_y = 20.dp,
+    offset_y = 7.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoDiminuto,
     ruta = Destination.CretusMiniscreen9.route,
     numString = "01",
-    relacionNum = numNumero,
+    relacionNum = NumeroMicro,
     textoInfo = R.string.CS_CRETUS_miniscreen_9_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    anchoTexto = anchoTextoMicro,
+    lineHeight = LineHeightMicro,
+    relacionText = LetraMicro
 )
 val valorFiguraCretus1 = NavegationFiguresData(
-    offset_x = 260.dp,
-    offset_y = 70.dp,
+    offset_x = 160.dp,
+    offset_y = 10.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
+    tamanhoFigura = CirculoMediano,
     ruta = Destination.CretusMiniscreen10.route,
     numString = "02",
-    relacionNum = numNumero,
+    relacionNum = NumeroMediano,
     textoInfo = R.string.CS_CRETUS_miniscreen_10_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus2 = NavegationFiguresData(
-    offset_x = 50.dp,
-    offset_y = 460.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen11.route,
-    numString = "03",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_11_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus3 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen12.route,
-    numString = "04",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_12_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus4 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen13.route,
-    numString = "05",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_13_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus5 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen14.route,
-    numString = "06",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_14_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus6 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen15.route,
-    numString = "07",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_15_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCretus7 = NavegationFiguresData(
-    offset_x = 240.dp,
-    offset_y = 470.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.CretusMiniscreen16.route,
-    numString = "08",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CRETUS_miniscreen_16_paragraph_1,
-    anchoTexto = relacionTexto,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
+    anchoTexto = anchoTextoMediano,
+    lineHeight = LineHeightMediana,
+    relacionText = LetraMediana
 )
 
+val valorFiguraCretus2 = NavegationFiguresData(
+    offset_x = 18.dp,
+    offset_y = 120.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoMediano,
+    ruta = Destination.CretusMiniscreen11.route,
+    numString = "03",
+    relacionNum = NumeroMediano,
+    textoInfo = R.string.CS_CRETUS_miniscreen_11_paragraph_1,
+    anchoTexto = anchoTextoMediano,
+    lineHeight = LineHeightMediana,
+    relacionText = LetraMediana
+)
+
+val valorFiguraCretus3 = NavegationFiguresData(
+    offset_x = 280.dp,
+    offset_y = 155.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoDiminuto,
+    ruta = Destination.CretusMiniscreen12.route,
+    numString = "04",
+    relacionNum = NumeroDiminuto,
+    textoInfo = R.string.CS_CRETUS_miniscreen_12_paragraph_1,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
+    relacionText = LetraDiminuta
+)
+
+val valorFiguraCretus4 = NavegationFiguresData(
+    offset_x = 25.dp,
+    offset_y = 300.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoDiminuto,
+    ruta = Destination.CretusMiniscreen13.route,
+    numString = "05",
+    relacionNum = NumeroDiminuto,
+    textoInfo = R.string.CS_CRETUS_miniscreen_13_paragraph_1,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
+    relacionText = LetraDiminuta
+)
+
+val valorFiguraCretus5 = NavegationFiguresData(
+    offset_x = 145.dp,
+    offset_y = 240.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoGrande,
+    ruta = Destination.CretusMiniscreen14.route,
+    numString = "06",
+    relacionNum = NumeroGrande,
+    textoInfo = R.string.CS_CRETUS_miniscreen_14_paragraph_1,
+    anchoTexto = anchoTextoGrande,
+    lineHeight = LineHeightGrande,
+    relacionText = LetraMediana
+)
+
+val valorFiguraCretus6 = NavegationFiguresData(
+    offset_x = 60.dp,
+    offset_y = 420.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoDiminuto,
+    ruta = Destination.CretusMiniscreen15.route,
+    numString = "07",
+    relacionNum = NumeroDiminuto,
+    textoInfo = R.string.CS_CRETUS_miniscreen_15_paragraph_1,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
+    relacionText = LetraDiminuta
+)
+
+val valorFiguraCretus7 = NavegationFiguresData(
+    offset_x = 230.dp,
+    offset_y = 445.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = CirculoDiminuto,
+    ruta = Destination.CretusMiniscreen16.route,
+    numString = "08",
+    relacionNum = NumeroDiminuto,
+    textoInfo = R.string.CS_CRETUS_miniscreen_16_paragraph_1,
+    anchoTexto = anchoTextoDiminuto,
+    lineHeight = LineHeightDiminuta,
+    relacionText = LetraDiminuta
+)
 
 
 

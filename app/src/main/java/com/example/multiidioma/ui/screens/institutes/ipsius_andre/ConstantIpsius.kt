@@ -40,9 +40,9 @@ val NumeroMicro     = (100 / des.density).sp
 val LetraGigante = (96 / des.density).sp      // ~38sp
 val LetraGrande = (78 / des.density).sp       // ~31sp
 val LetraMediana = (60 / des.density).sp      // ~24sp
-val LetraPequena = (45 / des.density).sp      // ~18sp
-val LetraDiminuta = (30 / des.density).sp     // ~12sp
-val LetraMicro = (22 / des.density).sp        // ~8–9sp
+val LetraPequena = (50 / des.density).sp      // ~18sp
+val LetraDiminuta = (40 / des.density).sp     // ~12sp
+val LetraMicro = (34 / des.density).sp        // ~8–9sp
 
 // 📏 Line height (más ajustado cuanto más pequeño)
 val LineHeightGigante = LetraGigante * 1.3f
@@ -80,7 +80,7 @@ val valorFiguraIpsius0 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_7_paragraph_2,
     anchoTexto = anchoTextoDiminuto,
     lineHeight = LineHeightDiminuta,
-    relacionText = numLetra2
+    relacionText = LetraDiminuta
 )
 
 val valorFiguraIpsius1 = NavegationFiguresData(
@@ -94,7 +94,7 @@ val valorFiguraIpsius1 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_8_paragraph_2,
     anchoTexto = anchoTextoGigante,
     lineHeight = LineHeightGigante,
-    relacionText = numLetra2
+    relacionText = LetraGigante
 )
 
 val valorFiguraIpsius2 = NavegationFiguresData(
@@ -108,7 +108,7 @@ val valorFiguraIpsius2 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_9_paragraph_2,
     anchoTexto = anchoTextoMicro,
     lineHeight = LineHeightMicro,
-    relacionText = numLetra2
+    relacionText = LetraMicro
 )
 
 val valorFiguraIpsius3 = NavegationFiguresData(
@@ -122,7 +122,7 @@ val valorFiguraIpsius3 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_10_paragraph_3,
     anchoTexto = anchoTextoDiminuto,
     lineHeight = LineHeightDiminuta,
-    relacionText = numLetra2
+    relacionText = LetraDiminuta
 )
 
 val valorFiguraIpsius4 = NavegationFiguresData(
@@ -136,12 +136,12 @@ val valorFiguraIpsius4 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_11_paragraph_1,
     anchoTexto = anchoTextoMediano,
     lineHeight = LineHeightMediana,
-    relacionText = numLetra
+    relacionText = LetraMediana
 )
 
 val valorFiguraIpsius5 = NavegationFiguresData(
     offset_x = 250.dp,
-    offset_y = 310.dp,
+    offset_y = 320.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = CirculoMicro,
     ruta = Destination.Cretus.route,
@@ -150,7 +150,7 @@ val valorFiguraIpsius5 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_12_paragraph_2,
     anchoTexto = anchoTextoMicro,
     lineHeight = LineHeightMicro,
-    relacionText = numLetra
+    relacionText = LetraMicro
 )
 
 val valorFiguraIpsius6 = NavegationFiguresData(
@@ -164,7 +164,7 @@ val valorFiguraIpsius6 = NavegationFiguresData(
     textoInfo = R.string.II_IPSIUS_miniscreen_13_paragraph_3,
     anchoTexto = anchoTextoPequeno,
     lineHeight = LineHeightPequena,
-    relacionText = numLetra
+    relacionText = LetraPequena
 )
 
 

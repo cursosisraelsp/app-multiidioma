@@ -8,11 +8,10 @@ import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun contentIgfaeMiniScreen6Box3(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
-    ReusableImage(data, estilosImagen)
+fun contentIgfaeMiniScreen6Box3() {
+    LineVerticalComponent ()
 }

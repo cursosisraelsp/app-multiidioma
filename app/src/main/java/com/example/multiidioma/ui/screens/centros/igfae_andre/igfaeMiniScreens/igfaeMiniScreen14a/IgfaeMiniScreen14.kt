@@ -8,11 +8,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.contentCretusMiniScreen13.contentIgfaeMiniScreen13BodyText
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.contentCretusMiniScreen13.contentIgfaeMiniScreen13CircleImage
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.contentCretusMiniScreen13.contentIgfaeMiniScreen13TitleText
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.contentCretusMiniScreen14.contentIgfaeMiniScreen14Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.contentCretusMiniScreen14.contentIgfaeMiniScreen14Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.contentCretusMiniScreen14.contentIgfaeMiniScreen14Box3
 
 @Composable
 fun IgfaeMiniScreen14(
@@ -25,12 +27,13 @@ fun IgfaeMiniScreen14(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        TemplateCircleScreen(
+        TemplateScreen(
             data = data,
-            navController = navController,
-            CircleImage = { contentIgfaeMiniScreen13CircleImage(it) },
-            TitleText = { contentIgfaeMiniScreen13TitleText(it) },
-            BodyText = { contentIgfaeMiniScreen13BodyText(it) }
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
+
+            Box1 = { contentIgfaeMiniScreen14Box1() },
+            Box2 = { contentIgfaeMiniScreen14Box2(it,navController) },
+            Box3 = { contentIgfaeMiniScreen14Box3() }
         )
     }
 }

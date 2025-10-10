@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.contentCretusMiniScreen14
 
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,18 +16,6 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIgfaeMiniScreen14BodyText(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
-    )
+fun contentIgfaeMiniScreen14Box3() {
 
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp, bottom = 10.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        AppText(data, estilosTextos, index = 2)
-    }
 }

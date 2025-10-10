@@ -13,22 +13,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
-fun contentIgfaeMiniScreen10BodyText(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
-    )
-
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp, bottom = 10.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        AppText(data, estilosTextos, index = 2)
-    }
+fun contentIgfaeMiniScreen10Box1() {
+    LineVerticalComponent()
 }
