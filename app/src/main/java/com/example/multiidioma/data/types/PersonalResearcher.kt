@@ -9,6 +9,8 @@ data class PersonalResearcher(
     val ruta:String,
     val contentType: ContentType?,
 )
+
+
 data class PersonalResearcher2(
     val id:String,
     val foto:Int,
@@ -22,6 +24,18 @@ data class PersonalResearcher2(
         get() = "detalles/$id"  // se recalcula cada vez que lo accedes
 }
 
+
+/*data class PersonalResearcher2(
+    val id: String,
+    val foto: Int,
+    val name: String?,
+    val info: List<Int?>,
+    val contentType: ContentType?,
+) {
+    fun ruta(centro: String): String {
+        return "detalles/$centro/$id"
+    }
+}*/
 
 data class PersonResearcher(
     val foto:Int,

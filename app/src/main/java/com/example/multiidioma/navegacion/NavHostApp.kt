@@ -71,13 +71,13 @@ fun NavHostApp(
             InciforMiniScreen27(data = ,navController = navController)
         }*/
 
-        composable("detalles/{itemId}") { backStackEntry ->
+        composable("detalles/{centro}/{itemId}") { backStackEntry ->
             // Aquí puedes acceder a los argumentos
 
             val itemId = backStackEntry.arguments?.getString("itemId")
-
-            if (itemId != null) {
-                Plantilla(itemId = itemId,navController)
+            val itemCentro = backStackEntry.arguments?.getString("centro")
+            if (itemId != null && itemCentro != null) {
+                Plantilla(centro = itemCentro, itemId = itemId,navController)
             } // Pasa el argumento al Composable
 
         }

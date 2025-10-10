@@ -60,11 +60,13 @@ fun CitiusMiniScreen17(
                 items(data.personalResearcher!!) { researcher ->
                     Column(
                         modifier = Modifier.clickable {
-                            val ruta = "${researcher.ruta}/${researcher.id}"
-                            navController.navigate(researcher.ruta)
+                            val ruta = "detalles/citius/${researcher.id}"
+
+                            //navController.navigate(researcher.ruta)
+                            navController.navigate(ruta)
                         }
                     ) {
-                        val ruta = "${researcher.ruta}/${researcher.id}"
+                        val ruta = "${researcher.ruta}/citius/${researcher.id}"
                         Image(
                             painter = painterResource(researcher.foto),
                             contentDescription = "foto"

@@ -71,10 +71,10 @@ List<PersonalResearcher>?
             items(data.personalResearcher!!){ researcher ->
                 Column (
                     modifier = Modifier.clickable {
-                        val ruta = "${researcher.ruta}/${researcher.id}"
-                        //navController.navigate(ruta)
+                        val ruta = "detalles/imatus/${researcher.id}"
+                        navController.navigate(ruta)
                         //navController.navigate("detalles/0")
-                        navController.navigate(researcher.ruta)
+                        //navController.navigate(researcher.ruta)
                     }
                 ) {
                     val ruta = "${researcher.ruta}/${researcher.id}"

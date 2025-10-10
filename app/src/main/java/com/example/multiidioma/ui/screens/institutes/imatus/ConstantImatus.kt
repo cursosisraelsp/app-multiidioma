@@ -104,4 +104,4 @@ val aclImatus = PersonResearcher(
     contentType = ContentType.MINISCREEN27
 )
 
-val datosInvestigadores = listOf(mvlhImatus, ambbImatus, jimbImatus, aclImatus)
+val datosInvestigadoresImatus = listOf(mvlhImatus, ambbImatus, jimbImatus, aclImatus)
