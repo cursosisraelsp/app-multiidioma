@@ -27,7 +27,7 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen14.CitiusMiniScreen14
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen15.CitiusMiniScreen15
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.CitiusMiniScreen16
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17
+/*import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17*/
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen2.CitiusMiniScreen2
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen26.CitiusMiniScreen26
@@ -157,7 +157,7 @@ fun CitiusScreen(
                                 .fillParentMaxHeight(),
                         )
 
-                        17 -> CitiusMiniScreen17(
+                        /*17 -> CitiusMiniScreen17(
                             data,
                             navController,
                             podcastsMultimedia,
@@ -165,7 +165,7 @@ fun CitiusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
-
+*/
 
                         /*18 -> CitiusMiniScreen18(data, navController)*/
 

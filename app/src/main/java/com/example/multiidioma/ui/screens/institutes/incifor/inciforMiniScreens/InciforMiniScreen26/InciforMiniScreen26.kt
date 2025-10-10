@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyRow
@@ -16,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -35,26 +37,38 @@ fun InciforMiniScreen26(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color(0xFF32627E))
+    Column(
+        modifier =
+            Modifier
+                .fillMaxSize()
+                .background(Color.Blue)
     ) {
-        val lista = listOf<@Composable ((MiniScreenData) -> Unit)>(
-            { contentFirstDirectiveImageMiniScreen26(it) },
-            { contentFirstDirectiveTextDescriptionMiniScreen26(it) },
-            { contentSecondDirectiveImageMiniScreen26(it) },
-            { contentSecondDirectiveTextDescriptionMiniScreen26(it) }
-        )
-        val elementosLazyRowTemplate = WorkersCenter(
-            infoWorkerCenter = lista,
-            podcast = podcasts
-        )
-        Text(text = stringResource(data.bodyParagraphs[0]))
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(0.4f)
+                /*.background(Color(0xFF32627E))*/.background(
+                    Color.Red
+                )
 
-        /*LazyRow(
+        ) {
+            val lista = listOf<@Composable ((MiniScreenData) -> Unit)>(
+                { contentFirstDirectiveImageMiniScreen26(it) },
+                { contentFirstDirectiveTextDescriptionMiniScreen26(it) },
+                { contentSecondDirectiveImageMiniScreen26(it) },
+                { contentSecondDirectiveTextDescriptionMiniScreen26(it) }
+            )
+            val elementosLazyRowTemplate = WorkersCenter(
+                infoWorkerCenter = lista,
+                podcast = podcasts
+            )
+            Text(text = stringResource(data.bodyParagraphs[0]))
+        }
+        LazyRow(
             modifier = modifier
-                .fillMaxWidth(),
+                .fillMaxWidth()
+                .fillMaxHeight(0.4f)
+                .background(Color.Green),
             contentPadding = PaddingValues(horizontal = 16.dp),
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
@@ -68,19 +82,36 @@ fun InciforMiniScreen26(
                     }
                 ) {
                     val ruta = "${researcher.ruta}/incifor/${researcher.id}"
-                    Image(
-                        painter = painterResource(researcher.foto),
-                        contentDescription = "foto"
-                    )
-                    Text("### A ruta é ###")
-                    Text("${researcher.ruta}")
-                    Text("······O id é····")
-                    Text("${researcher.id}")
-                    Text("····A RUTA CONCACT")
-                    Text("$ruta")
+
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .background(Color.Gray)
+                            .weight(0.3f)
+                    ) {
+                        Image(
+                            painter = painterResource(researcher.foto),
+                            contentDescription = "foto",
+                            contentScale = ContentScale.FillBounds
+                        )
+                    }
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .weight(0.3f)
+                            .background(Color.DarkGray)
+                    ) {
+                        Text("### A ruta é ###")
+                        Text("${researcher.ruta}")
+                        Text("······O id é····")
+                        Text("${researcher.id}")
+                        Text("····A RUTA CONCACT")
+                        Text("$ruta")
+                    }
                 }
             }
-        }*/
+        }
+
 
     }
 }

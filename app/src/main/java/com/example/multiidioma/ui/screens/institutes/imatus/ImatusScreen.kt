@@ -29,7 +29,7 @@ import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScr
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen10.ImatusMiniScreen10
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen11.ImatusMiniScreen11
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen16.ImatusMiniScreen12
-import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen13.ImatusMiniScreen13
+/*import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen13.ImatusMiniScreen13*/
 
 /*
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen35.ImatusMiniScreen35
@@ -147,7 +147,7 @@ fun ImatusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
-                        13 -> ImatusMiniScreen13(
+                      /*  13 -> ImatusMiniScreen13(
                             data,
                             navController,
                             podcastsMultimedia,
@@ -155,7 +155,7 @@ fun ImatusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
 
-                        )
+                        )*/
                        /* 35 -> ImatusMiniScreen35(
                             data,
                             Modifier
