@@ -13,16 +13,23 @@ import kotlinx.coroutines.launch
 class PlantillaViewModel : ViewModel() {
     private val _uiState = MutableStateFlow<PlantillaState>(PlantillaState.Loading)
     val uiState: StateFlow<PlantillaState> = _uiState.asStateFlow()
+    val repository = InfoResearchersRepository()
 
-    init {
-        loadPlantillaIncifor()
-    }
 
-    private fun loadPlantillaIncifor() {
-        val datesIncifor = InfoResearchersRepository()
+    fun loadPlantillaPorCentro(centro: String) {
         viewModelScope.launch {
-            val listaResearchersIncifor = datesIncifor.infoReaseachersIncifor()
-            _uiState.value = PlantillaState.Success(listaResearchersIncifor)
+            _uiState.value = PlantillaState.Loading
+            try {
+                val lista = when (centro.lowercase()) {
+                    "imatus" -> repository.infoReaseachersImatus()
+                    "citius" -> repository.infoReaseachersCitius()
+                    "incifor" -> repository.infoReaseachersIncifor()
+                    else -> emptyList()
+                }
+                _uiState.value = PlantillaState.Success(lista)
+            } catch (e: Exception) {
+                _uiState.value = PlantillaState.Error("Error cargando datos: ${e.message}")
+            }
         }
     }
 }

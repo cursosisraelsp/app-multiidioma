@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -19,11 +20,15 @@ import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
 @Composable
-fun Plantilla(itemId : String,navController: NavController){
+fun Plantilla(centro: String,itemId : String,navController: NavController){
 
     val viewModel: PlantillaViewModel = viewModel();
     val uiState by viewModel.uiState.collectAsState();
 
+    // 👇 Cada vez que cambie el centro, se vuelve a cargar la lista correspondiente
+    LaunchedEffect(centro) {
+        viewModel.loadPlantillaPorCentro(centro)
+    }
     when (uiState) {
         is PlantillaState.Loading -> {
             Box(

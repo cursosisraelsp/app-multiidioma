@@ -82,6 +82,8 @@
     <string name="II_INCIFOR_miniscreen_27_title_1">Prueba directivo2</string>
     <string name="II_INCIFOR_miniscreen_27_paragraph_1">Prueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivo</string>
     <string name="More_info">More Info here</string>
-    <string name="II_INCIFOR_miniscreen_28_paragraph_0">\tIf you are interested in learning more about INCIFOR you can access more information by clicking on the following link</string>
+    <string name="II_INCIFOR_miniscreen_28_paragraph_0">Director</string>
+    <string name="II_INCIFOR_miniscreen_29_paragraph_0">Secretary</string>
+    <string name="II_INCIFOR_miniscreen_50_paragraph_0">\tIf you are interested in learning more about INCIFOR you can access more information by clicking on the following link</string>
 
 </resources>

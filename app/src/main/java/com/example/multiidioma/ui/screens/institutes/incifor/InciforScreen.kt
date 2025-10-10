@@ -20,6 +20,7 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.incifor.InciforViewModel
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26
 /*import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen26.InciforMiniScreen26*/
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.InciforMiniScreen0
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.InciforMiniScreen1
@@ -239,16 +240,15 @@ fun InciforScreen(
                             listState = listState,
                             itemIndex = index
                         )
-                        /*26 -> InciforMiniScreen26(
+
+                        26 -> InciforMiniScreen26(
                             data,
                             navController,
                             podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )*/
-
-
+                        )
                         28 -> InciforMiniScreen28(
                             data,
                             Modifier
