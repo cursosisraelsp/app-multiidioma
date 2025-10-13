@@ -175,9 +175,12 @@ val ifcIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isabel Fraga Carou",
     info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_20_title_0,
+        R.string.II_IPSIUS_miniscreen_20_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_20_title_1,
+        R.string.II_IPSIUS_miniscreen_20_texto_buscado_1,
+        R.string.II_IPSIUS_miniscreen_20_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_20_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
@@ -186,9 +189,12 @@ val srhIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Socorro Rodríguez Holguín",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_21_title_0,
+        R.string.II_IPSIUS_miniscreen_21_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_21_title_1,
+        R.string.II_IPSIUS_miniscreen_21_texto_buscado_1,
+        R.string.II_IPSIUS_miniscreen_21_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_21_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
@@ -197,9 +203,10 @@ val cmvIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carmela Martínez Vispo",
     info = listOf(
-        /*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_22_title_0,
+        R.string.II_IPSIUS_miniscreen_22_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_22_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_22_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
@@ -208,62 +215,75 @@ val ebiIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Elisardo Becoña Iglesias",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_23_title_0,
+        R.string.II_IPSIUS_miniscreen_23_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_23_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_23_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val fciIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Francisco Caamaño Isorna",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_24_title_0,
+        R.string.II_IPSIUS_miniscreen_24_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_24_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_24_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val nmnIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Narmeen Mallah Nasrallah",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_25_title_0,
+        R.string.II_IPSIUS_miniscreen_25_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_25_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_25_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val fcmIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Fernando Cadaveira Mahía",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_26_title_0,
+        R.string.II_IPSIUS_miniscreen_26_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_26_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_26_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val ertIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Estrella Romero Triñanes",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_27_title_0,
+        R.string.II_IPSIUS_miniscreen_27_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_27_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_27_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val llrIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Laura López-Romero",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IPSIUS_miniscreen_28_title_0,
+        R.string.II_IPSIUS_miniscreen_28_texto_buscado_0,
+        R.string.II_IPSIUS_miniscreen_28_paragraph_0,
+        R.string.II_IPSIUS_miniscreen_28_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
 )
+
+
 
 
 val datosInvestigadores = listOf(ifcIpsius, srhIpsius, cmvIpsius, ebiIpsius, fciIpsius, nmnIpsius, fcmIpsius,ertIpsius,llrIpsius )

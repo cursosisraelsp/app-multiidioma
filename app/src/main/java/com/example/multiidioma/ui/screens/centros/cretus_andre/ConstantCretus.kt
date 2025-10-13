@@ -9,9 +9,7 @@ import com.example.multiidioma.data.types.PersonResearcher
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoDiminuto
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoGrande
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoMediano
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoMicro
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraDiminuta
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraGrande
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMediana
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMicro
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightDiminuta
@@ -211,134 +209,282 @@ val mtmCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Teresa Moreira",
     info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_23_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_23_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_23_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_23_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_23_paragraph_4
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 
 val sfCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Sarah Fiol",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_24_title_1,
+        R.string.CS_CRETUS_miniscreen_24_texto_buscado_1,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_24_paragraph_5
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 
 val abfCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Andrés Baselga Fraga",
     info = listOf(
-        /*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_25_title_1,
+        R.string.CS_CRETUS_miniscreen_25_texto_buscado_1,
+        R.string.CS_CRETUS_miniscreen_25_title_2,
+        R.string.CS_CRETUS_miniscreen_25_texto_buscado_2,
+        R.string.CS_CRETUS_miniscreen_25_title_3,
+        R.string.CS_CRETUS_miniscreen_25_texto_buscado_3,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_25_title_4,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_25_paragraph_6
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 
 val gfcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Gumersindo Feijoo Costa",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_26_title_1,
+        R.string.CS_CRETUS_miniscreen_26_texto_buscado_1,
+        R.string.CS_CRETUS_miniscreen_26_title_2,
+        R.string.CS_CRETUS_miniscreen_26_texto_buscado_2,
+        R.string.CS_CRETUS_miniscreen_26_title_3,
+        R.string.CS_CRETUS_miniscreen_26_texto_buscado_3,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_26_title_4,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_11,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_12,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_13,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_14,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_15,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_16,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_17,
+        R.string.CS_CRETUS_miniscreen_26_paragraph_18
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
+
 val cgrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Cristina Gómez-Román",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_27_title_1,
+        R.string.CS_CRETUS_miniscreen_27_texto_buscado_1,
+        R.string.CS_CRETUS_miniscreen_27_title_2,
+        R.string.CS_CRETUS_miniscreen_27_texto_buscado_2,
+        R.string.CS_CRETUS_miniscreen_27_title_3,
+        R.string.CS_CRETUS_miniscreen_27_texto_buscado_3,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_27_title_4,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_27_paragraph_10
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
+
 val jmlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Juan M. Lema Rodicio",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_28_title_1,
+        R.string.CS_CRETUS_miniscreen_28_texto_buscado_1,
+        R.string.CS_CRETUS_miniscreen_28_title_2,
+        R.string.CS_CRETUS_miniscreen_28_texto_buscado_2,
+        R.string.CS_CRETUS_miniscreen_28_title_3,
+        R.string.CS_CRETUS_miniscreen_28_texto_buscado_3,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_28_title_4,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_28_paragraph_11
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val mlvCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Llompart Vizoso",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_29_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_11,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_12,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_13,
+        R.string.CS_CRETUS_miniscreen_29_paragraph_14
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
+
 val olcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Olalla López Costas",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_30_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_30_paragraph_11
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val jlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Jesús López Romalde",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_31_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_31_paragraph_11
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val amcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Anuska Mosquera Corral",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_32_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_32_paragraph_9
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val xlopCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Xosé Lois Otero Pérez",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_33_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_5,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_6,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_7,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_8,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_9,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_10,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_11,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_12,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_13,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_14,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_15,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_16,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_17,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_18,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_19,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_20,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_21,
+        R.string.CS_CRETUS_miniscreen_33_paragraph_22
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val vpmCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Vicente Pérez Muñuzuri",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_34_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_34_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_34_paragraph_2,
+        R.string.CS_CRETUS_miniscreen_34_paragraph_3,
+        R.string.CS_CRETUS_miniscreen_34_paragraph_4,
+        R.string.CS_CRETUS_miniscreen_34_paragraph_5
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 val svlCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Sebastián Villasante Larramendi",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_CRETUS_miniscreen_35_paragraph_0,
+        R.string.CS_CRETUS_miniscreen_35_paragraph_1,
+        R.string.CS_CRETUS_miniscreen_35_paragraph_2
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
+
 
 val datosInvestigadores = listOf(mtmCretus, sfCretus, abfCretus, gfcCretus, cgrCretus, jmlrCretus, mlvCretus,olcCretus,jlrCretus,amcCretus,xlopCretus,vpmCretus,svlCretus )

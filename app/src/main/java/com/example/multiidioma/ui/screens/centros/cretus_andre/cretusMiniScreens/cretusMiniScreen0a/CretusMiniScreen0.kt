@@ -11,6 +11,7 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen0a.contentCretusMiniScreen0.contentCretusMiniScreen0Box2
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen0a.contentCretusMiniScreen0.contentCretusMiniScreen0Box3
 
@@ -31,12 +32,7 @@ fun CretusMiniScreen0(
                 .fillMaxSize()
         ) {
 
-            VideoScreen(
-                videoId = "", // tu ID de video
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+            VimeoWebViewComponent(identificador = "1124127039", width = "425px", height = "800px")
         }
 
         TemplateScreen(

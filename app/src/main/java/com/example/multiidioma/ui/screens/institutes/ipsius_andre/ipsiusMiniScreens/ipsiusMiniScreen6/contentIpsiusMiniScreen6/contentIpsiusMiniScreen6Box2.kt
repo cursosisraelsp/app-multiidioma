@@ -25,7 +25,6 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIps
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius4
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius5
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.valorFiguraIpsius6
-import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.TextTitleLarge
 
 @Composable

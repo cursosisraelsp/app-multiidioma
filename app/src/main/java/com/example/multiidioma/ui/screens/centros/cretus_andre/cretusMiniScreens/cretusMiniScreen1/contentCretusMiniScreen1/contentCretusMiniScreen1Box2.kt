@@ -20,6 +20,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 
 @Composable
 fun contentCretusMiniScreen1Box2(data: MiniScreenData){
@@ -35,12 +36,12 @@ fun contentCretusMiniScreen1Box2(data: MiniScreenData){
 
         AppText(data, estiloTextos,index=0)
         AppText(data, estiloTextos, index =1)
-       SpacerText()
+        SpacerText()
         val estilosImagen = StyleImages(
             modifier = Modifier
                 .fillMaxWidth(),
             alignment = Alignment.BottomCenter
         )
-        ReusableImage(data, estilosImagen)
+        VimeoWebViewComponent(identificador = "1124127714", width = "705px", height = "800px")
     }
 }
