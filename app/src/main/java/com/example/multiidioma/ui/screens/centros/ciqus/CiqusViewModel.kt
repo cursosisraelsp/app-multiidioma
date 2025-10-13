@@ -32,8 +32,10 @@ class CiqusViewModel : ViewModel() {
                     listaCiqusRepository.getData(5),
                     listaCiqusRepository.getData(6),
                     listaCiqusRepository.getData(7),
-                   /* listaCiqusRepository.getData(8),
-                    listaCiqusRepository.getData(9),*/
+                    listaCiqusRepository.getData(8),
+                    listaCiqusRepository.getData(9),
+                    listaCiqusRepository.getData(10),
+                    listaCiqusRepository.getData(11),
 
                     )
             )

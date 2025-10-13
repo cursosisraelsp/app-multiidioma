@@ -28,8 +28,12 @@ import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.CiqusMiniScreen
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.CiqusMiniScreen7.CiqusMiniScreen7
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen0.ciqusMiniScreen0
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen1.ciqusMiniScreen1
+import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen10.ciqusMiniScreen10
+import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen11.ciqusMiniScreen11
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen2.ciqusMiniScreen2
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen3.ciqusMiniScreen3
+import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen8.ciqusMiniScreen8
+import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen9.ciqusMiniScreen9
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen10.IdisMiniScreen10
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen11.IdisMiniScreen11
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen3.IdisMiniScreen3
@@ -136,39 +140,43 @@ fun CiqusScreen(
                                 .fillParentMaxHeight()
                         )
 
-                       /* 8 -> IdisMiniScreen8(
+                        8 -> ciqusMiniScreen8(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
-                        9 -> IdisMiniScreen9(
+                        9 -> ciqusMiniScreen9(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
-                        10 -> IdisMiniScreen10(
+                       10 -> ciqusMiniScreen10(
+                        data,
+                        Modifier
+                            .fillMaxWidth()
+                            .fillParentMaxHeight(),
+                        listState =  listState,
+                        itemIndex = index
+                        )
+
+                        11 -> ciqusMiniScreen11(
                             data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
-                        11 -> IdisMiniScreen11(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        12 -> IdisMiniScreen12(
+                       /* 12 -> IdisMiniScreen12(
                             data,
                             Modifier
                                 .fillMaxWidth()
