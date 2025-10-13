@@ -17,10 +17,13 @@ fun BodyTextCircleTemplateUtil(
     modifier: Modifier = Modifier
 ) {
     Column(
-        modifier = modifier
-            .fillMaxWidth()
+        modifier = modifier.fillMaxWidth()
     ) {
-        Box(modifier = Modifier.padding(start = 67.dp, bottom = 10.dp)) {
+        Box(
+            modifier = Modifier
+                .padding(start = 67.dp, bottom = 10.dp)
+                .fillMaxWidth()
+        ) {
             BodyText(data)
         }
     }

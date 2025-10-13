@@ -1,14 +1,14 @@
 package com.example.multiidioma.utils
 
+import androidx.annotation.RawRes
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import coil.compose.rememberAsyncImagePainter
 import coil.decode.SvgDecoder
 import coil.request.ImageRequest
-import androidx.annotation.RawRes
-import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun SvgImageComponent(@RawRes resId: Int, modifier: Modifier = Modifier) {

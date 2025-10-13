@@ -5,7 +5,6 @@ import com.example.multiidioma.data.TitulosNavegacion
 
 fun TitleNames(ruta : String?,navBackStackEntry: NavBackStackEntry?):String{
 
-    val constante = "?resetScroll={resetScroll}"
     return when(ruta) {
 
         "detail/{screenId}" -> {
@@ -27,8 +26,6 @@ fun TitleNames(ruta : String?,navBackStackEntry: NavBackStackEntry?):String{
             when(ruta){
                 "home" -> "INXENIUS"
                 "ciqus" -> "CiQus"
-                "ihus" -> "IHUS"
-                "incifor" -> "INcIFoR"
                 else -> ruta.toString().uppercase()
             }
         }

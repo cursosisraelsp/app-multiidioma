@@ -22,7 +22,7 @@ fun TitleTextCircleTemplateUtil(
         modifier = modifier
             .fillMaxHeight()
             .fillMaxWidth()
-            .offset(x = (-16).dp) // mueve la columna y por tanto el título
+            .offset(x = (-26).dp) // mueve la columna y por tanto el título
             .padding(bottom = 10.dp),
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.Start

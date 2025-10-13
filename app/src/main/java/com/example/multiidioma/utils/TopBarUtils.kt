@@ -1,8 +1,6 @@
 package com.example.multiidioma.utils
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
@@ -22,7 +20,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.navigation.NavHostController
@@ -44,10 +41,8 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
     if (condicionVision.CondicionTopBar(navController)) {
         AnimatedVisibility(
             visible = topBarVisible,
-            enter = slideInVertically { -it } + fadeIn(),
-            exit  = slideOutVertically { -it } + fadeOut()
-            //enter = slideInVertically(initialOffsetY = { it }),
-            //exit = slideOutVertically(targetOffsetY = { it })
+            enter = slideInVertically(initialOffsetY = { it }),
+            exit = slideOutVertically(targetOffsetY = { it })
         ){
             TopAppBar(
                 colors = topAppBarColors(
@@ -78,17 +73,15 @@ fun TopBarUtils(topBarVisible: Boolean, navController: NavHostController, drawer
                     }
                 },
                 actions = {
-
                     if(condicionVision.CondicionInstitutos(navController) || condicionVision.CondicionCentrosSingulares(navController)){
                         IconButton(
                             onClick = { scope.launch {
-
+                                //drawerState.open()
                                 if (drawerState.isClosed) {
                                     drawerState.open()
                                 } else {
                                     drawerState.close()
                                 }
-
                             } }
                         ) {
                             Icon(
