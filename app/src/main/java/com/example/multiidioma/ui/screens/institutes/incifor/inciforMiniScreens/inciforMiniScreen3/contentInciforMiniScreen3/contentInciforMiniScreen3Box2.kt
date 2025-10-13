@@ -16,7 +16,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentInciforMiniScreen3Box2(data: MiniScreenData) {
@@ -34,12 +34,10 @@ fun contentInciforMiniScreen3Box2(data: MiniScreenData) {
             .padding(top = 10.dp, bottom = 50.dp, start = 50.dp, end = 50.dp)
     ) {
 
-        TextBodyMedium(data, estilosTextos)
+        AppText(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(10.dp))
-        Column (modifier = Modifier.height(200.dp)){
-            ReusableImage(data, estilosImagen)
-        }
 
+        ReusableImage(data, estilosImagen)
     }
 }

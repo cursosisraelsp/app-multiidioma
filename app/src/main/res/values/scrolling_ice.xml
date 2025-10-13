@@ -1,0 +1,305 @@
+<resources>
+    <!-- PANTALLA 1 -->
+    <string name="II_ICE_miniscreen_0_paragraph_0">In 1950, approximately half of the world\'s population did not have access to education.</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_0" translatable="false">1950</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_1">not have access to education</string>
+    <string name="II_ICE_miniscreen_0_paragraph_1">By 2025, the percentage of people in this situation had fallen to 11%.</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_2" translatable="false">2025</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_3">had fallen to 11%</string>
+    <string name="II_ICE_miniscreen_0_paragraph_2">The progress made over the last half-century has been a fundamental tool in the fight against poverty and in improving the quality of life for millions of people.</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_4">fight against poverty</string>
+    <string name="II_ICE_miniscreen_0_texto_buscado_5">quality of life</string>
+    <!-- PANTALLA 2 -->
+    <string name="II_ICE_miniscreen_1_paragraph_0">However, UNESCO estimates that there are 754 million adults who cannot read or write, two-thirds of whom are women, and 250 million children who have not acquired these basic skills either.</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_0">754 million adults who cannot read or write</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_1">250 million children</string>
+    <string name="II_ICE_miniscreen_1_paragraph_1">The fourth of the UN\'s sustainable development goals for the 2030 agenda is quality education. An education that guarantees access to adequate educational infrastructure, qualified teachers, and equal access to education without any form of discrimination. These are necessary goals for training the citizens of the future.</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_2">UN\'s</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_3">2030 agenda</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_4">training the citizens of the future</string>
+    <string name="II_ICE_miniscreen_1_paragraph_2">Access to a good education remains the basis for alleviating social inequality.</string>
+    <string name="II_ICE_miniscreen_1_texto_buscado_5">alleviating social inequality</string>
+    <!-- PANTALLA 3 -->
+    <string name="II_ICE_miniscreen_2_paragraph_0">With the aim of promoting and boosting scientific research in the field of education sciences, in order to meet the needs of modernizing education and adapting it to the challenges of today\'s society, in 2019 the USC transformed the ICE, which until then had focused on teacher training and educational innovation, into its own research institute, currently the only one in this field in Galicia.</string>
+    <string name="II_ICE_miniscreen_2_texto_buscado_0">education sciences</string>
+    <string name="II_ICE_miniscreen_2_texto_buscado_1">only one in this field in Galicia</string>
+    <!-- PANTALLA 4 -->
+    <string name="II_ICE_miniscreen_3_title_0" translatable="false">1969</string>
+    <string name="II_ICE_miniscreen_3_title_1" translatable="false">1974</string>
+    <string name="II_ICE_miniscreen_3_title_2" translatable="false">2019</string>
+    <string name="II_ICE_miniscreen_3_paragraph_0">The ICE is the Institute of Education Sciences. It was founded in 1969 as a teacher training center.</string>
+    <string name="II_ICE_miniscreen_3_texto_buscado_0">It was founded in 1969</string>
+    <string name="II_ICE_miniscreen_3_paragraph_1">It was consolidated in 1974 with the creation of the Educational Guidance division, dedicated to providing technical advice to schools, teachers, and tutors in the University district of Santiago (the only one in Galicia at the time).</string>
+    <string name="II_ICE_miniscreen_3_texto_buscado_1">Educational Guidance division</string>
+    <string name="II_ICE_miniscreen_3_paragraph_2">Since 2019, the center has separated from its training branch to become exclusively a research institute specializing in Education Sciences, as teacher training at all educational levels, with the Bologna reform, is centralized in the Faculty of Education Sciences.</string>
+    <string name="II_ICE_miniscreen_3_texto_buscado_2">research institute specializing in Education Sciences</string>
+    <string name="II_ICE_miniscreen_3_paragraph_3" >Training Center</string>
+    <string name="II_ICE_miniscreen_3_paragraph_4" >Educational Guidance</string>
+    <string name="II_ICE_miniscreen_3_paragraph_5">Research Institute</string>
+
+
+    <!-- PANTALLA 5 -->
+    <string name="II_ICE_miniscreen_4_paragraph_0">In the field of Educational Technology and resource production, the ICE was the first in Spain to launch an audiovisual media service and has played a very prominent role in the preparation of reports and evaluations of the education system throughout its history.</string>
+    <string name="II_ICE_miniscreen_4_texto_buscado_0">the first in Spain to launch an audiovisual media service</string>
+    <string name="II_ICE_miniscreen_4_paragraph_1">The institute is located on Avenida de las Ciencias on the USC\'s Campus Vida.</string>
+    <string name="II_ICE_miniscreen_4_texto_buscado_1" translatable="false">Campus Vida</string>
+    <!-- PANTALLA 6 -->
+    <string name="II_ICE_miniscreen_5_paragraph_0">The ICE is positioned as a leader in research, innovation, and transfer in the field of education, with a clear focus on social impact and continuous improvement of the education system. Its work is structured around an ambitious scientific agenda that responds to the major challenges of today: inclusion, sustainability, digital transformation, equity, and democratic quality.</string>
+    <string name="II_ICE_miniscreen_5_texto_buscado_0">leader in research, innovation, and transfer in the field of education</string>
+    <string name="II_ICE_miniscreen_5_texto_buscado_1">inclusion, sustainability, digital transformation, equity, and democratic quality</string>
+    <string name="II_ICE_miniscreen_5_paragraph_1">The scientific agenda of the Institute of Education Sciences (ICE) at the University of Santiago de Compostela is structured as a comprehensive strategy that is critical and committed to contemporary educational challenges.</string>
+    <string name="II_ICE_miniscreen_5_texto_buscado_2">critical and committed</string>
+    <!-- PANTALLA 7 -->
+    <string name="II_ICE_miniscreen_6_paragraph_0">The ICE addresses the following key challenges in its research activity:</string>
+    <string name="II_ICE_miniscreen_6_texto_buscado_0">key challenges in its research activity</string>
+    <!-- PANTALLA 8 -->
+    <string name="II_ICE_miniscreen_7_title_0">BUILDING</string>
+    <string name="II_ICE_miniscreen_7_title_1">INCLUSIVE</string>
+    <string name="II_ICE_miniscreen_7_title_2">COMMUNITIES:</string>
+    <string name="II_ICE_miniscreen_7_paragraph_0">The ICE promotes research and the transfer of educational knowledge as a cross-cutting theme, collaborating with associations and research centers to ensure that all citizens, regardless of their circumstances, have access to quality education.</string>
+    <string name="II_ICE_miniscreen_7_texto_buscado_0">research and the transfer of educational knowledge</string>
+    <!-- PANTALLA 9 -->
+    <string name="II_ICE_miniscreen_8_title_0">EQUITY AND </string>
+    <string name="II_ICE_miniscreen_8_title_1"> SOCIAL JUSTICE IN</string>
+    <string name="II_ICE_miniscreen_8_title_2">EDUCATION:</string>
+    <string name="II_ICE_miniscreen_8_paragraph_0">We promote a pedagogical vision in research that recognizes diversity and fights against structural inequalities in the education system, especially in vulnerable contexts.</string>
+    <string name="II_ICE_miniscreen_8_texto_buscado_0">recognizes diversity and fights against structural inequalities</string>
+    <!-- PANTALLA 10 -->
+    <string name="II_ICE_miniscreen_9_title_0">TRANSFORMATIVE</string>
+    <string name="II_ICE_miniscreen_9_title_1">TEACHER</string>
+    <string name="II_ICE_miniscreen_9_title_2">TRAINING:</string>
+    <string name="II_ICE_miniscreen_9_paragraph_0">ICE designs and tests programs, methodologies, and resources that respond to current educational needs, promoting citizen science, critical thinking, professional ethics, and the ability to adapt to changing contexts through innovative proposals. These proposals are validated through experimentation and scientific evaluation in real contexts.</string>
+    <string name="II_ICE_miniscreen_9_texto_buscado_0">promoting citizen science, critical thinking, professional ethics, and the ability to adapt to changing contexts through innovative proposals</string>
+    <!-- PANTALLA 11 -->
+    <string name="II_ICE_miniscreen_10_title_0">EVIDENCE-BASED</string>
+    <string name="II_ICE_miniscreen_10_title_1">PEDAGOGICAL</string>
+    <string name="II_ICE_miniscreen_10_title_2">INTERVENTION:</string>
+    <string name="II_ICE_miniscreen_10_paragraph_0">Applied research is carried out to improve understanding of educational processes and guide effective public policies and teaching practices.</string>
+    <string name="II_ICE_miniscreen_10_texto_buscado_0">to improve understanding of educational processes</string>
+    <!-- PANTALLA 12 -->
+    <string name="II_ICE_miniscreen_11_title_0">INTERNATIONALIZATION</string>
+    <string name="II_ICE_miniscreen_11_title_1">AND EDUCATIONAL</string>
+    <string name="II_ICE_miniscreen_11_title_2">COOPERATION:</string>
+    <string name="II_ICE_miniscreen_11_paragraph_0">ICE participates in international networks and projects, which enriches its scientific agenda with global perspectives and promotes the exchange of best practices.</string>
+    <string name="II_ICE_miniscreen_11_texto_buscado_0">international networks and projects</string>
+    <!-- PANTALLA 13 -->
+    <string name="II_ICE_miniscreen_12_title_0">DISSEMINATION OF EDUCATIONAL KNOWLEDGE:</string>
+    <string name="II_ICE_miniscreen_12_title_1">EDUCATIONAL</string>
+    <string name="II_ICE_miniscreen_12_title_2">KNOWLEDGE:</string>
+    <string name="II_ICE_miniscreen_12_paragraph_0">Through publications in high-impact journals and in its own collections, ICE contributes to the transfer of knowledge and scientifically validated educational proposals that strengthen contemporary pedagogical debate.</string>
+    <string name="II_ICE_miniscreen_12_texto_buscado_0">transfer of knowledge</string>
+    <!-- PANTALLA 14 -->
+    <string name="II_ICE_miniscreen_13_title_0">COMMITMENT TO:</string>
+    <string name="II_ICE_miniscreen_13_title_1"> DEMOCRATIC</string>
+    <string name="II_ICE_miniscreen_13_title_2">VALUES:</string>
+    <string name="II_ICE_miniscreen_13_paragraph_0">The scientific agenda is aligned with principles such as participation, equality, sustainability, respect for human rights, and the development of active citizenship through education.</string>
+    <string name="II_ICE_miniscreen_13_texto_buscado_0">participation, equality, sustainability, respect for human rights</string>
+    <!-- PANTALLA 15 -->
+    <string name="II_ICE_miniscreen_14_paragraph_0">The ICE has a team of 55 researchers from the USC and more than 25 external collaborators specializing in all fields of knowledge in Education Sciences and other related fields (Health Sciences, Law, Psychology, History, etc.).</string>
+    <string name="II_ICE_miniscreen_14_texto_buscado_0">55 researchers from the USC and more than 25 external collaborators specializing</string>
+    <string name="II_ICE_miniscreen_14_paragraph_1">Currently, ICE researchers come from 8 research groups, some of which have been at the USC for more than 25 years.</string>
+    <string name="II_ICE_miniscreen_14_texto_buscado_1">8 research groups</string>
+    <!-- PANTALLA 16 -->
+    <string name="II_ICE_miniscreen_15_title_0">ESCULCA</string>
+    <string name="II_ICE_miniscreen_15_title_1">Knowledge and educational action</string>
+    <string name="II_ICE_miniscreen_15_paragraph_0">It is dedicated to the study and improvement of education in various contexts. Its main areas of work include pedagogical innovation, educational inclusion, program evaluation, learning in social contexts (such as prisons or communities), and attention to diversity and groups at risk of exclusion. They seek to connect educational theory with practice to achieve a positive social impact.</string>
+    <string name="II_ICE_miniscreen_15_texto_buscado_0">social contexts</string>
+    <!-- PANTALLA 17 -->
+    <string name="II_ICE_miniscreen_16_title_0">GEFIL </string>
+    <string name="II_ICE_miniscreen_16_title_1">Galician Study Group for Training and Job Placement</string>
+    <string name="II_ICE_miniscreen_16_paragraph_0">It researches how to improve vocational training and facilitate job placement in Galicia. It works on training quality, social inclusion, and gender perspective. It carries out projects on digital education and continuous learning, and collaborates with other universities and entities to promote research and innovation in these areas.</string>
+    <string name="II_ICE_miniscreen_16_texto_buscado_0">digital education and continuous learning</string>
+    <!-- PANTALLA 18 -->
+    <string name="II_ICE_miniscreen_17_title_0">IDEA</string>
+    <string name="II_ICE_miniscreen_17_title_1">Research, educational diagnosis, and evaluation</string>
+    <string name="II_ICE_miniscreen_17_paragraph_0">It is dedicated to studying and improving the educational system from different perspectives. They research educational research methodologies, the influence of gender on education and employment, and the quality of the system and its impact on labor market integration.</string>
+    <string name="II_ICE_miniscreen_17_texto_buscado_0">educational research methodologies</string>
+    <string name="II_ICE_miniscreen_17_paragraph_1">They also focus on gifted students, educational inclusion, and diagnosis and intervention in educational contexts. Their goal is to contribute to a more equitable, inclusive, and effective education.</string>
+    <string name="II_ICE_miniscreen_17_texto_buscado_1">gifted students</string>
+    <!-- PANTALLA 19 -->
+    <string name="II_ICE_miniscreen_18_title_0">LITER21</string>
+    <string name="II_ICE_miniscreen_18_title_1"> Galician literature. Children\'s and young adult literature. Literary, artistic, intercultural, and educational research</string>
+    <string name="II_ICE_miniscreen_18_paragraph_0">This is an interdisciplinary group made up of experts in teaching, philology, and fine arts who study literature from various perspectives, with a special focus on Galician children\'s and young adult literature (LIJ). They also conduct research in areas such as arts, music, and literary education, as well as arts-based educational innovation.</string>
+    <string name="II_ICE_miniscreen_18_texto_buscado_0">interdisciplinary</string>
+    <string name="II_ICE_miniscreen_18_paragraph_1">Among their main lines of research are the educational analysis of LIJ, the relationship between text and illustration, and visual narratives.</string>
+    <string name="II_ICE_miniscreen_18_texto_buscado_1">main lines</string>
+    <!-- PANTALLA 20 -->
+    <string name="II_ICE_miniscreen_19_title_0">TECNOEDUC</string>
+    <string name="II_ICE_miniscreen_19_title_1">Educational Technology</string>
+    <string name="II_ICE_miniscreen_19_paragraph_0">Its work focuses on improving learning through digital tools, promoting educational inclusion for students with difficulties, and fostering the development of digital skills, artificial intelligence, and emerging technologies in the field of education. In addition, it carries out projects that integrate these technologies to facilitate access to and the quality of education.</string>
+    <string name="II_ICE_miniscreen_19_texto_buscado_0">digital tools</string>
+    <string name="II_ICE_miniscreen_19_paragraph_1">It is currently the only research unit at the USC specializing in e-learning in the Galician University System and maintains ongoing collaboration with the Galician Supercomputing Center (CESGA).</string>
+    <string name="II_ICE_miniscreen_19_texto_buscado_1" translatable="false">e-learning</string>
+    <!-- PANTALLA 21 -->
+    <string name="II_ICE_miniscreen_20_title_0">TEXE</string>
+    <string name="II_ICE_miniscreen_20_title_1">Third generation</string>
+    <string name="II_ICE_miniscreen_20_paragraph_0">It investigates how to improve education from different angles, such as teaching, teacher training, educational policies, technology, culture, and society.</string>
+    <string name="II_ICE_miniscreen_20_texto_buscado_0">technology, culture, and society</string>
+    <string name="II_ICE_miniscreen_20_paragraph_1">They study adult education and the influence of history and migration on education. Their goal is to understand and transform education so that it better responds to current challenges.</string>
+    <string name="II_ICE_miniscreen_20_texto_buscado_1">adult education</string>
+    <!-- PANTALLA 22 -->
+    <string name="II_ICE_miniscreen_21_title_0" translatable="false">MESTURA</string>
+    <string name="II_ICE_miniscreen_21_paragraph_0">The MESTURA Group at the USC is an interdisciplinary collective dedicated to educational research from a critical, inclusive, and transformative perspective. Its lines of work focus on the analysis of pedagogical practices in diverse contexts, the construction of democratic educational communities, and situated teacher training.</string>
+    <string name="II_ICE_miniscreen_21_texto_buscado_0">critical, inclusive, and transformative</string>
+    <!-- PANTALLA 23 -->
+    <string name="II_ICE_miniscreen_22_title_0" translatable="false">RODA</string>
+    <string name="II_ICE_miniscreen_22_paragraph_0">The RODA Group (Network for the Observation and Development of Educational Action) at the USC specializes in the study and improvement of teaching and learning processes from a reflective, collaborative, and situated perspective.</string>
+    <string name="II_ICE_miniscreen_22_texto_buscado_0">reflective, collaborative, and situated perspective</string>
+    <string name="II_ICE_miniscreen_22_paragraph_1">Its lines of research focus on teacher training, the observation of educational practice, pedagogical innovation, and teacher professional development in diverse school contexts. The group actively works on the design of action research methodologies and the analysis of educational practice as a source of professional knowledge.</string>
+    <string name="II_ICE_miniscreen_22_texto_buscado_1">action research</string>
+    <!-- PANTALLA 24 -->
+    <string name="II_ICE_miniscreen_23_paragraph_0">The Institute of Education Sciences (ICE) promotes the advancement of educational knowledge, especially in Galicia, with national and international outreach. It organizes training activities (courses, seminars, conferences), publishes teaching materials, and disseminates the results of its research.</string>
+    <string name="II_ICE_miniscreen_23_texto_buscado_0">advancement of educational knowledge</string>
+    <string name="II_ICE_miniscreen_23_paragraph_1">Noteworthy in this area is the “Avatars” Project, a pioneering initiative in the field of hospital pedagogy. Through the use of social robots controlled remotely via mobile devices, it allows children with chronic or long-term illnesses, who are unable to physically attend class, to participate remotely in the school environment, maintaining interaction with their teachers and classmates and avoiding isolation and loss of a sense of belonging to their group and school.</string>
+    <string name="II_ICE_miniscreen_23_texto_buscado_1">“Avatars” Project</string>
+    <!-- PANTALLA 25 -->
+    <string name="II_ICE_miniscreen_24_paragraph_0">The ICE is committed to a more practical and engaging way of learning, such as Service Learning (ApS), where students implement real projects that improve their environment. It also creates resources for more dynamic classrooms and promotes campaigns that help raise awareness of key issues such as bullying, misinformation, and gender equality.</string>
+    <string name="II_ICE_miniscreen_24_texto_buscado_0">Service Learning (ApS)</string>
+    <string name="II_ICE_miniscreen_24_paragraph_1">Since 1991, ICE has published the annual journal “Educational Innovation”, a multilingual scientific publication (Galician, Spanish, English, and Portuguese) that has established itself as a benchmark in the dissemination of innovative research and practices in the field of education.</string>
+    <string name="II_ICE_miniscreen_24_texto_buscado_1">journal “Educational Innovation”</string>
+    <string name="II_ICE_miniscreen_24_paragraph_2">ICE\'s transfer goes beyond a national focus, crossing borders to international projects.</string>
+    <string name="II_ICE_miniscreen_24_paragraph_3">Within ICE, the Tecnoeduc group has led numerous international projects focused on educational innovation and the use of technologies. Notable examples include ABILITI, which uses avatars for learning in hospital classrooms, and DTICEQT, focused on fostering creativity and entrepreneurship in schools. UPPscale and EKT strengthen collaboration between universities, schools, and businesses.</string>
+    <string name="II_ICE_miniscreen_24_texto_buscado_2" translatable="false">ABILITI</string>
+    <string name="II_ICE_miniscreen_24_texto_buscado_3" translatable="false">DTICEQT</string>
+    <!-- PANTALLA 26 -->
+    <string name="II_ICE_miniscreen_25_paragraph_0">DLAB2, nominated for a European award, promotes collaborative digital learning. Other projects, such as Schools for 21st Century and ATS-STEM, address digital and STEM skills. They have also developed social initiatives such as Create Your Future (support for young people with cancer) and ICT-Go Girls! (female entrepreneurship). Since 2000, Tecnoeduc has promoted e-learning networks, teacher training, and inclusive education in Europe.</string>
+    <string name="II_ICE_miniscreen_25_texto_buscado_0" translatable="false">DLAB2</string>
+    <string name="II_ICE_miniscreen_25_texto_buscado_1" translatable="false">Schools for 21st Century and ATS-STEM</string>
+    <string name="II_ICE_miniscreen_25_texto_buscado_2" translatable="false">Create Your Future</string>
+    <string name="II_ICE_miniscreen_25_texto_buscado_3" translatable="false">ICT-Go Girls!</string>
+    <string name="II_ICE_miniscreen_25_paragraph_1">The Esculca group\'s projects stand out for their European focus and social impact, addressing challenges such as forest fires, refugee integration, and youth employability. Through innovative methodologies such as service learning, they strengthen the link between universities and society, promoting education committed to sustainability, inclusion, and community cohesion.</string>
+    <string name="II_ICE_miniscreen_25_texto_buscado_4">link between universities and society</string>
+    <!-- PANTALLA 27 -->
+    <string name="II_ICE_miniscreen_26_title_0">TALENT AMBASSADORS</string>
+    <!-- PANTALLA 28 -->
+    <string name="II_ICE_miniscreen_27_title_0">MANAGEMENT TEAM</string>
+    <string name="II_ICE_miniscreen_27_paragraph_0" translatable="false">María del Carmen Fernández Morante</string>
+    <string name="II_ICE_miniscreen_27_title_1">RESEARCH STAFF</string>
+    <string name="II_ICE_miniscreen_27_paragraph_1" translatable="false">Ana María Porto Castro</string>
+    <string name="II_ICE_miniscreen_27_paragraph_2" translatable="false">Miguel Anxo Santos Rego</string>
+    <string name="II_ICE_miniscreen_27_paragraph_3" translatable="false">Beatriz Cebreiro López</string>
+    <string name="II_ICE_miniscreen_27_paragraph_4" translatable="false">José Manuel Touriñán López</string>
+    <string name="II_ICE_miniscreen_27_paragraph_5" translatable="false">Belén María Castro Fernández</string>
+    <string name="II_ICE_miniscreen_27_paragraph_6" translatable="false">Rubén Navarro Patón</string>
+    <string name="II_ICE_miniscreen_27_paragraph_7" translatable="false">Beatriz Crujeiras Pérez</string>
+    <string name="II_ICE_miniscreen_27_paragraph_8" translatable="false">Blanca Puig Mauriz</string>
+    <string name="II_ICE_miniscreen_27_paragraph_9" translatable="false">María del Carmen Fernández-Morante</string>
+    <string name="II_ICE_miniscreen_27_paragraph_10" translatable="false">Marcos Mecías Calvo</string>
+    <string name="II_ICE_miniscreen_27_paragraph_11" translatable="false">Isabel Dans Álvarez de Sotomayor</string>
+    <string name="II_ICE_miniscreen_27_paragraph_12" translatable="false">Alexandre Sotelino Losada</string>
+    <string name="II_ICE_miniscreen_27_paragraph_13" translatable="false">Silvana Longueira Matos</string>
+    <string name="II_ICE_miniscreen_27_paragraph_14" translatable="false">Lorena Casal Otero</string>
+    <!-- PANTALLA 29 -->
+    <string name="II_ICE_miniscreen_28_title_0" translatable="false">MARÍA DEL CARMEN FERNÁNDEZ MORANTE</string>
+    <string name="II_ICE_miniscreen_28_texto_buscado_0" translatable="false">MARÍA DEL CARMEN FERNÁNDEZ MORANTE</string>
+    <string name="II_ICE_miniscreen_28_title_1">DIRECTOR</string>
+    <string name="II_ICE_miniscreen_28_texto_buscado_1">DIRECTOR</string>
+    <string name="II_ICE_miniscreen_28_paragraph_0">Born in Bilbao on July 16, 1971, current director of ICE. A leading figure in the scientific field of Educational Technology. Senior lecturer and dean of the Faculty of Education Sciences at the University of Santiago de Compostela between 2014 and 2022, Principal Investigator of the Educational Technology Group (GI-1438, https://www.tecnoeduc.es) and scientific advisor to the Institute of Education at the University of Minho. Her career combines academic and scientific awards with the management of innovative European research projects with social impact, such as E-Hospital, ICTeachers, ABILITI, Create your Future, and Educational Knowledge Transfer (EKT), which are recognized nationally and internationally.</string>
+    <string name="II_ICE_miniscreen_28_paragraph_1">Her recent scientific output includes work on artificial intelligence, social robotics, teacher mentoring, and media literacy. This work is aligned with the strategic challenges of the ICE\'s 2024–2028 Scientific Agenda, in particular with Challenge 2 – Promoting digital citizenship and training ecosystems with technologies, and within this, with lines 2.1 (enriched and personalized scenarios mediated by technologies), 2.2 (educational methodologies with artificial intelligence, augmented reality, data science, etc.) and 2.3 (digital and media competence). She advocates a critical view of technology, emphasizing the importance of an ethical approach that guarantees its responsible, inclusive use, oriented toward meaningful learning in educational processes.</string>
+    <string name="II_ICE_miniscreen_28_paragraph_2">Thanks to this clear alignment, she positions herself as an innovative researcher, committed to educational transformation through technology and prepared to lead the ICE\'s current challenges in digital education.</string>
+    <string name="II_ICE_miniscreen_28_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/58913/detalle?lang=gal</string>
+    <!-- PANTALLA 30 -->
+    <string name="II_ICE_miniscreen_29_title_0" translatable="false">ANA MARÍA PORTO CASTRO</string>
+    <string name="II_ICE_miniscreen_29_texto_buscado_0" translatable="false">ANA MARÍA PORTO CASTRO</string>
+    <string name="II_ICE_miniscreen_29_paragraph_0">Born in Pontevedra on July 27, 1959. Senior Lecturer in the Department of Research Methods and Diagnosis in Education at the Faculty of Education Sciences of the University of Santiago de Compostela. Since 2016, she has coordinated the GI-1469 Research Group “Research, Educational Diagnosis, and Evaluation” (IDEA) and is also coordinator of the Teaching Innovation Group: “Methods, Evaluation, and Educational Diagnosis” (MADE).</string>
+    <string name="II_ICE_miniscreen_29_paragraph_1">The main lines of research on which her research and transfer career focuses are Attention to Diversity and Inclusive Education, Gender Violence in Women Over 65, and Ethics and Academic Integrity in Research.</string>
+    <string name="II_ICE_miniscreen_29_paragraph_2">She has extensive experience in organizing national and international conferences and in managing research projects and contracts. Among her most recent publications, she has participated as editor in the books “Quality Inclusive and Equitable Education” and “Plagiarism and Academic Honesty in Higher Education.”</string>
+    <string name="II_ICE_miniscreen_29_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/59972/detalle?lang=es</string>
+    <!-- PANTALLA 31 -->
+    <string name="II_ICE_miniscreen_30_title_0" translatable="false">MIGUEL ANXO SANTOS REGO</string>
+    <string name="II_ICE_miniscreen_30_texto_buscado_0" translatable="false">MIGUEL ANXO SANTOS REGO</string>
+    <string name="II_ICE_miniscreen_30_paragraph_0">Born in Xuño-Porto do Son (A Coruña) on September 25, 1955. His research work has been, and continues to be, focused on several strategic areas for the development of education systems in general and, more specifically, the education system in Galicia, as well as finding ways to optimize motivational and learning processes, both inside and outside the classroom, at different levels and in different types of education.</string>
+    <string name="II_ICE_miniscreen_30_paragraph_1">He has made contributions in the field of educational theory with an epistemic approach that prioritizes the search for empirically proven patterns of pedagogical intervention, leading to decision-making in educational policies that can improve the training of education professionals and citizens in terms of equity, sustainability, and inclusion in democratic contexts.</string>
+    <string name="II_ICE_miniscreen_30_paragraph_2">In this regard, it is easy to see his interest in, among other things, intercultural pedagogy, service learning, cooperative learning, and knowledge bases, as a synthesis of a vocation to delve deeper into what our science does to promote individual and collective progress. This has also translated into a sustained track record of studies within the framework of the Esculca-USC Group (Competitive Reference Group in the SUG), at the Faculty, and even at the Institute of Education Sciences (ICE), which he directed for eight years, opening up channels of publication, putting into practical use the reports on the state of the system in our Autonomous Community, and documenting the best of educational research in Galicia over the last thirty years.</string>
+    <string name="II_ICE_miniscreen_30_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/60352/detalle?lang=es</string>
+    <!-- PANTALLA 32 -->
+    <string name="II_ICE_miniscreen_31_title_0" translatable="false">BEATRIZ CEBREIRO LÓPEZ</string>
+    <string name="II_ICE_miniscreen_31_texto_buscado_0" translatable="false">BEATRIZ CEBREIRO LÓPEZ</string>
+    <string name="II_ICE_miniscreen_31_paragraph_0">Born in Ferrol (A Coruña) on May 23, 1961. Senior lecturer at the University of Santiago de Compostela and founding director of the TecnoEduc research group (GI-1438, https://www.tecnoeduc.es), an institutional benchmark in Educational Technology since 1992. Specializing in the design, development, and evaluation of virtual learning environments, she has led high-impact European projects such as Digital Technology, Imagination, Creativity, and Entrepreneurship for High-Quality Teaching (DTICEQT), Digital Learning Across Boundaries (DLAB2), Schools for the 21st Century (Schools21C), ENTELS, ICTGoGirls, and Rural School Cloud, all of which are focused on pedagogical innovation, digital inclusion, and strengthening teaching skills.</string>
+    <string name="II_ICE_miniscreen_31_paragraph_1">She headed the Center for Learning Technologies (CETA) at the USC between 2014 and 2018, directing the institutional strategy for digital transformation and teacher training in digital competence and the consolidation of the USC\'s current virtual campus. Her scientific career is aligned with the strategic challenges of the ICE, especially in promoting digital citizenship and creating technology-mediated learning ecosystems. Recognized for her leadership and strategic vision, Cebreiro embodies the profile of an established researcher, capable of generating academic, institutional, and social impact in the field of Educational Technology and Teacher Training.</string>
+    <string name="II_ICE_miniscreen_31_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58635/detalle?lang=es</string>
+    <!-- PANTALLA 33 -->
+    <string name="II_ICE_miniscreen_32_title_0" translatable="false">JOSÉ MANUEL TOURIÑÁN LÓPEZ</string>
+    <string name="II_ICE_miniscreen_32_texto_buscado_0" translatable="false">JOSÉ MANUEL TOURIÑÁN LÓPEZ</string>
+    <string name="II_ICE_miniscreen_32_paragraph_0">Born in A Coruña on October 29, 1951. Primary school teacher (1969). Bachelor\'s degree (1974) and Doctorate in Philosophy and Letters (Pedagogy section) (1978). University professor since 1974.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_1">Author of more than 300 studies (in the form of articles in research journals and chapters in specialized books) and 31 books written as sole author, in addition to 22 books as editor, director, or coordinator and 14 as co-author.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_2">Creator and coordinator, from its inception (1980–1984) until September 2024, of GI. Third Generation, TeXe. Director of the International Collection of Mesoaxiological Pedagogy, sponsored by Redipe. Coordinator of the RIPEME network since 2014.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_3">Honorary Professor at the University of Buenos Aires (1993). Extra-number Professor at the University of Warsaw (2017). Educa-Redipe 2019 International Award (Professional Career), received in 2021. Full member of the Hispanic American Academy of Doctors (2025).</string>
+    <string name="II_ICE_miniscreen_32_paragraph_4">Current line of research: Mesoaxiological pedagogy and construction of educational environments (PM-CAE) and application of mesoaxiological perspective questionnaires, second phase (CPM2ªF) to integrate common educational values and specific educational values into educational design, using each cultural area as an instrument.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_5">From a mesoaxiological perspective, we transform information into knowledge and knowledge into education, distinguishing between knowing, teaching, and educating, giving common activity and cultural experience a central place in pedagogy and intervention.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_6">The first means of pedagogical intervention is the internal and external common activity of individuals, and the second is the area of cultural experience used in each case.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_7">We use the common activity of the learner to shape their activity, and we use areas of cultural experience not only so that they acquire theoretical, technological, and practical knowledge of each cultural area, but also so that, from that cultural experience, common educational values linked to the meaning of education and specific educational values linked to the conceptual meaning of the area are developed in each learner. and specific educational values linked to the conceptual meaning of the area: how each person improves as a person and responsible decision-maker, using that valuable experience in pedagogical intervention, is the objective of educating WITH the cultural area. And to do this, we build educational environments with a specific pedagogical mindset and a specialized pedagogical perspective.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_8">We educate through culture to improve each student\'s ability to think, feel, want, operate, plan, and create, and we use this activity through play, work, study, exploration, intervention, and relationships, so that each student, developing their individual, social, historical, and species-specific characteristics through shared activities and the content of cultural areas, becomes a responsible decision-maker in terms of their sense of action and their sense of life, and can build themselves and recognize themselves with others in a diverse cultural environment of interaction.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_9">Pedagogy as a discipline is the theoretical, technological, and practical knowledge of education. The function of educating requires the use of means, and pedagogy values each means used in interaction as educational. Valuing and understanding each means as educational makes pedagogy meso-axiological (means-value-understanding). All pedagogy is meso-axiological: it understands the means valued as educational, adjusting it to the meaning of educating from the true knowledge of that field. From a meso-axiological perspective, education is a mediated process, and meso-axiological pedagogy is doubly mediated: mediated (relative to the medium or field of education that is constructed by adjusting it to the meaning of educating) and mediated (relative to the instruments or means that are created and used in each field as elements of intervention, adjusting them to the meaning of educating).</string>
+    <string name="II_ICE_miniscreen_32_paragraph_10">From a mesoaxiological perspective, we build educational environments, design educational programs, and generate pedagogical interventions to educate, structure cultural, school, and educational systems through educational processes, improve the technical competence of educators, and strengthen quality education and knowledge regarding educational goals and pedagogical objectives.</string>
+    <string name="II_ICE_miniscreen_32_paragraph_11">MORE INFO: https://investigacion.usc.gal/investigadores/60498/detalle?lang=es</string>
+    <!-- PANTALLA 34 -->
+    <string name="II_ICE_miniscreen_33_title_0" translatable="false">BELÉN MARÍA CASTRO FERNÁNDEZ</string>
+    <string name="II_ICE_miniscreen_33_texto_buscado_0" translatable="false">BELÉN MARÍA CASTRO FERNÁNDEZ</string>
+    <string name="II_ICE_miniscreen_33_paragraph_0">Born in Santiago de Compostela on October 8, 1974. Senior Lecturer in Social Science Education at the USC and researcher in heritage education. She holds a degree in Art History and Journalism, a Master\'s degree in Architectural Restoration, and a PhD in Art History (on the work of architect Pons Sorolla on Galicia\'s heritage) and in Education (on historical memory and social skills in teacher training). Teaching career at SUG, UNED, and a private university, and since 2014 linked to the Faculty of Education Sciences at USC, where she was vice dean and coordinator of the Master\'s Degree in Teaching.</string>
+    <string name="II_ICE_miniscreen_33_paragraph_1">She has spent time at the ICOMOS–UNESCO Documentation Centre in Paris, the Università degli Studi di Roma La Sapienza, the Università degli Studi di Bari Aldo Moro, and the Universidade do Minho. She collaborates with entities on R&amp;D&amp;I and heritage restoration projects and has participated in more than twenty research projects. She is a member of the USC\'s RODA GI–1667 Research Group and of Red 14–Research Network in Social Science Education (a network of excellence funded by the AEI). His research and teaching activities are in line with challenges 1, 3, and 4 set out in the ICE 2024–2028 scientific agenda (1.1, 1.3, 1.4, 3.3, 4.1, and 4.2).</string>
+    <string name="II_ICE_miniscreen_33_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58619/detalle?lang=es</string>
+    <!-- PANTALLA 35 -->
+    <string name="II_ICE_miniscreen_34_title_0" translatable="false">RUBÉN NAVARRO PATÓN</string>
+    <string name="II_ICE_miniscreen_34_texto_buscado_0" translatable="false">RUBÉN NAVARRO PATÓN</string>
+    <string name="II_ICE_miniscreen_34_paragraph_0">Born in Vigo on May 8, 1977. He holds a degree in Physical Activity and Sports Sciences and a PhD from the University of Vigo. He is a lecturer and researcher at the Faculty of Teacher Training (USC, Lugo), specializing in the teaching of physical expression. As coordinator of the MEFyS (Motor Skills, Physical Education, and Health) group, he directs, among other things, funded projects on educational innovation in Physical Education, linking science, teaching practice, and equity. His research focuses on Challenges 1 and 3 of the ICE agenda, highlighting:</string>
+    <string name="II_ICE_miniscreen_34_paragraph_1">Challenge 1 (Educational Transformation): Contributes to teacher professionalization (Line 1.2) and the development of key competencies through body expression (Line 1.3), with studies on active methodologies and health promotion in educational contexts and throughout life.</string>
+    <string name="II_ICE_miniscreen_34_paragraph_2">Challenge 3 (Social Transformation): Researches education for well-being (Line 3.3), analyzing motor skills as a tool for inclusion and health, aligned with sustainable development (Cross-cutting Challenge).</string>
+    <string name="II_ICE_miniscreen_34_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/59739/detalle?lang=es</string>
+    <!-- PANTALLA 36 -->
+    <string name="II_ICE_miniscreen_35_title_0" translatable="false">BEATRIZ CRUJEIRAS PÉREZ</string>
+    <string name="II_ICE_miniscreen_35_texto_buscado_0" translatable="false">BEATRIZ CRUJEIRAS PÉREZ</string>
+    <string name="II_ICE_miniscreen_35_paragraph_0">Born in Ribeira (A Coruña) on April 6, 1983. She researches the different aspects involved in teaching and learning experimental sciences from a competency-based perspective, based on the active participation of students in inquiry, argumentation, and modeling practices. She is currently focusing on the development of STEM skills through engineering design projects and the integration of critical and systemic thinking. Her career falls within research area 1.3: Literacy and the development of key skills and skills in experimental sciences.</string>
+    <string name="II_ICE_miniscreen_35_paragraph_1">She was the principal investigator of a national project on the influence of epistemic knowledge on the development of scientific practices, in addition to participating in national and European projects on these issues and the development of critical thinking. Her contributions include the identification of epistemic criteria used by students and future teachers to evaluate scientific research, the design of inquiry activities, and the development of instruments to examine the performance of participants in this practice.</string>
+    <string name="II_ICE_miniscreen_35_paragraph_2">Her scientific output includes more than 40 publications in indexed journals (JCR and SJR), as well as books and chapters with resources for teachers. In terms of knowledge transfer, she also collaborates in the STEMBach program, mentoring projects in various secondary schools.</string>
+    <string name="II_ICE_miniscreen_35_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/58716/detalle?lang=es</string>
+    <!-- PANTALLA 37 -->
+    <string name="II_ICE_miniscreen_36_title_0" translatable="false">BLANCA PUIG MAURIZ</string>
+    <string name="II_ICE_miniscreen_36_texto_buscado_0" translatable="false">BLANCA PUIG MAURIZ</string>
+    <string name="II_ICE_miniscreen_36_paragraph_0">Born in Ferrol on June 3, 1979. Trained as a biologist and holder of a PhD in Experimental Science Education, with special honors. Her scientific career highlights her leadership in the competitive research group RODA (Reasoning, Discourse, and Argumentation), as well as her participation and coordination of numerous national and European projects related to literacy and the development of key competencies and competencies in experimental sciences, such as argumentation and critical thinking in science education. In this vein, she is currently supervising several international theses on the practice of critical thinking in the teaching of socio-scientific issues from a global “One Health” perspective. She has also recently led educational research to integrate “Ocean Culture” into teaching, which has led to collaborations with international groups in the form of chapters and a book for teachers that she is currently coordinating.</string>
+    <string name="II_ICE_miniscreen_36_paragraph_1">Her scientific output includes articles, book chapters, and books published by internationally renowned publishers on critical thinking in contexts linked to the challenges of science education in the post-truth era.</string>
+    <string name="II_ICE_miniscreen_36_paragraph_2">Her activity in scientific outreach programs, such as Evidence-Based Education (FECYT), Let\'s Do Science (National Secretariat of Science and Technology of Panama), and as part of the editorial board of Alambique, has led to educational innovations that have been applied in science classrooms.</string>
+    <string name="II_ICE_miniscreen_36_paragraph_3">Since February 2025, she has been a member of the Science Section of the Consello da Cultura Galega, where he works on the transfer of scientific education to society.</string>
+    <string name="II_ICE_miniscreen_36_paragraph_4">MORE INFO: https://investigacion.usc.gal/investigadores/60004/detalle?lang=es</string>
+    <!-- PANTALLA 38 -->
+    <string name="II_ICE_miniscreen_37_title_0" translatable="false">MARCOS MECÍAS CALVO</string>
+    <string name="II_ICE_miniscreen_37_texto_buscado_0" translatable="false">MARCOS MECÍAS CALVO</string>
+    <string name="II_ICE_miniscreen_37_paragraph_0">Born in Mexico City on June 8, 1982. He holds a degree in Physical Activity and Sports Sciences from the University of A Coruña and a PhD from the University of Vigo. He is a lecturer and researcher at the Faculty of Teacher Training (USC, Lugo), specializing in the teaching of physical expression. A member of the Research Group on Motor Skills, Physical Education, and Health (MEFyS), he directs and is also part of the research team for funded projects on educational innovation and education for personal development and well-being in the context of physical education, linking science, teaching practice, and equity. His research focuses on Challenges 1 and 3 of the ICE agenda, highlighting:</string>
+    <string name="II_ICE_miniscreen_37_paragraph_1">Challenge 1 (Educational and training transformation): Contributes to teacher professionalization (Line 1.2) and the development of key competencies through body expression (Line 1.3), with studies on active methodologies and the promotion of health education in educational contexts and throughout life.</string>
+    <string name="II_ICE_miniscreen_37_paragraph_2">Challenge 3 (Social transformation and improvement of quality of life): Research education for personal development and well-being (Line 3.3) by teaching active methodologies for learning first aid and analyzing motor skills as a tool for inclusion and health, aligned with sustainable development (Cross-cutting Challenge).</string>
+    <string name="II_ICE_miniscreen_37_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/186134/detalle?lang=es</string>
+    <!-- PANTALLA 39 -->
+    <string name="II_ICE_miniscreen_38_title_0" translatable="false">ISABEL DANS ÁLVAREZ DE SOTOMAYOR</string>
+    <string name="II_ICE_miniscreen_38_texto_buscado_0" translatable="false">ISABEL DANS ÁLVAREZ DE SOTOMAYOR</string>
+    <string name="II_ICE_miniscreen_38_paragraph_0">Born in A Coruña. Lecturer and Vice-Dean of the Faculty of Education Sciences at the USC. Researcher at the MESTURA Educational Research Group and the Rede RIES research network. Isabel Dans heads the educational innovation in tutorial action group (GIDAT).</string>
+    <string name="II_ICE_miniscreen_38_paragraph_1">Her education includes a degree in Pedagogy, two degrees in Philology, a Master\'s degree in Educational Center Management, a Master\'s degree in Communication and Network Education, and a Doctorate in Educational Innovation. Isabel Dans\' research focuses on digital education and teacher training. She obtained her doctorate with a thesis on the educational possibilities of social networks.</string>
+    <string name="II_ICE_miniscreen_38_paragraph_2">Her teaching experience focuses on exploring pedagogical practices centered on active methodologies, digital technologies, and service learning. She has taught at foreign universities and at different educational levels. As an educational advisor, she has collaborated with NGOs and educational centers, and has provided training to university professors, schools, and families.</string>
+    <string name="II_ICE_miniscreen_38_paragraph_3">Her research interests focus on digital education and pedagogical design to improve teaching and learning processes. Isabel seeks to understand opportunities to promote professional development for teachers through pedagogy and technology. She has conducted research stays in different countries and has participated as a member and leader in innovation and research projects for Etwinning-Erasmus, service learning, COIL, etc.</string>
+    <string name="II_ICE_miniscreen_38_paragraph_4">MORE INFO: https://investigacion.usc.gal/investigadores/58729/detalle?lang=es</string>
+    <!-- PANTALLA 40 -->
+    <string name="II_ICE_miniscreen_39_title_0" translatable="false">ALEXANDRE SOTELINO LOSADA</string>
+    <string name="II_ICE_miniscreen_39_texto_buscado_0" translatable="false">ALEXANDRE SOTELINO LOSADA</string>
+    <string name="II_ICE_miniscreen_39_paragraph_0">Born in Ourense on October 29, 1986. Educator and Doctor of Education. He works as a lecturer in the Department of Pedagogy and Didactics at the University of Santiago de Compostela and as a researcher at the Institute of Education Sciences (ICE). He works with the ESCULCA Group (Knowledge and Educational Action), recognized by the Regional Government of Galicia as a Competitive Reference Group, where he collaborates with a team committed to critical scientific production focused on educational and social transformation.</string>
+    <string name="II_ICE_miniscreen_39_paragraph_1">His academic career focuses on the study of the relationship between education and social justice, with a pedagogical approach committed to inclusion, participation, and the democratization of knowledge. His work delves into the potential of Service-Learning (ApS) in different areas—teacher training, curriculum integration, evaluation, and methodology—as well as community action and the dialogue between education, identity, and tradition as avenues for territorial and intercultural development. She has coordinated bilateral collaboration projects with the University of Cape Verde, contracts with third sector organizations, and initiatives aimed at promoting youth associations and citizen participation, promoting training proposals with social impact.</string>
+    <string name="II_ICE_miniscreen_39_paragraph_2">He is responsible for the Alén-ApS teaching innovation group, which focuses on incorporating ApS into university degrees, and is a member of the RIES Research Network, which brings together different groups from the Galician University System. He has a solid academic record and actively participates in scientific meetings and transfer activities at the national and international level.</string>
+    <string name="II_ICE_miniscreen_39_paragraph_3">Throughout his career, he has received various awards, such as the Educa Abanca Award for Best Teacher in Spain (2021), the Alfredo Iglesias Award (2023) for his contribution to scientific dissemination through pedagogy, and the XIV Alecrín Award (2025) in the research category for his work in the field of intercultural education, migration, and Galician culture. His career combines university commitment, critical analysis, and educational intervention with the aim of building an open, transformative, and socially involved university.</string>
+    <string name="II_ICE_miniscreen_39_paragraph_4">MORE INFO: https://investigacion.usc.gal/investigadores/60418/detalle?lang=es</string>
+    <!-- PANTALLA 41 -->
+    <string name="II_ICE_miniscreen_40_title_0" translatable="false">SILVANA LONGUEIRA MATOS</string>
+    <string name="II_ICE_miniscreen_40_texto_buscado_0" translatable="false">SILVANA LONGUEIRA MATOS</string>
+    <string name="II_ICE_miniscreen_40_paragraph_0">Born in Cambre (A Coruña) on March 13, 1979. She holds a degree in Music, a bachelor\'s degree and a PhD in Education with Special Honors. She is a lecturer in the Theory and History of Education at the USC. Her thesis consolidates the first line of research that combines arts and education, delving into music as a field of education, where the first publications and research collaborations have been generated. A second line focuses on Education for Sustainable Development and Global Citizenship, generating 20 R&amp;D&amp;<I></I>projects and activities in competitive calls for proposals, contracts derived from AECID projects, and with third sector entities. She has been the principal investigator of two European Commission projects.</string>
+    <string name="II_ICE_miniscreen_40_paragraph_1">Awarded the “Honorable Mention for Ibero-American Merit in Pedagogy, Research, and Intellectual Production” by the Ibero-American Network of Pedagogy (REDIPE) (2015).</string>
+    <string name="II_ICE_miniscreen_40_paragraph_2">Coordinator of the USC Sustainable Development Plan between 2014 and 2022, she is a member of the Working Group on Sustainability in University Teaching of the CRUE-Sustainability Sectoral Commission, has been a member of the Working Group on Education for Development of the State Council for Cooperation of the Ministry of Foreign Affairs, European Union and Cooperation, of the Galician Council for Cooperation for Development of the Regional Government of Galicia, Member of the Observatory for University Cooperation for Development and of the CRUE group of experts advising the Secretary of State on issues related to the 2030 Agenda.</string>
+    <string name="II_ICE_miniscreen_40_paragraph_3">She coordinates the Terceira Xeración (TeXe) Research Group (GI-1451) at the USC.</string>
+    <string name="II_ICE_miniscreen_40_paragraph_4">MORE INFO: https://investigacion.usc.gal/investigadores/59430/detalle?lang=es</string>
+    <!-- PANTALLA 42 -->
+    <string name="II_ICE_miniscreen_41_title_0" translatable="false">LORENA CASAL OTERO</string>
+    <string name="II_ICE_miniscreen_41_texto_buscado_0" translatable="false">LORENA CASAL OTERO</string>
+    <string name="II_ICE_miniscreen_41_paragraph_0">Born in Catoira (Pontevedra) on February 10, 1978. Assistant professor in the Department of Pedagogy and Didactics at the University of Santiago de Compostela and member of the Educational Technology Group (GI-1438, https://www.tecnoeduc.es). Her research focuses on digital competence in teaching, media literacy, and strengthening democracy through the critical use of technology, with a special focus on detecting and preventing misinformation and fake news. She has published landmark studies on the digital competence of future teachers and current teaching staff, analyzing their role in building an informed and resilient citizenry capable of facing the challenges and problems of the digital society. She coordinated the Spanish team in the European research project DLAB2 – Digital Learning Across Boundaries, promoting critical thinking and information evaluation skills in students and teachers in digital environments. She actively participates in training and transfer activities that integrate methodologies such as Service-Learning, aimed at strengthening citizenship education and the ethical use of ICT.</string>
+    <string name="II_ICE_miniscreen_41_paragraph_1">Her recent research also addresses inclusive media literacy, learning environments in digital contexts, and telepresence for students with special needs, consolidating her profile as a researcher committed to educational improvement and the defense of democratic values through technology. Her research career is fully aligned with the ICE–USC\'s 2024–2028 Scientific Agenda, in Challenge 2 – Digital citizenship and training ecosystems with technologies, especially in line 2.3 on digital and media literacy and the fight against disinformation.</string>
+    <string name="II_ICE_miniscreen_41_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58583/detalle</string>
+    <!-- PANTALLA 43 -->
+    <string name="II_ICE_miniscreen_42_paragraph_0">If you are interested in learning more about this institute, you can access further information by clicking on the following link:</string>
+    <string name="II_ICE_miniscreen_42_texto_buscado_0">learning more</string>
+    <string name="II_ICE_miniscreen_42_title_0" translatable="false">https://www.usc.gal/es/investigar-usc/investigar/institutos-centros-investigacion/institutos/ICE</string>
+</resources>

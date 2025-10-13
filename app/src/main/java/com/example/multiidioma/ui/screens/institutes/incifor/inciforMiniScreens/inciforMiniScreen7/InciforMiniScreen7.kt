@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -17,8 +18,14 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 fun InciforMiniScreen7(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
+    listState: LazyListState,
+    itemIndex: Int,
 ) {
+    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
 
+    val offset = itemInfo?.let {
+        it.offset - listState.firstVisibleItemScrollOffset
+    } ?: 0
     Box(
         modifier = modifier
             .fillMaxSize()
@@ -28,8 +35,8 @@ fun InciforMiniScreen7(
             BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.35f, Box3 = 0.55f),
             data = data,
             Box1 = { contentInciforMiniScreen7Box1() },
-            Box2 = { contentInciforMiniScreen7Box2(it)},
-            Box3 = { contentInciforMiniScreen7Box3(it)}
+            Box2 = { contentInciforMiniScreen7Box2(it) },
+            Box3 = { contentInciforMiniScreen7Box3(offset, listState, itemIndex) }
         )
     }
 }

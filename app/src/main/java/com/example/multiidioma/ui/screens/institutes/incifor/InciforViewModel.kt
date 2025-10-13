@@ -18,6 +18,7 @@ class InciforViewModel : ViewModel() {
 
 
     init {
+
         loadMiniScreens()
     }
 
@@ -41,11 +42,6 @@ class InciforViewModel : ViewModel() {
                     listaInciforRepository.getData(11),
                     listaInciforRepository.getData(12),
                     listaInciforRepository.getData(13),
-                    listaInciforRepository.getData(14),
-                    listaInciforRepository.getData(15),
-                    listaInciforRepository.getData(16),
-                    listaInciforRepository.getData(17),
-                    listaInciforRepository.getData(18),
                     listaInciforRepository.getData(19),
                     listaInciforRepository.getData(20),
                     listaInciforRepository.getData(21),
@@ -54,9 +50,13 @@ class InciforViewModel : ViewModel() {
                     listaInciforRepository.getData(24),
                     listaInciforRepository.getData(25),
                     listaInciforRepository.getData(26),
+                    listaInciforRepository.getData(28),
+
+
+
                 )
             )
+
         }
     }
-
 }

@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.style.TextAlign
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
 fun contentFirstDirectiveTextDescriptionMiniScreen26(data: MiniScreenData) {
@@ -13,5 +13,5 @@ fun contentFirstDirectiveTextDescriptionMiniScreen26(data: MiniScreenData) {
         style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
     )
 
-    TextBodyMedium(data, estilosTextos, index = 0)
+    AppText(data, estilosTextos, index = 0)
 }

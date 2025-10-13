@@ -4,7 +4,6 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -17,30 +16,21 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 
 
 @Composable
-fun InciforMiniScreen1(data: MiniScreenData,modifier: Modifier = Modifier,listState: LazyListState,itemIndex: Int) {
-    // Buscar info de este item en la lista visible
-    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
+fun InciforMiniScreen1(
+    data: MiniScreenData,
+    modifier: Modifier = Modifier,
+) {
 
-    // Offset vertical real en píxeles
-    val offset = itemInfo?.let {
-        it.offset - listState.firstVisibleItemScrollOffset
-    } ?: 0
-// Calcular offset relativo al ítem
-    /*val offset = if (listState.layoutInfo.visibleItemsInfo.any { it.index == itemIndex }) {
-        val itemInfo = listState.layoutInfo.visibleItemsInfo.first { it.index == itemIndex }
-        itemInfo.offset // posición Y del item en el scroll
-    } else 0*/
     Box(
         modifier = modifier
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        //Text("estou na imaxen")
         TemplateScreen(
             data = data,
             BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.6f, Box3 = 0.15f),
             Box1 = { contentInciforMiniScreen1Box1() },
-            Box2 = { contentInciforMiniScreen1Box2(it,offset,listState,itemIndex) },
+            Box2 = { contentInciforMiniScreen1Box2(it) },
             Box3 = { contentInciforMiniScreen1Box3() }
         )
     }

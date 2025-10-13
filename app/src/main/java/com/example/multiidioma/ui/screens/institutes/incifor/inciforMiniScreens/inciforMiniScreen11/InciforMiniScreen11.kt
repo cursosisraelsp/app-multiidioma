@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -11,13 +12,14 @@ import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.contentInciforMiniScreen11.contentInciforMini11ScreenBox3
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.contentInciforMiniScreen11.contentInciforMiniScreen11Box1
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.contentInciforMiniScreen11.contentInciforMiniScreen11Box2
 
 @Composable
 fun InciforMiniScreen11(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
+    listState: LazyListState,
+    itemIndex: Int
 ) {
 
     Box(
@@ -26,10 +28,9 @@ fun InciforMiniScreen11(
             .background(Color(0xFF4189B5))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
+            BoxWeight = BOX(Box1 = 0f, Box2 = 0.60f, Box3 = 0.4f),
             data = data,
-            Box1 = { contentInciforMiniScreen11Box1(it) },
-            Box2 = { contentInciforMiniScreen11Box2(it ) },
+            Box2 = { contentInciforMiniScreen11Box2(it, listState, itemIndex) },
             Box3 = { contentInciforMini11ScreenBox3() }
         )
     }

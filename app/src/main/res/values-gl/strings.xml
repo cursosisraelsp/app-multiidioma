@@ -5,6 +5,11 @@
     <string name="change_language">Cambia a español</string>
     <string name="switch_to_english">Cambia a inglés</string>
     <string name="switch_to_galician">Cambia a galego</string>
+    <string name="paragraph_1">Este é o primeiro parágrafo de texto.Describe o inicio da historia ou a información principal que se desexa presentar.</string>
+    <string name="texto_buscado">Describe o inicio da historia</string>
+    <string name="texto_buscado2">Este  é o primeiro parágrafo</string>
+    <string name="paragraph_2"><b>A continuación, preséntase o segundo parágrafo</b>. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
+    <string name="paragraph_3">O <font color="#ff8000">terceiro e último parágrafo conclúe</font> a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
     <string name="map">mapa</string>
     <string name="multimedia">multimedia</string>
     <string name="institutos">institutos</string>
@@ -15,6 +20,11 @@
     <string name="institutos_investigacion">Institutos de investigación</string>
     <string name="institutosEcentros">Institutos e centros</string>
     <string name="back_arrow">Atrás</string>
-    <string name="Directive_Team">Equipo Directivo</string>
+    <string name="Directive_Team">EQUIPO DIRECTIVO</string>
     <string name="MORE_INFO">MAIS INFO</string>
+    <string name="Research_Staff">PERSOAL INVESTIGADOR</string>
+    <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
+
+
+
 </resources>

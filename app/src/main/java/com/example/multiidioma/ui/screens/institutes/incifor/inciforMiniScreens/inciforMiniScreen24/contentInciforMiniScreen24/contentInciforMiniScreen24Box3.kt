@@ -17,7 +17,7 @@ fun contentInciforMiniScreen24Box3() {
             .fillMaxSize()
             .padding(top = 15.dp)
             .background(
-                Color(0XFFE5F4F9)
+                Color(0XFF32627E)
             )
 
     )

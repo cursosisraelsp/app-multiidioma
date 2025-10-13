@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+<string name="CS_CIMUS_miniscreen_0_paragraph_0"></string>
+<string name="CS_CIMUS_miniscreen_0_texto_buscado_0"></string>
+<string name="CS_CIMUS_miniscreen_0_title_0"></string>
+-->
+
+    <!--PANTALLA 1-->
+    <string name="CS_CIMUS_miniscreen_0_paragraph_0">Chronic diseases, such as cancer, cardiovascular disease, diabetes, and neurodegenerative diseases, represent one of the main challenges for global public health, especially as the population ages. Not only do they profoundly affect the lives of those who suffer from them, but they also pose a challenge for healthcare systems.</string>
+    <string name="CS_CIMUS_miniscreen_0_texto_buscado_0">cardiovascular disease, diabetes, and neurodegenerative diseases</string>
+
+    <!--PANTALLA 2-->
+    <string name="CS_CIMUS_miniscreen_1_paragraph_0">This is where biomedical research comes in, seeking to discover the root causes of these diseases and develop more effective treatments tailored to each individual. In recent years, promising new therapies have emerged, such as nanomedicine, which uses microscopic particles to treat diseases more precisely; genomic medicine, which tailors treatments to each patient\'s genetic information; and immunotherapy, which is transforming cancer treatment, among others.</string>
+    <string name="CS_CIMUS_miniscreen_1_texto_buscado_0">more effective treatments tailored to each individual</string>
+    <string name="CS_CIMUS_miniscreen_1_texto_buscado_1">genomic medicine</string>
+    <string name="CS_CIMUS_miniscreen_1_texto_buscado_2">immunotherapy</string>
+
+    <!--PANTALLA 3-->
+    <string name="CS_CIMUS_miniscreen_2_paragraph_0">These innovations bring us ever closer to precision medicine, a form of medicine capable of personalizing treatments according to each person\'s unique characteristics, such as their genetics, lifestyle, or environment. Thus, biomedical science is not only changing the way we understand and treat diseases, but also bringing us closer to a future in which each patient receives the right treatment at the right time.</string>
+    <string name="CS_CIMUS_miniscreen_2_texto_buscado_0">precision medicine</string>
+    <string name="CS_CIMUS_miniscreen_2_texto_buscado_1">biomedical science</string>
+
+    <!--PANTALLA 4-->
+    <string name="CS_CIMUS_miniscreen_3_paragraph_0">From Santiago de Compostela, the CiMUS (Singular Research Center for Molecular Medicine and Chronic Diseases) at the USC is at the forefront of these advances, working to improve everyone\'s health by researching the most relevant chronic diseases that have a high impact on our society.</string>
+    <string name="CS_CIMUS_miniscreen_3_texto_buscado_0">to improve everyone\'s health by researching</string>
+    <string name="CS_CIMUS_miniscreen_3_paragraph_1">CiMUS, founded in 2010 by the University of Santiago de Compostela, was created to bring together the best scientific teams and become a benchmark in biomedical research.</string>
+    <string name="CS_CIMUS_miniscreen_3_texto_buscado_1">benchmark in biomedical research</string>
+
+    <!--PANTALLA 5-->
+    <string name="CS_CIMUS_miniscreen_4_paragraph_0">CiMUS currently has dual accreditation for excellence at the regional and national levels.</string>
+    <string name="CS_CIMUS_miniscreen_4_paragraph_1">On the one hand, it is part of the CIGUS network of the Regional Government of Galicia (ED431G/2023/02), which endorses the quality and impact of its research. This recognition is funded by the Regional Ministry of Education, Science, Universities, and Vocational Training, and co–funded by the European Union through the Galicia 2021–2027 ERDF Program.</string>
+    <string name="CS_CIMUS_miniscreen_4_texto_buscado_0">CIGUS network of the Regional Government of Galicia</string>
+    <string name="CS_CIMUS_miniscreen_4_paragraph_2">On the other hand, the Center was recently awarded the María de Maeztu Unit of Excellence accreditation at the national level, granted by the Ministry of Science, Innovation, and Universities (grant CEX2024–001463-M).</string>
+    <string name="CS_CIMUS_miniscreen_4_texto_buscado_2">María de Maeztu Unit of Excellence</string>
+
+    <!--PANTALLA 6-->
+    <string name="CS_CIMUS_miniscreen_5_paragraph_0">Its main mission is to promote cutting-edge research to advance understanding of the molecular basis and therapies for chronic diseases, especially those related to population aging, which represent a growing socio-health challenge. The center works at the frontier between biomedical research and its clinical application, with the aim of developing Precision Medicine that is tailored to the unique characteristics of each individual.</string>
+    <string name="CS_CIMUS_miniscreen_5_texto_buscado_0">to promote cutting-edge research to advance understanding of the molecular basis and therapies for chronic diseases</string>
+    <string name="CS_CIMUS_miniscreen_5_texto_buscado_1">Precision Medicine</string>
+
+    <!--PANTALLA 7-->
+    <string name="CS_CIMUS_miniscreen_6_paragraph_0">Over the past 14 years, CiMUS has grown significantly, achieving record figures and positioning itself at the forefront of research centers in the region. In this regard, it has secured more than €114 million in funding, published more than 2,000 articles in high-impact international journals, registered some 38 patents, and created 14 spin-offs. </string>
+    <string name="CS_CIMUS_miniscreen_6_texto_buscado_0">€114 million in funding, published more than 2,000 articles in high-impact international journals, registered some 38 patents, and created 14 spin-offs</string>
+    <string name="CS_CIMUS_miniscreen_6_paragraph_1">In addition, it has a high-capacity node in ERIC EU-OPENSCREEN, a European research infrastructure consortium dedicated to drug discovery. In 2022, it was the Galician center with the most funded projects, both public and private.</string>
+    <string name="CS_CIMUS_miniscreen_6_texto_buscado_1">a European research infrastructure consortium</string>
+
+    <!--PANTALLA 8-->
+    <string name="CS_CIMUS_miniscreen_7_paragraph_0">To achieve its goal, it has two research programs: the Molecular Mechanisms Program, which investigates the cellular and molecular bases of diseases, and the Integrative Translational Program, which brings scientific advances to medical practice.</string>
+    <string name="CS_CIMUS_miniscreen_7_texto_buscado_0">Molecular Mechanisms Program</string>
+    <string name="CS_CIMUS_miniscreen_7_texto_buscado_1">Integrative Translational Program</string>
+    <string name="CS_CIMUS_miniscreen_7_paragraph_1">Located on the Vida Campus of the University of Santiago de Compostela, CiMUS has more than 350 researchers divided into 40 working groups.</string>
+    <string name="CS_CIMUS_miniscreen_7_texto_buscado_2">more than 350 researchers divided into 40 working groups</string>
+
+    <!--PANTALLA 9-->
+    <string name="CS_CIMUS_miniscreen_8_title_0">MOLECULAR MECHANISMS PROGRAM</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_0">The center investigates the cellular and molecular bases of common diseases in society, focusing on how genes and their modifications can influence them. Its goal is to convert these findings into new diagnostic and treatment methods for society. To this end, they seek biomarkers that indicate the presence and progression of diseases, as well as therapeutic targets where drugs act. They also explore advances such as nanomedicine, which uses very small particles to treat diseases, targeted therapies, which specifically attack cancer cells, and teragnosis, which combines diagnosis and treatment in a single step.</string>
+    <string name="CS_CIMUS_miniscreen_8_texto_buscado_0">new diagnostic and treatment methods for society</string>
+    <string name="CS_CIMUS_miniscreen_8_texto_buscado_1">targeted therapies</string>
+
+    <!--PANTALLA 10-->
+    <string name="CS_CIMUS_miniscreen_9_title_0">OBESITY</string>
+    <string name="CS_CIMUS_miniscreen_9_paragraph_0">Seven research groups are studying obesity and related diseases such as diabetes, Alzheimer\'s, and non-alcoholic fatty liver disease. They are approaching the subject from different perspectives to understand what causes these diseases, how they develop, and what new forms of treatment can be applied. They are analyzing how genes, hormones, and the nervous system control metabolism, appetite, and energy balance.</string>
+    <string name="CS_CIMUS_miniscreen_9_texto_buscado_0">diseases such as diabetes, Alzheimer\'s, and non-alcoholic fatty liver disease</string>
+
+    <!--PANTALLA 11-->
+    <string name="CS_CIMUS_miniscreen_10_title_0">NEURODEGENERATION</string>
+    <string name="CS_CIMUS_miniscreen_10_paragraph_0">Six research groups are working on neurological and neurodegenerative diseases, which occur when neurons are damaged or die. These include Parkinson\'s disease, circadian rhythm disorders, prion diseases (such as "mad cow disease"), and vision problems. To better understand these diseases, they combine knowledge of anatomy, cell biology, genetics, and pharmacology, with the aim of improving their diagnosis and treatment.</string>
+    <string name="CS_CIMUS_miniscreen_10_texto_buscado_0">Parkinson\'s disease, circadian rhythm disorders, prion diseases (such as "mad cow disease"), and vision problems</string>
+
+    <!--PANTALLA 12-->
+    <string name="CS_CIMUS_miniscreen_11_title_0">CARDIOVASCULAR</string>
+    <string name="CS_CIMUS_miniscreen_11_paragraph_0">Five research groups are working to understand the causes of cardiovascular disease. For example, they are studying the role of kinases, proteins that affect the cardiovascular system, and microRNAs, small molecules that control genes and can contribute to heart problems. They also investigate vascular calcification, when calcium builds up in blood vessels, and abnormal platelet activation, which can form clots and increase the risk of thrombosis.</string>
+    <string name="CS_CIMUS_miniscreen_11_texto_buscado_0">proteins that affect the cardiovascular system, and microRNAs</string>
+    <string name="CS_CIMUS_miniscreen_11_texto_buscado_1">vascular calcification</string>
+
+    <!--PANTALLA 13-->
+    <string name="CS_CIMUS_miniscreen_12_title_0">CANCER</string>
+    <string name="CS_CIMUS_miniscreen_12_paragraph_0">Eleven research groups are studying the molecular and cellular processes that cause cancer and searching for new treatments. Cancer occurs when cells divide uncontrollably. Therefore, understanding how the cell cycle works and the mechanisms that protect cells from multiplying uncontrollably, such as cellular senescence, or how damaged DNA is repaired, is key to fighting it. Stem cells, which can become different types of cells and are essential for regenerative medicine, are also being researched. In addition, they are investigating types of cancer that are related to viruses or those that may be caused by damage to the DNA of mitochondria, organelles that are essential for cells. Thanks to these advances, new treatments are emerging, such as Atomic Quantum Clusters, groups of nanomolecules that attack tumor cells with precision.</string>
+    <string name="CS_CIMUS_miniscreen_12_texto_buscado_0">understanding how the cell cycle works and the mechanisms that protect cells from multiplying uncontrollably</string>
+    <string name="CS_CIMUS_miniscreen_12_texto_buscado_1">types of cancer that are related to viruses or those that may be caused by damage to the DNA</string>
+
+    <!--PANTALLA 14-->
+    <string name="CS_CIMUS_miniscreen_13_title_0">TRANSLATIONAL INTEGRATIVE PROGRAM</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_0">The goal of this program is to transform research advances into real treatments for patients. They seek to bring solutions from the laboratory into practice to improve medical care. To achieve this, they explore various therapeutic strategies that bring us closer to precision medicine, tailored to the individual needs of each patient. Some of these strategies include: genomic medicine, drug screening, nanodelivery, teragnosis, and proton therapy.</string>
+    <string name="CS_CIMUS_miniscreen_13_texto_buscado_0">to transform research advances into real treatments for patients</string>
+    <string name="CS_CIMUS_miniscreen_13_texto_buscado_1">tailored to the individual needs of each patient</string>
+
+    <!--PANTALLA 15-->
+    <string name="CS_CIMUS_miniscreen_14_title_0">GENOMIC MEDICINE</string>
+    <string name="CS_CIMUS_miniscreen_14_paragraph_0">Two research groups are working on this strategy, which focuses on personalizing treatment according to each patient\'s genetics. To achieve this, they combine DNA study (genomics) and bioinformatics to analyze important genetic patterns, such as those that influence cellular identity and plasticity or the genetic causes that can transmit cancer.</string>
+    <string name="CS_CIMUS_miniscreen_14_texto_buscado_0">personalizing treatment according to each patient\'s genetics</string>
+
+    <!--PANTALLA 16-->
+    <string name="CS_CIMUS_miniscreen_15_title_0">DRUG SCREENING</string>
+    <string name="CS_CIMUS_miniscreen_15_paragraph_0">Three research groups are working on this strategy, which is based on testing different drugs in laboratory models to find the most effective one for each patient. They are studying new ways to treat diseases, looking for signs for early diagnosis, and predicting how patients will respond to treatments. They are also investigating how drugs behave in the body. In addition, they are exploring the use of plant extracts and essential oils with therapeutic potential. An important aspect is that the BioFarma group created the InnoPharma platform, which evaluates more than 60,000 drugs, and is the Spanish ambassador for ERIC EU-OPENSCREEN, a European consortium of research infrastructures.</string>
+    <string name="CS_CIMUS_miniscreen_15_texto_buscado_0">testing different drugs in laboratory models to find the most effective one for each patient</string>
+    <string name="CS_CIMUS_miniscreen_15_texto_buscado_1">the BioFarma group created the InnoPharma platform</string>
+
+    <!--PANTALLA 17-->
+    <string name="CS_CIMUS_miniscreen_16_title_0">NANODELIVERY</string>
+    <string name="CS_CIMUS_miniscreen_16_paragraph_0">Three research groups are working on this strategy, which is based on the use of nanoparticles to transport drugs to specific cells or tissues in a precise and controlled manner. They are studying, for example, nanocarriers, which enable precise delivery of treatments; microspheres, which release drugs in a controlled and sustained manner; and nanovaccines, which are vaccines designed with nanomaterials to boost the immune response.</string>
+    <string name="CS_CIMUS_miniscreen_16_texto_buscado_0">use of nanoparticles to transport drugs to specific cells or tissues in a precise and controlled manner</string>
+
+    <!--PANTALLA 18-->
+    <string name="CS_CIMUS_miniscreen_17_title_0">TERAGNOSTICS AND PROTON THERAPY</string>
+    <string name="CS_CIMUS_miniscreen_17_paragraph_0">Two research groups are working on teragnosis, an innovative medical technique that combines diagnosis and treatment in a single step. It uses therapeutic and imaging agents (such as radionuclides) that enable tumors to be detected and, at the same time, targeted treatment to be administered. This strategy improves therapeutic precision and effectiveness, as it allows the exact location of the problem to be visualized and treatment to be applied directly to the affected area. And in proton therapy, a new type of radiation therapy that uses protons instead of X-rays to treat tumors more precisely. Thanks to the physical properties of protons, this technique allows for more precise energy delivery to the tumor, minimizing damage to surrounding healthy tissue. It is especially useful for treating tumors located near sensitive structures or in areas that are difficult to reach with conventional radiation therapy.</string>
+    <string name="CS_CIMUS_miniscreen_17_texto_buscado_0">enable tumors to be detected and, at the same time, targeted treatment to be administered</string>
+    <string name="CS_CIMUS_miniscreen_17_texto_buscado_1">new type of radiation therapy that uses protons instead of X-rays to treat tumors more precisely</string>
+
+    <!--PANTALLA 19-->
+    <string name="CS_CIMUS_miniscreen_18_paragraph_0">CiMUS is dedicated to advancing biomedical research and the development of new therapies. Its mission is to promote knowledge transfer and strengthen collaboration with both international researchers and the biotechnology and pharmaceutical industries.</string>
+    <string name="CS_CIMUS_miniscreen_18_texto_buscado_0">promote knowledge transfer and strengthen collaboration</string>
+    <string name="CS_CIMUS_miniscreen_18_paragraph_1">To connect science with practice, the center offers opportunities for national and international researchers to conduct residencies, and works closely with companies to translate research into the creation of new treatments. In addition, CiMUS participates in joint projects with other research institutions to promote the development of innovative therapies.</string>
+    <string name="CS_CIMUS_miniscreen_18_texto_buscado_1">national and international researchers to conduct residencies</string>
+
+    <!--PANTALLA 20-->
+    <string name="CS_CIMUS_miniscreen_19_paragraph_0">The center has a prominent presence in international consortia such as the Spanish Advanced Therapy Network (TERAV), the International Cancer Genome Consortium (ICGC), and INNODIA, a consortium that researches type 1 diabetes. In addition, it leads initiatives such as the Kaertor Foundation, I2D2, and Cancer Innova, in collaboration with Janssen, the Regional Government of Galicia, and the Spanish Association Against Cancer to accelerate research and the discovery of new treatments.</string>
+    <string name="CS_CIMUS_miniscreen_19_texto_buscado_0">presence in international consortia</string>
+    <string name="CS_CIMUS_miniscreen_19_texto_buscado_1">Kaertor Foundation, I2D2, and Cancer Innova</string>
+    <string name="CS_CIMUS_miniscreen_19_paragraph_1">CiMUS also works closely with biotech companies such as SunRock Biopharma and Oncostellae, which develop innovative antibodies and drugs to treat diseases such as cancer and immunological diseases.</string>
+    <string name="CS_CIMUS_miniscreen_19_texto_buscado_2">biotech companies</string>
+
+    <!--PANTALLA 21-->
+    <string name="CS_CIMUS_miniscreen_20_paragraph_0">It has generated some 38 patents in key areas related to neurodegenerative diseases, nanomedicine (nanocapsules and nanocarriers), biomarkers and cancer diagnostic tools, pharmacokinetics, and controlled-release drug formulations. They also developed transgenic models necessary for biomedical research.</string>
+    <string name="CS_CIMUS_miniscreen_20_texto_buscado_0">38 patents in key areas</string>
+    <string name="CS_CIMUS_miniscreen_20_paragraph_1">CiMUS also promotes entrepreneurship and the creation of spin-offs such as Albor Biotech, Gazella Biotech, Libera Bio, Smart Vitamins, BFlow, Flow Reverse, Arjuna Therapeutics, and Celtarys, which are at the forefront of developing new biomedical technologies and therapies.</string>
+    <string name="CS_CIMUS_miniscreen_20_texto_buscado_1">promotes entrepreneurship and the creation of spin-offs</string>
+
+    <!--PANTALLA 22-->
+    <string name="CS_CIMUS_miniscreen_21_title_0">TALENT AMBASSADORS</string>
+
+    <!--PANTALLA 23-->
+    <string name="CS_CIMUS_miniscreen_22_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_0" translatable="false">María Isabel Loza García</string>
+    <string name="CS_CIMUS_miniscreen_22_title_1">RESEARCH STAFF</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_1" translatable="false">José Manuel Brea Floriani</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_2" translatable="false">Ángel Carracedo</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_3" translatable="false">Ricardo Villa-Bellosta</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_4" translatable="false">Clara V. Álvarez</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_5" translatable="false">Miguel López</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_6" translatable="false">Iria Gómez Touriño</string>
+    <string name="CS_CIMUS_miniscreen_22_paragraph_7" translatable="false">Alba Vieites Prado</string>
+
+    <!--PANTALLA 24-->
+    <string name="CS_CIMUS_miniscreen_23_title_0" translatable="false">MARÍA ISABEL LOZA GARCÍA</string>
+    <string name="CS_CIMUS_miniscreen_23_texto_buscado_0" translatable="false">MARÍA ISABEL LOZA GARCÍA</string>
+    <string name="CS_CIMUS_miniscreen_23_title_1">Director. Scientific Director of CiMUS, principal investigator of the BioFarma group.</string>
+    <string name="CS_CIMUS_miniscreen_23_texto_buscado_1">Director. Scientific Director of CiMUS, principal investigator of the BioFarma group.</string>
+    <string name="CS_CIMUS_miniscreen_23_paragraph_0">Professor of Pharmacology and Scientific Director of CiMUS, she is a leading figure in the field of early drug discovery in Spain. Throughout her career, she has led more than 100 public-private partnership projects, contributing to the development of 17 new compounds through to the clinical phase. She has been a pioneer in open innovation, coordinating initiatives such as I2D2, Cancer Innova, and the "Rescata COVID" program. Her commitment to knowledge transfer is reflected in 19 patents and the co-founding of four biotechnology companies, including Oncostellae. With more than 250 scientific publications and 26 doctoral theses supervised, she has also represented Spain on European platforms such as EU-OPENSCREEN and has advised international agencies. She has received several awards, including one from EFPIA, which named her one of the 30 most outstanding scientists in Europe.</string>
+    <string name="CS_CIMUS_miniscreen_23_paragraph_1">BIOGRAPHY: https://cimus.usc.gal/staff/mabel-loza</string>
+    <string name="CS_CIMUS_miniscreen_23_paragraph_2">MORE INFO: https://cimus.usc.gal/group/pharmacology-applied-drug-discovery</string>
+
+    <!--PANTALLA 25-->
+    <string name="CS_CIMUS_miniscreen_24_title_0" translatable="false">José Manuel Brea Florian</string>
+    <string name="CS_CIMUS_miniscreen_24_texto_buscado_0" translatable="false">José Manuel Brea Florian</string>
+    <string name="CS_CIMUS_miniscreen_24_title_1">Senior researcher, BioFarma group</string>
+    <string name="CS_CIMUS_miniscreen_24_texto_buscado_1">Senior researcher, BioFarma group</string>
+    <string name="CS_CIMUS_miniscreen_24_paragraph_0">Senior Lecturer in Pharmacology at the University of Santiago de Compostela and head of automation and high-throughput screening at the Innopharma pharmacogenomics platform associated with the Biofarma group at CiMUS. This platform is listed as one of the eight high-capacity screening platforms in Europe within the European ERIC EU-OPENSCREEN. He has extensive experience in the development of high-throughput assays applicable to the identification of new active compounds with the potential to advance the research and development process of new drugs, participating in 17 projects that succeeded in producing a new drug candidate that was evaluated in clinical trials in patients. This line of research allows for a wide network of collaborations with public groups and national and international companies to apply the knowledge of these processes and bring the findings of these collaborators to patients.</string>
+    <string name="CS_CIMUS_miniscreen_24_paragraph_1">MORE INFO: https://cimus.usc.gal/es/personal/jose-manuel-brea-floriani</string>
+
+    <!--PANTALLA 26-->
+    <string name="CS_CIMUS_miniscreen_25_title_0" translatable="false">Ángel Carracedo</string>
+    <string name="CS_CIMUS_miniscreen_25_texto_buscado_0" translatable="false">Ángel Carracedo</string>
+    <string name="CS_CIMUS_miniscreen_25_title_1">Principal Investigator, Genomics &amp; Bioinformatics Group</string>
+    <string name="CS_CIMUS_miniscreen_25_texto_buscado_1">Principal Investigator, Genomics &amp; Bioinformatics Group</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_0">Ángel Carracedo has been Professor at the University of Santiago de Compostela since 1989. He currently directs the Institute of Forensic Sciences (USC), the Galician Public Foundation for Genomic Medicine (SERGAS), and the National Genotyping Center (CEGEN). He also coordinates the Genomic Medicine Group at CiMUS.</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_1">He has more than 450 scientific publications to his name, and in 2012 alone, his work received more than 1,400 citations according to data from ISI Web of Knowledge. His total H-index is 50, and in the last ten years he has achieved an H-index of 38. He was recognized as a Highly Cited Scientist in the field of Forensic Science during the period 2001–2011 by Thomson Reuters.</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_2">He has made more than 160 contributions as a guest speaker at national (84) and international (85) conferences over the last decade, and has supervised a total of 68 doctoral theses.</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_3">He is editor of the journal Forensic Science International: Genetics, which ranks first in the SCI ranking of journals in the field of forensic science. He is a member of the Scientific Advisory Board (SAB) of five national and six international centers or agencies, as well as various international regulatory bodies, including the European Medicines Agency (EMA).</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_4">Throughout his career, he has received numerous recognitions and awards, including the Adelaide Medal, the Galien Medal, the Jaime I Prize, the Castelao Medal, the Galicia Medal, the Police Merit Medal, the Galician Research Prize, the Novoa Santos Prize, and the Fernández Latorre Prize, among others awarded by foundations and scientific societies. He has also been named Doctor Honoris Causa by various universities.</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_5">BIOGRAPHY: https://cimus.usc.gal/staff/angel-carracedo-alvarez</string>
+    <string name="CS_CIMUS_miniscreen_25_paragraph_6">MORE INFO: https://cimus.usc.gal/group/genomics-and-bioinformatics</string>
+
+    <!--PANTALLA 27-->
+    <string name="CS_CIMUS_miniscreen_26_title_0" translatable="false">Ricardo Villa-Bellosta</string>
+    <string name="CS_CIMUS_miniscreen_26_texto_buscado_0" translatable="false">Ricardo Villa-Bellosta</string>
+    <string name="CS_CIMUS_miniscreen_26_title_1">Principal investigator, Metabolic Homeostasis and Vascular Calcification group</string>
+    <string name="CS_CIMUS_miniscreen_26_texto_buscado_1">Principal investigator, Metabolic Homeostasis and Vascular Calcification group</string>
+    <string name="CS_CIMUS_miniscreen_26_paragraph_0">Ricardo Villa-Bellosta holds a PhD from the University of Zaragoza, where his doctoral thesis was awarded the Royal Academy of Doctors of Spain Prize and the Extraordinary Doctorate Prize. He has conducted his research at various prestigious institutions, including the University of Zaragoza (Spain), Emory University (USA), the National Center for Cardiovascular Research (CNIC), the Jiménez Díaz Foundation Health Research Institute (Spain), and the University of Bern (Switzerland).</string>
+    <string name="CS_CIMUS_miniscreen_26_paragraph_1">His work has been funded by entities such as the Progeria Research Foundation (USA), the Ministry of Science, and the Community of Madrid. Throughout his career, he has obtained several grants and competitive contracts, including the MINECO Collaboration Grant, a predoctoral grant from the Government of Aragon, the "Juan de la Cierva" postdoctoral contract, and the "I+D+I Young Researchers without Affiliation" postdoctoral contract, also from MINECO.</string>
+    <string name="CS_CIMUS_miniscreen_26_paragraph_2">In 2021, Dr. Villa-Bellosta joined CiMUS (Singular Research Center for Molecular Medicine and Chronic Diseases) as Principal Investigator. His laboratory focuses on the study of phosphate and pyrophosphate homeostasis and its role in vascular calcification associated with progeria syndrome, aging, and age-related diseases.</string>
+    <string name="CS_CIMUS_miniscreen_26_paragraph_3">BIOGRAPHY: https://cimus.usc.gal/staff/ricardo-villa-bellosta</string>
+    <string name="CS_CIMUS_miniscreen_26_paragraph_4">MORE INFO: https://cimus.usc.gal/group/metabolic-homeostasis-and-vascular-calcification</string>
+
+    <!--PANTALLA 28-->
+    <string name="CS_CIMUS_miniscreen_27_title_0" translatable="false">Clara V. Álvarez</string>
+    <string name="CS_CIMUS_miniscreen_27_texto_buscado_0" translatable="false">Clara V. Álvarez</string>
+    <string name="CS_CIMUS_miniscreen_27_title_1">Principal Investigator, and Multidisciplinary Coordinator in Oncology-Endocrinology (Neoplasia &amp; Endocrine Differentiation Group)</string>
+    <string name="CS_CIMUS_miniscreen_27_texto_buscado_1">Principal Investigator, and Multidisciplinary Coordinator in Oncology-Endocrinology (Neoplasia &amp; Endocrine Differentiation Group)</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_0">Trained as a physician and doctor at the Faculty of Medicine of the University of Santiago de Compostela, Clara V. Álvarez completed her scientific specialization with postdoctoral fellowships at internationally renowned centers: the Institut für Molekularbiologie und Tumorforschung at the University of Marburg (Germany) and the DIBIT at the Ospedale San Raffaele (now Università Vita e Salute) in Milan (Italy). After a period as lecturer at the University of Vigo, she settled permanently at the Faculty of Medicine in Santiago, where she teaches hundreds of future doctors every year.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_1">She is currently a professor at USC and a researcher at CIMUS, leading a multidisciplinary line of research in oncological endocrinology. She coordinates a team that brings together specialists in pathology, surgery, endocrinology, oncology, and molecular biology, promoting a real connection between research and hospital practice.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_2">His laboratory studies thyroid cancer, pituitary tumors, and other endocrine pathologies, using cells obtained from surgical samples donated altruistically by patients—from surplus material left over from surgical procedures—thanks to collaboration with clinical teams at leading Galician hospitals. This unique model promotes collective, personalized research focused on the real needs of patients.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_3">His career is backed by 87 peer-reviewed publications (PubMed), the supervision of numerous doctoral theses, and ownership of patents for biomedical innovation. He has given lectures at more than 90 international (including plenary sessions and global conferences) and national conferences.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_4">Clara V. Álvarez has held prominent positions in national and European scientific societies (ETA, ESE, SEEN) and is currently secretary of the Thyroid Cancer Group of the European Thyroid Association (ETA), forming part of the scientific coordination at European level.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_5">Her work has been recognized with awards from Serono, Novartis, Fundación SEEN, and Sergio Vidal. She identifies herself as a researcher committed to knowledge transfer and cross-disciplinary innovation, always promoting interdisciplinary collaboration so that scientific advances directly benefit the well-being of patients and society.</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_6">BIOGRAPHY: https://cimus.usc.gal/staff/clara-alvarez-villamarin</string>
+    <string name="CS_CIMUS_miniscreen_27_paragraph_7">MORE INFO: https://cimus.usc.gal/group/neoplasia-endocrine-differentiation</string>
+
+    <!--PANTALLA 29-->
+    <string name="CS_CIMUS_miniscreen_28_title_0" translatable="false">Miguel López</string>
+    <string name="CS_CIMUS_miniscreen_28_texto_buscado_0" translatable="false">Miguel López</string>
+    <string name="CS_CIMUS_miniscreen_28_title_1">Principal investigator of the NeurObesity group</string>
+    <string name="CS_CIMUS_miniscreen_28_texto_buscado_1">Principal investigator of the NeurObesity group</string>
+    <string name="CS_CIMUS_miniscreen_28_paragraph_0">Miguel López is Professor of Physiology at the University of Santiago de Compostela (USC). Throughout his career, he has supervised 23 doctoral theses and has developed an outstanding track record in basic research in the field of endocrinology and metabolism.</string>
+    <string name="CS_CIMUS_miniscreen_28_paragraph_1">He has received numerous national and international awards, including the Young Investigator Award from the European Association for the Study of Obesity (EASO), the Spanish Society of Endocrinology and Nutrition (SEEN) Award on three occasions, the European Journal of Endocrinology Prize from the European Society of Endocrinology, the Young Investigator Award from the European Society for Clinical Investigation, and the Jens Sandahl Christiansen Award, among others.</string>
+    <string name="CS_CIMUS_miniscreen_28_paragraph_2">He has been a member of the editorial boards of numerous leading scientific journals in the field of endocrinology and neuroendocrinology, including Endocrinology, Journal of Endocrinology, Journal of Molecular Endocrinology, Molecular Metabolism, and PLoS ONE, among others.</string>
+    <string name="CS_CIMUS_miniscreen_28_paragraph_3">BIOGRAPHY: https://cimus.usc.gal/staff/miguel-lopez</string>
+    <string name="CS_CIMUS_miniscreen_28_paragraph_4">MORE INFO: https://cimus.usc.gal/group/neurobesity</string>
+
+    <!--PANTALLA 30-->
+    <string name="CS_CIMUS_miniscreen_29_title_0" translatable="false">Iria Gómez Touriño</string>
+    <string name="CS_CIMUS_miniscreen_29_texto_buscado_0" translatable="false">Iria Gómez Touriño</string>
+    <string name="CS_CIMUS_miniscreen_29_title_1">Principal investigator of the Immunity and Small Molecules group</string>
+    <string name="CS_CIMUS_miniscreen_29_texto_buscado_1">Principal investigator of the Immunity and Small Molecules group</string>
+    <string name="CS_CIMUS_miniscreen_29_paragraph_0">Iria Gómez-Touriño is an immunologist and senior lecturer at the University of Santiago de Compostela (USC), where she heads the Immunity and Small Molecules Laboratory. Her research focuses mainly on two areas: the identification and characterization of new small molecules with anti-inflammatory properties for the treatment of autoimmune diseases, and the study of the self-reactivity mechanisms underlying these pathologies, with special attention to new antigens and MAIT cells.</string>
+    <string name="CS_CIMUS_miniscreen_29_paragraph_1">Throughout her career, she has been recognized with important international grants and awards, such as two Marie Sklodowska-Curie individual grants and, more recently, the prestigious Career Development Award from the Juvenile Diabetes Research Foundation, awarded to only three researchers worldwide each year. Sixty-seven percent of her scientific publications appear in D1 quartile journals, including high-impact titles such as Nature Communications, Diabetologia, FASEB Journal, and Nature Immunology.</string>
+    <string name="CS_CIMUS_miniscreen_29_paragraph_2">In addition, Iria is the inventor of three patents, an expert evaluator for the European Union, and an elected member of the Board of Directors of the Spanish Society of Immunology (2022–2026). Her commitment to science goes beyond the laboratory, as she actively participates in scientific outreach activities.</string>
+    <string name="CS_CIMUS_miniscreen_29_paragraph_3">BIOGRAPHY: https://cimus.usc.gal/staff/iria-gomez-tourino</string>
+    <string name="CS_CIMUS_miniscreen_29_paragraph_4">MORE INFO: https://cimus.usc.gal/group/immunity-and-small-molecules</string>
+
+    <!--PANTALLA 31-->
+    <string name="CS_CIMUS_miniscreen_30_title_0" translatable="false">Alba Vieites Prado</string>
+    <string name="CS_CIMUS_miniscreen_30_texto_buscado_0" translatable="false">Alba Vieites Prado</string>
+    <string name="CS_CIMUS_miniscreen_30_title_1">Principal investigator of the Brain Plasticity group</string>
+    <string name="CS_CIMUS_miniscreen_30_texto_buscado_1">Principal investigator of the Brain Plasticity group</string>
+    <string name="CS_CIMUS_miniscreen_30_paragraph_0">Alba is a biologist specializing in neuroscience (Ph.D. 2017, University of Santiago de Compostela). She completed her predoctoral training at the Clinical Neuroscience Laboratory (LINC) under the supervision of Drs. Francisco Campos, José Castillo, and Tomás Sobrino. During this period, she researched the therapeutic effects of hypothermia on the cellular and molecular mechanisms involved in ischemic brain damage and collaborated on numerous clinical studies, thus acquiring a broad perspective in translational neuroscience.</string>
+    <string name="CS_CIMUS_miniscreen_30_paragraph_1">In 2018, she joined Dr. Nicolas Renier\'s laboratory at the Institut du Cerveau et de la Moelle Épinière (ICM) in Paris as a postdoctoral researcher, where she focused her research on the study of brain plasticity, analyzing the relationships between neuronal activity and axonal and vascular remodeling. During this period, she specialized in large-scale quantitative 3D microscopy, combining tissue clearing techniques with light sheet microscopy, and participated in the development of new bioinformatics tools for the quantitative analysis of terabyte-sized image sets (ClearMap toolbox).</string>
+    <string name="CS_CIMUS_miniscreen_30_paragraph_2">Her scientific career includes more than 20 publications in peer-reviewed international scientific journals, including high-impact interdisciplinary journals such as Cell and Science, as well as leading publications in specific areas such as Stroke, Development, and the Journal of Experimental Medicine. Her career has been supported by competitive national and international funding, including an MSCA-IF (Call 2018) and a Ramón y Cajal researcher contract (Call 2021), which have been instrumental in promoting her scientific independence and have enabled her to establish her own laboratory at CiMUS in 2023.</string>
+    <string name="CS_CIMUS_miniscreen_30_paragraph_3">BIOGRAPHY: https://cimus.usc.gal/staff/alba-vieites-prado</string>
+    <string name="CS_CIMUS_miniscreen_30_paragraph_4">MORE INFO: https://cimus.usc.gal/group/brain-plasticity</string>
+
+    <!--PANTALLA 32-->
+    <string name="CS_CIMUS_miniscreen_31_paragraph_0">If you are interested in learning more about CiMUS, you can access further information by clicking on the following link:</string>
+    <string name="CS_CIMUS_miniscreen_31_texto_buscado_0">learning more</string>
+    <string name="CS_CIMUS_miniscreen_31_title_0" translatable="false">ttps://cimus.usc.gal/es</string>
+
+</resources>

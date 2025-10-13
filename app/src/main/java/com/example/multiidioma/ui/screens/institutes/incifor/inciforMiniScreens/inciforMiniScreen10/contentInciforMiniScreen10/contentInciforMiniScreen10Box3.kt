@@ -10,7 +10,9 @@ import androidx.compose.ui.graphics.Color
 
 @Composable
 fun contentInciforMiniScreen10Box3() {
-    Box(modifier = Modifier
-        .fillMaxSize()
-        .background(Color(0xFF4189B5)))
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFF4189B5))
+    )
 }

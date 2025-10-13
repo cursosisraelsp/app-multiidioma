@@ -1,6 +1,5 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen22.contentInciforMiniScreen22
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -9,54 +8,51 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.utils.TextBodyMedium
+import com.example.multiidioma.utils.TextTitleMedium
+import com.example.multiidioma.utils.TextTitleMediumRegular
 
 
 @Composable
 fun contentInciforMiniScreen22Box2(data: MiniScreenData) {
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
-    )
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        modifier = Modifier.fillMaxSize(),
+        alignment = Alignment.BottomCenter,
+        contentScale = ContentScale.Fit
     )
     Column(
         modifier = Modifier
-            .fillMaxWidth()
-            .fillMaxHeight()
+            .fillMaxSize()
+            .padding(start = 50.dp, end = 50.dp)
     ) {
+        SpacerText()
+
+        TextTitleMedium(data, index = 0, textAlign = TextAlign.Center, color = Color.Black) //Titulo 1
+
+        TextTitleMediumRegular(data, index = 1, textAlign = TextAlign.Center, color = Color.Black) //Titulo 2
+
+        SpacerText()
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .fillMaxHeight(0.3f)
+                .fillMaxHeight(0.4f)
         ) {
-            LineVerticalComponent()
-        }
-
-
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = 50.dp, end = 50.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            TextBodyMedium(data, estilosTextos, index = 2)
-            Spacer(modifier = Modifier.height(20.dp))
-
             ReusableImage(data, estilosImagen)
-
         }
+        Spacer(modifier = Modifier.height(25.dp))
+
+        TextBodyMedium(data, index = 2, textAlign = TextAlign.Center,color = Color.Black)
+        Spacer(modifier = Modifier.height(25.dp))
     }
 }

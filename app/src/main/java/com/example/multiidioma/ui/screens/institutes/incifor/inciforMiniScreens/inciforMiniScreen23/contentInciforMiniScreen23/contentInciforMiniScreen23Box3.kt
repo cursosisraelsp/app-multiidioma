@@ -5,14 +5,17 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 
 @Composable
 fun contentInciforMini23ScreenBox3() {
-    Box(modifier = Modifier
-        .fillMaxWidth()
-        .fillMaxHeight()) {
-        LineVerticalComponent()
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight()
+    ) {
+        LineVerticalComponent(color = Color(0xFF32627E))
     }
 }

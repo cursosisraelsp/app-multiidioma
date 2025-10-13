@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+<string name="CS_CITIUS_miniscreen_0_paragraph_0"></string>
+<string name="CS_CITIUS_miniscreen_0_texto_buscado_0"></string>
+<string name="CS_CITIUS_miniscreen_0_title_0"></string>
+-->
+
+    <!--PANTALLA 1-->
+    <string name="CS_CITIUS_miniscreen_0_paragraph_0">According to a study published in 2025, 66% of the population uses Artificial Intelligence on a daily basis. In April 2025, it was reported in the news that an AI had passed the Turing Test for the first time, a test created in 1950 by the father of Artificial Intelligence, Alan Turing, to differentiate between humans and machines.</string>
+    <string name="CS_CITIUS_miniscreen_0_texto_buscado_0">Turing Test</string>
+
+    <!--PANTALLA 2-->
+    <string name="CS_CITIUS_miniscreen_1_paragraph_0">Artificial Intelligence has managed to do so many things that were previously reserved for humans that most of us face a reduced version of that test almost daily, the well-known CAPTCHA codes, which stand for Completely Automated Public Turing test to tell Computers and Humans Apart. It is no longer machines that must prove they can think, but rather we who must prove that we are not lines of code.</string>
+    <string name="CS_CITIUS_miniscreen_1_texto_buscado_0">Artificial Intelligence</string>
+    <string name="CS_CITIUS_miniscreen_1_texto_buscado_1" translatable="false">CAPTCHA</string>
+
+    <!--PANTALLA 3-->
+    <string name="CS_CITIUS_miniscreen_2_paragraph_0">\tThe technological leap represented by the emergence of Artificial Intelligence and the technologies that make it possible, such as Big Data, Deep Learning, and the Internet of Things (IoT), is comparable to the advent of the internet or the invention of the printing press. It has irrevocably changed the world we live in and the way we inhabit it.</string>
+    <string name="CS_CITIUS_miniscreen_2_texto_buscado_0">Big Data, Deep Learning, and the Internet of Things (IoT)</string>
+
+    <!--PANTALLA 4-->
+    <string name="CS_CITIUS_miniscreen_3_paragraph_0">From programmes that help detect diseases at very early stages to generative models that assist in the creation of much of the content we all consume. This technology is now at the heart of innovation in areas such as health, industry, education and entertainment. It is an extraordinary tool with the capacity to completely transform the world in whatever direction we choose to guide it. The challenges posed by its possible uses make research into developing reliable, ethical and robust AI essential.</string>
+    <string name="CS_CITIUS_miniscreen_3_texto_buscado_0">the heart of innovation in areas such as health, industry, education and entertainment</string>
+    <string name="CS_CITIUS_miniscreen_3_paragraph_1">With the aim of generating knowledge that truly improves people\'s lives, CiTIUS, one of the singular research centres at the USC, was created.</string>
+    <string name="CS_CITIUS_miniscreen_3_texto_buscado_1">CiTIUS one of the five singular research centres at the USC, was created</string>
+
+    <!--PANTALLA 5-->
+    <string name="CS_CITIUS_miniscreen_4_paragraph_0">CiTIUS is the Singular Centre for Research in Intelligent Technologies at the University of Santiago de Compostela, the leading scientific reference in artificial intelligence in Galicia and one of the major references in Spain and Europe. Its mission is to research, innovate and transfer knowledge to improve people\'s lives through intelligent technologies with social impact. The centre is located on the Vida Campus and was created in 2010.</string>
+    <string name="CS_CITIUS_miniscreen_4_texto_buscado_0">Singular Centre for Research in Intelligent Technologies at the University of Santiago de Compostela</string>
+    <string name="CS_CITIUS_miniscreen_4_paragraph_1">With a multidisciplinary team of more than 150 people, the centre develops solutions that address key challenges of our time, from health to sustainability, industrial development and the fight against disinformation.</string>
+    <string name="CS_CITIUS_miniscreen_4_texto_buscado_1">multidisciplinary team</string>
+
+    <!--PANTALLA 6-->
+    <string name="CS_CITIUS_miniscreen_5_paragraph_0">CiTIUS conducts research in various areas of intelligent technologies. Some recent examples illustrate the scope and transformative nature of the work carried out at CiTIUS:</string>
+    <string name="CS_CITIUS_miniscreen_5_texto_buscado_0">areas of intelligent technologies</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_1" translatable="false">HYBRIDS</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_2" translatable="false">RePowerSiC</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_3" translatable="false">NUMADELIC</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_4" translatable="false">SOSFood</string>
+    <string name="CS_CITIUS_miniscreen_5_paragraph_5" translatable="false">Proyecto Nós</string>
+
+    <!--PANTALLA 7-->
+    <string name="CS_CITIUS_miniscreen_6_title_0" translatable="false">HYBRIDS</string>
+    <string name="CS_CITIUS_miniscreen_6_texto_buscado_0" translatable="false">HYBRIDS</string>
+    <string name="CS_CITIUS_miniscreen_6_paragraph_0">European Marie Skłodowska-Curie project coordinated by the centre, addresses one of the main threats to today\'s democracies: disinformation and hate speech in digital environments. The project combines artificial intelligence (AI) and knowledge from the social sciences and humanities to develop tools for analysing public discourse and detecting threats to democratic debate.</string>
+    <string name="CS_CITIUS_miniscreen_6_texto_buscado_1">disinformation and hate speech in digital environments</string>
+    <string name="CS_CITIUS_miniscreen_6_paragraph_1">Its approach is based on so-called hybrid intelligence, which combines human capabilities and advanced natural language algorithms to overcome the limitations of conventional AI. In addition to researching technological solutions, HYBRIDS is training a new generation of specialists capable of addressing this phenomenon from an interdisciplinary perspective.</string>
+    <string name="CS_CITIUS_miniscreen_6_texto_buscado_2">hybrid intelligence</string>
+
+    <!--PANTALLA 8-->
+    <string name="CS_CITIUS_miniscreen_7_title_0" translatable="false">RePowerSiC</string>
+    <string name="CS_CITIUS_miniscreen_7_texto_buscado_0" translatable="false">RePowerSiC</string>
+    <string name="CS_CITIUS_miniscreen_7_paragraph_0">Funded by the European Innovation Council (EIC), explores pioneering wireless power transmission technology using high-power lasers. Its goal is to enable remote powering of satellites, drones or devices in extreme environments, eliminating the need for batteries.</string>
+    <string name="CS_CITIUS_miniscreen_7_texto_buscado_1">technology using high-power lasers</string>
+    <string name="CS_CITIUS_miniscreen_7_paragraph_1">The project develops new silicon carbide (SiC) materials and devices to improve the efficiency, sustainability and safety of these systems, with potential applications in future space missions and advanced terrestrial technologies.</string>
+    <string name="CS_CITIUS_miniscreen_7_texto_buscado_2">new silicon carbide (SiC) materials</string>
+
+    <!--PANTALLA 9-->
+    <string name="CS_CITIUS_miniscreen_8_title_0" translatable="false">NUMADELIC</string>
+    <string name="CS_CITIUS_miniscreen_8_texto_buscado_0" translatable="false">NUMADELIC</string>
+    <string name="CS_CITIUS_miniscreen_8_paragraph_0">Promoted and funded by the US non-profit Tiny Blue Dot Foundation, investigates the use of immersive virtual reality to improve the mental health and emotional well-being of people facing life-threatening illnesses.</string>
+    <string name="CS_CITIUS_miniscreen_8_texto_buscado_1" translatable="false">Tiny Blue Dot Foundation</string>
+    <string name="CS_CITIUS_miniscreen_8_paragraph_1">Through the design of experiences inspired by the psychological effects of near-death experiences (NDEs), the Clear Light system is expected to enable patients and their families to reduce anxiety, loneliness or fear at the end of life. The project, in collaboration with palliative care professionals and death doulas, is being evaluated in a controlled clinical trial and aims to open a new cultural conversation about how we live and how we die.</string>
+    <string name="CS_CITIUS_miniscreen_8_texto_buscado_2">near-death experiences (NDEs)</string>
+
+    <!--PANTALLA 10-->
+    <string name="CS_CITIUS_miniscreen_9_title_0" translatable="false">SOSFood</string>
+    <string name="CS_CITIUS_miniscreen_9_texto_buscado_0" translatable="false">SOSFood</string>
+    <string name="CS_CITIUS_miniscreen_9_paragraph_0">In collaboration with partners from several European countries, seeks to transform the agri-food system through artificial intelligence. The aim is to create tools that help make more sustainable decisions throughout the value chain, from agricultural production to final consumption.</string>
+    <string name="CS_CITIUS_miniscreen_9_texto_buscado_1">create tools that help make more sustainable decisions</string>
+    <string name="CS_CITIUS_miniscreen_9_paragraph_1">The project takes into account environmental, social and economic factors to promote a fair and environmentally friendly transition.</string>
+    <string name="CS_CITIUS_miniscreen_9_texto_buscado_2">environmental, social and economic factors</string>
+
+    <!--PANTALLA 11-->
+    <string name="CS_CITIUS_miniscreen_10_title_0" translatable="false">Proxecto Nós</string>
+    <string name="CS_CITIUS_miniscreen_10_texto_buscado_0" translatable="false">Proxecto Nós</string>
+    <string name="CS_CITIUS_miniscreen_10_paragraph_0">In the field of linguistics, CiTIUS is leading the Nós project, the largest technological initiative developed for the Galician language. The aim is to provide the Galician language with the necessary resources to guarantee its presence in the digital ecosystem: linguistic corpora, foundational and usage-oriented language models (such as machine translation) and domains (health, law, etc.), voice recognition and synthesis, virtual assistants, etc. A strategic infrastructure to ensure the future of Galician in an increasingly digital world.</string>
+    <string name="CS_CITIUS_miniscreen_10_texto_buscado_1">leading the Nós project</string>
+    <string name="CS_CITIUS_miniscreen_10_texto_buscado_2">provide the Galician language with the necessary resources to guarantee its presence in the digital ecosystem</string>
+
+    <!--PANTALLA 12-->
+    <string name="CS_CITIUS_miniscreen_11_paragraph_0">The centre also promotes the Galician technology industry through the creation of chairs such as the USC-Televés Chair of Microelectronics, aimed at promoting the fields of microelectronics and semiconductors in Galicia, and the USC-Plexus Chair of AI in Personalised Precision Medicine (CAME&amp;IA), which promotes the development of intelligent technologies applied to medicine, with pioneering projects in medical imaging and close collaboration with entities in the hospital sector.</string>
+    <string name="CS_CITIUS_miniscreen_11_texto_buscado_0">USC-Televés Chair of Microelectronics</string>
+    <string name="CS_CITIUS_miniscreen_11_texto_buscado_1">USC-Plexus Chair of AI in Personalised Precision Medicine (CAME&amp;IA)</string>
+
+    <!--PANTALLA 13-->
+    <string name="CS_CITIUS_miniscreen_12_paragraph_0">CiTIUS is not only dedicated to research, but also plays a fundamental role in the transfer of technology and knowledge to the business and social fabric. CiTIUS actively promotes the transfer of knowledge through the creation of new technology-based companies.</string>
+    <string name="CS_CITIUS_miniscreen_12_texto_buscado_0">the transfer of technology and knowledge to the business and social fabric</string>
+    <string name="CS_CITIUS_miniscreen_12_paragraph_1">In recent years, several entrepreneurial initiatives have been launched as a result of the centre\'s research. These are just three examples of the many current transfer initiatives promoted by the USC research centre, reflecting CiTIUS\'s commitment to research that not only advances science but also has a tangible and relevant impact on society and the productive fabric.</string>
+    <string name="CS_CITIUS_miniscreen_12_texto_buscado_1">entrepreneurial initiatives</string>
+
+    <!--PANTALLA 14-->
+    <string name="CS_CITIUS_miniscreen_13_title_0" translatable="false">energHius</string>
+    <string name="CS_CITIUS_miniscreen_13_texto_buscado_0" translatable="false">energHius</string>
+    <string name="CS_CITIUS_miniscreen_13_paragraph_0">Spin-off specialising in the design of very low-power chips for ambient energy harvesting applications, eliminating the need for batteries in implantable devices, distributed systems for the Internet of Things (IoT), etc.</string>
+
+    <!--PANTALLA 15-->
+    <string name="CS_CITIUS_miniscreen_14_title_0" translatable="false">InVerbis Analytics</string>
+    <string name="CS_CITIUS_miniscreen_14_texto_buscado_0" translatable="false">InVerbis Analytics</string>
+    <string name="CS_CITIUS_miniscreen_14_paragraph_0">Applies process mining and intelligent data analysis technologies to help organisations detect inefficiencies and optimise processes in real time. Its platform is already being used by companies in various sectors, from healthcare to industry.</string>
+
+    <!--PANTALLA 16-->
+    <string name="CS_CITIUS_miniscreen_15_title_0" translatable="false">Situm Technologies</string>
+    <string name="CS_CITIUS_miniscreen_15_texto_buscado_0" translatable="false">Situm Technologies</string>
+    <string name="CS_CITIUS_miniscreen_15_paragraph_0">Leader in indoor location and navigation solutions and large infrastructure mapping, offers technology to guide people in and out of large buildings, such as hospitals, airports and shopping centres. Its technology is already implemented in more than 70 countries.</string>
+
+    <!--PANTALLA 17-->
+    <string name="CS_CITIUS_miniscreen_16_title_0">TALENT AMBASSADORS</string>
+
+    <!--PANTALLA 18-->
+    <string name="CS_CITIUS_miniscreen_17_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_0" translatable="false">Senén Barro</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_1" translatable="false">Paula López</string>
+    <string name="CS_CITIUS_miniscreen_17_title_1">RESEARCH STAFF</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_2" translatable="false">Pablo Gamallo</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_3" translatable="false">David Glowacki</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_4" translatable="false">Marta Núñez</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_5" translatable="false">María José Carreira</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_6" translatable="false">David Losada</string>
+    <string name="CS_CITIUS_miniscreen_17_paragraph_7" translatable="false">Natalia Seoane</string>
+
+    <!--PANTALLA 19-->
+    <string name="CS_CITIUS_miniscreen_18_title_0" translatable="false">SENÉN BARRO</string>
+    <string name="CS_CITIUS_miniscreen_18_texto_buscado_0" translatable="false">SENÉN BARRO</string>
+    <string name="CS_CITIUS_miniscreen_18_title_1">Scientific Director of CiTIUS</string>
+    <string name="CS_CITIUS_miniscreen_18_texto_buscado_1">Scientific Director of CiTIUS</string>
+    <string name="CS_CITIUS_miniscreen_18_paragraph_0">Professor of Computer Science and Artificial Intelligence, Senén Barro is one of the most renowned figures in science in Galicia. He was Rector of the USC between 2002 and 2010, during which time he promoted the university\'s international profile and the creation of the Vida Campus. Throughout his career, he has combined research (with more than 300 scientific publications and 7 books) with the creation of innovative companies such as SITUM and InVerbis. A specialist in AI, machine learning and intelligent systems, he has been awarded the National Computer Science Prize and is a member of the Royal Galician Academy of Sciences. His career shows that it is possible to connect the academic world, technological innovation and commitment to society. At the helm of CiTIUS, he works to ensure that Galicia is at the forefront of digital transformation and the responsible and inclusive use of artificial intelligence.</string>
+    <string name="CS_CITIUS_miniscreen_18_paragraph_1">MORE INFO: https://citius.gal/es/team/senen-barro-ameneiro/ </string>
+
+    <!--PANTALLA 19-->
+    <string name="CS_CITIUS_miniscreen_19_title_0" translatable="false">PAULA LÓPEZ</string>
+    <string name="CS_CITIUS_miniscreen_19_texto_buscado_0" translatable="false">PAULA LÓPEZ</string>
+    <string name="CS_CITIUS_miniscreen_19_title_1">Deputy director</string>
+    <string name="CS_CITIUS_miniscreen_19_texto_buscado_1">Deputy director</string>
+    <string name="CS_CITIUS_miniscreen_19_paragraph_0">Professor of Electronics at the University of Santiago de Compostela (USC) and deputy director of CiTIUS, Paula López is one of the leading figures in microelectronics research in Galicia. Since 2024, she has also headed the Televés Chair of Microelectronics at the USC. Her work focuses on the design of integrated circuits for image sensors and energy management systems, with applications in the biomedical field and the Internet of Things (IoT). With more than 100 international publications, she is a member of the IEEE Technical Committee on Sensory Systems and a senior member of this organisation. Her career combines scientific rigour with a desire to bring technology closer to people\'s well-being, from devices that can monitor our health to systems that improve energy efficiency. Her experience and leadership are contributing decisively to positioning CiTIUS as a European benchmark in smart electronics research.</string>
+    <string name="CS_CITIUS_miniscreen_19_paragraph_1">MORE INFO: https://citius.gal/es/team/paula-lopez-martinez/</string>
+
+    <!--PANTALLA 20-->
+    <string name="CS_CITIUS_miniscreen_20_title_0" translatable="false">PABLO GAMALLO</string>
+    <string name="CS_CITIUS_miniscreen_20_texto_buscado_0" translatable="false">PABLO GAMALLO</string>
+    <string name="CS_CITIUS_miniscreen_20_paragraph_0">Professor at the USC and researcher at CiTIUS, Pablo Gamallo is one of the leading specialists in language technologies. He developed tools such as Linguakit and Avalingua, which enable texts to be analysed and understood automatically. His research focuses on Natural Language Processing (NLP), a field that combines linguistics and artificial intelligence to teach machines to understand what we read or write. He is currently working on the development of models that combine neuro-symbolic techniques for tasks as diverse as detecting feelings and identifying misinformation. Founder of the spin-off Cilenis, Gamallo has been contributing for years to giving Galician and other languages their own voice in the digital world. His work is key to ensuring multilingual and inclusive artificial intelligence.</string>
+    <string name="CS_CITIUS_miniscreen_20_paragraph_1">MORE INFO: https://citius.gal/es/team/pablo-gamallo-otero/</string>
+
+    <!--PANTALLA 22-->
+    <string name="CS_CITIUS_miniscreen_21_title_0" translatable="false">DAVID GLOWACKI</string>
+    <string name="CS_CITIUS_miniscreen_21_texto_buscado_0" translatable="false">DAVID GLOWACKI</string>
+    <string name="CS_CITIUS_miniscreen_21_paragraph_0">David Glowacki is a unique figure in the world of research: scientist, artist and activist, he works at the intersection of science, aesthetics and technology. Founder of the IRL (Intangible Realities Laboratory), he is a pioneer in the use of virtual reality to visualise complex scientific phenomena in an immersive way. His art installations have been visited by more than 200,000 people worldwide. With a background ranging from chemistry to cultural theory and philosophy, he has received numerous awards, including the prestigious Philip Leverhulme Prize. At CiTIUS, he contributes to opening new frontiers where science becomes a sensory experience. His career demonstrates that research can also be an art form and a bridge between seemingly distant worlds.</string>
+    <string name="CS_CITIUS_miniscreen_21_paragraph_1">MORE INFO: https://citius.gal/es/team/david-ryan-glowacki/</string>
+
+    <!--PANTALLA 23-->
+    <string name="CS_CITIUS_miniscreen_22_title_0" translatable="false">MARTA NÚÑEZ</string>
+    <string name="CS_CITIUS_miniscreen_22_texto_buscado_0" translatable="false">MARTA NÚÑEZ</string>
+    <string name="CS_CITIUS_miniscreen_22_paragraph_0">A specialist in medical image processing, Marta Núñez joined CiTIUS in 2023 after a solid international career. She holds a degree in Telecommunications Engineering from the University of Vigo, a PhD in cardiac data analysis from Pompeu Fabra University, and has research experience at leading centres such as IHU Liryc in Bordeaux. In her work, she combines classic image processing techniques with artificial intelligence models to analyse complex heart data, such as MRIs and CT scans. Her goal is to create standardised representations of the heart that will improve the diagnosis and treatment of heart disease. With a multidisciplinary profile and a strong commitment to research, she brings new avenues of exploration in the field of personalised medicine to CiTIUS.</string>
+    <string name="CS_CITIUS_miniscreen_22_paragraph_1">MORE INFO: https://citius.gal/es/team/marta-nunez-garcia/</string>
+
+    <!--PANTALLA 24-->
+    <string name="CS_CITIUS_miniscreen_23_title_0" translatable="false">MARÍA JOSÉ CARREIRA</string>
+    <string name="CS_CITIUS_miniscreen_23_texto_buscado_0" translatable="false">MARÍA JOSÉ CARREIRA</string>
+    <string name="CS_CITIUS_miniscreen_23_paragraph_0">Professor at the University of Santiago de Compostela and an expert in intelligent medical image processing, María José Carreira has been applying artificial intelligence to fields such as radiology, ophthalmology and dentistry for more than two decades. At CiTIUS, she leads highly innovative lines of research, from the analysis of the oral microbiome to the development of specialised software such as ZFTool and ICBrain. In addition to her scientific work, she has held important management positions at the university, such as deputy director of ETSE and commissioner for ICT governance. She is secretary of the USC-Plexus Chair of AI Applied to Personalised Medicine and one of the key figures in the transfer of knowledge between the academic world and the healthcare system. Her work contributes to improving the prevention, diagnosis and treatment of diseases through the responsible use of technology.</string>
+    <string name="CS_CITIUS_miniscreen_23_paragraph_1">MORE INFO: https://citius.gal/es/team/maria-jose-carreira-nouche/</string>
+
+    <!--PANTALLA 25-->
+    <string name="CS_CITIUS_miniscreen_24_title_0" translatable="false">DAVID LOSADA</string>
+    <string name="CS_CITIUS_miniscreen_24_texto_buscado_0" translatable="false">DAVID LOSADA</string>
+    <string name="CS_CITIUS_miniscreen_24_paragraph_0">An expert in information retrieval, David Losada is a professor at the USC and a researcher at CiTIUS. His research seeks to improve how machines locate, classify and understand large volumes of text: from searching for a patent to analysing opinions or creating automatic summaries. He actively participates in international research networks and has been recognised by the prestigious ACM as a ‘senior member’. With a solid educational background—he received special awards for his bachelor\'s and doctoral degrees—he leads projects that form the basis of many tools we use every day to search for information. At CiTIUS, he works to make these technologies more effective, fair and accessible, with both scientific and social applications.</string>
+    <string name="CS_CITIUS_miniscreen_24_paragraph_1">MORE INFO: https://citius.gal/es/team/david-enrique-losada-carril/</string>
+
+    <!--PANTALLA 26-->
+    <string name="CS_CITIUS_miniscreen_25_title_0" translatable="false">NATALIA SEOANE</string>
+    <string name="CS_CITIUS_miniscreen_25_texto_buscado_0" translatable="false">NATALIA SEOANE</string>
+    <string name="CS_CITIUS_miniscreen_25_paragraph_0">A physicist and researcher with a passion for technology, Natalia Seoane works at CiTIUS analysing how electronic devices behave at the nanometric scale. With a degree and PhD from the USC, she completed her training with postdoctoral stays at prestigious universities in the United Kingdom, such as Glasgow, Edinburgh and Swansea. Her research focuses on the simulation of semiconductor devices and the analysis of how small variations in their design or manufacture can affect their performance. She explores the use of parallel and distributed computing to speed up these complex calculations. Her work contributes to improving the efficiency and reliability of the electronics of the future, which is essential for fields such as microelectronics, health and communications. With one foot in physics and the other in computing, Natalia represents the multidisciplinary talent that drives research from Galicia to the world.</string>
+    <string name="CS_CITIUS_miniscreen_25_paragraph_1">MORE INFO: https://citius.gal/es/team/natalia-seoane-iglesias/</string>
+
+    <!--PANTALLA 27-->
+    <string name="CS_CITIUS_miniscreen_26_title_0" translatable="false">https://citius.gal/es/</string>
+    <string name="CS_CITIUS_miniscreen_26_paragraph_0">If you are interested in learning more about CiTIUS, you can access further information by clicking on the following link:</string>
+    <string name="CS_CITIUS_miniscreen_26_texto_buscado_0">learning more</string>
+
+
+
+
+</resources>

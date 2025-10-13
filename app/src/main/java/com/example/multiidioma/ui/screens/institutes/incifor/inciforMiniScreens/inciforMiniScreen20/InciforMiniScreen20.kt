@@ -23,7 +23,7 @@ fun InciforMiniScreen20(
             .background(Color(0xFF4189B5))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.4f, Box2 = 0.4f, Box3 = 0.2f),
+            BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.8f, Box3 = 0.1f),
             data = data,
             Box1 = { contentInciforMiniScreen20Box1(it)},
             Box2 = { contentInciforMiniScreen20Box2(it)},

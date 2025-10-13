@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5
+    package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -23,11 +23,10 @@ fun InciforMiniScreen5(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
-
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFF66AAD1))
+            .background(Color(0xFFBCE0F0))
     ) {
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.3f, Box2 = 0.6f, Box3 = 0.1f),
