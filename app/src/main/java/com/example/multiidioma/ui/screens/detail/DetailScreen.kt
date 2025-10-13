@@ -85,7 +85,7 @@ fun DetailScreen(
 
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
-                    is ContentType.CIQUS -> CiqusScreen()
+                    is ContentType.CIQUS -> CiqusScreen(listState, navController)
                     //is ContentType.CIMUS -> CimusScreen()
                     is ContentType.CITIUS -> CitiusScreen()
                     is ContentType.CRETUS -> CretusScreen()

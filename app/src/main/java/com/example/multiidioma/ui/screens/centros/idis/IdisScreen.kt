@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.screens.centros.idis
 
-import IlgMiniScreen20
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -22,6 +21,8 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.navigation.NavController
 import com.example.multiidioma.data.data.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
+import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen17.IdisMiniScreen17
+import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen33.IdisMiniScreen33
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen10.IdisMiniScreen10
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen11.IdisMiniScreen11
 import com.example.multiidioma.ui.screens.idis.idisMiniScreens.IdisMiniScreen3.IdisMiniScreen3
@@ -195,13 +196,15 @@ fun IdisScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
-                       /* 17 -> IlgMiniScreen17(
+                        17 -> IdisMiniScreen17(
                             data,
+                            navController,
+                            podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight(),
+                                .fillParentMaxHeight()
                         )
-                        18 -> IlgMiniScreen18(
+                      /*  18 -> IlgMiniScreen18(
                             data,
                             Modifier
                                 .fillMaxWidth()
@@ -246,7 +249,107 @@ fun IdisScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
 
+                            )
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
+
+                        24 -> IlgMiniScreen24(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
                             )*/
+
+
+
+
+
+                        18 -> IdisMiniScreen33(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
+
+                            )
+
                         else -> Text("MiniScreen desconocida")
                     }
                 }

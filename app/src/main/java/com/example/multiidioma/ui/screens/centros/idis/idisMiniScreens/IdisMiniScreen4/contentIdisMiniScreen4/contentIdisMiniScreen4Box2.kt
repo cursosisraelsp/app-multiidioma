@@ -14,13 +14,13 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.NavigationFiguresComponent
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura0
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura1
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura2
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura3
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura4
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura5
-import com.example.multiidioma.ui.screens.centros.idis.IdisvalorFigura6
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis0
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis1
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis2
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis3
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis4
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis5
+import com.example.multiidioma.ui.screens.centros.idis.valorFiguraIdis6
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
@@ -35,13 +35,13 @@ fun contentIdisMiniScreen4Box2(data: MiniScreenData, navController: NavControlle
                 .fillMaxSize()
                 .background(Color(0xFF66AAD1))
         ) {
-            NavigationFiguresComponent(IdisvalorFigura0, navController)
-            NavigationFiguresComponent(IdisvalorFigura1, navController)
-            NavigationFiguresComponent(IdisvalorFigura2, navController)
-            NavigationFiguresComponent(IdisvalorFigura3, navController)
-            NavigationFiguresComponent(IdisvalorFigura4, navController)
-            NavigationFiguresComponent(IdisvalorFigura5, navController)
-            NavigationFiguresComponent(IdisvalorFigura6, navController)
+            NavigationFiguresComponent(valorFiguraIdis0, navController)
+            NavigationFiguresComponent(valorFiguraIdis1, navController)
+            NavigationFiguresComponent(valorFiguraIdis2, navController)
+            NavigationFiguresComponent(valorFiguraIdis3, navController)
+            NavigationFiguresComponent(valorFiguraIdis4, navController)
+            NavigationFiguresComponent(valorFiguraIdis5, navController)
+            NavigationFiguresComponent(valorFiguraIdis6, navController)
         }
 
     }

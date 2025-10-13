@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.centros.ciqus
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.multiidioma.data.data.CiqusRepository
 import com.example.multiidioma.data.data.IhusRepository
 import com.example.multiidioma.data.types.MiniScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -20,7 +21,7 @@ class CiqusViewModel : ViewModel() {
     private fun loadMiniScreens() {
         viewModelScope.launch {
             //delay(500) // Simula tiempo de carga
-            val listaCiqusRepository = IhusRepository()
+            val listaCiqusRepository = CiqusRepository()
             _uiState.value = MiniScreenState.Success(
                 listOf(
                     listaCiqusRepository.getData(0),
@@ -31,8 +32,8 @@ class CiqusViewModel : ViewModel() {
                     listaCiqusRepository.getData(5),
                     listaCiqusRepository.getData(6),
                     listaCiqusRepository.getData(7),
-                    listaCiqusRepository.getData(8),
-                    listaCiqusRepository.getData(9),
+                   /* listaCiqusRepository.getData(8),
+                    listaCiqusRepository.getData(9),*/
 
                     )
             )

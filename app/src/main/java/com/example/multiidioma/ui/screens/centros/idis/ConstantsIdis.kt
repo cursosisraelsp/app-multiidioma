@@ -19,7 +19,7 @@ val numNumeroGrande = ((317.9/des.density)).sp
 
 val numNumero = ((317.9/des.density)/relacionDimen).sp
 
-val IdisvalorFigura0 = NavegationFiguresData(
+val valorFiguraIdis0 = NavegationFiguresData(
     offset_x = 15.dp,
     offset_y = 25.dp,
     imaxen = R.raw.circulo_blanco,
@@ -31,7 +31,7 @@ val IdisvalorFigura0 = NavegationFiguresData(
     anchoTexto = relacionTexto,
     relacionText = numLetra2
 )
-val IdisvalorFigura1 = NavegationFiguresData(
+val valorFiguraIdis1 = NavegationFiguresData(
     offset_x = 175.dp,
     offset_y = 35.dp,
     imaxen = R.raw.circulo_blanco,
@@ -43,7 +43,7 @@ val IdisvalorFigura1 = NavegationFiguresData(
     anchoTexto = relacionTextoGrande,
     relacionText = numLetra2
 )
-val IdisvalorFigura2 = NavegationFiguresData(
+val valorFiguraIdis2 = NavegationFiguresData(
     offset_x = 15.dp,
     offset_y = 175.dp,
     imaxen = R.raw.circulo_blanco,
@@ -55,7 +55,7 @@ val IdisvalorFigura2 = NavegationFiguresData(
     anchoTexto = relacionTexto,
     relacionText = numLetra2
 )
-val IdisvalorFigura3 = NavegationFiguresData(
+val valorFiguraIdis3 = NavegationFiguresData(
     offset_x = 135.dp,
     offset_y = 240.dp,
     imaxen = R.raw.circulo_blanco,
@@ -67,7 +67,7 @@ val IdisvalorFigura3 = NavegationFiguresData(
     anchoTexto = relacionTexto,
     relacionText = numLetra2
 )
-val IdisvalorFigura4 = NavegationFiguresData(
+val valorFiguraIdis4 = NavegationFiguresData(
     offset_x = 10.dp,
     offset_y = 325.dp,
     imaxen = R.raw.circulo_blanco,
@@ -79,7 +79,7 @@ val IdisvalorFigura4 = NavegationFiguresData(
     anchoTexto = relacionTexto,
     relacionText = numLetra2
 )
-val IdisvalorFigura5 = NavegationFiguresData(
+val valorFiguraIdis5 = NavegationFiguresData(
     offset_x = 120.dp,
     offset_y = 415.dp,
     imaxen = R.raw.circulo_blanco,
@@ -91,7 +91,7 @@ val IdisvalorFigura5 = NavegationFiguresData(
     anchoTexto = relacionTexto,
     relacionText = numLetra2
 )
-val IdisvalorFigura6 = NavegationFiguresData(
+val valorFiguraIdis6 = NavegationFiguresData(
     offset_x = 270.dp,
     offset_y = 400.dp,
     imaxen = R.raw.circulo_blanco,

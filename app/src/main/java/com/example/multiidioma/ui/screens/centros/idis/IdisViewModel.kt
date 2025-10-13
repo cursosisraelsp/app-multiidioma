@@ -41,15 +41,16 @@ class IdisViewModel : ViewModel() {
                     listaIdisRepository.getData(14),
                     listaIdisRepository.getData(15),
                     listaIdisRepository.getData(16),
-                  /*  listaIlgRepository.getData(17),
-                    listaIlgRepository.getData(18),
+                    listaIdisRepository.getData(17),
+                  /*  listaIlgRepository.getData(18),
                     listaIlgRepository.getData(19),
                     listaIlgRepository.getData(20),
                     listaIlgRepository.getData(21),
                     listaIlgRepository.getData(22),
                     listaIlgRepository.getData(23),
                     listaIlgRepository.getData(24),*/
-                )
+                    listaIdisRepository.getData(18),
+                    )
             )
         }
     }
