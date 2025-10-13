@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val languageViewModel: LanguageViewModel = viewModel()
+
             MyApp(languageViewModel)
             //MapScreen()
             //AbrirUnity()
