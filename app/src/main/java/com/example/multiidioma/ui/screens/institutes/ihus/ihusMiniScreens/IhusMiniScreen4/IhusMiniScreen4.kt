@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateScreen
 
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.contentIhusMiniScreen4.contentIhusMiniScreen4Box1
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.contentIhusMiniScreen4.contentIhusMiniScreen4Box2
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.contentIhusMiniScreen4.contentIhusMiniScreen4Box3

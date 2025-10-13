@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<string name="CS_CIQUS_miniscreen_0_paragraph_0"></string>
+<string name="CS_CIQUS_miniscreen_0_texto_buscado_0"></string>
+<string name="CS_CIQUS_miniscreen_0_title_0"></string>
+-->
+
+<resources>
+
+    <!-- PANTALLA 1 -->
+    <string name="CS_CIQUS_miniscreen_0_paragraph_0">Chemistry is one of the fundamental sciences that has accompanied the development of humanity since its origins. Through the study of molecules and their interactions, it has enabled us to understand and transform the world around us, from the creation of materials that improve our daily lives to the design of drugs that combat disease. </string>
+    <string name="CS_CIQUS_miniscreen_0_texto_buscado_0">study of molecules and their interactions</string>
+
+    <!-- PANTALLA 2 -->
+    <string name="CS_CIQUS_miniscreen_1_paragraph_0">In recent decades, chemistry has gone hand in hand with advances in biology, physics, engineering, and computer technology to give rise to new disciplines that address global challenges such as health, energy, the environment, and sustainability. This integrative approach has enabled the development of more effective therapies, smart materials, and technologies that respond to the needs of an increasingly complex and connected world.</string>
+    <string name="CS_CIQUS_miniscreen_1_texto_buscado_0">the development of more effective therapies, smart materials, and technologies that respond to the needs</string>
+    <string name="CS_CIQUS_miniscreen_1_paragraph_1">With the aim of not only generating knowledge but also driving advances that improve medicine, the environment, and technology, CiQUS was born, a unique centre at the University of Santiago de Compostela (USC) that seeks to connect Galicia with modern chemistry and bring that knowledge to society as a whole.</string>
+    <string name="CS_CIQUS_miniscreen_1_texto_buscado_1" translatable="false">CiQUS</string>
+    <string name="CS_CIQUS_miniscreen_1_texto_buscado_2">to connect Galicia with modern chemistry</string>
+
+    <!-- PANTALLA 3 -->
+    <string name="CS_CIQUS_miniscreen_2_paragraph_0">CiQUS is the Centre for Research in Biological Chemistry and Molecular Materials, created in February 2010. It is a USC research centre specialising in biological chemistry, molecular materials and synthetic chemistry. Its team works in an interdisciplinary environment that combines chemistry, biomedicine, nanotechnology, computing and artificial intelligence to address current problems from different perspectives.</string>
+    <string name="CS_CIQUS_miniscreen_2_texto_buscado_0">biological chemistry, molecular materials and synthetic chemistry</string>
+    <string name="CS_CIQUS_miniscreen_2_texto_buscado_1">chemistry, biomedicine, nanotechnology, computing and artificial intelligence</string>
+    <string name="CS_CIQUS_miniscreen_2_paragraph_1">CiQUS\'s mission is to promote the advancement of science at the frontier of knowledge between synthetic chemistry, cell biology and functional materials, training new scientists, professionals and future leaders, and generating socio-economic progress and technology transfer.</string>
+    <string name="CS_CIQUS_miniscreen_2_texto_buscado_2">synthetic chemistry, cell biology and functional materials</string>
+
+    <!-- PANTALLA 4 -->
+    <string name="CS_CIQUS_miniscreen_3_paragraph_0">The centre is based on the Vida Campus of the University of Santiago de Compostela and its building has more than 20 research laboratories, equipped with optimal equipment and systems for carrying out research work.</string>
+    <string name="CS_CIQUS_miniscreen_3_texto_buscado_0">more than 20 research laboratories</string>
+    <string name="CS_CIQUS_miniscreen_3_paragraph_1">Around 200 people work at the centre, including research and scientific staff, technical teams and doctoral, master\'s and undergraduate students.</string>
+    <string name="CS_CIQUS_miniscreen_3_texto_buscado_1">Around 200 people</string>
+
+    <!-- PANTALLA 5 -->
+    <string name="CS_CIQUS_miniscreen_4_paragraph_0">The research carried out at CiQUS addresses two major priorities for society: health and sustainability. To achieve this, its work is organised into three main areas.</string>
+    <string name="CS_CIQUS_miniscreen_4_texto_buscado_0">three main areas</string>
+    <string name="CS_CIQUS_miniscreen_4_paragraph_1">There is also an area that cuts across the previous three, Computational Chemistry and Data Science, which uses artificial intelligence and digital simulations to understand, design and predict the behaviour of molecules and materials, accelerating research and saving resources.</string>
+    <string name="CS_CIQUS_miniscreen_4_texto_buscado_1">area that cuts across</string>
+    <string name="CS_CIQUS_miniscreen_4_texto_buscado_2">Computational Chemistry and Data Science</string>
+
+    <!-- PANTALLA 6 -->
+    <string name="CS_CIQUS_miniscreen_5_title_0">BIOLOGICAL AND</string>
+    <string name="CS_CIQUS_miniscreen_5_title_1">MEDICAL</string>
+    <string name="CS_CIQUS_miniscreen_5_title_2">CHEMISTRY</string>
+    <string name="CS_CIQUS_miniscreen_5_paragraph_0">Combines chemistry, nanotechnology and biomedicine to better understand and combat important diseases that affect people today.</string>
+    <string name="CS_CIQUS_miniscreen_5_texto_buscado_0">chemistry, nanotechnology and biomedicine</string>
+    <string name="CS_CIQUS_miniscreen_5_paragraph_1">Several research teams are studying how proteins are formed, how they function, and how they interact with other molecules. Proteins are essential for the functioning of our cells: they can participate in chemical reactions, act as messengers, or serve as sensors in cell membranes.</string>
+    <string name="CS_CIQUS_miniscreen_5_texto_buscado_1">essential for the functioning of our cells </string>
+    <string name="CS_CIQUS_miniscreen_5_paragraph_2">Thanks to advances in biotechnology, it is now possible to design customised proteins with very promising medical applications. CiQUS has developed proteins with incorporated metals that accelerate reactions within cells to produce substances that help fight cancer or infections. It has also created transporter proteins capable of carrying DNA and other compounds into cells, which are useful in gene therapies. It has also developed nanotubes made of peptides (protein fragments) that attach themselves to bacteria or tumour cells and destroy them without damaging healthy cells.</string>
+    <string name="CS_CIQUS_miniscreen_5_texto_buscado_2">accelerate reactions within cells to produce substances that help fight cancer or infections</string>
+    <string name="CS_CIQUS_miniscreen_5_paragraph_3">In addition, other scientists are studying viruses and bacteria to find new strategies against disease. They have created methods to encapsulate proteins and protect them, improving the effectiveness of vaccines and allowing drugs to be administered orally.</string>
+    <string name="CS_CIQUS_miniscreen_5_texto_buscado_3">find new strategies against disease</string>
+    <string name="CS_CIQUS_miniscreen_5_paragraph_4">They are also seeking solutions to superbugs, which are bacteria that are highly resistant to antibiotics and pose a particularly serious threat to people with weakened immune systems, such as those undergoing cancer treatment.</string>
+    <string name="CS_CIQUS_miniscreen_5_texto_buscado_4">solutions to superbugs</string>
+
+    <!-- PANTALLA 7 -->
+    <string name="CS_CIQUS_miniscreen_6_title_0">FUNCTIONAL</string>
+    <string name="CS_CIQUS_miniscreen_6_title_1">MATERIALS</string>
+    <string name="CS_CIQUS_miniscreen_6_title_2">OF TECHNOLOGICAL</string>
+    <string name="CS_CIQUS_miniscreen_6_title_3">INTEREST</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_0">Focuses on creating new materials that can be used in advanced technologies, seeking to make them efficient, sustainable and innovative.</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_0">creating new materials</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_1">Several groups of scientists are creating new materials and tiny technologies (nanotechnology) that help improve electronic devices and medical treatments, as well as caring for the environment and protecting historical and artistic heritage.</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_1">creating new materials and tiny technologies (nanotechnology)</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_2">In electronics, they are developing ultra-thin materials to control thermal conductivity in electronic devices and manage the heat generated by these systems more efficiently during operation, allowing for better use of energy. They are also manufacturing very small structures made of metals and carbon to build more efficient and durable devices. For example, they use carbon nanotubes to protect tiny magnets in electronic devices and design nanocatalysts with carbon and platinum that improve energy generation. </string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_2">carbon nanotubes to protect tiny magnets in electronic devices and design nanocatalysts with carbon and platinum that improve energy generation</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_3">Another interesting advance is the creation of new carbon materials, such as custom-made porous graphene, which can be used as a sensor in electronic devices or as a molecular filter to separate different chemical species.</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_4">In medicine, they develop nanomaterials that can be used to diagnose diseases, image the inside of the body, or deliver treatments. One of the most innovative technologies is ‘DNA origami’: DNA structures that function as mini protein printers that are placed on materials such as medicines. This allows them to control how medicines behave inside the body and improve their effect.</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_4">develop nanomaterials that can be used to diagnose diseases</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_5">to control how medicines behave inside the body</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_5">They also create drug carriers that release drugs only when they receive an external signal, such as light or a magnetic field, so that they act exactly where they are needed. And they design systems that mimic natural structures in the body to improve the treatment of diseases.</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_6">drug carriers that release drugs only when they receive an external signal</string>
+    <string name="CS_CIQUS_miniscreen_6_paragraph_6">Finally, they work on porous materials that absorb contaminants to clean water, and apply nanotechnology to preserve and protect works of art, especially those made with plastic and organic materials, improving their durability and facilitating their restoration.</string>
+    <string name="CS_CIQUS_miniscreen_6_texto_buscado_7">porous materials that absorb contaminants</string>
+
+    <!-- PANTALLA 8 -->
+    <string name="CS_CIQUS_miniscreen_7_title_0">SYNTHETIC</string>
+    <string name="CS_CIQUS_miniscreen_7_title_1">TECHNOLOGIES</string>
+    <string name="CS_CIQUS_miniscreen_7_title_2">FOR SUSTAINNABLE</string>
+    <string name="CS_CIQUS_miniscreen_7_title_3"></string>
+    <string name="CS_CIQUS_miniscreen_7_title_4">DEVELOPMENT</string>
+    <string name="CS_CIQUS_miniscreen_7_paragraph_0">They develop chemical processes that transform common and abundant raw materials into valuable products, always with a focus on sustainability and efficiency.</string>
+    <string name="CS_CIQUS_miniscreen_7_texto_buscado_0">transform common and abundant raw materials into valuable products</string>
+    <string name="CS_CIQUS_miniscreen_7_paragraph_1">In their quest for cleaner, more environmentally friendly chemistry, CiQUS researchers are developing new ways to manufacture medicines, chemicals and advanced materials in a more efficient and controlled manner.</string>
+    <string name="CS_CIQUS_miniscreen_7_texto_buscado_1">new ways to manufacture medicines, chemicals and advanced materials</string>
+    <string name="CS_CIQUS_miniscreen_7_paragraph_2">A key technique they use is organometallic catalysis, which uses metals to accelerate chemical reactions. Thanks to this, they have managed to create complex molecules, such as Englerin A, a compound with potential for treating cancer. They are also working on transforming methane into useful and valuable chemicals.</string>
+    <string name="CS_CIQUS_miniscreen_7_texto_buscado_2">they have managed to create complex molecules, such as Englerin A</string>
+    <string name="CS_CIQUS_miniscreen_7_paragraph_3">In addition, they are researching chemical reactions that are activated by light, called photochemical reactions. These allow simple substances such as methane, alcohols, or carbon dioxide to be converted into more useful compounds, reducing waste and making better use of natural resources.</string>
+    <string name="CS_CIQUS_miniscreen_7_texto_buscado_3">allow simple substances such as methane, alcohols, or carbon dioxide to be converted into more useful compounds</string>
+    <string name="CS_CIQUS_miniscreen_7_paragraph_4">Finally, they use these photochemical reactions to modify molecules formed by DNA bound to other compounds. In this way, they create large collections of new molecules called DNA-encoded chemical libraries (DELs), which aid in the discovery of new drugs. Thanks to DNA, they can quickly identify which molecules work best against diseases.</string>
+    <string name="CS_CIQUS_miniscreen_7_texto_buscado_4">new molecules called DNA-encoded chemical libraries (DELs)</string>
+
+    <!-- PANTALLA 9 -->
+    <string name="CS_CIQUS_miniscreen_8_paragraph_0">CiQUS has a very significant impact at the local level. From its headquarters in Santiago de Compostela, it actively contributes to the educational, social and industrial fabric of Galicia. Every year, it organises school visits for primary and secondary school students, encouraging scientific vocations among young people. It also holds conferences and informative activities open to the public, promoting scientific culture in society.</string>
+    <string name="CS_CIQUS_miniscreen_8_texto_buscado_0">encouraging scientific vocations among young people</string>
+
+    <!-- PANTALLA 10 -->
+    <string name="CS_CIQUS_miniscreen_9_paragraph_0">In terms of applied innovation, the centre has developed biotechnological sensors and other devices with real applications, and maintains collaborations with local entities to strengthen the connection between research and strategic sectors such as industry, health and vocational training. Through its catalogue of technological offerings, it provides society with developments in areas such as therapies, diagnostics, the environment and energy.</string>
+    <string name="CS_CIQUS_miniscreen_9_texto_buscado_0">to strengthen the connection between research and strategic sectors such as industry, health and vocational training</string>
+
+    <!-- PANTALLA 11 -->
+    <string name="CS_CIQUS_miniscreen_10_paragraph_0">In addition, CiQUS has been a driving force behind the creation of spin-off companies in Galicia such as MD. USE Innovations, specialising in scientific visualisation with augmented and virtual reality; Celtarys Research, which develops specialised fluorescent reagents to accelerate drug discovery; Sigillum Knowledge Solutions, which offers consulting services and solutions in health, safety and sustainability for consumer products; and Chemo Sapiens, an online platform that connects laboratories with chemical suppliers more efficiently. These companies strengthen the regional innovation ecosystem and generate skilled employment.</string>
+    <string name="CS_CIQUS_miniscreen_10_texto_buscado_0" translatable="false">as MD. USE Innovations</string>
+    <string name="CS_CIQUS_miniscreen_10_texto_buscado_1" translatable="false">Celtarys Research</string>
+    <string name="CS_CIQUS_miniscreen_10_texto_buscado_2" translatable="false">Sigillum Knowledge Solutions</string>
+    <string name="CS_CIQUS_miniscreen_10_texto_buscado_3" translatable="false">Chemo Sapiens</string>
+    <string name="CS_CIQUS_miniscreen_10_texto_buscado_4">regional innovation</string>
+
+    <!-- PANTALLA 12 -->
+    <string name="CS_CIQUS_miniscreen_11_paragraph_0">The centre has registered numerous international patents and has received funding from organisations such as the European Research Council (ERC) through programmes such as Starting, Consolidator, Synergy Grants and Proof of Concept, demonstrating the excellence of its research.</string>
+    <string name="CS_CIQUS_miniscreen_11_texto_buscado_0">international patents</string>
+    <string name="CS_CIQUS_miniscreen_11_paragraph_1">In addition, it offers access to advanced technology with strong transfer potential, such as platforms for monitoring gases, systems for water separation, and new vaccines and therapeutic tools. These technologies are available for collaboration through the CiQUS transfer portal, which also includes software developed by the centre in fields such as molecular simulation and biomedical data analysis.</string>
+    <string name="CS_CIQUS_miniscreen_11_texto_buscado_1">as platforms for monitoring gases, systems for water separation, and new vaccines and therapeutic tools</string>
+    <string name="CS_CIQUS_miniscreen_11_paragraph_2">All this positions CiQUS as a global leader in applied chemical research, with a clear commitment to sustainable innovation, health, and responsible technological advancement, in close collaboration with universities, companies, and institutions around the world.</string>
+    <string name="CS_CIQUS_miniscreen_11_texto_buscado_2">global leader in applied chemical research</string>
+
+    <!-- PANTALLA 13 -->
+    <string name="CS_CIQUS_miniscreen_12_title_0">TALENT AMBASSADORS</string>
+
+    <!-- PANTALLA 14 -->
+    <string name="CS_CIQUS_miniscreen_13_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_CIQUS_miniscreen_13_texto_buscado_0">MANAGEMENT TEAM</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_0">Scientific Director: Diego Peña Gil</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_1">Deputy Director: Martín Fañanás Mastral</string>
+    <string name="CS_CIQUS_miniscreen_13_title_1">RESEARCH STAFF</string>
+    <string name="CS_CIQUS_miniscreen_13_texto_buscado_1">RESEARCH STAFF</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_2" translatable="false">María Giménez López</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_3" translatable="false">Ignacio Insua López</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_4" translatable="false">José Luis Mascareñas</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_5" translatable="false">Javier Montenegro</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_6" translatable="false">Beatriz Orosa Puente</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_7" translatable="false">Beatriz Pelaz</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_8" translatable="false">Francisco Rivadulla Fernández</string>
+    <string name="CS_CIQUS_miniscreen_13_paragraph_9" translatable="false">Manuel Souto Salom</string>
+
+    <!-- PANTALLA 15 -->
+    <string name="CS_CIQUS_miniscreen_14_title_0" translatable="false">DIEGO PEÑA GIL</string>
+    <string name="CS_CIQUS_miniscreen_14_texto_buscado_0" translatable="false">DIEGO PEÑA GIL</string>
+    <string name="CS_CIQUS_miniscreen_14_title_1">Scientific Director of CiQUS</string>
+    <string name="CS_CIQUS_miniscreen_14_texto_buscado_1">Scientific Director of CiQUS</string>
+    <string name="CS_CIQUS_miniscreen_14_title_2">Full Professor of Organic Chemistry on Leave (2025). Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_14_texto_buscado_2">Full Professor of Organic Chemistry on Leave (2025). Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_0">Prof. Peña obtained his degree in Chemistry in 1998 from the University of Santiago de Compostela, where he also carried out his doctoral thesis under the supervision of Profs. Enrique Guitián and Dolores Pérez in the field of aryne cycloaddition reactions catalyzed by transition-metal complexes (2001, Extraordinary Doctorate Award).</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_1">He undertook predoctoral stays in the groups of Professors Eric N. Jacobsen (1999, Harvard University), Paul Knochel (2000, LMU, Munich), and Antonio M. Echavarren (2001, UAM, Madrid). From 2002 to 2003, he carried out a postdoctoral stay in the group of Ben L. Feringa (Marie Curie Fellowship, University of Groningen, The Netherlands), working on asymmetric catalysis, with short stays in the group of Hans de Vries at DSM (Geleen, The Netherlands).</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_2">In 2004, he rejoined the University of Santiago de Compostela (USC) as a Ramón y Cajal researcher. In 2008, he was appointed Associate Professor at USC, and in 2020 was promoted to Full Professor of Organic Chemistry. In 2024, he obtained an Oportunius Research Professor position at CiQUS.</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_3">In 2018, he was awarded the Ignacio Ribas Medal from the Organic Chemistry Division of the Spanish Royal Society of Chemistry (RSEQ). In 2020, he received an ERC Synergy Grant (MolDAM) together with Leo Gross (IBM Research Zurich) and Jascha Repp (Universität Regensburg). In 2022, he was awarded the Ernesto Viéitez Cortizo Research Prize from the Galician Royal Academy of Sciences (RAGC), and in 2023, he received the RSEQ Research Excellence Award. In 2024, he was awarded the Antonio Casares Rodríguez Medal by the RAGC.</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_4">His main research lines focus on the development of new synthetic methodologies, the synthesis of polycyclic aromatic compounds, the preparation of well-defined nanostructured graphenes, and the advancement of surface chemistry and single-molecule reactions.</string>
+    <string name="CS_CIQUS_miniscreen_14_paragraph_5">MORE INFO: https://www.usc.es/ciqus/es/personal/diego-pena </string>
+
+    <!-- PANTALLA 16 -->
+    <string name="CS_CIQUS_miniscreen_15_title_0" translatable="false">MARTIN FAÑANÁS MASTRAL</string>
+    <string name="CS_CIQUS_miniscreen_15_texto_buscado_0" translatable="false">MARTIN FAÑANÁS MASTRAL</string>
+    <string name="CS_CIQUS_miniscreen_15_title_1">Deputy Director of CiQUS</string>
+    <string name="CS_CIQUS_miniscreen_15_texto_buscado_1">Deputy Director of CiQUS</string>
+    <string name="CS_CIQUS_miniscreen_15_title_2">Associate Professor of Organic Chemistry. Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_15_texto_buscado_2">Associate Professor of Organic Chemistry. Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_15_paragraph_0">He obtained his PhD in Chemistry from the University of Oviedo under the supervision of Professors José Barluenga and Fernando Aznar, where he was awarded the Extraordinary Doctorate Award.</string>
+    <string name="CS_CIQUS_miniscreen_15_paragraph_1">After research stays at the University of Cambridge (UK) in Professor Steven Ley’s group, and at the University of Groningen (Netherlands) in Professor Ben Feringa’s group, he joined the Singular Research Center in Biological Chemistry and Molecular Materials (CiQUS) at the University of Santiago de Compostela (USC) in 2014 as a Ramón y Cajal Researcher. In 2021, he was appointed Associate Professor at USC and currently holds the position of Oportunius Research Professor.</string>
+    <string name="CS_CIQUS_miniscreen_15_paragraph_2">His research focuses on the development of new methodologies catalyzed by transition metal complexes to enable sustainable transformations with high atomic efficiency, aimed at the enantioselective formation of C–C bonds, activation and functionalization of alkanes, and the synthesis of biologically relevant phosphorus compounds</string>
+    <string name="CS_CIQUS_miniscreen_15_paragraph_3">He has received multiple awards, including the \'Thieme Chemistry Journal Award\' in 2015, the \'Young Researchers Award\' of the Spanish Royal Society of Chemistry in 2016, and the \'Lilly Young Researcher Award\' in 2018. In 2019, he obtained an ERC Consolidator Grant from the European Research Council. In 2025, the Spanish Royal Society of Chemistry (RSEQ) awarded Professor Martín Fañanás Mastral the José Barluenga Medal 2025, recognizing his research excellence in the field of Organic Chemistry.</string>
+    <string name="CS_CIQUS_miniscreen_15_paragraph_4">MORE INFO: https://www.usc.es/ciqus/es/informacion-general/personal/fananas-mastral-martin</string>
+
+    <!-- PANTALLA 17 -->
+    <string name="CS_CIQUS_miniscreen_16_title_0" translatable="false">MARÍA GIMÉNEZ LÓPEZ</string>
+    <string name="CS_CIQUS_miniscreen_16_texto_buscado_0" translatable="false">MARÍA GIMÉNEZ LÓPEZ</string>
+    <string name="CS_CIQUS_miniscreen_16_title_1">Associate Professor of Inorganic Chemistry (On Leave 2025). Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_16_texto_buscado_1">Associate Professor of Inorganic Chemistry (On Leave 2025). Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_0">She obtained her PhD in Chemistry from the University of Valencia (2006), working under the supervision of Prof. Eugenio Coronado on multifunctional materials of interest for molecular magnetism.</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_1">After her PhD, she joined Prof. Neil Champness’s Supramolecular Chemistry and Chemical Nanosciences Group at the University of Nottingham for a postdoctoral stay. In 2009, she received a two-year Marie Curie Intra-European Fellowship in Prof. Andrei Khlobystov’s Nanocarbon Group. In 2011, she began her independent career as a Royal Society Research Fellow and in 2015 became Assistant Professor of Materials Chemistry at the University of Nottingham.</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_2">In 2018, she returned to Spain with a Ramón y Cajal contract and joined CiQUS to launch her ERC-STG project \'NANOCOMP\', later obtaining the positions of Associate Professor and Tenured Professor.</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_3">In 2025, Dr. María Giménez is Principal Researcher at CiQUS and holds an Oportunius Research Chair (ERC-Xunta Galicia Program). She is also Honorary Associate Professor at the University of Nottingham.</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_4">Dr. Giménez has carried out significant work with hybrid metal–carbon nanostructures, focusing her research on the development and functional characterization of hybrid nanostructures for spintronics and energy applications (electrocatalysts, fuel cells, metal-air batteries, water splitting – green H₂ production…). Examples include the assembly of magnetic, electric, and electrochemical active nanoswitches inside carbon nanocontainers (aiming, for instance, to enhance durability), as well as the development of a general synthetic methodology for the confinement of molecules, clusters, and nanoparticles (i.e., the scalable production of materials).</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_5">She received an ERC-PoC ZABCAT award in 2011. In 2012, the Spanish Royal Society of Chemistry granted her the Emerging Researcher Award for her outstanding and innovative research. In two consecutive years (2016 and 2017), she was a finalist for the SRUK/CERU Emerging Talent Award for the impact of her studies on materials chemistry using carbon nanostructures. She was also selected by the Spanish Royal Society of Chemistry to represent Spain at the 10th EuChemS Young Researchers Workshop 2018 (YIW2018), joining a group of the most promising chemists under 40.</string>
+    <string name="CS_CIQUS_miniscreen_16_paragraph_6">MORE INFO: https://www.usc.es/ciqus/es/personal/maria-gimenez-lopez</string>
+
+    <!-- PANTALLA 18 -->
+    <string name="CS_CIQUS_miniscreen_17_title_0" translatable="false">IGNACIO  INSUA LÓPEZ</string>
+    <string name="CS_CIQUS_miniscreen_17_texto_buscado_0" translatable="false">IGNACIO  INSUA LÓPEZ</string>
+    <string name="CS_CIQUS_miniscreen_17_title_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CIQUS_miniscreen_17_texto_buscado_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CIQUS_miniscreen_17_paragraph_0">He graduated in Pharmacy from the University of Santiago de Compostela and obtained his PhD in Chemistry from the University of Birmingham (UK, 2017), supervised by Dr. Francisco Fernández-Trillo. His thesis focused on the development of antimicrobial nanoparticles obtained through the supramolecular assembly of polymers and peptides.</string>
+    <string name="CS_CIQUS_miniscreen_17_paragraph_1">He completed a first postdoctoral stay at the University of Melbourne (Australia) in Prof. Greg Qiao’s group, and a second postdoc with Prof. Javier Montenegro (CiQUS-USC), securing highly competitive programs (Juan de la Cierva, Marie Skłodowska-Curie Actions, and Ramón y Cajal).</string>
+    <string name="CS_CIQUS_miniscreen_17_paragraph_2">In early 2023, Ignacio established his own laboratory focused on the rational design and synthesis of peptides as supramolecular monomers for nanomaterial fabrication. His research is oriented toward biomedical applications, including the use of nanostructures as cytotoxic agents (antimicrobial and antitumor) and the fabrication of minimal synthetic cells or protocells.</string>
+    <string name="CS_CIQUS_miniscreen_17_paragraph_3">In 2024, Ignacio secured support from the European Research Council through a Starting Grant to develop a new generation of supramolecular antibiotics.</string>
+    <string name="CS_CIQUS_miniscreen_17_paragraph_4">MORE INFO: https://www.usc.es/ciqus/es/personal/ignacio-insua-lopez</string>
+
+    <!-- PANTALLA 19 -->
+    <string name="CS_CIQUS_miniscreen_18_title_0" translatable="false">JOSÉ LUIS MASCAREÑAS</string>
+    <string name="CS_CIQUS_miniscreen_18_texto_buscado_0" translatable="false">JOSÉ LUIS MASCAREÑAS</string>
+    <string name="CS_CIQUS_miniscreen_18_title_1">Professor of Organic Chemistry</string>
+    <string name="CS_CIQUS_miniscreen_18_texto_buscado_1">Professor of Organic Chemistry</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_0">PhD in Chemistry since 1988 at the University of Santiago de Compostela (USC), and Full Professor of Organic Chemistry at the same University since 2005.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_1">After his postdoctoral stay at Stanford University under the supervision of Professor Paul Wender, he became Associate Professor at USC in 1993.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_2">He has been a visiting scientist at Harvard University (USA, 1992 and 1995), Cambridge University (UK), and MIT (USA, 2013), and served as Scientific Director of the Center for Research in Biological Chemistry and Molecular Materials (CiQUS) from February 2014 to April 2025.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_3">His current research interests are divided between a synthetic program, focused on the development of new metal-catalyzed processes, and a bioorganic program aimed at developing synthetic tools capable of acting at the biological level.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_4">Throughout his professional career, he has received numerous awards. In 2009, he received the Organic Chemistry Award from the Spanish Royal Society of Chemistry, and later was distinguished with the Gold Medal of the Spanish Royal Society of Chemistry (RSEQ). In 2014, the European Research Council awarded him an ERC Advanced Grant for his project METBIOCAT. In addition, he has been a member of the European Academy of Sciences (EURASC) since 2016 and is the Spanish representative for EUCHEMS in Organic Chemistry. He is the founding president of the RSEQ Biological Chemistry Group and, since 2021, Vice President of the RSEQ.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_5">In June 2025, he received the prestigious Rei Jaume I Award (Fundamental Research category) for his contribution to organometallic chemistry and metal-catalyzed chemistry in living cells, and in the same year, he served as president of the prestigious 58th Bürgenstock Conference, SCS.</string>
+    <string name="CS_CIQUS_miniscreen_18_paragraph_6">MORE INFO: https://www.usc.es/ciqus/es/personal/jose-luis-mascarenas</string>
+
+    <!-- PANTALLA 20 -->
+    <string name="CS_CIQUS_miniscreen_19_title_0" translatable="false">JAVIER MONTENEGRO</string>
+    <string name="CS_CIQUS_miniscreen_19_texto_buscado_0" translatable="false">JAVIER MONTENEGRO</string>
+    <string name="CS_CIQUS_miniscreen_19_title_1">Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_19_texto_buscado_1">Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_19_paragraph_0">PhD in Chemistry from the University of Santiago de Compostela under the supervision of Prof. Susana López, working in the field of synthetic retinoids, and currently Oportunius Research Professor.</string>
+    <string name="CS_CIQUS_miniscreen_19_paragraph_1">In 2005, he carried out a predoctoral stay with Prof. Steven Ley at the University of Cambridge, and in 2007 he was again a visiting researcher at The Scripps Research Institute (La Jolla, California), working with Prof. Reza M. Ghadiri on prebiotic chemistry and supramolecular dynamic polymers. In 2009, he moved to the University of Geneva for his postdoctoral studies with Prof. Stefan Matile, where he worked on biosensors, synthetic transport systems, and controlled delivery.</string>
+    <string name="CS_CIQUS_miniscreen_19_paragraph_2">In 2012, he returned to Spain with a Juan de la Cierva fellowship to work at CiQUS in collaboration with Prof. Juan Granja. In 2015, he obtained a Ramón y Cajal fellowship associated with the Department of Organic Chemistry and CiQUS at the University of Santiago de Compostela. Also in 2015, he was awarded an ERC Starting Grant by the European Research Council (ERC).</string>
+    <string name="CS_CIQUS_miniscreen_19_paragraph_3">His research interests lie at the interface of synthetic organic chemistry and supramolecular chemistry applied to biological systems and the discovery of new materials. He is currently focused mainly on the topological control of molecular assemblies for diverse applications such as differential sensors, controlled delivery, and tubular nanometric alloys.</string>
+    <string name="CS_CIQUS_miniscreen_19_paragraph_4">MORE INFO: https://www.usc.es/ciqus/es/personal/javier-montenegro</string>
+
+    <!-- PANTALLA 21 -->
+    <string name="CS_CIQUS_miniscreen_20_title_0" translatable="false">BEATRIZ OROSA PUENTE</string>
+    <string name="CS_CIQUS_miniscreen_20_texto_buscado_0" translatable="false">BEATRIZ OROSA PUENTE</string>
+    <string name="CS_CIQUS_miniscreen_20_title_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CIQUS_miniscreen_20_texto_buscado_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CIQUS_miniscreen_20_paragraph_0">She obtained her PhD in Plant Molecular Biology at the University of Barcelona under the supervision of Dr. M. Coca and Prof. B. San Segundo (CRAG). During her PhD, she carried out a predoctoral stay at the Health Research Institute of Santiago de Compostela, working on human autoimmunity. After completing her doctorate, she joined the group of Prof. Ari Sadanandom (Durham University). In 2018, she began a second postdoctoral period in the group of Prof. Steven Spoel (University of Edinburgh). More recently, she joined the group of Prof. J. L. Mascareñas at CiQUS (University of Santiago de Compostela) as a “Ramón y Cajal” fellow.</string>
+    <string name="CS_CIQUS_miniscreen_20_paragraph_1">Her research focuses on understanding how ubiquitination regulates plant immune responses, with the aim of applying this knowledge to engineer disease-resistant barley through proteome engineering.</string>
+    <string name="CS_CIQUS_miniscreen_20_paragraph_2">MORE INFO: https://www.usc.es/ciqus/es/personal/beatriz-orosa-puente</string>
+
+    <!-- PANTALLA 22 -->
+    <string name="CS_CIQUS_miniscreen_21_title_0" translatable="false">BEATRIZ PELAZ</string>
+    <string name="CS_CIQUS_miniscreen_21_texto_buscado_0" translatable="false">BEATRIZ PELAZ</string>
+    <string name="CS_CIQUS_miniscreen_21_title_1">Associate Professor of Inorganic Chemistry at the University of Santiago de Compostela</string>
+    <string name="CS_CIQUS_miniscreen_21_texto_buscado_1">Associate Professor of Inorganic Chemistry at the University of Santiago de Compostela</string>
+    <string name="CS_CIQUS_miniscreen_21_paragraph_0">She holds a degree in Chemistry from the University of Valladolid (2005) and in Biochemistry from the University of Zaragoza (2011). In March 2012, she obtained her PhD with European Mention from the University of Zaragoza. From June 2012 to December 2016, Beatriz was a member of Professor Wolfgang J. Parak’s group at Philipps-Universität Marburg, Germany, first as a postdoctoral researcher and later as a Humboldt Fellow.</string>
+    <string name="CS_CIQUS_miniscreen_21_paragraph_1">Since January 2017, she has co-led the BionanoTools group at CiQUS, initially as principal researcher of a project for young researchers (JIN, MINECO), and since 2019 as a Ramón y Cajal researcher affiliated with the Department of Inorganic Chemistry at the University of Santiago de Compostela. In 2020, the European Research Council awarded her a Starting Grant.</string>
+    <string name="CS_CIQUS_miniscreen_21_paragraph_2">Her research focuses on the development of remotely controllable smart materials and the study of their interaction with biological entities.</string>
+    <string name="CS_CIQUS_miniscreen_21_paragraph_3">Beatriz Pelaz has been a member of the Young Academy of Spain since 2021 and received the 2024 National Research Award for Young Researchers in the category “Felisa Martín Bravo,” dedicated to the field of Physical Science and Technologies, for her work on the development of advanced nanomaterials with biomedical applications. Her research highlights include the control of physicochemical properties of materials to determine their biological behavior and the development of a new technology for nanoparticle surface modification using DNA origami.</string>
+    <string name="CS_CIQUS_miniscreen_21_paragraph_4">MORE INFO: https://www.usc.es/ciqus/es/personal/beatriz-pelaz</string>
+
+    <!-- PANTALLA 23 -->
+    <string name="CS_CIQUS_miniscreen_22_title_0" translatable="false">FRANCISCO RIVADULLA FERNÁNDEZ</string>
+    <string name="CS_CIQUS_miniscreen_22_texto_buscado_0" translatable="false">FRANCISCO RIVADULLA FERNÁNDEZ</string>
+    <string name="CS_CIQUS_miniscreen_22_title_1">Professor of Physical Chemistry</string>
+    <string name="CS_CIQUS_miniscreen_22_texto_buscado_1">Professor of Physical Chemistry</string>
+    <string name="CS_CIQUS_miniscreen_22_paragraph_0">He earned his degree in Chemistry from the University of Santiago de Compostela (USC) in 1996. In 2001, he obtained his PhD from the Department of Physical Chemistry at the same university (“Magnetotransport and Electron Spin Resonance in Magnetoresistive Manganites”).</string>
+    <string name="CS_CIQUS_miniscreen_22_paragraph_1">From 2001 to 2003, he carried out a two-year postdoctoral stay as a Fulbright Fellow at the University of Texas at Austin, in the laboratory of Prof. John B. Goodenough, along with shorter stays in Austin and at Los Alamos National Laboratory. During this period, he worked on the problem of metal–insulator transitions induced by electronic correlations in solids (Mott–Hubbard transitions), developing the idea of an intrinsic coupling between electronic and lattice degrees of freedom in magnetic insulators approaching the itinerant-electron limit.</string>
+    <string name="CS_CIQUS_miniscreen_22_paragraph_2">In 2004, he joined the University of Santiago de Compostela as a Ramón y Cajal Fellow, and since 2009 he has been Associate Professor. Since 2010, he has led the Condensed Matter Chemistry Laboratory (CmCLab) at CiQUS. The main focus of his group is the development of new materials for thermoelectric energy conversion, as well as the fundamental aspects (electronic and transport properties, magnetic structure, etc.) of strongly correlated electronic systems. In recent years, his research has centered on the development of active materials for thermal transport, including the design of experimental setups for measuring the thermal conductivity of liquids (microvolumes) and nanostructures.</string>
+    <string name="CS_CIQUS_miniscreen_22_paragraph_3">In 2010, he received an ERC Starting Grant to develop the project “Design of New Thermoelectric Devices Based on 2D Nanostructures and Field Modulation” over the following five years. In 2017, he launched the ERC Proof of Concept project “ANTS”: a new microthermal sensing technology for application in microcalorimetry. He has also been principal researcher of several national and regional projects.</string>
+    <string name="CS_CIQUS_miniscreen_22_paragraph_4">MORE  INFO: https://www.usc.es/ciqus/es/personal/francisco-rivadulla-fernandez</string>
+
+    <!-- PANTALLA 24 -->
+    <string name="CS_CIQUS_miniscreen_23_title_0" translatable="false">MANUEL SOUTO SALOM</string>
+    <string name="CS_CIQUS_miniscreen_23_texto_buscado_0" translatable="false">MANUEL SOUTO SALOM</string>
+    <string name="CS_CIQUS_miniscreen_23_title_1">Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_23_texto_buscado_1">Oportunius Research Professor</string>
+    <string name="CS_CIQUS_miniscreen_23_paragraph_0">Distinguished Researcher and Principal Researcher at CiQUS (University of Santiago de Compostela, USC). He holds a double degree in Chemistry and Chemical Engineering from the University of Valencia and the École de Chimie, Polymères et Matériaux (ECPM) in Strasbourg (France), respectively, including a research stay at PLAPIQUI (Argentina). He also obtained a Master’s in Molecular and Supramolecular Chemistry (2011) from the University of Strasbourg, completing his Master’s thesis at Instituto Superior Técnico (IST), Lisbon. He earned his PhD in Materials Science at the Institut de Ciència de Materials de Barcelona (ICMAB-CSIC) with Prof. Jaume Veciana in 2016, completing research stays at the National University of Singapore (NUS) and the University of Antwerp. In 2017, he began working as a postdoctoral researcher at the Institute of Molecular Science (ICMol-UV).</string>
+    <string name="CS_CIQUS_miniscreen_23_paragraph_1">In 2019, he started his independent career as Assistant Professor at the University of Aveiro (Department of Chemistry) and CICECO–Institute of Materials of Aveiro. In 2022, he was promoted to Principal Researcher (permanent) at the same institution.</string>
+    <string name="CS_CIQUS_miniscreen_23_paragraph_2">His research interests cover molecular electronics, electroactive polymers, and organic batteries. His current main focus is the design and synthesis of new functional porous electroactive polymers (e.g., COFs and MOFs) based on redox-active organic building blocks for applications in electronics and energy storage. In 2021, he was awarded an ERC Starting Grant (ELECTROCOFS), aimed at designing a new family of redox-active COFs for use as electrodes in rechargeable batteries.</string>
+    <string name="CS_CIQUS_miniscreen_23_paragraph_3">Among other distinctions, he has received the NanoMatMol PhD Award (2017), the Extraordinary Doctorate Award (2018), and the European Doctoral Award on Molecular Magnetism (2020). He is also a member of the Young Academy of Europe, a pan-European initiative that recognizes emerging scientists and promotes scientific exchange and contributions to EU science policy, and, since 2025, a full member of the Young Academy of Spain. In the same year (2025), he received the Young Researcher Award in the Group Leader category from the Spanish Royal Society of Chemistry (RSEQ).</string>
+    <string name="CS_CIQUS_miniscreen_23_paragraph_4">MORE INFO: https://www.usc.es/ciqus/es/personal/manuel-souto-salom</string>
+
+    <!-- PANTALLA 25 -->
+    <string name="CS_CIQUS_miniscreen_24_paragraph_0">If you are interested in learning more about CIQUS, you can access further information by clicking on the following link:</string>
+    <string name="CS_CIQUS_miniscreen_24_texto_buscado_0">learning more</string>
+    <string name="CS_CIQUS_miniscreen_24_title_0" translatable="false">https://www.usc.es/ciqus/es</string>
+
+
+</resources>

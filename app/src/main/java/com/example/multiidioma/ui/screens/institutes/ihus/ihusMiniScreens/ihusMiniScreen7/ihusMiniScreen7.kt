@@ -2,20 +2,25 @@ package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.data.BOX
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box1
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box2
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7Box3
+import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7BodyText
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7CircleImage
+import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.contentIhusMiniScreen7.contentIhusMiniScreen7TitleText
+
 
 @Composable
 fun IhusMiniScreen7(
+    // pantalla
     data: MiniScreenData,
+    navController: NavController,
     modifier: Modifier = Modifier,
 ) {
 
@@ -24,12 +29,30 @@ fun IhusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.25f, Box3 = 0.6f),
-            data = data,
-            Box1 = { contentIhusMiniScreen7Box1(it) },
-            Box2 = { contentIhusMiniScreen7Box2(it) },
-            Box3 = { contentIhusMiniScreen7Box3() }
-        )
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+
+            VideoScreen(
+                videoId = "92UgRKX8ooM", // tu ID de video
+                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f)
+            )
+        }
+
+
+
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+            TemplateCircleScreen(
+                navController = navController,
+                data = data,
+                CircleImage = { contentIhusMiniScreen7CircleImage(it) },
+                TitleText = { contentIhusMiniScreen7TitleText(it) },
+                BodyText = { contentIhusMiniScreen7BodyText(it) }
+            )
+        }
     }
 }

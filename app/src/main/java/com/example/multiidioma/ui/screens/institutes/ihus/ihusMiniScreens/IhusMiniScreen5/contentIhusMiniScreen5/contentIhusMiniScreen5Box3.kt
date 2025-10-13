@@ -16,9 +16,9 @@ fun contentIhusMiniScreen5Box3() {
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 15.dp)
-            .background(
+            /*.background(
                 Color.Green
-            )
+            )*/
 
     )
 

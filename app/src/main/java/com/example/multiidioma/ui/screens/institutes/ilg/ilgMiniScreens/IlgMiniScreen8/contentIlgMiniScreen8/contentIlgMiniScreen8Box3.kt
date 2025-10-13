@@ -1,0 +1,22 @@
+package com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen8.contentIlgMiniScreen8
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+
+
+@Composable
+fun contentIlgMiniScreen8Box3() {
+   Column (
+        modifier = Modifier
+            .fillMaxSize(),
+       horizontalAlignment = Alignment.Start
+   ){
+        CircleLineComponent(contentAlignment = Alignment.Center, color = Color.White)
+    }
+
+}

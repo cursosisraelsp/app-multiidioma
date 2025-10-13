@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen2.contentIhusMiniScreen2
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -15,11 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleImages
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.data.data.StyleImages
+import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
@@ -37,12 +36,12 @@ fun contentIhusMiniScreen2Box2(data: MiniScreenData) {
                 .weight(0.7f)
                 .padding(start = 20.dp, end = 20.dp)
         ) {
-            TextBodyMedium(data, estilosTextos, index = 0)
+            AppText(data, estilosTextos, index = 0)
 
 
         Spacer(modifier = Modifier.height(10.dp))
 
-          TextBodyMedium(data, estilosTextos, index = 1)}
+          AppText(data, estilosTextos, index = 1)}
 
 
         Box(

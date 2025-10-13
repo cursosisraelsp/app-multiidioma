@@ -1,0 +1,81 @@
+package com.example.multiidioma.ui.screens.institutes.ilg
+
+import android.content.res.Resources
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.multiidioma.R
+import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.types.ContentType
+import com.example.multiidioma.data.types.NavegationFiguresData
+import com.example.multiidioma.data.types.PersonResearcher
+
+val des = Resources.getSystem().displayMetrics
+val numLetra = (80/des.density).sp
+val numLetra2 = ((40/des.density)).sp
+val relacionDimen = 300/150
+val relacionTexto = (90).dp
+val relacionTextoGrande = (175).dp
+val numNumeroGrande = ((317.9/des.density)).sp
+
+val numNumero = ((317.9/des.density)/relacionDimen).sp
+
+val valorFigura0 = NavegationFiguresData(
+    offset_x = 15.dp,
+    offset_y = 35.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 240.dp,
+    ruta = Destination.Ilg.route,
+    numString = "01",
+    relacionNum = numNumero,
+    textoInfo = "este texto en Ilg",
+    anchoTexto = relacionTexto,
+    relacionText = numLetra2
+)
+val valorFigura1 = NavegationFiguresData(
+    offset_x = 175.dp,
+    offset_y = 255.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 240.dp,
+    ruta = Destination.Ilg.route,
+    numString = "02",
+    relacionNum = numNumero,
+    textoInfo = "este texto en Ilg",
+    anchoTexto = relacionTexto,
+    relacionText = numLetra2
+)
+val valorFigura2 = NavegationFiguresData(
+    offset_x = 50.dp,
+    offset_y = 460.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 150.dp,
+    ruta = Destination.Ilg.route,
+    numString = "03",
+    relacionNum = numNumero,
+    textoInfo = "este texto en Ilg",
+    anchoTexto = relacionTexto,
+    relacionText = numLetra2
+)
+val valorFigura3 = NavegationFiguresData(
+    offset_x = 240.dp,
+    offset_y = 470.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 150.dp,
+    ruta = Destination.Ilg.route,
+    numString = "04",
+    relacionNum = numNumero,
+    textoInfo = "este texto en Ilg",
+    anchoTexto = relacionTexto,
+    relacionText = numLetra2
+)
+val valorFigura4 = NavegationFiguresData(
+    offset_x = 80.dp,
+    offset_y = 175.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 300.dp,
+    ruta = Destination.Ilg.route,
+    numString = "05",
+    relacionNum = numNumeroGrande,
+    textoInfo = "este texto en Ilg",
+    anchoTexto = relacionTextoGrande,
+    relacionText = numLetra
+)

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <string name="II_ILG_miniscreen_0_paragraph_0"></string>
+    <string name="II_ILG_miniscreen_0_texto_buscado_0"></string>
+    <string name="II_ILG_miniscreen_8_title_0"></string>
+    -->
+
+    <!--PANTALLA 1-->
+    <string name="II_ILG_miniscreen_0_paragraph_0">Language ability is undoubtedly one of the fundamental features that defined the development of humanity, perhaps the first trait that we think about when we seek to distinguish ourselves from other species. However, language is much more than just a communication tool; it is an essential pillar for building and maintaining social relationships.</string>
+    <string name="II_ILG_miniscreen_0_texto_buscado_0">it is an essential pillar for building and maintaining social relationships</string>
+
+    <!--PANTALLA 2-->
+    <string name="II_ILG_miniscreen_1_paragraph_0">In 2003, UNESCO recognized languages as part of the Intangible Cultural Heritage of Humanity, a living legacy that must be cared for, protected and transmitted, with the aim of preserving linguistic and cultural diversity and promoting multilingualism in an increasingly interconnected world.</string>
+    <string name="II_ILG_miniscreen_1_paragraph_1">Since the mid-20th century, several factors have accelerated the disappearance of many languages and the decline in the number of speakers of many others, in an unprecedented process. Although Galician is not immune to this reality, it remains in a relatively favorable position thanks to the broad functionality it has gained in recent decades.</string>
+    <string name="II_ILG_miniscreen_1_texto_buscado_0">Intangible Cultural Heritage of Humanity</string>
+    <string name="II_ILG_miniscreen_1_texto_buscado_1">it remains in a relatively favorable position</string>
+
+    <!--PANTALLA 3-->
+    <string name="II_ILG_miniscreen_2_paragraph_0">Today, information and communication technologies present both a challenge and an opportunity for the Galician language. They make it possible to expand its presence and use beyond traditional spaces, allowing it to reach new generations and every corner of the world. The commitment to Galician now, more than ever, means using it on the web, in digital media, and across all spheres of society, ensuring that it remains a living vehicle for connection, culture, and collective identity.</string>
+    <string name="II_ILG_miniscreen_2_texto_buscado_0">living vehicle for connection, culture, and collective identity</string>
+    <string name="II_ILG_miniscreen_2_paragraph_1">To ensure its protection and become a benchmark in linguistic research, in the 1970s the Instituto da Lingua Galega (ILG) was born. With a history spanning more than 50 years, ILG is the oldest of the research institutes of the University of Santiago de Compostela, playing a key role in the defense and promotion of the Galician language.</string>
+    <string name="II_ILG_miniscreen_2_texto_buscado_1">a history spanning more than 50 years</string>
+
+    <!--PANTALLA 4-->
+    <string name="II_ILG_miniscreen_3_paragraph_0">The Institute of Galician Language was founded in 1971 with a triple commission:</string>
+    <string name="II_ILG_miniscreen_3_paragraph_1" translatable="false">01</string>
+    <string name="II_ILG_miniscreen_3_paragraph_2">To carry out a rigorous investigation of Galician linguistics, which places it in the highest standards of international linguistics</string>
+    <string name="II_ILG_miniscreen_3_texto_buscado_0">rigorous investigation</string>
+    <string name="II_ILG_miniscreen_3_paragraph_3" translatable="false">02</string>
+    <string name="II_ILG_miniscreen_3_paragraph_4">To transfer knowledge to the bodies and entities concerned with the Galician language and to the whole society, and</string>
+    <string name="II_ILG_miniscreen_3_texto_buscado_1">transfer knowledge</string>
+    <string name="II_ILG_miniscreen_3_paragraph_5" translatable="false">03</string>
+    <string name="II_ILG_miniscreen_3_paragraph_6">To promote the study, dissemination and promotion of the Galician language at all levels.</string>
+    <string name="II_ILG_miniscreen_3_texto_buscado_2">study, dissemination and promotion</string>
+
+    <!--PANTALLA 5-->
+    <string name="II_ILG_miniscreen_4_paragraph_0">In the trajectory of the ILG, three major stages can be distinguished:</string>
+    <string name="II_ILG_miniscreen_4_texto_buscado_0">three major stages</string>
+    <string name="II_ILG_miniscreen_4_paragraph_1">The first stage spans from the institute’s creation to the official adoption of the first standard spelling of Galician. These were years marked by intensive study of the spoken language and the launch of ambitious and enduring projects, such as the Galician Linguistic Atlas, which documents and describes the richness of Galician\'s geographical variation.</string>
+    <string name="II_ILG_miniscreen_4_texto_buscado_1">official adoption of the first standard spelling of Galician</string>
+    <string name="II_ILG_miniscreen_4_texto_buscado_2">Galician Linguistic Atlas</string>
+
+    <!--PANTALLA 6-->
+    <string name="II_ILG_miniscreen_5_paragraph_0">During this period, the first Galician teaching manuals were published, and the first teacher training courses in the language were offered. The inaugural issue of Verba, a scientific journal dedicated to research on various Romance languages, also appeared, featuring numerous works on the Galician language.</string>
+    <string name="II_ILG_miniscreen_5_texto_buscado_0">first teacher training courses in the language were offered</string>
+    <string name="II_ILG_miniscreen_5_paragraph_1">The end of this first stage came at the hand of the publication in 1982 of the orthographic and morphological rules of the Galician language that established the standard of the language at a key moment for its extension in public administration, teaching and the media.</string>
+    <string name="II_ILG_miniscreen_5_texto_buscado_1">orthographic and morphological rules of the Galician language</string>
+
+    <!--PANTALLA 7-->
+    <string name="II_ILG_miniscreen_6_paragraph_0">The second stage, comprising two decades (1983-2003), was a period of consolidation of the work previously carried out. ILG promoted the publication of works such as the Galician language orthographic vocabulary, co-edited with the RAG (Real Academia Galega), or the Dictionary of dictionaries edited by ILG and the Barrié Foundation, which contains almost 400,000 entries and has been available online since 2006.</string>
+    <string name="II_ILG_miniscreen_6_texto_buscado_0">Galician language orthographic vocabulary</string>
+    <string name="II_ILG_miniscreen_6_texto_buscado_1">Dictionary of dictionaries</string>
+    <string name="II_ILG_miniscreen_6_paragraph_1">During this second stage, the ILG moved its headquarters to its current location in the historic center of Compostela, in the building where López Ferreiro was born and lived, and which later also housed Rosalía de Castro and Manuel Murguía, in &quot;Plaza de la Universidad&quot;.</string>
+    <string name="II_ILG_miniscreen_6_texto_buscado_2">moved its headquarters</string>
+
+    <!--PANTALLA 8-->
+    <string name="II_ILG_miniscreen_7_paragraph_0">During the last of the three stages (2004–present), there has been a strong commitment to incorporating information technologies into linguistic research—both to promote access to Galician linguistic heritage and to develop new areas of research through the use of linguistic data.</string>
+    <string name="II_ILG_miniscreen_7_texto_buscado_0">information technologies into linguistic research</string>
+    <string name="II_ILG_miniscreen_7_paragraph_1">Works such as The Treasury of the Galician and Portuguese Patrimonial Lexicon, The Cartography of Galician Surnames, The Dictionary of Dictionaries of Medieval Galician, The Dictionary of Galician Pronunciation, and several digital corpora of Galician texts are examples of the work carried out by the ILG during this stage. These resources are available to both researchers and the general public on the ILG website. Tools such as AMPER, FOLERPA, PDMapping, and LEDIGAL, also developed by the ILG during this period, are likewise accessible to the research community.</string>
+    <string name="II_ILG_miniscreen_7_texto_buscado_1">The Treasury of the Galician and Portuguese Patrimonial Lexicon, The Cartography of Galician Surnames, The Dictionary of Dictionaries of Medieval Galician, The Dictionary of Galician Pronunciation</string>
+
+    <!--PANTALLA 9-->
+    <string name="II_ILG_miniscreen_8_paragraph_0">As a result of the institute\'s historical evolution, ILG currently has set out its scientific agenda in two major areas:</string>
+    <string name="II_ILG_miniscreen_8_texto_buscado_0">two major areas</string>
+
+    <!--PANTALLA 10-->
+    <string name="II_ILG_miniscreen_9_title_0">LANGUAGE AND SOCIETY</string>
+    <string name="II_ILG_miniscreen_9_paragraph_0">Focusing on the social factors that condition language, the way it changes with social changes, and the role it plays in the transmission of ideas, the fixation of stereotypes, or the impulse of new visions of society.</string>
+    <string name="II_ILG_miniscreen_9_texto_buscado_0">social factors</string>
+
+    <!--PANTALLA 11-->
+    <string name="II_ILG_miniscreen_10_title_0">DIGITAL HUMANITIES</string>
+    <string name="II_ILG_miniscreen_10_paragraph_0">Tasked with the development of resources and tools for the analysis and exploitation of linguistic data and for the preservation and dissemination of heritage and, with the development of technologies that seek for Galician an active presence in the new digital environments and artificial intelligence.</string>
+    <string name="II_ILG_miniscreen_10_texto_buscado_0">development of resources and tools for the analysis</string>
+
+    <!--PANTALLA 12-->
+    <string name="II_ILG_miniscreen_11_paragraph_0">In this sense, it is worth highlighting the implementation of &quot;Project Nós&quot;, which unites the research efforts of ILG and CITIUS to generate new text-processing technologies, voice assistants, translators, resources for the recognition of the spoken language, systems of dialogue, correction and linguistic evaluation or automatic generation of texts, which allow the use of Galician in new digital environments and of AI.</string>
+    <string name="II_ILG_miniscreen_11_texto_buscado_0">Project Nós</string>
+    <string name="II_ILG_miniscreen_11_texto_buscado_1">the recognition of the spoken language</string>
+
+    <!--PANTALLA 13-->
+    <string name="II_ILG_miniscreen_12_paragraph_0">It should also be noted that, since 2022 the ILG has become the Galician node of CLARIAH and, therefore, support in Galicia the European infrastructures CLARIN (Common Language Resources and Technology Infrastructure) and DARIAH (Digital Research Infrastructure for the Arts and Humanities), whose objective is that all the resources and digital tools on languages created in Europe are within the reach of all researchers and researchers of the humanities, art and social sciences.</string>
+    <string name="II_ILG_miniscreen_12_texto_buscado_0" translatable="false">CLARIAH</string>
+    <string name="II_ILG_miniscreen_12_texto_buscado_1" translatable="false">CLARIN</string>
+    <string name="II_ILG_miniscreen_12_texto_buscado_2" translatable="false">DARIAH</string>
+    <string name="II_ILG_miniscreen_12_texto_buscado_3">within the reach of all researchers and researchers of the humanities</string>
+    <string name="II_ILG_miniscreen_12_paragraph_1">Currently ILG has 28 researchers and linked researchers, 13 people hired as research or management support staff, 5 as training research staff and 2 as administration and service personnel.</string>
+    <string name="II_ILG_miniscreen_12_texto_buscado_4">28 researchers and linked researchers</string>
+
+    <!--PANTALLA 14-->
+    <string name="II_ILG_miniscreen_13_paragraph_0">Faithful to its mission to promote research that allows to have a deeper knowledge of the Galician language, provide valid scientific answers to the social challenges faced by the language and protect it as part of the common cultural heritage, the ILG has been sharing from its birth the knowledge generated with other research entities and with the citizenship in general. Good proof of this vocation of innate transfer is the collaboration with the RAG to fix the regulations of Galician, the different dictionaries edited, the linguistic corpus, The Galician Linguistic Atlas, the onomatic dictionary, the Project Nós...</string>
+    <string name="II_ILG_miniscreen_13_texto_buscado_0">deeper knowledge of the Galician language</string>
+    <string name="II_ILG_miniscreen_13_texto_buscado_1">collaboration with the RAG</string>
+
+    <!--PANTALLA 15-->
+    <string name="II_ILG_miniscreen_14_title_0">TALENT</string>
+    <string name="II_ILG_miniscreen_14_title_1">AMBASSADORS</string>
+    <!--PANTALLA 16-->
+    <string name="II_ILG_miniscreen_15_title_0">MANAGEMENT TEAM</string>
+    <string name="II_ILG_miniscreen_15_paragraph_0" translatable="false">Elisa Fernández Rei</string>
+    <string name="II_ILG_miniscreen_15_paragraph_1" translatable="false">María Álvarez de la Granja</string>
+    <string name="II_ILG_miniscreen_15_title_1">RESEARCH STAFF</string>
+    <string name="II_ILG_miniscreen_15_paragraph_2" translatable="false">Ana Isabel Boullón Agrelo Catedrática</string>
+    <string name="II_ILG_miniscreen_15_paragraph_3" translatable="false">Francisco Dubert García Profesor Titular</string>
+    <string name="II_ILG_miniscreen_15_paragraph_4" translatable="false">Estela Fidalgo Garra Contratada Predoctoral</string>
+    <string name="II_ILG_miniscreen_15_paragraph_5" translatable="false">Vítor Míguez Rego Profesor ayudante Doctor</string>
+    <string name="II_ILG_miniscreen_15_paragraph_6" translatable="false">Xose Luís Regueira Catedrático</string>
+    <string name="II_ILG_miniscreen_15_paragraph_7" translatable="false">Adina Ioana Vladu Investigadora asociada</string>
+
+    <!--PANTALLA 17-->
+    <string name="II_ILG_miniscreen_16_title_0" translatable="false">ELISA FERNÁNDEZ REI</string>
+    <string name="II_ILG_miniscreen_16_texto_buscado_0" translatable="false">ELISA FERNÁNDEZ REI</string>
+    <string name="II_ILG_miniscreen_16_title_1">DIRECTOR</string>
+    <string name="II_ILG_miniscreen_16_texto_buscado_1">DIRECTOR</string>
+   <string name="II_ILG_miniscreen_16_paragraph_0">Directed by Dr. Elisa Fernández Rei, who holds a PhD in Galician Philology from the University of Santiago de Compostela (USC) and teaches in both the Bachelors Degree in Galician Language and Literature and the Master\'s Program in Applied Linguistics.</string>
+    <string name="II_ILG_miniscreen_16_paragraph_1">Her main research areas include prosody, language contact and change, discourse analysis, and speech technologies. In the latter field, she contributed to the development of the first voice synthesis models for Galician and is co-director of the Project Nós. Also noteworthy is her mentioning of the line on perceptual dialectology of intonation, in which she developed the perceptual experimentation platform of the FOLERPA intonation.</string>
+   <!-- <string name="II_ILG_miniscreen_16_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58928/detalle?</string>-->
+
+    <!--PANTALLA 18-->
+    <string name="II_ILG_miniscreen_17_title_0" translatable="false">MARÍA ÁLVAREZ DE LA GRANJA</string>
+    <string name="II_ILG_miniscreen_17_texto_buscado_0" translatable="false">MARÍA ÁLVAREZ DE LA GRANJA</string>
+    <string name="II_ILG_miniscreen_17_title_1">SECRETARY</string>
+    <string name="II_ILG_miniscreen_17_texto_buscado_1">SECRETARY</string>
+    <string name="II_ILG_miniscreen_17_paragraph_0">Since 2018, the secretary of the ILG has been Dr. María Álvarez de la Granja, who holds a PhD in Galician Philology and serves as coordinator of the Galician Philology and Linguistics research group.</string>
+    <string name="II_ILG_miniscreen_17_paragraph_1">Her research focuses on the lexicon and phraseology of Galician, analyzed from different perspectives. It seeks to maintain a link between research and teaching, and collaborates on projects that promote the active participation of society in research around the Galician language.</string>
+   <!-- <string name="II_ILG_miniscreen_17_paragraph_2">MORE INFO: https://ilg.usc.gal/es/persoal/maria-alvarez-de-la-granja</string>
+-->
+    <!--PANTALLA 19-->
+    <string name="II_ILG_miniscreen_18_title_0" translatable="false">ANA ISABEL BOULLÓN AGRELO</string>
+    <string name="II_ILG_miniscreen_18_texto_buscado_0" translatable="false">ANA ISABEL BOULLÓN AGRELO</string>
+    <string name="II_ILG_miniscreen_18_title_1">PROFESSOR</string>
+    <string name="II_ILG_miniscreen_18_texto_buscado_1">PROFESSOR</string>
+    <string name="II_ILG_miniscreen_18_paragraph_0">She specializes in the study of onomastics from various perspectives. She is a member of the Toponymy Commission responsible for standardizing Galician place names, leads a project on Iberian Peninsula toponymy, directs the Dictionary of Galician Surnames, and is co-director of the Cartography of Galician Surnames.</string>
+   <!-- <string name="II_ILG_miniscreen_18_paragraph_1">MORE INFO: https://ilg.usc.gal/es/persoal/ana-isabel-boullon-agrelo </string>-->
+
+    <!--PANTALLA 20-->
+    <string name="II_ILG_miniscreen_19_title_0" translatable="false">FRANCISCO DUBERT GARCÍA</string>
+    <string name="II_ILG_miniscreen_19_texto_buscado_0" translatable="false">FRANCISCO DUBERT GARCÍA</string>
+    <string name="II_ILG_miniscreen_19_title_1">SENIOR LECTURER</string>
+    <string name="II_ILG_miniscreen_19_texto_buscado_1">SENIOR LECTURER</string>
+    <string name="II_ILG_miniscreen_19_paragraph_0">He is a member of the research team that publishes the volumes of the Galician Linguistic Atlas, a contributor to the Nós Project, which promotes the integration of Galician in the field of Artificial Intelligence, and co-director of the journal Verba.</string>
+    <string name="II_ILG_miniscreen_19_paragraph_1">His research focuses on the history of the Galician language through the analysis of its dialects, examining the grammatical and lexical changes the language has undergone—and continues to undergo—due to both internal and external factors.</string>
+<!--    <string name="II_ILG_miniscreen_19_paragraph_2">MORE INFO: https://ilg.usc.gal/persoal/francisco-dubert-garcia </string>-->
+
+    <!--PANTALLA 21-->
+    <string name="II_ILG_miniscreen_20_title_0" translatable="false">ESTELA FIDALGO GARRA</string>
+    <string name="II_ILG_miniscreen_20_texto_buscado_0" translatable="false">ESTELA FIDALGO GARRA</string>
+    <string name="II_ILG_miniscreen_20_title_1">PRE-DOCTORAL RESEARCHER</string>
+    <string name="II_ILG_miniscreen_20_texto_buscado_1">PRE-DOCTORAL RESEARCHER</string>
+    <string name="II_ILG_miniscreen_20_paragraph_0">She is currently working on her PhD thesis on the concept of the &quot;Piropo&quot; (catcall or flirtatious remark) from the perspective of (im)politeness theory, within the context of contemporary Galicia. Her research contributes to understanding the &quot;Piropo&quot; as a speech act that may threaten public face, strongly influenced by dynamics of gender, power, and identity.</string>
+    <!--<string name="II_ILG_miniscreen_20_paragraph_1">MORE INFO: https://ilg.usc.gal/persoal/estela-fidalgo-garra</string>-->
+
+    <!--PANTALLA 22-->
+    <string name="II_ILG_miniscreen_21_title_0" translatable="false">VÍTOR MÍGUEZ REGO</string>
+    <string name="II_ILG_miniscreen_21_texto_buscado_0" translatable="false">VÍTOR MÍGUEZ REGO</string>
+    <string name="II_ILG_miniscreen_21_title_1">ASSISTANT PROFESSOR</string>
+    <string name="II_ILG_miniscreen_21_texto_buscado_1">ASSISTANT PROFESSOR</string>
+    <string name="II_ILG_miniscreen_21_paragraph_0">In addition to his research work, he teaches in the Department of Galician Philology at the University of Santiago de Compostela (USC) and coordinates the team behind the Corpus of Contemporary Galician Reference (CORGA) at the Ramón Piñeiro Center.</string>
+    <string name="II_ILG_miniscreen_21_paragraph_1">His field of study is Galician grammar from a corpus linguistics perspective, analyzing grammatical phenomena based on real, verifiable data. His research aims to bridge the Galician philological tradition with more advanced methods from contemporary linguistics.</string>
+ <!--   <string name="II_ILG_miniscreen_21_paragraph_2">MORE INFO: https://ilg.usc.gal/persoal/vitor-miguez-rego </string>-->
+
+    <!--PANTALLA 23-->
+    <string name="II_ILG_miniscreen_22_title_0" translatable="false">XOSÉ LUÍS REGUEIRA</string>
+    <string name="II_ILG_miniscreen_22_texto_buscado_0" translatable="false">XOSÉ LUÍS REGUEIRA</string>
+    <string name="II_ILG_miniscreen_22_title_1">PROFESSOR</string>
+    <string name="II_ILG_miniscreen_22_texto_buscado_1">PROFESSOR</string>
+    <string name="II_ILG_miniscreen_22_paragraph_0">He was involved in the launch and development of the Nós Project, which seeks to position Galician among the languages equipped with top-tier technological resources.</string>
+    <string name="II_ILG_miniscreen_22_paragraph_1">He is currently developing CORILGA (Informatized Oral Corpus of the Galician Language), a corpus of aligned recordings and transcriptions to be released soon. This is a pioneering project in the application of speech technologies, carried out collaboratively by the ILG team and the University of Vigo. He also studies the use of Galician on social media platforms like TikTok, YouTube, and Instagram to better understand the language’s current role in society.</string>
+ <!--   <string name="II_ILG_miniscreen_22_paragraph_2">MORE INFO: https://ilg.usc.gal/persoal/xose-luis-regueira-fernandez </string>-->
+
+    <!--PANTALLA 24-->
+    <string name="II_ILG_miniscreen_23_title_0" translatable="false">ADINA IOANA VLADU</string>
+    <string name="II_ILG_miniscreen_23_texto_buscado_0" translatable="false">ADINA IOANA VLADU</string>
+    <string name="II_ILG_miniscreen_23_title_1">ASSOCIATE RESEARCHER IN THE NÓS PROJECT</string>
+    <string name="II_ILG_miniscreen_23_texto_buscado_1">ASSOCIATE RESEARCHER IN THE NÓS PROJECT</string>
+    <string name="II_ILG_miniscreen_23_paragraph_0">She works to ensure Galician is present in the technologies that are increasingly part of daily life—from voice-command virtual assistants to automatic transcription tools. She contributes to the collaborative Common Voice project, which collects and validates Galician speech data to enable automatic transcription and voice command recognition. She is also involved in the ParlaMint project, which makes the debates of the Galician Parliament accessible for research purposes.</string>
+<!--    <string name="II_ILG_miniscreen_23_paragraph_1">MORE INFO: https://ilg.usc.gal/persoal/adina-ioana-vladu </string>-->
+
+    <!--PANTALLA 25-->
+    <string name="II_ILG_miniscreen_24_paragraph_0">If you are interested in expanding your knowledge about ILG you can access more information by clicking on the following link:</string>
+    <string name="II_ILG_miniscreen_24_texto_buscado_0">expanding your knowledge</string>
+<!--    <string name="II_ILG_miniscreen_24_paragraph_1" translatable="false">https://ilg.usc.gal/es</string>-->
+
+</resources>

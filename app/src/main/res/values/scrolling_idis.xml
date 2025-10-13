@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+<string name="CS_IDIS_miniscreen_0_paragraph_0"></string>
+<string name="CS_IDIS_miniscreen_0_texto_buscado_0"></string>
+<string name="CS_IDIS_miniscreen_0_title_0"></string>
+-->
+
+    <!--PANTALLA 1-->
+    <string name="CS_IDIS_miniscreen_0_paragraph_0">Health is a major concern throughout our lives. Chronic diseases such as cancer, obesity and Alzheimer\'s disease are increasingly present in our daily lives. According to the WHO, more than 70% of deaths worldwide are due to non-transmissible diseases, many of which are avoidable or treatable with appropriate research and prevention.</string>
+    <string name="CS_IDIS_miniscreen_0_texto_buscado_0">cancer, obesity and Alzheimer\'s</string>
+    <string name="CS_IDIS_miniscreen_0_paragraph_1">The context of Galicia presents very particular conditions: one of the most ageing populations in Europe (more than 26% of the population is 65 years or older) and a high geographical dispersion, which implies a strong pressure on primary and hospital care services.</string>
+    <string name="CS_IDIS_miniscreen_0_texto_buscado_1">(more than 26% of the population is 65 years or older)</string>
+
+    <!--PANTALLA 2-->
+    <string name="CS_IDIS_miniscreen_1_paragraph_0">In this context, health research is a priority. Improving diagnostics and finding new treatments are fundamental steps towards guaranteeing accessible, sustainable and quality healthcare.</string>
+    <string name="CS_IDIS_miniscreen_1_texto_buscado_0">health research is a priority</string>
+    <string name="CS_IDIS_miniscreen_1_paragraph_1">This is the purpose of the Instituto de Investigación Sanitaria de Santiago de Compostela (IDIS): to face the great challenges of health from Galicia, uniting science, medicine and technology to improve people\'s lives.</string>
+    <string name="CS_IDIS_miniscreen_1_texto_buscado_1">to face the great challenges of health</string>
+
+    <!--PANTALLA 3-->
+    <string name="CS_IDIS_miniscreen_2_paragraph_0">IDIS was created in 2008 through a collaboration agreement between the Regional Ministry of Health, the Galician Health Service and the University of Santiago de Compostela; and has been accredited since 2010 as a research centre of the National Health System by the Carlos III Health Institute. Its current headquarters are at the Hospital Clínico Universitario de Santiago.</string>
+    <string name="CS_IDIS_miniscreen_2_texto_buscado_0">was created in 2008</string>
+    <string name="CS_IDIS_miniscreen_2_texto_buscado_1">research centre of the National Health System</string>
+
+    <!--PANTALLA 4-->
+    <string name="CS_IDIS_miniscreen_3_paragraph_0">Its mission is to promote research excellence and foster the generation of scientific and technological knowledge, always aimed at improving people\'s health. It also promotes training, teaching and the transfer of results to daily clinical practice, with the aim of offering more efficient, innovative and personalised healthcare.</string>
+    <string name="CS_IDIS_miniscreen_3_texto_buscado_0">to promote research excellence and foster the generation of scientific and technological knowledge</string>
+    <string name="CS_IDIS_miniscreen_3_texto_buscado_1">promotes training, teaching and the transfer</string>
+    <string name="CS_IDIS_miniscreen_3_paragraph_1">The impact of IDIS is reflected in its more than 1400 researchers and its participation in hundreds of national and international projects, which translates into the publication of numerous high-level scientific articles. This commitment to innovation and collaboration with companies to transform knowledge into real solutions for health consolidate IDIS as a benchmark in biomedical research both in Galicia and internationally.</string>
+    <string name="CS_IDIS_miniscreen_3_texto_buscado_2">1400 researchers and its participation in hundreds of national and international projects</string>
+    <string name="CS_IDIS_miniscreen_3_texto_buscado_3">benchmark in biomedical research</string>
+
+    <!--PANTALLA 5-->
+    <string name="CS_IDIS_miniscreen_4_paragraph_0">IDIS conducts research activity in strategic areas subject to a process of periodic review and prioritisation. Each area focuses on a key element, the study of which is in turn divided into numerous research groups dealing with a specific aspect. Together, these teams provide real solutions to today\'s and tomorrow\'s health problems.</string>
+    <string name="CS_IDIS_miniscreen_4_texto_buscado_0">strategic areas</string>
+    <string name="CS_IDIS_miniscreen_4_texto_buscado_1">solutions to today\'s and tomorrow\'s health problems</string>
+
+    <!--PANTALLA 6-->
+    <string name="CS_IDIS_miniscreen_5_title_0">ONCOLOGY</string>
+    <string name="CS_IDIS_miniscreen_5_paragraph_0">This research group studies personalised therapies for cancer, focusing efforts on improving the effectiveness of diagnosis and treatments and reducing side effects. It seeks new ways of attacking tumours and applying research to clinical practice to improve patients\' health.</string>
+    <string name="CS_IDIS_miniscreen_5_texto_buscado_0">personalised therapies for cancer</string>
+
+    <!--PANTALLA 7-->
+    <string name="CS_IDIS_miniscreen_6_title_0">GENETICS AND</string>
+    <string name="CS_IDIS_miniscreen_6_title_1">SYSTEMS</string>
+    <string name="CS_IDIS_miniscreen_6_title_2">BIOLOGY</string>
+    <string name="CS_IDIS_miniscreen_6_paragraph_0">Studies how genes influence health, enabling better management of disease prognosis and response to treatment. Its aim is to find signals in DNA that help prevent disease or choose the best treatment for each person, contributing to the development of more personalised and effective medicine.</string>
+    <string name="CS_IDIS_miniscreen_6_texto_buscado_0">genes influence health</string>
+    <string name="CS_IDIS_miniscreen_6_texto_buscado_1">help prevent</string>
+
+    <!--PANTALLA 8-->
+    <string name="CS_IDIS_miniscreen_7_title_0">ENDOCRINOLOGY</string>
+    <string name="CS_IDIS_miniscreen_7_title_1">NUTRITION AND</string>
+    <string name="CS_IDIS_miniscreen_7_title_2">METABOLISM</string>
+    <string name="CS_IDIS_miniscreen_7_paragraph_0">Studies obesity from different perspectives, such as the relationship between obesity and the brain or the role of nutrition. They analyse both the molecular bases of obesity and therapies against it and its associated pathologies.</string>
+    <string name="CS_IDIS_miniscreen_7_texto_buscado_0">relationship between obesity and the brain or the role of nutrition</string>
+
+    <!--PANTALLA 9-->
+    <string name="CS_IDIS_miniscreen_8_title_0">NEUROSCIENCES</string>
+    <string name="CS_IDIS_miniscreen_8_paragraph_0">This studies the nervous system and cerebrovascular pathologies. They research diseases such as Alzheimer\'s, Parkinson\'s and strokes to improve treatments and the quality of life of those affected. They also work on the development of new therapies, drugs and innovative techniques such as cell and gene therapy.</string>
+    <string name="CS_IDIS_miniscreen_8_texto_buscado_0">Alzheimer\'s, Parkinson\'s and strokes</string>
+    <string name="CS_IDIS_miniscreen_8_texto_buscado_1">cell and gene therapy</string>
+
+    <!--PANTALLA 10-->
+    <string name="CS_IDIS_miniscreen_9_title_0">PLATFORMS AND</string>
+    <string name="CS_IDIS_miniscreen_9_title_1">METHODOLOGY</string>
+    <string name="CS_IDIS_miniscreen_9_paragraph_0">It does not research diseases directly. It helps to analyse data, organise resources , communication and decision-making processes in health, as well as to manage public resources and prioritise lines of research.</string>
+    <string name="CS_IDIS_miniscreen_9_texto_buscado_0">analyse data, organise resources</string>
+
+    <!--PANTALLA 11-->
+    <string name="CS_IDIS_miniscreen_10_title_0">CARDIOVASCULAR</string>
+    <string name="CS_IDIS_miniscreen_10_paragraph_0">It studies cardiovascular diseases, looking for ways to help diagnose and treat these pathologies. It also focuses on clarifying the mechanisms of vascular diseases and on the benefits that can be transferred to the diagnosis, prevention or cure of this pathology and its sequelae.</string>
+    <string name="CS_IDIS_miniscreen_10_texto_buscado_0">cardiovascular diseases</string>
+    <string name="CS_IDIS_miniscreen_10_texto_buscado_1">benefits that can be transferred to the diagnosis, prevention or cure</string>
+
+    <!--PANTALLA 12-->
+    <string name="CS_IDIS_miniscreen_11_title_0">INFECTOLOGY</string>
+    <string name="CS_IDIS_miniscreen_11_title_1">INFLAMMATION</string>
+    <string name="CS_IDIS_miniscreen_11_title_2">AND VACCINES</string>
+    <string name="CS_IDIS_miniscreen_11_paragraph_0">It deals with infections, inflammatory processes and vaccine development. It works on both preventive and curative therapies, with special attention to paediatrics and the improvement of the immune response.</string>
+    <string name="CS_IDIS_miniscreen_11_texto_buscado_0">preventive and curative therapies</string>
+    <string name="CS_IDIS_miniscreen_11_texto_buscado_1">paediatrics</string>
+
+    <!--PANTALLA 13-->
+    <string name="CS_IDIS_miniscreen_12_paragraph_0">IDIS has an Innovation and Transfer Unit with the aim of improving and optimising the transfer of new health knowledge to society and facilitating the application of innovative tools and solutions for the benefit of people. This unit identifies opportunities, supports the protection of intellectual property, and promotes an innovative culture within the institute.</string>
+    <string name="CS_IDIS_miniscreen_12_texto_buscado_0">Innovation and Transfer Unit</string>
+    <string name="CS_IDIS_miniscreen_12_texto_buscado_1">solutions for the benefit of people</string>
+
+    <!--PANTALLA 14-->
+    <string name="CS_IDIS_miniscreen_13_paragraph_0">This centre managed to raise almost 50 million euros to develop research activities by 2024, consolidating its position as one of the leading biomedical research institutes in Spain. This same year it became the year with the most articles published in indexed scientific journals, with 1,091.</string>
+    <string name="CS_IDIS_miniscreen_13_texto_buscado_0"> almost 50 million euros to develop research activities</string>
+    <string name="CS_IDIS_miniscreen_13_paragraph_1">In the same year, 59 patents were applied for, 17 were granted and 4 were licensed, such as an in vitro method for the diagnosis and prognosis of colorectal cancer. It currently has 7 registered trademarks and 24 intellectual property registrations.</string>
+    <string name="CS_IDIS_miniscreen_13_texto_buscado_1">59 patents were applied for, 17 were granted and 4 were licensed</string>
+    <string name="CS_IDIS_miniscreen_13_texto_buscado_2">has 7 registered trademarks and 24 intellectual property registrations</string>
+    <string name="CS_IDIS_miniscreen_13_paragraph_2">It has 13 active spin-offs, i.e. companies that are born within the research centre to bring a technology or scientific discovery to the market. It also has 21 technological support platforms, specialised services that offer technical and scientific support to the research groups, as well as to external entities.</string>
+    <string name="CS_IDIS_miniscreen_13_texto_buscado_3">13 active spin-offs</string>
+    <string name="CS_IDIS_miniscreen_13_texto_buscado_4">21 technological support platforms</string>
+
+    <!--PANTALLA 15-->
+    <string name="CS_IDIS_miniscreen_14_paragraph_0">In addition, IDIS also has an important commitment to dissemination, trying to make its research known to the public, participating in fairs, organising workshops and series of talks, and offering guided tours of the laboratories and open days, being accredited as a Unit of Scientific Culture and Innovation by the Spanish Foundation for Science and Technology (FECYT).</string>
+    <string name="CS_IDIS_miniscreen_14_texto_buscado_0">commitment to dissemination</string>
+    <string name="CS_IDIS_miniscreen_14_texto_buscado_1">Spanish Foundation for Science and Technology (FECYT)</string>
+
+    <!--PANTALLA 16-->
+    <string name="CS_IDIS_miniscreen_15_paragraph_0">IDIS is also highly relevant outside Galicia. At the national level, it participates in numerous collaborative projects with other national centres, highlighting the integration in 5 Cooperative Research Networks (RICORS), in 7 Biomedical Research Centres in Network (CIBER), as well as in 3 Infrastructures of Precision Medicine associated with science and technology (IMPACT), all promoted by the Carlos III Health Institute (Instituto de Salud Carlos III).</string>
+    <string name="CS_IDIS_miniscreen_15_texto_buscado_0">5 Cooperative Research Networks (RICORS), in 7 Biomedical Research Centres in Network (CIBER)</string>
+    <string name="CS_IDIS_miniscreen_15_texto_buscado_1">3 Infrastructures of Precision Medicine associated with science and technology (IMPACT)</string>
+    <string name="CS_IDIS_miniscreen_15_paragraph_1">Internationally, almost half of the articles published were collaborations with foreign centres. It is part of the European Translational Medicine Infrastructure (EATRIS) together with more than 150 centres from 15 European countries, which aims to accelerate the transformation of scientific ideas into treatments and clinical tools; and of the COST (European Cooperation in Science and Technology) actions, which bring together scientists from different countries to work on topics of common interest. It also participates in the Spanish Clinical Research Network (SCReN), which brings together 31 clinical research units.</string>
+    <string name="CS_IDIS_miniscreen_15_texto_buscado_2">European Translational Medicine Infrastructure (EATRIS)</string>
+    <string name="CS_IDIS_miniscreen_15_texto_buscado_3" translatable="false">COST (European Cooperation in Science and Technology) actions</string>
+    <string name="CS_IDIS_miniscreen_15_texto_buscado_4" translatable="false">Spanish Clinical Research Network (SCReN)</string>
+
+    <!--PANTALLA 17-->
+    <string name="CS_IDIS_miniscreen_16_title_0">TALENT</string>
+    <string name="CS_IDIS_miniscreen_16_title_1">AMBASSADORS</string>
+    <!--PANTALLA 18-->
+    <string name="CS_IDIS_miniscreen_17_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_0" translatable="false">Mª Luz Couce Pico</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_1" translatable="false">Isabel Lista García</string>
+    <string name="CS_IDIS_miniscreen_17_title_1">RESEARCH STAFF</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_2" translatable="false">Rafael López López</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_3" translatable="false">Ángel Carracedo Álvarez</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_4" translatable="false">Mabel Loza García</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_5" translatable="false">Miguel Ángel Martínez Olmos</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_6" translatable="false">Luisa Mª Seoane Camino</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_7" translatable="false">José Luis Labandeira García</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_8" translatable="false">Francisco Campos Pérez</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_9" translatable="false">Francisco Gude Sampedro</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_10" translatable="false">Irene Zarra Ferro</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_11" translatable="false">José Ramón González Juanatey</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_12" translatable="false">Moisés Rodríguez Mañero</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_13" translatable="false">Federico Martinón Torres</string>
+    <string name="CS_IDIS_miniscreen_17_paragraph_14" translatable="false">Rodolfo Gómez Bahamonde</string>
+
+    <!--PANTALLA 19-->
+    <string name="CS_IDIS_miniscreen_18_title_0" translatable="false">Mª LUZ COUCE PICO</string>
+    <string name="CS_IDIS_miniscreen_18_texto_buscado_0" translatable="false">Mª LUZ COUCE PICO</string>
+    <string name="CS_IDIS_miniscreen_18_title_1">Director</string>
+    <string name="CS_IDIS_miniscreen_18_texto_buscado_1">Director</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_0">Scientific Director of the Instituto de Investigación Sanitaria de Santiago de Compostela (IDIS) since September 27, 2021, appointed by the Consello Reitor of the Institute.</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_1">Head of the Neonatology Service and Director of the Unit of Diagnosis and Treatment of Congenital Metabolic Diseases of the Complexo Hospitalario Universitario de Santiago de Compostela. The Metabolic Diseases Unit is a Reference Center of the National Health System (CSUR), designated by the Ministry of Health since January 2015 and European Expert Center as a member of the European network MetabERN since March 2017.</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_2">She leads the IDIS Metabolopathies group and is PI in the SAMID Network.</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_3">Professor at the University of Santiago de Compostela (USC). Director of the Institutional Chair of Hereditary Metabolic Diseases of the USC. Director of 22 Doctoral Theses. She has published more than 200 scientific articles in journals such as Lancet Diabetes Endocrinology, Nature Communications, Gastroenterology, Genetics in Medicine, Pediatrics, among others. H Index: 35.</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_4">She leads and has led more than 25 national and international projects, mainly focused on the metabolic area. She participates in numerous clinical trials, several of them in phase I/II. European co-leader of the Standardized Guidelines for Metab-ERN Care and Transition. Panelist and evaluator of competitive projects and in the assessment of European reference networks. She holds one patent and eight intellectual property registrations.</string>
+    <string name="CS_IDIS_miniscreen_18_paragraph_5">MORE INFO:  https://www.idisantiago.es/team/ma-luz-couce-pico/</string>
+
+    <!--PANTALLA 20-->
+    <string name="CS_IDIS_miniscreen_19_title_0" translatable="false">ISABEL LISTA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_19_texto_buscado_0" translatable="false">ISABEL LISTA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_0">Director of the Galician Public Foundation for Health Research in Santiago de Compostela (FIDIS) since 2019, where she leads the Management Unit of one of Spain\'s leading biomedical research institutions.</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_1">She holds a degree in Psychology from the University of Santiago de Compostela and has extensive specialized training in management, quality, and healthcare planning. She has a postgraduate degree in Consumer Behavior and Commercial Research, a Master\'s degree in Quality Management with a specialization in the EFQM model of excellence and self-assessment, and a Master\'s degree in Health Management and Planning for Health Executives from the European University. In addition, she has complemented her career with extensive training in strategic planning, management, and organizational leadership.</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_2">Her connection with the Santiago Health Research Institute (IDIS) began in 2011 as Head of Quality and Coordinator of the Technical Secretariat. Since her appointment as director of FIDIS, she has promoted management focused on efficiency, internationalization, and sustainability, strategically aligning the Foundation\'s actions with the objectives of IDIS and the Galician healthcare ecosystem as a whole.</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_3">She held the positions of quality and social outreach manager at the Directorate General for Youth of the Regional Government of Galicia (2005–2006); quality project coordinator at the Psychology, Consumer and User Unit of the University of Santiago de Compostela (2007–2010); Quality auditor in the Spanish Integrated Tourism Quality System for Destinations (SICTED) (2004). Previously, she held positions focused on market research and field studies (2001–2004).</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_4">Her profile combines technical experience, strategic vision, and a firm commitment to excellence in health R&amp;D&amp;I management.</string>
+    <string name="CS_IDIS_miniscreen_19_paragraph_5">MORE INFO: https://www.idisantiago.es/team/isabel-lista-garcia/</string>
+
+    <!--PANTALLA 21-->
+    <string name="CS_IDIS_miniscreen_20_title_0" translatable="false">RAFAEL LÓPEZ LÓPEZ</string>
+    <string name="CS_IDIS_miniscreen_20_texto_buscado_0" translatable="false">RAFAEL LÓPEZ LÓPEZ</string>
+    <string name="CS_IDIS_miniscreen_20_paragraph_0">Head of the Medical Oncology Service of the Complexo Hospitalario Universitario de Santiago de Compostela. He also leads the Translational Medical Oncology Group of the Instituto de Investigación Sanitaria de Santiago de Compostela.</string>
+    <string name="CS_IDIS_miniscreen_20_paragraph_1">In addition to the large number of clinical trials in which he has participated, he has published numerous scientific articles in prestigious journals such as the Journal of Clinical Oncology, Lancet Oncology, Oncogene, Carcinogenesis or Molecular Cancer Therapeutics, among others. He leads several national and international projects, mainly focused on the process of tumor dissemination. He is also inventor of four patents and founding partner of the company Nasasbiotech.</string>
+    <string name="CS_IDIS_miniscreen_20_paragraph_2">Dr. López has a degree in Medicine from the Universidad Autónoma de Madrid, has worked as a specialist or physician in various hospitals in Spain and worked for two years as a research physician in the Department of Oncology at the Free University Hospital, Amsterdam (The Netherlands).</string>
+    <string name="CS_IDIS_miniscreen_20_paragraph_3">MORE INFO: https://www.idisantiago.es/team/rafael-lopez-lopez/</string>
+
+    <!--PANTALLA 22-->
+    <string name="CS_IDIS_miniscreen_21_title_0" translatable="false">ÁNGEL CARRACEDO CASTRO TUBIO</string>
+    <string name="CS_IDIS_miniscreen_21_texto_buscado_0" translatable="false">ÁNGEL CARRACEDO CASTRO TUBIO</string>
+    <string name="CS_IDIS_miniscreen_21_paragraph_0">Professor of Legal Medicine at the University of Santiago (USC) since 1989. Director of the Fundación Pública Galega de Medicina Xenómica (Servizo Galego de Saúde-Xunta de Galicia) since 1997, Director of the National Centre of Genotyping-ISCIII since 2002.</string>
+    <string name="CS_IDIS_miniscreen_21_paragraph_1">In the first step of his career, Ángel Carracedo\'s activity was mainly devoted to forensic and population genetics, becoming an outstanding forensic geneticist, pioneering the use of new technologies in forensic identification and creating a center where visiting scientists from all over the world are trained. His group leads the scientific production in the SCI area of legal and forensic sciences worldwide Director of the Institute of Forensic Medicine (USC) from 1995 to 2015. Since 2002 he also works in the area of clinical genetics where he has started the Galician Foundation of Genomic Medicine (current director). This center is performing most of the molecular genetic and cytogenetic analyses requested by the Galician Health System, providing coverage to a population of 3.5 million inhabitants and being one of the most important public genetic services in Spain. Most of AC\'s recent research is now mainly focused on the genetics of Mendelian and complex traits and, in particular, on psychiatric disorders.</string>
+    <string name="CS_IDIS_miniscreen_21_paragraph_2">He is coordinator of the IMPACT project (ISCIII) and of the mirror group of the 1+M Genome Initiative and has participated in more than 20 international projects (coordinating 7 of them).</string>
+    <string name="CS_IDIS_miniscreen_21_paragraph_3">MORE INFO: https://www.idisantiago.es/team/angel-carracedo-alvarez/</string>
+
+    <!--PANTALLA 23-->
+    <string name="CS_IDIS_miniscreen_22_title_0" translatable="false">MABEL LOZA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_22_texto_buscado_0" translatable="false">MABEL LOZA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_22_paragraph_0">PhD in Pharmacy from the University of Santiago de Compostela. Professor of Pharmacology at the USC and coordinator of the BioFarma research group.</string>
+    <string name="CS_IDIS_miniscreen_22_paragraph_1">She has actively participated in drug R&amp;D programs with different companies in which 15 new chemical entities (NEQ) have reached clinical trials.</string>
+    <string name="CS_IDIS_miniscreen_22_paragraph_2">Author of more than 210 articles published in journals, and more than 200 communications to congresses. Participant in more than 100 research projects funded by public and private institutions.</string>
+    <string name="CS_IDIS_miniscreen_22_paragraph_3">As an entrepreneur she has promoted the creation of several companies, has created the pharmacogenomics drug screening platform INNOPHARMA of the USC, is founding Patron and scientific director together with Angel Carracedo of the private non-profit Foundation KÆRTOR, and leads the Galician and Spanish Drug Discovery Networks (REGID and REDEFAR). She is also the Spanish scientific representative of the European Research Infrastructure Consortium ERIC EU-OPENSCREEN.</string>
+    <string name="CS_IDIS_miniscreen_22_paragraph_4">MORE INFO: https://www.idisantiago.es/team/mabel-loza-garcia/</string>
+
+    <!--PANTALLA 24-->
+    <string name="CS_IDIS_miniscreen_23_title_0" translatable="false">MIGUEL ÁNGEL MARTÍNEZ OLMOS</string>
+    <string name="CS_IDIS_miniscreen_23_texto_buscado_0" translatable="false">MIGUEL ÁNGEL MARTÍNEZ OLMOS</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_0">Leader of area A003 - Endocrinology, nutrition and metabolism. Leader of group C006 - Molecular Endocrinology.</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_1">He holds a degree in Medicine and Surgery from the University of Granada (1991), is a specialist in Endocrinology and Nutrition (Hospital Universitario La Paz,, Madrid, 1996), and holds a PhD in Medicine and Surgery from the University of A Coruña, where he was awarded the Extraordinary Doctorate Prize (2007). He is currently head of the Endocrinology and Nutrition Service in the Santiago de Compostela and Barbanza Health Area, coordinator of the Endocrinology, Nutrition, and Metabolism Area at the Santiago de Compostela Health Research Institute (IDIS), and associate professor at the Faculty of Medicine and Dentistry at the University of Santiago de Compostela (A Coruña). He is also the principal investigator of the Molecular Endocrinology Group at the Health Research Institute of Santiago de Compostela (IDIS) and a researcher at the Biomedical Research Center in Rede-Physiopathology of Obriy Nutrition (CIBEROBN) at the Carlos III Health Institute (ISCIII).</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_2">Within his fields of expertise, his lines of research (translational and clinical) focus primarily on endocrinology, clinical nutrition, metabolism, obesity, and eating disorders in various clinical situations.</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_3">He participated in the development of the current PAI for Type 2 Diabetes Mellitus of the Sergas and is part of the working group for the new Rare Diseases Strategy of the SNS.</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_4">Dr. Martínez Olmos has been president of the Spanish Society of Clinical Nutrition and Metabolism (SENPE) since 2025.</string>
+    <string name="CS_IDIS_miniscreen_23_paragraph_5">MORE INFO: https://www.idisantiago.es/team/miguel-angel-martinez-olmos/</string>
+
+    <!--PANTALLA 25-->
+    <string name="CS_IDIS_miniscreen_24_title_0" translatable="false">LUISA Mª SEOANE CAMINO</string>
+    <string name="CS_IDIS_miniscreen_24_texto_buscado_0" translatable="false">LUISA Mª SEOANE CAMINO</string>
+    <string name="CS_IDIS_miniscreen_24_paragraph_0">Obtained her PhD in Pharmacy from the University of Santiago de Compostela in 2002 with the Extraordinary Doctorate Award. She did her postdoctoral training at the National Institute for Medical Research, (MRC) London UK. In 2004 he obtained the Juan de la Cierva competitive contract with the number 1 of his Area to join the Hospital Clínico Universitario de Santiago de Compostela. In 2005 he obtained the Miguel Servet contract from the Instituto de Salud Carlos III and in 2011 he was stabilized as I3SNS with the maximum level, category A.</string>
+    <string name="CS_IDIS_miniscreen_24_paragraph_1">Since her incorporation in 2005 as group leader at the Hospital Clínico de Santiago, the PI has implemented new lines of translational research in the Endocrinology Area of IDIS, focusing on the regulation of energy balance by peripheral organs and especially by the gastrointestinal tract and its interaction with the central nervous system and publishing the results in the highest impact journals within her Area (Nature Metabolism 2019; J Exp Med 2019; Nutrients 2019, Neuroendocrinology 2020; Hepatology 2016; Diabetes 2016; Endocrinology 2007; American Journal of Physiology Endocrinology and Metabolism 2010).</string>
+    <string name="CS_IDIS_miniscreen_24_paragraph_2">She has participated as an invited speaker on more than 30 occasions and has published more than 80 articles in international journals. Most of these articles since 2005, as senior author in high impact journals such as Nature Metabolism or Diabetes.</string>
+    <string name="CS_IDIS_miniscreen_24_paragraph_3">MORE INFO: https://www.idisantiago.es/team/luisa-maria-seoane-camino/</string>
+
+    <!--PANTALLA 26-->
+    <string name="CS_IDIS_miniscreen_25_title_0" translatable="false">JOSÉ LUIS LABANDEIRA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_25_texto_buscado_0" translatable="false">JOSÉ LUIS LABANDEIRA GARCÍA</string>
+    <string name="CS_IDIS_miniscreen_25_paragraph_0">Professor of Human Anatomy and Embryology of the USC (since 1991). Director of the Department of Morphological Sciences of the USC. Degree and PhD in Medicine from the University of Santiago de Compostela. Clinical Neurologist at the University Hospital of La Coruña. Postdoctoral training in Neurodegenerative Diseases at the University of Lund (Sweden).</string>
+    <string name="CS_IDIS_miniscreen_25_paragraph_1">Licentiate Award of the Royal National Academy of Medicine. Member of the Interdepartmental Commission of Science and Technology of Galicia. Member of the Galician Commission for Research and Technological Development. Coordinator of Research Infrastructures of the USC. Deputy Director of the Post-Graduate Center of the USC. Member of the Governing Council of IDIS. Member of the Board of Directors of the Spanish Society of Cell Therapy. Member of the Board of Directors of the Spanish Society of Gene and Cell Therapy. Member of several Research Evaluation Committees. Associate Editor of several Neuroscience journals.</string>
+    <string name="CS_IDIS_miniscreen_25_paragraph_2">MORE INFO: https://www.idisantiago.es/team/jose-luis-labandeira-garcia/</string>
+
+    <!--PANTALLA 27-->
+    <string name="CS_IDIS_miniscreen_26_title_0" translatable="false">FRANCISCO CAMPOS PÉREZ</string>
+    <string name="CS_IDIS_miniscreen_26_texto_buscado_0" translatable="false">FRANCISCO CAMPOS PÉREZ</string>
+    <string name="CS_IDIS_miniscreen_26_paragraph_0">He completed his postdoctoral training at IIBB–CSIC (Barcelona) (2007–08), at the Institute for Health Research in Santiago de Compostela (IDIS) (2009–10), and at Massachusetts General Hospital–Harvard Medical School (2011–12). Since 2013, he has been a Miguel Servet researcher. He is the author of more than 100 international articles (Q1/D1).</string>
+    <string name="CS_IDIS_miniscreen_26_paragraph_1">He has participated as principal investigator in four national projects (funded by ISCIII), three European H2020 projects (MADIA, GOTTARG as PI, and PLAMED as coordinator), coordinator of a private project, and an independent clinical trial project (funded by ISCIII, 2020–2023). In the academic field, Dr. Campos has supervised more than 7 international theses. Finally, Dr. Campos is co-inventor of 5 patents and co-founder of the company Lincbiotech.</string>
+    <string name="CS_IDIS_miniscreen_26_paragraph_2">MORE INFO: https://www.idisantiago.es/team/francisco-campos-perez/</string>
+
+    <!--PANTALLA 28-->
+    <string name="CS_IDIS_miniscreen_27_title_0" translatable="false">FRANCISCO GUDE SAMPEDRO</string>
+    <string name="CS_IDIS_miniscreen_27_texto_buscado_0" translatable="false">FRANCISCO GUDE SAMPEDRO</string>
+    <string name="CS_IDIS_miniscreen_27_paragraph_0">Assistant, Epidemiology and Clinical Research Unit, Complejo Hospitalario Universitario de Santiago de Compostela. Associate Professor of Family and Community Medicine, Faculty of Medicine, USC. Degree and PhD in Medicine, USC. Specialist in Family and Community Medicine and Preventive Medicine and Public Health. His line of research is the Epidemiology of frequent diseases.</string>
+    <string name="CS_IDIS_miniscreen_27_paragraph_1">MORE INFO: https://www.idisantiago.es/team/francisco-gude-sampedro/</string>
+
+    <!--PANTALLA 29-->
+    <string name="CS_IDIS_miniscreen_28_title_0" translatable="false">IRENE ZARRA FERRRO</string>
+    <string name="CS_IDIS_miniscreen_28_texto_buscado_0" translatable="false">IRENE ZARRA FERRRO</string>
+    <string name="CS_IDIS_miniscreen_28_paragraph_0">She leads a Pharmacy Service that is characterised by being patient-oriented rather than medicine-oriented. At our hospital we have managed to ensure that the pharmacist is a recognised and sought-after professional in the different services due to our three aspects: clinical, management and research.</string>
+    <string name="CS_IDIS_miniscreen_28_paragraph_1">More than twenty years of professional development in the field of Hospital Pharmacy and four years in the Subdirectorate General of Pharmacy of the Regional Ministry of Health. Hospital Pharmacy has undergone a profound transformation since 2013 towards a clinical orientation. Currently, since 2018, as Head of Service, her commitment to research-innovation has borne fruit through the creation of the UII-FH Unit.</string>
+    <string name="CS_IDIS_miniscreen_28_paragraph_2">MORE INFO: https://www.idisantiago.es/team/irene-zarra-ferro/</string>
+
+    <!--PANTALLA 30-->
+    <string name="CS_IDIS_miniscreen_29_title_0" translatable="false">JOSE RAMÓN GONZÁLEZ JUANATEY</string>
+    <string name="CS_IDIS_miniscreen_29_texto_buscado_0" translatable="false">JOSE RAMÓN GONZÁLEZ JUANATEY</string>
+    <string name="CS_IDIS_miniscreen_29_paragraph_0">Head of the Cardiology Department and CCU of the Hospital Clínico Universitario and Professor of Cardiology at the University of Santiago de Compostela. Dr. González Juanatey formed the cardioCHUS research group in 2000 under the auspices of the Cardiology Department of the University Hospital Complex of Santiago de Compostela. Author of more than 750 articles in leading international scientific journals with more than 38000 citations. H index: 60 (WoS source). Co–founder of the spin–off FlowReserve and its associated patent. Awards: Ciril Rozman Award (2009), Galician of the Year Award (2010), Spanish Physician of the Year (2014), Avedis Donabedian Foundation Award (2015), Novoa Santos Award (2019), Best in Class Awards (2013–2020).</string>
+    <string name="CS_IDIS_miniscreen_29_paragraph_1">MORE INFO: https://www.idisantiago.es/team/jose-ramon-gonzalez-juanatey/</string>
+
+    <!--PANTALLA 31-->
+    <string name="CS_IDIS_miniscreen_30_title_0" translatable="false">MOISÉS RODRÍGUEZ MAÑERO</string>
+    <string name="CS_IDIS_miniscreen_30_texto_buscado_0" translatable="false">MOISÉS RODRÍGUEZ MAÑERO</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_0">Specialist in Cardiology (2010) and subsequently in Electrophysiology through a scholarship awarded by the European Society of Cardiology (at the Heart Rhythm Management Center, Brussels; Prof. Pedro Brugada). Accredited in Cardiac Electrophysiology (2012) and Cardiac Pacing (2012). Master\'s Degree in Health Sciences from the Autonomous University of Barcelona (2013). Member of the staff of the Electrophysiology Unit at the University Hospital of Santiago de Compostela (2013–2015). Postdoctoral fellow (A. Pacíficio Scholarship) at Methodist Hospital (Houston, Texas) (January 2015 - January 2016), conducting basic research focused on the field of cardiac neuromodulation (Dr. M. Valderrábano). Doctor of Medicine from the University of Santiago de Compostela (2016) and the Free University of Brussels VUB (2018).</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_1">Since January 2016, he has been working at the University Hospital of Santiago de Compostela, in the Arrhythmia Unit, also coordinating the Cardiovascular Research Area of the University Hospital of Santiago de Compostela-Health Research Institute of that center (IDIS-USC).</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_2">Awarded the Research Intensification Plan of the Carlos III Health Institute (September 2020). Accredited by ANECA as a Contracted Doctor and Private University Professor (2019) and Full Professor (2025). Director of 7 doctoral theses to date.</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_3">Author of more than 210 articles published in medical journals (143 in JCR). His research activity focuses, among other things, on the personalization of different cardiac arrhythmias (especially atrial fibrillation), the role of neuromodulation in certain disorders, and the influence of epicardial fat on the genesis and maintenance of atrial fibrillation through projects funded by the Carlos III Health Institute (principal investigator in -> ISCIII, FIS 2016 and 2019, and recently in the Personalized Medicine Project 2022, €832,000), the Spanish Society of Cardiology (2), the Spanish Society of Electrophysiology, the Galician Society of Cardiology (2), the Mutua Madrileña Foundation, and the intramural CIBERCV project (as principal investigator of the project “De novo atrial fibrillation in patients with heart failure: incidence, predictors, and relevance” (NCT04755010).</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_4">Awards received: Third Prize for Innovation and Teaching, Medical Association of A Coruña (2019); Research Project Award from the Galician Society of Cardiology (2018); Best Article on Arrhythmias Award 2014 from the Spanish Journal of Cardiology-REC; First Prize from the SEC 2013 for the best article published in the REC; Prof. Gómez Orbaneja Award (2010).</string>
+    <string name="CS_IDIS_miniscreen_30_paragraph_5">MORE INFO: https://www.idisantiago.es/team/moises-rodriguez-manero/</string>
+
+    <!--PANTALLA 32-->
+    <string name="CS_IDIS_miniscreen_31_title_0" translatable="false">FEDERICO MARTINÓN TORRES</string>
+    <string name="CS_IDIS_miniscreen_31_texto_buscado_0" translatable="false">FEDERICO MARTINÓN TORRES</string>
+    <string name="CS_IDIS_miniscreen_31_paragraph_0">Professor of Paediatrics at the University of Santiago de Compostela, Director of Translational Paediatrics and Infectious Diseases at the Hospital Clínico Universitario de Santiago and coordinator of the Vaccine Research Unit and the Genetics, Vaccines and Infections Group of the IIS. He has received numerous awards and recognitions throughout his career, establishing himself as a national and international reference in his professional field. He was the first Spaniard to form part of the WHO Technical Advisory Committee for Europe and created the WHO Collaborating Centre for Vaccine Safety. He is on the list of the top 2% of scientists in the world, published by Stanford University.</string>
+    <string name="CS_IDIS_miniscreen_31_paragraph_1">MORE INFO: https://www.idisantiago.es/team/federico-martinon-torres/</string>
+
+    <!--PANTALLA 33-->
+    <string name="CS_IDIS_miniscreen_32_title_0" translatable="false">RODOLFO GÓMEZ BAHAMONDE</string>
+    <string name="CS_IDIS_miniscreen_32_texto_buscado_0" translatable="false">RODOLFO GÓMEZ BAHAMONDE</string>
+    <string name="CS_IDIS_miniscreen_32_paragraph_0">Doctor in Molecular Medicine, he obtained the Sara Borrell contract in 2010, moving to the Bone and Joint Research laboratory (Instituto de la Fundación Jiménez Díaz, Madrid) as a postdoctoral researcher and to the Musculoskeletal Research Group (Newcastle University, UK) as an associate researcher. In 2015, with the Miguel Servet I contract, he formed the Musculoskeletal Pathology Group at IDIS. In 2020, he was among the top 10 researchers of the Michael Servetus II call.</string>
+    <string name="CS_IDIS_miniscreen_32_paragraph_1">He has published more than a hundred scientific articles in journals of high impact index and international relevance (‘Nature Reviews Rheumatology’, ‘Annals of the Rheumatic Diseases’…). Accredited locally as a university lecturer, he is a lecturer on the PhD programme in molecular medicine at the USC where he supervises 7 doctoral theses.</string>
+    <string name="CS_IDIS_miniscreen_32_paragraph_2">MORE INFO: https://www.idisantiago.es/team/rodolfo-gomez-bahamonde/</string>
+
+    <!--PANTALLA 34-->
+    <string name="CS_IDIS_miniscreen_33_paragraph_0">If you are interested in learning more about IDIS, you can access more information by clicking on the following link:</string>
+    <string name="CS_IDIS_miniscreen_33_texto_buscado_0">learning more</string>
+    <string name="CS_IDIS_miniscreen_33_title_0" translatable="false">https://www.idisantiago.es/</string>
+
+</resources>

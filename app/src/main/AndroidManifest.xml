@@ -43,7 +43,7 @@
         <activity
             android:name=".LoaderUnityActivity"
             android:exported="false"
-            android:theme="@style/Theme.Multiidioma.Fullscreen"/>
+            android:theme="@style/Theme.Multiidioma"/>
         <!-- Loader + CameraX + Unity -->
         <activity
             android:name=".FakeCameraActivity"
@@ -54,10 +54,11 @@
         <activity
             android:name="com.unity3d.player.UnityPlayerGameActivity"
             android:exported="true"
-            android:theme="@style/Theme.Multiidioma.Fullscreen"
+            android:theme="@style/Theme.Multiidioma"
             android:launchMode="standard"
             android:taskAffinity="com.example.multiidioma.unity"
-            tools:replace="android:theme,android:exported,android:launchMode"/>
+            tools:replace="android:theme,android:exported,android:launchMode"
+            tools:ignore="MissingClass" />
 
 
     </application>

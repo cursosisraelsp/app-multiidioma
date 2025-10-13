@@ -13,8 +13,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.data.data.StyleText
 @Composable
 fun contentIhusMiniScreen5Box1(data: MiniScreenData) {
     val estilosTextos = StyleText(
@@ -29,7 +29,7 @@ fun contentIhusMiniScreen5Box1(data: MiniScreenData) {
                 .weight(0.3f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data, estilosTextos)
+            AppText(data, estilosTextos)
         }
     }
 }

@@ -1,14 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">multiidioma</string>
     <string name="greeting">Hello!</string>
     <string name="change_language">Switch to Spanish</string>
     <string name="switch_to_english">Switch to English</string>
     <string name="switch_to_galician">Switch to Galician</string>
-    <string name="paragraph_1">This is the first paragraph of text.It describes the beginning of the story or the main information to be presented.</string>
-    <string name="texto_buscado">It describes the beginning of</string>
-    <string name="texto_buscado2">This is the first paragraph</string>
-    <string name="paragraph_2">Next, the second paragraph is presented. This can expand on the main idea, add details, or a relevant anecdote.</string>
-    <string name="paragraph_3">The third and final paragraph concludes the section, summarizing key points or providing a call to action.</string>
     <string name="map">map</string>
     <string name="multimedia">multimedia</string>
     <string name="institutos">institus</string>
@@ -18,21 +14,8 @@
     <string name="centros_singulares">Singulars centers</string>
     <string name="institutos_investigacion">Investigation instituts</string>
     <string name="institutosEcentros">institutsAndCenters</string>
-
-    <string name="back_arrow">Back</string>
-    <string name="Directive_Team">DIRECTIVE TEAM</string>
     <string name="MORE_INFO">MORE INFO</string>
-    <string name="II_INCIFOR_miniscreen_22_title0">Pathology and Forensic Medicine</string>
-    <string name="II_INCIFOR_miniscreen_22_paragraph0">This Unit is responsible for providing forensic medical expertise, issuing reports and opinions on the assessment of bodily harm, date and cause of death, exhumations and expertise related to medical liability in criminal, civil and administrative matters.</string>
-    <string name="II_INCIFOR_miniscreen_23_title0">Criminology</string>
-    <string name="II_INCIFOR_miniscreen_23_paragraph0">It offers advisory services (reports, opinions, studies, regulatory projects and regulatory compliance programmes) to professionals and public and private entities in the field of criminology and criminal sciences. It also offers specialised training on demand for all institutions and professionals involved or interested in these areas.</string>
-    <string name="II_INCIFOR_miniscreen_24_paragraph0">INCIFOR is a clear example of how science improves people\'s lives. Its work does not stay in the laboratories: it reaches the courts, hospitals and also families seeking answers. Thanks to the application of scientific knowledge, they have managed to solve crimes, clarify deaths, help victims, train new professionals and provide evidence that ensures justice is based on objective, clear and demonstrable facts.</string>
-    <string name="II_INCIFOR_miniscreen_25_paragraph0">TALENT AMBASSADORS</string>
-    <string name="II_INCIFOR_miniscreen_26_paragraph0">Prueba Directivo 1</string>
-    <string name="II_INCIFOR_miniscreen_26_paragraph1">Prueba Directivo 2</string>
-    <string name="Research_Staff">RESEARCH STAFF</string>
-    <string name="info_investigador_test_1">I am a researcher</string>
-    <string name="info_investigador_test_2">in the area of microbiology</string>
-    <string name="info_investigador_test_3">I was born in Coruña.</string>
+    <string name="back_arrow">Back</string>
+    <string name="Directive_Team">Directive Team</string>
 
 </resources>
