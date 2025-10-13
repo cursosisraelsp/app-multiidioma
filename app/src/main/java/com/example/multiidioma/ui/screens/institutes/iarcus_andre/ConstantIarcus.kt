@@ -133,10 +133,19 @@ val cpdIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carlos Pereira Dopazo",
     info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
-    ),
+        R.string.II_IARCUS_miniscreen_17_title_0,
+        R.string.II_IARCUS_miniscreen_17_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_17_title_1,
+        R.string.II_IARCUS_miniscreen_17_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_17_paragraph_0,
+        R.string.II_IARCUS_miniscreen_17_paragraph_1,
+        R.string.II_IARCUS_miniscreen_17_paragraph_2,
+        R.string.II_IARCUS_miniscreen_17_paragraph_3,
+        R.string.II_IARCUS_miniscreen_17_paragraph_4,
+        R.string.II_IARCUS_miniscreen_17_paragraph_5,
+
+
+        ),
     contentType = ContentType.PersonalTemplateScreen
 )
 
@@ -144,10 +153,15 @@ val jsqaIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Benito Quintana Álvarez",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
-    ),
+        R.string.II_IARCUS_miniscreen_18_title_0,
+        R.string.II_IARCUS_miniscreen_18_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_18_title_1,
+        R.string.II_IARCUS_miniscreen_18_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_18_paragraph_0,
+        R.string.II_IARCUS_miniscreen_18_paragraph_1,
+        R.string.II_IARCUS_miniscreen_18_paragraph_2,
+
+        ),
     contentType = ContentType.PersonalTemplateScreen
 )
 
@@ -155,9 +169,13 @@ val mibmIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Isabel Bandín Matos",
     info = listOf(
-        /*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_19_title_0,
+        R.string.II_IARCUS_miniscreen_19_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_19_title_1,
+        R.string.II_IARCUS_miniscreen_19_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_19_paragraph_0,
+        R.string.II_IARCUS_miniscreen_19_paragraph_1,
+        R.string.II_IARCUS_miniscreen_19_paragraph_2,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -166,9 +184,13 @@ val abiIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Antón Barreiro Iglesias",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_20_title_0,
+        R.string.II_IARCUS_miniscreen_20_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_20_title_1,
+        R.string.II_IARCUS_miniscreen_20_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_20_paragraph_0,
+        R.string.II_IARCUS_miniscreen_20_paragraph_1,
+        R.string.II_IARCUS_miniscreen_20_paragraph_2,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -176,9 +198,13 @@ val jmlvIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Manuel Leiro Vidal",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_21_title_0,
+        R.string.II_IARCUS_miniscreen_21_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_21_title_1,
+        R.string.II_IARCUS_miniscreen_21_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_21_paragraph_0,
+        R.string.II_IARCUS_miniscreen_21_paragraph_1,
+        R.string.II_IARCUS_miniscreen_21_paragraph_2,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -186,9 +212,13 @@ val bmfIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Beatriz Magariños Ferro",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_22_title_0,
+        R.string.II_IARCUS_miniscreen_22_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_22_title_1,
+        R.string.II_IARCUS_miniscreen_22_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_22_paragraph_0,
+        R.string.II_IARCUS_miniscreen_22_paragraph_1,
+        R.string.II_IARCUS_miniscreen_22_paragraph_2,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -196,9 +226,14 @@ val pmcIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Pablo Meira Cartea",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_23_title_0,
+        R.string.II_IARCUS_miniscreen_23_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_23_title_1,
+        R.string.II_IARCUS_miniscreen_23_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_23_paragraph_0,
+        R.string.II_IARCUS_miniscreen_23_paragraph_1,
+        R.string.II_IARCUS_miniscreen_23_paragraph_2,
+        R.string.II_IARCUS_miniscreen_23_paragraph_3,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -206,9 +241,15 @@ val amgIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Azucena Mora Gutiérrez",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_24_title_0,
+        R.string.II_IARCUS_miniscreen_24_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_24_title_1,
+        R.string.II_IARCUS_miniscreen_24_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_24_paragraph_0,
+        R.string.II_IARCUS_miniscreen_24_paragraph_1,
+        R.string.II_IARCUS_miniscreen_24_paragraph_2,
+        R.string.II_IARCUS_miniscreen_24_paragraph_3,
+        R.string.II_IARCUS_miniscreen_24_paragraph_4,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -216,9 +257,14 @@ val amocIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Otero Casal",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_25_title_0,
+        R.string.II_IARCUS_miniscreen_25_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_25_title_1,
+        R.string.II_IARCUS_miniscreen_25_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_25_paragraph_0,
+        R.string.II_IARCUS_miniscreen_25_paragraph_1,
+        R.string.II_IARCUS_miniscreen_25_paragraph_2,
+        R.string.II_IARCUS_miniscreen_25_paragraph_3,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -226,9 +272,14 @@ val mrrrIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Mª del Rosario Rodil Rodríguez",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_26_title_0,
+        R.string.II_IARCUS_miniscreen_26_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_26_title_1,
+        R.string.II_IARCUS_miniscreen_26_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_26_paragraph_0,
+        R.string.II_IARCUS_miniscreen_26_paragraph_1,
+        R.string.II_IARCUS_miniscreen_26_paragraph_2,
+
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -236,9 +287,13 @@ val irpIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isaac Rodríguez Pereiro",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.II_IARCUS_miniscreen_27_title_0,
+        R.string.II_IARCUS_miniscreen_27_texto_buscado_0,
+        R.string.II_IARCUS_miniscreen_27_title_1,
+        R.string.II_IARCUS_miniscreen_27_texto_buscado_1,
+        R.string.II_IARCUS_miniscreen_27_paragraph_0,
+        R.string.II_IARCUS_miniscreen_27_paragraph_1,
+        R.string.II_IARCUS_miniscreen_27_paragraph_2,
     ),
     contentType = ContentType.PersonalTemplateScreen
 )

@@ -121,17 +121,65 @@
         <string name="CS_IGFAE_miniscreen_22_title_0">EMBAIXADORES DO TALENTO</string>
         <string name="CS_IGFAE_miniscreen_23_title_0">EQUIPO DIRECTIVO</string>
         <string name="CS_IGFAE_miniscreen_23_title_1">PERSOAL INVESTIGADOR</string>
-        <string name="CS_IGFAE_miniscreen_24_paragraph_1">Desde febreiro de 2023, o director do Instituto é Carlos Alberto Salgado López, profesor de Física Teórica na Universidade de Santiago de Compostela (USC). Desde xullo de 2023 exerce tamén como vicedirector do Centro Nacional de Física de Partículas, Astropartículas e Nuclear (CPAN).</string>
-        <string name="CS_IGFAE_miniscreen_24_paragraph_2">MÁIS INFO: https://igfae.usc.es/igfae/persoa/salgado-lopez-carlos-alberto/179/</string>
-        <string name="CS_IGFAE_miniscreen_25_paragraph_1">Investigadora Ramón y Cajal no IGFAE / USC e coordinadora adxunta de física na colaboración LHCb, un dos catro grandes experimentos do CERN. Doutorouse en Física pola USC e traballou como investigadora posdoutoral na École Polytechnique Fédérale de Lausanne (Suíza) e o CERN.</string>
-        <string name="CS_IGFAE_miniscreen_25_paragraph_2">MÁIS INFO: https://igfae.usc.es/igfae/persoa/vieites-diaz-maria/201/</string>
-        <string name="CS_IGFAE_miniscreen_26_paragraph_1">Catedrático de Física Teórica da USC. O seu campo principal de investigación é o estudo da interacción forte e a teoría cuántica de campos en condicións de altas enerxías. Forma parte de comités internacionais para o estudo de futuras instalacións científicas, como o Large Hadron-electron Collider do CERN.</string>
-        <string name="CS_IGFAE_miniscreen_26_paragraph_2">MÁIS INFO: https://igfae.usc.es/igfae/persoa/armesto-perez-nestor/153/</string>
-        <string name="CS_IGFAE_miniscreen_27_paragraph_1">Profesor titular de Física Téorica na USC. É doutor en Física pola Universidad Nacional de La Plata (Arxentina) e realizou estadías posdoutorais en Harvard (Estados Unidos) ou o Instituto Superior Técnico (Portugal). Está especializado en teoría de cordas e no estudo da gravidade cuántica, na procura dunha teoría unificada da relatividade e a mecánica cuántica, as dúas grandes bases da física. Realiza unha intensa labor de divulgación, o que o converteu nun dos físicos máis coñecidos do mundo hispanofalante.</string>
-        <string name="CS_IGFAE_miniscreen_27_paragraph_2">MÁIS INFO: https://igfae.usc.es/igfae/persoa/edelstein-glaubach-jose-daniel/141/</string>
-        <string name="CS_IGFAE_miniscreen_28_paragraph_1">Profesora titular e vicedecana da Facultade de Física da USC, e científica experimental no ámbito da física nuclear. É doutora pola Universidade de Caen (Francia), e tamén traballou como investigadora na Universidade de Liverpool (Reino Unido), GANIL (Francia) e diversos proxectos e experimentos nos Estados Unidos (FRIB) e TRIUMF (Canadá).</string>
-        <string name="CS_IGFAE_miniscreen_28_paragraph_2">MÁIS INFO: https://igfae.usc.es/igfae/persoa/fernandez-dominguez-beatriz/122/</string>
-        <string name="CS_IGFAE_miniscreen_29_paragraph_0">Se che interesa ampliar os teus coñecementos sobre o IGFAE podes acceder a máis información facendo clic na seguinte ligazón:</string>
-        <string name="CS_IGFAE_miniscreen_29_texto_buscado_0">ampliar os teus coñecementos</string>
-        <string name="CS_IGFAE_miniscreen_29_title_0">" https://igfae.usc.es/igfae/"</string>
+        <!-- PANTALLA 24 -->
+        <string name="CS_IGFAE_miniscreen_24_title_0">CARLOS ALBERTO SALGADO LÓPEZ</string>
+        <string name="CS_IGFAE_miniscreen_24_texto_buscado_0">CARLOS ALBERTO SALGADO LÓPEZ</string>
+        <string name="CS_IGFAE_miniscreen_24_title_1">Director Científico do IGFAE</string>
+        <string name="CS_IGFAE_miniscreen_24_texto_buscado_1">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+        <string name="CS_IGFAE_miniscreen_24_title_2">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+        <string name="CS_IGFAE_miniscreen_24_texto_buscado_2">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_0">Profesor de Física Teórica na Universidade de Santiago de Compostela (USC) e Doutor por esta mesma universidade coa tese “Efectos nucleares na produción de partículas pesadas” (1998). Dirixida por Carlos Pajares Vales.</string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_1">Desde o ano 2023 é o director científico do IGFAE así como director científico da correspondente Unidade de Excelencia María de Maeztu 2017-2021. Desde xullo dese ano exerce tamén como vicedirector do Centro Nacional de Física de Partículas, Astropartículas e Nuclear (CPAN).</string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_2">O seu campo de investigación é o estudo da Cromodinámica Cuántica (QCD) en condicións de altas densidades ou temperaturas, así como as distribucións partónicas nucleares. A maior parte do seu traballo recente trata de entender a coherencia cuántica de cor dentro dos jets de QCD, que son chorros de radiación de altas enerxías orixinados por partículas de quarks e gluóns, e como usar esta información para determinar os procesos máis rápidos de termalización que observamos na natureza. Por exemplo, en colisións nucleares no LHC, un proceso termal prodúcese nuns poucos yoctosegundos, menos do que a luz tarda en atravesar un protón.</string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_3">Salgado recibiu dous proxectos do European Research Council: “Hot and dense QCD in the LHC era” (Starting Grant – Consolidator stream 2012-2017) e “Yoctosecond imaging of QCD colectivity using jet observables” (Advanced Grant 2019-2025).</string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_4">MÁIS INFO: </string>
+        <string name="CS_IGFAE_miniscreen_24_paragraph_5"> https://igfae.usc.es/igfae/persoa/salgado-lopez-carlos-alberto/179/</string>
+
+        <!-- PANTALLA 25 -->
+        <string name="CS_IGFAE_miniscreen_25_title_0">María Vieites Díaz</string>
+        <string name="CS_IGFAE_miniscreen_25_texto_buscado_0">María Vieites Díaz</string>
+        <string name="CS_IGFAE_miniscreen_25_title_1">Investigadora Ramón y Cajal do IGFAE</string>
+        <string name="CS_IGFAE_miniscreen_25_texto_buscado_1">Investigadora Ramón y Cajal do IGFAE</string>
+        <string name="CS_IGFAE_miniscreen_25_paragraph_0">Licenciada en Física na USC onde se doutorou en 2019. Está especializada no estudo das diferenzas de comportamento entre a materia e a antimateria mediante a análise de amplitudes en decaementos de mesóns B no experimento LHCb do CERN. Tras o seu doutoramento, incorporouse á École Polytechnique Fédérale de Lausanne (EPFL), en Suíza, como investigadora postdoutoral no grupo local da colaboración LHCb, contribuíndo á análise das desintegracións radioactivas de mesóns B.</string>
+        <string name="CS_IGFAE_miniscreen_25_paragraph_1">Actualmente, é investigadora Ramón y Cajal no IGFAE e coordinadora adxunta de física na colaboración LHCb, un dos catro experimentos principais do CERN.</string>
+        <string name="CS_IGFAE_miniscreen_25_paragraph_2">MÁIS INFO: </string>
+        <string name="CS_IGFAE_miniscreen_25_paragraph_3">https://igfae.usc.es/igfae/persoa/vieites-diaz-maria/201/</string>
+
+        <!-- PANTALLA 26 -->
+        <string name="CS_IGFAE_miniscreen_26_title_0">Néstor Armesto Pérez</string>
+        <string name="CS_IGFAE_miniscreen_26_texto_buscado_0">Néstor Armesto Pérez</string>
+        <string name="CS_IGFAE_miniscreen_26_title_1">Catedrático de Física Teórica na USC</string>
+        <string name="CS_IGFAE_miniscreen_26_texto_buscado_1">Catedrático de Física Teórica na USC</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_0">Licenciado en Física na Universidade Autónoma de Madrid (1991) e Doutor pola Universidade de Santiago de Compostela coa tese "Interaccións entre cordas en modelos de produción múltiple" (1995), dirixida por Carlos Pajares Vales.</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_1">Realizou estancias postdoutorais en LPT Orsay e a Universidade de Hamburgo, para despois converterse en profesor asociado de Física na Universidade de Córdoba entre 1998 e 2002. Posteriormente, foi investigador no CERN para regresar ao IGFAE da USC en 2005 cun contrato Ramón y Cajal.</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_2">No ano 2010 convértese en profesor asociado da USC e en catedrático en 2020.</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_3">O seu principal interese investigador é o comportamento da interacción forte e da teoría cuántica de campos que a describe, QCD, a grandes enerxías e densidades de partóns. En concreto, traballa na descrición das funcións de onda hadrónicas e nucleares e dos primeiros instantes dunha colisión hadrónica, no marco da teoría do campo efectivo do condensado de vidro coloreado. Estes aspectos estúdanse actualmente en colisións entre protóns e núcleos no Gran Colisionador de Hadróns do CERN, e no futuro en colisionadores electrón-ion: o Colisionador Electron-Ion do BNL (EE. UU.) e o proposto Gran Colisionador Hadrón-electrón do CERN.</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_4">Tamén traballa na caracterización da materia creada nas devanditas colisións mediante sondas perturbativas: extinción de chorros e supresión de quarkonium. Ademais, interésalle a física de raios cósmicos de alta enerxía, o comportamento de sistemas cuánticos abertos e os problemas de termalización e emerxencia en QCD. Forma parte de comités internacionais para o estudo de futuras instalacións científicas, como o Gran Colisionador de Hadróns e Electróns do CERN.</string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_5">MÁIS INFO: </string>
+        <string name="CS_IGFAE_miniscreen_26_paragraph_6">https://igfae.usc.es/igfae/persoa/armesto-perez-nestor/153/</string>
+
+        <!-- PANTALLA 27 -->
+        <string name="CS_IGFAE_miniscreen_27_title_0">Jose Edelstein</string>
+        <string name="CS_IGFAE_miniscreen_27_texto_buscado_0">Jose Edelstein</string>
+        <string name="CS_IGFAE_miniscreen_27_title_1">Catedrático de Física Teórica na USC</string>
+        <string name="CS_IGFAE_miniscreen_27_texto_buscado_1">Catedrático de Física Teórica na USC</string>
+        <string name="CS_IGFAE_miniscreen_27_paragraph_0">É doutor en Física pola Universidade Nacional de La Plata (Arxentina) e realizou estancias postdoutorais en Harvard (Estados Unidos), no CONICET (Arxentina), a CECs e no Instituto Superior Técnico (Portugal). Especialízase en teoría de cordas e no estudo da gravidade cuántica, na procura dunha teoría unificada da relatividade e a mecánica cuántica, os dous grandes fundamentos da física.</string>
+        <string name="CS_IGFAE_miniscreen_27_paragraph_1">Realiza un intenso labor divulgativo, o que o converteu nun dos físicos máis recoñecidos do mundo hispanofalante con premios como os Premios de Divulgación Científica do Centro Español de Física de Partículas, Astropartículas e Nuclear, o Premio de Comunicación Científica da Fundación Española para a Ciencia e a Tecnoloxía (2012) e diversas mencións de honra no Concurso Internacional Ciencia en Acción.</string>
+        <string name="CS_IGFAE_miniscreen_27_paragraph_2">MÁIS INFO: </string>
+        <string name="CS_IGFAE_miniscreen_27_paragraph_3">https://igfae.usc.es/igfae/persoa/edelstein-glaubach-jose-daniel/141/</string>
+
+        <!-- PANTALLA 28 -->
+        <string name="CS_IGFAE_miniscreen_28_title_0">Beatriz Fernández Domínguez</string>
+        <string name="CS_IGFAE_miniscreen_28_texto_buscado_0">Beatriz Fernández Domínguez</string>
+        <string name="CS_IGFAE_miniscreen_28_title_1">Professor and Vice Dean of the Faculty of Physics at USC</string>
+        <string name="CS_IGFAE_miniscreen_28_texto_buscado_1">Professor and Vice Dean of the Faculty of Physics at USC</string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_0">Experimental scientist in the field of nuclear physics. PhD from the University of Caen (France) in 2003, working at SphN-CEA Saclay on the study of cross sections of fission fragments produced in the spallation reaction of 208Pb at 500 AMeV. In 2004, she moved to the University of Liverpool (United Kingdom) to work on the structure of exotic nuclei. In 2009, she obtained a postdoctoral contract at the CEA, in GANIL (France), and was involved in various projects and experiments in the United States (FRIB) and TRIUMF (Canada). In 2011, she returned to Spain with a Ramón y Cajal contract.</string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_1">Her research activity focuses on the study of unbound systems with active targets, also called open quantum systems.</string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_2">She is a member of the European ACTAR TPC collaboration, funded by the ERC, and sits on its Advisory Committee. Within the framework of this collaboration, she leads an innovative program to study the structure of exotic nuclei, which have not been observed until now. She is the spokesperson for several experiments to be carried out at international facilities such as GANIL, RCNP, TRIUMF, and FRIB.</string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_3">Since 2018, she has been vice dean of the Faculty of Physics and responsible for the Erasmus and SICUE programs.</string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_4">MORE INFO: </string>
+        <string name="CS_IGFAE_miniscreen_28_paragraph_5">https://igfae.usc.es/igfae/persoa/fernandez-dominguez-beatriz/122/</string>
+
+        <string name="CS_IGFAE_miniscreen_29_paragraph_0">ampliar os teus coñecementos</string>
+        <string name="CS_IGFAE_miniscreen_29_paragraph_1" translatable="false">https://igfae.usc.es/igfae/</string>
 </resources>

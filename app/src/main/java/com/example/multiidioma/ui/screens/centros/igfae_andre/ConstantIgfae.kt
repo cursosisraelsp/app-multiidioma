@@ -198,9 +198,17 @@ val caslIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carlos Alberto Salgado López",
     info = listOf(
-        /*    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*/
+        R.string.CS_IGFAE_miniscreen_24_title_0,
+        R.string.CS_IGFAE_miniscreen_24_texto_buscado_0,
+        R.string.CS_IGFAE_miniscreen_24_title_1,
+        R.string.CS_IGFAE_miniscreen_24_texto_buscado_1,
+        R.string.CS_IGFAE_miniscreen_24_title_2,
+        R.string.CS_IGFAE_miniscreen_24_texto_buscado_2,
+        R.string.CS_IGFAE_miniscreen_24_paragraph_0,
+        R.string.CS_IGFAE_miniscreen_24_paragraph_1,
+        R.string.CS_IGFAE_miniscreen_24_paragraph_2,
+        R.string.CS_IGFAE_miniscreen_24_paragraph_3,
+        R.string.CS_IGFAE_miniscreen_24_paragraph_4
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -209,9 +217,13 @@ val mvdIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Vieites Díaz",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_IGFAE_miniscreen_25_title_0,
+        R.string.CS_IGFAE_miniscreen_25_texto_buscado_0,
+        R.string.CS_IGFAE_miniscreen_25_title_1,
+        R.string.CS_IGFAE_miniscreen_25_texto_buscado_1,
+        R.string.CS_IGFAE_miniscreen_25_paragraph_0,
+        R.string.CS_IGFAE_miniscreen_25_paragraph_1,
+        R.string.CS_IGFAE_miniscreen_25_paragraph_2
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
@@ -220,33 +232,51 @@ val napIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Néstor Armesto Pérez",
     info = listOf(
-        /*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*/
+        R.string.CS_IGFAE_miniscreen_26_title_0,
+        R.string.CS_IGFAE_miniscreen_26_texto_buscado_0,
+        R.string.CS_IGFAE_miniscreen_26_title_1,
+        R.string.CS_IGFAE_miniscreen_26_texto_buscado_1,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_0,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_1,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_2,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_3,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_4,
+        R.string.CS_IGFAE_miniscreen_26_paragraph_5
+    ),
+    contentType = ContentType.PersonalTemplateScreen
+)
+
+val jeIgfae = PersonResearcher(
+    foto = R.drawable.cientifico,
+    name = "Jose Edelstein",
+    info = listOf(
+        R.string.CS_IGFAE_miniscreen_27_title_0,
+        R.string.CS_IGFAE_miniscreen_27_texto_buscado_0,
+        R.string.CS_IGFAE_miniscreen_27_title_1,
+        R.string.CS_IGFAE_miniscreen_27_texto_buscado_1,
+        R.string.CS_IGFAE_miniscreen_27_paragraph_0,
+        R.string.CS_IGFAE_miniscreen_27_paragraph_1,
+        R.string.CS_IGFAE_miniscreen_27_paragraph_2
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
 
 val bfdIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
-    name = "Jose Edelstein",
-    info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
-    ),
-    contentType = ContentType.PersonalTemplateScreen
-)
-val cgrIgfae = PersonResearcher(
-    foto = R.drawable.cientifico,
     name = "Beatriz Fernández Domínguez",
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+        R.string.CS_IGFAE_miniscreen_28_title_0,
+        R.string.CS_IGFAE_miniscreen_28_texto_buscado_0,
+        R.string.CS_IGFAE_miniscreen_28_title_1,
+        R.string.CS_IGFAE_miniscreen_28_texto_buscado_1,
+        R.string.CS_IGFAE_miniscreen_28_paragraph_0,
+        R.string.CS_IGFAE_miniscreen_28_paragraph_1,
+        R.string.CS_IGFAE_miniscreen_28_paragraph_2,
+        R.string.CS_IGFAE_miniscreen_28_paragraph_3,
+        R.string.CS_IGFAE_miniscreen_28_paragraph_4
     ),
     contentType = ContentType.PersonalTemplateScreen
 )
 
 
-val datosInvestigadores = listOf(caslIgfae, mvdIgfae, napIgfae, bfdIgfae,cgrIgfae)
+val datosInvestigadores = listOf(caslIgfae, mvdIgfae, napIgfae, bfdIgfae,jeIgfae)
