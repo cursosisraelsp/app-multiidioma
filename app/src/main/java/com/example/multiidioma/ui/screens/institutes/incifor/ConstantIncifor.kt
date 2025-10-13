@@ -92,8 +92,6 @@ val ambbIncifor =  PersonResearcher(
     info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
-
-
 val issIncifor =  PersonResearcher(
     foto = R.drawable.incifor_img_15,
     name = "Inés Sánchez Sellero",

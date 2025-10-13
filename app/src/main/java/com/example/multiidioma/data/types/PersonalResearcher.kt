@@ -28,5 +28,6 @@ data class PersonResearcher(
     val name: String?,
     val info: List<Int?>,
     //val info: String?,
-    val contentType: ContentType?
+    val contentType: ContentType?,
+    val role: String? = null
 )

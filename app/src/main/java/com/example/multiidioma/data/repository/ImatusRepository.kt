@@ -134,7 +134,7 @@ class ImatusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IMATUS_miniscreen_12_title_0,
                 ),
-                imageRes = R.drawable.imatus_img_19,
+                imageRes = R.drawable.imatus_img_13,
                 personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
                         datosInvestigadoresImatus

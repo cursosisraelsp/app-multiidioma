@@ -108,7 +108,7 @@ import com.example.multiidioma.utils.TextTitleMedium
             // Body Medium
             Column {
                 infoResearchers.info.forEachIndexed { index, stringId ->
-                    if (index > 1 && (index != infoResearchers.info.lastIndex - 1)) { // omite los índices 0 y 1
+                    if (index > 2 && (index != infoResearchers.info.lastIndex - 1)) { // omite los índices 0 y 1
                         stringId?.let {
                             Text(text = stringResource(id = it))
                         }

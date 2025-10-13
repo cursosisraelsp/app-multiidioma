@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -28,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
+import com.example.multiidioma.R
 
 
 @Composable
@@ -35,13 +37,15 @@ fun LazyRowScreenTemplate(
     data: MiniScreenData,
     navController: NavController,
     podcasts: List<Podcast>,
+    director1: String,
+    director2: String? = null,
     modifier: Modifier = Modifier
 ) {
     val investigadores = data.personalResearcher ?: emptyList()
 
     // Separar Directora y Secretaria
     val principales = investigadores.filter {
-        it.name == "Ana María Bermejo Barrera" || it.name == "Inés Sánchez Sellero"
+        it.name == director1 || it.name == director2
     }
 
     // Resto de investigadores
@@ -52,11 +56,8 @@ fun LazyRowScreenTemplate(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-            /*.background(Color.Red)*/
-        ) {
+
+        Box(modifier = Modifier.fillMaxWidth()) {
             LazyRow(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -73,12 +74,12 @@ fun LazyRowScreenTemplate(
                             .clip(RoundedCornerShape(8.dp))
                             .background(Color.Yellow)
                             .clickable {
-
                                 val ruta = "detalles/incifor/${investigador.id}"
                                 navController.navigate(ruta)
                             }
                             .padding(8.dp)
                     ) {
+                        // Imagen
                         Image(
                             painter = painterResource(investigador.foto),
                             contentDescription = investigador.name ?: "Sin nombre",
@@ -89,21 +90,47 @@ fun LazyRowScreenTemplate(
                                 .clip(RoundedCornerShape(8.dp))
                         )
                         Spacer(Modifier.height(8.dp))
-                        Text(text = investigador.name ?: "Sin nombre", color = Color.White)
-                        investigador.info?.forEach { resId ->
-                            resId?.let { Text(text = stringResource(it), color = Color.LightGray) }
+
+                        // Nombre (TextBodyMedium)
+                        Text(
+                            text = investigador.name ?: "Sin nombre",
+                            color = Color.White,
+                            style = MaterialTheme.typography.bodyMedium // TextBodyMedium
+                        )
+
+                        // Cargo y Título (primeros dos elementos de info)
+                        investigador.info?.let {
+                            if (it.isNotEmpty()) {
+                                // Título (DisplayMedium)
+                                Text(
+                                    text = stringResource(
+                                        id = it.getOrNull(0) ?: R.string.default_title
+                                    ),
+                                    color = Color.LightGray,
+                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
+                                )
+                            }
+                            if (it.size > 1) {
+                                // Cargo (DisplayMedium)
+                                Text(
+                                    text = stringResource(
+                                        id = it.getOrNull(1) ?: R.string.default_role
+                                    ),
+                                    color = Color.LightGray,
+                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
+                                )
+                            }
                         }
                     }
                 }
             }
         }
 
-        // Parte inferior
+        // Parte inferior (Rest of the investigators)
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(350.dp)
-            /*.background(Color.Green)*/
         ) {
             LazyRow(
                 modifier = Modifier
@@ -125,6 +152,7 @@ fun LazyRowScreenTemplate(
                             }
                             .padding(8.dp)
                     ) {
+                        // Imagen
                         Image(
                             painter = painterResource(investigador.foto),
                             contentDescription = investigador.name ?: "Sin nombre",
@@ -135,9 +163,36 @@ fun LazyRowScreenTemplate(
                                 .clip(RoundedCornerShape(8.dp))
                         )
                         Spacer(Modifier.height(8.dp))
-                        Text(text = investigador.name ?: "Sin nombre", color = Color.White)
-                        investigador.info?.forEach { resId ->
-                            resId?.let { Text(text = stringResource(it), color = Color.LightGray) }
+
+                        // Nombre (TextBodyMedium)
+                        Text(
+                            text = investigador.name ?: "Sin nombre",
+                            color = Color.White,
+                            style = MaterialTheme.typography.titleMedium // TextBodyMedium
+                        )
+
+                        // Cargo y Título (primeros dos elementos de info)
+                        investigador.info?.let {
+                            if (it.isNotEmpty()) {
+                                // Título (DisplayMedium)
+                                Text(
+                                    text = stringResource(
+                                        id = it.getOrNull(0) ?: R.string.default_title
+                                    ),
+                                    color = Color.LightGray,
+                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
+                                )
+                            }
+                            if (it.size > 1) {
+                                // Cargo (DisplayMedium)
+                                Text(
+                                    text = stringResource(
+                                        id = it.getOrNull(1) ?: R.string.default_role
+                                    ),
+                                    color = Color.LightGray,
+                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
+                                )
+                            }
                         }
                     }
                 }
@@ -145,4 +200,4 @@ fun LazyRowScreenTemplate(
         }
     }
 }
-
+//falta cambiar los textos a los estilos correctos
