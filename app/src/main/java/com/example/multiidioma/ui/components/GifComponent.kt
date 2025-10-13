@@ -2,14 +2,15 @@ package com.example.multiidioma.ui.components
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import coil.ImageLoader
 import coil.compose.AsyncImage
 import coil.decode.GifDecoder
 import coil.request.ImageRequest
-import androidx.compose.ui.platform.LocalContext
 
 @Composable
-fun GifComponent(modifier: Modifier = Modifier,gif: Int) {
+fun GifComponent(modifier: Modifier = Modifier, gif: Int, contentScale: ContentScale = ContentScale.Fit) {
     val context = LocalContext.current
 
     val imageLoader = ImageLoader.Builder(context)
@@ -24,6 +25,7 @@ fun GifComponent(modifier: Modifier = Modifier,gif: Int) {
             .build(),
         contentDescription = "Animación GIF",
         modifier = modifier,
-        imageLoader = imageLoader
+        imageLoader = imageLoader,
+        contentScale = contentScale
     )
 }

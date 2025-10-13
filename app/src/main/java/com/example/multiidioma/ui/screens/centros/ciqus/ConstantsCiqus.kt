@@ -27,9 +27,10 @@ val valorFiguraCiqus0 = NavegationFiguresData(
     ruta = Destination.Ilg.route,
     numString = "01",
     relacionNum = numNumero,
-    textoInfo = "este texto en Ilg",
+    textoInfo =  R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
     anchoTexto = relacionTexto,
-    relacionText = numLetra2
+    relacionText = numLetra2,
+    lineHeight = 1.sp
 )
 val valorFiguraCiqus1 = NavegationFiguresData(
     offset_x = 165.dp,
@@ -39,9 +40,10 @@ val valorFiguraCiqus1 = NavegationFiguresData(
     ruta = Destination.Ilg.route,
     numString = "02",
     relacionNum = numNumero,
-    textoInfo = "este texto en Ilg",
+    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
     anchoTexto = relacionTextoGrande,
-    relacionText = numLetra2
+    relacionText = numLetra2,
+    lineHeight = 1.sp
 )
 val valorFiguraCiqus2 = NavegationFiguresData(
     offset_x = 35.dp,
@@ -51,7 +53,8 @@ val valorFiguraCiqus2 = NavegationFiguresData(
     ruta = Destination.Ilg.route,
     numString = "03",
     relacionNum = numNumero,
-    textoInfo = "este texto en Ilg",
+    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
     anchoTexto = relacionTexto,
-    relacionText = numLetra2
+    relacionText = numLetra2,
+    lineHeight = 1.sp
 )

@@ -14,7 +14,7 @@ data class NavegationFiguresData(
     val textoInfo: Int,
     val anchoTexto: Dp,
     val relacionText: TextUnit,
-    val lineHeight: TextUnit
+    val lineHeight: TextUnit?
 )
 data class NavegationFiguresHomeData(
     val offset_x : Dp,

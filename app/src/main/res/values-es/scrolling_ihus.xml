@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="paragraph_1">Este es el primer párrafo de texto. Describe el inicio de la historia o la información principal que se desea presentar.</string>
-    <string name="texto_buscado">Describe el inicio de la historia</string>
-    <string name="texto_buscado2">Este es el primer párrafo</string>
-    <string name="paragraph_2"><b>A continuación, se presenta el segundo párrafo</b>. Este puede expandir la idea principal, añadir detalles o una anécdota relevante.</string>
-    <string name="paragraph_3">El <font color="#ff8000">tercer y último párrafo concluye</font> la sección, resumiendo los puntos clave o proporcionando una llamada a la acción.</string>
-    <string name="sin_valor">--------------</string>
     <string name="II_IHUS_miniscreen_0_paragraph0">En un mundo marcado por la desinformación, la globalización, los conflictos geopolíticos y el cambio climático, las Humanidades son más necesarias que nunca. Estas buscan desarrollar en la sociedad una visión crítica y global, dando a los ciudadanos las herramientas para cuestionar todo lo que los rodea y actuar con conciencia, para que sean capaces de entender y transformar su realidad.</string>
     <string name="II_IHUS_miniscreen_1_paragraph0">Las Humanidades y las nuevas tecnologías, como la inteligencia artificial, están cada vez más interconectadas, ofreciendo los estudios humanísticos perspectivas críticas necesarias para reflexionar sobre el uso ético y social de las tecnologías, y cuestionando cómo afectan a los derechos, a la identidad y a la convivencia. Así, ayudamos a garantizar que el avance tecnológico sirva para promover el bienestar, la igualdad y la diversidad cultural.</string>
     <string name="II_IHUS_miniscreen_1_paragraph1">En este contexto nace el Instituto de Investigación en Humanidades de la Universidad de Santiago de Compostela (iHUS), que busca dar respuesta a los desafíos del presente y del futuro y crear un espacio de referencia y reconocimiento para la investigación.</string>

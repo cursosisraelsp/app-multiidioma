@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
@@ -16,6 +17,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 
 
@@ -27,34 +29,58 @@ val provider = GoogleFont.Provider(
 )
 
 // Define las fuentes que usarás
-val bodyFontFamily = GoogleFont(name = "Roboto Condensed")
+val bodyFontFamily = GoogleFont(name = "Roboto")
 val displayFontFamily = GoogleFont(name = "Montserrat")
-//val displayFontFamily = GoogleFont(name = "Oswald")
-val AppTypography = Typography(
-    // Usa la familia de fuentes para el cuerpo del texto
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily(
-            Font(
-                googleFont = bodyFontFamily,
-                fontProvider = provider,
-                weight = FontWeight.Bold
-            )
+val titleFontFamily = GoogleFont("Merriweather")
 
-        )
-    ),
-    // Y para los títulos o display text
-    displayLarge = TextStyle(
-        fontFamily = FontFamily(
-            Font(
-                googleFont = displayFontFamily,
-                fontProvider = provider,
-                weight = FontWeight.Medium
-                ),
-            //Font(resId = R.font.roboto_bold)
-        )
-    )
-    // ... y los demás estilos de Typography
+//Definir variables para especificar familias de manera clara
+val robotoFamily = FontFamily(
+    Font(googleFont = bodyFontFamily, fontProvider = provider)
 )
+val montserratFamily = FontFamily(
+    Font(googleFont = displayFontFamily, fontProvider = provider)
+)
+val merriweatherFamily = FontFamily(
+    Font(googleFont = titleFontFamily, fontProvider = provider)
+)
+
+// Configuración de tipografía
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
+val AppTypography = Typography(
+
+    bodyMedium = TextStyle(
+        fontFamily = robotoFamily,
+        fontSize = 16.sp
+    ),
+    titleSmall = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp
+
+    ),
+    titleMedium = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 28.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 36.sp
+    ),
+
+    displayMedium = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontStyle = FontStyle.Italic,
+        fontSize = 24.sp
+    ),
+    titleMediumEmphasized = TextStyle(
+        fontFamily = merriweatherFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 24.sp
+    ),
+)
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -97,7 +123,7 @@ fun MultiidiomaTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = AppTypography,
         content = content
     )
 }

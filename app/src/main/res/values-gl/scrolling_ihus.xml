@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="paragraph_1">Este é o primeiro parágrafo de texto.Describe o inicio da historia ou a información principal que se desexa presentar.</string>
-    <string name="texto_buscado">Describe o inicio da historia</string>
-    <string name="texto_buscado2">Este  é o primeiro parágrafo</string>
-    <string name="paragraph_2"><b>A continuación, preséntase o segundo parágrafo</b>. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
-    <string name="paragraph_3">O <font color="#ff8000">terceiro e último parágrafo conclúe</font> a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
-    <string name="sin_valor">--------------</string>
     <string name="II_IHUS_miniscreen_0_paragraph0">Nun mundo marcado pola desinformación, a globalización, os conflitos xeopolíticos e o cambio climático, as Humanidades son máis necesarias que nunca. Estas buscan desenvolver na sociedade unha visión crítica e global, dándolle aos cidadáns as ferramentas para cuestionar todo o que os rodea e actuar con conciencia, para que sexan capaces de entender e transformar a súa realidade.</string>
     <string name="II_IHUS_miniscreen_1_paragraph0">As Humanidades e as novas tecnoloxías, como a intelixencia artificial, están cada vez máis interconectadas, ofrecendo os estudos humanísticos perspectivas críticas necesarias para reflexionar sobre o uso ético e social das tecnoloxías, e cuestionando como afectan aos dereitos, á identidade e á convivencia. Así, axudamos a garantir que o avance tecnolóxico sirva para promover o benestar, a igualdade e a diversidade cultural.</string>
     <string name="II_IHUS_miniscreen_1_paragraph1">Neste contexto nace o Instituto de Investigación en Humanidades da Universidade de Santiago de Compostela (iHUS), que busca dar resposta aos desafíos do presente e do futuro e crear un espazo de referencia e recoñecemento para a investigación.</string>

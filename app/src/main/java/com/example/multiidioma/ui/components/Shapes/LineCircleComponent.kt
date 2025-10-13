@@ -16,15 +16,14 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun LineCircleComponent(
     contentAlignment: Alignment = Alignment.Center,
-    color: Color = Color.White
+    color: Color = Color.White,
+    modifier: Modifier = Modifier
 ) {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = contentAlignment
     ) {
-        Column(
-            modifier = Modifier.align(contentAlignment)
-        ) {
+        Column() {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()

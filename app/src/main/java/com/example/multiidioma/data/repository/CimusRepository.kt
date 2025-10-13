@@ -38,7 +38,7 @@ class CimusRepository {
         )
     }
 
-    fun getParrafos(i: Int): MiniScreenData {
+    fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]
     }
 }

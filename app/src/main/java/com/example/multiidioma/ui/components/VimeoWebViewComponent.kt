@@ -12,7 +12,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 
 
 @Composable
-fun VimeoWebViewComponent(videoUrl: String, modifier: Modifier = Modifier,width: String,height : String) {
+fun VimeoWebViewComponent(identificador: String, modifier: Modifier = Modifier,width: String,height : String) {
     Box(modifier = Modifier){
         AndroidView(
             factory = { context ->
@@ -37,7 +37,7 @@ fun VimeoWebViewComponent(videoUrl: String, modifier: Modifier = Modifier,width:
            
             <body style="margin:0;padding:0;">
                 <iframe 
-                    src="$videoUrl" 
+                    src="https://player.vimeo.com/video/$identificador?loop=1&autoplay=1&muted=1" 
                     width="$width" 
                     height="$height" 
                     frameborder="0" 
