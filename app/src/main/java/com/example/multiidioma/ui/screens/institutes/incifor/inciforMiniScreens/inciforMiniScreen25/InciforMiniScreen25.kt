@@ -19,14 +19,8 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 fun InciforMiniScreen25(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
-    listState: LazyListState,
-    itemIndex: Int
-) {
-    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
 
-    val offset = itemInfo?.let {
-        it.offset - listState.firstVisibleItemScrollOffset
-    } ?: 0
+) {
 
     Box(
         modifier = modifier
@@ -36,7 +30,7 @@ fun InciforMiniScreen25(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.40f, Box3 = 0.15f),
             data = data,
-            Box1 = { contentInciforMiniScreen25Box1(offset, listState, itemIndex) },
+            Box1 = { contentInciforMiniScreen25Box1()},
             Box2 = { contentInciforMiniScreen25Box2(it) },
             Box3 = { contentInciforMiniScreen25Box3() }
         )

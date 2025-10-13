@@ -9,6 +9,7 @@ import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
@@ -19,7 +20,7 @@ fun LottieScrollWithOffsetComponent(
     debuxoLottie: Int,
     listState: LazyListState,
     itemIndex: Int,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     val composition by rememberLottieComposition(
         LottieCompositionSpec.RawRes(debuxoLottie)
@@ -59,7 +60,8 @@ fun LottieScrollWithOffsetComponent(
             progress = { scrollProgress },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(250.dp)
+                .height(250.dp),
+
         )
     }
 }

@@ -3,18 +3,14 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.R
-import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
+import com.example.multiidioma.ui.components.GifComponent
 
 @Composable
 fun contentInciforMiniScreen25Box1(
-    offset: Int,
-    listState: LazyListState,
-    itemIndex: Int
 ) {
     Column(
         modifier = Modifier
@@ -23,12 +19,6 @@ fun contentInciforMiniScreen25Box1(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        LottieScrollWithOffsetComponent(
-            debuxoLottie = R.raw.incifor_anim_06,
-            listState = listState,
-            itemIndex = itemIndex,
-            modifier = Modifier.align(Alignment.CenterHorizontally)
-        )
-
+        GifComponent(gif = R.raw.incifor_anim_pantalla_embajadores)
     }
 }

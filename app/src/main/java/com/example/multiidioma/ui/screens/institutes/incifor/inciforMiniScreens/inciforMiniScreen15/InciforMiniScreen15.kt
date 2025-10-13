@@ -9,6 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen15.contentInciforMiniScreen15.contentInciforMiniScreen15BodyText
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen15.contentInciforMiniScreen15.contentInciforMiniScreen15CircleImage
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen15.contentInciforMiniScreen15.contentInciforMiniScreen15TitleText
@@ -25,6 +26,12 @@ fun InciforMiniScreen15(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+        ) {
+            VimeoWebViewComponent(identificador = "1124127747", width = "425px", height = "800px")
+        }
         TemplateCircleScreen(
             navController = navController,
             data = data,

@@ -237,8 +237,6 @@ fun InciforScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                            listState = listState,
-                            itemIndex = index
                         )
 
                         26 -> InciforMiniScreen26(
@@ -249,6 +247,7 @@ fun InciforScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         28 -> InciforMiniScreen28(
                             data,
                             Modifier

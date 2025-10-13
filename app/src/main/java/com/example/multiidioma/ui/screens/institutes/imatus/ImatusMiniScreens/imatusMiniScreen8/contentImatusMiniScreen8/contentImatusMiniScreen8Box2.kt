@@ -38,7 +38,7 @@ fun contentImatusMiniScreen8Box2(
                 .fillMaxWidth()
                 .weight(0.5f)
         ) {
-            LottieScrollWithOffsetComponent(R.raw.figuritas, listState, itemIndex)
+            LottieScrollWithOffsetComponent(R.raw.imatus_anim_01, listState, itemIndex)
         }
         SpacerText()
         Box(

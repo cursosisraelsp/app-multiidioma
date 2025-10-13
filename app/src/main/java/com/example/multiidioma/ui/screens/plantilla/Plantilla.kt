@@ -44,6 +44,7 @@ fun Plantilla(centro: String,itemId : String,navController: NavController){
             val itemIdInt = itemId.toInt()
             val datos = (uiState as PlantillaState.Success).infoResearchers[itemIdInt]
             if(datos != null){
+
                 PersonalTemplateScreen(infoResearchers = datos, navController = navController)
             }else{
                 Text("Falta información de usuario")

@@ -65,7 +65,6 @@ import com.example.multiidioma.utils.TextTitleMedium
                 )
             }
         }
-
         // Contenido principal
         Column(
             modifier = Modifier
@@ -116,8 +115,6 @@ import com.example.multiidioma.utils.TextTitleMedium
                     }
                 }
             }
-
-
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -148,8 +145,6 @@ import com.example.multiidioma.utils.TextTitleMedium
                         fontWeight = FontWeight.Black
                     )
                 }
-
-
             }
         }
     }

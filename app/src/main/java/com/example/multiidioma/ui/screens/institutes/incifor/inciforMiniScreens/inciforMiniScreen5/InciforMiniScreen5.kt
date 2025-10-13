@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5
+    package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5
 
 import android.os.Build
 import androidx.annotation.RequiresApi

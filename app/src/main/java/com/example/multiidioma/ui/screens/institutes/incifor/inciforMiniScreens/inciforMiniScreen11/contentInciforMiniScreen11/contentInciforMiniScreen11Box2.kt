@@ -62,7 +62,7 @@ fun contentInciforMiniScreen11Box2(
             SpacerText()
 
             LottieScrollWithOffsetComponent(
-                debuxoLottie = R.raw.incifor_anim_06,
+                debuxoLottie = R.raw.incifor_anim_pantalla_embajadores,
                 listState = listState,
                 itemIndex = itemIndex,
                 modifier = Modifier

@@ -40,12 +40,7 @@ fun InciforMiniScreen0(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            VideoScreen(
-                videoId = "ut_8lkPwRU4", // tu ID de video
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+      VimeoWebViewComponent(identificador = "1124127714", width = "425px", height = "800px")
 
         }
         TemplateScreen(
