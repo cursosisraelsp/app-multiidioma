@@ -10,6 +10,7 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
 import com.example.multiidioma.ui.components.Templates.LazyRowTemplateScreen
+import com.example.multiidioma.ui.components.Templates.LazyRowTemplateScreenFER_AND
 import com.example.multiidioma.ui.screens.institutes.ilg.ihusMiniScreens.ilgMiniScreen12.contentIlgMiniScreen.contentSecondDirectiveImageMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.ilg.ilgMiniScreens.ilgMiniScreen15.contentIlgMiniScreen.contentFirstDirectiveImageMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.ilg.ilgMiniScreens.ilgMiniScreen15.contentIlgMiniScreen.contentFirstDirectiveTextDescriptionMiniScreen15
@@ -28,7 +29,7 @@ fun IlgMiniScreen15(
             .fillMaxSize()
             .background(Color(0xFF32627E))
     ) {
-        LazyRowTemplateScreen(
+        LazyRowTemplateScreenFER_AND(
             data = data,
             navController = navController,
             podcasts = podcasts,

@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
-import com.example.multiidioma.ui.components.Templates.LazyRowTemplateScreen
+import com.example.multiidioma.ui.components.Templates.LazyRowTemplateScreenFER_AND
 import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen17.contentIdisMiniScreen.contentFirstDirectiveImageMiniScreen17
 import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen17.contentIdisMiniScreen.contentFirstDirectiveTextDescriptionMiniScreen17
 import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen17.contentIdisMiniScreen.contentSecondDirectiveTextDescriptionMiniScreen17
@@ -28,7 +28,7 @@ fun IdisMiniScreen17(
             .fillMaxSize()
             .background(Color(0xFF32627E))
     ) {
-        LazyRowTemplateScreen(
+        LazyRowTemplateScreenFER_AND(
             data = data,
             navController = navController,
             podcasts = podcasts,
