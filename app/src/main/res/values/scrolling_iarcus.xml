@@ -1,0 +1,226 @@
+<resources>
+    <!-- PANTALLA 0 -->
+    <string name="II_IARCUS_miniscreen_0_paragraph_0">Earth is first and foremost the blue planet.</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_0">blue planet</string>
+    <string name="II_IARCUS_miniscreen_0_paragraph_1">Water covers 70% of our world\'s surface and, of this total water surface, freshwater accounts for only 2.5%, making it one of the planet\'s most precious resources.</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_1">Water covers 70% of our world\'s surface</string>
+    <string name="II_IARCUS_miniscreen_0_paragraph_2">The aquatic environment is a key component of global ecosystems and an essential source of food, biodiversity and economic resources. It is estimated to be the habitat of more than 70% of all life forms. It generates half of the oxygen we consume and absorbs a quarter of all CO2 emissions. Its degradation directly impacts human, animal and environmental health, and influences the spread of diseases and pollutants.</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_2">Its degradation directly impacts human, animal and environmental health</string>
+    <!-- PANTALLA 1 -->
+    <string name="II_IARCUS_miniscreen_1_paragraph_0">In this context, the One Health approach recognizes the interdependence between these three levels of health. Applying it to the aquatic environment allows for the design of integrated strategies for risk surveillance, prevention, and management. This promotes sustainable management that protects both public health and the health of the planet.</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_0">One Health approach</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_1">sustainable management</string>
+    <string name="II_IARCUS_miniscreen_1_paragraph_1">With the aim of researching and developing solutions to the problems of sustainability of the aquatic environment, its relationship and interaction with living beings and its influence on human health, iARCUS was created. One of the research institutes that form part of the University of Santiago de Compostela.</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_2">researching and developing solutions to the problems of sustainability of the aquatic environment</string>
+    <!-- PANTALLA 2 -->
+    <string name="II_IARCUS_miniscreen_2_paragraph_0">iARCUS is the Institute for Aquatic Environmental Research for Global Health. Originally founded in 1997 as the Institute of Aquaculture, it changed its name in 2024 after integrating researchers from the former Institute for Research in Chemical and Biological Analysis (IAQBUS) and others not attached to any centre and expanding its scientific agenda, objectives and lines of research. Its headquarters are located in the Campus Vida of the Galician capital, although it has researchers in other campuses of the USC.</string>
+    <string name="II_IARCUS_miniscreen_2_texto_buscado_0">Institute for Aquatic Environmental Research for Global Health</string>
+    <string name="II_IARCUS_miniscreen_2_texto_buscado_1">the Campus Vida of the Galician capital</string>
+    <!-- PANTALLA 3 -->
+    <string name="II_IARCUS_miniscreen_3_paragraph_0">Since its creation, the institute has focused on sustainability, dedicating itself to improving aquaculture production of fish, molluscs and crustaceans, researching pollution of the aquatic environment and its impact on human health, and improving technology and knowledge transfer to society, focusing on training for adaptation to climate change and on the importance of respect for the natural environment.</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_0">aquaculture production of fish</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_1">researching pollution of the aquatic environment and its impact on human health</string>
+    <string name="II_IARCUS_miniscreen_3_paragraph_1">Its current strategy is part of the ‘One Health’ action framework. This line of action promotes actions that work together to care for environmental, animal and human health.</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_2">‘One Health’ action</string>
+    <!-- PANTALLA 4 -->
+    <string name="II_IARCUS_miniscreen_4_paragraph_0">iARCUS has set itself five key objectives to become a scientific benchmark committed to society, strengthening a culture in which research, knowledge transfer and dissemination go hand in hand with excellent, multidisciplinary and competitive science.</string>
+    <string name="II_IARCUS_miniscreen_4_texto_buscado_0">five key objectives to become a scientific benchmark committed to society</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_1">Organize iARCUS as an Institute with a culture of research, transfer, and dissemination.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_2">Create multidisciplinary and competitive science of excellence.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_3">Contribute knowledge to create new generations of scientists, supporting their professional development.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_4">Contribute to solving the challenges of 21st-century society.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_5">Involve society in scientific advances by promoting open science.</string>
+    <!-- PANTALLA 5 -->
+    <string name="II_IARCUS_miniscreen_5_paragraph_0">At the same time, it seeks to train new generations of scientists, face the great challenges of the 21st century through research and open up science to the public, actively involving them in its advances.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_0">seeks to train new generations of scientists</string>
+    <string name="II_IARCUS_miniscreen_5_paragraph_1">In order to achieve the proposed objectives, strategic R&amp;D&amp;I priorities have been established focusing on the sustainable production of aquatic animals, the monitoring of the quality of the aquatic environment and its impact on health, food safety and traceability, the use of fish as biomedical models, and the development of analytical methodologies.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_1">strategic R&amp;D&amp;I priorities</string>
+    <string name="II_IARCUS_miniscreen_5_paragraph_2">In a cross-cutting manner, education in resilience and knowledge of the environment is promoted as a fundamental axis for tackling environmental and health challenges.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_2">education in resilience and knowledge of the environment</string>
+    <!-- PANTALLA 6 -->
+    <string name="II_IARCUS_miniscreen_6_paragraph_0">The institute has a team of more than 100 people, with an equal distribution in terms of gender. Of the total, more than 40 belong to the associated staff (approx. 50% women), together with postdoctoral researchers, trainees and technicians. They are organised into 11 specialised groups and 6 research teams.</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_0">more than 100 people</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_1">11 specialised groups and 6 research teams</string>
+    <string name="II_IARCUS_miniscreen_6_paragraph_1">Since its inauguration, it has registered a total of 26 patents and is currently involved in more than 30 projects. They have close collaboration with renowned international institutions, including CIIMAR (Portugal), CNRS (France) and DTU (Denmark), as well as strategic platforms such as the European Marine Board.</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_2">26 patents and is currently involved in more than 30 projects</string>
+    <!-- PANTALLA 7 -->
+    <string name="II_IARCUS_miniscreen_7_paragraph_0">iARCUS works around 3 strategic axes and one that acts transversally.</string>
+    <string name="II_IARCUS_miniscreen_7_texto_buscado_0">3 strategic axes</string>
+    <string name="II_IARCUS_miniscreen_7_paragraph_1">These axes are intended as a great opportunity to organise, adapt and coordinate with the different areas of knowledge and the current and future challenges in research, development and innovation in the aquatic world. These axes correspond to the three pillars that form the One Health triad.</string>
+    <string name="II_IARCUS_miniscreen_7_texto_buscado_1">organise, adapt and coordinate with the different areas of knowledge</string>
+    <!-- PANTALLA 8 -->
+    <string name="II_IARCUS_miniscreen_8_title_0">WATER AND ANIMAL HEALTH (axis 1)</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_0">It focuses on sustainable aquaculture through the prevention and control of diseases in aquatic animals. It addresses pathology, water quality, traceability and food safety, promoting practices that ensure the health and sustainability of the sector.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_1">Within this axis we find different research groups that are working on the parameters.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_2">ACUIBIOMOL: Molecular and developmental biology in aquaculture</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_0">ACUIBIOMOL: Molecular and developmental biology in aquaculture</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_3">The genes that regulate the development, metamorphosis and reproductive cycle of bivalve molluscs are studied in order to improve their cultivation in marine environments.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_4">DITAPREIN: Biotechnology for the diagnosis, treatment and prevention of infectious diseases</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_1">DITAPREIN: Biotechnology for the diagnosis, treatment and prevention of infectious diseases</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_5">Research focuses on creating vaccines, new treatments against microbes and studying bacteria that affect food. It also works with useful substances from the sea, cultivates microalgae in a controlled way and uses aquaculture waste to obtain beneficial products.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_6">GIPA: Research Group in Aquaculture Pathology</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_2">GIPA: Research Group in Aquaculture Pathology</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_7">They investigate diseases caused by bacteria and viruses in aquaculture animals. They develop ways to detect and prevent these diseases, and study how they are transmitted and affect molluscs, using genetic and molecular tools.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_8">NEURODEVO: Development and regeneration of the nervous system of fish</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_3">NEURODEVO: Development and regeneration of the nervous system of fish</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_9">They study how the nervous system of fish develops and organises itself, how it regenerates after injury, including the retina, and how biological rhythms influence the formation of new neurons.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_10">PARAQUASIL: Interdisciplinary Group in Pharmaceutical Technology, Parasitic Immunobiology and Waterborne Parasitosis</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_4">PARAQUASIL: Interdisciplinary Group in Pharmaceutical Technology, Parasitic Immunobiology and Waterborne Parasitosis</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_11">Research is carried out on the transmission of protozoa through water and food, and treatments with cyclodextrins and controlled release systems are developed. We also study diseases and immunology in fish to develop effective vaccines.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_12">SISMOL: Molecular Systematics</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_5">SISMOL: Molecular Systematics</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_13">Species identification by mitochondrial DNA techniques, alternative marine cultures, stress, immunity and its regulation and gene expression are studied.</string>
+    <!-- PANTALLA 9 -->
+    <string name="II_IARCUS_miniscreen_9_title_0">WATER AND ENVIRONMENTAL (axis 2)</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_0">Addresses the effects of chemical pollution in the aquatic environment and its impact on animal and human health. It promotes the analysis and control of pollutants to protect ecosystems and health.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_1">Around this axis we find several research groups whose research focuses on water and environmental health.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_2">ChromChem: Chromatography and Chemometrics</string>
+    <string name="II_IARCUS_miniscreen_9_texto_buscado_0">ChromChem: Chromatography and Chemometrics</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_3">Advanced methods are being developed to detect contaminants, optimise the analysis of samples and apply artificial intelligence in analytical chemistry.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_4">Analytical Chemistry-Lugo</string>
+    <string name="II_IARCUS_miniscreen_9_texto_buscado_1">Analytical Chemistry-Lugo</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_5">Advanced methods are studied to analyse agri-food products and wines from Galicia, focusing on the polyphenolic profile and its effect on health. Techniques are also being developed to detect metals, drugs and toxins in food and marine samples, improving environmental control and food quality.</string>
+    <!-- PANTALLA 10 -->
+    <string name="II_IARCUS_miniscreen_10_title_0">WATER AND HUMAN HEALTH (axis 3)</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_0">Analyses how water pollution affects our health, the use of animals to understand diseases, the transmission of diseases between animals and humans (zoonoses), and the impact of certain natural or chemical substances on the human body.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_1">A research group actively working in this area participates in this axis.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_2">LREC: Escherichia coli reference laboratory</string>
+    <string name="II_IARCUS_miniscreen_10_texto_buscado_0">LREC: Escherichia coli reference laboratory</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_3">The laboratory specialises in the detection and molecular typing of different pathogenic strains of E. coli in food and clinical samples, including verotoxigenic and extraintestinal serotypes. They study pathogenesis, epidemiology and genetic resistance, developing advanced analytical methods and vaccines for colibacillosis.</string>
+    <!-- PANTALLA 11 -->
+    <string name="II_IARCUS_miniscreen_11_title_0">EDUCATION IN RESILIENCE AND SUSTAINABILITY (transversal axis)</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_0">Promotes the formation of people and communities capable of adapting to environmental and social changes, promoting sustainable and responsible practices with the environment.</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_1">SEPA-Interdisciplinary: Social Pedagogy and Environmental Education</string>
+    <string name="II_IARCUS_miniscreen_11_texto_buscado_0">SEPA-Interdisciplinary: Social Pedagogy and Environmental Education</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_2">Environmental, social and community education is studied, as well as cultural policies in local government. In addition, the educational system in Galicia is analysed, as well as social perceptions on environmental education.</string>
+    <!-- PANTALLA 12 -->
+    <string name="II_IARCUS_miniscreen_12_paragraph_0">The iARCUS offers courses and training pills aimed at business professionals, freelancers and government technicians. Its mission is to transmit to society all the knowledge acquired throughout the research experience.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_0">transmit to society all the knowledge acquired</string>
+    <string name="II_IARCUS_miniscreen_12_paragraph_1">The iARCUS Institute offers advanced scientific services to analyse substances and microorganisms in environmental, food or biological samples. For example, they detect more than 50 different pesticides in wine, grapes or agricultural soils, as well as drug and medicine residues in wastewater. They also identify bacteria such as Listeria or Salmonella in food, viruses such as VHSV or KHV in fish, and parasites in molluscs such as Bonamia ostreae.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_1">offers advanced scientific services to analyse substances and microorganisms in environmental, food or biological samples</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_2">identify bacteria</string>
+    <string name="II_IARCUS_miniscreen_12_paragraph_2">In addition, they offer access to equipment such as digital PCR or ultracentrifuges for specialised research. All services can be tailored to the specific needs of the client.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_3">access to equipment such as digital PCR or ultracentrifuges for specialised research</string>
+    <!-- PANTALLA 13 -->
+    <string name="II_IARCUS_miniscreen_13_paragraph_0">Patents focus on biotechnological solutions for aquaculture and animal health. They include methods to detect and control bacterial infections in fish, the development of specific vaccines, the use of marine probiotics and strategies to improve the quality of aquatic products.</string>
+    <string name="II_IARCUS_miniscreen_13_texto_buscado_0">Patents focus on biotechnological solutions</string>
+    <!-- PANTALLA 14 -->
+    <string name="II_IARCUS_miniscreen_14_paragraph_0">They also cover innovations in the analysis of canned species and the improvement of microalgae cultures.</string>
+    <string name="II_IARCUS_miniscreen_14_paragraph_1">Patents such as the quorum sensing inhibitor peptide are considered innovations with the potential to impact aquaculture internationally.</string>
+    <string name="II_IARCUS_miniscreen_14_texto_buscado_0">quorum sensing inhibitor peptide</string>
+    <!-- PANTALLA 15 -->
+    <string name="II_IARCUS_miniscreen_15_title_0">TALENT AMBASSADORS</string>
+    <!-- PANTALLA 16 -->
+    <string name="II_IARCUS_miniscreen_16_title_0">MANAGEMENT TEAM</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_0">Carlos Pereira Dopazo</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_1">José Benito Quintana Álvarez</string>
+    <string name="II_IARCUS_miniscreen_16_title_1">RESEARCH STAFF</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_2">María Isabel Bandín Matos</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_3">Antón Barreiro Iglesias</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_4">José Manuel Leiro Vidal</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_5">Beatriz Magariños Ferro</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_6">Pablo Meira Cartea</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_7">Azucena Mora Gutiérrez</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_8">Ana María Otero Casal</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_9">Mª del Rosario Rodil Rodríguez</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_10">Isaac Rodríguez Pereiro</string>
+    <!-- PANTALLA 17 -->
+    <string name="II_IARCUS_miniscreen_17_title_0">CARLOS PEREIRA DOPAZO</string>
+    <string name="II_IARCUS_miniscreen_17_texto_buscado_0">CARLOS PEREIRA DOPAZO</string>
+    <string name="II_IARCUS_miniscreen_17_title_1">Director. Professor of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_17_texto_buscado_1">Director. Professor of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_0">PhD in Microbiology from the USC. Author of more than a hundred scientific publications, he has been principal investigator in more than 20 research projects.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_1">He was coordinator of the Galician Network of Biotechnology in Aquaculture (REGABA), coordinator of the International Network of Lower Vertebrate Viruses (INVLV), and in the official inter-university master\'s degree in Aquaculture in Galicia. He currently coordinates the state network EpiMar.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_2">His lines of research focus on the epidemiology, prevention and control of viral diseases in aquaculture and in the natural aquatic environment.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_3">Development of advanced diagnostic methods and evaluation of substances with potential antiviral activity.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_4">Water and Animal Health and 3. Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_5">MORE INFO: https://investigacion.usc.gal/investigadores/59880/detalle?lang=es</string>
+    <!-- PANTALLA 18 -->
+    <string name="II_IARCUS_miniscreen_18_title_0">JOSÉ BENITO QUINTANA ÁLVAREZ</string>
+    <string name="II_IARCUS_miniscreen_18_texto_buscado_0">JOSÉ BENITO QUINTANA ÁLVAREZ</string>
+    <string name="II_IARCUS_miniscreen_18_title_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_18_texto_buscado_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_0">He researches the development of analytical methods to detect organic pollutants and biomarkers, and studies their impact on environmental and human health. He also analyses wastewater to obtain epidemiological information through chemical biomarkers of substance abuse or human exposure to chemical pollutants.</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_1">Water and Environmental Health and 3. Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60011/detalle?lang=es</string>
+    <!-- PANTALLA 19 -->
+    <string name="II_IARCUS_miniscreen_19_title_0">MARÍA ISABEL BANDÍN MATOS</string>
+    <string name="II_IARCUS_miniscreen_19_texto_buscado_0">MARÍA ISABEL BANDÍN MATOS</string>
+    <string name="II_IARCUS_miniscreen_19_title_1">Senior Lecturer of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_19_texto_buscado_1">Senior Lecturer of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_0">She focuses her research on the characterisation of virulence factors of pathogenic viruses in fish, with the aim of developing vaccines and preventive measures for aquaculture. It also evaluates bioactive substances with antiviral potential and studies their mechanisms of action. In addition, he conducts epidemiological studies in aquatic animals and in the natural environment to prevent new diseases.</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_1">Due to its experience, it is included in Axis 1. Water and Animal Health and Axis 3. Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58309/detalle?lang=es</string>
+    <!-- PANTALLA 20 -->
+    <string name="II_IARCUS_miniscreen_20_title_0">ANTÓN BARREIRO IGLESIAS</string>
+    <string name="II_IARCUS_miniscreen_20_texto_buscado_0">ANTÓN BARREIRO IGLESIAS</string>
+    <string name="II_IARCUS_miniscreen_20_title_1">Senior Lecturer of Cell Biology at the University</string>
+    <string name="II_IARCUS_miniscreen_20_texto_buscado_1">Senior Lecturer of Cell Biology at the University</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_0">He researches the use of fish as models in neurobiology and biomedicine, focusing on spinal cord injuries in the search for drugs that promote neuronal regeneration. He also studies the development of the nervous system and creates models of neurodegenerative diseases such as ataxias and diabetic retinopathy.</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_1">His research focuses on Axis 3: Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/58336/detalle?lang=es</string>
+    <!-- PANTALLA 21 -->
+    <string name="II_IARCUS_miniscreen_21_title_0">JOSÉ MANUEL LEIRO VIDAL</string>
+    <string name="II_IARCUS_miniscreen_21_texto_buscado_0">JOSÉ MANUEL LEIRO VIDAL</string>
+    <string name="II_IARCUS_miniscreen_21_title_1">Professor in the Area of Parasitology</string>
+    <string name="II_IARCUS_miniscreen_21_texto_buscado_1">Professor in the Area of Parasitology</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_0">Dr. Leiro researches how the immune system of fish and molluscs responds to infections by protozoan parasites, studying the interaction between the parasite and the host, as well as the diagnosis and control of these diseases.</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_1">Water and Animal Health and 2. Water and Environmental Health of the Institute.</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/59388/detalle?lang=es</string>
+    <!-- PANTALLA 22 -->
+    <string name="II_IARCUS_miniscreen_22_title_0">BEATRIZ MAGARIÑOS FERRO</string>
+    <string name="II_IARCUS_miniscreen_22_texto_buscado_0">BEATRIZ MAGARIÑOS FERRO</string>
+    <string name="II_IARCUS_miniscreen_22_title_1">Professor in the Area of Microbiology</string>
+    <string name="II_IARCUS_miniscreen_22_texto_buscado_1">Professor in the Area of Microbiology</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_0">Her lines of research focus on creating diagnostic methods to prevent bacterial diseases in freshwater and marine fish, and on developing vaccines to protect them from these diseases in aquaculture.</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_1">This research falls under Axis 1: Water and Animal Health.</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/59539/detalle?lang=es</string>
+    <!-- PANTALLA 23 -->
+    <string name="II_IARCUS_miniscreen_23_title_0">PABLO MEIRA CARTEA</string>
+    <string name="II_IARCUS_miniscreen_23_texto_buscado_0">PABLO MEIRA CARTEA</string>
+    <string name="II_IARCUS_miniscreen_23_title_1">Senior Lecturer at the University in the Area of Theory and History of Education</string>
+    <string name="II_IARCUS_miniscreen_23_texto_buscado_1">Senior Lecturer at the University in the Area of Theory and History of Education</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_0">His research focuses on the study of the theoretical and methodological bases of Environmental Education and Communication, designing and evaluating policies and programmes on climate change and its socio-environmental problems.</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_1">It works on the design and experimentation of innovative educational resources to promote the transition towards more sustainable societies with the participation of different social groups.</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_2">It is part of the Transversal Axis. Education in resilience and sustainability.</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/59631/detalle?lang=es</string>
+    <!-- PANTALLA 24 -->
+    <string name="II_IARCUS_miniscreen_24_title_0">AZUCENA MORA GUTIÉRREZ</string>
+    <string name="II_IARCUS_miniscreen_24_texto_buscado_0">AZUCENA MORA GUTIÉRREZ</string>
+    <string name="II_IARCUS_miniscreen_24_title_1">Professor in the Area of Microbiology</string>
+    <string name="II_IARCUS_miniscreen_24_texto_buscado_1">Professor in the Area of Microbiology</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_0">Dr. Mora leads the Food Safety and Antibiotic Resistance line from a "One Health" perspective.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_1">She directs the Diagnostic and Advisory Service related to microbiological techniques to study pathogenic strains of E. coli and coordinates projects that seek to identify bio-indicators, including the aquatic environment, to monitor and control antibiotic resistance.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_2">She is also a member of the Scientific Committee of the Spanish Agency for Food Safety and Nutrition.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_3">Her experience is mainly focused on Axis 2: Water and environmental health and Axis 3: Water and human health.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_4">MORE INFO: http://investigacion.usc.gal/investigadores/59695/detalle?lang=es</string>
+    <!-- PANTALLA 25 -->
+    <string name="II_IARCUS_miniscreen_25_title_0">ANA MARÍA OTERO CASAL</string>
+    <string name="II_IARCUS_miniscreen_25_texto_buscado_0">ANA MARÍA OTERO CASAL</string>
+    <string name="II_IARCUS_miniscreen_25_title_1">Professor of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_25_texto_buscado_1">Professor of Microbiology at the University</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_0">Her research focuses on two main complementary lines of research. On the one hand, she develops new strategies to combat bacterial pathogens that affect both animal and human health. On the other hand, he works in the field of biotechnology of photosynthetic microorganisms, improving the nutritional profile of microalgae for aquaculture, producing useful compounds and applying them in environmental treatments.</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_1">His group maintains multiple collaborations with other fields of environmental biotechnology (biodegradation of plastics), materials science, food safety and clinical microbiology.</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_2">They focus on Axis 1: Water and Animal Health and Axis 3: Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_3">MORE INFO: https://investigacion.usc.gal/investigadores/59797/detalle?lang=es</string>
+    <!-- PANTALLA 26 -->
+    <string name="II_IARCUS_miniscreen_26_title_0">Mª DEL ROSARIO RODIL RODRÍGUEZ</string>
+    <string name="II_IARCUS_miniscreen_26_texto_buscado_0">Mª DEL ROSARIO RODIL RODRÍGUEZ</string>
+    <string name="II_IARCUS_miniscreen_26_title_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_26_texto_buscado_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_0">Her research is based on the development of analytical methods to detect organic pollutants and their metabolites in different environments (such as water and living organisms), and applies these methods to study their impact on environmental and human health.</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_1">Water and Environmental Health and 3. Water and Human Health.</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60114/detalle?lang=es</string>
+    <!-- PANTALLA 27 -->
+    <string name="II_IARCUS_miniscreen_27_title_0">ISAAC RODRÍGUEZ PEREIRO</string>
+    <string name="II_IARCUS_miniscreen_27_texto_buscado_0">ISAAC RODRÍGUEZ PEREIRO</string>
+    <string name="II_IARCUS_miniscreen_27_title_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_27_texto_buscado_1">Professor in the Area of Analytical Chemistry</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_0">He develops analytical methods to detect organic pollutants in the environment and in plant foods. With these methods he studies their behaviour, persistence, transformation, elimination and risks to health and the environment. It also researches bioactive compounds in agricultural by-products.</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_1">Water and environmental health and 3. Water and human health.</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60197/detalle?lang=es</string>
+    <!-- PANTALLA 28 -->
+    <string name="II_IARCUS_miniscreen_28_paragraph_0">If you are interested in learning more about this institute, you can access more information by clicking on the following link:</string>
+    <string name="II_IARCUS_miniscreen_28_texto_buscado_0">learning more</string>
+    <string name="II_IARCUS_miniscreen_28_title_0">https://arcus.usc.gal/</string>
+</resources>

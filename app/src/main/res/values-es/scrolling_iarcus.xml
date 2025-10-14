@@ -1,0 +1,226 @@
+<resources>
+    <!-- PANTALLA 1 -->
+    <string name="II_IARCUS_miniscreen_0_paragraph_0">La Tierra es, ante todo, el planeta azul.</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_0">planeta azul</string>
+    <string name="II_IARCUS_miniscreen_0_paragraph_1">El agua cubre el 70% de la superficie de nuestro mundo y, de ese total de superficie acuática, el agua dulce representa tan sólo un 2,5 %, lo que la convierte en uno de los recursos más preciado del planeta.</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_1">El agua cubre el 70% de la superficie de nuestro mundo</string>
+    <string name="II_IARCUS_miniscreen_0_paragraph_2">El medio acuático es un componente clave de los ecosistemas globales y fuente esencial de alimentación, biodiversidad y recursos económicos. Se estima que es el hábitat de más del 70% de todas las formas de vida que existen. Genera la mitad del oxígeno que consumimos y absorbe un cuarto de todas las emisiones de CO2. Su degradación impacta directamente en la salud humana, animal y ambiental, e influye en la propagación de enfermedades y contaminantes. "</string>
+    <string name="II_IARCUS_miniscreen_0_texto_buscado_2">Su degradación impacta directamente en la salud humana, animal y ambiental</string>
+    <!-- PANTALLA 2 -->
+    <string name="II_IARCUS_miniscreen_1_paragraph_0">En este contexto, el enfoque One Health reconoce la interdependencia entre estos tres niveles de salud. Aplicarlo al medio acuático permite diseñar estrategias integradas para la vigilancia, prevención y gestión de riesgos. Así, se promueve una gestión sostenible que protege tanto la salud pública como la del planeta.</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_0">enfoque One Health</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_1">gestión sostenible</string>
+    <string name="II_IARCUS_miniscreen_1_paragraph_1">Con el objetivo de investigar y desarrollar soluciones a los problemas de sostenibilidad del medio acuático, su relación e interacción con los seres vivos y su influencia en la salud humana, se crea el iARCUS. Uno de los institutos de Investigación que forman parte de la Universidad de Santiago de Compostela.</string>
+    <string name="II_IARCUS_miniscreen_1_texto_buscado_2">investigar y desarrollar soluciones a los problemas de sostenibilidad del medio acuático</string>
+    <!-- PANTALLA 3 -->
+    <string name="II_IARCUS_miniscreen_2_paragraph_0">El iARCUS es el Instituto de Investigación del Medio Acuático para Una Salud Global. Fundado originalmente en 1997 como Instituto de Acuicultura, cambió su denominación en 2024 tras integrar a investigadores del antiguo Instituto de Investigación en Análisis Químicos y Biológicos (IAQBUS) y otros no adscritos a ningún centro y ampliar su agenda científica, objetivos y líneas de investigación Su sede se encuentra en el Campus Vida de la capital gallega aunque cuenta con investigadores en otros campus de la USC.</string>
+    <string name="II_IARCUS_miniscreen_2_texto_buscado_0">Instituto de Investigación del Medio Acuático para una Salud Global.</string>
+    <string name="II_IARCUS_miniscreen_2_texto_buscado_1">Campus Vida de la capital gallega</string>
+    <!-- PANTALLA 4 -->
+    <string name="II_IARCUS_miniscreen_3_paragraph_0">Desde su creación el instituto se ha enfocado en la sostenibilidad, dedicándose a mejorar la producción acuícola de peces, moluscos y crustáceos, investigar la contaminación del medio acuático y su impacto en la salud humana, y mejorar la transferencia tecnológica y de conocimiento a la Sociedad, incidiendo en la formación para la adaptación al cambio climático y sobre la importancia del respeto al medio ambiente natural.</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_0">mejorar la producción acuícola</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_1">investigar la contaminación del medio acuático y su impacto en la salud humana</string>
+    <string name="II_IARCUS_miniscreen_3_paragraph_1">Su estrategia actual se encuadra dentro del marco de acción “One Health”. Esta línea de actuación promueve acciones que trabajen de forma conjunta para cuidar la salud ambiental, animal y humana.</string>
+    <string name="II_IARCUS_miniscreen_3_texto_buscado_2">acción “One Health”</string>
+    <!-- PANTALLA 5 -->
+    <string name="II_IARCUS_miniscreen_4_paragraph_0">iARCUS se ha propuesto cinco objetivos clave para convertirse en un referente científico comprometido con la sociedad, fortaleciendo una cultura en la que la investigación, la transferencia de conocimiento y la divulgación vayan de la mano con una ciencia de excelencia, multidisciplinar y competitiva.</string>
+    <string name="II_IARCUS_miniscreen_4_texto_buscado_0">inco objetivos clave para convertirse en un referente científico comprometido con la sociedad</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_1">Organizar iARCUS como un Instituto con cultura de centro de investigación, transferencia y difusión.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_2">Crear ciencia de excelencia multidisciplinar y competitiva.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_3">Aportar conocimiento para crear nuevas generaciones de científicos, apoyando su desarrollo profesional.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_4">Contribuir a resolver los retos de la sociedad del siglo XXI.</string>
+    <string name="II_IARCUS_miniscreen_4_paragraph_5">Hacer partícipe a la sociedad de los avances científicos mediante el fomento de la ciencia abierta.</string>
+    <!-- PANTALLA 6 -->
+    <string name="II_IARCUS_miniscreen_5_paragraph_0">Al mismo tiempo, busca formar nuevas generaciones de científicos, afrontar los grandes retos del siglo XXI desde la investigación y abrir la ciencia a la ciudadanía, implicándola activamente en sus avances.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_0">formar nuevas generaciones de científicos</string>
+    <string name="II_IARCUS_miniscreen_5_paragraph_1">Con el fin de alcanzar los objetivos propuestos, se establecen prioridades estratégicas en I+D+i centradas en la producción sostenible de animales acuáticos, la vigilancia de la calidad del medio acuático y su impacto en la salud, la seguridad y trazabilidad alimentaria, el uso de peces como modelos biomédicos, y el desarrollo de metodologías analíticas.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_1">prioridades estratégicas en I+D+i</string>
+    <string name="II_IARCUS_miniscreen_5_paragraph_2">De forma transversal, se promueve la educación en resiliencia y el conocimiento del medio como eje fundamental para afrontar los retos ambientales y sanitarios.</string>
+    <string name="II_IARCUS_miniscreen_5_texto_buscado_2">educación en resiliencia y el conocimiento del medio</string>
+    <!-- PANTALLA 7 -->
+    <string name="II_IARCUS_miniscreen_6_paragraph_0">El instituto cuenta con un equipo de más de 100 personas, con una distribución equitativa en términos de género. Del total, más de 40 pertenecen al personal vinculado (aprox. 50% mujeres), junto con investigadores postdoctorales, personal en formación y técnicos. Todos ellos están organizados en 11 grupos especializados y 6 equipos de investigación.</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_0">más de 100 personas</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_1">11 grupos especializados y 6 equipos de investigación</string>
+    <string name="II_IARCUS_miniscreen_6_paragraph_1">Desde su inauguración, ha registrado un total de 26 patentes y actualmente participa en más de 30 proyectos. Tienen una estrecha colaboración con instituciones internacionales de renombre, entre ellas CIIMAR (Portugal), CNRS (Francia) y DTU (Dinamarca), así como con plataformas estratégicas como el European Marine Board.</string>
+    <string name="II_IARCUS_miniscreen_6_texto_buscado_2">26 patentes y actualmente participa en más de 30 proyectos</string>
+    <!-- PANTALLA 8 -->
+    <string name="II_IARCUS_miniscreen_7_paragraph_0">El iARCUS trabaja alrededor de 3 ejes estratégicos y uno que actúa de forma transversal.</string>
+    <string name="II_IARCUS_miniscreen_7_texto_buscado_0">3 ejes estratégicos</string>
+    <string name="II_IARCUS_miniscreen_7_paragraph_1">Estos ejes están pensados como una gran oportunidad para organizarse, adaptarse y coordinarse con las diferentes áreas de conocimientos y los retos actuales y futuros en investigación, desarrollo e innovación en el mundo acuático. Estos ejes corresponden a los tres pilares que forman la tríada One Health.</string>
+    <string name="II_IARCUS_miniscreen_7_texto_buscado_1">organizarse, adaptarse y coordinarse con las diferentes áreas de conocimientos</string>
+    <!-- PANTALLA 9 -->
+    <string name="II_IARCUS_miniscreen_8_title_0">AGUA Y SALUD ANIMAL (eje 1)</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_0">Se centra en la acuicultura sostenible mediante la prevención y control de enfermedades en animales acuáticos. Aborda la patología, calidad del agua, trazabilidad y seguridad alimentaria, promoviendo prácticas que aseguren la sanidad y sostenibilidad del sector.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_1">Dentro de este eje encontramos diferentes grupos de investigación que están trabajando en torno a los parámetros.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_2">ACUIBIOMOL: Biología molecular y del desarrollo en acuicultura</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_0">ACUIBIOMOL: Biología molecular y del desarrollo en acuicultura</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_3">Se estudian los genes que regulan el desarrollo, la metamorfosis y el ciclo reproductivo de moluscos bivalvos, con el fin de mejorar su cultivo en ambientes marinos.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_4">DITAPREIN: Biotecnología para el diagnóstico, tratamiento y prevención de las enfermedades infecciosas</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_1">DITAPREIN: Biotecnología para el diagnóstico, tratamiento y prevención de las enfermedades infecciosas</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_5">La investigación se enfoca en crear vacunas, nuevos tratamientos contra microbios y estudiar bacterias que afectan los alimentos. También trabaja con sustancias útiles del mar, cultiva microalgas de forma controlada y usa residuos en acuicultura para obtener productos beneficiosos.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_6">GIPA: Grupo de Investigación en Patología en Acuicultura</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_2">GIPA: Grupo de Investigación en Patología en Acuicultura</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_7">Investigan enfermedades causadas por bacterias y virus en animales de acuicultura. Desarrollan formas de detectar y prevenir estas enfermedades, y estudian cómo se transmiten y afectan a los moluscos, usando herramientas genéticas y moleculares.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_8">NEURODEVO: Desarrollo y regeneración del sistema nervioso de peces</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_3">NEURODEVO: Desarrollo y regeneración del sistema nervioso de peces</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_9">Estudian cómo se desarrolla y organiza el sistema nervioso de los peces, cómo se regenera después de lesiones, incluyendo la retina, y cómo influyen los ritmos biológicos en la formación de nuevas neuronas.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_10">PARAQUASIL: Grupo Interdisciplinar en Tecnología Farmacéutica, Inmunobiología parasitaria y Parasitosis Hídricas</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_4">PARAQUASIL: Grupo Interdisciplinar en Tecnología Farmacéutica, Inmunobiología parasitaria y Parasitosis Hídricas</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_11">Se investiga la transmisión de protozoos por agua y alimentos, y se desarrollan tratamientos con ciclodextrinas y sistemas de liberación controlada. También se estudian enfermedades y la inmunología en peces para crear vacunas eficaces.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_12">SISMOL: Sistemática Molecular</string>
+    <string name="II_IARCUS_miniscreen_8_texto_buscado_5">SISMOL: Sistemática Molecular</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_13">Se estudia la identificación de especies por técnicas de ADN mitocondrial, los cultivos marinos alternativos, el estrés, la inmunidad y su regulación y expresión génica.</string>
+    <!-- PANTALLA 10 -->
+    <string name="II_IARCUS_miniscreen_9_title_0">AGUA Y SALUD AMBIENTAL (eje 2)</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_0">Aborda los efectos de la contaminación química en el medio acuático y su impacto en la salud animal y humana. Promueve el análisis y control de contaminantes para proteger los ecosistemas y la salud.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_1">"En torno a este eje encontramos varios grupos de investigación que tienen su estudio enfocado en el agua y la salud ambiental. "</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_2">ChromChem: Cromatografía y Quimiometría</string>
+    <string name="II_IARCUS_miniscreen_9_texto_buscado_0">ChromChem: Cromatografía y Quimiometría</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_3">Se desarrollan métodos avanzados para detectar contaminantes, optimizar el análisis de muestras y aplicar inteligencia artificial en química analítica.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_4">Química Analítica-Lugo</string>
+    <string name="II_IARCUS_miniscreen_9_texto_buscado_1">Química Analítica-Lugo</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_5">Se estudian métodos avanzados para analizar productos agroalimentarios y vinos de Galicia, enfocándose en el perfil polifenólicos y su efecto en la salud. También se desarrollan técnicas para detectar metales, medicamentos y toxinas en alimentos y muestras marinas, mejorando el control ambiental y la calidad alimentaria.</string>
+    <!-- PANTALLA 11 -->
+    <string name="II_IARCUS_miniscreen_10_title_0">AGUA Y SALUD HUMANA (eje 3)</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_0">Analiza cómo la contaminación del agua afecta nuestra salud, el uso de animales para entender enfermedades, la transmisión de enfermedades entre animales y personas (zoonosis), y el impacto de ciertas sustancias naturales o químicas en el cuerpo humano.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_1">En este eje participa un grupo de investigación que trabaja activamente en esta temática.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_2">LREC: Laboratorio de referencia de Escherichia coli</string>
+    <string name="II_IARCUS_miniscreen_10_texto_buscado_0">LREC: Laboratorio de referencia de Escherichia coli</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_3">El laboratorio se especializa en la detección y tipado molecular de distintas cepas patógenas de E. coli en alimentos y muestras clínicas, incluyendo serotipos verotoxigénicos y extraintestinales. Estudian la patogénesis, epidemiología y resistencia genética, desarrollando métodos analíticos avanzados y vacunas para la colibacilosis.</string>
+    <!-- PANTALLA 12 -->
+    <string name="II_IARCUS_miniscreen_11_title_0">EDUCACIÓN EN RESILIENCIA Y SOSTENIBILIDAD (eje transversal)</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_0">Promueve la formación de personas y comunidades capaces de adaptarse a los cambios ambientales y sociales, fomentando prácticas sostenibles y responsables con el entorno.</string>
+    <string name="II_IARCUS_miniscreen_11_texto_buscado_0">SEPA-Interea: Pedagogía Social y Educación Ambiental</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_1">Se estudian la Educación Ambiental, Social y comunitaria, así como las políticas culturales en la Administración Local. Además, se analiza el sistema educativo en Galicia, y las percepciones sociales sobre la educación ambiental.</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_2">Se estudian la Educación Ambiental, Social y comunitaria, así como las políticas culturales en la Administración Local. Además, se analiza el sistema educativo en Galicia, y las percepciones sociales sobre la educación ambiental.</string>
+    <!-- PANTALLA 13 -->
+    <string name="II_IARCUS_miniscreen_12_paragraph_0">El iARCUS oferta cursos y píldoras de formación orientados a profesionales de empresas, autónomos y técnicos de Administración. Su misión es la de transmitir a la sociedad todo el conocimiento adquirido a lo largo de la experiencia investigadora.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_0">transmitir a la sociedad todo el conocimiento adquirido</string>
+    <string name="II_IARCUS_miniscreen_12_paragraph_1">El Instituto iARCUS ofrece servicios científicos avanzados para analizar sustancias y microorganismos en muestras ambientales, alimentarias o biológicas. Por ejemplo, detectan más de 50 pesticidas distintos en vino, uva o suelos agrícolas, así como restos de medicamentos y drogas en aguas residuales. También identifican bacterias como Listeria o Salmonella en alimentos, virus como VHSV o KHV en peces, y parásitos en moluscos como Bonamia ostreae.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_1">ofrece servicios científicos avanzados para analizar sustancias y microorganismos en muestras ambientales, alimentarias o biológicas</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_2">identifican bacterias</string>
+    <string name="II_IARCUS_miniscreen_12_paragraph_2">Además, ofrecen acceso a equipamiento como PCR digital o ultracentrífugas para investigación especializada. Todos los servicios pueden adaptarse a las necesidades concretas del cliente.</string>
+    <string name="II_IARCUS_miniscreen_12_texto_buscado_3">acceso a equipamiento como PCR digital o ultracentrífugas para investigación especializada</string>
+    <!-- PANTALLA 14 -->
+    <string name="II_IARCUS_miniscreen_13_paragraph_0">Las patentes se centran en soluciones biotecnológicas para la acuicultura y la salud animal. Incluyen métodos para detectar y controlar infecciones bacterianas en peces, el desarrollo de vacunas específicas, el uso de probióticos marinos y estrategias para mejorar la calidad de productos acuáticos.</string>
+    <string name="II_IARCUS_miniscreen_13_texto_buscado_0">Las patentes se centran en soluciones biotecnológicas</string>
+    <!-- PANTALLA 15 -->
+    <string name="II_IARCUS_miniscreen_14_paragraph_0">Además, abarcan innovaciones en el análisis de especies en conservas y la mejora de cultivos de microalgas.</string>
+    <string name="II_IARCUS_miniscreen_14_paragraph_1">"Patentes como la del péptido inhibidor de quorum sensing son consideradas innovaciones con potencial para impactar la acuicultura a nivel internacional. "</string>
+    <string name="II_IARCUS_miniscreen_14_texto_buscado_0">péptido inhibidor de quorum sensing</string>
+    <!-- PANTALLA 16 -->
+    <string name="II_IARCUS_miniscreen_15_title_0">EMBAJADORES DEL TALENTO</string>
+    <!-- PANTALLA 17 -->
+    <string name="II_IARCUS_miniscreen_16_title_0">EQUIPO DIRECTIVO</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_0">Carlos Pereira Dopazo</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_1">José Benito Quintana Álvarez</string>
+    <string name="II_IARCUS_miniscreen_16_title_1">PERSONAL INVESTIGADOR</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_2">María Isabel Bandín Matos</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_3">Antón Barreiro Iglesias</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_4">José Manuel Leiro Vidal</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_5">Beatriz Magariños Ferro</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_6">Pablo Meira Cartea</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_7">Azucena Mora Gutiérrez</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_8">Ana María Otero Casal</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_9">Mª del Rosario Rodil Rodríguez</string>
+    <string name="II_IARCUS_miniscreen_16_paragraph_10">Isaac Rodríguez Pereiro</string>
+    <!-- PANTALLA 18 -->
+    <string name="II_IARCUS_miniscreen_17_title_0">CARLOS PEREIRA DOPAZO</string>
+    <string name="II_IARCUS_miniscreen_17_texto_buscado_0">CARLOS PEREIRA DOPAZO</string>
+    <string name="II_IARCUS_miniscreen_17_title_1">Director. Profesor Titular de la Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_17_texto_buscado_1">Director. Profesor Titular de la Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_0">"Doctor en Microbiología por la USC. Autor de más de un centenar de publicaciones científicas, ha sido investigador principal en más de 20 proyectos de investigación. "</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_1">"Fue coordinador de la Red Gallega de Biotecnología en Acuicultura (REGABA), coordinador de la red Internacional de Virus de Vertebrados Inferiores (INVLV), y en el máster interuniversitario oficial en Acuicultura de Galicia. En la actualidad, coordina la red estatal EpiMar. "</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_2">"Sus líneas de investigación se enfocan en la epidemiología, prevención y control de enfermedades virales en acuicultura y en el medio natural acuático. "</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_3">Desarrollo de métodos de diagnóstico avanzados y evaluación de sustancias con potencial actividad antiviral.</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_4">Se encuadran en los Ejes 1. Agua y Salud Animal y en el 3. Agua y Salud Humana</string>
+    <string name="II_IARCUS_miniscreen_17_paragraph_5">MÁS INFO: https://investigacion.usc.gal/investigadores/59880/detalle?lang=es</string>
+    <!-- PANTALLA 19 -->
+    <string name="II_IARCUS_miniscreen_18_title_0">JOSÉ BENITO QUINTANA ÁLVAREZ</string>
+    <string name="II_IARCUS_miniscreen_18_texto_buscado_0">JOSÉ BENITO QUINTANA ÁLVAREZ</string>
+    <string name="II_IARCUS_miniscreen_18_title_1">Catedrático de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_18_texto_buscado_1">Catedrático de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_0">Investiga el desarrollo de métodos analíticos para detectar contaminantes orgánicos y biomarcadores, y estudia su impacto en la salud ambiental y humana. También analiza aguas residuales para obtener información epidemiológica a través de biomarcadores químicos de consumo de sustancias de abuso o exposición humana a contaminantes químicos.</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_1">Se centran en los Ejes 2. Agua y Salud Ambiental y 3. Agua y Salud Humana.</string>
+    <string name="II_IARCUS_miniscreen_18_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/60011/detalle?lang=es</string>
+    <!-- PANTALLA 20 -->
+    <string name="II_IARCUS_miniscreen_19_title_0">MARÍA ISABEL BANDÍN MATOS</string>
+    <string name="II_IARCUS_miniscreen_19_texto_buscado_0">MARÍA ISABEL BANDÍN MATOS</string>
+    <string name="II_IARCUS_miniscreen_19_title_1">Profesora Titular de Universidad en el Área de la Microbiología</string>
+    <string name="II_IARCUS_miniscreen_19_texto_buscado_1">Profesora Titular de Universidad en el Área de la Microbiología</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_0">Centra su investigación en la caracterización de factores de virulencia de virus patógenos en peces, con el objetivo de desarrollar vacunas y medidas preventivas para la acuicultura. También evalúa sustancias bioactivas con potencial antiviral y estudia sus mecanismos de acción. Además, realiza estudios epidemiológicos en animales acuáticos y en el medio natural para prevenir nuevas enfermedades.</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_1">Por su experiencia se encuadra en el Eje 1. Agua y Salud Animal y Eje 3. Agua y Salud Humana</string>
+    <string name="II_IARCUS_miniscreen_19_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/58309/detalle?lang=es</string>
+    <!-- PANTALLA 21 -->
+    <string name="II_IARCUS_miniscreen_20_title_0">ANTÓN BARREIRO IGLESIAS</string>
+    <string name="II_IARCUS_miniscreen_20_texto_buscado_0">ANTÓN BARREIRO IGLESIAS</string>
+    <string name="II_IARCUS_miniscreen_20_title_1">Profesor Titular de la Universidad en el Área de Biología Celular</string>
+    <string name="II_IARCUS_miniscreen_20_texto_buscado_1">Profesor Titular de la Universidad en el Área de Biología Celular</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_0">Investiga el uso de peces como modelos en neurobiología y biomedicina, enfocándose en lesiones medulares para la búsqueda de fármacos que promuevan la regeneración neuronal. También estudia el desarrollo del sistema nervioso y crea modelos de enfermedades neurodegenerativas como ataxias y retinopatía diabética.</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_1">Su investigación se centra en el Eje 3.Agua y Salud Humana.</string>
+    <string name="II_IARCUS_miniscreen_20_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/58336/detalle?lang=es</string>
+    <!-- PANTALLA 22 -->
+    <string name="II_IARCUS_miniscreen_21_title_0">JOSÉ MANUEL LEIRO VIDAL</string>
+    <string name="II_IARCUS_miniscreen_21_texto_buscado_0">JOSÉ MANUEL LEIRO VIDAL</string>
+    <string name="II_IARCUS_miniscreen_21_title_1">Catedrático de la Universidad en el Área de Parasitología</string>
+    <string name="II_IARCUS_miniscreen_21_texto_buscado_1">Catedrático de la Universidad en el Área de Parasitología</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_0">El Dr. Leiro investiga cómo el sistema inmunitario de peces y moluscos responde a infecciones por parásitos protozoarios, estudiando la interacción entre el parásito y el hospedador, así como el diagnóstico y control de estas enfermedades.</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_1">Se centran en los Ejes 1.Agua y Salud Animal y 2. Agua y Salud Ambiental del Instituto.</string>
+    <string name="II_IARCUS_miniscreen_21_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/59388/detalle?lang=es</string>
+    <!-- PANTALLA 23 -->
+    <string name="II_IARCUS_miniscreen_22_title_0">BEATRIZ MAGARIÑOS FERRO</string>
+    <string name="II_IARCUS_miniscreen_22_texto_buscado_0">BEATRIZ MAGARIÑOS FERRO</string>
+    <string name="II_IARCUS_miniscreen_22_title_1">Catedrática de Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_22_texto_buscado_1">Catedrática de Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_0">Sus líneas de investigación se centran en crear métodos de diagnóstico para prevenir enfermedades bacterianas en peces de agua dulce y marina, y en desarrollar vacunas para protegerlos de estas enfermedades en la acuicultura.</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_1">Estas investigaciones se encuadran en el Eje 1. Agua y Salud Animal</string>
+    <string name="II_IARCUS_miniscreen_22_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/59539/detalle?lang=es</string>
+    <!-- PANTALLA 24 -->
+    <string name="II_IARCUS_miniscreen_23_title_0">PABLO MEIRA CARTEA</string>
+    <string name="II_IARCUS_miniscreen_23_texto_buscado_0">PABLO MEIRA CARTEA</string>
+    <string name="II_IARCUS_miniscreen_23_title_1">Profesor Titular de la Universidad en el Área de Teoría e Historia de la Educación</string>
+    <string name="II_IARCUS_miniscreen_23_texto_buscado_1">Profesor Titular de la Universidad en el Área de Teoría e Historia de la Educación</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_0">Sus investigaciones se centran en el estudio de las bases teóricas y metodológicas de la Educación y Comunicación Ambiental, diseñando y evaluando políticas y programas sobre cambio climático y su problemática socio-ambiental.</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_1">Trabaja en el diseño y experimentación de recursos educativos innovadores para impulsar la transición hacia sociedades más sostenibles con la participación de diversos grupos sociales.</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_2">Se encuadra en el Eje Transversal. Educación en resiliencia y sostenibilidad</string>
+    <string name="II_IARCUS_miniscreen_23_paragraph_3">MÁS INFO: https://investigacion.usc.gal/investigadores/59631/detalle?lang=es</string>
+    <!-- PANTALLA 25 -->
+    <string name="II_IARCUS_miniscreen_24_title_0">AZUCENA MORA GUTIÉRREZ</string>
+    <string name="II_IARCUS_miniscreen_24_texto_buscado_0">AZUCENA MORA GUTIÉRREZ</string>
+    <string name="II_IARCUS_miniscreen_24_title_1">Catedrática de Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_24_texto_buscado_1">Catedrática de Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_0">La Dra. Mora lidera la línea de Seguridad Alimentaria y Resistencia a los Antibióticos desde una perspectiva de una salud única \"One Health\".</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_1">Dirige el Servicio de Diagnóstico y Asesoría relacionados con técnicas microbiológicas para estudiar cepas patógenas de E. coli y coordina proyectos que buscan identificar bioindicadores, incluyendo el medio acuático, para vigilar y controlar la resistencia a antibióticos.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_2">Además, forma parte del Comité Científico de la Agencia Española de Seguridad Alimentaria y Nutrición.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_3">Su experiencia se encuadra fundamentalmente en los Ejes 2. Agua y salud ambiental y 3. Agua y salud humana.</string>
+    <string name="II_IARCUS_miniscreen_24_paragraph_4">MÁS INFO: http://investigacion.usc.gal/investigadores/59695/detalle?lang=es</string>
+    <!-- PANTALLA 26 -->
+    <string name="II_IARCUS_miniscreen_25_title_0">ANA MARÍA OTERO CASAL</string>
+    <string name="II_IARCUS_miniscreen_25_texto_buscado_0">ANA MARÍA OTERO CASAL</string>
+    <string name="II_IARCUS_miniscreen_25_title_1">Catedrática de la Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_25_texto_buscado_1">Catedrática de la Universidad en el Área de Microbiología</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_0">Su investigación se articula en torno a dos grandes líneas complementarias. Por un lado, desarrolla nuevas estrategias para combatir patógenos bacterianos que afectan tanto a la salud animal como a la humana. Por otro lado, trabaja en el ámbito de la biotecnología de microorganismos fotosintéticos, mejorando el perfil nutricional de microalgas para acuicultura, produciendo compuestos útiles y aplicándolos en tratamientos ambientales.</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_1">Su grupo mantiene múltiples colaboraciones con otros campos de la biotecnología ambiental (biodegradación de plásticos), ciencia de materiales, seguridad alimentaria y microbiología clínica.</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_2">Se centran en el Eje 1. Agua y Salud Animal y en el 3. Agua y Salud Humana</string>
+    <string name="II_IARCUS_miniscreen_25_paragraph_3">MÁS INFO: https://investigacion.usc.gal/investigadores/59797/detalle?lang=es</string>
+    <!-- PANTALLA 27 -->
+    <string name="II_IARCUS_miniscreen_26_title_0">Mª DEL ROSARIO RODIL RODRÍGUEZ</string>
+    <string name="II_IARCUS_miniscreen_26_texto_buscado_0">Mª DEL ROSARIO RODIL RODRÍGUEZ</string>
+    <string name="II_IARCUS_miniscreen_26_title_1">Catedrática de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_26_texto_buscado_1">Catedrática de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_0">Su investigación se basa en el desarrollo de métodos analíticos para detectar contaminantes orgánicos y sus metabolitos en distintos entornos (como aguas y organismos vivos), y aplica estos métodos para estudiar su impacto en la salud ambiental y humana.</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_1">Se encuadran en los Ejes 2. Agua y Salud Ambiental y 3. Agua y Salud Humana.</string>
+    <string name="II_IARCUS_miniscreen_26_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/60114/detalle?lang=es</string>
+    <!-- PANTALLA 28 -->
+    <string name="II_IARCUS_miniscreen_27_title_0">ISAAC RODRÍGUEZ PEREIRO</string>
+    <string name="II_IARCUS_miniscreen_27_texto_buscado_0">ISAAC RODRÍGUEZ PEREIRO</string>
+    <string name="II_IARCUS_miniscreen_27_title_1">Catedrático de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_27_texto_buscado_1">Catedrático de la Universidad en el Área de Química Analítica</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_0">Desarrolla métodos analíticos para detectar contaminantes orgánicos en el medio ambiente y en alimentos vegetales. Con estos métodos estudia su comportamiento, persistencia, transformación, eliminación y riesgos para la salud y el entorno. Además, investiga compuestos bioactivos en subproductos agrícolas.</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_1">Sus líneas de investigación se encuadran fundamentalmente en los Ejes 2. Agua y salud ambiental y 3.Agua y salud humana.</string>
+    <string name="II_IARCUS_miniscreen_27_paragraph_2">MÁS INFO: https://investigacion.usc.gal/investigadores/60197/detalle?lang=es</string>
+    <!-- PANTALLA 29 -->
+    <string name="II_IARCUS_miniscreen_28_paragraph_0">Si te interesa ampliar tus conocimientos sobre este instituto puede acceder a más información haciendo click en el siguiente enlace:</string>
+    <string name="II_IARCUS_miniscreen_28_texto_buscado_0">ampliar tus conocimientos</string>
+    <string name="II_IARCUS_miniscreen_28_title_0">https://arcus.usc.gal/</string>
+</resources>

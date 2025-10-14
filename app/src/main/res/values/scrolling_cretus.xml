@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- PANTALLA 0 -->
+    <string name="CS_CRETUS_miniscreen_0_paragraph_0">Climate change is no longer a future threat, but a reality we face every day. In Spain, its effects are manifesting themselves with extreme droughts in Catalonia, devastating floods in the Valencian Community and forest fires that are increasingly devastating the northwest of the country.</string>
+    <string name="CS_CRETUS_miniscreen_0_texto_buscado_0">extreme droughts</string>
+    <string name="CS_CRETUS_miniscreen_0_texto_buscado_1">devastating floods</string>
+    <string name="CS_CRETUS_miniscreen_0_texto_buscado_2">forest fires</string>
+    <string name="CS_CRETUS_miniscreen_0_paragraph_1">Faced with these challenges, there is a window of opportunity to abandon an unsustainable model based on extracting, consuming and discarding, and to opt for a system that prioritises reuse, recycling and regeneration. The circular economy, clean energy and waste recovery have become essential pillars for building a sustainable future.</string>
+    <string name="CS_CRETUS_miniscreen_0_texto_buscado_3">Faced with these challenges</string>
+    <string name="CS_CRETUS_miniscreen_0_texto_buscado_4">The circular economy, clean energy and waste recovery</string>
+    <!-- PANTALLA 1 -->
+    <string name="CS_CRETUS_miniscreen_1_paragraph_0">In this context, the development of environmental technologies plays a key role. The Centre for Interdisciplinary Research in Environmental Technologies (CRETUS) of the University of Santiago de Compostela works from a sustainable and holistic perspective to address the most ambitious environmental challenges through interdisciplinary R&amp;D projects with a high social and economic impact. CRETUS seeks to promote real transformations towards a more sustainable planet.</string>
+    <string name="CS_CRETUS_miniscreen_1_texto_buscado_0">The Centre for Interdisciplinary Research in Environmental Technologies (CRETUS)</string>
+    <string name="CS_CRETUS_miniscreen_1_texto_buscado_1">interdisciplinary R+D projects</string>
+    <!-- PANTALLA 2 -->
+    <string name="CS_CRETUS_miniscreen_2_paragraph_0">Its lines of action include the development of technology for the treatment of wastewater for reuse in irrigation systems; the design of soils capable of restoring surfaces contaminated or degraded by human activity; the monitoring and modelling of the trajectory of plastic waste that reaches the coasts; and the transformation of organic waste into usable compounds for the manufacture of biofuels and bioplastics.</string>
+    <string name="CS_CRETUS_miniscreen_2_texto_buscado_0">treatment of wastewater for reuse in irrigation systems</string>
+    <string name="CS_CRETUS_miniscreen_2_texto_buscado_1">restoring surfaces contaminated</string>
+    <string name="CS_CRETUS_miniscreen_2_texto_buscado_2">the trajectory of plastic waste</string>
+    <!-- PANTALLA 3 -->
+    <string name="CS_CRETUS_miniscreen_3_paragraph_0">With a firm commitment to sustainable development, CRETUS promotes innovative solutions to today\'s major environmental challenges, placing Santiago de Compostela on the world map of environmental research and innovation.</string>
+    <string name="CS_CRETUS_miniscreen_3_texto_buscado_0">placing Santiago de Compostela on the world map of environmental research and innovation</string>
+    <!-- PANTALLA 4 -->
+    <string name="CS_CRETUS_miniscreen_4_paragraph_0">CRETUS (Cross-disciplinary Research in Environmental Technologies) was born in 2015 as a strategic grouping of eight research groups united by a common goal: the development of socially, economically and environmentally sustainable environmental technologies. These groups came from different faculties of the USC (Biology, Physics, Psychology, Economics, Chemistry and School of Engineering) and were coordinated by Professor Juan M. Lema.</string>
+    <string name="CS_CRETUS_miniscreen_4_texto_buscado_0">was born in 2015</string>
+    <string name="CS_CRETUS_miniscreen_4_texto_buscado_1">the development of socially, economically and environmentally sustainable environmental technologies</string>
+    <!-- PANTALLA 5 -->
+    <string name="CS_CRETUS_miniscreen_5_paragraph_0">In 2020, under the direction of Maite Moreira, it became a singular centre of the USC, and in 2024 it was consolidated as a research centre, becoming part of the CIGUS network (Research Centres of the Galician University System) of the Xunta de Galicia. Currently, CRETUS has a multidisciplinary team made up of more than 130 people, including technical and research staff, with a balanced gender representation.</string>
+    <string name="CS_CRETUS_miniscreen_5_texto_buscado_0">it became a singular centre of the USC</string>
+    <string name="CS_CRETUS_miniscreen_5_texto_buscado_1">multidisciplinary team made up of more than 130 people</string>
+    <!-- PANTALLA 6 -->
+    <string name="CS_CRETUS_miniscreen_6_paragraph_0">The main objective of CRETUS is to promote research, development, implementation and evaluation of technological solutions that address current environmental challenges (climate change, biodiversity loss, environmental pollution and food security). To this end, its R&amp;D strategy is based on diagnosing the problem (through sampling, analysis and monitoring), developing appropriate technologies (advanced soil and water treatments), and assessing their impact through life cycle analysis, cost analysis, and the study of social perception and acceptance.</string>
+    <string name="CS_CRETUS_miniscreen_6_texto_buscado_0">to promote research, development, implementation and evaluation of technological solutions that address current environmental challenges</string>
+    <string name="CS_CRETUS_miniscreen_6_texto_buscado_1">R+D strategy</string>
+    <!-- PANTALLA 7 -->
+    <string name="CS_CRETUS_miniscreen_7_paragraph_0">One of the main strengths of the centre is its multidisciplinary approach. CRETUS integrates researchers from areas such as engineering, biotechnology, experimental sciences, law, psychology and social sciences, allowing environmental challenges to be addressed from different perspectives. This cross-disciplinary collaboration facilitates the development of innovative technological solutions, without losing sight of their ecological, social and regulatory context.</string>
+    <string name="CS_CRETUS_miniscreen_7_texto_buscado_0">researchers from areas such as engineering, biotechnology, experimental sciences, law, psychology and social sciences</string>
+    <string name="CS_CRETUS_miniscreen_7_paragraph_1">The main headquarters of the centre is located on the USC Vida Campus, although, due to the thematic diversity of the groups that comprise it, its human and material resources are distributed between the Vida Campus and the North Campus.</string>
+    <string name="CS_CRETUS_miniscreen_7_texto_buscado_1">USC Vida Campus</string>
+    <!-- PANTALLA 8 -->
+    <string name="CS_CRETUS_miniscreen_8_paragraph_0">CRETUS research is diverse and can be divided into eight thematic areas, although many of its projects could be integrated into several of the areas.</string>
+    <string name="CS_CRETUS_miniscreen_8_texto_buscado_0">eight thematic areas</string>
+    <!-- PANTALLA 9 -->
+    <string name="CS_CRETUS_miniscreen_9_title_0">REMEDIATION AND SUSTAINABLE USES OF SOIL</string>
+    <string name="CS_CRETUS_miniscreen_9_paragraph_0">Soil is essential for food production, nutrient recycling and biodiversity conservation, as well as playing a key role in climate regulation by acting as a carbon sink and reducing CO2 emissions. CRETUS studies the quality and condition of soils and how to remediate degraded or contaminated soils using laboratory-designed soils (technosols), biomaterials or plants (phytoremediation). In addition, the reuse of bio-waste as soil amendments is promoted.</string>
+    <string name="CS_CRETUS_miniscreen_9_texto_buscado_0">quality and condition of soils</string>
+    <!-- PANTALLA 10 -->
+    <string name="CS_CRETUS_miniscreen_10_title_0">WATER TREATMENT AND RECLAMATION</string>
+    <string name="CS_CRETUS_miniscreen_10_paragraph_0">Water scarcity is a global concern, but it is even more worrying that the water available is of poor quality. CRETUS seeks alternative technologies to treat wastewater, recover useful compounds and minimise the environmental impact of treatment systems.</string>
+    <string name="CS_CRETUS_miniscreen_10_texto_buscado_0">wastewater, recover useful compounds and minimise the environmental impact of treatment systems</string>
+    <!-- PANTALLA 11 -->
+    <string name="CS_CRETUS_miniscreen_11_title_0">WASTE RECOVERY</string>
+    <string name="CS_CRETUS_miniscreen_11_paragraph_0">From a circular economy perspective, the aim is to take advantage of products that were traditionally considered waste to create new valuable resources. For example, research is being carried out into the production of bioplastics from vegetable oils, biofuels from agro-industrial and forestry waste, or obtaining products of interest to industry from fishing and food waste.</string>
+    <string name="CS_CRETUS_miniscreen_11_texto_buscado_0">waste to create new valuable resources</string>
+    <!-- PANTALLA 12 -->
+    <string name="CS_CRETUS_miniscreen_12_title_0">BIODIVERSITY, BIOMONITORING AND BIOARCHAEOLOGY</string>
+    <string name="CS_CRETUS_miniscreen_12_paragraph_0">The study of living organisms provides key information to develop new technologies and better understand what is happening on our planet. In this context, organisms can be used to detect and measure pollution in different areas (biomonitoring) and to create detailed maps reflecting how that pollution is distributed (biomodelling). In addition, changes in biodiversity indicate the impact of human activity and archaeological remains can be used to study the effects of climate change by adding a temporal perspective (bioarchaeology).</string>
+    <string name="CS_CRETUS_miniscreen_12_texto_buscado_0">biomonitoring</string>
+    <string name="CS_CRETUS_miniscreen_12_texto_buscado_1">biomodelling</string>
+    <string name="CS_CRETUS_miniscreen_12_texto_buscado_2">bioarchaeology</string>
+    <!-- PANTALLA 13 -->
+    <string name="CS_CRETUS_miniscreen_13_title_0">DATA INTEGRATION AND MODELLING</string>
+    <string name="CS_CRETUS_miniscreen_13_paragraph_0">Collecting and analysing environmental data, such as meteorological, biological or chemical information, and building models that simulate natural processes is key to predicting the dispersion of pollutants, the spread of fires or the risk of flooding.</string>
+    <string name="CS_CRETUS_miniscreen_13_texto_buscado_0">to predicting the dispersion of pollutants, the spread of fires or the risk of flooding</string>
+    <!-- PANTALLA 14 -->
+    <string name="CS_CRETUS_miniscreen_14_title_0">PHYSICO-CHEMICAL MONITORING</string>
+    <string name="CS_CRETUS_miniscreen_14_paragraph_0">Analysing water, soil and air to know their state is essential to detect pollution and its evolution or to know if a decontamination treatment has been effective. It is essential to develop environmentally friendly analytical methods that are effective using low amounts of reagents, energy and time. CRETUS has laboratories specialised in the measurement of pollutants in the different environmental compartments. One example, with great repercussion in Galicia, is the detection of radon in air (accredited by ENAC).</string>
+    <string name="CS_CRETUS_miniscreen_14_texto_buscado_0">is essential to detect pollution and its evolution</string>
+    <string name="CS_CRETUS_miniscreen_14_texto_buscado_1">detection of radon in air (accredited by ENAC)</string>
+    <!-- PANTALLA 15 -->
+    <string name="CS_CRETUS_miniscreen_15_title_0">SUSTAINABLE PROCESSES</string>
+    <string name="CS_CRETUS_miniscreen_15_paragraph_0">From this area, CRETUS works on the design of sustainable processes such as the production of enzymes, which are proteins involved in chemical reactions, the use of less toxic and environmentally friendly alternative solvents, or oil recovery techniques.</string>
+    <string name="CS_CRETUS_miniscreen_15_texto_buscado_0">design of sustainable processes such as the production of enzymes</string>
+    <!-- PANTALLA 16 -->
+    <string name="CS_CRETUS_miniscreen_16_title_0">SOCIAL-ECONOMIC AND ENVIRONMENTAL IMPACT</string>
+    <string name="CS_CRETUS_miniscreen_16_paragraph_0">CRETUS not only develops environmental technologies, but also ensures that they are accepted and adapted by society within a clear and effective regulatory framework. To this end, it analyses the environmental impact of technologies from the procurement of raw materials to their implementation (life cycle analysis) and tries to create efficient and environmentally friendly designs (eco-design, eco-efficiency). All this without forgetting the evaluation of social perception and the design of strategic implementation plans.</string>
+    <string name="CS_CRETUS_miniscreen_16_texto_buscado_0">analyses the environmental impact of technologies</string>
+    <string name="CS_CRETUS_miniscreen_16_texto_buscado_1">tries to create efficient and environmentally friendly designs</string>
+    <!-- PANTALLA 17 -->
+    <string name="CS_CRETUS_miniscreen_17_paragraph_0">CRETUS works actively to attract and retain talent, promoting equal opportunities and a multidisciplinary working culture. To this end, it offers grants for students and PhD students to start research and stays abroad, and organises symposia, seminars and courses that foster the continuous training and professional development of its researchers. In this way, the centre ensures an environment of scientific and human excellence that sustains its long-term impact.</string>
+    <string name="CS_CRETUS_miniscreen_17_texto_buscado_0">promoting equal opportunities and a multidisciplinary working culture</string>
+    <string name="CS_CRETUS_miniscreen_17_texto_buscado_1">ensures an environment of scientific and human excellence</string>
+    <!-- PANTALLA 18 -->
+    <string name="CS_CRETUS_miniscreen_18_paragraph_0">In addition, the centre has a firm commitment to scientific dissemination and connection with local society. It participates in outreach activities such as Singular Science, G-night (Noite Galega das Persoas Investigadoras), Pint of Science, and organises school visits, talks and conferences, bringing scientific advances closer to the public and awakening interest in science in the community.</string>
+    <string name="CS_CRETUS_miniscreen_18_texto_buscado_0">participates in outreach activities such as Singular Science, G-night (Noite Galega das Persoas Investigadoras), Pint of Science</string>
+    <!-- PANTALLA 19 -->
+    <string name="CS_CRETUS_miniscreen_19_paragraph_0">In the field of collaboration with the productive sector, CRETUS has developed 22 patents aimed at the creation of high-value products, such as the vaccine against Pseudomonas anguilliseptica PA-VAC, polyhydroxyalkanoates, ectoin and triacylglycerides, as well as technologies for the elimination of pollutants in wastewater and industrial effluents by means of biological processes and specific reactors. Also methods for remediation of contaminated soils and techniques to improve oil extraction. Of these patents, 11 have been licensed to well-known companies such as FCC, Aqualia, CETAQUA, Espina Obras Hidráulicas, IGNICIA, AQUAGEST, AXPERIA and spin-offs such as ICODA or Flow Reserve, demonstrating a remarkable level of technology transfer and collaboration with the business sector.</string>
+    <string name="CS_CRETUS_miniscreen_19_texto_buscado_0">22 patents aimed at the creation of high-value products</string>
+    <string name="CS_CRETUS_miniscreen_19_texto_buscado_1">technologies for the elimination of pollutants in wastewater and industrial effluents</string>
+    <string name="CS_CRETUS_miniscreen_19_texto_buscado_2">11 have been licensed to well-known companies</string>
+    <!-- PANTALLA 20 -->
+    <string name="CS_CRETUS_miniscreen_20_paragraph_0">Finally, CRETUS extends its impact beyond the local sphere by promoting scientific alliances and multidisciplinary synergies at national and international level. It maintains collaborations with research centres in countries such as the United Kingdom, France, Holland, the United States and China, consolidating its position as an international benchmark in environmental technologies.</string>
+    <string name="CS_CRETUS_miniscreen_20_texto_buscado_0">United Kingdom, France, Netherlands, the United States and China</string>
+    <!-- PANTALLA 21 -->
+    <string name="CS_CRETUS_miniscreen_21_title_0">TALENT AMBASSADORS</string>
+    <!-- PANTALLA 22 -->
+    <string name="CS_CRETUS_miniscreen_22_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_CRETUS_miniscreen_22_texto_buscado_0">MANAGEMENT TEAM</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_0">Scientific director: MARÍA TERESA MOREIRA</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_1">Deputy Director: SARAH FIOL</string>
+    <string name="CS_CRETUS_miniscreen_22_title_1">RESEARCH STAFF</string>
+    <string name="CS_CRETUS_miniscreen_22_texto_buscado_1">RESEARCH STAFF</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_2" translatable="false">ANDRÉS BASELGA FRAGA</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_3" translatable="false">GUMERSINDO FEIJOO COSTA</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_4" translatable="false">CRISTINA GÓMEZ-ROMÁN</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_5" translatable="false">JUAN M. LEMA RODICIO</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_6" translatable="false">MARÍA LLOMPART VIZOSO</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_7" translatable="false">OLALLA LÓPEZ COSTAS</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_8" translatable="false">JESÚS LÓPEZ ROMALDE</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_9" translatable="false">ANUSKA MOSQUERA CORRAL</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_10" translatable="false">XOSÉ LOIS OTERO PÉREZ</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_11" translatable="false">VICENTE PÉREZ MUÑUZURI</string>
+    <string name="CS_CRETUS_miniscreen_22_paragraph_12" translatable="false">SEBASTIÁN VILLASANTE LARRAMENDI</string>
+    <!-- PANTALLA 23 -->
+    <string name="CS_CRETUS_miniscreen_23_title_0" translatable="false">MARÍA TERESA MOREIRA</string>
+    <string name="CS_CRETUS_miniscreen_23_texto_buscado_0" translatable="false">MARÍA TERESA MOREIRA</string>
+    <string name="CS_CRETUS_miniscreen_23_title_1">Director</string>
+    <string name="CS_CRETUS_miniscreen_23_texto_buscado_1">Director</string>
+    <string name="CS_CRETUS_miniscreen_23_paragraph_0">María Teresa Moreira holds a PhD in Chemical Engineering from the University of Santiago de Compostela since 1997 and is a Professor at the same university since 2010. Since CRETUS was recognised as a singular centre of the USC, she has been directing this entity, consolidating it as a reference in research and innovation.</string>
+    <string name="CS_CRETUS_miniscreen_23_paragraph_1">Her teaching work is fundamental, having supervised more than 27 doctoral theses and numerous end-of-degree and master\'s degree projects. She also teaches on both undergraduate and postgraduate programmes. At the same time, she has taken on important responsibilities in university management, including her role as secretary of the Department of Chemical Engineering and the School of Engineering. She has also actively participated in initiatives to improve teaching quality and in academic accreditation processes.</string>
+    <string name="CS_CRETUS_miniscreen_23_paragraph_2">In the field of research, she is part of the Biogroup research group, and her work focuses on the life cycle management of processes and products, applying tools such as life cycle analysis, eco-labelling, eco-design and carbon footprint measurement. She also excels in chemical engineering, developing innovative solutions for water treatment through reactors and enzymatic biocatalysis, as well as in the production of bioenergy and biofuels.</string>
+    <string name="CS_CRETUS_miniscreen_23_paragraph_3">Her scientific impact is remarkable, with more than 400 publications and seven patents to his name. She is among the top 2% of the most cited scientists worldwide and is recognised as the number one researcher in life cycle analysis according to a study published in Environmental Impact Assessment Review. She has received multiple awards, including the Isidro Parga Pondal Research Medal and an award for the best ‘Design for Recycling’ project. SHe has also held editorial roles in international scientific journals. Her stays in the Netherlands, Chile and the United States have enriched her global vision and strengthened her international collaboration, consolidating her as a key figure in environmental research from Santiago de Compostela.</string>
+    <string name="CS_CRETUS_miniscreen_23_paragraph_4">MORE INFO: https://investigacion.usc.gal/investigadores/59701/detalle?lang=es</string>
+    <!-- PANTALLA 24 -->
+    <string name="CS_CRETUS_miniscreen_24_title_0" translatable="false">SARAH FIOL</string>
+    <string name="CS_CRETUS_miniscreen_24_texto_buscado_0" translatable="false">SARAH FIOL</string>
+    <string name="CS_CRETUS_miniscreen_24_title_1">Deputy Director</string>
+    <string name="CS_CRETUS_miniscreen_24_texto_buscado_1">Deputy Director</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_0">Sarah Fiol holds a PhD in Chemistry from the University of A Coruña since 1994 and since 2021 she is a Professor at the University of Santiago de Compostela. She has been a member of the CRETUS Strategic Grouping since 2015 and currently holds the position of deputy director of the centre.</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_1">Since joining the USC, she has taught in several faculties of the USC, including Chemistry, Biology, Pharmacy and the School of Engineering, both in undergraduate and postgraduate programmes. She has supervised four doctoral theses and numerous undergraduate and master\'s degree final projects. She was coordinator of the Environmental Physical Chemistry Research group between 2009 and 2018 and is now part of the AMBIOSOL group. With more than 80 articles published in prestigious journals, she has led eight national and international projects and participated in another fifteen related to environmental issues.</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_2">Her research focuses on environmental quality, with special attention to water, soil and sediment chemistry. She works on chemical speciation, which is the study of the different forms in which a chemical element can occur in a medium, as these forms determine its mobility and toxicity. She also seeks to reduce the dispersion of pollutants through natural processes such as adsorption and retention in environmental systems. For the remediation of contaminated ecosystems, she develops solutions based on the valorisation of waste such as biochar and compost, promoting sustainable practices to restore the health of the environment.</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_3">She has collaborated with companies to carry out studies on the quality of oils, food products and water, integrating academic research with the needs of the productive sector and maintains international collaborations with researchers from Portugal, Sweden, the United Kingdom, Mexico and Argentina.</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_4">Among her most outstanding experiences is her participation in the WOCE/92 oceanographic campaign aboard the ship Hespérides, a pioneering project that investigated how ocean currents influence the regulation of global climate. Since then, she has continued to develop as a researcher, establishing herself as a recognised scientist in the field of environmental chemistry and playing a key role in promoting environmental research from Santiago de Compostela.</string>
+    <string name="CS_CRETUS_miniscreen_24_paragraph_5">MORE INFO: https://investigacion.usc.gal/investigadores/58976/detalle?lang=es </string>
+    <!-- PANTALLA 25 -->
+    <string name="CS_CRETUS_miniscreen_25_title_0" translatable="false">ANDRÉS BASELGA FRAGA</string>
+    <string name="CS_CRETUS_miniscreen_25_texto_buscado_0" translatable="false">ANDRÉS BASELGA FRAGA</string>
+    <string name="CS_CRETUS_miniscreen_25_title_1">Senior Lecturer</string>
+    <string name="CS_CRETUS_miniscreen_25_texto_buscado_1">Senior Lecturer</string>
+    <string name="CS_CRETUS_miniscreen_25_title_2">Department: Zoology, Genetics and Physical Anthropology (Zoology Area)</string>
+    <string name="CS_CRETUS_miniscreen_25_texto_buscado_2">Department: Zoology, Genetics and Physical Anthropology (Zoology Area)</string>
+    <string name="CS_CRETUS_miniscreen_25_title_3">Research Group: Biogeography Laboratory (BiBiCI)</string>
+    <string name="CS_CRETUS_miniscreen_25_texto_buscado_3">Research Group: Biogeography Laboratory (BiBiCI)</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_0">From an initial interest in natural history, particularly beetles, he began his research career with a PhD focused on the taxonomy of Chrysomelidae. From this knowledge of the astonishing diversity of beetle communities, she broadened her research interests to biogeography and macroecology. His main contribution has been the development of novel methods for measuring changes in the composition of biological communities (beta diversity).</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_1">As an example of the profound impact of these contributions in the field, the article that initiated this line of research (Baselga, 2010, Global Ecology and Biogeography) has accumulated more than 2500 citations in the Web of Science. Another outstanding contribution is the development of a predictive framework to estimate the relative contribution of dispersal limitation and ecological niche in biological communities by assessing beta diversity at multiple hierarchical levels, from genetic variants to intraspecific clades and species (Baselga et al., 2013, Nature Communications; Baselga et al., 2015, Global Ecology and Biogeography; Baselga et al., 2022, Ecography).</string>
+    <string name="CS_CRETUS_miniscreen_25_title_4">Research Lines:</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_2">• Biodiversity analysis methods: How can we measure biodiversity and differences between biological communities?</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_3">• Biogeography and macroecology: How is biodiversity distributed on the planet and why?</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_4">• Models of species distribution and global change: Can we predict biodiversity responses to global change?</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_5">• Coleopteran taxonomy: Why are there so many beetle species, what do they look like?</string>
+    <string name="CS_CRETUS_miniscreen_25_paragraph_6">MORE INFO: https://investigacion.usc.gal/investigadores/58356/detalle</string>
+    <!-- PANTALLA 26 -->
+    <string name="CS_CRETUS_miniscreen_26_title_0" translatable="false">GUMERSINDO FEIJOO COSTA</string>
+    <string name="CS_CRETUS_miniscreen_26_texto_buscado_0" translatable="false">GUMERSINDO FEIJOO COSTA</string>
+    <string name="CS_CRETUS_miniscreen_26_title_1">Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_26_texto_buscado_1">Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_26_title_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_26_texto_buscado_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_26_title_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_26_texto_buscado_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_0">Graduated in Chemistry (speciality in Industrial Chemistry) in 1990 by the University of Santiago de Compostela (USC), he started his PhD in the same year, obtaining an FPI grant in 1991 and presenting his thesis in 1994 under the supervision of Prof. Juan Manuel Lema Rodicio. He began his teaching career in 1994 as Assistant Professor at the USC, and after occupying different positions, he became University Professor of Chemical Engineering in 2008.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_1">His research activity focuses on enzymatic catalysis, enzymatic reactors applied to biodegradation, Life Cycle Assessment (LCA), circular economy, eco-design, eco-labelling, eco-efficiency and environmental footprints.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_2">He has held various positions: Coordinator of the Master\'s Degree in Environmental Engineering (2005-2008), Director of the Department of Chemical Engineering (2008-2017), Coordinator of the Degree in Chemical Engineering (2014-2018), and Vice-Rector for Planning and Strategic Projection since 2018. He has also chaired the Spanish Confederation of Directors and Deans of Chemical Engineering since 2017 and has led accreditation processes such as those of the IChemE.</string>
+    <string name="CS_CRETUS_miniscreen_26_title_4">Research Lines:</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_3">• Life Cycle Management</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_4">◦ Methodological aspects of Life Cycle Analysis: characterisation and standardisation factors, load assignment, integration of data envelopment analysis systems in inventory analysis.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_5">◦ Application of Life Cycle Assessment methodology to the development of various industrial sectors and processes.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_6">◦ Ecolabelling: Carbon Footprint (ISO 14067) and Energy Rate of Return.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_7">◦ Product eco-design (ISO 14006) and process eco-efficiency (ISO 14045).</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_8">• Biochemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_9">◦ Enzymatic biocatalysis: fungal peroxidases and oxidases and enzyme immobilisation.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_10">◦ Development and modelling of enzyme reactors.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_11">◦ Application to the biodegradation of highly toxic compounds: endocrine disruptors, polyaromatic hydrocarbons, industrial dyes and pesticides.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_12">◦ Transfer to the productive sector.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_13">◦ Fisheries sector.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_14">◦ Agri-food sector.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_15">◦ Sustainable transport and green logistics.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_16">◦ Forestry industry.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_17">◦ Bioenergy &amp; Biofuels.</string>
+    <string name="CS_CRETUS_miniscreen_26_paragraph_18">MORE INFO: https://investigacion.usc.gal/investigadores/58858/detalle</string>
+    <!-- PANTALLA 27 -->
+    <string name="CS_CRETUS_miniscreen_27_title_0" translatable="false">CRISTINA GÓMEZ-ROMÁN</string>
+    <string name="CS_CRETUS_miniscreen_27_texto_buscado_0" translatable="false">CRISTINA GÓMEZ-ROMÁN</string>
+    <string name="CS_CRETUS_miniscreen_27_title_1">Associate Professor PhD</string>
+    <string name="CS_CRETUS_miniscreen_27_texto_buscado_1">Associate Professor PhD</string>
+    <string name="CS_CRETUS_miniscreen_27_title_2">Department: Social, Basic and Methodological Psychology</string>
+    <string name="CS_CRETUS_miniscreen_27_texto_buscado_2">Department: Social, Basic and Methodological Psychology</string>
+    <string name="CS_CRETUS_miniscreen_27_title_3">GI: Social Behaviour and Applied Psychometrics (COSOYPA)</string>
+    <string name="CS_CRETUS_miniscreen_27_texto_buscado_3">GI: Social Behaviour and Applied Psychometrics (COSOYPA)</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_0">Her career is framed within the field of social and environmental psychology, combining interdisciplinary and applied research on the acceptance of sustainable technologies, social mobilisation processes and the factors that influence behavioural change in citizens.</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_1">PhD with international mention and Extraordinary Doctorate Award from the University of Santiago de Compostela, her thesis on citizen participation in crisis contexts was selected by the Centro de Investigaciones Sociológicas to be presented at Harvard University as an outstanding example of social science research.</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_2">She has carried out research stays in reference centres such as the Vrije Universiteit (Amsterdam), ISCTE-IUL (Lisbon) and the University of Groningen. She has participated in European projects such as RUN4LIFE and TransformAr, and currently coordinates the social line of the D-PATTERN project (PID2023-150071OB-I00, Ministry of Science), focused on the acceptance of decentralised water management technologies.</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_3">In the field of transfer, she has promoted the EcoHábitos application, aimed at promoting sustainable habits, selected in the Stimulus Programme for Knowledge Transfer of the USC. In 2024 she was awarded the Prize for the Best Young Researcher in Social Sciences by the Royal Galician Academy of Sciences.</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_4">She is a member of national and international scientific networks and is currently secretary of the Spanish Scientific Society of Social Psychology (SCEPS).</string>
+    <string name="CS_CRETUS_miniscreen_27_title_4">Research Lines:</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_5">• Perception and social acceptance of environmental technologies</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_6">• Cognitive-emotional factors of pro-environmental behaviour</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_7">• Mobilisation and social participation in crisis contexts</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_8">• Attitudes and behavioural change</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_9">• Design of interventions based on psychosocial models</string>
+    <string name="CS_CRETUS_miniscreen_27_paragraph_10">MORE INFO: https://investigacion.usc.gal/investigadores/59185/detalle</string>
+    <!-- PANTALLA 28 -->
+    <string name="CS_CRETUS_miniscreen_28_title_0" translatable="false">JUAN M. LEMA RODICIO</string>
+    <string name="CS_CRETUS_miniscreen_28_texto_buscado_0" translatable="false">JUAN M. LEMA RODICIO</string>
+    <string name="CS_CRETUS_miniscreen_28_title_1">Emeritus Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_28_texto_buscado_1">Emeritus Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_28_title_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_28_texto_buscado_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_28_title_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_28_texto_buscado_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_0">Emeritus Professor of Chemical Engineering and scientific coordinator of the CRETUS Centre at the University of Santiago de Compostela. He is currently president of the Galician Royal Academy of Sciences and Distinguished Fellow of the International Water Association (IWA).</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_1">His research career has focused on Environmental Biotechnology, developing technologies for the treatment and recovery of wastewater and waste resources, including the removal of micropollutants by microbial and enzymatic methods. He has coordinated or participated in 71 research projects (24 European) and 16 relevant collaborations with companies in the water sector, raising more than 17 million euros. He has also been a UNIDO expert in industrial effluent treatment.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_2">He has supervised 62 PhD theses, published more than 450 articles and chapters (H-index: 80, >22,000 citations), and authored or co-authored 20 patents. He is editor of the book Innovative Wastewater Treatment &amp; Resource Recovery Technologies (IWA, 2017). He is included, along with several of his former PhD students, in the top 2% of the world\'s most influential scientists according to the Stanford List.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_3">His doctoral students now hold positions as professors, lecturers, researchers in technology centres and heads of R+D in companies in various countries.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_4">At the institutional level, he has been director of departments at the UAB and USC, first director of the USC Technology Transfer Centre, founder and first director of the USC School of Engineering and first president of CODDIQ.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_5">He has received numerous awards, including four Doctorates Honoris Causa (Barcelona, Valladolid, Milan, Valparaiso), honorary distinctions in Australia and China, as well as national and international awards such as the USC Gold Badge, the European Prize for Industrial Enzymes or the Martínez Moreno Prize for Innovation.</string>
+    <string name="CS_CRETUS_miniscreen_28_title_4">Research Lines:</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_6">• Anaerobic (co-)digestion of wastewater and waste: Modelling, Control and Microbiology.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_7">• Removal of micropollutants from wastewater in wastewater treatment plants; Comet metabolism.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_8">• Tertiary treatment of micropollutants by enzymatic reactors.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_9">• Production of bioplastics from lignocellulosic waste.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_10">• Nanoparticles in water treatment plants.</string>
+    <string name="CS_CRETUS_miniscreen_28_paragraph_11">MORE INFO: https://investigacion.usc.gal/investigadores/59398/detalle</string>
+    <!-- PANTALLA 29 -->
+    <string name="CS_CRETUS_miniscreen_29_title_0" translatable="false">MARÍA LLOMPART VIZOSO</string>
+    <string name="CS_CRETUS_miniscreen_29_texto_buscado_0" translatable="false">MARÍA LLOMPART VIZOSO</string>
+    <string name="CS_CRETUS_miniscreen_29_title_1">Professor of Analytical Chemistry</string>
+    <string name="CS_CRETUS_miniscreen_29_texto_buscado_1">Professor of Analytical Chemistry</string>
+    <string name="CS_CRETUS_miniscreen_29_title_2">Department: Química Analítica, Nutrición e Bromatoloxía</string>
+    <string name="CS_CRETUS_miniscreen_29_texto_buscado_2">Department: Química Analítica, Nutrición e Bromatoloxía</string>
+    <string name="CS_CRETUS_miniscreen_29_title_3">Research Group: Laboratory for Research and Development of Analytical Solutions (LIDSA)</string>
+    <string name="CS_CRETUS_miniscreen_29_texto_buscado_3">Research Group: Laboratory for Research and Development of Analytical Solutions (LIDSA)</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_0">She is Professor of Analytical Chemistry (July 2020) at the University of Santiago de Compostela and specialist in extraction techniques, chromatography and mass spectrometry. Principal investigator of the group ‘LIDSA_laboratory for research and development of analytical solutions’.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_1">Recognised as a consolidated group (GPC) since 2012 and renewed in successive editions. General indicators of quality of scientific production: Sexennials: 5 (1994-2023); Transfer Sexennials: 1 (single call) No. of theses: 18, all of them with Quality Mention, 15 European doctorate, 8 extraordinary doctorate award (2 pending resolution); Total citations: >10000; Average citations/year: 460; Index h 50; Publications in ISI journals nearly 200. Book chapters (international) in publishers such as Elsevier or Springer: 13. Included in the prestigious ranking ‘Ranking of the World Scientists: World\'s Top 2% Scientists’ by Stanford University. Chair of several prestigious international conferences in the field of pesticides and micropollutants and extraction technologies. Member of the organising and scientific committee of international conferences since 2012.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_2">Research Lines:</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_3">• Sample preparation techniques based on Green Chemistry: Microwave Assisted Extraction (MAE), Pressurised Solvent Extraction (PLE), Matrix Solid Phase Dispersion (MSPD), Solid and Liquid Phase Microextraction Techniques (SPME, LPME, USAEME, FPSE); microMSPD; microPLE.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_4">• Symbiotic chromatographic techniques of analysis. Tandem mass spectrometry coupled to GC and LC.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_5">• Determination of organic pollutants (phenols, PCBs, chlorobenzenes, PAHs, VOCs, pesticides, dioxins, flame retardants...) in environmental and biological matrices.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_6">• Determination of pharmaceuticals and personal care products (PPCPs) in environmental samples.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_7">• Analysis of cosmetics and personal care products.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_8">• Analysis of microplastics, especially from tyre rubber.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_9">• Analysis of pesticides and mycotoxins in agri-food matrices.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_10">• Determination of toxic compounds in consumer products</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_11">• Photodegradation studies of classical and emerging environmental pollutants.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_12">• Determination of degradation by-products. Photo-SPME.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_13">• Study of the antioxidant potential of wines, honeys and by-products.</string>
+    <string name="CS_CRETUS_miniscreen_29_paragraph_14">MORE INFO: https://investigacion.usc.gal/investigadores/59417/detalle</string>
+    <!-- PANTALLA 30 -->
+    <string name="CS_CRETUS_miniscreen_30_title_0" translatable="false">OLALLA LÓPEZ COSTAS</string>
+    <string name="CS_CRETUS_miniscreen_30_texto_buscado_0" translatable="false">OLALLA LÓPEZ COSTAS</string>
+    <string name="CS_CRETUS_miniscreen_30_title_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CRETUS_miniscreen_30_texto_buscado_1">Ramón y Cajal Researcher</string>
+    <string name="CS_CRETUS_miniscreen_30_title_2">Department: History (Archaeology Area)</string>
+    <string name="CS_CRETUS_miniscreen_30_texto_buscado_2">Department: History (Archaeology Area)</string>
+    <string name="CS_CRETUS_miniscreen_30_title_3">Research Group: EcoPast</string>
+    <string name="CS_CRETUS_miniscreen_30_texto_buscado_3">Research Group: EcoPast</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_0">Ramón y Cajal researcher and lecturer in the area of Archaeology at the University of Santiago de Compostela (USC). Since 2015 she has been a researcher and lecturer in the Department of Archaeology and Classical Studies at the University of Stockholm (Sweden).</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_1">With a degree in Biology, she holds a PhD in Physical and Forensic Anthropology from the Faculty of Medicine of the University of Granada, to whose research group she is still linked. She has been working for more than two decades in archaeological excavations in Spain, Greece and Portugal.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_2">Her main line of work is the reconstruction of lifestyle, as well as the relationship of human beings with the environment, through the study of human remains and necropolis. Although she has worked on sites from all periods, her main focus is on the Roman and Medieval periods of the Iberian Peninsula and Scandinavia. He is trained in physical anthropology, palaeopathology and geochemical studies including stable and unstable isotopes. She has also worked in palaeoenvironmental reconstruction through the analysis of peat bogs and lake sediments, and in geoarchaeology. She is passionate about the study of historical texts and sources and their value for archaeology.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_3">Olalla is the principal investigator of the ERC Consolidator Grant PollutedPast project ‘Environmental metal pollution revealed in archaeological human remains’ (no.10108783).</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_4">She is a strong advocate of breaking down the barriers between disciplines.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_5">Research lines:</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_6">• Reconstruction of diet, mobility and metal contamination through archaeological human and animal remains.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_7">• Archaeometric study of necropolis and funerary areas.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_8">• Normal and pathological variability of human beings in the past, mainly infectious and metabolic diseases.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_9">• Childhood in the Roman and medieval period from a multidisciplinary perspective.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_10">• Importance of the palaeoenvironment and environmental changes in historical processes.</string>
+    <string name="CS_CRETUS_miniscreen_30_paragraph_11">MORE INFO: https://investigacion.usc.gal/investigadores/59445/detalle?lang=es</string>
+    <!-- PANTALLA 31 -->
+    <string name="CS_CRETUS_miniscreen_31_title_0" translatable="false">JESÚS LÓPEZ ROMALDE</string>
+    <string name="CS_CRETUS_miniscreen_31_texto_buscado_0" translatable="false">JESÚS LÓPEZ ROMALDE</string>
+    <string name="CS_CRETUS_miniscreen_31_title_1">Professor of Microbiology</string>
+    <string name="CS_CRETUS_miniscreen_31_texto_buscado_1">Professor of Microbiology</string>
+    <string name="CS_CRETUS_miniscreen_31_title_2">Department: Microbiology and Parasitology</string>
+    <string name="CS_CRETUS_miniscreen_31_texto_buscado_2">Department: Microbiology and Parasitology</string>
+    <string name="CS_CRETUS_miniscreen_31_title_3">Research Group: Pathology in Aquaculture-GIPA</string>
+    <string name="CS_CRETUS_miniscreen_31_texto_buscado_3">Research Group: Pathology in Aquaculture-GIPA</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_0">Since the beginning of his research career, more than 25 years ago, he has been involved in research on the microbiology of aquatic organisms, including various aspects of bacterial and viral pathogens. His work ranges from the study of the microbiota associated with red tides and the pathology of fish and molluscs, to the detection and characterisation of enteric viruses and the role of molluscs as a vehicle of transmission, consolidating this last line of research in the department. All this research has received international recognition, as demonstrated by his participation in different projects and contracts at European level.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_1">Throughout these years, he has published more than 200 articles in JCR journals, participated in 38 R+D projects funded by public calls (national and European) and presented papers at various international meetings. He has supervised 20 doctoral theses. He is a member of the editorial board of several international journals, such as Veterinary Microbiology or Systematic and Applied Microbiology, among others, and has participated in the organisation of several national and international conferences.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_2">Between 2012 and 2014, he held the position of Vice-Rector for Degrees and Teaching and Research Staff and, since 2017, he has held the position of Director of the Department of Microbiology and Parasitology at the University of Santiago de Compostela and since 2022 he has been the Dean of the Faculty of Biology at the USC.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_3">Research lines:</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_4">• Bacterial and viral pathology in aquaculture:</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_5">◦ Characterisation of bacterial pathogens of fish and molluscs.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_6">◦ Development of methods for prevention and control of pathogens.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_7">• Enteric viruses</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_8">◦ Transmission and bioaccumulation of enteric viruses in molluscs.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_9">• Bacterial and viral pathology in aquaculture</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_10">◦ Characterisation of bacterial pathogens of fish and molluscs.</string>
+    <string name="CS_CRETUS_miniscreen_31_paragraph_11">MORE INFO: https://investigacion.usc.gal/investigadores/59492/detalle</string>
+    <!-- PANTALLA 32 -->
+    <string name="CS_CRETUS_miniscreen_32_title_0" translatable="false">ANUSKA MOSQUERA CORRAL</string>
+    <string name="CS_CRETUS_miniscreen_32_texto_buscado_0" translatable="false">ANUSKA MOSQUERA CORRAL</string>
+    <string name="CS_CRETUS_miniscreen_32_title_1">Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_32_texto_buscado_1">Professor of Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_32_title_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_32_texto_buscado_2">Department: Chemical Engineering</string>
+    <string name="CS_CRETUS_miniscreen_32_title_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_32_texto_buscado_3">Research Group: Environmental Biotechnology (BIOGROUP)</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_0">Her research activity has focused on wastewater treatment by biological processes, especially on the removal of organic matter (anaerobic digestion and oxidation) and nitrogen (nitrification, heterotrophic and autotrophic denitrification with sulphur compounds, and anammox). Since 2000, she has worked extensively on aerobic granulation systems combined with the anammox process, applied to the treatment of industrial effluents (canning, dairy, slurry, etc.).</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_1">She has participated in numerous research projects on the development of the anammox process on an industrial scale, which has resulted in the ELAN® technology. Since 2005, she has incorporated molecular biology techniques to identify microbial populations in reactors. Since 2011, she has opened a new line of research on the production of biopolymers (PHA or bioplastics) from wastewater and activated sludge, based on previous knowledge of aerobic granulation.</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_2">She has participated in the application for two European patents. One, together with the company Hidrotec, already published (EP 2 740 713 A1), is being implemented with FCC Aqualia in an industrial plant in Guillarei (Galicia). The second, in collaboration with the Autonomous University of Barcelona, is in the evaluation phase (EP13382301). The current objective of the anammox process is to establish optimal operating conditions for treating the main water line of a WWTP.</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_3">Research lines:</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_4">• Advanced technologies for wastewater treatment:</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_5">◦ Autotrophic denitrification (anammox process): Application of the anammox process for the treatment of effluents from anaerobic digesters treating sludge or industrial waste.</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_6">◦ Granular aerobic reactors: Application of aerobic granular biomass for the removal of organic matter, nitrogen and phosphorus from industrial wastewater (fish canneries, pig slurry, dairies, etc.).</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_7">• Biorefinery</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_8">◦ Production of biopolymers from wastewater: Valorisation of organic matter from liquid effluents (glycerol and effluents from the agro-food industry). In particular production of biopolymers with bioplastic properties.</string>
+    <string name="CS_CRETUS_miniscreen_32_paragraph_9">MORE INFO: https://investigacion.usc.gal/investigadores/59711/detalle</string>
+    <!-- PANTALLA 33 -->
+    <string name="CS_CRETUS_miniscreen_33_title_0" translatable="false">XOSÉ LOIS OTERO PÉREZ</string>
+    <string name="CS_CRETUS_miniscreen_33_texto_buscado_0" translatable="false">XOSÉ LOIS OTERO PÉREZ</string>
+    <string name="CS_CRETUS_miniscreen_33_title_1">Professor</string>
+    <string name="CS_CRETUS_miniscreen_33_texto_buscado_1">Professor</string>
+    <string name="CS_CRETUS_miniscreen_33_title_2">Department: Soil Science and Agricultural Chemistry</string>
+    <string name="CS_CRETUS_miniscreen_33_texto_buscado_2">Department: Soil Science and Agricultural Chemistry</string>
+    <string name="CS_CRETUS_miniscreen_33_title_3">Research Group: Soil and landscape mapping, physico-chemistry, degradation and recovery of soils and water (AMBIOSOL)</string>
+    <string name="CS_CRETUS_miniscreen_33_texto_buscado_3">Research Group: Soil and landscape mapping, physico-chemistry, degradation and recovery of soils and water (AMBIOSOL)</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_0">PhD in Biological Sciences from the University of Santiago de Compostela (USC) in 2000, with a thesis awarded by the Spanish Society of Soil Science, he has developed his academic career at the USC, where he is Full Professor since 2018 and researcher of the Ambiosol group since 1998. His teaching work also extends to universities in Ecuador, Brazil and Portugal, where he teaches environmental geochemistry.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_1">His research focuses on (bio)geochemical processes in coastal, tropical, extremophile and mining environments, with emphasis on their environmental impact. He has worked in environments such as estuaries, marshes, mangroves, the Brazilian Pantanal, Antarctica and mining areas in several countries, collaborating with international institutions in Europe, America and Australia.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_2">He has been principal investigator in numerous projects funded by national and international institutions, including studies on the bioaccessibility of toxic metals in rice fields. He has supervised 8 doctoral theses, 24 final projects, published 161 articles (87 in JCR journals, such as Nature Communications), participated in 36 research projects (10 as PI), and prepared 60 technical reports on environmental assessment and remediation.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_3">Research lines:</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_4">Soil science</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_5">• Study of the chemical and mineralogical properties of soils.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_6">• Classification, mapping and evaluation of soil quality.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_7">• Analysis of spatial variation and its environmental implications.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_8">Biogeochemistry</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_9">• Behaviour of iron (Fe), manganese (Mn) and sulphur (S) in hydromorphic environments.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_10">• Mobility of toxic elements and eutrophying nutrients.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_11">• Geochemical processes in cold and extreme environments, such as hydrothermal, hyperacid or hypersaline zones.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_12">• Sub-lines:</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_13">◦ Biogeochemistry of humid areas</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_14">◦ Biogeochemistry of cold and extremophile environments</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_15">Coastal processes</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_16">• Soil/plant interaction in coastal marshes and lagoons.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_17">• Impact of sea level rise on nutrient and pollutant mobilisation.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_18">• Geochemical dynamics in seabird colonies and their effect on soil composition.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_19">• Sub-lines:</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_20">◦ Geochemistry of marsh environments.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_21">◦ Environmental implications of seabird colonies.</string>
+    <string name="CS_CRETUS_miniscreen_33_paragraph_22">MORE INFO: https://investigacion.usc.gal/investigadores/59808/detalle</string>
+    <!-- PANTALLA 34 -->
+    <string name="CS_CRETUS_miniscreen_34_title_0" translatable="false">VICENTE PÉREZ MUÑUZURI</string>
+    <string name="CS_CRETUS_miniscreen_34_texto_buscado_0" translatable="false">VICENTE PÉREZ MUÑUZURI</string>
+    <string name="CS_CRETUS_miniscreen_34_title_1">Professor</string>
+    <string name="CS_CRETUS_miniscreen_34_texto_buscado_1">Professor</string>
+    <string name="CS_CRETUS_miniscreen_34_title_2">Department: Particle Physics (Condensed Matter Area)</string>
+    <string name="CS_CRETUS_miniscreen_34_texto_buscado_2">Department: Particle Physics (Condensed Matter Area)</string>
+    <string name="CS_CRETUS_miniscreen_34_title_3">Research Group: Non-Linear Physics Group (GFNL)</string>
+    <string name="CS_CRETUS_miniscreen_34_texto_buscado_3">Research Group: Non-Linear Physics Group (GFNL)</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_0">Professor of the Faculty of Physics at the University of Santiago de Compostela since 2021, he was founder and director of MeteoGalicia (regional meteorological service under the Xunta de Galicia) during the period 2000-2014, and Vice-Rector of Research at USC during the period 2018-2023.</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_1">He has edited three books, three special issues of an international journal and has published more than 140 articles in JCR journals including Nature (1), Phys. Rev. Lett. (8), Phys. Rev. E (32), Scientific Reports (2) and PLOS Comput. Biol. (1). He has been principal investigator of several national and international projects. He is currently involved in projects related to nonlinear physics and fluid dynamics. In terms of transfer, it is worth mentioning the creation of a spin-off of the University FlowReserve S.L. in 2020 to transfer knowledge related to fluid dynamics in biological systems.</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_2">In recent years, research activity has focused mainly on the study of Lagrangian and inertial particle transport in fluids. Thus, we have studied the movement of micro and macroplastics in the ocean (Interreg FreeLitter, CleanAtlantic and MyCOAST projects), particle transport in biophysical media (CarriersFlow and Interreg NewHeart projects), modelling of vertigo in humans, the transport of water vapour considered as particles with a mass that can change over time (for example, in atmospheric rivers), or the transport of inertial particles in compressible fluids. All these activities have given rise to a multitude of research articles in JCR journals, conferences and PhD theses.</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_3">Research lines:</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_4">• Development of innovative technologies based on hybrid systems.</string>
+    <string name="CS_CRETUS_miniscreen_34_paragraph_5">MORE INFO: https://investigacion.usc.gal/investigadores/59916/detalle</string>
+    <!-- PANTALLA 35 -->
+    <string name="CS_CRETUS_miniscreen_35_title_0" translatable="false">SEBASTIÁN VILLASANTE LARRAMENDI</string>
+    <string name="CS_CRETUS_miniscreen_35_texto_buscado_0" translatable="false">SEBASTIÁN VILLASANTE LARRAMENDI</string>
+    <string name="CS_CRETUS_miniscreen_35_title_1">Senior Lecturer and Oportunius Researcher</string>
+    <string name="CS_CRETUS_miniscreen_35_texto_buscado_1">Senior Lecturer and Oportunius Researcher</string>
+    <string name="CS_CRETUS_miniscreen_35_title_2">Department: Applied Economics</string>
+    <string name="CS_CRETUS_miniscreen_35_texto_buscado_2">Department: Applied Economics</string>
+    <string name="CS_CRETUS_miniscreen_35_title_3" translatable="false">EqualSeaLab</string>
+    <string name="CS_CRETUS_miniscreen_35_texto_buscado_3" translatable="false">EqualSeaLab</string>
+    <string name="CS_CRETUS_miniscreen_35_paragraph_0">Senior Lecturer of Economics and Director of the EqualSea Lab at the University of Santiago de Compostela (Spain), ERC project, funded by the European Research Council Consolidator Grant; Distinguished Researcher Oportunius Xunta de Galicia, and Karl-Göran Mäler Scholar at the Beijer Institute of Ecological Economics. He conducts interdisciplinary scientific work on the role of values, institutions and knowledge in catalyzing pathways for transformative changes in oceans and people\'s diets, with more than 200 scientific publications in leading journals such as Nature, Nature Sustainability and Science. He has been awarded as a Highly Cited Researcher in 2021, 2022 and 2024. He has obtained more than 9 million euros in competitive grant calls and has been distinguished with the Best Doctoral Thesis Award, the Yamamoto Award, the I INESMA Award, the IPBES 2022 Gulbenkian Humanity Award and the Blue Planet Prize for IPBES 2024.</string>
+    <string name="CS_CRETUS_miniscreen_35_paragraph_1">He is currently Senior Coordinator of the IPBES Global Assessment of Transformative Change, Co-Chair of the PECS Program on Ocean Equity for Sustainable Futures, and co-author of the Global Report on Points of No Return. He has been invited to lecture at international bodies such as the European Commission, the European Parliament, the European Court of Auditors and the Convention on Biological Diversity. He is also Editor-in-Chief of the journal Marine Policy and a member of the editorial board of prestigious journals such as Ambio, Ecosystems and People, Marine Policy, People and Nature and Nature Ocean Sustainability. His research has been cited by Le Monde, The Economist, CNN and The Washington Post, among others.</string>
+    <string name="CS_CRETUS_miniscreen_35_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60664/detalle?lang=es</string>
+    <!-- PANTALLA 36 -->
+    <string name="CS_CRETUS_miniscreen_36_paragraph_0">If you are interested in learning more about the CRETUS you can access more information by clicking on the following link: </string>
+    <string name="CS_CRETUS_miniscreen_36_title_0" translatable="false">https://cretus.usc.es/</string>
+</resources>

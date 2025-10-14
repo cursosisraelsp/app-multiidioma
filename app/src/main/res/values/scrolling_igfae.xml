@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- PANTALLA 0 -->
+    <string name="CS_IGFAE_miniscreen_0_paragraph_0">Our innate curiosity about the world around us has always been a defining characteristic of humanity. Initially, it was driven by things like stars, eclipses, and fire. Then came inventions like the compass, the telescope, and the microscope, followed by advancements like particle accelerators. Each era has been defined by its big questions and the development of new tools to try and answer them.</string>
+    <string name="CS_IGFAE_miniscreen_0_texto_buscado_0">stars, eclipses, and fire</string>
+    <!-- PANTALLA 1 -->
+    <string name="CS_IGFAE_miniscreen_1_paragraph_0">Physics, particularly the study of the smallest elements and the most extreme phenomena in the universe, has been crucial to this process. Understanding how matter and energy work has led to countless inventions and advancements we use every day – from medical scanners to the internet, solar panels, GPS, and cancer treatments.</string>
+    <string name="CS_IGFAE_miniscreen_1_texto_buscado_0">how matter and energy work</string>
+    <!-- PANTALLA 2 -->
+    <string name="CS_IGFAE_miniscreen_2_paragraph_0">High-energy physics isn\'t just confined to laboratories or complex theories. It\’s behind discoveries that have changed the world and technologies that can help us tackle the challenges of today and tomorrow: climate change, access to energy, healthcare, and space exploration.</string>
+    <string name="CS_IGFAE_miniscreen_2_texto_buscado_0">discoveries that have changed the world</string>
+    <!-- PANTALLA 3 -->
+    <string name="CS_IGFAE_miniscreen_3_paragraph_0">With the goal of continuing to explore matter and energy, the Galician Institute of Physics and High Energy (IGFAE) was established at the University of Santiago de Compostela. It connects Galicia to major global scientific experiments and has a clear mission: to delve into the deepest mysteries of the universe and share that knowledge with society.</string>
+    <string name="CS_IGFAE_miniscreen_3_texto_buscado_0">It connects Galicia to major global scientific experiments</string>
+    <!-- PANTALLA 4 -->
+    <string name="CS_IGFAE_miniscreen_4_paragraph_0">The IGFAE was officially established in July 1999. It focuses on High Energy Physics, Astroparticle Physics, and Nuclear Physics, encompassing both theoretical and experimental work.</string>
+    <string name="CS_IGFAE_miniscreen_4_texto_buscado_0">High Energy Physics, Astroparticle Physics, and Nuclear Physics</string>
+    <string name="CS_IGFAE_miniscreen_4_paragraph_1">The IGFAE has been involved in some of the most significant experimental installations in the field of physics, including the Large Hadron Collider (LHC) at CERN, the Pierre Auger Observatory in Argentina, and the LIGO collaboration for the study of gravitational waves, among others.</string>
+    <string name="CS_IGFAE_miniscreen_4_texto_buscado_1">Large Hadron Collider (LHC) at CERN, the Pierre Auger Observatory in Argentina, and the LIGO collaboration for the study of gravitational waves</string>
+    <!-- PANTALLA 5 -->
+    <string name="CS_IGFAE_miniscreen_5_paragraph_0">A key objective of the center is to lead international research in particle, nuclear, and astroparticle physics, to transfer knowledge to society, to attract, train, and retain talent, and to continuously modernize its infrastructure and equipment.</string>
+    <string name="CS_IGFAE_miniscreen_5_texto_buscado_0">to lead international research in particle, nuclear, and astroparticle physics</string>
+    <string name="CS_IGFAE_miniscreen_5_paragraph_1">The institute is located on the Campus Vida of the University of Santiago de Compostela, where it has well-equipped laboratories, collaborative workspaces, and new areas dedicated to outreach and advanced technology. It boasts a team of over 130 people, comprising scientists, technicians, administrative and management staff.</string>
+    <string name="CS_IGFAE_miniscreen_5_texto_buscado_1">Campus Vida of the University of Santiago de Compostela</string>
+    <string name="CS_IGFAE_miniscreen_5_texto_buscado_2">a team of over 130 people</string>
+    <string name="CS_IGFAE_miniscreen_5_paragraph_2">The research conducted at IGFAE is organized around three key strategic areas:</string>
+    <string name="CS_IGFAE_miniscreen_5_texto_buscado_3">three key strategic areas:</string>
+    <!-- PANTALLA 6 -->
+    <string name="CS_IGFAE_miniscreen_6_title_0">THE STANDARD MODEL TO THE LIMITS</string>
+    <string name="CS_IGFAE_miniscreen_6_paragraph_0">Despite the fact that the Standard Model is, until now, the best explanation for understanding the fundamental elements of matter and the forces that govern them, there are still some unresolved questions, such as the fact that this model is incompatible with gravity or dark matter. Therefore, it is necessary to push this model to its limits and continue expanding our understanding of the Universe.</string>
+    <string name="CS_IGFAE_miniscreen_6_texto_buscado_0">understanding the fundamental elements of matter and the forces that govern them</string>
+    <string name="CS_IGFAE_miniscreen_6_texto_buscado_1">incompatible with gravity or dark matter</string>
+    <string name="CS_IGFAE_miniscreen_6_paragraph_1">Below are some of the research programs of the Institute that are carried out in this area.</string>
+    <string name="CS_IGFAE_miniscreen_6_texto_buscado_2">research programs</string>
+    <!-- PANTALLA 7 -->
+    <string name="CS_IGFAE_miniscreen_7_title_0">STRING THEORY AND RELATED FIELDS</string>
+    <string name="CS_IGFAE_miniscreen_7_paragraph_0">The theory of strings proposes that the smallest elements are “strings” that, according to how they vibrate, form the different particles, such as electrons or quarks. This theory emerges as a possible solution to the incompatibility between quantum mechanics, which explains how the universe works at a very small scale (atoms), and general relativity, which explains it at a large scale (planets or galaxies).</string>
+    <string name="CS_IGFAE_miniscreen_7_texto_buscado_0">that the smallest elements are “strings” that, according to how they vibrate, form the different particles</string>
+    <string name="CS_IGFAE_miniscreen_7_paragraph_1">This research program of the IGFAE studies from the most theoretical aspects of physics, such as the relationship between the laws that explain particles and gravity, as well as how matter behaves when many particles interact with each other. This is known as “condensed matter” and is key to understanding materials with special properties, such as superconductors. These studies are also beginning to be applied to more practical areas, such as the development of quantum computing, which will allow for calculations to be made simultaneously and more quickly than current computers.</string>
+    <string name="CS_IGFAE_miniscreen_7_texto_buscado_1">condensed matter</string>
+    <string name="CS_IGFAE_miniscreen_7_texto_buscado_2">development of quantum computing</string>
+    <!-- PANTALLA 8 -->
+    <string name="CS_IGFAE_miniscreen_8_title_0">HOT AND DENSE QCD IN THE LHC ERA AND BEYOND</string>
+    <string name="CS_IGFAE_miniscreen_8_paragraph_0">Quantum chromodynamics (QCD) is the theory that describes the strong nuclear force that holds protons and neutrons together in the atomic nucleus. To deepen its study, it is necessary to recreate extreme temperature and density conditions, such as those that existed in the earliest moments of the universe, just after the Big Bang. These conditions are recreated in colliders such as the LHC at CERN or the RHIC at Brookhaven (United States).</string>
+    <string name="CS_IGFAE_miniscreen_8_texto_buscado_0">describes the strong nuclear force that holds protons and neutrons together in the atomic nucleus</string>
+    <string name="CS_IGFAE_miniscreen_8_paragraph_1">The team at the IGFAE is an international reference in the study of quantum chromodynamics under extreme conditions, and holds positions of responsibility in the design and configuration of future particle accelerators, leading projects such as the YoctoLHC, which will allow us to continue to delve into this field.</string>
+    <string name="CS_IGFAE_miniscreen_8_texto_buscado_1">IGFAE is an international reference</string>
+    <!-- PANTALLA 9 -->
+    <string name="CS_IGFAE_miniscreen_9_title_0">BEYOND THE SM SEARCHES WITH LHCB</string>
+    <string name="CS_IGFAE_miniscreen_9_paragraph_0">This research line consists of seeking answers to one of the great questions in modern physics: the dominance of matter over antimatter in the universe, when, in theory, they should have been created equally. To do this, a particle called the quark bottom or beauty (quark b) and a phenomenon called the violation of charge-parity symmetry (symmetry CP) are studied, which occurs when matter and antimatter do not behave exactly the same.</string>
+    <string name="CS_IGFAE_miniscreen_9_texto_buscado_0">the dominance of matter over antimatter in the universe</string>
+    <string name="CS_IGFAE_miniscreen_9_texto_buscado_1">quark bottom or beauty (quark b)</string>
+    <string name="CS_IGFAE_miniscreen_9_paragraph_1">This field is developed both theoretically and through participation in international experiments such as those at the LHCb at CERN, in which the IGFAE has been participating since its beginnings. Today, it is one of the most important teams within LHCb, and its personnel collaborates in the design and construction of highly precise sensors, such as those of the VELO vertex locator subdetector, the development of the Allen supercomputer, capable of analyzing experiment data in real time, or the proposal for a new CODEX-b detector. The IGFAE also assumes a large part of the work of processing all the information generated in LHCb thanks to its powerful computing center.</string>
+    <string name="CS_IGFAE_miniscreen_9_texto_buscado_2">one of the most important teams within LHCb</string>
+    <string name="CS_IGFAE_miniscreen_9_texto_buscado_3">work of processing all the information generated in LHCb</string>
+    <!-- PANTALLA 10 -->
+    <string name="CS_IGFAE_miniscreen_10_title_0">COSMIC PARTICLES AND FUNDAMENTAL PHYSICS</string>
+    <string name="CS_IGFAE_miniscreen_10_paragraph_0">Thanks to increasingly powerful technologies, it is now possible to study cosmic phenomena in many diverse ways. Not only are stars now observed with the traditional telescope, but signals such as gravitational waves or neutrinos can also be detected. This new way of understanding the universe is called multi-messenger astronomy and allows us to study particles that come from the cosmos and understand its most extreme phenomena.</string>
+    <string name="CS_IGFAE_miniscreen_10_texto_buscado_0">gravitational waves or neutrinos can also be detected</string>
+    <string name="CS_IGFAE_miniscreen_10_paragraph_1">These are some of the research programs that the Institute develops within this line.</string>
+    <string name="CS_IGFAE_miniscreen_10_texto_buscado_1">research programs</string>
+    <!-- PANTALLA 11 -->
+    <string name="CS_IGFAE_miniscreen_11_title_0">DARK MATTER AND THE NATURE OF NEUTRINOS</string>
+    <string name="CS_IGFAE_miniscreen_11_paragraph_0">Dark matter is one of the greatest mysteries in modern physics, a form of matter that cannot be seen directly, but whose existence is deduced by its gravitational effects on visible matter surrounding it. It is believed to make up more than 80% of the matter in the universe and does not fit within the current Standard Model of physics.</string>
+    <string name="CS_IGFAE_miniscreen_11_texto_buscado_0">make up more than 80% of the matter in the universe</string>
+    <string name="CS_IGFAE_miniscreen_11_paragraph_1">The IGFAE actively collaborates in this field through the observation of neutrinos, which are very small and difficult to detect particles, but which are essential in the study of dark matter. The Institute participates in some of the most relevant international experiments in this field, such as NEXT, a laboratory located in the Aragon Pyrenees, DUNE in the United States and Hyper-Kamiokande, a neutrino detector that is currently under construction in Japan.</string>
+    <string name="CS_IGFAE_miniscreen_11_texto_buscado_1">neutrinos, which are very small and difficult to detect particles, but which are essential in the study of dark matter</string>
+    <!-- PANTALLA 12 -->
+    <string name="CS_IGFAE_miniscreen_12_title_0">GRAVITATIONAL WAVES</string>
+    <string name="CS_IGFAE_miniscreen_12_paragraph_0">Gravitational waves are small perturbations in space-time caused by violent cosmic phenomena such as the merger of black holes and neutron stars or the explosion of supernovae. Their experimental detection was one of the great scientific achievements of this century, through the LIGO collaboration in 2015, and allows us to obtain information about the universe that was previously impossible to capture.</string>
+    <string name="CS_IGFAE_miniscreen_12_texto_buscado_0">perturbations in space-time caused by violent cosmic phenomena</string>
+    <string name="CS_IGFAE_miniscreen_12_paragraph_1">The IGFAE has its own team incorporated into the LIGO collaboration since 2018, dedicated to important tasks of analysis within the experiment. With the opening of its new headquarters, the institute plans to dedicate a laboratory to the development of new technologies for gravitational wave experiments.</string>
+    <string name="CS_IGFAE_miniscreen_12_texto_buscado_1">team incorporated into the LIGO</string>
+    <!-- PANTALLA 13 -->
+    <string name="CS_IGFAE_miniscreen_13_title_0">EXTREMELY ENERGETIC COSMIC RAYS AND NEUTRINOS – LARGE EXPOSURE EXPERIMENTS</string>
+    <string name="CS_IGFAE_miniscreen_13_paragraph_0">The Earth receives a constant bombardment of cosmic rays, particles that travel at speeds close to the speed of light and originate from very distant places in the universe. This radiation is harmless to people, but its study is key to understanding very energetic and distant cosmic phenomena.</string>
+    <string name="CS_IGFAE_miniscreen_13_texto_buscado_0">particles that travel at speeds close to the speed of light</string>
+    <string name="CS_IGFAE_miniscreen_13_paragraph_1">Since 2002, the IGFAE has led Spain\’s participation in the Pierre Auger Observatory experiment in Argentina, one of the most important for the study of cosmic rays and neutrinos. In this field, the Institute’s team has developed pioneering analysis methods that are crucial for the interpretation of the data. This research, in addition, connects with other IGFAE programs and complements other theoretical work on astroparticle physics.</string>
+    <string name="CS_IGFAE_miniscreen_13_texto_buscado_1">Pierre Auger Observatory</string>
+    <!-- PANTALLA 14 -->
+    <string name="CS_IGFAE_miniscreen_14_title_0">NUCLEAR PHYSICS FROM THE LAB TO IMPROVE PEOPLE\’S HEALTH</string>
+    <string name="CS_IGFAE_miniscreen_14_paragraph_0">The study of atomic nuclei is fundamental for understanding the interactions and reactions that occur within them. Research in this field not only allows us to explain the origin of the elements in the periodic table, but also to advance areas such as atomic energy and the development of new medical techniques that improve healthcare.</string>
+    <string name="CS_IGFAE_miniscreen_14_texto_buscado_0">the origin of the elements in the periodic table</string>
+    <string name="CS_IGFAE_miniscreen_14_paragraph_1">The Institute works on several programs within this theme and among them stand out the following.</string>
+    <string name="CS_IGFAE_miniscreen_14_texto_buscado_1">programs within this theme</string>
+    <!-- PANTALLA 15 -->
+    <string name="CS_IGFAE_miniscreen_15_title_0">EXPLOITATION OF THE LASER LABORATORY OF ACCELERATION AND APPLICATIONS (L2A2) AT USC</string>
+    <string name="CS_IGFAE_miniscreen_15_paragraph_0">Laser-plasma acceleration is a technique that allows particles to be accelerated using very powerful laser pulses, and in this way, to obtain more precise images for diagnoses in the medical field.</string>
+    <string name="CS_IGFAE_miniscreen_15_texto_buscado_0">to be accelerated using very powerful laser pulses</string>
+    <string name="CS_IGFAE_miniscreen_15_paragraph_1">Through the construction of the Laser Acceleration of Applications Laboratory (L2A2) in Santiago de Compostela, the Institute\’s team focuses on researching the possible medical applications of this technique. They are currently focused on two main research lines. On the one hand, the production of radioisotopes using lasers for their use in positron emission tomography, and on the other, the development of new X-ray sources generated by laser and their application in imaging diagnostics. These research lines are also deeply linked with other disciplines such as radiobiology and other areas of health, making collaboration between all disciplines indispensable.</string>
+    <string name="CS_IGFAE_miniscreen_15_texto_buscado_1">construction of the Laser Acceleration of Applications Laboratory (L2A2) in Santiago de Compostela</string>
+    <string name="CS_IGFAE_miniscreen_15_texto_buscado_2">production of radioisotopes</string>
+    <!-- PANTALLA 16 -->
+    <string name="CS_IGFAE_miniscreen_16_title_0">THE STRUCTURE OF THE NUCLEAR MANY-BODY SYSTEMS AND ITS ASTROPHYSICAL AND COSMOLOGICAL IMPLICATIONS</string>
+    <string name="CS_IGFAE_miniscreen_16_paragraph_0">This field deals with studying exotic and unstable atomic nuclei, which are not easily found in nature, to analyze their properties and try to understand the formation of elements in the universe. To achieve this, specific nuclear reactions are triggered to generate these nuclei for brief moments in time.</string>
+    <string name="CS_IGFAE_miniscreen_16_texto_buscado_0">exotic and unstable atomic nuclei</string>
+    <string name="CS_IGFAE_miniscreen_16_paragraph_1">The IGFAE participates in international facilities such as FAIR in Germany and GANIL in France, where the team has accumulated over 20 years of experience, and more recently, at FRIB in the United States. In this field, the Institute stands out for its contribution to the design and construction of detectors and for the quality in the analysis of experimental data.</string>
+    <string name="CS_IGFAE_miniscreen_16_texto_buscado_1">FAIR in Germany and GANIL in France</string>
+    <!-- PANTALLA 17 -->
+    <string name="CS_IGFAE_miniscreen_17_paragraph_0">The research of the IGFAE not only seeks to better understand the universe, but also to improve everyday life. From Santiago de Compostela, its advances translate into new medical technologies, collaboration with hospitals, talent training, and participation in important scientific experiments, connecting Galicia with global science challenges.</string>
+    <string name="CS_IGFAE_miniscreen_17_texto_buscado_0">medical technologies, collaboration with hospitals, talent training, and participation in important scientific experiments</string>
+    <string name="CS_IGFAE_miniscreen_17_paragraph_1">Its impact is felt locally in diverse areas. The IGFAE leads cutting-edge research such as the use of protons for “flash” radiotherapy, a promising technique against cancer that could reduce damage to healthy tissues. This work is developed in collaboration with Galician hospitals and centers like the Pulsed Laser Center of Salamanca. Furthermore, at the L2A2 laboratory, new ways of producing radioisotopes such as carbon-11 are being explored, fundamental for diagnostic techniques like PET tomography, which could enable more local accessibility.</string>
+    <string name="CS_IGFAE_miniscreen_17_texto_buscado_1">use of protons for “flash” radiotherapy</string>
+    <!-- PANTALLA 18 -->
+    <string name="CS_IGFAE_miniscreen_18_paragraph_0">The transfer also reaches the business sector through spin-offs like Neutron Insights, a company derived from the IGFAE specializing in neutron radiography and tomography for non-destructive testing of materials. This technology is particularly interesting for dense materials like metals and has much greater penetration than X-rays. This is relevant in sectors such as civil construction, the metal industry, additive manufacturing, security and defense, or aeronautics and aerospace.</string>
+    <string name="CS_IGFAE_miniscreen_18_texto_buscado_0">spin-offs like Neutron Insights</string>
+    <string name="CS_IGFAE_miniscreen_18_paragraph_1">In 2017, the IGFAE achieved the María de Maeztu Excellence Unit accreditation, entering the Severo Ochoa and María de Maeztu (SOMMa) alliance of centers. It became the first scientific center in Galicia to achieve this distinction, awarded by the State Research Agency. In 2024, the IGFAE achieved the María de Maeztu accreditation again.</string>
+    <string name="CS_IGFAE_miniscreen_18_texto_buscado_1">María de Maeztu Excellence Unit</string>
+    <string name="CS_IGFAE_miniscreen_18_texto_buscado_2">Severo Ochoa and María de Maeztu (SOMMa)</string>
+    <!-- PANTALLA 19 -->
+    <string name="CS_IGFAE_miniscreen_19_paragraph_0">The Institute is also integrated into scientific networks like the CIGUS consortium and adds a strong commitment to science dissemination and education. The IGFAE organizes talks, workshops and guided tours for all audiences, promotes initiation scholarships into research, collaborates on educational projects like Creative Poles and awards young talent with initiatives like the IGFAE C³ international science video competition. It also opens its doors at events like the Day of Women and Girls in Science or in laboratory L2A2 days.</string>
+    <string name="CS_IGFAE_miniscreen_19_texto_buscado_0">CIGUS consortium</string>
+    <string name="CS_IGFAE_miniscreen_19_texto_buscado_1">Creative Poles</string>
+    <!-- PANTALLA 20 -->
+    <string name="CS_IGFAE_miniscreen_20_paragraph_0">Globally, the IGFAE participates in some of the world\’s most ambitious scientific collaborations, such as LHCb at CERN, which contributes to understanding why our universe appears to be almost entirely made of matter and not antimatter; LIGO, responsible for the detection of gravitational waves; DUNE in the United States, to improve the knowledge of neutrinos; Hyper-Kamiokande in Japan, designed to search for proton decay and detect neutrinos from natural sources such as the Earth, the atmosphere, the Sun and the cosmos; or the Pierre Auger Observatory in Argentina for the detection and analysis of cosmic rays of the highest energies. This represents a direct contribution of Galician knowledge in particle physics and astrophysics.</string>
+    <string name="CS_IGFAE_miniscreen_20_texto_buscado_0">LHCb at CERN</string>
+    <string name="CS_IGFAE_miniscreen_20_texto_buscado_1" translatable="false">LIGO</string>
+    <string name="CS_IGFAE_miniscreen_20_texto_buscado_2" translatable="false">DUNE</string>
+    <string name="CS_IGFAE_miniscreen_20_texto_buscado_3" translatable="false">Hyper-Kamiokande</string>
+    <string name="CS_IGFAE_miniscreen_20_texto_buscado_4">Pierre Auger Observatory</string>
+    <!-- PANTALLA 21 -->
+    <string name="CS_IGFAE_miniscreen_21_paragraph_0">Furthermore, the IGFAE positions Galicia on the map of attracting, training, and retaining scientific excellence personnel through programs such as the Global Talent Program, in which the IGFAE becomes a talent attraction pole, coming from anywhere in the world, to develop its research projects. Or the IGNITE program, which aims to stimulate innovative ideas and interdisciplinary collaboration between the IGFAE\’s different research programs, funding projects proposed by its members, which could also include external collaborators, with a clear focus on technology transfer and gender balance.</string>
+    <string name="CS_IGFAE_miniscreen_21_texto_buscado_0">Global Talent Program</string>
+    <string name="CS_IGFAE_miniscreen_21_texto_buscado_1">IGNITE program</string>
+    <!-- PANTALLA 22 -->
+    <string name="CS_IGFAE_miniscreen_22_title_0">TALENT AMBASSADORS</string>
+    <!-- PANTALLA 23 -->
+    <string name="CS_IGFAE_miniscreen_23_title_0">MANAGEMENT TEAM</string>
+    <string name="CS_IGFAE_miniscreen_23_paragraph_0" translatable="false">Director: CARLOS ALBERTO SALGADO LÓPEZ</string>
+    <string name="CS_IGFAE_miniscreen_23_title_1">RESEARCH STAFF</string>
+    <string name="CS_IGFAE_miniscreen_23_paragraph_1" translatable="false">María Vieites Díaz</string>
+    <string name="CS_IGFAE_miniscreen_23_paragraph_2" translatable="false">Néstor Armesto Pérez</string>
+    <string name="CS_IGFAE_miniscreen_23_paragraph_3" translatable="false">Jose Edelstein</string>
+    <string name="CS_IGFAE_miniscreen_23_paragraph_4" translatable="false">Beatriz Fernández Domínguez</string>
+    <!-- PANTALLA 24 -->
+    <string name="CS_IGFAE_miniscreen_24_title_0" translatable="false">CARLOS ALBERTO SALGADO LÓPEZ</string>
+    <string name="CS_IGFAE_miniscreen_24_texto_buscado_0" translatable="false">CARLOS ALBERTO SALGADO LÓPEZ</string>
+    <string name="CS_IGFAE_miniscreen_24_title_1" translatable="false">Director</string>
+    <string name="CS_IGFAE_miniscreen_24_texto_buscado_1" translatable="false">Director</string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_1">Since February 2023, the director of the Institute has been Carlos Alberto Salgado López, professor of Theoretical Physics at the University of Santiago de Compostela (USC). Since July 2023, he has also served as deputy director of the National Center for Particle, Astroparticle, and Nuclear Physics (CPAN).</string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_2">MORE INFO: https://igfae.usc.es/igfae/persoa/salgado-lopez-carlos-alberto/179/</string>
+    <!-- PANTALLA 25 -->
+    <string name="CS_IGFAE_miniscreen_25_title_0" translatable="false">MARÍA VIEITES DÍAZ</string>
+    <string name="CS_IGFAE_miniscreen_25_texto_buscado_0" translatable="false">MARÍA VIEITES DÍAZ</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_1">Ramón y Cajal researcher at the IGFAE/USC and deputy physics coordinator at the LHCb collaboration, one of the four majour experiments at CERN. She obtained her PhD in Physics from the USC and worked as a postdoctoral researcher at the École Polytechnique Fédérale de Lausanne (Suíza) and at CERN.</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_2">MORE INFO: https://igfae.usc.es/igfae/persoa/vieites-diaz-maria/201/</string>
+    <!-- PANTALLA 26 -->
+    <string name="CS_IGFAE_miniscreen_26_title_0" translatable="false">NÉSTOR ARMESTO PÉREZ</string>
+    <string name="CS_IGFAE_miniscreen_26_texto_buscado_0" translatable="false">NÉSTOR ARMESTO PÉREZ</string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_1">Professor of Theoretical Physics at the USC. His main field of research is the study of strong interaction and quantum field theory in high-energy conditions. He is a member of international committees for the study of future scientific facilities, such as the Large Hadron and Electron Collider at CERN.</string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_2">MORE INFO: https://igfae.usc.es/igfae/persoa/armesto-perez-nestor/153/ </string>
+    <!-- PANTALLA 27 -->
+    <string name="CS_IGFAE_miniscreen_27_title_0" translatable="false">JOSE EDELSTEIN</string>
+    <string name="CS_IGFAE_miniscreen_27_texto_buscado_0" translatable="false">JOSE EDELSTEIN</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_1">Professor of Theoretical Physics at the USC. He has a doctorate in physics from the National University of La Plata (Argentina) and has completed postdoctoral fellowships at Harvard (United States) and the Instituto Superior Técnico (Portugal). He specialises in string theory and the study of quantum gravity, in the search for a unified theory of relativity and quantum mechanics, the two great foundations of physics. He is actively involved in outreach work, which has made him one of the best-known physicists in the Spanish-speaking world.</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_2">MORE INFORMATION: https://igfae.usc.es/igfae/persoa/edelstein-glaubach-jose-daniel/141/ </string>
+    <!-- PANTALLA 28 -->
+    <string name="CS_IGFAE_miniscreen_28_title_0" translatable="false">BEATRIZ FERNÁNDEZ DOMÍNGUEZ</string>
+    <string name="CS_IGFAE_miniscreen_28_texto_buscado_0" translatable="false">BEATRIZ FERNÁNDEZ DOMÍNGUEZ</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_1">Professor and Vice Dean of the Faculty of Physics at the USC, and experimental scientist in the field of nuclear physics. She holds a PhD from the University of Caen (France) and has also worked as a researcher at the University of Liverpool (United Kingdom), GANIL (France) and on various projects and experiments in the United States (FRIB) and TRIUMF (Canada).</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_2"> MORE INFO: https://igfae.usc.es/igfae/persoa/fernandez-dominguez-beatriz/122/</string>
+    <!-- PANTALLA 29 -->
+    <string name="CS_IGFAE_miniscreen_29_paragraph_0">If you are interested in learning more about this institute, you can access more information by clicking on the following link:</string>
+    <string name="CS_IGFAE_miniscreen_29_texto_buscado_0">learning more</string>
+    <string name="CS_IGFAE_miniscreen_29_title_0">https://igfae.usc.es/igfae/</string>
+</resources>
