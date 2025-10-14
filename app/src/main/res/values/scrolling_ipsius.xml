@@ -38,18 +38,21 @@
         <string name="II_IPSIUS_miniscreen_7_paragraph_1">The Tratapsicolóxico group focuses on some of the most relevant areas of mental health: addictions, depression, anxiety and psychological intervention in physical health problems such as asthma or kidney disease. From smoking to cocaine dependence, pathological gambling and co-morbidity with mental health problems such as depression, her work focuses on people with problems that are detrimental to both their physical and mental health. The priority is always evidence-based intervention and direct improvement in patients\' quality of life.</string>
         <string name="II_IPSIUS_miniscreen_7_texto_buscado_0">addictions, depression, anxiety and psychological intervention in physical health problems such as asthma or kidney disease</string>
         <string name="II_IPSIUS_miniscreen_7_texto_buscado_1">evidence-based intervention and direct improvement in patients\' quality of life</string>
+        <string name="II_IPSIUS_miniscreen_7_paragraph_2">Transpsychological</string>
         <!-- PANTALLA 8 -->
         <string name="II_IPSIUS_miniscreen_8_title_0" translatable="false">UNDERISK:</string>
         <string name="II_IPSIUS_miniscreen_8_paragraph_0">Risk behaviours and development</string>
         <string name="II_IPSIUS_miniscreen_8_paragraph_1">The UNDERISK group focuses on the study of childhood and adolescence, and the behavioural and emotional problems that emerge in the early stages of life. UNDERISK adopts a developmental perspective, that is, it examines how, when and why problems and difficulties emerge, persist or change as individuals grow up. Its methods focus on following individuals over time, through longitudinal studies that look at multiple problems, including aggression, addictions, vulnerability to stress, problematic technology use or school maladjustment. In a complementary way, the emotional bases of these difficulties are studied through attentional and psychophysiological techniques. Based on these lines, the group proposes and validates prevention strategies adapted to the current challenges of child and adolescent development.</string>
         <string name="II_IPSIUS_miniscreen_8_texto_buscado_0">study of childhood and adolescence, and the behavioural and emotional problems</string>
         <string name="II_IPSIUS_miniscreen_8_texto_buscado_1">the emotional bases of these difficulties are studied through attentional and psychophysiological techniques</string>
+        <string name="II_IPSIUS_miniscreen_8_paragraph_2">UNDERISK</string>
         <!-- PANTALLA 9 -->
         <string name="II_IPSIUS_miniscreen_9_title_0" translatable="false">NECEA:</string>
         <string name="II_IPSIUS_miniscreen_9_paragraph_0">Cognitive and affective neuroscience</string>
         <string name="II_IPSIUS_miniscreen_9_paragraph_1">From the laboratory to the classroom, the NECEA group studies the neural bases of our emotions and cognitive processes in situations such as intensive alcohol consumption in young people or healthy ageing. They use psychophysiological techniques, such as EEG or functional magnetic resonance imaging, and neuropsychological assessment tests to analyse attention, learning and memory or emotion recognition. Their research is applied in the field of neuropsychological rehabilitation, which reinforces the role of neuroscience in improving health and well-being.</string>
         <string name="II_IPSIUS_miniscreen_9_texto_buscado_0">our emotions and cognitive processes</string>
         <string name="II_IPSIUS_miniscreen_9_texto_buscado_1">EEG or functional magnetic resonance imaging, and neuropsychological assessment tests</string>
+        <string name="II_IPSIUS_miniscreen_9_paragraph_2">NECEA</string>
         <!-- PANTALLA 10 -->
         <string name="II_IPSIUS_miniscreen_10_title_0" translatable="false">NEUCOGA-AGING:</string>
         <string name="II_IPSIUS_miniscreen_10_paragraph_0">Ageing and cognitive functions</string>
@@ -57,16 +60,19 @@
         <string name="II_IPSIUS_miniscreen_10_texto_buscado_0">age-related cognitive decline</string>
         <string name="II_IPSIUS_miniscreen_10_paragraph_2">In addition, they are investigating the usefulness of cognitive stimulation techniques and non-invasive brain stimulation to delay the onset of symptoms linked to neurodegenerative processes, such as Alzheimer\'s disease. These lines of work are essential to improve the health and well-being of an increasingly long-lived population.</string>
         <string name="II_IPSIUS_miniscreen_10_texto_buscado_1">cognitive stimulation techniques and non-invasive brain stimulation</string>
+        <string name="II_IPSIUS_miniscreen_10_paragraph_3">NeuCogA-Aging</string>
         <!-- PANTALLA 11 -->
         <string name="II_IPSIUS_miniscreen_11_title_0">COGNITION AND BEHAVIOUR:</string>
         <string name="II_IPSIUS_miniscreen_11_paragraph_0">This area investigates how we learn, how we remember, how we feel and how we decide. From language comprehension in a multilingual world, through emotional processing and memory, to the keys to implicit learning and decision-making, its researchers seek to unravel the keys to everyday human behaviour. This line serves as a bridge between classical experimental psychology, linguistics and the new challenges of the digital society.</string>
         <string name="II_IPSIUS_miniscreen_11_texto_buscado_0">how we learn, how we remember, how we feel and how we decide</string>
+        <string name="II_IPSIUS_miniscreen_11_paragraph_1">Cognition and Behavior</string>
         <!-- PANTALLA 12 -->
         <string name="II_IPSIUS_miniscreen_12_title_0" translatable="false">COSOYPA:</string>
         <string name="II_IPSIUS_miniscreen_12_paragraph_0">Social psychology and psychometrics</string>
         <string name="II_IPSIUS_miniscreen_12_paragraph_1">The COSOYPA group delves into the complex terrain of collective behaviour. It investigates how attitudes, social movements and political behaviour are shaped. They also develop psychometric tools such as scales and tests to accurately measure these dynamics. Their work has become particularly relevant in times of hate speech, political disaffection, polarisation and ideological extremism, where understanding the collective and the defence of democratic behaviour is more urgent than ever.</string>
         <string name="II_IPSIUS_miniscreen_12_texto_buscado_0">collective behaviour</string>
         <string name="II_IPSIUS_miniscreen_12_texto_buscado_1">hate speech, political disaffection, polarisation and ideological extremism</string>
+        <string name="II_IPSIUS_miniscreen_12_paragraph_2">COSOYPA</string>
         <!-- PANTALLA 13 -->
         <string name="II_IPSIUS_miniscreen_13_title_0" translatable="false">BENESTAR</string>
         <string name="II_IPSIUS_miniscreen_13_paragraph_0">Quality of life and chronic illnesses</string>
@@ -74,6 +80,7 @@
         <string name="II_IPSIUS_miniscreen_13_texto_buscado_0">quality of life of people with chronic diseases, such as cancer or fibromyalgia</string>
         <string name="II_IPSIUS_miniscreen_13_paragraph_2">Its lines include areas such as research into the neuroscience of pain, the development of health education programmes and digital tools for self-care and the carrying out of cost-effectiveness analyses of the proposed interventions to ensure that they can be implemented in current health systems. This approach brings together science, empathy and technology to provide innovative responses to physical and emotional suffering.</string>
         <string name="II_IPSIUS_miniscreen_13_texto_buscado_1">the neuroscience of pain, the development of health education programmes and digital tools for self-care</string>
+        <string name="II_IPSIUS_miniscreen_13_paragraph_3">BENESTAR</string>
         <!-- PANTALLA 14 -->
         <string name="II_IPSIUS_miniscreen_14_paragraph_0">From the heart of Santiago de Compostela, IPsiUS does not limit itself to research: it transforms. Knowledge transfer is not an abstract objective, but an everyday reality that manifests itself in clinical applications, community interventions and digital tools with social impact.</string>
         <string name="II_IPSIUS_miniscreen_14_texto_buscado_0">transforms</string>
