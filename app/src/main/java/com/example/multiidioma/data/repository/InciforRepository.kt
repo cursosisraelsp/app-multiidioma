@@ -258,18 +258,6 @@ class InciforRepository {
                     )
                 )
             ),
-
-
-
-            MiniScreenData(
-                id = 27,
-                bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_27_title_0,
-                    R.string.II_INCIFOR_miniscreen_27_title_1,
-                    R.string.II_INCIFOR_miniscreen_27_paragraph_1
-                ),
-                imageRes = R.drawable.incifor_img_01_d
-            ),
             MiniScreenData(
                 id = 28,
                 bodyParagraphs = listOf(

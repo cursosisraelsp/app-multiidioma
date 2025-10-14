@@ -9,7 +9,6 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.repository.InciforRepository
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen14.InciforMiniScreen14
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen15.InciforMiniScreen15
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen16.InciforMiniScreen16
@@ -56,13 +55,6 @@ fun NavGraphBuilder.InciforAppNavegacion(
     composable(Destination.InciforMiniscreen18.route) {
         InciforMiniScreen18(
             data = repository.getData(18),
-            navController = navController
-        )
-    }
-
-    composable(Destination.InciforMiniscreen27.route) {
-        InciforMiniScreen27(
-            data = repository.getData(27),
             navController = navController
         )
     }

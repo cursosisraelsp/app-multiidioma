@@ -66,11 +66,6 @@ fun NavHostApp(
         IgfaeAppNavegacion()
         detailNavGraph(navController, onClose = onOpenMap, listState)
 
-
-        /*composable (Destination.InciforMiniscreen27.route) {
-            InciforMiniScreen27(data = ,navController = navController)
-        }*/
-
         composable("detalles/{centro}/{itemId}") { backStackEntry ->
             // Aquí puedes acceder a los argumentos
             val itemId = backStackEntry.arguments?.getString("itemId")

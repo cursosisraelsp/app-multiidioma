@@ -9,5 +9,4 @@ data class MiniScreenData(
     val mapLocation: List<String>? = emptyList(),
     @DrawableRes val imageRes: Int? = null,
     val personalResearcher: List<PersonalResearcher>? = null
-
 )

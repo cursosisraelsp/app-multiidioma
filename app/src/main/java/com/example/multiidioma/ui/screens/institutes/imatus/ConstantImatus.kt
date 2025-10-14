@@ -58,12 +58,14 @@ val valorFiguraImatus2 = NavegationFiguresData(
 
 
 /// INVESTIGADORES
+//title es para sus estudios, role es para su posicion )
 
 val calImatus = PersonResearcher(
     foto = R.drawable.imatus_img_13,
-    name = "Carmen Alvarez Lorenzo",
+    name = "Carmen Álvarez Lorenzo",
+    title = R.string.II_IMATUS_miniscreen_14_title_1,
+    role = null, // No tiene cargo
     info = listOf(
-        R.string.II_IMATUS_miniscreen_14_title_1,
         R.string.II_IMATUS_miniscreen_14_paragraph_0,
         R.string.II_IMATUS_miniscreen_14_paragraph_1,
         R.string.II_IMATUS_miniscreen_14_paragraph_2,
@@ -74,9 +76,9 @@ val calImatus = PersonResearcher(
 val jscImatus = PersonResearcher(
     foto = R.drawable.imatus_img_14,
     name = "Josefa Salgado Carballo",
+    title = R.string.II_IMATUS_miniscreen_15_title_1,
+    role =  R.string.II_IMATUS_miniscreen_15_role_1,
     info = listOf(
-        R.string.II_IMATUS_miniscreen_15_role_1,
-        R.string.II_IMATUS_miniscreen_15_title_1,
         R.string.II_IMATUS_miniscreen_15_paragraph_0,
         R.string.II_IMATUS_miniscreen_15_paragraph_1,
         R.string.II_IMATUS_miniscreen_15_paragraph_2,
@@ -87,6 +89,8 @@ val jscImatus = PersonResearcher(
 val aggImatus = PersonResearcher(
     foto = R.drawable.imatus_img_15,
     name = "Alvaro Goyanes Goyanes",
+    title = null,
+    role = null,
     info = listOf(
         /*     R.string.info_investigador_test_1,
              R.string.info_investigador_test_2,
@@ -98,6 +102,8 @@ val aggImatus = PersonResearcher(
 val fjoeImatus = PersonResearcher(
     foto = R.drawable.imatus_img_16,
     name = "Francisco Javier Otero Espinar",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -108,80 +114,75 @@ val fjoeImatus = PersonResearcher(
 val bbfImatus = PersonResearcher(
     foto = R.drawable.imatus_img_17,
     name = "Bárbara Blanco Fernández",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
 val ptaImatus = PersonResearcher(
     foto = R.drawable.imatus_img_18,
     name = "Pablo Taboada Antelo",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+
     ),
     contentType = ContentType.PLANTILLA
 )
 val caggImatus = PersonResearcher(
     foto = R.drawable.imatus_img_19,
     name = "Carlos A. García-González",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+
     ),
     contentType = ContentType.PLANTILLA
 )
 val pdrImatus = PersonResearcher(
     foto = R.drawable.imatus_img_20,
     name = "Patricia Díaz Rodríguez",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
 val japImatus = PersonResearcher(
     foto = R.drawable.imatus_img_21,
     name = "Justo Arines Piferrer",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
+
     ),
     contentType = ContentType.PLANTILLA
 )
 val jmpImatus = PersonResearcher(
     foto = R.drawable.imatus_img_22,
     name = "Jorge Mira Pérez",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
 val arbqImatus = PersonResearcher(
     foto = R.drawable.imatus_img_23,
     name = "Ana Rodríguez Bernaldo de Quirós",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
 val jlbImatus = PersonResearcher(
     foto = R.drawable.imatus_img_24,
     name = "Jesús Liñares Beiras",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
@@ -189,16 +190,17 @@ val jlbImatus = PersonResearcher(
 val aigvImatus = PersonResearcher(
     foto = R.drawable.imatus_img_25,
     name = "Ana Isabel Gómez Varela",
+    title = null,
+    role = null,
     info = listOf(
-        /*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*/
     ),
     contentType = ContentType.PLANTILLA
 )
 val xpbImatus = PersonResearcher(
     foto = R.drawable.imatus_img_26,
     name = "Xesús Prieto Blanco",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -209,6 +211,8 @@ val xpbImatus = PersonResearcher(
 val mellImatus = PersonResearcher(
     foto = R.drawable.imatus_img_27,
     name = "María Elena López Lago",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -219,6 +223,8 @@ val mellImatus = PersonResearcher(
 val mfaImatus = PersonResearcher(
     foto = R.drawable.imatus_img_28,
     name = "Maite Flores Arias",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -229,6 +235,8 @@ val mfaImatus = PersonResearcher(
 val mcbvImatus = PersonResearcher(
     foto = R.drawable.imatus_img_29,
     name = "Mª del Carmen Bao Varela",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -239,6 +247,8 @@ val mcbvImatus = PersonResearcher(
 val mjggImatus = PersonResearcher(
     foto = R.drawable.imatus_img_30,
     name = "María Jesús García Guimarey",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -249,6 +259,8 @@ val mjggImatus = PersonResearcher(
 val ampImatus = PersonResearcher(
     foto = R.drawable.imatus_img_31,
     name = "Antonio Moreda Piñeiro",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -259,6 +271,8 @@ val ampImatus = PersonResearcher(
 val cvvmatus = PersonResearcher(
     foto = R.drawable.imatus_img_32,
     name = "Carlos Vázquez Vázquez",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,
@@ -271,6 +285,8 @@ val cvvmatus = PersonResearcher(
 val jmvImatus = PersonResearcher(
     foto = R.drawable.imatus_img_33,
     name = "Luis Miguel Varela",
+    title = null,
+    role = null,
     info = listOf(
         /*   R.string.info_investigador_test_1,
            R.string.info_investigador_test_2,

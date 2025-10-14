@@ -1,19 +1,22 @@
 package com.example.multiidioma.data.types
 
 data class PersonalResearcher(
-    val id:String,
-    val foto:Int,
+    val id: String,
+    val foto: Int,
     val name: String?,
     val info: List<Int?>,
-    //val info: String?,
-    val ruta:String,
-    val contentType: ContentType?,
+    val title: Int?,
+    val role: Int? = null,
+    val ruta: String,
+    val contentType: ContentType?
 )
 data class PersonalResearcher2(
     val id:String,
     val foto:Int,
     val name: String?,
     val info: List<Int?>,
+    val title: Int?,
+    val role: Int? = null,
     //val info: String,
     val contentType: ContentType?,
 ){
@@ -24,10 +27,10 @@ data class PersonalResearcher2(
 
 
 data class PersonResearcher(
-    val foto:Int,
+    val foto: Int,
     val name: String?,
-    val info: List<Int?>,
-    //val info: String?,
-    val contentType: ContentType?,
-    val role: String? = null
+    val title: Int?,
+    val role: Int? = null,
+    val info: List<Int>,
+    val contentType: ContentType
 )

@@ -23,6 +23,8 @@
     <string name="MORE_INFO">MORE INFO</string>
     <string name="Research_Staff">RESEARCH STAFF</string>
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
+    <string name="default_title">SinTitulo</string>
+    <string name="default_role" translatable="false">SinTitulo\n</string>
 
 
 </resources>

@@ -37,13 +37,14 @@ fun LazyRowScreenTemplate(
     data: MiniScreenData,
     navController: NavController,
     podcasts: List<Podcast>,
+    centerName: String,
     director1: String,
     director2: String? = null,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     val investigadores = data.personalResearcher ?: emptyList()
 
-    // Separar Directora y Secretaria
+    // Separar directora/os
     val principales = investigadores.filter {
         it.name == director1 || it.name == director2
     }
@@ -57,6 +58,7 @@ fun LazyRowScreenTemplate(
             .background(Color(0xFF4189B5))
     ) {
 
+        // 🔹 Directores (fila superior)
         Box(modifier = Modifier.fillMaxWidth()) {
             LazyRow(
                 modifier = Modifier
@@ -69,12 +71,11 @@ fun LazyRowScreenTemplate(
                 items(principales) { investigador ->
                     Column(
                         modifier = Modifier
-                            .height(300.dp) //tamaño cuadrado del personal alto
-                            .width(250.dp)  //tamaño cuadrado del personal ancho
+                            .height(300.dp)
+                            .width(250.dp)
                             .clip(RoundedCornerShape(8.dp))
-                            .background(Color.Yellow)
                             .clickable {
-                                val ruta = "detalles/incifor/${investigador.id}"
+                                val ruta = "detalles/${centerName}/${investigador.name}" // o id si lo tienes
                                 navController.navigate(ruta)
                             }
                             .padding(8.dp)
@@ -86,47 +87,42 @@ fun LazyRowScreenTemplate(
                             contentScale = ContentScale.Fit,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(150.dp) //alto imagen
+                                .height(150.dp)
                                 .clip(RoundedCornerShape(8.dp))
                         )
+
                         Spacer(Modifier.height(8.dp))
 
-                        // Nombre (TextBodyMedium)
+                        // Nombre
                         Text(
                             text = investigador.name ?: "Sin nombre",
                             color = Color.White,
-                            style = MaterialTheme.typography.bodyMedium // TextBodyMedium
+                            style = MaterialTheme.typography.titleSmall
                         )
 
-                        // Cargo y Título (primeros dos elementos de info)
-                        investigador.info?.let {
-                            if (it.isNotEmpty()) {
-                                // Título (DisplayMedium)
-                                Text(
-                                    text = stringResource(
-                                        id = it.getOrNull(0) ?: R.string.default_title
-                                    ),
-                                    color = Color.LightGray,
-                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
-                                )
-                            }
-                            if (it.size > 1) {
-                                // Cargo (DisplayMedium)
-                                Text(
-                                    text = stringResource(
-                                        id = it.getOrNull(1) ?: R.string.default_role
-                                    ),
-                                    color = Color.LightGray,
-                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
-                                )
-                            }
+                        // Cargo (role) si existe
+                        investigador.role?.let { roleRes ->
+                            Text(
+                                text = stringResource(id = roleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
+                        }
+
+                        // Título (title) si existe
+                        investigador.title?.let { titleRes ->
+                            Text(
+                                text = stringResource(id = titleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
                         }
                     }
                 }
             }
         }
 
-        // Parte inferior (Rest of the investigators)
+        // 🔹 Resto de investigadores (fila inferior)
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -142,12 +138,12 @@ fun LazyRowScreenTemplate(
                 items(resto) { investigador ->
                     Column(
                         modifier = Modifier
-                            .height(325.dp)// alto tarjeta investigadores
-                            .width(225.dp) // ancho tarjeta investigadores
+                            .height(325.dp)
+                            .width(225.dp)
                             .clip(RoundedCornerShape(8.dp))
-                            .background(Color.DarkGray)
+
                             .clickable {
-                                val ruta = "detalles/incifor/${investigador.id}"
+                                val ruta = "detalles/${centerName}/${investigador.name}" // o id si lo tienes
                                 navController.navigate(ruta)
                             }
                             .padding(8.dp)
@@ -162,37 +158,32 @@ fun LazyRowScreenTemplate(
                                 .height(125.dp)
                                 .clip(RoundedCornerShape(8.dp))
                         )
+
                         Spacer(Modifier.height(8.dp))
 
-                        // Nombre (TextBodyMedium)
+                        // Nombre
                         Text(
                             text = investigador.name ?: "Sin nombre",
                             color = Color.White,
-                            style = MaterialTheme.typography.titleMedium // TextBodyMedium
+                            style = MaterialTheme.typography.titleSmall
                         )
 
-                        // Cargo y Título (primeros dos elementos de info)
-                        investigador.info?.let {
-                            if (it.isNotEmpty()) {
-                                // Título (DisplayMedium)
-                                Text(
-                                    text = stringResource(
-                                        id = it.getOrNull(0) ?: R.string.default_title
-                                    ),
-                                    color = Color.LightGray,
-                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
-                                )
-                            }
-                            if (it.size > 1) {
-                                // Cargo (DisplayMedium)
-                                Text(
-                                    text = stringResource(
-                                        id = it.getOrNull(1) ?: R.string.default_role
-                                    ),
-                                    color = Color.LightGray,
-                                    style = MaterialTheme.typography.displayMedium // DisplayMedium
-                                )
-                            }
+                        // Cargo (role) si existe
+                        investigador.role?.let { roleRes ->
+                            Text(
+                                text = stringResource(id = roleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
+                        }
+
+                        // Título (title) si existe
+                        investigador.title?.let { titleRes ->
+                            Text(
+                                text = stringResource(id = titleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.bodyMedium
+                            )
                         }
                     }
                 }
