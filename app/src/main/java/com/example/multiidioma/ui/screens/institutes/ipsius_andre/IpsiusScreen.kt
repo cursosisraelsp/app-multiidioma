@@ -28,25 +28,10 @@ import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScre
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen15.IpsiusMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen16.IpsiusMiniScreen16
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen17.IpsiusMiniScreen17
-
-
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen18.IpsiusMiniScreen18
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen19.IpsiusMiniScreen19
-
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen2.IpsiusMiniScreen2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen20i.IpsiusMiniScreen20
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen21i.IpsiusMiniScreen21
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen22i.IpsiusMiniScreen22
-
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen23i.IpsiusMiniScreen23
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen24i.IpsiusMiniScreen24
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen25i.IpsiusMiniScreen25
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen26i.IpsiusMiniScreen26
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen27i.IpsiusMiniScreen27
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen28i.IpsiusMiniScreen28
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.IpsiusMiniScreen29
-
-
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen3.IpsiusMiniScreen3
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen30.IpsiusMiniScreen30
 import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen4.IpsiusMiniScreen4
@@ -97,7 +82,9 @@ fun IpsiusScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-
+                            ,
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         2 -> IpsiusMiniScreen2(
@@ -105,7 +92,9 @@ fun IpsiusScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-
+                            ,
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         3 -> IpsiusMiniScreen3(
@@ -236,7 +225,7 @@ fun IpsiusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-
+/*
                         20 -> IpsiusMiniScreen20(
                             data,
                             Modifier
@@ -305,7 +294,7 @@ fun IpsiusScreen(
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
+                        )*/
 
                         29 -> IpsiusMiniScreen29(
                             data,

@@ -13,9 +13,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.components.GifComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
@@ -37,7 +39,6 @@ fun contentCretusMiniScreen2Box2(data: MiniScreenData) {
                 textAlign = TextAlign.Start
             )
 
-
             Column(
                 modifier = Modifier
                     .padding(start = 50.dp, end = 50.dp)
@@ -46,15 +47,11 @@ fun contentCretusMiniScreen2Box2(data: MiniScreenData) {
                 SpacerText()
             }
 
-
             Box(
                 modifier = Modifier.fillMaxWidth(),
                 contentAlignment = Alignment.CenterStart
             ) {
-                ReusableImage(
-                    data = data,
-                    style = StyleImages()
-                )
+                GifComponent(gif = R.drawable.cretus_vdo_03)
             }
         }
     }

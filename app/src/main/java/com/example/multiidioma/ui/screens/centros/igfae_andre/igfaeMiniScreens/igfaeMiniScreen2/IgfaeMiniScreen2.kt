@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -19,7 +20,8 @@ import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.i
 @Composable
 fun IgfaeMiniScreen2(
     data: MiniScreenData,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier,listState: LazyListState,
+    itemIndex: Int
 ) {
 
 
@@ -32,7 +34,7 @@ fun IgfaeMiniScreen2(
             data = data,
             BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.60f, Box3 = 0.20f),
             Box1 = { contentIgfaeMiniScreen2Box1() },
-            Box2 = { contentIgfaeMiniScreen2Box2(it) },
+            Box2 = { contentIgfaeMiniScreen2Box2(it,listState, itemIndex) },
             Box3 = { contentIgfaeMiniScreen2Box3() })
     }
 }

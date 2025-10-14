@@ -4,6 +4,7 @@ package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreen
 
 
 import androidx.compose.foundation.layout.Column
+
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -17,10 +18,11 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.GifComponent
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 import com.example.multiidioma.ui.components.VimeoWebViewComponent
+import com.example.multiidioma.R
 
 @Composable
 fun contentCretusMiniScreen1Box2(data: MiniScreenData){
@@ -42,6 +44,6 @@ fun contentCretusMiniScreen1Box2(data: MiniScreenData){
                 .fillMaxWidth(),
             alignment = Alignment.BottomCenter
         )
-        VimeoWebViewComponent(identificador = "1124127714", width = "705px", height = "800px")
+        GifComponent(gif = R.drawable.cretus_vdo_02)
     }
 }

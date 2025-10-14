@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -16,7 +17,8 @@ import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScre
 @Composable
 fun IarcusMiniScreen2(
     data: MiniScreenData,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier,listState: LazyListState,
+    itemIndex: Int
 ) {
 
 
@@ -29,7 +31,7 @@ fun IarcusMiniScreen2(
             data = data,
             BoxWeight = BOX(Box1 = 0f, Box2 = 0.8f, Box3 = 0.2f),
 
-            Box2 = { contentIarcusMiniScreen2Box2(it) },
+            Box2 = { contentIarcusMiniScreen2Box2(it,listState, itemIndex) },
             Box3 = { contentIarcusMiniScreen2Box3() })
     }
 }

@@ -27,18 +27,7 @@ import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScre
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.IarcusMiniScreen14
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen15.IarcusMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.IarcusMiniScreen16
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen17.IarcusMiniScreen17
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen18.IarcusMiniScreen18
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen19.IarcusMiniScreen19
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen2.IarcusMiniScreen2
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen20.IarcusMiniScreen20
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen21.IarcusMiniScreen21
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen22.IarcusMiniScreen22
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen23.IarcusMiniScreen23
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen24.IarcusMiniScreen24
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen25i.IarcusMiniScreen25
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen26i.IarcusMiniScreen26
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen27i.IarcusMiniScreen27
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen28www.IarcusMiniScreen28
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen3.IarcusMiniScreen3
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen4.IarcusMiniScreen4
@@ -85,8 +74,9 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-
+                                .fillParentMaxHeight(),
+                                    listState = listState,
+                            itemIndex = index
                         )
 
                         2 -> IarcusMiniScreen2(
@@ -94,7 +84,9 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-
+                            ,
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         3 -> IarcusMiniScreen3(
@@ -192,7 +184,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        17 -> IarcusMiniScreen17(
+                        /*17 -> IarcusMiniScreen17(
                             data,
                             navController,
                             Modifier
@@ -268,7 +260,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-                        )
+                        )*/
                         28 -> IarcusMiniScreen28(
                             data,
                             Modifier

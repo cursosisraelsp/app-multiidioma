@@ -1,5 +1,7 @@
 package com.example.multiidioma.ui.components.Templates
 
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -20,24 +22,21 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
-import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.theme.robotoFamily
+import com.example.multiidioma.data.types.PersonalResearcher
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
-import com.example.multiidioma.utils.TextBodyMedium
-import com.example.multiidioma.utils.TextDisplayMedium
-import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
 fun PersonalTemplateScreen(
-    data: MiniScreenData,
+    //data: MiniScreenData,
+    infoResearchers: PersonalResearcher,
     navController: NavController,
 ) {
     Box(
@@ -61,7 +60,6 @@ fun PersonalTemplateScreen(
                 )
             }
         }
-
         // Contenido principal
         Column(
             modifier = Modifier
@@ -76,45 +74,67 @@ fun PersonalTemplateScreen(
                 contentAlignment = Alignment.Center
             ) {
                 // Imagen principal si existe
-                data.imageRes?.let { res ->
-                    Image(
-                        painter = painterResource(res),
-                        contentDescription = null,
-                        modifier = Modifier.size(200.dp)
-                    )
-                }
+                Image(
+                    painter = painterResource(infoResearchers.foto),
+                    contentDescription = null,
+                    modifier = Modifier.size(200.dp))
+
             }
             // Título Medium
-            if (data.bodyParagraphs.size > 0) {
-                TextTitleMedium(data, index = 0, textAlign = TextAlign.Center)
+            if (infoResearchers.name != null) {
+                //TextTitleMedium(infoResearchers.name, index = 0)
+                Text(text= infoResearchers.name)
             }
+            /*if (data.bodyParagraphs.size > 0) {
+                TextTitleMedium(data, index = 0)
+            }*/
             Spacer(modifier = Modifier.height(6.dp))
 
             // Título Small
-            if (data.bodyParagraphs.size > 1) {
-                TextDisplayMedium(data, index = 1)
+            if (infoResearchers.info[0] != null) {
+                //TextDisplayMedium(data, index = 1)
+                infoResearchers.info[0]?.let { stringId ->
+                    Text(text = stringResource(id = stringId))
+                } ?: Text(text = "Cargo no disponible")
             }
 
             Spacer(modifier = Modifier.height(6.dp))
 
             // Body Medium
-            if (data.bodyParagraphs.size > 2) {
-                TextBodyMedium(data, index = 2)
+            Column {
+                infoResearchers.info.forEachIndexed { index, stringId ->
+                    if (index > 1 && (index != infoResearchers.info.lastIndex - 1)) { // omite los índices 0 y 1
+                        stringId?.let {
+                            Text(text = stringResource(id = it))
+                        }
+                    }
+                }
             }
-
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .fillMaxHeight(0.15f)
                     .padding(top = 15.dp, bottom = 15.dp)
             ) {
+                val context = LocalContext.current
+                val lastItem = infoResearchers.info.lastOrNull()
+                val destination = lastItem?.let { id -> stringResource(id = id) }
+
                 TextButton(
-                    onClick = {},
+                    onClick = {
+                        destination?.let {
+                            if (it.startsWith("http")) {
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it))
+                                context.startActivity(intent)
+                            } else {
+                                navController.navigate(it)
+                            }
+                        }
+                    },
                     contentPadding = PaddingValues(0.dp),
                 ) {
                     Text(
                         text = stringResource(R.string.MORE_INFO),
-                        fontFamily = robotoFamily,
                         fontSize = 24.sp,
                         color = Color.White,
                         fontWeight = FontWeight.Black
