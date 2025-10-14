@@ -11,6 +11,15 @@ import kotlinx.coroutines.delay
 
 class InfoResearchersRepository(){
 
+    private val infoReaseachersIpsius = IpsiusRepository()
+
+    suspend fun infoReaseachersIpsius(): List<PersonalResearcher> {
+        // Simulación de delay si en el futuro viene de una API/DB
+        delay(200)
+        return GetPersonalResearcherUtils(PersonsResearchersUtils(datosInvestigadores))
+
+    }
+
     suspend fun infoReaseachersIncifor() : List<PersonalResearcher>{
         // Simulación de delay si en el futuro viene de una API/DB
         delay(200)

@@ -20,13 +20,17 @@ sealed class Destination(val route: String) {
     object Home : Destination("home")
     object Minerva : Destination("minerva")
     object Mapa : Destination("mapa")
-
+    object Multimedia : Destination("multimedia")
+    object Institutos : Destination("institutos")
+    object CentrosSingulares : Destination("centrossingulares")
     // INSTITUTOS
     object Ihus : Destination("ihus")
     object Idega : Destination("idega")
     object Ice : Destination("ice")
     object Incifor : Destination("incifor")
     object Ipsius : Destination("ipsius")
+    object Ilg : Destination("ilg")
+    object Imatus : Destination("imatus")
     //Miniscreens - incifor
     object InciforMiniscreen14 : Destination("InciforMiniscreen14")
     object InciforMiniscreen15 : Destination("InciforMiniscreen15")
@@ -67,8 +71,8 @@ sealed class Destination(val route: String) {
     object CimusMiniScreen16 : Destination("CimusMiniScreen16")
     object CimusMiniScreen17 : Destination("CimusMiniScreen17")
 
-    object Imatus : Destination("imatus")
-    object Ilg : Destination("ilg")
+
+
 
     // CENTROS
     object Cimus : Destination("cimus")
@@ -76,7 +80,7 @@ sealed class Destination(val route: String) {
     object Citius : Destination("citius")
     object Cretus : Destination("cretus")
     object Igfae : Destination("igfae")
-
+    object Idis : Destination("idis")
     // Rutas en enum
     enum class RutasBottomBar(
         val route: String,

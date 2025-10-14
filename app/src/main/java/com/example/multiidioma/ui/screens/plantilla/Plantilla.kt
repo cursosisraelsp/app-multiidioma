@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -13,15 +14,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.states.PlantillaState
 import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
 @Composable
-fun Plantilla(itemId : String){
+fun Plantilla(centro: String,itemId : String,navController: NavController){
 
     val viewModel: PlantillaViewModel = viewModel();
     val uiState by viewModel.uiState.collectAsState();
 
+    // 👇 Cada vez que cambie el centro, se vuelve a cargar la lista correspondiente
+    LaunchedEffect(centro) {
+        viewModel.loadPlantillaPorCentro(centro)
+    }
     when (uiState) {
         is PlantillaState.Loading -> {
             Box(
@@ -37,20 +44,8 @@ fun Plantilla(itemId : String){
             val itemIdInt = itemId.toInt()
             val datos = (uiState as PlantillaState.Success).infoResearchers[itemIdInt]
             if(datos != null){
-                Column {
-                    Text("Isto é un texto de plantilla $itemId")
-                    datos.name?.let { Text(it) }
 
-                    // comento a seguinte liña porque será un párrafo
-                    datos.info?.let {  lista ->
-                        lista.forEach { item ->
-                            if (item != null) {
-
-                                Text(context.getString(item))
-                            }
-                        } }
-                }
-
+                PersonalTemplateScreen(infoResearchers = datos, navController = navController)
             }else{
                 Text("Falta información de usuario")
             }
