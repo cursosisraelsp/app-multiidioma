@@ -32,7 +32,7 @@ fun IgfaeMiniScreen3(
             data = data,
             Box1 = { contentIgfaeMiniScreen3Box1() },
             Box2 = { contentIgfaeMiniScreen3Box2() },
-            Box3 = { contentIgfaeMiniScreen3Box3(it) })
+            Box3 = { contentIgfaeMiniScreen3Box3() })
     }
 }
 

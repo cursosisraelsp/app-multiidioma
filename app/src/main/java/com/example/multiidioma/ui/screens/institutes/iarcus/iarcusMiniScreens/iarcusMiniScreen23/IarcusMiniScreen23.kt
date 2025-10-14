@@ -7,9 +7,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
+import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreenIarqus
 
 @Composable
 fun IarcusMiniScreen23(data: MiniScreenData, navController: NavController, modifier: Modifier) {
-    PersonalTemplateScreen(data, navController)
+    PersonalTemplateScreenIarqus(data, navController)
 
 }
