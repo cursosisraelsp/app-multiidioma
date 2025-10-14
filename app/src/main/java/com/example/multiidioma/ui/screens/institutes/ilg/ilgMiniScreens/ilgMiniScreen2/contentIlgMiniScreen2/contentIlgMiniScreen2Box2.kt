@@ -64,7 +64,7 @@ fun contentIlgMiniScreen2Box2(data: MiniScreenData) {
                             .fillMaxWidth().height(95.dp).padding(top = 5.dp),
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.End){
-                        SvgImageComponent(R.raw.logo_ilga_0)
+                        //SvgImageComponent(R.raw.logo_ilga_0)
 
                     }
                 }
