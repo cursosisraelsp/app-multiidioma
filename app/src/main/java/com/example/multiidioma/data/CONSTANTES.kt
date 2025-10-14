@@ -31,7 +31,10 @@ val urlIce = ""
 val urlCimus = ""
 val urlIhus = "https://www.usc.gal/es/node/49934"
 val urlIlg = "https://www.usc.gal/es/node/49934"
-val urlIdis = "https://www.idisantiago.es /"
+val urlIdis = "https://www.idisantiago.es/"
+val urlCretus = "https://cretus.usc.es/"
+val urlIarcus= "https://arcus.usc.es/"
+val urlIgfae= "https://igfae.usc.es/igfae/"
 data class BOX(
     val Box1: Float,
     val Box2: Float,

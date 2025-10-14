@@ -2,7 +2,7 @@ package com.example.multiidioma.ui.screens.institutes.ilg
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.multiidioma.data.data.IlgRepository
+import com.example.multiidioma.data.repository.IlgRepository
 import com.example.multiidioma.data.types.MiniScreenState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

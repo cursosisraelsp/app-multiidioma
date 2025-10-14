@@ -47,15 +47,17 @@ fun NavigationFiguresComponent(valorFigura: NavegationFiguresData, navController
                 fontSize = valorFigura.relacionNum!!
             )
 
-            Text(
-                text = stringResource(id = valorFigura.textoInfo),
-                color = corLetras,
-                modifier = Modifier.width(valorFigura.anchoTexto),
-                fontFamily = AppTypography.displayLarge.fontFamily,
-                fontSize = valorFigura.relacionText,
-                lineHeight = valorFigura.lineHeight,
-                textAlign = TextAlign.Center
-            )
+            valorFigura.lineHeight?.let {
+                Text(
+                    text = stringResource(id = valorFigura.textoInfo),
+                    color = corLetras,
+                    modifier = Modifier.width(valorFigura.anchoTexto),
+                    fontFamily = AppTypography.displayLarge.fontFamily,
+                    fontSize = valorFigura.relacionText,
+                    lineHeight = it,
+                    textAlign = TextAlign.Center
+                )
+            }
 
         }
 

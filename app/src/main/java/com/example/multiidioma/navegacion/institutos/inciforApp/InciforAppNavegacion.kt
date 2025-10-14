@@ -25,6 +25,6 @@ fun NavGraphBuilder.InciforAppNavegacion(
             defaultValue = false
         })) {backStackEntry ->
         val resetScroll = backStackEntry.arguments?.getBoolean("resetScroll") ?: false
-        InciforScreen(listState,navController,resetScroll,Modifier)
+        InciforScreen(listState,navController)
     }
 }
