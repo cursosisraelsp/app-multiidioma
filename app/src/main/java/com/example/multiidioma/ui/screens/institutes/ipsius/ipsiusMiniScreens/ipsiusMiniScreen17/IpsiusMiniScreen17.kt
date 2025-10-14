@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen17
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen17
 
 
 import androidx.compose.foundation.background
@@ -10,9 +10,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box1
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box2
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box3
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box1
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box2
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen17.contentIpsiusMiniScreen17.contentIpsiusMiniScreen17Box3
 
 
 @Composable

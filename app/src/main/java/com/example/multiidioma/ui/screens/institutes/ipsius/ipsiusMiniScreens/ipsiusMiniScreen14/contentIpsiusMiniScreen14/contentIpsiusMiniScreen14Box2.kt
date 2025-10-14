@@ -1,11 +1,10 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen14.contentIpsiusMiniScreen14
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen14.contentIpsiusMiniScreen14
 
 
 
 
 
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -13,22 +12,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleImages
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Text.AppText
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
-
+import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentIpsiusMiniScreen14Box2(data: MiniScreenData) {
@@ -37,11 +28,6 @@ fun contentIpsiusMiniScreen14Box2(data: MiniScreenData) {
 
     )
 
-    val estiloText = StyleText(
-        style = TextStyle(),
-        textAlign = TextAlign.Center,
-        color = Color.Black
-    )
 
     Column {
         Box(
@@ -50,9 +36,9 @@ fun contentIpsiusMiniScreen14Box2(data: MiniScreenData) {
                 .weight(0.5f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data,estiloText)
-           // SpacerText()
-            TextBodyMedium(data,estiloText)
+            TextBodyMedium(data)
+            SpacerText()
+            TextBodyMedium(data)
         }
 
         Spacer(modifier = Modifier.height(10.dp))

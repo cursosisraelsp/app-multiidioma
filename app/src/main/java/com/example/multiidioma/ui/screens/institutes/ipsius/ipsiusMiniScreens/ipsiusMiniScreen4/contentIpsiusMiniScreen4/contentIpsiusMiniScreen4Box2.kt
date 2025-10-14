@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen4.contentIpsiusMiniScreen4
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen4.contentIpsiusMiniScreen4
 
 
 
@@ -16,8 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -33,7 +34,7 @@ fun contentIpsiusMiniScreen4Box2(data: MiniScreenData){
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Start)
 
         AppText(data, estiloTextos, index = 0,)
-        //SpacerText()
+        SpacerText()
         AppText(data, estiloTextos, index = 1)
 
     }

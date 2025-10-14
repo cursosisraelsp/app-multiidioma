@@ -1,14 +1,14 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen10a.contentIpsiusMiniScreen10
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen10a.contentIpsiusMiniScreen10
 
 
 import androidx.compose.runtime.Composable
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.utils.CircleStyleImages
+import com.example.multiidioma.utils.CircleStyleImage
 
 
 @Composable
 fun contentIpsiusMiniScreen10CircleImage(data: MiniScreenData) {
-    ReusableImage(data, CircleStyleImages)
+    ReusableImage(data, CircleStyleImage)
 
 }

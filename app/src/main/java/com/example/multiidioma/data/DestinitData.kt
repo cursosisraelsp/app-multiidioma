@@ -31,6 +31,7 @@ sealed class Destination(val route: String) {
     object Ipsius : Destination("ipsius")
     object Ilg : Destination("ilg")
     object Imatus : Destination("imatus")
+    object Iarcus : Destination("iarcus")
     //Miniscreens - incifor
     object InciforMiniscreen14 : Destination("InciforMiniscreen14")
     object InciforMiniscreen15 : Destination("InciforMiniscreen15")
@@ -71,7 +72,43 @@ sealed class Destination(val route: String) {
     object CimusMiniScreen16 : Destination("CimusMiniScreen16")
     object CimusMiniScreen17 : Destination("CimusMiniScreen17")
 
+    object IpsiusMiniscreen7 : Destination("IpsiusMiniScreen7")
+    object IpsiusMiniscreen8 : Destination("IpsiusMiniScreen8")
+    object IpsiusMiniscreen9 : Destination("IpsiusMiniScreen9")
+    object IpsiusMiniscreen10 : Destination("IpsiusMiniScreen10")
+    object IpsiusMiniscreen11 : Destination("IpsiusMiniScreen11")
+    object IpsiusMiniscreen12 : Destination("IpsiusMiniScreen12")
+    object IpsiusMiniscreen13 : Destination("IpsiusMiniScreen13")
 
+    object CretusMiniscreen9 : Destination("CretusMiniScreen9")
+    object CretusMiniscreen10 : Destination("CretusMiniScreen10")
+    object CretusMiniscreen11 : Destination("CretusMiniScreen11")
+    object CretusMiniscreen12 : Destination("CretusMiniScreen12")
+    object CretusMiniscreen13 : Destination("CretusMiniScreen13")
+    object CretusMiniscreen14 : Destination("CretusMiniScreen14")
+    object CretusMiniscreen15 : Destination("CretusMiniScreen15")
+    object CretusMiniscreen16 : Destination("CretusMiniScreen16")
+
+    object IgfaeMiniscreen7 : Destination("IgfaeMiniScreen7")
+    object IgfaeMiniscreen8 : Destination("IgfaeMiniScreen8")
+    object IgfaeMiniscreen9 : Destination("IgfaeMiniScreen9")
+    object IgfaeMiniscreen11 : Destination("IgfaeMiniScreen11")
+    object IgfaeMiniscreen12 : Destination("IgfaeMiniScreen12")
+    object IgfaeMiniscreen13 : Destination("IgfaeMiniScreen13")
+    object IgfaeMiniscreen15 : Destination("IgfaeMiniScreen15")
+    object IgfaeMiniscreen16 : Destination("IgfaeMiniScreen16")
+
+    object IarcusMiniscreen8 : Destination("IarcusMiniScreen8")
+    object IarcusMiniscreen9 : Destination("IarcusMiniScreen9")
+    object IarcusMiniscreen10 : Destination("IarcusMiniScreen10")
+    object IarcusMiniscreen11 : Destination("IarcusMiniScreen11")
+
+    //miniscreens row de investigadores
+
+    object IpsiusMiniscreen19 : Destination("IpsiusMiniScreen19")
+    object CretusMiniscreen22 : Destination("CretusMiniScreen22")
+    object IarcusMiniscreen16 : Destination("IarcusMiniScreen16")
+    object IgfaeMiniscreen23 : Destination("IgfaeMiniScreen23")
 
 
     // CENTROS
@@ -81,6 +118,7 @@ sealed class Destination(val route: String) {
     object Cretus : Destination("cretus")
     object Igfae : Destination("igfae")
     object Idis : Destination("idis")
+
     // Rutas en enum
     enum class RutasBottomBar(
         val route: String,

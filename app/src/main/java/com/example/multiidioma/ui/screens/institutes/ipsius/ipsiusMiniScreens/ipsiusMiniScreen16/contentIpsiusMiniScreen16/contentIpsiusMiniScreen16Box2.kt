@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen16.contentIpsiusMiniScreen16
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen16.contentIpsiusMiniScreen16
 
 
 
@@ -13,18 +13,14 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
-
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
 fun contentIpsiusMiniScreen16Box2(data: MiniScreenData) {
@@ -33,11 +29,7 @@ fun contentIpsiusMiniScreen16Box2(data: MiniScreenData) {
         alignment = Alignment.BottomEnd,
         contentScale = ContentScale.FillBounds
     )
-    val estiloText = StyleText(
-        style = TextStyle(),
-        textAlign = TextAlign.Center,
-        color = Color.Black
-    )
+
 
     Column {
         Box(
@@ -46,9 +38,9 @@ fun contentIpsiusMiniScreen16Box2(data: MiniScreenData) {
                 .weight(0.5f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data,estiloText)
+            TextBodyMedium(data,textAlign = TextAlign.Center)
             SpacerText()
-            TextBodyMedium(data,estiloText)
+            TextBodyMedium(data,textAlign = TextAlign.Center)
         }
 
         SpacerText()

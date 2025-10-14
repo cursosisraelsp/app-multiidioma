@@ -21,12 +21,14 @@ sealed class ContentType (){
     object IMATUS : ContentType()
     object ILG : ContentType()
     object IPSIUS : ContentType()
+    object IARCUS : ContentType()
     /////////CENTROS///////
     object CIQUS : ContentType()
     object CIMUS : ContentType()
     object CITIUS : ContentType()
     object CRETUS : ContentType()
     object IGFAE : ContentType()
+    object IDIS : ContentType()
     ///////MINISCREENS-INCIFOR/////
     object MINISCREEN27: ContentType()
     object MINISCREEN28: ContentType()

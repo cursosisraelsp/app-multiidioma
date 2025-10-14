@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen18.contentIpsiusMiniScreen18
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen18.contentIpsiusMiniScreen18
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

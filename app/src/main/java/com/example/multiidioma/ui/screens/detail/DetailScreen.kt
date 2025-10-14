@@ -1,7 +1,7 @@
 package com.example.multiidioma.ui.screens.detail
 
 import InciforScreen
-import IpsiusScreen
+
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -21,17 +21,21 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
+import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
+import com.example.multiidioma.ui.screens.centros.idis.IdisScreen
 import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
 import com.example.multiidioma.ui.screens.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus.IarcusScreen
 import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
 import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
 //import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
+import com.example.multiidioma.ui.screens.institutes.ipsius.IpsiusScreen
 import com.example.multiidioma.ui.screens.mapa.MapScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
@@ -66,11 +70,27 @@ fun DetailScreen(
         listSingulars != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
-                    is ContentType.CIQUS -> CiqusScreen()
-                    //is ContentType.CIMUS -> CimusScreen()
-                    is ContentType.CITIUS -> CitiusScreen()
-                    is ContentType.CRETUS -> CretusScreen()
-                    is ContentType.IGFAE -> IgfaeScreen()
+                    is ContentType.CIQUS -> CiqusScreen(
+                        listState,
+                        navController
+                    )
+                    is ContentType.CIMUS -> CimusScreen(
+                        listState,
+                        navController,
+                    )
+                    is ContentType.CITIUS -> CitiusScreen(
+                        listState,
+                        navController,
+                    )
+                    is ContentType.CRETUS -> CretusScreen(
+                        listState,
+                        navController
+                    )
+                    is ContentType.IGFAE -> IgfaeScreen(
+                        listState,
+                        navController
+                    )
+                    is ContentType.IDIS -> IdisScreen(listState, navController)
                     else -> Text("screen non atopado")
                 }
             }
@@ -79,13 +99,31 @@ fun DetailScreen(
         listInstitus != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listInstitus.contentType) {
-                    is ContentType.IHUS -> IhusScreen(listState,false)
+                    is ContentType.IHUS -> IhusScreen(
+                        listState,
+                        navController)
                     is ContentType.IDEGA -> IdegaScreen()
-                    is ContentType.ICE -> IceScreen()
-                    is ContentType.INCIFOR -> InciforScreen(listState, navController,false, modifier)
-                    is ContentType.IMATUS -> ImatusScreen()
-                    is ContentType.ILG -> IlgScreen()
-                    is ContentType.IPSIUS -> IpsiusScreen(listState, navController,false)
+                    is ContentType.ICE -> IceScreen(
+                        listState,
+                        navController,
+                    )
+                    is ContentType.INCIFOR -> InciforScreen(
+                        listState,
+                        navController,
+                    )
+                    is ContentType.IMATUS -> ImatusScreen(
+                        listState,
+                        navController
+                    )
+                    is ContentType.ILG -> IlgScreen(listState, navController)
+                    is ContentType.IARCUS -> IarcusScreen(
+                        listState,
+                        navController
+                    )
+                    is ContentType.IPSIUS -> IpsiusScreen(
+                        listState,
+                        navController
+                    )
                     else -> Text("screen non atopado")
                 }
             }

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen22i.contentIpsiusMiniScreen22
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen22i.contentIpsiusMiniScreen22
 
 
 import androidx.compose.runtime.Composable

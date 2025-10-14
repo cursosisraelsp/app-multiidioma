@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen2.contentMiniScreen2
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen2.contentMiniScreen2
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

@@ -19,6 +19,7 @@ import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.idisApp.IdisAppNavegacion
 import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
+import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
@@ -63,6 +64,7 @@ fun NavHostApp(
         ImatusAppNavegacion(listState,navController)        // KIKE
         IlgAppNavegacion(listState, navController)          // FER
         IpsiusAppNavegacion(listState,navController)
+        IarcusAppNavegacion(listState, navController)
         //## CENTROS
         CiqusAppNavegacion(listState, navController)        // FER
         CimusAppNavegacion(listState, navController)        // KIKE
@@ -91,5 +93,5 @@ fun NavHostApp(
         }
     }
 
-    }
+
 }

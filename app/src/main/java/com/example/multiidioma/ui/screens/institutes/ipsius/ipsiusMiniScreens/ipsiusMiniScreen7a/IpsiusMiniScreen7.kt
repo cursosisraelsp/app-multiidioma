@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen7a
+package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen7a
 
 
 import androidx.compose.foundation.background
@@ -12,9 +12,9 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 import com.example.multiidioma.ui.components.VideoScreen
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7BodyText
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7CircleImage
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7TitleText
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7BodyText
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7CircleImage
+import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen7a.contentIpsiusMiniScreen7.contentIpsiusMiniScreen7TitleText
 
 
 @Composable
