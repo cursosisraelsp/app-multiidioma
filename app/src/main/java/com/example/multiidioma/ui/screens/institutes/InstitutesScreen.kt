@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.institutes
 
+import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
@@ -24,7 +25,9 @@ fun InstitutesScreen(navController: NavController){
     val carouselItems = remember {
         listaInstitutos
     }
+    Log.d("Listainstitus","carouselItems $carouselItems")
     Column (){
+
         Carrusel(carouselItems = carouselItems, navController)
         Box(modifier = Modifier.fillMaxWidth()){
             Image(

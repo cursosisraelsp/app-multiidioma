@@ -49,6 +49,7 @@ val figuraInstitutosHome = NavegationFiguresHomeData(
     relacionText = numLetra2,
     contentType = ContentType.Institutos
 )
+
 val figuraCentrosSingularesHome = NavegationFiguresHomeData(
     offset_x = 20.dp,
     offset_y = 70.dp,
@@ -77,3 +78,5 @@ val figuraMinervaHome = NavegationFiguresHomeData(
     contentType = ContentType.Minerva
 )
 val figurasHome = listOf(figuraMultimediaHome,figuraMapaHome,figuraInstitutosHome,figuraCentrosSingularesHome,figuraMinervaHome)
+
+

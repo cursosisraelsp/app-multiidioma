@@ -1,6 +1,7 @@
 package com.example.multiidioma.navegacion.detailApp
 
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.ui.Modifier
@@ -22,7 +23,7 @@ fun NavGraphBuilder.detailNavGraph(
     composable(
         route = Destination.Detail.route
     ) {
-        DetailScreen(
+       DetailScreen(
             navController, onClose = onClose,
             listState = listState,
             modifier = Modifier

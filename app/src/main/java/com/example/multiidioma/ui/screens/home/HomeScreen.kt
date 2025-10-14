@@ -30,7 +30,6 @@ fun HomeScreen(
 
     state.lista.map { figura ->
         NavigationFigures1TextComponent(figura, navController, onImageClick)
-
     }
 }
 

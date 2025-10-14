@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.detail
 import InciforScreen
 
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -130,11 +131,19 @@ fun DetailScreen(
         }
         listFiguresHome != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
+
+                Log.d("DetailViewModel", "DetailScreen  listFiguresHome.contentType: ${listFiguresHome.contentType}")
+
                 when (listFiguresHome.contentType) {
+
+
                     is ContentType.Minerva -> MinervaScreen()
                     //is ContentType.Mapa -> MapScreen()
                     is ContentType.Multimedia -> MultimediaScreen()
-                    is ContentType.Institutos -> InstitutesScreen(navController)
+                    is ContentType.Institutos -> {
+
+                        InstitutesScreen(navController)
+                    }
                     is ContentType.CentrosSingulares ->  CentresSingularsScreen(navController)
 
                     else -> Text("screen non atopado")

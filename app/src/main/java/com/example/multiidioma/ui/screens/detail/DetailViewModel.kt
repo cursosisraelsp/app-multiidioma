@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.detail
 
+import android.util.Log
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.example.multiidioma.data.repository.listSingularsCenters
@@ -16,9 +17,10 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
     val detailScreenState: StateFlow<DetailScreenState> = _detailScreenState.asStateFlow()
 
     init {
+        Log.d("DetailViewModel", "screenId recibido: $screenId")
         //loadDetailImaxenClick()
-        loadDetailListSingularsCenter()
-        loadDetailListInstitutes()
+        //loadDetailListSingularsCenter()
+       // loadDetailListInstitutes()
         loadDetailListScreensHome()
         //loadDetailListMiniScreensIncifor()
     }

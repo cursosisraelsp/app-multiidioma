@@ -23,11 +23,14 @@ import com.example.multiidioma.utils.SvgImageComponent
 fun NavigationFigures1TextComponent(valorFigura :
                                     NavegationFiguresHomeData, navController: NavController, onImageClick:  (String) -> Unit){
     Box(modifier = Modifier
-        .offset(x = valorFigura.offset_x,y = valorFigura.offset_y), contentAlignment = Alignment.Center)
+        .offset(x = valorFigura.offset_x,y = valorFigura.offset_y),
+        contentAlignment = Alignment.Center
+    )
     {
         SvgImageComponent(
             resId = valorFigura.imaxen,
-            modifier = Modifier.size(valorFigura.tamanhoFigura).clickable {
+            modifier = Modifier.size(valorFigura.tamanhoFigura)
+                .clickable {
                 onImageClick(valorFigura.ruta)
             }
         )
