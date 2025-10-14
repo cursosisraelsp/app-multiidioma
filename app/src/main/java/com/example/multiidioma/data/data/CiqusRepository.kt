@@ -137,7 +137,7 @@ class CiqusRepository {
             MiniScreenData(
                 id = 12,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_12_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_12_title_0,
                 ),
             ),
             MiniScreenData(
@@ -153,7 +153,8 @@ class CiqusRepository {
             MiniScreenData(
                 id = 14,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_14_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_24_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_24_title_0,
                 ),
             ),
 

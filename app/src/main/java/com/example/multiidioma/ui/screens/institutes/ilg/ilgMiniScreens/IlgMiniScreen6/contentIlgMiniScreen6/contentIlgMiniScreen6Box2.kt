@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.data.StyleImages
@@ -24,7 +25,7 @@ import com.example.multiidioma.ui.components.Text.AppText
 @Composable
 fun contentIlgMiniScreen6Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.TopStart
+        modifier = Modifier.fillMaxSize(), alignment = Alignment.TopStart, contentScale = ContentScale.FillBounds
     )
     val estilosTextos = StyleText(
         style = MaterialTheme.typography.bodyMedium,

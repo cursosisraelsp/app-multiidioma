@@ -11,6 +11,7 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen9.contentIhusMiniScreen9.contentIlgMiniScreen9CircleImage
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen9.contentIlgMiniScreen9.contentIlgMiniScreen9BodyText
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen9.contentIlgMiniScreen9.contentIlgMiniScreen9TitleText
@@ -33,9 +34,7 @@ fun IlgMiniScreen10(
                 .fillMaxSize()
         ) {
 
-            VideoScreen(
-                videoId = "92UgRKX8ooM", // tu ID de video
-                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
+            VimeoWebViewComponent(identificador = "1124127616",width="425px", height = "800px")
         }
 
         Box(

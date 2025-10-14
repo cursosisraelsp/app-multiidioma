@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -17,10 +18,11 @@ import com.example.multiidioma.R
 import com.example.multiidioma.data.data.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIlgMiniScreen11Box2(data: MiniScreenData) {
+fun contentIlgMiniScreen11Box2(data:MiniScreenData, offset: Int, listState: LazyListState, itemIndex: Int) {
     val estilosTextos = StyleText(
         style = MaterialTheme.typography.bodyMedium,
         textAlign = TextAlign.Center,
@@ -47,7 +49,7 @@ fun contentIlgMiniScreen11Box2(data: MiniScreenData) {
             horizontalAlignment = Alignment.CenterHorizontally
 
         ) {
-            GifComponent(gif = R.drawable.ilg_anim_05)
+            LottieScrollWithOffsetComponent(debuxoLottie = R.raw.ilg_anim_04, listState, itemIndex)
         }
     }
 }

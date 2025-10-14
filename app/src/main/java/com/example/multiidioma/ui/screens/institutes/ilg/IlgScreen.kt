@@ -115,7 +115,9 @@ fun IlgScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
                         6 -> IlgMiniScreen6(
@@ -128,7 +130,9 @@ fun IlgScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
                          8 -> IlgMiniScreen8(
@@ -158,7 +162,9 @@ fun IlgScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState =  listState,
+                            itemIndex = index
                         )
 
                         12 -> IlgMiniScreen12(

@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen0.contentIlgMiniScreen0.contentIlgMiniScreenBox3
 import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.ilgMiniScreen0.contentIlgMiniScreen0.contentIlgMiniScreen0Box2
 
@@ -30,8 +31,7 @@ fun ilgMiniScreen0(
                 .fillMaxSize()
         ) {
 
-            VideoScreen(videoId = "92UgRKX8ooM", // tu ID de video
-                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
+            VimeoWebViewComponent(identificador = "1124127625",width="425px", height = "800px")
         }
             Box(
                 modifier = modifier
@@ -40,7 +40,7 @@ fun ilgMiniScreen0(
                 TemplateScreen(
                     data = data,
                     Box2 = { contentIlgMiniScreen0Box2(it) },
-                    Box3 = { contentIlgMiniScreenBox3()})
+                    Box3 = { contentIlgMiniScreenBox3() })
             }
         }
     }

@@ -20,6 +20,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.multiidioma.data.data.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
+import com.example.multiidioma.ui.screens.centros.ciqus.ciqusMiniScreens.ciqusMiniScreen13.CiqusMiniScreen13
+import com.example.multiidioma.ui.screens.centros.ciqus.ciqusMiniScreens.ciqusMiniScreen14.CiqusMiniScreen14
 import com.example.multiidioma.ui.screens.centros.idis.IdisViewModel
 import com.example.multiidioma.ui.screens.centros.idis.idisMiniScreens.idisMiniScreen17.IdisMiniScreen17
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.CiqusMiniScreen4.CiqusMiniScreen4
@@ -30,6 +32,7 @@ import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen1.ciqusMiniScreen1
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen10.ciqusMiniScreen10
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen11.ciqusMiniScreen11
+import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen12.CiqusMiniScreen12
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen2.ciqusMiniScreen2
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen3.ciqusMiniScreen3
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen8.ciqusMiniScreen8
@@ -176,30 +179,32 @@ fun CiqusScreen(
                             itemIndex = index
                         )
 
-                       /* 12 -> IdisMiniScreen12(
+                        12 -> CiqusMiniScreen12(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
-                        13 -> IdisMiniScreen13(
+                        13 -> CiqusMiniScreen13(
 
                             data,
+                            navController,
+                            podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
 
-                        14 -> IdisMiniScreen14(
+                        14 -> CiqusMiniScreen14(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
 
-                        15 -> IdisMiniScreen15(
+                     /*   15 -> IdisMiniScreen15(
                             data,
                             Modifier
                                 .fillMaxWidth()
