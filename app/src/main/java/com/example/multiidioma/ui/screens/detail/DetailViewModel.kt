@@ -19,8 +19,8 @@ class DetailViewModel(savedStateHandle: SavedStateHandle): ViewModel() {
     init {
         Log.d("DetailViewModel", "screenId recibido: $screenId")
         //loadDetailImaxenClick()
-        //loadDetailListSingularsCenter()
-       // loadDetailListInstitutes()
+        loadDetailListSingularsCenter()
+        loadDetailListInstitutes()
         loadDetailListScreensHome()
         //loadDetailListMiniScreensIncifor()
     }

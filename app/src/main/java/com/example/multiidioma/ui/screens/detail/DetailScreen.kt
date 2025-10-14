@@ -132,7 +132,7 @@ fun DetailScreen(
         listFiguresHome != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
 
-                Log.d("DetailViewModel", "DetailScreen  listFiguresHome.contentType: ${listFiguresHome.contentType}")
+
 
                 when (listFiguresHome.contentType) {
 
