@@ -16,5 +16,5 @@ fun InciforMiniScreen26(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowNoClickScreenTemplate(data,navController,podcasts)
+    LazyRowNoClickScreenTemplate(data,navController,podcasts, "incifor", "Ana María Bermejo Barrera", "Inés Sánchez Sellero")
 }

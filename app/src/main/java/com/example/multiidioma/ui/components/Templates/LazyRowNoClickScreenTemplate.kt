@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -35,13 +36,16 @@ fun LazyRowNoClickScreenTemplate(
     data: MiniScreenData,
     navController: NavController,
     podcasts: List<Podcast>,
-    modifier: Modifier = Modifier
+    centerName: String,
+    director1: String,
+    director2: String? = null,
+    modifier: Modifier = Modifier,
 ) {
     val investigadores = data.personalResearcher ?: emptyList()
 
-    // Separar Directora y Secretaria
+    // Separar directora/os
     val principales = investigadores.filter {
-        it.name == "Ana María Bermejo Barrera" || it.name == "Inés Sánchez Sellero"
+        it.name == director1 || it.name == director2
     }
 
     // Resto de investigadores
@@ -52,11 +56,9 @@ fun LazyRowNoClickScreenTemplate(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-            /*.background(Color.Red)*/
-        ) {
+
+        // 🔹 Directores (fila superior)
+        Box(modifier = Modifier.fillMaxWidth()) {
             LazyRow(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -68,37 +70,58 @@ fun LazyRowNoClickScreenTemplate(
                 items(principales) { investigador ->
                     Column(
                         modifier = Modifier
-                            .height(300.dp) //tamaño cuadrado del personal alto
-                            .width(250.dp)  //tamaño cuadrado del personal ancho
+                            .height(300.dp)
+                            .width(250.dp)
                             .clip(RoundedCornerShape(8.dp))
-                            .background(Color.Yellow)
                             .padding(8.dp)
                     ) {
+                        // Imagen
                         Image(
                             painter = painterResource(investigador.foto),
                             contentDescription = investigador.name ?: "Sin nombre",
                             contentScale = ContentScale.Fit,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(150.dp) //alto imagen
+                                .height(150.dp)
                                 .clip(RoundedCornerShape(8.dp))
                         )
+
                         Spacer(Modifier.height(8.dp))
-                        Text(text = investigador.name ?: "Sin nombre", color = Color.White)
-                        investigador.info?.forEach { resId ->
-                            resId?.let { Text(text = stringResource(it), color = Color.LightGray) }
+
+                        // Nombre
+                        Text(
+                            text = investigador.name ?: "Sin nombre",
+                            color = Color.White,
+                            style = MaterialTheme.typography.titleSmall
+                        )
+
+                        // Cargo (role) si existe
+                        investigador.role?.let { roleRes ->
+                            Text(
+                                text = stringResource(id = roleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
+                        }
+
+                        // Título (title) si existe
+                        investigador.title?.let { titleRes ->
+                            Text(
+                                text = stringResource(id = titleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
                         }
                     }
                 }
             }
         }
 
-        // Parte inferior
+        // 🔹 Resto de investigadores (fila inferior)
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(350.dp)
-            /*.background(Color.Green)*/
         ) {
             LazyRow(
                 modifier = Modifier
@@ -110,12 +133,17 @@ fun LazyRowNoClickScreenTemplate(
                 items(resto) { investigador ->
                     Column(
                         modifier = Modifier
-                            .height(325.dp)// alto tarjeta investigadores
-                            .width(225.dp) // ancho tarjeta investigadores
+                            .height(325.dp)
+                            .width(225.dp)
                             .clip(RoundedCornerShape(8.dp))
-                            .background(Color.DarkGray)
+
+                            .clickable {
+                                val ruta = "detalles/${centerName}/${investigador.name}" // o id si lo tienes
+                                navController.navigate(ruta)
+                            }
                             .padding(8.dp)
                     ) {
+                        // Imagen
                         Image(
                             painter = painterResource(investigador.foto),
                             contentDescription = investigador.name ?: "Sin nombre",
@@ -125,10 +153,32 @@ fun LazyRowNoClickScreenTemplate(
                                 .height(125.dp)
                                 .clip(RoundedCornerShape(8.dp))
                         )
+
                         Spacer(Modifier.height(8.dp))
-                        Text(text = investigador.name ?: "Sin nombre", color = Color.White)
-                        investigador.info?.forEach { resId ->
-                            resId?.let { Text(text = stringResource(it), color = Color.LightGray) }
+
+                        // Nombre
+                        Text(
+                            text = investigador.name ?: "Sin nombre",
+                            color = Color.White,
+                            style = MaterialTheme.typography.titleSmall
+                        )
+
+                        // Cargo (role) si existe
+                        investigador.role?.let { roleRes ->
+                            Text(
+                                text = stringResource(id = roleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.displaySmall
+                            )
+                        }
+
+                        // Título (title) si existe
+                        investigador.title?.let { titleRes ->
+                            Text(
+                                text = stringResource(id = titleRes),
+                                color = Color.White,
+                                style = MaterialTheme.typography.bodyMedium
+                            )
                         }
                     }
                 }
@@ -136,4 +186,3 @@ fun LazyRowNoClickScreenTemplate(
         }
     }
 }
-

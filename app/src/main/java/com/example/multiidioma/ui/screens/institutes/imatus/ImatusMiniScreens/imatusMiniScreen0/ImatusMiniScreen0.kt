@@ -12,6 +12,7 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0.contentImatusMiniScreen0.contentImatusMiniScreen0Box2
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0.contentImatusMiniScreen0.contentImatusMiniScreen0Box3
 
@@ -30,12 +31,7 @@ fun ImatusMiniScreen0(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            VideoScreen(
-                videoId = "ut_8lkPwRU4", // tu ID de video
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+            VimeoWebViewComponent(identificador = "1124127663", width = "425px", height = "800px")
         }
 
         TemplateScreen(

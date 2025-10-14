@@ -63,7 +63,7 @@ val valorFiguraImatus2 = NavegationFiguresData(
 val calImatus = PersonResearcher(
     foto = R.drawable.imatus_img_13,
     name = "Carmen Álvarez Lorenzo",
-    title = R.string.II_IMATUS_miniscreen_14_title_1,
+    title = R.string.Directora,
     role = null, // No tiene cargo
     info = listOf(
         R.string.II_IMATUS_miniscreen_14_paragraph_0,

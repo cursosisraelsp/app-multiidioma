@@ -25,6 +25,8 @@
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
     <string name="default_title">SinTitulo</string>
     <string name="default_role" translatable="false">SinTitulo\n</string>
-
+    <string name="Directora">Director</string>
+    <string name="Secretaria">Secretary</string>
+    <string name="Director" translatable="false">Director</string>
 
 </resources>

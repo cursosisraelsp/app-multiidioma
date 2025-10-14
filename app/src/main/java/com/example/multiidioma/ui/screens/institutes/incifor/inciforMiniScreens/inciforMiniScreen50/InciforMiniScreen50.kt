@@ -7,7 +7,7 @@ import com.example.multiidioma.data.urlIncifor
 import com.example.multiidioma.ui.components.Templates.ScrollingEndScreenTemplate
 
 @Composable
-fun InciforMiniScreen28(
+fun InciforMiniScreen50(
     data: MiniScreenData,
     modifier: Modifier = Modifier
 ) {
