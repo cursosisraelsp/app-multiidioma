@@ -1,4 +1,4 @@
-package com.example.multiidioma.navegacion.idisApp
+package com.example.multiidioma.navegacion.centros.idisApp
 
 import android.os.Build
 import androidx.annotation.RequiresApi

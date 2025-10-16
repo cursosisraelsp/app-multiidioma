@@ -1,4 +1,4 @@
-package com.example.multiidioma.navegacion.cimusApp
+package com.example.multiidioma.navegacion.centros.cimusApp
 
 
 import android.os.Build

@@ -88,6 +88,9 @@ val valorFiguraCitius4 = NavegationFiguresData(
 val sbCitius = PersonResearcher(
     foto = R.drawable.citius_img_14,
     name = "SENÉN BARRO",
+    title = R.string.prueba_link,
+    role = R.string.role,
+
     info = listOf(
         R.string.CS_CITIUS_miniscreen_18_title_1,
         R.string.CS_CITIUS_miniscreen_18_paragraph_0,

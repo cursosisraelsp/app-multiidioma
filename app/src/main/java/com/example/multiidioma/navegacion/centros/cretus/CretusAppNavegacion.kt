@@ -1,4 +1,4 @@
-package com.example.multiidioma.navegacion.cretus
+package com.example.multiidioma.navegacion.centros.cretus
 
 
 import androidx.compose.foundation.lazy.LazyListState

@@ -1,4 +1,4 @@
-package com.example.multiidioma.navegacion.igfaeApp
+package com.example.multiidioma.navegacion.centros.igfaeApp
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.navigation.NavGraphBuilder

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.components.imaxes
+package com.example.multiidioma.ui.components.Images
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.size

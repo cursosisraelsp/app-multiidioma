@@ -1,4 +1,4 @@
-package com.example.multiidioma.navegacion.ciqus
+package com.example.multiidioma.navegacion.centros.ciqus
 
 import android.os.Build
 import androidx.annotation.RequiresApi

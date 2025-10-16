@@ -22,7 +22,7 @@ class LoaderActivity : ComponentActivity() {
             LoaderScreen()
         }
 
-        // Lanzamos Unity después de un pequeño retardo
+       /* // Lanzamos Unity después de un pequeño retardo
         lifecycleScope.launch {
             delay(1000) // aquí ajusta si quieres que se vea más
             val intent = Intent(this@LoaderActivity, com.unity3d.player.UnityPlayerGameActivity::class.java)
@@ -30,7 +30,7 @@ class LoaderActivity : ComponentActivity() {
             //intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
             startActivity(intent)
             //finish() // Cerramos LoaderActivity para no volver atrás a ella
-        }
+        }*/
     }
 }
 

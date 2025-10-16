@@ -1,6 +1,7 @@
 package com.example.multiidioma.navegacion
 
 
+//import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
@@ -9,15 +10,14 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.multiidioma.data.Destination
-import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
-import com.example.multiidioma.navegacion.ciqus.CiqusAppNavegacion
-import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
-import com.example.multiidioma.navegacion.cretus.CretusAppNavegacion
+import com.example.multiidioma.navegacion.centros.cimusApp.CimusAppNavegacion
+import com.example.multiidioma.navegacion.centros.ciqus.CiqusAppNavegacion
+import com.example.multiidioma.navegacion.centros.citiusApp.CitiusAppNavegacion
+import com.example.multiidioma.navegacion.centros.cretus.CretusAppNavegacion
+import com.example.multiidioma.navegacion.centros.idisApp.IdisAppNavegacion
+import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
-import com.example.multiidioma.navegacion.idisApp.IdisAppNavegacion
-import com.example.multiidioma.navegacion.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.institutos.IdegaApp.IdegaAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
@@ -29,7 +29,6 @@ import com.example.multiidioma.navegacion.institutos.ipsiusApp.IpsiusAppNavegaci
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
-//import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import com.example.multiidioma.ui.screens.plantilla.Plantilla
 import com.example.multiidioma.viewmodel.LanguageViewModel
 

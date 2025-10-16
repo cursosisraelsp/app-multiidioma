@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.ImaxenClickData
 import com.example.multiidioma.ui.LocalizedContext
-import com.example.multiidioma.ui.components.imaxes.OrganicShape
+import com.example.multiidioma.ui.components.Images.OrganicShape
 
 @Composable
 fun ImaxenClickHomeUtils(
