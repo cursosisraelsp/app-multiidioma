@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.idis
+package com.example.multiidioma.ui.screens.institutes.ihus
 
 import android.content.res.Resources
 import androidx.compose.ui.unit.dp
@@ -236,5 +236,5 @@ val rgbIdis =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val datosInvestigadoresIdis = listOf(mlcpIdis, ilgIdis, rllIdis, acaIdis, mlgIdis, mamoIdis,
+val datosInvestigadoresIhus = listOf(mlcpIdis, ilgIdis, rllIdis, acaIdis, mlgIdis, mamoIdis,
     lmscIdis, jllgIdis, fcpIdis, fgsIdis, izfIdis, jrgjIdis, mrmIdis, fmtIdis, rgbIdis)
