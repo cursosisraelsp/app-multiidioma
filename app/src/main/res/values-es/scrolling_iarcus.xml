@@ -70,6 +70,7 @@
     <string name="II_IARCUS_miniscreen_8_paragraph_12">SISMOL: Sistemática Molecular</string>
     <string name="II_IARCUS_miniscreen_8_texto_buscado_5">SISMOL: Sistemática Molecular</string>
     <string name="II_IARCUS_miniscreen_8_paragraph_13">Se estudia la identificación de especies por técnicas de ADN mitocondrial, los cultivos marinos alternativos, el estrés, la inmunidad y su regulación y expresión génica.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_14">Agua y salud animal</string>
     <!-- PANTALLA 10 -->
     <string name="II_IARCUS_miniscreen_9_title_0">AGUA Y SALUD AMBIENTAL (eje 2)</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_0">Aborda los efectos de la contaminación química en el medio acuático y su impacto en la salud animal y humana. Promueve el análisis y control de contaminantes para proteger los ecosistemas y la salud.</string>
@@ -80,6 +81,7 @@
     <string name="II_IARCUS_miniscreen_9_paragraph_4">Química Analítica-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_texto_buscado_1">Química Analítica-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_5">Se estudian métodos avanzados para analizar productos agroalimentarios y vinos de Galicia, enfocándose en el perfil polifenólicos y su efecto en la salud. También se desarrollan técnicas para detectar metales, medicamentos y toxinas en alimentos y muestras marinas, mejorando el control ambiental y la calidad alimentaria.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_6">Agua y salud ambiental</string>
     <!-- PANTALLA 11 -->
     <string name="II_IARCUS_miniscreen_10_title_0">AGUA Y SALUD HUMANA (eje 3)</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_0">Analiza cómo la contaminación del agua afecta nuestra salud, el uso de animales para entender enfermedades, la transmisión de enfermedades entre animales y personas (zoonosis), y el impacto de ciertas sustancias naturales o químicas en el cuerpo humano.</string>
@@ -87,12 +89,14 @@
     <string name="II_IARCUS_miniscreen_10_paragraph_2">LREC: Laboratorio de referencia de Escherichia coli</string>
     <string name="II_IARCUS_miniscreen_10_texto_buscado_0">LREC: Laboratorio de referencia de Escherichia coli</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_3">El laboratorio se especializa en la detección y tipado molecular de distintas cepas patógenas de E. coli en alimentos y muestras clínicas, incluyendo serotipos verotoxigénicos y extraintestinales. Estudian la patogénesis, epidemiología y resistencia genética, desarrollando métodos analíticos avanzados y vacunas para la colibacilosis.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_4">Agua y salud humanas</string>
     <!-- PANTALLA 12 -->
     <string name="II_IARCUS_miniscreen_11_title_0">EDUCACIÓN EN RESILIENCIA Y SOSTENIBILIDAD (eje transversal)</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_0">Promueve la formación de personas y comunidades capaces de adaptarse a los cambios ambientales y sociales, fomentando prácticas sostenibles y responsables con el entorno.</string>
     <string name="II_IARCUS_miniscreen_11_texto_buscado_0">SEPA-Interea: Pedagogía Social y Educación Ambiental</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_1">Se estudian la Educación Ambiental, Social y comunitaria, así como las políticas culturales en la Administración Local. Además, se analiza el sistema educativo en Galicia, y las percepciones sociales sobre la educación ambiental.</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_2">Se estudian la Educación Ambiental, Social y comunitaria, así como las políticas culturales en la Administración Local. Además, se analiza el sistema educativo en Galicia, y las percepciones sociales sobre la educación ambiental.</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_3">Educación en resiliencia y sostenibilidad</string>
     <!-- PANTALLA 13 -->
     <string name="II_IARCUS_miniscreen_12_paragraph_0">El iARCUS oferta cursos y píldoras de formación orientados a profesionales de empresas, autónomos y técnicos de Administración. Su misión es la de transmitir a la sociedad todo el conocimiento adquirido a lo largo de la experiencia investigadora.</string>
     <string name="II_IARCUS_miniscreen_12_texto_buscado_0">transmitir a la sociedad todo el conocimiento adquirido</string>
@@ -223,4 +227,5 @@
     <string name="II_IARCUS_miniscreen_28_paragraph_0">Si te interesa ampliar tus conocimientos sobre este instituto puede acceder a más información haciendo click en el siguiente enlace:</string>
     <string name="II_IARCUS_miniscreen_28_texto_buscado_0">ampliar tus conocimientos</string>
     <string name="II_IARCUS_miniscreen_28_title_0">https://arcus.usc.gal/</string>
+
 </resources>

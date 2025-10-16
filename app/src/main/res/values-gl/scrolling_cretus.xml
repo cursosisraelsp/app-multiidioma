@@ -30,36 +30,55 @@
     <string name="CS_CRETUS_miniscreen_7_texto_buscado_0">investigadores de áreas como a enxeñaría, biotecnoloxía, ciencias experimentais, dereito, psicoloxía e ciencias sociais</string>
     <string name="CS_CRETUS_miniscreen_7_paragraph_1">A sede principal do centro atópase no Campus Vida da USC, aínda que, debido á diversidade temática dos grupos que o integran, os seus recursos humanos e materiais repártense entre o Campus Vida e o Campus Norte.</string>
     <string name="CS_CRETUS_miniscreen_7_texto_buscado_1">Campus Vida da USC</string>
+
     <string name="CS_CRETUS_miniscreen_8_paragraph_0">A investigación de CRETUS é diversa e pódese dividir en oito áreas temáticas, aínda que moitos dos seus proxectos poderían integrarse dentro de varias das áreas.</string>
     <string name="CS_CRETUS_miniscreen_8_texto_buscado_0">oito áreas temáticas</string>
+
+
     <string name="CS_CRETUS_miniscreen_9_title_0">REMEDIACIÓN E USOS SUSTENTABLES DO SOLO</string>
     <string name="CS_CRETUS_miniscreen_9_paragraph_0">O solo é esencial para a produción de alimentos, a reciclaxe de nutrientes e a conservación da biodiversidade, ademais de desempeñar un papel clave na regulación do clima ao actuar como sumidoiro de carbono e reducir as emisións de CO2. En CRETUS estúdase a calidade e o estado dos solos e como remediar aqueles que están degradados ou contaminados utilizando solos deseñados no laboratorio (tecnosoles), biomateriais ou plantas (fitorremediación). Ademais, promóvese a reutilización de biorresiduos como emendas para os solos.</string>
     <string name="CS_CRETUS_miniscreen_9_texto_buscado_0">a calidade e o estado dos solos</string>
+    <string name="CS_CRETUS_miniscreen_9_paragraph_1">Remediación e usos sustentables do solo</string>
+
     <string name="CS_CRETUS_miniscreen_10_title_0">TRATAMENTO E RECUPERACIÓN DE AUGAS</string>
     <string name="CS_CRETUS_miniscreen_10_paragraph_0">A escaseza de auga é unha preocupación global, pero é aínda máis preocupante que a auga dispoñible sexa de mala calidade. En CRETUS búscanse tecnoloxías alternativas para depurar augas residuais, recuperar compostos útiles e minimizar o impacto ambiental dos sistemas de tratamento.</string>
     <string name="CS_CRETUS_miniscreen_10_texto_buscado_0">depurar augas residuais, recuperar compostos útiles e minimizar o impacto ambiental dos sistemas de tratamento</string>
+    <string name="CS_CRETUS_miniscreen_10_paragraph_1">Tratamiento e recuperación de augas</string>
+
     <string name="CS_CRETUS_miniscreen_11_title_0">VALORIZACIÓN DE RESIDUOS</string>
     <string name="CS_CRETUS_miniscreen_11_paragraph_0">Desde unha perspectiva de economía circular, búscase aproveitar produtos que tradicionalmente se consideraban refugallos para crear novos recursos de valor. Por exemplo, investígase a produción de bioplásticos a partir de aceites vexetais, de biocombustibles a partir de residuos agroindustriais e forestais, ou a obtención de produtos de interese para a industria a partir de residuos pesqueiros e alimentarios.</string>
     <string name="CS_CRETUS_miniscreen_11_texto_buscado_0">crear novos recursos de valor</string>
+    <string name="CS_CRETUS_miniscreen_11_paragraph_1">Valorización de residuos</string>
+
     <string name="CS_CRETUS_miniscreen_12_title_0">BIODIVERSIDADE, BIOMONITORIZACIÓN E BIOARQUEOLOXÍA</string>
     <string name="CS_CRETUS_miniscreen_12_paragraph_0">O estudo dos organismos vivos proporciona información clave para desenvolver novas tecnoloxías e entender mellor o que sucede no noso planeta. Neste contexto, os organismos poden usarse para detectar e medir a contaminación en diferentes áreas (biomonitorización) e para crear mapas detallados que reflictan como se distribúe esa contaminación (biodelización). Ademais, os cambios na biodiversidade indican o impacto da actividade humana e os restos arqueolóxicos permiten estudar efectos do cambio climático engadindo a perspectiva temporal (bioarqueoloxía).</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_0">biomonitoring</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_1">biomodelling</string>
     <string name="CS_CRETUS_miniscreen_12_texto_buscado_2">bioarchaeology</string>
+    <string name="CS_CRETUS_miniscreen_12_paragraph_1">Biodiversidad biomonitorización bioarqueoloxía</string>
+
     <string name="CS_CRETUS_miniscreen_13_title_0">INTEGRACIÓN DE DATOS E MODELADO</string>
     <string name="CS_CRETUS_miniscreen_13_paragraph_0">Recoller e analizar datos ambientais, como información meteorolóxica, biolóxica ou química, e construír modelos que simulen procesos naturais é clave para predicir a dispersión de contaminantes, a propagación de incendios ou o risco de inundacións.</string>
     <string name="CS_CRETUS_miniscreen_13_texto_buscado_0">predicir a dispersión de contaminantes, a propagación de incendios ou o risco de inundacións</string>
+    <string name="CS_CRETUS_miniscreen_13_paragraph_1">Integración de datos e modelado</string>
+
     <string name="CS_CRETUS_miniscreen_14_title_0">MONITORIZACIÓN FÍSICO-QUÍMICA</string>
     <string name="CS_CRETUS_miniscreen_14_paragraph_0">Analizar auga, solo e aire para coñecer o seu estado é imprescindible para detectar a contaminación e a súa evolución ou saber se un tratamento de descontaminación foi eficaz. É imprescindible desenvolver métodos analíticos respectuosos co medio ambiente que sexan efectivos usando baixas cantidades de reactivos, enerxía e tempo. CRETUS conta con laboratorios especializados na medición de contaminantes nos diferentes compartimentos ambientais. Un exemplo, con gran repercusión en Galicia, é a detección de radón en aire (acreditado por ENAC).</string>
     <string name="CS_CRETUS_miniscreen_14_texto_buscado_0">é imprescindible para detectar a contaminación e a súa evolución</string>
     <string name="CS_CRETUS_miniscreen_14_texto_buscado_1">detección de radón en aire (acreditado por ENAC)</string>
+    <string name="CS_CRETUS_miniscreen_14_paragraph_1">Monitorización físico-química</string>
+
     <string name="CS_CRETUS_miniscreen_15_title_0">PROCESOS SUSTENTABLES</string>
     <string name="CS_CRETUS_miniscreen_15_paragraph_0">Desde esta área, CRETUS traballa no deseño de procesos sustentables como a produción de enzimas, que son proteínas involucradas nas reaccións químicas, o uso de disolventes alternativos menos tóxicos e respectuosos co medio, ou técnicas de recuperación de petróleo.</string>
     <string name="CS_CRETUS_miniscreen_15_texto_buscado_0">deseño de procesos sustentables como a produción de enzimas</string>
+    <string name="CS_CRETUS_miniscreen_15_paragraph_1">Procesos sustentábeis</string>
+
     <string name="CS_CRETUS_miniscreen_16_title_0">IMPACTO SOCIO-ECONÓMICO E AMBIENTAL</string>
     <string name="CS_CRETUS_miniscreen_16_paragraph_0">CRETUS non só desenvolve tecnoloxías ambientais, senón que tamén se asegura de que estas sexan aceptadas e adaptadas pola sociedade dentro dun marco regulatorio claro e efectivo. Para iso analiza o impacto ambiental das tecnoloxías desde a obtención de materias primas ata a súa implementación (análise de ciclo de vida) e trata de crear deseños eficientes e respectuosos co medio (ecodeseño, ecoeficiencia). Todo iso sen esquecer a avaliación da percepción social e o deseño de plans estratéxicos de implementación.</string>
     <string name="CS_CRETUS_miniscreen_16_texto_buscado_0">analiza o impacto ambiental das tecnoloxías</string>
     <string name="CS_CRETUS_miniscreen_16_texto_buscado_1">deseños eficientes e respectuosos co medio</string>
+    <string name="CS_CRETUS_miniscreen_16_paragraph_1">Impacto socio-económico e ambiental</string>
+
     <string name="CS_CRETUS_miniscreen_17_paragraph_0">CRETUS traballa activamente para atraer e reter talento, promovendo a igualdade de oportunidades e unha cultura de traballo multidisciplinar. Para iso, ofrece bolsas de inicio á investigación e de estancias no estranxeiro para estudantes e doutorandos, e organiza simposios, cursos e seminarios que fomentan a formación continua e o desenvolvemento profesional dos seus investigadores. Así, o centro asegura un ambiente de excelencia científica e humano que sostén o seu impacto a longo prazo.</string>
     <string name="CS_CRETUS_miniscreen_17_texto_buscado_0">promovendo a igualdade de oportunidades e unha cultura de traballo multidisciplinar</string>
     <string name="CS_CRETUS_miniscreen_17_texto_buscado_1">asegura un ambiente de excelencia científica</string>

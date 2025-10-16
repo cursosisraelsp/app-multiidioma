@@ -26,92 +26,161 @@
     <string name="CS_IGFAE_miniscreen_6_texto_buscado_1">incompatible con la gravedad o la materia oscura</string>
     <string name="CS_IGFAE_miniscreen_6_paragraph_1">A continuación, se muestran algunos de los programas de investigación del Instituto que se llevan a cabo en esta área.</string>
     <string name="CS_IGFAE_miniscreen_6_texto_buscado_2">programas de investigación</string>
-    <string name="CS_IGFAE_miniscreen_7_title_0">STRING THEORY AND RELATED FIELDS (Teoría de cuerdas)</string>
+    <string name="CS_IGFAE_miniscreen_7_title_0">STRING THEORY AND RELATED FIELDS</string>
     <string name="CS_IGFAE_miniscreen_7_paragraph_0">La teoría de cuerdas propone que los elementos más pequeños son “cuerdas” que según cómo vibren forman las diferentes partículas, como electrones o quarks. Esta teoría surge como posible solución a la incompatibilidad entre la mecánica cuántica, que explica cómo funciona el universo a una escala muy pequeña (átomos), y la relatividad general, que lo explica a gran escala (planetas o galaxias).</string>
     <string name="CS_IGFAE_miniscreen_7_texto_buscado_0">los elementos más pequeños son “cuerdas” que según cómo vibren forman las diferentes partículas</string>
     <string name="CS_IGFAE_miniscreen_7_paragraph_1">Este programa de investigación del IGFAE estudia desde los aspectos más teóricos de la física, como la relación entre las leyes que explican las partículas y la gravedad, hasta cómo se comporta la materia cuando muchas partículas interactúan entre sí. Esto se conoce como “materia condensada” y es clave para entender materiales con propiedades especiales, como los superconductores. Estos estudios también se están empezando a aplicar a áreas más prácticas, como el desarrollo de la computación cuántica, que permitirá hacer cálculos simultáneos y más velozmente que los ordenadores actuales.</string>
     <string name="CS_IGFAE_miniscreen_7_texto_buscado_1">materia condensada</string>
     <string name="CS_IGFAE_miniscreen_7_texto_buscado_2">desarrollo de la computación cuántica</string>
-    <string name="CS_IGFAE_miniscreen_8_title_0">HOT AND DENSE QCD IN THE LHC ERA AND BEYOND (Cromodinámica cuántica)</string>
+    <string name="CS_IGFAE_miniscreen_7_paragraph_2">Teoría de cuerdas</string>
+
+    <string name="CS_IGFAE_miniscreen_8_title_0">Cromodinámica cuántica</string>
     <string name="CS_IGFAE_miniscreen_8_paragraph_0">La cromodinámica cuántica (QCD) es la teoría que describe la fuerza nuclear fuerte que mantiene unidos los protones y neutrones en el núcleo del átomo. Para profundizar en su estudio, es necesario recrear unas condiciones de temperatura y densidad extremas, como las que existían en los primeros instantes del universo, justo después del Big Bang. Estas condiciones se recrean en colisionadores como el LHC del CERN o el RHIC en Brookhaven (Estados Unidos).</string>
     <string name="CS_IGFAE_miniscreen_8_texto_buscado_0">describe la fuerza nuclear fuerte que mantiene unidos los protones y neutrones en el núcleo del átomo</string>
     <string name="CS_IGFAE_miniscreen_8_paragraph_1">El equipo del IGFAE es un referente internacional en el estudio de la cromodinámica cuántica en condiciones extremas, y ocupa posiciones de responsabilidad en el diseño y configuración de los futuros aceleradores de partículas liderando proyectos, como el YoctoLHC, que permitirán seguir profundizando en este campo.</string>
     <string name="CS_IGFAE_miniscreen_8_texto_buscado_1">El equipo del IGFAE es un referente internacional</string>
-    <string name="CS_IGFAE_miniscreen_9_title_0">BEYOND THE SM SEARCHES WITH LHCB (Física más allá del Modelo Estándar)</string>
+    <string name="CS_IGFAE_miniscreen_8_paragraph_2">Cromodinámica cuántica</string>
+
+    <string name="CS_IGFAE_miniscreen_9_title_0">Física más allá del Modelo Estándar</string>
     <string name="CS_IGFAE_miniscreen_9_paragraph_0">Esta línea de investigación consiste en buscar respuesta a una de las grandes preguntas de la física actual: el predominio de la materia sobre la antimateria en el universo, cuando, en teoría, deberían haberse creado por igual. Para ello, se estudia una partícula llamada quark bottom o beauty (quark b) y un fenómeno llamado violación de la simetría de paridad de carga (simetría CP), que se produce cuando la materia y la antimateria no se comportan exactamente igual.</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_0">predominio de la materia sobre la antimateria en el universo</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_1">quark bottom o beauty (quark b)</string>
     <string name="CS_IGFAE_miniscreen_9_paragraph_1">Este campo se desarrolla tanto desde la teoría como desde la participación en experimentos internacionales como los del LHCb en el CERN, en el que el IGFAE lleva participando desde sus inicios. Hoy en día, es uno de los equipos más importantes dentro del LHCb y su personal colabora en el diseño y construcción de sensores muy precisos, como los del subdetector VELO (Vertex Locator), el desarrollo del supercomputador Allen, capaz de analizar los datos del experimento en tiempo real, o la propuesta para un nuevo detector CODEX-b. El IGFAE, además, asume gran parte del trabajo de procesar toda la información que se genera en el LHCb gracias a su potente centro de computación.</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_2">uno de los equipos más importantes dentro del LHCb</string>
     <string name="CS_IGFAE_miniscreen_9_texto_buscado_3">trabajo de procesar toda la información que se genera en el LHCb</string>
-    <string name="CS_IGFAE_miniscreen_10_title_0">COSMIC PARTICLES AND FUNDAMENTAL PHYSICS (Partículas cósmicas y física fundamental)</string>
+    <string name="CS_IGFAE_miniscreen_9_paragraph_2">Física más allá del Modelo Estándar</string>
+
+    <string name="CS_IGFAE_miniscreen_10_title_0">Partículas cósmicas y física fundamental</string>
     <string name="CS_IGFAE_miniscreen_10_paragraph_0">Gracias a unas tecnologías cada vez más potentes, ahora se pueden estudiar los fenómenos cósmicos de maneras muy diversas. Ya no solo se observan las estrellas con el tradicional telescopio, sino que también se pueden detectar señales como las ondas gravitacionales o los neutrinos. Esta nueva forma de comprender el universo se denomina astronomía de multimensajeros y permite estudiar con mayor profundidad las partículas que vienen del cosmos y entender sus fenómenos más extremos.</string>
     <string name="CS_IGFAE_miniscreen_10_texto_buscado_0">detectar señales como las ondas gravitacionales o los neutrinos</string>
     <string name="CS_IGFAE_miniscreen_10_paragraph_1">"Estos son algunos de los programas de investigación que el Instituto desarrolla dentro de esta línea. "</string>
     <string name="CS_IGFAE_miniscreen_10_texto_buscado_1">programas de investigación</string>
-    <string name="CS_IGFAE_miniscreen_11_title_0">DARK MATTER AND THE NATURE OF NEUTRINOS (Materia oscura y naturaleza de los neutrinos)</string>
+
+    <string name="CS_IGFAE_miniscreen_11_title_0">Materia oscura y naturaleza de los neutrinos</string>
     <string name="CS_IGFAE_miniscreen_11_paragraph_0">La materia oscura es una de las mayores incógnitas de la física actual, una forma de materia que no se puede ver de manera directa, pero cuya existencia se deduce por sus efectos gravitatorios en la materia visible que la rodea. Se cree que constituye más del 80% de la materia existente en el universo y no encaja dentro del actual Modelo Estándar de la física.</string>
     <string name="CS_IGFAE_miniscreen_11_texto_buscado_0">constituye más del 80% de la materia existente en el universo</string>
     <string name="CS_IGFAE_miniscreen_11_paragraph_1">El IGFAE colabora activamente en este campo a través de la observación de los neutrinos, unas partículas muy pequeñas y difíciles de detectar, pero que son esenciales en el estudio de la materia oscura. El Instituto participa en alguno de los experimentos internacionales más relevantes en este campo, como NEXT, un laboratorio situado en el Pirineo Aragonés, DUNE en Estados Unidos y el Hyper-Kamiokande, un detector de neutrinos que está proceso de construcción en Japón.</string>
     <string name="CS_IGFAE_miniscreen_11_texto_buscado_1">neutrinos, unas partículas muy pequeñas y difíciles de detectar, pero que son esenciales en el estudio de la materia oscura</string>
-    <string name="CS_IGFAE_miniscreen_12_title_0">GRAVITATIONAL WAVES (Ondas gravitacionales)</string>
+    <string name="CS_IGFAE_miniscreen_11_paragraph_2">Materia oscura y naturaleza de los neutrinos</string>
+
+    <string name="CS_IGFAE_miniscreen_12_title_0">Ondas gravitacionales</string>
     <string name="CS_IGFAE_miniscreen_12_paragraph_0">Las ondas gravitacionales son pequeñas perturbaciones en el espacio-tiempo causadas por fenómenos cósmicos violentos como la fusión de agujeros negros y estrellas de neutrones o la explosión de supernovas. Su detección experimental fue uno de los grandes hechos científicos de este siglo, a través de la colaboración LIGO en 2015 y permiten obtener información del universo que hasta ahora era imposible de captar.</string>
     <string name="CS_IGFAE_miniscreen_12_texto_buscado_0">perturbaciones en el espacio-tiempo causadas por fenómenos cósmicos violentos</string>
     <string name="CS_IGFAE_miniscreen_12_paragraph_1">El IGFAE cuenta con un equipo propio incorporado a la colaboración LIGO desde el año 2018 dedicado a importantes tareas de análisis dentro del experimento. Con la apertura de su nueva sede, el instituto planea dedicar un laboratorio al desarrollo de nuevas tecnologías para los experimentos de ondas gravitacionales.</string>
     <string name="CS_IGFAE_miniscreen_12_texto_buscado_1">equipo propio incorporado a la colaboración LIGO</string>
-    <string name="CS_IGFAE_miniscreen_13_title_0">EXTREMELY ENERGETIC COSMIC RAYS AND NEUTRINOS – LARGE EXPOSURE EXPERIMENTS (Rayos cósmicos de ultra-alta energía)</string>
+    <string name="CS_IGFAE_miniscreen_12_paragraph_2">Ondas gravitacionales</string>
+
+    <string name="CS_IGFAE_miniscreen_13_title_0">Rayos cósmicos de ultra-alta energía</string>
     <string name="CS_IGFAE_miniscreen_13_paragraph_0">En cada instante, la Tierra recibe un bombardeo constante de rayos cósmicos, partículas que viajan a velocidades cercanas a la luz y que provienen de lugares muy lejanos del universo. Esta radiación es inofensiva para las personas, pero su estudio es clave para comprender fenómenos cósmicos muy energéticos y distantes.</string>
     <string name="CS_IGFAE_miniscreen_13_texto_buscado_0">partículas que viajan a velocidades cercanas a la luz</string>
     <string name="CS_IGFAE_miniscreen_13_paragraph_1">Desde 2002, el IGFAE lidera la participación española en el experimento del Observatorio Pierre Auger, en Argentina, uno de los más importantes para el estudio de rayos cósmicos y neutrinos. En este campo, el equipo del Instituto ha desarrollado métodos de análisis pioneros y que resultan cruciales para la interpretación de los datos. Esta investigación, además, conecta con otros programas del IGFAE y se complementa con otros trabajos teóricos sobre la física de astropartículas.</string>
     <string name="CS_IGFAE_miniscreen_13_texto_buscado_1">Observatorio Pierre Auger, en Argentina</string>
-    <string name="CS_IGFAE_miniscreen_14_title_0">NUCLEAR PHYSICS FROM THE LAB TO IMPROVE PEOPLE\’S HEALTH (Física nuclear para mejora de la salud)</string>
+    <string name="CS_IGFAE_miniscreen_13_paragraph_2">Rayos cósmicos de ultra-alta energía y neutrinos</string>
+
+    <string name="CS_IGFAE_miniscreen_14_title_0">Física nuclear para mejora de la salud</string>
     <string name="CS_IGFAE_miniscreen_14_paragraph_0">El estudio de la estructura de los núcleos atómicos es fundamental para comprender las interacciones y reacciones que ocurren en su interior. La investigación en este campo permite no solo explicar el origen de los elementos de la tabla periódica, sino también avanzar en áreas como la energía atómica y el desarrollo de nuevas técnicas médicas que mejoran la atención sanitaria.</string>
     <string name="CS_IGFAE_miniscreen_14_texto_buscado_0">el origen de los elementos de la tabla periódica</string>
     <string name="CS_IGFAE_miniscreen_14_paragraph_1">El Instituto trabaja en varios programas dentro de esta temática y entre ellos destacan los siguientes:</string>
     <string name="CS_IGFAE_miniscreen_14_texto_buscado_1">programas dentro de esta temática</string>
-    <string name="CS_IGFAE_miniscreen_15_title_0">EXPLOITATION OF THE LASER LABORATORY OF ACCELERATION AND APPLICATIONS (L2A2) AT USC (Aceleración láser y medicina nuclear)</string>
+
+    <string name="CS_IGFAE_miniscreen_15_title_0">Aceleración láser y medicina nuclear</string>
     <string name="CS_IGFAE_miniscreen_15_paragraph_0">La aceleración láser-plasma es una técnica que permite acelerar partículas mediante pulsos láser muy potentes y, de esta manera, poder obtener imágenes más precisas para realizar diagnósticos en el ámbito médico.</string>
     <string name="CS_IGFAE_miniscreen_15_texto_buscado_0">permite acelerar partículas mediante pulsos láser muy potentes</string>
     <string name="CS_IGFAE_miniscreen_15_paragraph_1">Mediante la construcción del Laboratorio Láser de Aceleración de Aplicaciones (L2A2) en Santiago de Compostela, el equipo del Instituto se centra en investigar las posibles aplicaciones médicas de esta técnica. Actualmente, se centran en dos líneas de investigación principales. Por un lado, la producción de radioisótopos mediante láser para su uso en tomografía por emisión de positrones y, por otro, el desarrollo de nuevas fuentes de rayos X generadas por láser y su aplicación en los diagnósticos por imagen. Estas líneas de investigación, además, se relacionan profundamente con otras disciplinas como la radiobiología y otras áreas de la salud, de manera que se hace indispensable la colaboración entre todas.</string>
     <string name="CS_IGFAE_miniscreen_15_texto_buscado_1">construcción del Laboratorio Láser de Aceleración de Aplicaciones (L2A2) en Santiago de Compostela</string>
     <string name="CS_IGFAE_miniscreen_15_texto_buscado_2">producción de radioisótopos</string>
-    <string name="CS_IGFAE_miniscreen_16_title_0">THE STRUCTURE OF THE NUCLEAR MANY-BODY SYSTEMS AND ITS ASTROPHYSICAL AND COSMOLOGICAL IMPLICATIONS (Sistemas nucleares multicuerpos)</string>
+    <string name="CS_IGFAE_miniscreen_15_paragraph_2">Aceleración láser y medicina nuclear</string>
+
+    <string name="CS_IGFAE_miniscreen_16_title_0">Sistemas nucleares multicuerpos</string>
     <string name="CS_IGFAE_miniscreen_16_paragraph_0">Este campo trata de estudiar núcleos atómicos exóticos e inestables, que no se encuentran fácilmente en la naturaleza, para analizar sus propiedades e intentar comprender la formación de los elementos en el universo. Para ello se provocan reacciones nucleares específicas para generar estos núcleos durante breves instantes de tiempo.</string>
     <string name="CS_IGFAE_miniscreen_16_texto_buscado_0">núcleos atómicos exóticos e inestables</string>
     <string name="CS_IGFAE_miniscreen_16_paragraph_1">El IGFAE participa en instalaciones internacionales como FAIR en Alemania y GANIL en Francia, donde el equipo acumula más de 20 años de experiencia, y más recientemente, en el FRIB en Estados Unidos. En este campo, el Instituto destaca por su contribución en el diseño y construcción de detectores y por la calidad en el análisis de datos experimentales.</string>
     <string name="CS_IGFAE_miniscreen_16_texto_buscado_1">como FAIR en Alemania y GANIL en Francia</string>
+    <string name="CS_IGFAE_miniscreen_16_paragraph_2">Sistemas nucleares multicuerpos</string>
+
     <string name="CS_IGFAE_miniscreen_17_paragraph_0">La investigación del IGFAE no solo busca comprender mejor el universo, sino también mejorar la vida cotidiana. Desde Santiago de Compostela, sus avances se traducen en nuevas tecnologías médicas, colaboración con hospitales, formación de talento y participación en importantes experimentos científicos, conectando Galicia con los retos globales de la ciencia.</string>
     <string name="CS_IGFAE_miniscreen_17_texto_buscado_0">tecnologías médicas, colaboración con hospitales, formación de talento y participación en importantes experimentos científicos</string>
-    <string name="CS_IGFAE_miniscreen_17_paragraph_1">Su impacto se hace notar localmente en áreas muy diversas. En el ámbito sanitario, el IGFAE lidera investigaciones punteras como el uso de protones para radioterapia \"flash\", una técnica prometedora contra el cáncer que podría reducir los daños a los tejidos sanos. Esta línea se desarrolla en colaboración con hospitales gallegos y centros como el Centro de Láseres Pulsados de Salamanca. Además, en el laboratorio L2A2, se exploran nuevas formas de producir radioisótopos como el carbono-11, fundamentales para técnicas de diagnóstico como la tomografía PET, lo que podría permitir una producción local más accesible.</string>
-    <string name="CS_IGFAE_miniscreen_17_texto_buscado_1">uso de protones para radioterapia \"flash\"</string>
+    <string name="CS_IGFAE_miniscreen_17_paragraph_1">Su impacto se hace notar localmente en áreas muy diversas. En el ámbito sanitario, el IGFAE lidera investigaciones punteras como el uso de protones para radioterapia flash, una técnica prometedora contra el cáncer que podría reducir los daños a los tejidos sanos. Esta línea se desarrolla en colaboración con hospitales gallegos y centros como el Centro de Láseres Pulsados de Salamanca. Además, en el laboratorio L2A2, se exploran nuevas formas de producir radioisótopos como el carbono-11, fundamentales para técnicas de diagnóstico como la tomografía PET, lo que podría permitir una producción local más accesible.</string>
+    <string name="CS_IGFAE_miniscreen_17_texto_buscado_1">uso de protones para radioterapia flash</string>
+
     <string name="CS_IGFAE_miniscreen_18_paragraph_0">La transferencia también llega al ámbito empresarial con spin-offs como Neutron Insights, una empresa derivada del IGFAE especialistas en radiografía y tomografía industrial por emisión de neutrones para ensayos no destructivos. La tecnología no destructiva, está especialmente indicada para materiales densos como metales y tiene mucha más penetración que los rayos x. Esta tecnología es interesante en sectores como la construcción civil, la industria del metal, la fabricación aditiva, la seguridad y defensa o la aeronáutica y aeroespacial.</string>
     <string name="CS_IGFAE_miniscreen_18_texto_buscado_0">spin-offs como Neutron Insights</string>
     <string name="CS_IGFAE_miniscreen_18_paragraph_1">En el año 2017, el IGFAE logró por primera vez la acreditación como Unidad de Excelencia María de Maeztu, ingresando en la alianza de centros Severo Ochoa e María de Maeztu (SOMMa). Se convirtió así, en el primer centro científico de Galicia en lograr esta distinción, otorgada por la Agencia Estatal de Investigación. En 2024, el IGFAE logró de nuevo la acreditación María de Maeztu.</string>
     <string name="CS_IGFAE_miniscreen_18_texto_buscado_1">Unidad de Excelencia María de Maeztu</string>
     <string name="CS_IGFAE_miniscreen_18_texto_buscado_2">Severo Ochoa e María de Maeztu (SOMMa)</string>
+
     <string name="CS_IGFAE_miniscreen_19_paragraph_0">El Instituto está integrado además en redes científicas como el consorcio CIGUS y a esto se suma una firme apuesta por la divulgación y la educación científica. El IGFAE organiza charlas, talleres y visitas guiadas para todos los públicos, promueve becas de iniciación a la investigación, colabora en proyectos educativos como Polos Creativos y premia el talento joven con iniciativas como el concurso internacional de vídeos científicos IGFAE C³. También abre sus puertas en eventos como el Día de la Mujer y la Niña en la Ciencia o jornadas en el laboratorio L2A2.</string>
     <string name="CS_IGFAE_miniscreen_19_texto_buscado_0">consorcio CIGUS</string>
     <string name="CS_IGFAE_miniscreen_19_texto_buscado_1">Polos Creativos</string>
+
     <string name="CS_IGFAE_miniscreen_20_paragraph_0">A nivel global, el IGFAE participa en algunas de las colaboraciones científicas más ambiciosas del mundo, LHCb do CERN, que contribuye a comprender por qué nuestro universo parece estar compuesto casi en su totalidad de materia y no de antimateria; el observatorio LIGO, responsable de la detección de ondas gravitacionales; DUNE en Estados Unidos, para mejorar el conocimiento de los neutrinos; Hyper-Kamiokande en Japón, diseñado para buscar desintegración de protones y detectar neutrinos procedentes de fuentes naturales como la Tierra, la atmósfera, el Sol y el cosmos; o el Observatorio Pierre Auger en Argentina para la detección y análisis de rayos cósmicos de la más elevadas energías. Esto supone una aportación directa de conocimiento gallego en física de partículas y astrofísica.</string>
     <string name="CS_IGFAE_miniscreen_20_texto_buscado_0">LHCb del CERN</string>
     <string name="CS_IGFAE_miniscreen_20_texto_buscado_4">Observatorio Pierre Auger</string>
+
     <string name="CS_IGFAE_miniscreen_21_paragraph_0">Pero además, el IGFAE sitúa a Galicia en el mapa de la atracción, formación y retención de personal científico de excelencia a través de programas como el Programa Global Talent, en el que el IGFAE se convierte en un polo de atracción de personal de excelencia, procedente de cualquier parte del mundo, para desarrollar sus proyectos de investigación. O el programa IGNITE, que pretende estimular ideas innovadoras y la colaboración interdisciplinar entre los diferentes programas de investigación del IGFAE, financiando proyectos propuestos por sus miembros, pudiendo incluir también colaboradores externos, y con un claro enfoque en la transferencia de tecnología y el balance de género.</string>
     <string name="CS_IGFAE_miniscreen_21_texto_buscado_0">Programa Global Talent</string>
     <string name="CS_IGFAE_miniscreen_21_texto_buscado_1">programa IGNITE</string>
+
     <string name="CS_IGFAE_miniscreen_22_title_0">EMBAJADORES DEL TALENTO</string>
+
     <string name="CS_IGFAE_miniscreen_23_title_0">EQUIPO DIRECTIVO</string>
     <string name="CS_IGFAE_miniscreen_23_title_1">PERSONAL INVESTIGADOR</string>
+
+    <string name="CS_IGFAE_miniscreen_24_title_0">CARLOS ALBERTO SALGADO LÓPEZ</string>
+    <string name="CS_IGFAE_miniscreen_24_texto_buscado_0">CARLOS ALBERTO SALGADO LÓPEZ</string>
+    <string name="CS_IGFAE_miniscreen_24_title_1">Director Científico del IGFAE</string>
+    <string name="CS_IGFAE_miniscreen_24_texto_buscado_1">Director Científico del IGFAE</string>
+    <string name="CS_IGFAE_miniscreen_24_title_2">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+    <string name="CS_IGFAE_miniscreen_24_texto_buscado_2">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_0">Profesor de Física Teórica en la Universidad de Santiago de Compostela (USC) y Doctor por esta misma universidad con la tesis “Efectos nucleares en la producción de partículas pesadas” (1998). Dirigida por Dr. Carlos Pajares Vales.</string>
     <string name="CS_IGFAE_miniscreen_24_paragraph_1">Desde febrero de 2023, el director del Instituto es Carlos Alberto Salgado López, profesor de Física Teórica en la Universidad de Santiago de Compostela (USC). Desde julio de 2023 ejerce también como vicedirector del Centro Nacional de Física de Partículas, Astropartículas y Nuclear (CPAN).</string>
-    <string name="CS_IGFAE_miniscreen_24_paragraph_2">MÁS INFO: https://igfae.usc.es/igfae/persoa/salgado-lopez-carlos-alberto/179/</string>
-    <string name="CS_IGFAE_miniscreen_25_paragraph_1">Investigadora Ramón y Cajal en el IGFAE / USC y coordinadora adjunta de física en la colaboración LHCb, uno de los cuatro grandes experimentos del CERN. Se doctoró en Física por la USC y trabajó como investigadora postoctoral en la École Polytechnique Fédérale de Lausanne (Suíza) y en el CERN.</string>
-    <string name="CS_IGFAE_miniscreen_25_paragraph_2">MÁS INFO: https://igfae.usc.es/igfae/persoa/vieites-diaz-maria/201/</string>
-    <string name="CS_IGFAE_miniscreen_26_paragraph_1">Catedrático de Física Teórica de la USC. Su campo principal de investigación es el estudio de la interacción fuerte y la teoría cuántica de campos en condiciones de altas energías. Forma parte de comités internacionales para el estudio de futuras instalaciones científicas, como el Large Hadron-electron Collider do CERN.</string>
-    <string name="CS_IGFAE_miniscreen_26_paragraph_2">MÁS INFO: https://igfae.usc.es/igfae/persoa/armesto-perez-nestor/153/</string>
-    <string name="CS_IGFAE_miniscreen_27_paragraph_1">Profesor titular de Física Téorica en la USC. Es doctor en Física por la Universidad Nacional de La Plata (Argentina) y realizó estancias postdoctorales en Harvard (Estados Unidos) o en el Instituto Superior Técnico (Portugal). Está especializado en teoría de cuerdas y en el estudio de la gravedad cuántica, en la búsqueda de una teoría unificada de la relatividad y la mecánica cuántica, las dos grandes bases de la física. Realiza una intensa labor de divulgación, lo que lo convirtió en uno de los físicos más conocidos del mundo hispanohablante.</string>
-    <string name="CS_IGFAE_miniscreen_27_paragraph_2">MÁS INFO: https://igfae.usc.es/igfae/persoa/edelstein-glaubach-jose-daniel/141/</string>
-    <string name="CS_IGFAE_miniscreen_28_paragraph_1">Profesora titular y vicedecana de la Facultad de Física de la USC, y científica experimental en el ámbito de la física nuclear. Es doctora por la Universidad de Caen (Francia) y también trabajó como investigadora en la Universidad de Liverpool (Reino Unido), GANIL (Francia) y diversos proyectos y experimentos en los Estados Unidos (FRIB) y TRIUMF (Canadá).</string>
-    <string name="CS_IGFAE_miniscreen_28_paragraph_2">MÁS INFO: https://igfae.usc.es/igfae/persoa/fernandez-dominguez-beatriz/122/</string>
-    <string name="CS_IGFAE_miniscreen_29_paragraph_0">Si te interesa ampliar tus conocimientos sobre el IGFAE puedes acceder a más información haciendo clic en el siguiente enlace:</string>
-    <string name="CS_IGFAE_miniscreen_29_texto_buscado_0">ampliar tus conocimientos</string>
-    <string name="CS_IGFAE_miniscreen_29_title_0">https://igfae.usc.es/igfae/</string>
-></resources>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_2">Su campo de investigación es el estudio de la Cromodinámica Cuántica (QCD) en condiciones de altas densidades o temperaturas, así como las distribuciones partónicas nucleares. La mayor parte de su trabajo reciente trata de entender la coherencia cuántica de color dentro de los jets de QCD, que son chorros de partículas de altas energías originados por radiación de quarks y gluones, y cómo usar esta información para determinar los procesos más rápidos de termalización que observamos en la naturaleza. Por ejemplo, en colisiones nucleares en el LHC, un proceso termal se produce en unos pocos yoctosegundos, menos de lo que la luz tarda en atravesar un protón.</string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_3">Salgado ha recibido dos proyectos del European Research Council: “Hot and dense QCD in the LHC era” (Starting Grant – Consolidator steam 2012-2017) y “Yoctosecond imaging of QCD collectivity using jet observables” (Advanced Grant 2019-2025).</string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_4">MÁS INFO: </string>
+    <string name="CS_IGFAE_miniscreen_24_paragraph_5">https://igfae.usc.es/igfae/persoa/salgado-lopez-carlos-alberto/179/</string>
+
+    <string name="CS_IGFAE_miniscreen_25_title_0">María Vieites Díaz</string>
+    <string name="CS_IGFAE_miniscreen_25_texto_buscado_0">María Vieites Díaz</string>
+    <string name="CS_IGFAE_miniscreen_25_title_1">Investigadora Ramón y Cajal del IGFAE</string>
+    <string name="CS_IGFAE_miniscreen_25_texto_buscado_1">Investigadora Ramón y Cajal del IGFAE</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_0">Licenciada en Física en la USC donde se doctoró en 2019. Está especializada en el estudio de las diferencias de comportamiento entre la materia y la antimateria mediante el análisis de amplitudes en decaimientos de mesones B en el experimento LHCb del CERN. Tras su doctorado, se incorporó a la École Polytechnique Fédérale de Lausanne (EPFL), en Suiza, como investigadora postdoctoral en el grupo local de la colaboración LHCb, contribuyendo al análisis de las desintegraciones radiactivas de mesones B.</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_1">Actualmente, es investigadora Ramón y Cajal en el IGFAE y coordinadora adjunta de física en la colaboración LHCb, uno de los cuatro experimentos principales del CERN.</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_2">MÁS INFO:</string>
+    <string name="CS_IGFAE_miniscreen_25_paragraph_3">https://igfae.usc.es/igfae/persoa/vieites-diaz-maria/201/</string>
+
+    <string name="CS_IGFAE_miniscreen_26_title_0">Néstor Armesto Pérez</string>
+    <string name="CS_IGFAE_miniscreen_26_texto_buscado_0">Néstor Armesto Pérez</string>
+    <string name="CS_IGFAE_miniscreen_26_title_1">Catedrático de Física Teórica en la USC</string>
+    <string name="CS_IGFAE_miniscreen_26_texto_buscado_1">Catedrático de Física Teórica en la USC</string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_0">Licenciado en Física en la Universidad Autónoma de Madrid (1991) y Doctor por la Universidade de Santiago de Compostela con la tesis Interacciones entre cuerdas en modelos de producción múltiple 1995. Dirigida por Dr. Carlos Pajares Vales. </string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_1">Realizó estancias postdoctorales en LPT Orsay y la Universidad de Hamburgo, para convertirse posteriormente en profesor asociado de Física en la Universidad de Córdoba entre 1998 y 2002. Posteriormente, fue investigador en el CERN para regresar al IGFAE de la USC en 2005 con un contrato Ramón y Cajal. </string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_2">En el año 2010 se convierte en profesor asociado de la USC y en catedrático en 2020. </string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_3">Su principal interés investigador es el comportamiento de la interacción fuerte y de la teoría cuántica de campos que la describe, QCD, a grandes energías y densidades de partones. En concreto, trabaja en la descripción de las funciones de onda hadrónicas y nucleares y de los primeros instantes de una colisión hadrónica, en el marco de la teoría del campo efectivo del condensado de vidrio coloreado. Estos aspectos se estudian actualmente en colisiones entre protones y núcleos en el Gran Colisionador de Hadrones del CERN, y en el futuro en colisionadores electrón-ion: el Colisionador Electron-Ion del BNL (EE. UU.) y el propuesto Gran Colisionador Hadrón-electrón del CERN.</string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_4">También trabaja en la caracterización de la materia creada en dichas colisiones mediante sondas perturbativas: extinción de chorros y supresión de quarkonium. Además, le interesa la física de rayos cósmicos de alta energía, el comportamiento de sistemas cuánticos abiertos y los problemas de termalización y emergencia en QCD. Forma parte de comités internacionales para el estudio de futuras instalaciones científicas, como el Gran Colisionador de Hadrones y Electrones del CERN</string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_5">MÁS INFO: </string>
+    <string name="CS_IGFAE_miniscreen_26_paragraph_6">https://igfae.usc.es/igfae/persoa/armesto-perez-nestor/153/ </string>
+
+    <string name="CS_IGFAE_miniscreen_27_title_0">Jose Edelstein</string>
+    <string name="CS_IGFAE_miniscreen_27_texto_buscado_0">Jose Edelstein</string>
+    <string name="CS_IGFAE_miniscreen_27_title_1">Catedrático de Física Teórica en la USC</string>
+    <string name="CS_IGFAE_miniscreen_27_texto_buscado_1">Catedrático de Física Teórica en la USC</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_0">Es doctor en Física por la Universidad Nacional de La Plata (Argentina) y ha realizado estancias postdoctorales en Harvard (Estados Unidos) en el CONICET (Argentina), la CECs y en el Instituto Superior Técnico (Portugal). Se especializa en teoría de cuerdas y en el estudio de la gravedad cuántica, en la búsqueda de una teoría unificada de la relatividad y la mecánica cuántica, los dos grandes fundamentos de la física.</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_1">Realiza una intensa labor divulgativa, lo que lo ha convertido en uno de los físicos más reconocidos del mundo hispanohablante con premios como los Premios de Divulgación Científica del Centro Español de Física de Partículas, Astropartículas y Nuclear, el Premio de Comunicación Científica de la Fundación Española para la Ciencia y la Tecnología (2012) y diversas menciones de honor en el Concurso Internacional Ciencia en Acción.</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_2">MÁS INFO:</string>
+    <string name="CS_IGFAE_miniscreen_27_paragraph_3">https://igfae.usc.es/igfae/persoa/edelstein-glaubach-jose-daniel/141/ </string>
+
+    <string name="CS_IGFAE_miniscreen_28_title_0">Beatriz Fernández Domínguez</string>
+    <string name="CS_IGFAE_miniscreen_28_texto_buscado_0">Beatriz Fernández Domínguez</string>
+    <string name="CS_IGFAE_miniscreen_28_title_1">Catedrática y vicedecana de la Facultad de Física de la USC</string>
+    <string name="CS_IGFAE_miniscreen_28_texto_buscado_1">Catedrática y vicedecana de la Facultad de Física de la USC</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_0">Científica experimental en el campo de la física nuclear. Doctora por la Universidad de Caen (Francia) en 2003 trabajando en el SphN-CEA Saclay en el estudio de las secciones eficaces de los fragmentos de fisión producidos en la reacción de espalación de 208Pb a 500 AMeV. En 2004 se traslada a la Universidad de Liverpool (Reino Unido) para trabajar en la estructura de los núcleos exóticos. En 2009 obtiene un contrato postdoctoral en la CEA, en GANIL (Francia) y está involucrada en diversos proyectos y experimentos en Estados Unidos (FRIB) y TRIUMF (Canadá). En 2011 regresa a España con un contrato Ramón y Cajal.</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_1">Su actividad investigadora se centra en el estudio de sistemas no ligados con objetivos activos, también llamados sistemas cuánticos abiertos.</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_2">Es miembro de la colaboración europea ACTAR TPC, financiada por el ERC, y forma parte de su Comité Asesor. En el marco de esta colaboración, lidera un programa innovador para estudiar la estructura de núcleos exóticos, hasta ahora no observados. Es portavoz de varios experimentos que se llevarán a cabo en instalaciones internacionales como GANIL, RCNP, TRIUMF y FRIB.</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_3">Desde 2018, es vicedecana de la Facultad de Física y responsable de los programas Erasmus y SICUE.</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_4">MÁS INFO:</string>
+    <string name="CS_IGFAE_miniscreen_28_paragraph_5">https://igfae.usc.es/igfae/persoa/fernandez-dominguez-beatriz/122/</string>
+
+    <string name="CS_IGFAE_miniscreen_29_paragraph_0">ampliar tus conocimientos</string>
+    <string name="CS_IGFAE_miniscreen_29_paragraph_1" translatable="false">https://igfae.usc.es/igfae/</string>
+
+</resources>

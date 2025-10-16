@@ -70,6 +70,7 @@
     <string name="II_IARCUS_miniscreen_8_paragraph_12">SISMOL: Sistemática Molecular</string>
     <string name="II_IARCUS_miniscreen_8_texto_buscado_5">SISMOL: Sistemática Molecular</string>
     <string name="II_IARCUS_miniscreen_8_paragraph_13">Estúdase a identificación de especies por técnicas de ADN mitocondrial, os cultivos mariños alternativos, o estrés, inmunidade e a súa regulación e expresión xénica.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_14">Auga e saúde animal</string>
     <!-- PANTALLA 10 -->
     <string name="II_IARCUS_miniscreen_9_title_0">AUGA E SAÚDE AMBIENTAL (eixo 2)</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_0">Aborda os efectos da contaminación química no medio acuático e o seu impacto na saúde animal e humana. Promove a análise e control de contaminantes para protexer os ecosistemas e a saúde.</string>
@@ -80,6 +81,7 @@
     <string name="II_IARCUS_miniscreen_9_paragraph_4">Química Analítica-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_texto_buscado_1">Química Analítica-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_5">Estúdanse métodos avanzados para analizar produtos agroalimentarios e viños de Galicia, enfocándose no perfil polifenólicos e o seu efecto na saúde. Tamén se desenvolven técnicas para detectar metais, medicamentos e toxinas en alimentos e mostras mariñas, mellorando o control ambiental e a calidade alimentaria.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_6">Auga e saúde ambiental</string>
     <!-- PANTALLA 11 -->
     <string name="II_IARCUS_miniscreen_10_title_0">AUGA E SAÚDE HUMANA (eixo 3)</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_0">Estúdanse métodos avanzados para analizar produtos agroalimentarios e viños de Galicia, enfocándose no perfil polifenólicos e o seu efecto na saúde. Tamén se desenvolven técnicas para detectar metais, medicamentos e toxinas en alimentos e mostras mariñas, mellorando o control ambiental e a calidade alimentaria.</string>
@@ -87,12 +89,14 @@
     <string name="II_IARCUS_miniscreen_10_paragraph_2">LREC: Laboratorio de referencia de Escherichía colí</string>
     <string name="II_IARCUS_miniscreen_10_texto_buscado_0">LREC: Laboratorio de referencia de Escherichía colí</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_3">O laboratorio especialízase na detección e tipado molecular de distintas cepas patóxenas de E. coli en alimentos e mostras clínicas, incluíndo serotipos verotoxixénicos e extraintestinais. Estudan a patoxénese, epidemioloxía e resistencia xenética, desenvolvendo métodos analíticos avanzados e vacinas para a colibacilose.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_4">Agua e saúde humanas</string>
     <!-- PANTALLA 12 -->
     <string name="II_IARCUS_miniscreen_11_title_0">EDUCACIÓN EN RESILIENCIA E SUSTENTABILIDADE (eixo transversal)</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_0">Promove a formación de persoas e comunidades capaces de adaptarse aos cambios ambientais e sociais, fomentando prácticas sustentables e responsables coa contorna.</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_1">SEPA-Interea: Pedagoxía Social e Educación Ambiental</string>
     <string name="II_IARCUS_miniscreen_11_texto_buscado_0">SEPA-Interea: Pedagoxía Social e Educación Ambiental</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_2">Estúdanse a Educación Ambiental, Social e comunitaria, así como as políticas culturais na Administración Local. Ademais, analízase o sistema educativo en Galicia, e as percepcións sociais sobre a educación ambiental.</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_3">Educación en resiliencia e sustentabilidade</string>
     <!-- PANTALLA 13 -->
     <string name="II_IARCUS_miniscreen_12_paragraph_0">O iARCUS oferta cursos e pílulas de formación orientados a profesionais de empresas, autónomos e técnicos de Administración. A súa misión é a de transmitir á sociedade todo o coñecemento adquirido ao longo da experiencia investigadora.</string>
     <string name="II_IARCUS_miniscreen_12_texto_buscado_0">transmitir á sociedade todo o coñecemento adquirido</string>

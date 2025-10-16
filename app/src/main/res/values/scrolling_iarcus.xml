@@ -70,6 +70,7 @@
     <string name="II_IARCUS_miniscreen_8_paragraph_12">SISMOL: Molecular Systematics</string>
     <string name="II_IARCUS_miniscreen_8_texto_buscado_5">SISMOL: Molecular Systematics</string>
     <string name="II_IARCUS_miniscreen_8_paragraph_13">Species identification by mitochondrial DNA techniques, alternative marine cultures, stress, immunity and its regulation and gene expression are studied.</string>
+    <string name="II_IARCUS_miniscreen_8_paragraph_14">Water and animal health</string>
     <!-- PANTALLA 9 -->
     <string name="II_IARCUS_miniscreen_9_title_0">WATER AND ENVIRONMENTAL (axis 2)</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_0">Addresses the effects of chemical pollution in the aquatic environment and its impact on animal and human health. It promotes the analysis and control of pollutants to protect ecosystems and health.</string>
@@ -80,6 +81,7 @@
     <string name="II_IARCUS_miniscreen_9_paragraph_4">Analytical Chemistry-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_texto_buscado_1">Analytical Chemistry-Lugo</string>
     <string name="II_IARCUS_miniscreen_9_paragraph_5">Advanced methods are studied to analyse agri-food products and wines from Galicia, focusing on the polyphenolic profile and its effect on health. Techniques are also being developed to detect metals, drugs and toxins in food and marine samples, improving environmental control and food quality.</string>
+    <string name="II_IARCUS_miniscreen_9_paragraph_6">Water and environmental health</string>
     <!-- PANTALLA 10 -->
     <string name="II_IARCUS_miniscreen_10_title_0">WATER AND HUMAN HEALTH (axis 3)</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_0">Analyses how water pollution affects our health, the use of animals to understand diseases, the transmission of diseases between animals and humans (zoonoses), and the impact of certain natural or chemical substances on the human body.</string>
@@ -87,12 +89,14 @@
     <string name="II_IARCUS_miniscreen_10_paragraph_2">LREC: Escherichia coli reference laboratory</string>
     <string name="II_IARCUS_miniscreen_10_texto_buscado_0">LREC: Escherichia coli reference laboratory</string>
     <string name="II_IARCUS_miniscreen_10_paragraph_3">The laboratory specialises in the detection and molecular typing of different pathogenic strains of E. coli in food and clinical samples, including verotoxigenic and extraintestinal serotypes. They study pathogenesis, epidemiology and genetic resistance, developing advanced analytical methods and vaccines for colibacillosis.</string>
+    <string name="II_IARCUS_miniscreen_10_paragraph_4">Water and human health</string>
     <!-- PANTALLA 11 -->
     <string name="II_IARCUS_miniscreen_11_title_0">EDUCATION IN RESILIENCE AND SUSTAINABILITY (transversal axis)</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_0">Promotes the formation of people and communities capable of adapting to environmental and social changes, promoting sustainable and responsible practices with the environment.</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_1">SEPA-Interdisciplinary: Social Pedagogy and Environmental Education</string>
     <string name="II_IARCUS_miniscreen_11_texto_buscado_0">SEPA-Interdisciplinary: Social Pedagogy and Environmental Education</string>
     <string name="II_IARCUS_miniscreen_11_paragraph_2">Environmental, social and community education is studied, as well as cultural policies in local government. In addition, the educational system in Galicia is analysed, as well as social perceptions on environmental education.</string>
+    <string name="II_IARCUS_miniscreen_11_paragraph_3">Education in resilience and sustainability</string>
     <!-- PANTALLA 12 -->
     <string name="II_IARCUS_miniscreen_12_paragraph_0">The iARCUS offers courses and training pills aimed at business professionals, freelancers and government technicians. Its mission is to transmit to society all the knowledge acquired throughout the research experience.</string>
     <string name="II_IARCUS_miniscreen_12_texto_buscado_0">transmit to society all the knowledge acquired</string>

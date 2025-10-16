@@ -175,6 +175,8 @@ val valorFiguraIpsius6 = NavegationFiguresData(
 val ifcIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isabel Fraga Carou",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_20_title_0,
         R.string.II_IPSIUS_miniscreen_20_texto_buscado_0,
@@ -189,6 +191,8 @@ val ifcIpsius = PersonResearcher(
 val srhIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Socorro Rodríguez Holguín",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_21_title_0,
         R.string.II_IPSIUS_miniscreen_21_texto_buscado_0,
@@ -203,6 +207,8 @@ val srhIpsius = PersonResearcher(
 val cmvIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carmela Martínez Vispo",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_22_title_0,
         R.string.II_IPSIUS_miniscreen_22_texto_buscado_0,
@@ -215,6 +221,8 @@ val cmvIpsius = PersonResearcher(
 val ebiIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Elisardo Becoña Iglesias",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_23_title_0,
         R.string.II_IPSIUS_miniscreen_23_texto_buscado_0,
@@ -227,6 +235,8 @@ val ebiIpsius = PersonResearcher(
 val fciIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Francisco Caamaño Isorna",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_24_title_0,
         R.string.II_IPSIUS_miniscreen_24_texto_buscado_0,
@@ -239,6 +249,8 @@ val fciIpsius = PersonResearcher(
 val nmnIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Narmeen Mallah Nasrallah",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_25_title_0,
         R.string.II_IPSIUS_miniscreen_25_texto_buscado_0,
@@ -251,6 +263,8 @@ val nmnIpsius = PersonResearcher(
 val fcmIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Fernando Cadaveira Mahía",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_26_title_0,
         R.string.II_IPSIUS_miniscreen_26_texto_buscado_0,
@@ -263,6 +277,8 @@ val fcmIpsius = PersonResearcher(
 val ertIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Estrella Romero Triñanes",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_27_title_0,
         R.string.II_IPSIUS_miniscreen_27_texto_buscado_0,
@@ -275,6 +291,8 @@ val ertIpsius = PersonResearcher(
 val llrIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Laura López-Romero",
+    title = null,
+    role = null,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_28_title_0,
         R.string.II_IPSIUS_miniscreen_28_texto_buscado_0,
