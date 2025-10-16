@@ -10,7 +10,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.LineVerticalComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
+
 
 @Composable
 fun Imatus3ImagesWithLine(data: MiniScreenData, modifier: Modifier = Modifier) {

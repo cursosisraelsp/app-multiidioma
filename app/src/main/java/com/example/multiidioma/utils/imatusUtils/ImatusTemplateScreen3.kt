@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.LineVerticalComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BackWithArrowButtonCircleTemplate
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil

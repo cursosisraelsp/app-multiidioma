@@ -27,27 +27,11 @@ import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ip
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen15.IpsiusMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen16.IpsiusMiniScreen16
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen17.IpsiusMiniScreen17
-
-
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen18.IpsiusMiniScreen18
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen19.IpsiusMiniScreen19
-
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen2.IpsiusMiniScreen2
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen20i.IpsiusMiniScreen20
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen21i.IpsiusMiniScreen21
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen22i.IpsiusMiniScreen22
-
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen23i.IpsiusMiniScreen23
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen24i.IpsiusMiniScreen24
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen25i.IpsiusMiniScreen25
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen26i.IpsiusMiniScreen26
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen27i.IpsiusMiniScreen27
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen28i.IpsiusMiniScreen28
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen29.IpsiusMiniScreen29
-
-
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen3.IpsiusMiniScreen3
-import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen30.IpsiusMiniScreen30
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen4.IpsiusMiniScreen4
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen5.IpsiusMiniScreen5
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen6.IpsiusMiniScreen6
@@ -56,7 +40,7 @@ import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ip
 import com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen9a.IpsiusMiniScreen9
 
 @Composable
-fun IpsiusScreen(listState: LazyListState,navController: NavController) {
+fun IpsiusScreen(listState: LazyListState, navController: NavController) {
     val viewModel: IpsiusViewModel = viewModel()
     val uiState by viewModel.uiState.collectAsState()
 
@@ -128,6 +112,7 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         7 -> IpsiusMiniScreen7(
                             data,
                             navController,
@@ -143,6 +128,7 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         9 -> IpsiusMiniScreen9(
                             data,
                             navController,
@@ -158,6 +144,7 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         11 -> IpsiusMiniScreen11(
                             data,
                             navController,
@@ -173,6 +160,7 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         13 -> IpsiusMiniScreen13(
                             data,
                             navController,
@@ -180,12 +168,14 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         14 -> IpsiusMiniScreen14(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         15 -> IpsiusMiniScreen15(
                             data,
 
@@ -193,105 +183,36 @@ fun IpsiusScreen(listState: LazyListState,navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         16 -> IpsiusMiniScreen16(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         17 -> IpsiusMiniScreen17(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         18 -> IpsiusMiniScreen18(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         19 -> IpsiusMiniScreen19(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        20 -> IpsiusMiniScreen20(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        21 -> IpsiusMiniScreen21(
-                            data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        22 -> IpsiusMiniScreen22(
-                            data,
-
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        23 -> IpsiusMiniScreen23(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        24 -> IpsiusMiniScreen24(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        25 -> IpsiusMiniScreen25(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        26 -> IpsiusMiniScreen26(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        27 -> IpsiusMiniScreen27(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-
-                        28 -> IpsiusMiniScreen28(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
                         29 -> IpsiusMiniScreen29(
                             data,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        30 -> IpsiusMiniScreen30(
-                            data,
-                            navController,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()

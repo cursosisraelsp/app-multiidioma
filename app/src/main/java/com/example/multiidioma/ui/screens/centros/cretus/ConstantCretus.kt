@@ -1,31 +1,15 @@
 package com.example.multiidioma.ui.screens.centros.cretus_andre
 
+import android.content.res.Resources
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoDiminuto
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoGrande
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.CirculoMediano
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraDiminuta
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMediana
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LetraMicro
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightDiminuta
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightGrande
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightMediana
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.LineHeightMicro
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroDiminuto
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroGrande
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroMediano
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.NumeroMicro
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoDiminuto
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoGrande
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoMediano
-import com.example.multiidioma.ui.screens.institutes.ipsius_andre.anchoTextoMicro
 
-/*
+
 val des = Resources.getSystem().displayMetrics
 val numLetra = (80 / des.density).sp
 val numLetra2 = ((40 / des.density)).sp
@@ -84,7 +68,7 @@ val anchoTextoMediano = CirculoMediano * porcentajeAnchoTextoMediano
 val anchoTextoPequeno = CirculoPequeno * porcentajeAnchoTextoPequeno
 val anchoTextoDiminuto = CirculoDiminuto * porcentajeAnchoTextoDiminuto
 val anchoTextoMicro = CirculoMicro * porcentajeAnchoTextoMicro
-*/
+
 
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////

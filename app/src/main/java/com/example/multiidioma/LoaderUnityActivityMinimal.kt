@@ -1,4 +1,4 @@
-package com.example.multiidioma
+/*package com.example.multiidioma
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.widget.FrameLayout
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.unity3d.player.UnityPlayerGameActivity
+/*import com.unity3d.player.UnityPlayerGameActivity*/
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -37,3 +37,4 @@ class LoaderUnityActivityMinimal : AppCompatActivity() {
         }
     }
 }
+*/

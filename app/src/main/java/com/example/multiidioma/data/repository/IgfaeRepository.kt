@@ -255,7 +255,7 @@ class IgfaeRepository {
                 id = 29,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_29_paragraph_0,
-                    R.string.CS_IGFAE_miniscreen_29_title_0,
+                    R.string.CS_IGFAE_miniscreen_29_paragraph_1,
 
                 ),
                 imageRes = R.drawable.ipsius_img_21

@@ -2,7 +2,7 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.screens.institutes.imatus.datosInvestigadoresImatus
+
 import com.example.multiidioma.utils.GetPersonalResearcherUtils
 import com.example.multiidioma.utils.PersonsResearchersUtils
 
@@ -135,12 +135,14 @@ class ImatusRepository {
                     R.string.II_IMATUS_miniscreen_12_title_0,
                 ),
                 imageRes = R.drawable.imatus_img_19,
-                personalResearcher = GetPersonalResearcherUtils(
+                /*personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
                         datosInvestigadoresImatus
                     )
-                )
+                )*/
             ),
+
+
             MiniScreenData(
                 id = 14,
                 bodyParagraphs = listOf(

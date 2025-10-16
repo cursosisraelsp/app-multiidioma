@@ -9,12 +9,12 @@ fun GetPersonalResearcherUtils(personal :  MutableList<PersonalResearcher2>): Li
             id = investigador.id,
             foto = investigador.foto,
             name = investigador.name,
+            title = investigador.title,  // asigna el valor real si existe
+            role = investigador.role,
             info = investigador.info,
             ruta = investigador.ruta,
             contentType = investigador.contentType
         )
-
     }
     return lista1
-
 }

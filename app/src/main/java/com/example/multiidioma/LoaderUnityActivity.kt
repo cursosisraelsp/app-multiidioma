@@ -1,4 +1,4 @@
-package com.example.multiidioma
+/*package com.example.multiidioma
 
 import android.Manifest
 import android.content.Intent

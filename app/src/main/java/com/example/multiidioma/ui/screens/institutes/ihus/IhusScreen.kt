@@ -32,7 +32,6 @@ import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.I
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen8.IhusMiniScreen8
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen9.IhusMiniScreen9
 import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen12.IhusMiniScreen12
-import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14.IhusMiniScreen13
 import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14.IhusMiniScreen14
 
 @RequiresApi(Build.VERSION_CODES.P)
@@ -156,17 +155,6 @@ fun IhusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-
-                        13 -> IhusMiniScreen13(
-
-                        data,
-                        navController,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                            )
-
-
                         14 -> IhusMiniScreen14(
                             data,
                             Modifier

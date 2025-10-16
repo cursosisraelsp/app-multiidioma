@@ -14,7 +14,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.TextBodyMedium
+import com.example.multiidioma.utils.TextBodyMedium
+
 
 @Composable
 fun contentIhusMiniScreen6Box1(data: MiniScreenData) {
@@ -30,7 +31,7 @@ fun contentIhusMiniScreen6Box1(data: MiniScreenData) {
                 .weight(0.3f)
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            TextBodyMedium(data, estilosTextos)
+            TextBodyMedium(data)
         }
     }
 }
