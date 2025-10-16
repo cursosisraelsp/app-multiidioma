@@ -24,7 +24,8 @@
     <string name="MORE_INFO">MÁS INFO</string>
     <string name="Research_Staff">PERSONAL INVESTIGADOR</string>
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
-
+    <string name="Directora">Directora</string>
+    <string name="Secretaria">Secretaria</string>
 
 
 </resources>
