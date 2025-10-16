@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.detail
+ package com.example.multiidioma.ui.screens.detail
 
 import android.os.Build
 import androidx.annotation.RequiresApi
