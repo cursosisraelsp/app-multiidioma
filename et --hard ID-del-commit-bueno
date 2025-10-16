@@ -1,0 +1,80 @@
+[33mc0afaaf[m[33m ([m[1;36mHEAD -> [m[1;32mscrolling-ipsius[m[33m)[m ..
+[33m26077a7[m ...
+[33m7f8b002[m elimino gif
+[33m9248296[m quedan unas cosas que tengo apuntadas
+[33m9357741[m[33m ([m[1;31morigin/scrolling-ipsius[m[33m)[m ...
+[33mf686143[m ...
+[33m3a41351[m todo acabado, me queda una screen, investigadores y revisar bolas (imagenes tb)
+[33m1bac572[m quedan investigadores y centros, ando con los circulos
+[33m77e0a1e[m Quedan solo dos screens del IGFAE+invest+circulos
+[33mc86856f[m cambios en el igfae e implementacion de los investigadores(aun no puestos)
+[33mfb3781f[m solo me quedan los circulos y los investigadores
+[33m54baea8[m problemas con todos los centros, circulos e investigadores
+[33m5a3219b[m ...
+[33mfb674ae[m ...
+[33m9660815[m ...
+[33m4db02f1[m[33m ([m[1;32mall[m[33m)[m ...
+[33m022671f[m ...
+[33m58b8b7a[m ...
+[33me73572f[m centros añadidos, problemas resueltos y empezando strings
+[33m1c9497e[m centros añadidos
+[33m3259bbe[m añadí centros e importé cosas, queda arreglar errores
+[33m6726c1d[m el inicio del inicio
+[33m2706a90[m inicio andré
+[33m6d1db9b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m ...
+[33m4ec5baf[m[33m ([m[1;31morigin/feature/mapa-integration[m[33m)[m co-mapa-ok
+[33m0d61f24[m ...
+[33m071da4f[m co mapa ok
+[33m48eb5da[m cos svg de posición
+[33m159a89e[m Iconos azuis e vermellos
+[33m69ba1e1[m con centros e institutos no mapa xuntos
+[33m1142915[m con centros e institutos no mapa xuntos
+[33m4b177c0[m Con mapa
+[33m80cabb0[m Falta cerralo mapa
+[33m9673e60[m ....
+[33mabe8d47[m engadindo as fontes de google
+[33m61fed59[m con videos e podcasta con viewmodel
+[33m1e54793[m con mapa ...pero con fallas
+[33mcfe43d4[m ...
+[33m203af4b[m preparando carrusel xenérico para Multimedia
+[33mcc06951[m Introducindo podcast
+[33m776f6b6[m cambiando unidades a float nas imaxesxeneradas
+[33mb621ae8[m Agrego minerva
+[33m28a6368[m Agrego titulos da páxina home
+[33mecd8c79[m cos menús e clicks dos menús dos centros
+[33maa4c933[m Co menú lateral indicado
+[33m68ca4d0[m Cos enlaces click en Centros e Institutos
+[33m1ff45e0[m creando los enlaces de institutus e centros
+[33m5d1a76c[m con carrusel en institutos
+[33m51d9810[m con menú
+[33m57f3622[m agrego botón atrás e a condición
+[33m701dd86[m agrego cores en top e boton co menú
+[33mae02df0[m Con menus e enlaces para home
+[33m453cc12[m preparando clicar
+[33m0c3e384[m Refactorizando a navegación e xenero arquivo
+[33mba3308a[m Preparando screen home
+[33m86b17d6[m tal vez millor a proporcion
+[33m9b59da8[m Engadindo en miniscreen2 separacións das datas e figuras
+[33m3754e27[m novas funcións
+[33m69635f2[m Función ConversiónStyle OK e YouTubeVideoPlayer OK
+[33m71749ca[m ConversiÃonStyle para más de un texto
+[33m772ff29[m Función estilo
+[33mf860254[m creo funcións para o scroll
+[33mfda3aa5[m creando rama animandoVisibilidadeMenus
+[33m61408f3[m quitando comentarios
+[33mc43a18f[m quitando a carpeta que sobraba
+[33m63a62b9[m adaptando nomes
+[33mdaa8be5[m agrego para os textos se vexan
+[33m4a4b0fa[m engadindo aspecto o vídeo e color branco o texto en MiniScreen0
+[33m5829df1[m preparando e modificando con video de youtube
+[33m275dd13[m ok
+[33m3a23aea[m ok
+[33mdbcc00d[m Preparando MVVM
+[33m28b0b9b[m ...
+[33m49dbea5[m creando miniscreens con repositorys
+[33m25e9ab8[m Actualizo
+[33me736844[m con dos box
+[33mcfadccc[m con dúas pantallas e cambio de idioma
+[33m0b6d1b6[m subo con imaxen inicial
+[33ma37d3d0[m Con dropdown
+[33m3350f61[m subo lo básico
