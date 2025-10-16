@@ -88,8 +88,8 @@ val valorFiguraCitius4 = NavegationFiguresData(
 val sbCitius = PersonResearcher(
     foto = R.drawable.citius_img_14,
     name = "SENÉN BARRO",
-    title = R.string.prueba_link,
-    role = R.string.role,
+    title = null,
+    role = null,
 
     info = listOf(
         R.string.CS_CITIUS_miniscreen_18_title_1,
@@ -101,6 +101,8 @@ val sbCitius = PersonResearcher(
 val plCitius = PersonResearcher(
     foto = R.drawable.citius_img_15,
     name = "PAULA LÓPEZ",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
@@ -108,12 +110,16 @@ val plCitius = PersonResearcher(
 val pgCitius = PersonResearcher(
     foto = R.drawable.citius_img_16,
     name = "PABLO GAMALLO",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val dgCitius = PersonResearcher(
     foto = R.drawable.citius_img_17,
     name = "DAVID GLOWACKI",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
@@ -121,24 +127,32 @@ val dgCitius = PersonResearcher(
 val mnCitius = PersonResearcher(
     foto = R.drawable.citius_img_18,
     name = "MARTA NÚÑEZ",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val mjcCitius = PersonResearcher(
     foto = R.drawable.citius_img_19,
     name = "MARIA JOSÉ CARREIRA",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val dlCitius = PersonResearcher(
     foto = R.drawable.citius_img_20,
     name = "DAVID LOSADA",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val nsCitius = PersonResearcher(
     foto = R.drawable.citius_img_21,
     name = "NATALIA SEOANE",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )

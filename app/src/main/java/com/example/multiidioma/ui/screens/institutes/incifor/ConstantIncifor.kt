@@ -88,8 +88,8 @@ val valorFiguraIncifor4 = NavegationFiguresData(
 val ambbIncifor =  PersonResearcher(
     foto = R.drawable.incifor_img_14,
     name = "Ana María Bermejo Barrera",
-    title = R.string.Directora,
-    role = null,
+    title = null,
+    role = R.string.Directora,
     info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
@@ -97,7 +97,7 @@ val issIncifor =  PersonResearcher(
     foto = R.drawable.incifor_img_15,
     name = "Inés Sánchez Sellero",
     title = null,
-    role = null,
+    role = R.string.Secretaria,
     info =  listOf(R.string.II_INCIFOR_miniscreen_29_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
@@ -160,7 +160,7 @@ val ggcIncifor =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val elbincIncifor =  PersonResearcher(
+val elbIncifor =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Elena Lendoiro Belío",
     title = null,
@@ -252,4 +252,4 @@ val ammIncifor =  PersonResearcher(
 )
 
 
-val datosInvestigadoresIncifor = listOf(ambbIncifor, issIncifor,mvlhIncifor,jimbIncifor,aclIncifor,favpsIncifor,sbbcIncifor,acrIncifor,ggcIncifor,elbincIncifor,msrcIncifor,msrcIncifor,aseIncifor,mjtdIncifor,mivaIncifor,iaflIncifor,pcflIncifor,mcpvIncifor,amfaIncifor,alrIncifor,ammIncifor)
+val datosInvestigadoresIncifor = listOf(ambbIncifor, issIncifor,mvlhIncifor,jimbIncifor,aclIncifor,favpsIncifor,sbbcIncifor,acrIncifor,ggcIncifor,elbIncifor,msrcIncifor,msrcIncifor,aseIncifor,mjtdIncifor,mivaIncifor,iaflIncifor,pcflIncifor,mcpvIncifor,amfaIncifor,alrIncifor,ammIncifor)
