@@ -84,3 +84,132 @@ val valorFigura4 = NavegationFiguresData(
     relacionText = numLetra,
     lineHeight = 1.sp
 )
+
+//Investigadores
+
+val mlcpIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_14,
+    name = "Mª Luz Couce Pico",
+    title = R.string.Directora,
+    role = null,
+    info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
+    contentType = ContentType.PLANTILLA
+)
+val ilgIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_15,
+    name = "Isabel Lista García",
+    title = null,
+    role = null,
+    info =  listOf(R.string.II_INCIFOR_miniscreen_29_paragraph_0),
+    contentType = ContentType.PLANTILLA
+)
+
+val rllIdis = PersonResearcher(
+    foto = R.drawable.incifor_img_16,
+    title = null,
+    role = null,
+    name = "Rafael López López",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val acaIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_18_,
+    name = "Ángel Carracedo Álvarez",
+    title = null,
+    role = null,    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val mlgIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_19,
+    name = "Mabel Loza García",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val mamoIdis =  PersonResearcher(
+    foto = R.drawable.noimagen, //incifor_img_20
+    name = "Miguel Ángel Martínez Olmos",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val lmscIdis =  PersonResearcher(
+    foto = R.drawable.noimagen,
+    name = "Luisa Mª Seoane Camino",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val jllgIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_22,
+    name = "José Luis Labandeira García",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val fcpIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_23,
+    name = "Francisco Campos Pérez",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val fgsIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Francisco Gude Sampedro",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val izfIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Irene Zarra Ferro",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val jrgjIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "José Ramón González Juanatey",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val mrmIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Moisés Rodríguez Mañero",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val fmtIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Federico Martinón Torres",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val rgbIdis =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Rodolfo Gómez Bahamonde",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val datosInvestigadoresIlg = listOf(mlcpIdis, ilgIdis, rllIdis, acaIdis, mlgIdis, mamoIdis,
+    lmscIdis, jllgIdis, fcpIdis, fgsIdis, izfIdis, jrgjIdis, mrmIdis, fmtIdis, rgbIdis)

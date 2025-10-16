@@ -1,8 +1,6 @@
 package com.example.multiidioma.ui.screens.centros.cimus
 
-import android.content.res.Resources
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.numBigCimus
@@ -125,16 +123,20 @@ val valorFiguraCimus7 = NavegationFiguresData(
 
 //No ponerlos en datosInvestigadoresCimus a los directores sino ponerlos en otro nombre para ponerlo en directores?
 
-/*//investigadores
+//investigadores
 val sbCimus = PersonResearcher(
     foto = R.drawable.cimus_img_14,
     name = "SENÉN BARRO",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val plCimus = PersonResearcher(
     foto = R.drawable.cimus_img_15,
     name = "PAULA LÓPEZ",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
@@ -142,12 +144,16 @@ val plCimus = PersonResearcher(
 val pgCimus = PersonResearcher(
     foto = R.drawable.cimus_img_16,
     name = "PABLO GAMALLO",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val dgCimus = PersonResearcher(
     foto = R.drawable.cimus_img_17,
     name = "DAVID GLOWACKI",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
@@ -155,26 +161,34 @@ val dgCimus = PersonResearcher(
 val mnCimus = PersonResearcher(
     foto = R.drawable.cimus_img_18,
     name = "MARTA NÚÑEZ",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val mjcCimus = PersonResearcher(
     foto = R.drawable.cimus_img_19,
     name = "MARIA JOSÉ CARREIRA",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val dlCimus = PersonResearcher(
     foto = R.drawable.cimus_img_20,
     name = "DAVID LOSADA",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val nsCimus = PersonResearcher(
     foto = R.drawable.cimus_img_21,
     name = "NATALIA SEOANE",
+    title = null,
+    role = null,
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 val datosInvestigadoresCimus =
-    listOf(sbCimus, plCimus, pgCimus, mnCimus, mjcCimus, dlCimus, nsCimus)*/
+    listOf(sbCimus, plCimus, pgCimus, mnCimus, mjcCimus, dlCimus, nsCimus)

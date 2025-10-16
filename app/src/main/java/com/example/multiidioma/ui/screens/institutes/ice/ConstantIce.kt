@@ -109,58 +109,48 @@ val valorFiguraIce6 = NavegationFiguresData(
 )
 
 
-/// INVESTIGADORES
-/*
+//INVESTIGADORES
+
 val mvlhIce = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Victoria Lareu Huidobro",
+    title = null,
+    role = null,
     info = listOf(
-
-    R.string.info_investigador_test_1,
-            R.string.info_investigador_test_2,
-            R.string.info_investigador_test_3*//*
-
     ),
-    contentType = ContentType.MINISCREEN27
+    contentType = ContentType.PLANTILLA
 )
 
 val ambbIce = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Bermejo Barrera",
+    title = null,
+    role = null,
     info = listOf(
-        */
-/*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*//*
 
-    ),
-    contentType = ContentType.MINISCREEN27
+),
+contentType = ContentType.PLANTILLA
 )
 
 val jimbIce = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Ignacio Muñoz Barús",
+    title = null,
+    role = null,
     info = listOf(
-        */
-/*     R.string.info_investigador_test_1,
-             R.string.info_investigador_test_2,
-             R.string.info_investigador_test_3*//*
 
-    ),
-    contentType = ContentType.MINISCREEN27
+),
+contentType = ContentType.PLANTILLA
 )
 
 val aclIce = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Angelines Cruz Landeira",
+    title = null,
+    role = null,
     info = listOf(
-        */
-/*   R.string.info_investigador_test_1,
-           R.string.info_investigador_test_2,
-           R.string.info_investigador_test_3*//*
-
     ),
-    contentType = ContentType.MINISCREEN27
+    contentType = ContentType.PLANTILLA
 )
 
-val datosInvestigadores = listOf(mvlhIce, ambbIce, jimbIce, aclIce)*/
+val datosInvestigadoresIce = listOf(mvlhIce, ambbIce, jimbIce, aclIce)

@@ -58,3 +58,93 @@ val valorFiguraCiqus2 = NavegationFiguresData(
     relacionText = numLetra2,
     lineHeight = 1.sp
 )
+
+//Investigadores
+
+val dpgCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_14,
+    name = "Diego Peña Gil",
+    title = R.string.Directora,
+    role = null,
+    info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
+    contentType = ContentType.PLANTILLA
+)
+val mfmCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_15,
+    name = "Martín Fañanás Mastral",
+    title = null,
+    role = null,
+    info =  listOf(R.string.II_INCIFOR_miniscreen_29_paragraph_0),
+    contentType = ContentType.PLANTILLA
+)
+
+val mglCiqus = PersonResearcher(
+    foto = R.drawable.incifor_img_16,
+    title = null,
+    role = null,
+    name = "María Giménez López",
+    info = listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val iilCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_18_,
+    name = "Ignacio Insua López",
+    title = null,
+    role = null,    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val jlmCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_19,
+    name = "José Luis Mascareñas",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val jmCiqus =  PersonResearcher(
+    foto = R.drawable.noimagen, //incifor_img_20
+    name = "Javier Montenegro",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val bopCiqus =  PersonResearcher(
+    foto = R.drawable.noimagen,
+    name = "Beatriz Orosa Puente",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val bpCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_22,
+    name = "Beatriz Pelaz",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+val frfCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_23,
+    name = "Francisco Rivadulla Fernández",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+val mssCiqus =  PersonResearcher(
+    foto = R.drawable.incifor_img_24,
+    name = "Manuel Souto Salom",
+    title = null,
+    role = null,
+    info =  listOf(),
+    contentType = ContentType.PLANTILLA
+)
+
+
+val datosInvestigadoresCiqus = listOf(dpgCiqus, mfmCiqus, mglCiqus, iilCiqus, jlmCiqus, jmCiqus,
+    bopCiqus, bpCiqus, frfCiqus, mssCiqus)
