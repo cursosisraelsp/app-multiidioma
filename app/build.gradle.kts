@@ -120,10 +120,10 @@ dependencies {
     implementation("io.coil-kt:coil-svg:2.4.0")
 
     // Unity
-    /*implementation(project(":unityLibrary"))*/
+    implementation(project(":unityLibrary"))
     //implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
     implementation(fileTree("libs") {
-        include("*.jar", "*.aar")
+        include("*.aar")
     })
     // Testing
     testImplementation(libs.junit)

@@ -1,4 +1,4 @@
-pluginManagement {
+/*pluginManagement {
     repositories {
         google {
             content {
@@ -26,14 +26,28 @@ dependencyResolutionManagement {
         }
     }
 }
-
+*/
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 rootProject.name = "multiidioma"
 include(":app")
-
-/*
 include(":unityLibrary")
 include(":unityLibrary:xrmanifest.androidlib")
-
-// Apuntar correctamente a las carpetas si no están en la raíz
-project(":unityLibrary").projectDir = File(rootDir, "unityLibrary")
-project(":unityLibrary:xrmanifest.androidlib").projectDir = File(rootDir, "unityLibrary/xrmanifest.androidlib")*/

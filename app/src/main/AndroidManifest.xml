@@ -51,14 +51,14 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
 
         <!-- UnityPlayerActivity (de Unity) -->
-        <activity
+        <!--<activity
             android:name="com.unity3d.player.UnityPlayerGameActivity"
             android:exported="true"
             android:theme="@style/Theme.Multiidioma"
             android:launchMode="standard"
             android:taskAffinity="com.example.multiidioma.unity"
             tools:replace="android:theme,android:exported,android:launchMode"
-            tools:ignore="MissingClass" />
+            tools:ignore="MissingClass" />-->
 
 
     </application>
