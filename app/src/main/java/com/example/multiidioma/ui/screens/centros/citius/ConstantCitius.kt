@@ -115,6 +115,7 @@ val pgCitius = PersonResearcher(
     info = listOf(),
     contentType = ContentType.PLANTILLA
 )
+
 val dgCitius = PersonResearcher(
     foto = R.drawable.citius_img_17,
     name = "DAVID GLOWACKI",
