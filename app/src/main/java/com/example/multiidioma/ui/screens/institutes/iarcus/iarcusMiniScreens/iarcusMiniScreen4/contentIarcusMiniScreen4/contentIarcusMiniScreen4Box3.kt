@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen4.contentIarcusMiniScreen4
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen4.contentIarcusMiniScreen4
 
 
 import androidx.compose.foundation.layout.Arrangement

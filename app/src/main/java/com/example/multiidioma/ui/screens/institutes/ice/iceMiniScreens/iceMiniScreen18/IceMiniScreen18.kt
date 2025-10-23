@@ -8,11 +8,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen18.contentIceMiniScreen18.contentIceMiniScreen18Box3
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen18.contentIceMiniScreen18.contentIceMiniScreen18Box1
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen18.contentIceMiniScreen18.contentIceMiniScreen18Box2
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen18.contentIceMiniScreen18.contentIceMiniScreen18Box3
+
 @Composable
 fun IceMiniScreen18(
     data: MiniScreenData,

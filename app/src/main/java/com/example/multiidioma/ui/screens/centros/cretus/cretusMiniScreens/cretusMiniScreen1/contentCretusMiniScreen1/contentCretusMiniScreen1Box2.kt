@@ -1,19 +1,25 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1
 
 
 
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -24,11 +30,18 @@ fun contentCretusMiniScreen1Box2(data: MiniScreenData){
             .padding(start = 50.dp, end = 50.dp, top = 50.dp)
 
     ) {
+
         val estiloTextos =
             StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center);
 
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-
+        AppText(data, estiloTextos,index=0)
+        AppText(data, estiloTextos, index =1)
+        SpacerText()
+        val estilosImagen = StyleImages(
+            modifier = Modifier
+                .fillMaxWidth(),
+            alignment = Alignment.BottomCenter
+        )
+        //GifComponent(gif = R.drawable.cretus_vdo_02)
     }
 }

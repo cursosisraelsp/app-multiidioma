@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12
 
 
 import androidx.compose.foundation.layout.Arrangement
@@ -11,8 +11,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 
@@ -34,7 +34,7 @@ fun contentIarcusMiniScreen12Box2(data: MiniScreenData) {
         SpacerText()
         TextBodyMedium(data, textAlign = TextAlign.Center, index = 1)
         SpacerText()
-        TextBodyMedium(data, textAlign = TextAlign.Center, index = 2)
+        TextBodyMedium( data, textAlign = TextAlign.Center, index = 2)
 
     }
 }

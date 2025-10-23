@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen1.contentIarcusMiniScreen1
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen1.contentIarcusMiniScreen1
 
 
 

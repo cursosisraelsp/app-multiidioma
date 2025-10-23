@@ -7,7 +7,6 @@ import com.example.multiidioma.data.numLetra2
 import com.example.multiidioma.data.numNumero
 import com.example.multiidioma.data.relacionTexto
 import com.example.multiidioma.data.types.ContentType
-import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.NavegationFiguresHomeData
 
 val figuraMultimediaHome = NavegationFiguresHomeData(

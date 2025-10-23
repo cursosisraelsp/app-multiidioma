@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen18.contentCretusMiniScreen18
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen18.contentCretusMiniScreen18
 
 
 

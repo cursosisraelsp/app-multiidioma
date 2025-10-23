@@ -21,15 +21,15 @@ import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen0.ImatusMiniScreen0
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen1.ImatusMiniScreen1
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen2.ImatusMiniScreen2
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen3.ImatusMiniScreen3
-import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen8.ImatusMiniScreen8
-import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen9.ImatusMiniScreen9
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen10.ImatusMiniScreen10
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen11.ImatusMiniScreen11
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen16.ImatusMiniScreen12
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen2.ImatusMiniScreen2
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen3.ImatusMiniScreen3
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen8.ImatusMiniScreen8
+import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen9.ImatusMiniScreen9
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen13.ImatusMiniScreen13
+import com.example.multiidioma.ui.screens.institutes.imatus.ImatusMiniScreens.imatusMiniScreen4.ImatusMiniScreen4
 
 
 @Composable

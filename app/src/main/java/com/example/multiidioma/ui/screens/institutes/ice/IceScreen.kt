@@ -19,24 +19,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
-import com.example.multiidioma.ui.screens.institutes.ice.IceViewModel
-
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen0.IceMiniScreen0
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen1.IceMiniScreen1
-
-import com.example.multiidioma.ui.screens.institutes.ice.iceMiniScreens.iceMiniScreen3.IceMiniScreen3
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen4.IceMiniScreen4
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen5.IceMiniScreen5
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen6.IceMiniScreen6
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen7.IceMiniScreen7
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen8.IceMiniScreen8
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen9.IceMiniScreen9
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen10.IceMiniScreen10
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen11.IceMiniScreen11
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen12.IceMiniScreen12
-import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen13.IceMiniScreen13
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen14.IceMiniScreen14
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen15.IceMiniScreen15
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen16.IceMiniScreen16
@@ -50,10 +35,12 @@ import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen22.Ice
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen23.IceMiniScreen23
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen24.IceMiniScreen24
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen25.IceMiniScreen25
-
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen26.IceMiniScreen26
-
 import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen30.IceMiniScreen30
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen4.IceMiniScreen4
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen5.IceMiniScreen5
+import com.example.multiidioma.ui.screens.ice.iceMiniScreens.iceMiniScreen6.IceMiniScreen6
+import com.example.multiidioma.ui.screens.institutes.ice.iceMiniScreens.iceMiniScreen3.IceMiniScreen3
 
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable

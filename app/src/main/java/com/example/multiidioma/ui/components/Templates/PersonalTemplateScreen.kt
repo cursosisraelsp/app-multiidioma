@@ -30,13 +30,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
-import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.PersonalResearcher
-import com.example.multiidioma.ui.theme.robotoFamily
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
-import com.example.multiidioma.utils.TextBodyMedium
-import com.example.multiidioma.utils.TextDisplayMedium
-import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
     fun PersonalTemplateScreen(

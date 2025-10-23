@@ -3,7 +3,6 @@ package com.example.multiidioma.data.types
 import androidx.annotation.StringRes
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.unit.Dp
 
 
 data class ImaxenClickData(

@@ -1,15 +1,12 @@
 package com.example.multiidioma.navegacion.detailApp
 
 import android.os.Build
-import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
-import androidx.navigation.NavType
 import androidx.navigation.compose.composable
-import androidx.navigation.navArgument
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.ui.screens.detail.DetailScreen
 

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen0.contentIpsiusMiniScreen0
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen0.contentIpsiusMiniScreen0
 
 
 
@@ -13,8 +13,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable

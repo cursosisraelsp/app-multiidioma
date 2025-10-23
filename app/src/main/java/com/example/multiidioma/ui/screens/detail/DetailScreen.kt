@@ -1,15 +1,12 @@
 package com.example.multiidioma.ui.screens.detail
 
+//import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import InciforScreen
-
 import android.os.Build
-import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -25,19 +22,17 @@ import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
 import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
 import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
-import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.CretusScreen
 import com.example.multiidioma.ui.screens.centros.idis.IdisScreen
-import com.example.multiidioma.ui.screens.centros.igfae.IgfaeScreen
+import com.example.multiidioma.ui.screens.centros.igfae_andre.IgfaeScreen
 import com.example.multiidioma.ui.screens.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.InstitutesScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus.IarcusScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.IarcusScreen
 import com.example.multiidioma.ui.screens.institutes.ice.IceScreen
 import com.example.multiidioma.ui.screens.institutes.idega.IdegaScreen
-//import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import com.example.multiidioma.ui.screens.institutes.ilg.IlgScreen
 import com.example.multiidioma.ui.screens.institutes.imatus.ImatusScreen
-import com.example.multiidioma.ui.screens.institutes.ipsius.IpsiusScreen
-import com.example.multiidioma.ui.screens.mapa.MapScreen
+import com.example.multiidioma.ui.screens.institutes.ipsius_andre.IpsiusScreen
 import com.example.multiidioma.ui.screens.minerva.MinervaScreen
 import com.example.multiidioma.ui.screens.multimedia.MultimediaScreen
 

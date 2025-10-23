@@ -1,11 +1,11 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen6.contentIgfaeMiniScreen6
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen6.contentIgfaeMiniScreen6
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
 fun contentIgfaeMiniScreen6Box1(){
@@ -13,6 +13,6 @@ fun contentIgfaeMiniScreen6Box1(){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        LineCircleComponent( color =(Color(0xFF000000)))
+            LineVerticalComponent( color =(Color(0xFFFFFFFF)))
     }
 }

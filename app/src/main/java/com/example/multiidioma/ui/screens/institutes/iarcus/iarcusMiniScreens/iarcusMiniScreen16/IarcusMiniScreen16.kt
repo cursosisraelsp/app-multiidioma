@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen16
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16
 
 
 import androidx.compose.foundation.background
@@ -10,9 +10,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box3
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box1
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box3
 
 @Composable
 fun IarcusMiniScreen16(

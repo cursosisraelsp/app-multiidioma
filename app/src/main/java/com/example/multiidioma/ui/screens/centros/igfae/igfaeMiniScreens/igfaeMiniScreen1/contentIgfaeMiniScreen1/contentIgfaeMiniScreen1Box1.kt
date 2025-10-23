@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen1.contentIgfaeMiniScreen1
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen1.contentIgfaeMiniScreen1
 
 
 

@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.centros.citius
 
+/*import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17*/
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -17,7 +18,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen0.CitiusMiniScreen0
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen1.CitiusMiniScreen1
@@ -27,10 +27,7 @@ import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScr
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen14.CitiusMiniScreen14
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen15.CitiusMiniScreen15
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen16.CitiusMiniScreen16
-/*import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen17.CitiusMiniScreen17*/
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen18.CitiusMiniScreen18
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen2.CitiusMiniScreen2
-import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen26.CitiusMiniScreen26
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen3.CitiusMiniScreen3
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen4.CitiusMiniScreen4
 import com.example.multiidioma.ui.screens.citius.citiusMiniScreens.citiusMiniScreen5.CitiusMiniScreen5

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen21.contentIgfaeMiniScreen21
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.contentIgfaeMiniScreen21
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -11,8 +11,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -20,17 +23,21 @@ fun contentIgfaeMiniScreen21Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 20.dp, bottom = 20.dp, start = 50.dp, end = 50.dp),
+            .padding(top = 20.dp, bottom =20.dp, start = 50.dp, end = 50.dp),
         horizontalAlignment = Alignment.End,
         verticalArrangement = Arrangement.Center
     ) {
         val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
+            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFF000000)), textAlign = TextAlign.Center)
 
-        AppText(data, estiloTextos)
+        AppText(data, estiloTextos,index=0)
+        SpacerText()
 
-        AppText(data, estiloTextos)
-
-
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        )
+        ReusableImage(data , estilosImagen)
     }
+
+
 }

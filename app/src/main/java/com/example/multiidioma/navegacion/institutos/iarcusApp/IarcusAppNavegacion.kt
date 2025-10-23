@@ -8,11 +8,11 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.repository.IarcusRepository
-import com.example.multiidioma.ui.screens.institutes.iarcus.IarcusScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen10a.IarcusMiniScreen10
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen11a.IarcusMiniScreen11
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen8a.IarcusMiniScreen8
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen9a.IarcusMiniScreen9
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.IarcusScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen10a.IarcusMiniScreen10
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen11a.IarcusMiniScreen11
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen8a.IarcusMiniScreen8
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen9a.IarcusMiniScreen9
 
 
 fun NavGraphBuilder.IarcusAppNavegacion(

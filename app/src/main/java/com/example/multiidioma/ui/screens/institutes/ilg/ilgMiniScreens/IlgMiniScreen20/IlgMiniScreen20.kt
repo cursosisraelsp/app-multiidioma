@@ -1,8 +1,3 @@
-import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box1
-import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box2
-import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box3
-
-
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,6 +7,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box1
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box2
+import com.example.multiidioma.ui.screens.ilg.ilgMiniScreens.IlgMiniScreen20.contentIlgMiniScreen20.contentIlgMiniScreen20Box3
 
 
 @Composable

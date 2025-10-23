@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

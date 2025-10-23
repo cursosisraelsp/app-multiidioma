@@ -22,9 +22,6 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen0.CimusMiniScreen0
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen1.CimusMiniScreen1
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.CimusMiniScreen10
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen11.CimusMiniScreen11
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen12.CimusMiniScreen12
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen13.CimusMiniScreen13
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen18.CimusMiniScreen18
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen19.CimusMiniScreen19
@@ -37,7 +34,6 @@ import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.CimusMiniScreen6
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen7.CimusMiniScreen7
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen8.CimusMiniScreen8
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen9.CimusMiniScreen9
 
 @RequiresApi(Build.VERSION_CODES.P)
 @Composable

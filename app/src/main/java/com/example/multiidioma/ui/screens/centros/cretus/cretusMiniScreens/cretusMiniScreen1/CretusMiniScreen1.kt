@@ -1,25 +1,29 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen1
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1
 
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box1
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box2
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box3
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.contentCretusMiniScreen1.contentCretusMiniScreen1Box3
 
 
 @Composable
 fun CretusMiniScreen1(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
+    listState: LazyListState,
+    itemIndex: Int
 ) {
 
     Box(
@@ -30,9 +34,10 @@ fun CretusMiniScreen1(
     ) {
         TemplateScreen(
             data = data,
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             Box1 = { contentCretusMiniScreen1Box1()},
             Box2 = { contentCretusMiniScreen1Box2(it) },
-            Box3 = { contentCretusMiniScreen1Box3(it) })
+            Box3 = { contentCretusMiniScreen1Box3() })
 
     }
 }

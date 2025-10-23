@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen7
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7
 
 
 import androidx.compose.foundation.background
@@ -8,11 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box3
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box1
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen7.contentIarcusMiniScreen7.contentIarcusMiniScreen7Box3
 
 
 @Composable
@@ -26,12 +27,12 @@ fun IarcusMiniScreen7(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        TemplateCircleScreen(
+        TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
             data = data,
-            navController = navController,
-            CircleImage = { contentIarcusMiniScreen7Box1(it) },
-            TitleText = { contentIarcusMiniScreen7Box2(it) },
-            BodyText = { contentIarcusMiniScreen7Box3(it) }
+            Box1 = { contentIarcusMiniScreen7Box1() },
+            Box2 = { contentIarcusMiniScreen7Box2(it, navController) },
+            Box3 = { contentIarcusMiniScreen7Box3() }
         )
     }
 }

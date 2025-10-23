@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen9a.contentCretusMiniScreen9
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen9a.contentCretusMiniScreen9
 
 
 import androidx.compose.runtime.Composable

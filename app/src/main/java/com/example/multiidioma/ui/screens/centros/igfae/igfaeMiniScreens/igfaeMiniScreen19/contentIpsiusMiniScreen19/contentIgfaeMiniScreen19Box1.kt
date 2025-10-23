@@ -1,20 +1,23 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen19.contentIpsiusMiniScreen19
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen19.contentIpsiusMiniScreen19
 
 
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.example.multiidioma.data.types.StyleImages
-import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
+import androidx.compose.ui.unit.dp
+import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
 @Composable
-fun contentIgfaeMiniScreen19Box1(data: MiniScreenData){
-
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
-    ReusableImage(data , estilosImagen)
+fun contentIgfaeMiniScreen19Box1() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(start = 50.dp)
+    ) {
+        LineVerticalComponent(contentAlignment = Alignment.TopStart)
+    }
 }

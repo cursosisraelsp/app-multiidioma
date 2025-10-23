@@ -3,9 +3,6 @@ package com.example.multiidioma.data.repository
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 
-import com.example.multiidioma.utils.GetPersonalResearcherUtils
-import com.example.multiidioma.utils.PersonsResearchersUtils
-
 class ImatusRepository {
 
     fun getMiniScreens(): List<MiniScreenData> {

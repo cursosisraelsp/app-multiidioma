@@ -24,6 +24,10 @@ class PlantillaViewModel : ViewModel() {
                     "imatus" -> repository.infoReaseachersImatus()
                     "citius" -> repository.infoReaseachersCitius()
                     "incifor" -> repository.infoReaseachersIncifor()
+                    "ipsius" -> repository.infoReaseachersIpsius()
+                    "cretus" -> repository.infoReaseachersCretus()
+                    "igfae" -> repository.infoReaseachersIgfae()
+                    "iarcus" -> repository.infoReaseachersIarcus()
                     else -> emptyList()
                 }
                 _uiState.value = PlantillaState.Success(lista)

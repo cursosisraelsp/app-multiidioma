@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen8
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8
 
 
 import androidx.compose.foundation.background
@@ -8,11 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8BodyText
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8CircleImage
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8TitleText
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box1
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen8.contentCretusMiniScreen8.contentCretusMiniScreen8Box3
 
 
 @Composable
@@ -26,15 +27,28 @@ fun CretusMiniScreen8(
             .fillMaxSize()
             .background(Color(0xFF66AAD1))
     ) {
-        TemplateCircleScreen(
+        TemplateScreen(
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.1f),
             data = data,
-            navController = navController,
-            CircleImage = { contentCretusMiniScreen8CircleImage(it) },
-            TitleText = { contentCretusMiniScreen8TitleText(it) },
-            BodyText = { contentCretusMiniScreen8BodyText(it) }
+            Box1 = { contentCretusMiniScreen8Box1() },
+            Box2 = { contentCretusMiniScreen8Box2(it, navController) },
+            Box3 = { contentCretusMiniScreen8Box3() }
         )
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,18 +1,10 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen14.contentIpsiusMiniScreen14
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.contentIpsiusMiniScreen14
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
-import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
+import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
-fun contentIarcusMiniScreen14Box1(){
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        LineVerticalComponent( color =(Color(0xFFFFFFFF)))
-    }
+fun contentIarcusMiniScreen14Box1() {
+    LineCircleComponent(color = Color(0xFF000000))
 }

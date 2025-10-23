@@ -7,15 +7,15 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.repository.CretusRepository
-import com.example.multiidioma.ui.screens.centros.cretus.CretusScreen
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen10a.CretusMiniScreen10
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen11a.CretusMiniScreen11
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen12a.CretusMiniScreen12
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen13a.CretusMiniScreen13
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen14a.CretusMiniScreen14
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen15a.CretusMiniScreen15
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen16a.CretusMiniScreen16
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen9a.CretusMiniScreen9
+import com.example.multiidioma.ui.screens.centros.cretus_andre.CretusScreen
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen10a.CretusMiniScreen10
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen11a.CretusMiniScreen11
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen12a.CretusMiniScreen12
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen13a.CretusMiniScreen13
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen14a.CretusMiniScreen14
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen15a.CretusMiniScreen15
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen16a.CretusMiniScreen16
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen9a.CretusMiniScreen9
 
 fun NavGraphBuilder.CretusAppNavegacion(
     listState: LazyListState,

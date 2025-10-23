@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen6.contentIarcusMiniScreen6
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen6.contentIarcusMiniScreen6
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,7 +14,7 @@ fun contentIarcusMiniScreen6Box1() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, bottom = 10.dp)
+            .padding(start = 50.dp)
     ) {
         LineVerticalComponent(contentAlignment = Alignment.TopStart)
 

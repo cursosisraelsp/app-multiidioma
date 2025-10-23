@@ -28,8 +28,88 @@
     <string name="director">Director</string>
     <string name="directora">Directora</string>
 
+    <string name="Director">Director</string>
     <string name="Directora">Directora</string>
     <string name="Secretaria">Secretaria</string>
 
+    <string name="IGFAE_director">Director Científico do IGFAE</string>
+    <string name="IGFAE_catedratico_0">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
+    <string name="IGFAE_investigador_0">Investigadora Ramón y Cajal del IGFAE</string>
+    <string name="IGFAE_catedratico_1">Catedrático de Física Teórica na USC</string>
+    <string name="IGFAE_catedratico_2">Catedrática e vicedecana da Facultade de Física da USC</string>
+
+
+    <string name="CRETUS_role_0">Directora Científica</string>
+
+    <string name="CRETUS_role_1">Directora Adxunta</string>
+
+    <string name="CRETUS_role_2">Profesor Titular</string>
+    <string name="CRETUS_title_0">Zooloxía, Xenética e Antropoloxía Física (Área de Zooloxía)</string>
+    <string name="CRETUS_title_1">Laboratorio de Bioxeografía (BiBICI)</string>
+
+    <string name="CRETUS_role_3">Catedrático Enxeñaría Química</string>
+    <string name="CRETUS_title_2"> Enxeñaría Química</string>
+    <string name="CRETUS_title_3">Biotecnoloxía Ambiental (BIOGROUP)</string>
+
+    <string name="CRETUS_role_4">Profesora Contratada Dotora</string>
+    <string name="CRETUS_title_4">Psicoloxía social, Básica e Metodoloxía</string>
+    <string name="CRETUS_title_5">Facultade de Psicoloxía (USC)</string>
+    <string name="CRETUS_title_6">Comportamento Social e Psicometría Aplicada (COSOYPA)</string>
+
+    <string name="CRETUS_role_5">Profesor Emérito de Enxeñería Química</string>
+    <string name="CRETUS_title_7">Enxeñería Química</string>
+    <string name="CRETUS_title_8">Biotecnoloxía Ambiental (BIOGROUP)</string>
+
+    <string name="CRETUS_role_6">Catedrática de Química Analítica</string>
+    <string name="CRETUS_title_9">Química Analítica, Nutrición e Bromatoloxía</string>
+    <string name="CRETUS_title_10">Laboratorio de Investigación e Desenvolvemento de Solucións Analíticas (LIDSA)</string>
+
+    <string name="CRETUS_role_7">Investigadora Ramón y Cajal</string>
+    <string name="CRETUS_title_11">Historia (Área Arqueoloxía)</string>
+    <string name="CRETUS_title_12">EcoPast</string>
+
+    <string name="CRETUS_role_8">Catedrático de Microbioloxía</string>
+    <string name="CRETUS_title_13">Microbioloxía e Parasitoloxía</string>
+    <string name="CRETUS_title_14">Patoloxía en Acuicultura-GIPA</string>
+
+    <string name="CRETUS_role_9">Catedrática Enxeñería Química</string>
+    <string name="CRETUS_title_15">Enxeñería Química</string>
+    <string name="CRETUS_title_16">Biotecnoloxía Ambiental (BIOGROUP)</string>
+
+    <string name="CRETUS_role_10">Catedrático</string>
+    <string name="CRETUS_title_17">Edafoloxía e Química Agrícola</string>
+    <string name="CRETUS_title_18">Cartografía de solos e paisaxe, físico-química, degradación e recuperación de solos e augas (AMBIOSOL)</string>
+
+    <string name="CRETUS_role_11">Catedrático</string>
+    <string name="CRETUS_title_19">Física de partículas (Área Materia Condensada)</string>
+    <string name="CRETUS_title_20">Grupo de Física non Lineal (GFNL)</string>
+
+    <string name="CRETUS_role_12">Profesor Titular e Investigador Oportunius</string>
+    <string name="CRETUS_title_21">Economía Aplicada</string>
+    <string name="CRETUS_title_22">EqualSeaLab</string>
+
+
+    <string name="IARCUS_role_0">Director</string>
+    <string name="IARCUS_role_1">Profesor Titular da Universidade na Área de Microbioloxía</string>
+
+    <string name="IARCUS_role_2">Profesora Titular da Universidade na Área de la Microbioloxía</string>
+
+    <string name="IARCUS_role_3">Profesor Titular da Universidade na Área de Bioloxía Celular</string>
+
+    <string name="IARCUS_role_4">Catedrático da Universidade na Área de Parasitoloxía</string>
+
+    <string name="IARCUS_role_5">Catedrática de Universidad en el Área de Microbiología</string>
+
+    <string name="IARCUS_role_6">Profesor Titular de la Universidad en el Área de Teoría e Historia de la Educación</string>
+
+    <string name="IARCUS_role_7">Catedrática de Universidad en el Área de Microbiología</string>
+
+    <string name="IARCUS_role_8">Catedrática de Universidad en el Área de Microbiología</string>
+
+    <string name="IARCUS_role_9">Catedrático de la Universidad en el Área de Química Analítica</string>
+
+    <string name="IARCUS_role_10">Catedrático de la Universidad en el Área de Química Analítica</string>
+
+    <string name="IARCUS_role_11">Catedrático de la Universidad en el Área de Química Analítica</string>
 
 </resources>

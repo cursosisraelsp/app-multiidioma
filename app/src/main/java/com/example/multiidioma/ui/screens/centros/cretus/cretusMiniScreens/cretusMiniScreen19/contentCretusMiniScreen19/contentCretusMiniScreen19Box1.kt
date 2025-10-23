@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen19.contentCretusMiniScreen19
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen19.contentCretusMiniScreen19
 
 
 
@@ -15,6 +15,6 @@ fun contentCretusMiniScreen19Box1() {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        LineVerticalComponent( color =(Color(0xFFFFFFFF)))
+        LineVerticalComponent( color =(Color(0xFF000000)))
     }
 }

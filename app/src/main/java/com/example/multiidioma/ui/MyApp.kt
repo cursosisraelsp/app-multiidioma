@@ -12,10 +12,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
-import com.example.multiidioma.utils.setLocale
-import com.example.multiidioma.viewmodel.LanguageViewModel
 import com.example.multiidioma.navegacion.ScaffoldApp
 import com.example.multiidioma.utils.DetectScroll
+import com.example.multiidioma.utils.setLocale
+import com.example.multiidioma.viewmodel.LanguageViewModel
 
 val LocalizedContext = compositionLocalOf<Context> {
     error("No LocalizedContext provided")

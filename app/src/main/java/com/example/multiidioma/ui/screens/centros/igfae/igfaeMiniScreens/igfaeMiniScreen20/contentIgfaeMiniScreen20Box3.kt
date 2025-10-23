@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen20
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen20
 
 
 import androidx.compose.runtime.Composable
@@ -8,6 +8,6 @@ import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 @Composable
 fun contentIgfaeMiniScreen20Box3() {
     CircleLineComponent(
-        color =(Color(0xFFFFFFFF))
+        color =(Color(0xFF000000))
     )
 }

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

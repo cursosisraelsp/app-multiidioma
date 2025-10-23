@@ -21,7 +21,6 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
 import com.example.multiidioma.utils.TextTitleMedium
-import com.example.multiidioma.utils.TextTitleMediumRegular
 
 
 @Composable

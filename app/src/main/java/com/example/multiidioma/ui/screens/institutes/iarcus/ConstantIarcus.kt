@@ -116,7 +116,7 @@ val valorFiguraIarcus3 = NavegationFiguresData(
     offset_x = 230.dp,
     offset_y = 270.dp,
     imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 650.dp,
+    tamanhoFigura = 150.dp,
     ruta = Destination.IarcusMiniscreen11.route,
     numString = "04",
     relacionNum = numNumero,
@@ -132,7 +132,8 @@ val cpdIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carlos Pereira Dopazo",
     title = null,
-    role = R.string.director,
+    role = R.string.CRETUS_role_0,
+    role2= R.string.CRETUS_role_1,
     info = listOf(
         R.string.II_IARCUS_miniscreen_17_title_0,
         R.string.II_IARCUS_miniscreen_17_texto_buscado_0,
@@ -152,7 +153,7 @@ val jsqaIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Benito Quintana Álvarez",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_2,
     info = listOf(
         R.string.II_IARCUS_miniscreen_18_title_0,
         R.string.II_IARCUS_miniscreen_18_texto_buscado_0,
@@ -169,7 +170,7 @@ val mibmIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Isabel Bandín Matos",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_3,
     info = listOf(
         R.string.II_IARCUS_miniscreen_19_title_0,
         R.string.II_IARCUS_miniscreen_19_texto_buscado_0,
@@ -185,7 +186,7 @@ val abiIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Antón Barreiro Iglesias",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_4,
     info = listOf(
         R.string.II_IARCUS_miniscreen_20_title_0,
         R.string.II_IARCUS_miniscreen_20_texto_buscado_0,
@@ -201,7 +202,7 @@ val jmlvIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "José Manuel Leiro Vidal",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_5,
     info = listOf(
         R.string.II_IARCUS_miniscreen_21_title_0,
         R.string.II_IARCUS_miniscreen_21_texto_buscado_0,
@@ -217,7 +218,7 @@ val bmfIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Beatriz Magariños Ferro",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_6,
     info = listOf(
         R.string.II_IARCUS_miniscreen_22_title_0,
         R.string.II_IARCUS_miniscreen_22_texto_buscado_0,
@@ -233,7 +234,7 @@ val pmcIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Pablo Meira Cartea",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_7,
     info = listOf(
         R.string.II_IARCUS_miniscreen_23_title_0,
         R.string.II_IARCUS_miniscreen_23_texto_buscado_0,
@@ -250,7 +251,7 @@ val amgIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Azucena Mora Gutiérrez",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_8,
     info = listOf(
         R.string.II_IARCUS_miniscreen_24_title_0,
         R.string.II_IARCUS_miniscreen_24_texto_buscado_0,
@@ -268,7 +269,7 @@ val amocIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Ana María Otero Casal",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_9,
     info = listOf(
         R.string.II_IARCUS_miniscreen_25_title_0,
         R.string.II_IARCUS_miniscreen_25_texto_buscado_0,
@@ -285,7 +286,7 @@ val mrrrIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Mª del Rosario Rodil Rodríguez",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_10,
     info = listOf(
         R.string.II_IARCUS_miniscreen_26_title_0,
         R.string.II_IARCUS_miniscreen_26_texto_buscado_0,
@@ -302,7 +303,7 @@ val irpIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isaac Rodríguez Pereiro",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_11,
     info = listOf(
         R.string.II_IARCUS_miniscreen_27_title_0,
         R.string.II_IARCUS_miniscreen_27_texto_buscado_0,

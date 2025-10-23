@@ -1,28 +1,20 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen15.contentIarcusMiniScreen15
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen15.contentIarcusMiniScreen15
 
 
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleImages
-import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 @Composable
-fun contentIarcusMiniScreen15Box3(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier
-            .padding(top = 10.dp)
-            .size(250.dp),
-        alignment = Alignment.CenterStart
-    )
-    ReusableImage(data, estilosImagen)
-    LineVerticalComponent(
-        color = (Color(0xFFFFFFFF))
-    )
+fun contentIarcusMiniScreen15Box3() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        CircleLineComponent( color =(Color(0xFFFFFFFF)))
+    }
 }
+

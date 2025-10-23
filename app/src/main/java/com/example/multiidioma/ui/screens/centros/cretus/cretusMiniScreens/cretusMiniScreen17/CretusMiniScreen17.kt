@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen17
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen17
 
 
 import androidx.compose.foundation.background
@@ -11,8 +11,8 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17.contentCretusMiniScreen17Box2
-import com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17.contentCretusMiniScreen17Box3
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17.contentCretusMiniScreen17Box2
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17.contentCretusMiniScreen17Box3
 
 
 @Composable

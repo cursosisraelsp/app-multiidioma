@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen29.contentIpsiusMiniScreen29
 
 
 
@@ -16,30 +16,38 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIpsiusMiniScreen29Box2(data: MiniScreenData){
+fun contentIpsiusMiniScreen29Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(start = 50.dp, end = 50.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Top
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFF000000)), textAlign = TextAlign.Center)
 
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
+        val estilosImagen = StyleImages(
+            modifier = Modifier
 
+                .padding(top = 30.dp, bottom = 30.dp),
+            alignment = Alignment.BottomCenter
+        )
+        ReusableImage(data, estilosImagen)
 
+        val estiloTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFF000000),
+            textAlign = TextAlign.Center
+        )
+        AppText(data, estiloTextos, index=0)
+        SpacerText()
+        AppText(data, estiloTextos,index=1)
     }
 }

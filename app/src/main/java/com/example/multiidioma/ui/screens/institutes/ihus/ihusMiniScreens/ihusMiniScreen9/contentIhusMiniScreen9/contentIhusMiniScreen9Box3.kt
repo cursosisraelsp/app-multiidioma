@@ -10,8 +10,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 

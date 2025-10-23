@@ -1,34 +1,55 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen1.contentIgfaeMiniScreen1
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen1.contentIgfaeMiniScreen1
 
-
-
-
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
+import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIgfaeMiniScreen1Box2(data: MiniScreenData){
+fun contentIgfaeMiniScreen1Box2(data: MiniScreenData,listState: LazyListState,
+                                itemIndex: Int) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, top = 50.dp)
-
+            .padding(start = 50.dp, end = 50.dp, top = 20.dp, bottom = 20.dp),
+        verticalArrangement = Arrangement.SpaceBetween
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center);
+        val estiloTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFFFFFFFF),
+            textAlign = TextAlign.Center
+        )
 
-        AppText(data, estiloTextos)
-        AppText(data, estiloTextos)
-
+        Column {
+            AppText(data, estiloTextos)
+            SpacerText()
+            AppText(data, estiloTextos)
+        }
+        SpacerText()
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxSize(),
+            alignment = Alignment.BottomCenter
+        )
+        //LottieScrollWithOffsetComponent(
+            //debuxoLottie = R.raw.igfae_anim_01,
+            //listState = listState,
+            //itemIndex = itemIndex,
+            //modifier = Modifier.align(Alignment.CenterHorizontally)
+        //)
     }
 }

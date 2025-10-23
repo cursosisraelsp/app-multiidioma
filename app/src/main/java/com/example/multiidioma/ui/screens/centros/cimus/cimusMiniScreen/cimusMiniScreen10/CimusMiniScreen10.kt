@@ -9,11 +9,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
-
 import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10BodyText
-import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10TitleText
 import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10CircleImage
+import com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen10.contentCimusMiniScreen10.contentCimusMiniScreen10TitleText
 
 @Composable
 fun CimusMiniScreen10(

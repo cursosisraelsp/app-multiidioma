@@ -1,23 +1,24 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen2
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen2
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen2.contentMiniScreen2.contentIarcusMiniScreen2Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen2.contentMiniScreen2.contentIarcusMiniScreen2Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen2.contentMiniScreen2.contentIarcusMiniScreen2Box3
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen2.contentMiniScreen2.contentIarcusMiniScreen2Box2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen2.contentMiniScreen2.contentIarcusMiniScreen2Box3
 
 
 @Composable
 fun IarcusMiniScreen2(
     data: MiniScreenData,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier,listState: LazyListState,
+    itemIndex: Int
 ) {
 
 
@@ -28,9 +29,9 @@ fun IarcusMiniScreen2(
     ) {
         TemplateScreen(
             data = data,
-            BoxWeight = BOX(Box1 = 0.5f, Box2 = 0.4f, Box3 = 0.1f),
-            Box1 = { contentIarcusMiniScreen2Box1(it) },
-            Box2 = { contentIarcusMiniScreen2Box2(it) },
+            BoxWeight = BOX(Box1 = 0f, Box2 = 0.8f, Box3 = 0.2f),
+
+            Box2 = { contentIarcusMiniScreen2Box2(it,listState, itemIndex) },
             Box3 = { contentIarcusMiniScreen2Box3() })
     }
 }

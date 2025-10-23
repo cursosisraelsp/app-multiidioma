@@ -5,8 +5,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.Images.ReusableImage
+
 @Composable
 fun contentSecondDirectiveImageMiniScreen12(data: MiniScreenData) {
     val estilosImagen = StyleImages(

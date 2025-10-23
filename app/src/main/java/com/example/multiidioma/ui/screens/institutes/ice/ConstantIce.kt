@@ -1,8 +1,6 @@
 package com.example.multiidioma.ui.screens.institutes.ice
 
-import android.content.res.Resources
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
 import com.example.multiidioma.data.numLetra

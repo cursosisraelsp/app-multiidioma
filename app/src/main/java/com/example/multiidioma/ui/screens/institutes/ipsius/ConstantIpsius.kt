@@ -1,6 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius
-
-
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre
 
 import android.content.res.Resources
 import androidx.compose.ui.unit.dp
@@ -30,12 +28,12 @@ val CirculoDiminuto = 140.dp
 val CirculoMicro = 110.dp
 
 // 🔢 Tamaño del número dentro del círculo (relación proporcional)
-val NumeroGigante   = (300 / des.density).sp
-val NumeroGrande    = (240 / des.density).sp
-val NumeroMediano   = (180 / des.density).sp
-val NumeroPequeno   = (140 / des.density).sp
-val NumeroDiminuto  = (120 / des.density).sp
-val NumeroMicro     = (100 / des.density).sp
+val NumeroGigante = (300 / des.density).sp
+val NumeroGrande = (240 / des.density).sp
+val NumeroMediano = (180 / des.density).sp
+val NumeroPequeno = (140 / des.density).sp
+val NumeroDiminuto = (120 / des.density).sp
+val NumeroMicro = (100 / des.density).sp
 
 // 🔠 Tamaño de letra general
 val LetraGigante = (96 / des.density).sp      // ~38sp
@@ -169,14 +167,13 @@ val valorFiguraIpsius6 = NavegationFiguresData(
 )
 
 
-
 /// INVESTIGADORES
 
 val ifcIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isabel Fraga Carou",
     title = null,
-    role = null,
+    role = R.string.Directora,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_20_title_0,
         R.string.II_IPSIUS_miniscreen_20_texto_buscado_0,
@@ -186,13 +183,14 @@ val ifcIpsius = PersonResearcher(
         R.string.II_IPSIUS_miniscreen_20_paragraph_1
     ),
     contentType = ContentType.PLANTILLA
+
 )
 
 val srhIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Socorro Rodríguez Holguín",
     title = null,
-    role = null,
+    role = R.string.Secretaria,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_21_title_0,
         R.string.II_IPSIUS_miniscreen_21_texto_buscado_0,
@@ -200,15 +198,14 @@ val srhIpsius = PersonResearcher(
         R.string.II_IPSIUS_miniscreen_21_texto_buscado_1,
         R.string.II_IPSIUS_miniscreen_21_paragraph_0,
         R.string.II_IPSIUS_miniscreen_21_paragraph_1
-    ),
-    contentType = ContentType.PLANTILLA
+    ), contentType = ContentType.PLANTILLA
 )
 
 val cmvIpsius = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carmela Martínez Vispo",
     title = null,
-    role = null,
+    role = R.string.Secretaria,
     info = listOf(
         R.string.II_IPSIUS_miniscreen_22_title_0,
         R.string.II_IPSIUS_miniscreen_22_texto_buscado_0,
@@ -303,6 +300,14 @@ val llrIpsius = PersonResearcher(
 )
 
 
-
-
-val datosInvestigadoresIpsius = listOf(ifcIpsius, srhIpsius, cmvIpsius, ebiIpsius, fciIpsius, nmnIpsius, fcmIpsius,ertIpsius,llrIpsius )
+val datosInvestigadoresIpsius = listOf(
+    ifcIpsius,
+    srhIpsius,
+    cmvIpsius,
+    ebiIpsius,
+    fciIpsius,
+    nmnIpsius,
+    fcmIpsius,
+    ertIpsius,
+    llrIpsius
+)

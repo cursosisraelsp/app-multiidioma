@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen12
+package com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen12
 
 
 import androidx.compose.foundation.background
@@ -10,10 +10,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box1
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box2
-import com.example.multiidioma.ui.screens.institutes.iarcus.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box3
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box1
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box2
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen12.contentIArcusMiniScreen12.contentIarcusMiniScreen12Box3
 
 
 @Composable
@@ -34,7 +33,7 @@ fun IarcusMiniScreen12(
 
         }
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.70f, Box3 = 0.15f),
+            BoxWeight = BOX(Box1 = 0.15f, Box2 = 0.7f, Box3 = 0.15f),
             data = data,
             Box1 = { contentIarcusMiniScreen12Box1() },
             Box2 = { contentIarcusMiniScreen12Box2(it) },

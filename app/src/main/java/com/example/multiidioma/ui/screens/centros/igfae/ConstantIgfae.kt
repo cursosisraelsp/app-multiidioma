@@ -196,8 +196,8 @@ val valorFiguraIgfae7 = NavegationFiguresData(
 val caslIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Carlos Alberto Salgado López",
-    title = null,
-    role = null,
+    title = R.string.IGFAE_catedratico_0,
+    role = R.string.IGFAE_director,
     info = listOf(
         R.string.CS_IGFAE_miniscreen_24_title_0,
         R.string.CS_IGFAE_miniscreen_24_texto_buscado_0,
@@ -217,7 +217,7 @@ val caslIgfae = PersonResearcher(
 val mvdIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Vieites Díaz",
-    title = null,
+    title = R.string.IGFAE_investigador_0,
     role = null,
     info = listOf(
         R.string.CS_IGFAE_miniscreen_25_title_0,
@@ -234,7 +234,7 @@ val mvdIgfae = PersonResearcher(
 val napIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Néstor Armesto Pérez",
-    title = null,
+    title = R.string.IGFAE_catedratico_1,
     role = null,
     info = listOf(
         R.string.CS_IGFAE_miniscreen_26_title_0,
@@ -254,7 +254,7 @@ val napIgfae = PersonResearcher(
 val jeIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Jose Edelstein",
-    title = null,
+    title = R.string.IGFAE_catedratico_1,
     role = null,
     info = listOf(
         R.string.CS_IGFAE_miniscreen_27_title_0,
@@ -271,7 +271,7 @@ val jeIgfae = PersonResearcher(
 val bfdIgfae = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Beatriz Fernández Domínguez",
-    title = null,
+    title = R.string.IGFAE_catedratico_2,
     role = null,
     info = listOf(
         R.string.CS_IGFAE_miniscreen_28_title_0,

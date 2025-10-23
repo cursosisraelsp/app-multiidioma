@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen18
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen18
 
 
 import androidx.compose.foundation.background
@@ -11,9 +11,9 @@ import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box1
-import com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box2
-import com.example.multiidioma.ui.screens.centros.igfae.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box3
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box1
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box2
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen18.contentIgfaeMiniScreen18.contentIgfaeMiniScreen18Box3
 
 
 @Composable
@@ -27,9 +27,9 @@ fun IgfaeMiniScreen18(
             .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.35f, Box2 = 0.40f, Box3 = 0.25f),
+            BoxWeight = BOX(Box1 = 0.10f, Box2 = 0.80f, Box3 = 0.10f),
             data = data,
-            Box1 = { contentIgfaeMiniScreen18Box1(it) },
+            Box1 = { contentIgfaeMiniScreen18Box1() },
             Box2 = { contentIgfaeMiniScreen18Box2(it) },
             Box3 = { contentIgfaeMiniScreen18Box3() })
     }

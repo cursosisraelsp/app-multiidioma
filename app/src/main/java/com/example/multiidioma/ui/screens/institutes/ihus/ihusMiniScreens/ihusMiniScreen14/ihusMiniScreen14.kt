@@ -1,7 +1,5 @@
 package com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.types.MiniScreenData

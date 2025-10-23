@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.ipsiusMiniScreen18.contentIpsiusMiniScreen18
+package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen18.contentIpsiusMiniScreen18
 
 
 
@@ -7,36 +7,45 @@ package com.example.multiidioma.ui.screens.institutes.ipsius.ipsiusMiniScreens.i
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.utils.TextTitleLarge
 
 @Composable
-fun contentIpsiusMiniScreen18Box2(data: MiniScreenData){
+fun contentIpsiusMiniScreen18Box2(data: MiniScreenData) {
+    val estilosImagen = StyleImages(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(250.dp)
+            .padding(top = 20.dp),
+        alignment = Alignment.Center,
+        contentScale = ContentScale.Crop
+    )
+
+
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(bottom = 20.dp, start = 50.dp, end = 50.dp),
-        horizontalAlignment = Alignment.End,
-        verticalArrangement = Arrangement.Center
+            .padding(horizontal = 20.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        val estiloTextos =
-            StyleText(style = MaterialTheme.typography.bodyMedium, color =(Color(0xFFFFFFFF)), textAlign = TextAlign.Center)
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
-        Spacer(modifier = Modifier.height(20.dp))
-        AppText(data, estiloTextos)
+        ReusableImage(data, estilosImagen)
+
+        SpacerText()
+
+        TextTitleLarge(data, textAlign = TextAlign.Center)
     }
 }

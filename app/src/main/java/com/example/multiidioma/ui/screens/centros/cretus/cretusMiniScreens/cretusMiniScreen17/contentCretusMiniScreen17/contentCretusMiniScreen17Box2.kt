@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen17.contentCretusMiniScreen17
 
 
 
@@ -7,6 +7,7 @@ package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cret
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -18,11 +19,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Images.ReusableImage
-import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -43,12 +43,12 @@ fun contentCretusMiniScreen17Box2(data: MiniScreenData) {
 
 
         val estilosImagen = StyleImages(
-            modifier = Modifier.fillMaxWidth().height(45.dp),
+            modifier = Modifier.fillMaxWidth(),
             alignment = Alignment.BottomCenter
         )
 
         AppText(data, estiloTextos)
-        SpacerText()
+        Spacer(Modifier.height(15.dp))
         ReusableImage(data, estilosImagen)
     }
 }

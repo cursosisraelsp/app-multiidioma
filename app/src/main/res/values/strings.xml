@@ -26,8 +26,89 @@
     <string name="director">Director</string>
     <string name="directora">Directora</string>
 
+    <string name="Director">Director</string>
     <string name="Directora">Director</string>
     <string name="Secretaria">Secretary</string>
 
+    <string name="IGFAE_director">Director Científico del IGFAE</string>
+    <string name="IGFAE_catedratico_0">Professor of Theoretical Physics. Oportunius Research Professor</string>
+    <string name="IGFAE_investigador_0">Ramón y Cajal researcher at IGFAE</string>
+    <string name="IGFAE_catedratico_1">Professor of Theoretical Physics at the USC</string>
+    <string name="IGFAE_catedratico_2">Professor and Vice Dean of the Faculty of Physics at USC</string>
+
+
+    <string name="CRETUS_role_0">Director</string>
+
+    <string name="CRETUS_role_1">Deputy Director</string>
+
+    <string name="CRETUS_role_2">Senior Lecturer</string>
+    <string name="CRETUS_title_0">Zoology, Genetics and Physical Anthropology (Zoology Area)</string>
+    <string name="CRETUS_title_1">Biogeography Laboratory (BiBiCI)</string>
+
+    <string name="CRETUS_role_3">Professor of Chemical Engineering</string>
+    <string name="CRETUS_title_2"> Chemical Engineering</string>
+    <string name="CRETUS_title_3">Environmental Biotechnology (BIOGROUP)</string>
+
+    <string name="CRETUS_role_4">Associate Professor PhD</string>
+    <string name="CRETUS_title_4">Social, Basic and Methodological Psychology</string>
+    <string name="CRETUS_title_5">Faculty of Psychology (USC)</string>
+    <string name="CRETUS_title_6">Social Behaviour and Applied Psychometrics (COSOYPA)</string>
+
+    <string name="CRETUS_role_5">Emeritus Professor of Chemical Engineering</string>
+    <string name="CRETUS_title_7">Chemical Engineering</string>
+    <string name="CRETUS_title_8">Environmental Biotechnology (BIOGROUP)</string>
+
+    <string name="CRETUS_role_6">Professor of Analytical Chemistry</string>
+    <string name="CRETUS_title_9">Química Analítica, Nutrición e Bromatoloxía</string>
+    <string name="CRETUS_title_10">Laboratory for Research and Development of Analytical Solutions (LIDSA)</string>
+
+    <string name="CRETUS_role_7">Ramón y Cajal Researcher</string>
+    <string name="CRETUS_title_11">History (Archaeology Area)</string>
+    <string name="CRETUS_title_12">EcoPast</string>
+
+    <string name="CRETUS_role_8">Professor of Microbiology</string>
+    <string name="CRETUS_title_13">Microbiology and Parasitology</string>
+    <string name="CRETUS_title_14">Pathology in Aquaculture-GIPA</string>
+
+    <string name="CRETUS_role_9">Professor of Chemical Engineering</string>
+    <string name="CRETUS_title_15">Chemical Engineering</string>
+    <string name="CRETUS_title_16">Environmental Biotechnology (BIOGROUP)</string>
+
+    <string name="CRETUS_role_10">Professor</string>
+    <string name="CRETUS_title_17">Soil Science and Agricultural Chemistry</string>
+    <string name="CRETUS_title_18">Soil and landscape mapping, physico-chemistry, degradation and recovery of soils and water (AMBIOSOL)</string>
+
+    <string name="CRETUS_role_11">Professor</string>
+    <string name="CRETUS_title_19">Particle Physics (Condensed Matter Area)</string>
+    <string name="CRETUS_title_20">Non-Linear Physics Group (GFNL)</string>
+
+    <string name="CRETUS_role_12">Senior Lecturer and Oportunius Researcher</string>
+    <string name="CRETUS_title_21">Applied Economics</string>
+    <string name="CRETUS_title_22">EqualSeaLab</string>
+
+
+
+    <string name="IARCUS_role_0">Director</string>
+    <string name="IARCUS_role_1">Professor of Microbiology at the University</string>
+
+    <string name="IARCUS_role_2">Professor in the Area of Analytical Chemistry</string>
+
+    <string name="IARCUS_role_3">Senior Lecturer of Cell Biology at the University</string>
+
+    <string name="IARCUS_role_4">Senior Lecturer of Cell Biology at the University</string>
+
+    <string name="IARCUS_role_5">Professor in the Area of Parasitology</string>
+
+    <string name="IARCUS_role_6">Professor in the Area of Microbiology</string>
+
+    <string name="IARCUS_role_7">Senior Lecturer at the University in the Area of Theory and History of Education </string>
+
+    <string name="IARCUS_role_8">Professor in the Area of Microbiology</string>
+
+    <string name="IARCUS_role_9">Professor of Microbiology at the University</string>
+
+    <string name="IARCUS_role_10">Professor in the Area of Analytical Chemistry</string>
+
+    <string name="IARCUS_role_11">Professor in the Area of Analytical Chemistry</string>
 
 </resources>

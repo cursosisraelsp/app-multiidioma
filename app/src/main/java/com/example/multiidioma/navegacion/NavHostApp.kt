@@ -19,12 +19,12 @@ import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
+import com.example.multiidioma.navegacion.institutos.iarcusApp.IpsiusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.iceApp.IceAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ihusApp.IhusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.ilgApp.IlgAppNavegacion
 import com.example.multiidioma.navegacion.institutos.imatusApp.ImatusAppNavegacion
 import com.example.multiidioma.navegacion.institutos.inciforApp.InciforAppNavegacion
-import com.example.multiidioma.navegacion.institutos.ipsiusApp.IpsiusAppNavegacion
 import com.example.multiidioma.navegacion.minervaApp.MinervaAppNavegacion
 import com.example.multiidioma.navegacion.settingsApp.SettingsAppNavegacion
 import com.example.multiidioma.navegacion.startApp.StartAppNavHost
@@ -58,14 +58,14 @@ fun NavHostApp(
         InciforAppNavegacion(listState,navController)       // KIKE
         ImatusAppNavegacion(listState,navController)        // KIKE
         IlgAppNavegacion(listState, navController)          // FER
-        IpsiusAppNavegacion(listState,navController)
-        IarcusAppNavegacion(listState, navController)
+        IpsiusAppNavegacion(listState,navController)        // AND
+        IarcusAppNavegacion(listState, navController)       // AND
         //## CENTROS
         CiqusAppNavegacion(listState, navController)        // FER
         CimusAppNavegacion(listState, navController)        // KIKE
         CitiusAppNavegacion(listState,navController)        // KIKE
-        CretusAppNavegacion(listState,navController)
-        IgfaeAppNavegacion(listState,navController)
+        CretusAppNavegacion(listState,navController)        // AND
+        IgfaeAppNavegacion(listState,navController)         // AND
         IdisAppNavegacion(listState, navController)         // FER
         detailNavGraph(navController,onClose = onOpenMap,listState)
 

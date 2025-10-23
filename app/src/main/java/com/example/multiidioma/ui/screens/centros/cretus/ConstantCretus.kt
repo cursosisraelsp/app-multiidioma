@@ -30,12 +30,12 @@ val CirculoDiminuto = 140.dp
 val CirculoMicro = 110.dp
 
 // 🔢 Tamaño del número dentro del círculo (relación proporcional)
-val NumeroGigante   = (300 / des.density).sp
-val NumeroGrande    = (240 / des.density).sp
-val NumeroMediano   = (180 / des.density).sp
-val NumeroPequeno   = (140 / des.density).sp
-val NumeroDiminuto  = (120 / des.density).sp
-val NumeroMicro     = (100 / des.density).sp
+val NumeroGigante = (300 / des.density).sp
+val NumeroGrande = (240 / des.density).sp
+val NumeroMediano = (180 / des.density).sp
+val NumeroPequeno = (140 / des.density).sp
+val NumeroDiminuto = (120 / des.density).sp
+val NumeroMicro = (100 / des.density).sp
 
 // 🔠 Tamaño de letra general
 val LetraGigante = (96 / des.density).sp      // ~38sp
@@ -68,7 +68,6 @@ val anchoTextoMediano = CirculoMediano * porcentajeAnchoTextoMediano
 val anchoTextoPequeno = CirculoPequeno * porcentajeAnchoTextoPequeno
 val anchoTextoDiminuto = CirculoDiminuto * porcentajeAnchoTextoDiminuto
 val anchoTextoMicro = CirculoMicro * porcentajeAnchoTextoMicro
-
 
 
 ///////////////CIRCULOS DE LOS CENTROS/////////////////
@@ -185,15 +184,13 @@ val valorFiguraCretus7 = NavegationFiguresData(
 )
 
 
-
-
 /// INVESTIGADORES
 
 val mtmCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Teresa Moreira",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_0,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_23_paragraph_0,
         R.string.CS_CRETUS_miniscreen_23_paragraph_1,
@@ -209,7 +206,7 @@ val sfCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Sarah Fiol",
     title = null,
-    role = null,
+    role = R.string.CRETUS_role_1,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_24_title_1,
         R.string.CS_CRETUS_miniscreen_24_texto_buscado_1,
@@ -227,8 +224,8 @@ val sfCretus = PersonResearcher(
 val abfCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Andrés Baselga Fraga",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_0, R.string.CRETUS_title_1,
+    role = R.string.CRETUS_role_2,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_25_title_1,
         R.string.CS_CRETUS_miniscreen_25_texto_buscado_1,
@@ -252,8 +249,8 @@ val abfCretus = PersonResearcher(
 val gfcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Gumersindo Feijoo Costa",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_2, R.string.CRETUS_title_3,
+    role = R.string.CRETUS_role_3,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_26_title_1,
         R.string.CS_CRETUS_miniscreen_26_texto_buscado_1,
@@ -289,8 +286,10 @@ val gfcCretus = PersonResearcher(
 val cgrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Cristina Gómez-Román",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_4,
+    R.string.CRETUS_title_5,
+    R.string.CRETUS_title_6,
+    role = R.string.CRETUS_role_4,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_27_title_1,
         R.string.CS_CRETUS_miniscreen_27_texto_buscado_1,
@@ -318,8 +317,9 @@ val cgrCretus = PersonResearcher(
 val jmlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Juan M. Lema Rodicio",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_7,
+    R.string.CRETUS_title_8,
+    role = R.string.CRETUS_role_5,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_28_title_1,
         R.string.CS_CRETUS_miniscreen_28_texto_buscado_1,
@@ -347,8 +347,8 @@ val jmlrCretus = PersonResearcher(
 val mlvCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "María Llompart Vizoso",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_9,R.string.CRETUS_title_10,
+    role = R.string.CRETUS_role_6,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_29_paragraph_0,
         R.string.CS_CRETUS_miniscreen_29_paragraph_1,
@@ -373,8 +373,8 @@ val mlvCretus = PersonResearcher(
 val olcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Olalla López Costas",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_11,R.string.CRETUS_title_12,
+    role = R.string.CRETUS_role_7,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_30_paragraph_0,
         R.string.CS_CRETUS_miniscreen_30_paragraph_1,
@@ -395,8 +395,8 @@ val olcCretus = PersonResearcher(
 val jlrCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Jesús López Romalde",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_13,R.string.CRETUS_title_14,
+    role = R.string.CRETUS_role_8,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_31_paragraph_0,
         R.string.CS_CRETUS_miniscreen_31_paragraph_1,
@@ -417,8 +417,8 @@ val jlrCretus = PersonResearcher(
 val amcCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Anuska Mosquera Corral",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_15,R.string.CRETUS_title_16,
+    role = R.string.CRETUS_role_9,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_32_paragraph_0,
         R.string.CS_CRETUS_miniscreen_32_paragraph_1,
@@ -437,8 +437,8 @@ val amcCretus = PersonResearcher(
 val xlopCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Xosé Lois Otero Pérez",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_17,R.string.CRETUS_title_18,
+    role = R.string.CRETUS_role_10,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_33_paragraph_0,
         R.string.CS_CRETUS_miniscreen_33_paragraph_1,
@@ -470,8 +470,8 @@ val xlopCretus = PersonResearcher(
 val vpmCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Vicente Pérez Muñuzuri",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_19,R.string.CRETUS_title_20,
+    role = R.string.CRETUS_role_11,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_34_paragraph_0,
         R.string.CS_CRETUS_miniscreen_34_paragraph_1,
@@ -486,8 +486,8 @@ val vpmCretus = PersonResearcher(
 val svlCretus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Sebastián Villasante Larramendi",
-    title = null,
-    role = null,
+    title = R.string.CRETUS_title_21,R.string.CRETUS_title_22,
+    role = R.string.CRETUS_role_12,
     info = listOf(
         R.string.CS_CRETUS_miniscreen_35_paragraph_0,
         R.string.CS_CRETUS_miniscreen_35_paragraph_1,
@@ -497,4 +497,18 @@ val svlCretus = PersonResearcher(
 )
 
 
-val datosInvestigadoresCretus = listOf(mtmCretus, sfCretus, abfCretus, gfcCretus, cgrCretus, jmlrCretus, mlvCretus,olcCretus,jlrCretus,amcCretus,xlopCretus,vpmCretus,svlCretus )
+val datosInvestigadoresCretus = listOf(
+    mtmCretus,
+    sfCretus,
+    abfCretus,
+    gfcCretus,
+    cgrCretus,
+    jmlrCretus,
+    mlvCretus,
+    olcCretus,
+    jlrCretus,
+    amcCretus,
+    xlopCretus,
+    vpmCretus,
+    svlCretus
+)

@@ -1,26 +1,50 @@
-package com.example.multiidioma.ui.screens.centros.cretus.cretusMiniScreens.cretusMiniScreen3.contentCretusMiniScreen3
+package com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen3.contentCretusMiniScreen3
 
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
+import com.example.multiidioma.R
+import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.ui.components.SpacerText
+import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun ContentCretusMiniScreen3Box2() {
+fun ContentCretusMiniScreen3Box2(
+    data: MiniScreenData, listState: LazyListState,
+    itemIndex: Int,
+) {
     Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
         modifier = Modifier
-            .padding(top = 50.dp)
+            .fillMaxSize()
+            .padding(start = 50.dp, end = 50.dp, top = 15.dp)
+
     ) {
-        CircleLineComponent(
 
+        val estiloTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium,
+            color = (Color(0xFFFFFFFF)),
+            textAlign = TextAlign.Center
+        );
+
+        AppText(data, estiloTextos, index = 0)
+        AppText(data, estiloTextos, index = 1)
+        SpacerText()
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxWidth(), alignment = Alignment.BottomCenter
         )
+        GifComponent(gif = R.drawable.noimagen)
     }
-
 }
