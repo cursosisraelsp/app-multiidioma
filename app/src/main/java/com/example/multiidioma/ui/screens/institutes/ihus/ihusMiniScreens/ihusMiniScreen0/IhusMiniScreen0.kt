@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.contentIhusMiniScreen0.contentIhusMiniScreen0Box2
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.contentIhusMiniScreen0.contentIhusMiniScreenBox3
 
@@ -31,8 +32,7 @@ fun IhusMiniScreen0(
                 .fillMaxSize()
         ) {
 
-            VideoScreen(videoId = "92UgRKX8ooM", // tu ID de video
-                modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
+            VimeoWebViewComponent(identificador = "1124127587",width="425px", height = "800px")
         }
             Box(
                 modifier = modifier

@@ -21,7 +21,7 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_1_paragraph_0,
                     R.string.CS_CIQUS_miniscreen_1_paragraph_1,
                 ),
-                imageRes = R.drawable.ciqus_img_01
+                imageRes = R.drawable. ciqus_img_01
             ),
 
             MiniScreenData(
@@ -105,8 +105,7 @@ class CiqusRepository {
             MiniScreenData(
                 id = 8,
                 bodyParagraphs = listOf(
-                    R.string.CS_IDIS_miniscreen_8_title_0,
-                    R.string.CS_IDIS_miniscreen_8_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_8_paragraph_0,
                 ),
                 imageRes = R.drawable.idis_img_06
             ),
@@ -115,9 +114,7 @@ class CiqusRepository {
             MiniScreenData(
                 id = 9,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_9_title_0,
-                    R.string.CS_IDIS_miniscreen_9_title_1,
-                    R.string.CS_IDIS_miniscreen_9_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_9_paragraph_0,
                 ),
                 imageRes = R.drawable.idis_img_07
             ),
@@ -125,26 +122,22 @@ class CiqusRepository {
             MiniScreenData(
                 id = 10,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_10_title_0,
-                    R.string.CS_IDIS_miniscreen_10_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_10_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_08
 
-            ),
+                ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_11_title_0,
-                    R.string.CS_IDIS_miniscreen_11_title_1,
-                    R.string.CS_IDIS_miniscreen_11_title_2,
-                    R.string.CS_IDIS_miniscreen_11_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_11_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_11_paragraph_1,
+                    R.string.CS_CIQUS_miniscreen_11_paragraph_2,
                 ),
-                imageRes = R.drawable.idis_img_09
             ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_12_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_12_title_0,
                 ),
             ),
             MiniScreenData(
@@ -160,7 +153,8 @@ class CiqusRepository {
             MiniScreenData(
                 id = 14,
                 bodyParagraphs =listOf(
-                    R.string.CS_IDIS_miniscreen_14_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_24_paragraph_0,
+                    R.string.CS_CIQUS_miniscreen_24_title_0,
                 ),
             ),
 

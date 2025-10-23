@@ -1,4 +1,5 @@
 package com.example.multiidioma.ui.screens.ihus
+
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
@@ -16,6 +17,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
@@ -59,7 +61,7 @@ fun IhusScreen(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(screens) { data ->
+                itemsIndexed (screens) { index, data ->
                     when (data.id) {
                         0 -> IhusMiniScreen0(
                             data,
@@ -72,15 +74,16 @@ fun IhusScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-
+                                .fillParentMaxHeight(),
                         )
 
                         2 -> IhusMiniScreen2(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            listState = listState,
+                            itemIndex = index
                         )
 
                         3 -> IhusMiniScreen3(
@@ -96,22 +99,24 @@ fun IhusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         5 -> IhusMiniScreen5(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         6 -> IhusMiniScreen6(
                             data,
                             navController,
                             Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight(),
+                                .fillMaxWidth()
+                                .fillParentMaxHeight(),
 
 
+                            )
 
-                        )
                         7 -> IhusMiniScreen7(
                             data,
                             navController,
@@ -119,6 +124,7 @@ fun IhusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
+
                         8 -> IhusMiniScreen8(
                             data,
                             navController,
@@ -126,6 +132,7 @@ fun IhusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
+
                         9 -> IhusMiniScreen9(
                             data,
                             Modifier
@@ -155,6 +162,7 @@ fun IhusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         14 -> IhusMiniScreen14(
                             data,
                             Modifier

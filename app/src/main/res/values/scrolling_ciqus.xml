@@ -77,8 +77,8 @@
     <!-- PANTALLA 8 -->
     <string name="CS_CIQUS_miniscreen_7_title_0">SYNTHETIC</string>
     <string name="CS_CIQUS_miniscreen_7_title_1">TECHNOLOGIES</string>
-    <string name="CS_CIQUS_miniscreen_7_title_2">FOR SUSTAINNABLE</string>
-    <string name="CS_CIQUS_miniscreen_7_title_3"></string>
+    <string name="CS_CIQUS_miniscreen_7_title_2">FOR SUSTAI-</string>
+    <string name="CS_CIQUS_miniscreen_7_title_3">NABLE</string>
     <string name="CS_CIQUS_miniscreen_7_title_4">DEVELOPMENT</string>
     <string name="CS_CIQUS_miniscreen_7_paragraph_0">They develop chemical processes that transform common and abundant raw materials into valuable products, always with a focus on sustainability and efficiency.</string>
     <string name="CS_CIQUS_miniscreen_7_texto_buscado_0">transform common and abundant raw materials into valuable products</string>
@@ -255,6 +255,9 @@
     <string name="CS_CIQUS_miniscreen_24_paragraph_0">If you are interested in learning more about CIQUS, you can access further information by clicking on the following link:</string>
     <string name="CS_CIQUS_miniscreen_24_texto_buscado_0">learning more</string>
     <string name="CS_CIQUS_miniscreen_24_title_0" translatable="false">https://www.usc.es/ciqus/es</string>
+    <string name="CS_CIQUS_miniscreen_4_paragraph_2">TECNOLOGIC MATERIALS</string>
+    <string name="CS_CIQUS_miniscreen_4_paragraph_3">BIOLOGICAL AND MEDICAL CHEMISTRY</string>
+    <string name="CS_CIQUS_miniscreen_4_paragraph_4">SUSTAINABLE TECNOLOGIES</string>
 
 
 </resources>
