@@ -7,30 +7,24 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.navigation.NavController
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.types.Podcast
+import com.example.multiidioma.ui.components.Templates.LazyRowScreenTemplate
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box1
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box2
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.contentIarcusMiniScreen16.contentIarcusMiniScreen16Box3
 
 @Composable
-fun IarcusMiniScreen16(
+fun IarcusMiniscreen16(
     data: MiniScreenData,
-    modifier: Modifier = Modifier,
+    navController: NavController,
+    podcasts: List<Podcast>,
+    modifier: Modifier = Modifier
 ) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color(0xFF32627E))
-    ) {
-        TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.50f, Box3 = 0.30f),
-            data = data,
-            Box1 = { contentIarcusMiniScreen16Box1() },
-            Box2 = { contentIarcusMiniScreen16Box2(it) },
-            Box3 = { contentIarcusMiniScreen16Box3(it)})
-    }
+    LazyRowScreenTemplate(data,navController,podcasts)
 }
 
 

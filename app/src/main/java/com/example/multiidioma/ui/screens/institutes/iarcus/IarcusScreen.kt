@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen0a.IarcusMiniScreen0
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen1.IarcusMiniScreen1
@@ -27,6 +28,7 @@ import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScre
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen14.IarcusMiniScreen14
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen15.IarcusMiniScreen15
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.IarcusMiniScreen16
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen16.IarcusMiniscreen16
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen2.IarcusMiniScreen2
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen28www.IarcusMiniScreen28
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.iarcusMiniScreens.iarcusMiniScreen3.IarcusMiniScreen3
@@ -61,7 +63,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                itemsIndexed (screens) { index,data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
                         0 -> IarcusMiniScreen0(
                             data,
@@ -75,7 +77,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                                    listState = listState,
+                            listState = listState,
                             itemIndex = index
                         )
 
@@ -83,8 +85,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-                            ,
+                                .fillParentMaxHeight(),
                             listState = listState,
                             itemIndex = index
                         )
@@ -116,6 +117,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         7 -> IarcusMiniScreen7(
                             data,
                             navController,
@@ -131,6 +133,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         9 -> IarcusMiniScreen9(
                             data,
                             navController,
@@ -146,6 +149,7 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         11 -> IarcusMiniScreen11(
                             data,
                             navController,
@@ -160,110 +164,39 @@ fun IarcusScreen(listState: LazyListState, navController: NavController) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         13 -> IarcusMiniScreen13(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         14 -> IarcusMiniScreen14(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-                            ,
+                                .fillParentMaxHeight(),
                             listState = listState,
                             itemIndex = index
                         )
+
                         15 -> IarcusMiniScreen15(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        16 -> IarcusMiniScreen16(
+
+                        16 -> IarcusMiniscreen16(
                             data,
+                            navController,
+                            podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        /*17 -> IarcusMiniScreen17(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        18 -> IarcusMiniScreen18(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        19 -> IarcusMiniScreen19(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        20 -> IarcusMiniScreen20(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        21 -> IarcusMiniScreen21(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        22 -> IarcusMiniScreen22(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        23 -> IarcusMiniScreen23(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        24 -> IarcusMiniScreen24(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        25 -> IarcusMiniScreen25(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        26 -> IarcusMiniScreen26(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )
-                        27 -> IarcusMiniScreen27(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight()
-                        )*/
+
                         28 -> IarcusMiniScreen28(
                             data,
                             Modifier

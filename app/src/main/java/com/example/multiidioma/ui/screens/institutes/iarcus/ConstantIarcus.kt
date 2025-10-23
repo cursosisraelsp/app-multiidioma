@@ -299,6 +299,7 @@ val mrrrIarcus = PersonResearcher(
     ),
     contentType = ContentType.PLANTILLA
 )
+
 val irpIarcus = PersonResearcher(
     foto = R.drawable.cientifico,
     name = "Isaac Rodríguez Pereiro",

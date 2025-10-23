@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.institutes.ipsius_andre.ipsiusMiniScreens.ipsiusMiniScreen19
+package com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21
 
 
 import androidx.compose.runtime.Composable
@@ -6,19 +6,18 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
-import com.example.multiidioma.ui.components.Templates.LazyRowNoClickScreenTemplate
+import com.example.multiidioma.ui.components.Templates.LazyRowScreenTemplate
 
 
 @Composable
-fun IpsiusMiniscreen19(
+fun IgfaeMiniscreen23(
     data: MiniScreenData,
     navController: NavController,
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowNoClickScreenTemplate(data,navController,podcasts)
+    LazyRowScreenTemplate(data,navController,podcasts)
 }
-
 
 
 

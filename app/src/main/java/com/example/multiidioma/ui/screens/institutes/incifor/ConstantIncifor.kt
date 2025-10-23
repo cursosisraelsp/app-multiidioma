@@ -251,5 +251,4 @@ val ammIncifor =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-
 val datosInvestigadoresIncifor = listOf(ambbIncifor, issIncifor,mvlhIncifor,jimbIncifor,aclIncifor,favpsIncifor,sbbcIncifor,acrIncifor,ggcIncifor,elbIncifor,msrcIncifor,msrcIncifor,aseIncifor,mjtdIncifor,mivaIncifor,iaflIncifor,pcflIncifor,mcpvIncifor,amfaIncifor,alrIncifor,ammIncifor)

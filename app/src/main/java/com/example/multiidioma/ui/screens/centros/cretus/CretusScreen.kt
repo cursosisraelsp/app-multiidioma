@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen0a.CretusMiniScreen0
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen1.CretusMiniScreen1
@@ -35,6 +36,7 @@ import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen20.CretusMiniScreen20
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen21.CretusMiniScreen21
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen22.CretusMiniScreen22
+import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen22.CretusMiniscreen22
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen3.CretusMiniScreen3
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen36www.CretusMiniScreen36
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen4a.CretusMiniScreen4
@@ -245,90 +247,15 @@ fun CretusScreen(listState: LazyListState, navController: NavController) {
                             itemIndex = index
                         )
 
-                        22 -> CretusMiniScreen22(
+                        22 -> CretusMiniscreen22(
                             data,
+                            navController,
+                            podcastsMultimedia,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
-                        /*23 -> CretusMiniScreen23(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    24 -> CretusMiniScreen24(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    25 -> CretusMiniScreen25(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    26 -> CretusMiniScreen26(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    27 -> CretusMiniScreen27(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    28 -> CretusMiniScreen28(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    29 -> CretusMiniScreen29(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    30 -> CretusMiniScreen30(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    31 -> CretusMiniScreen31(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    32 -> CretusMiniScreen32(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    33 -> CretusMiniScreen33(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    34 -> CretusMiniScreen34(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )
-                    35 -> CretusMiniScreen35(
-                        data,
-                        Modifier
-                            .fillMaxWidth()
-                            .fillParentMaxHeight()
-                    )*/
+
                         36 -> CretusMiniScreen36(
                             data,
                             Modifier
