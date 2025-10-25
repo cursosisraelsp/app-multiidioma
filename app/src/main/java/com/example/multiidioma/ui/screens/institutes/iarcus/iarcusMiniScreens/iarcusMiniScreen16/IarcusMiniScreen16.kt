@@ -15,7 +15,7 @@ fun IarcusMiniscreen16(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowScreenTemplate(data,navController,podcasts)
+    LazyRowScreenTemplate(data, navController, podcasts, "iarcus", "Carlos Pereira Dopazo", "José Benito Quintana Álvarez")
 }
 
 

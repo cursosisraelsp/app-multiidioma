@@ -33,7 +33,6 @@ class IhusViewModel : ViewModel() {
                     listaIhusRepository.getData(10),
                     listaIhusRepository.getData(11),
                     listaIhusRepository.getData(12),
-                    listaIhusRepository.getData(13),
                     listaIhusRepository.getData(14),
 
                     )

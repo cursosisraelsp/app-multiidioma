@@ -16,7 +16,7 @@ fun IgfaeMiniscreen23(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowScreenTemplate(data,navController,podcasts)
+    LazyRowScreenTemplate(data,navController,podcasts, "igfae", "Carlos Alberto Salgado López")
 }
 
 

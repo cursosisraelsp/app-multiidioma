@@ -15,5 +15,5 @@ fun ImatusMiniScreen13(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowScreenTemplate(data,navController,podcasts)
+    LazyRowScreenTemplate(data,navController,podcasts, "imatus", "Carmen Álvarez Lorenzo", "Josefa Salgado Carballo")
 }

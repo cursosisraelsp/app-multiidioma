@@ -11,11 +11,7 @@ import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 @Composable
 fun contentIhusMiniScreen9Box1(data: MiniScreenData) {
 
-    Column(modifier = Modifier.fillMaxSize()){
+    Column(modifier = Modifier.fillMaxSize()) {
         LineVerticalComponent(color = Color.White)
     }
-
-
-
-
 }

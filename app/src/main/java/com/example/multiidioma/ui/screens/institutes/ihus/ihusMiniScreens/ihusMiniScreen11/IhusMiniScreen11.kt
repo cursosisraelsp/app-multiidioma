@@ -25,7 +25,7 @@ fun IhusMiniScreen11(
             .background(Color(0xFF32627E))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.7f, Box3 = 0.3f),
+            BoxWeight = BOX(Box1 = 0.45f, Box2 = 0.40f, Box3 = 0.15f),
             data = data,
             Box1 = { contentIhusMiniScreen11Box1() },
             Box2 = { contentIhusMiniScreen11Box2(it)  },

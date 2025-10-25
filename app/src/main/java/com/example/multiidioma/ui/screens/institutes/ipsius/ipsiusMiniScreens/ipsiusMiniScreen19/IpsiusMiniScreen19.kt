@@ -16,7 +16,14 @@ fun IpsiusMiniscreen19(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowNoClickScreenTemplate(data,navController,podcasts)
+    LazyRowNoClickScreenTemplate(
+        data,
+        navController,
+        podcasts,
+        "ipsius",
+        "Isabel Fraga Carou",
+        "Socorro Rodríguez Holguín"
+    )
 }
 
 

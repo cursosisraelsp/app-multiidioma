@@ -15,7 +15,7 @@ fun IlgMiniScreen15(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowNoClickScreenTemplate(data,navController,podcasts)
+    LazyRowNoClickScreenTemplate(data,navController,podcasts, "ilg", "Elisa Fernández Rei", "María Álvarez de la Granja")
 
 
     }

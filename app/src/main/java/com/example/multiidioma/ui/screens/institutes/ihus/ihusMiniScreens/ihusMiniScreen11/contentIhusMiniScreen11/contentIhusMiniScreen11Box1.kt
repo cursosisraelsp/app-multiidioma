@@ -20,6 +20,6 @@ fun contentIhusMiniScreen11Box1(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        GifComponent(gif = R.raw.incifor_anim_pantalla_embajadores)
+        GifComponent(gif = R.raw.incifor_anim_pantalla_embajadores) //ihus_anim_04
     }
 }

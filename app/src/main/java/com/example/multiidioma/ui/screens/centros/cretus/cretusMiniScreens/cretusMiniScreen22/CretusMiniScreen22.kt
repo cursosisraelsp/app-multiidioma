@@ -16,7 +16,7 @@ fun CretusMiniscreen22(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowScreenTemplate(data,navController,podcasts)
+    LazyRowScreenTemplate(data,navController,podcasts, "cretus", "María Teresa Moreira", "SARAH FIOL")
 }
 
 

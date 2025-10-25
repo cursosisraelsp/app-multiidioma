@@ -21,7 +21,6 @@ fun CiqusMiniScreen13(
         navController,
         podcasts,
         "ciqus",
-        "Ana María Bermejo Barrera",
-        "Inés Sánchez Sellero"
+        "Diego Peña",
     )
 }
