@@ -5,6 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
+import com.example.multiidioma.ui.components.Templates.LazyRowNoClickScreenTemplate
 import com.example.multiidioma.ui.components.Templates.LazyRowScreenTemplate
 
 
@@ -15,5 +16,12 @@ fun CiqusMiniScreen13(
     podcasts: List<Podcast>,
     modifier: Modifier = Modifier
 ) {
-    LazyRowScreenTemplate(data, navController, podcasts)
+    LazyRowScreenTemplate(
+        data,
+        navController,
+        podcasts,
+        "ciqus",
+        "Ana María Bermejo Barrera",
+        "Inés Sánchez Sellero"
+    )
 }

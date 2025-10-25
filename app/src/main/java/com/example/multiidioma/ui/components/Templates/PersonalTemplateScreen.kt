@@ -30,8 +30,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
+import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.PersonalResearcher
+import com.example.multiidioma.ui.theme.robotoFamily
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
+import com.example.multiidioma.utils.TextBodyMedium
+import com.example.multiidioma.utils.TextDisplayMedium
+import com.example.multiidioma.utils.TextTitleMedium
 
 @Composable
     fun PersonalTemplateScreen(
@@ -103,7 +108,7 @@ import com.example.multiidioma.utils.TemplateCircleScreenUtils.ArrowImageUtil
             // Body Medium
             Column {
                 infoResearchers.info.forEachIndexed { index, stringId ->
-                    if (index > 1 && (index != infoResearchers.info.lastIndex - 1)) { // omite los índices 0 y 1
+                    if (index > 2 && (index != infoResearchers.info.lastIndex - 1)) { // omite los índices 0 y 1
                         stringId?.let {
                             Text(text = stringResource(id = it))
                         }
