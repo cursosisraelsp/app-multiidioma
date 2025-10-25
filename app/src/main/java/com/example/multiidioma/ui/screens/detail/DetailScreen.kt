@@ -47,11 +47,6 @@ fun DetailScreen(
     modifier: Modifier
 ) {
     val state by detailViewModel.detailScreenState.collectAsState() // viene de val detailScreenState: StateFlow<DetailScreenState> = _detailScreenState.asStateFlow()
-    onClose: () -> Unit,
-    listState: LazyListState,
-    )
-    val state by detailViewModel.detailScreenState.collectAsState()
-
 
     val listSingulars = state.detailListSingularsCenters
     val listInstitus = state.detailListInstitus
@@ -65,29 +60,7 @@ fun DetailScreen(
         mapOpened = true
     }
     when {
-        imaxenClick == null || listSingulars == null -> {
-            CircularProgressIndicator()
-        }
 
-        imaxenClick != null -> {
-            Box(modifier = Modifier.fillMaxSize()) {
-                when (imaxenClick.contentType) {
-                    is ContentType.MultimediaContent -> MultimediaScreen()
-                    is ContentType.MinervaContent -> Text(text = "Estou en minerva")
-                    //is ContentType.MapContent -> MapScreen(onClose = {showMap = false})
-                    /*is ContentType.MapContent -> {
-                        // En vez de abrir el MapScreen aquí,
-                        // dispara el overlay:
-                        onClose()
-                    }*/
-                    is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
-                    is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
-                    is ContentType.MinervaContent -> MinervaScreen()
-
-                    else -> Text("screen non atopado")
-                }
-            }
-        }
 
         listSingulars != null -> {
 
