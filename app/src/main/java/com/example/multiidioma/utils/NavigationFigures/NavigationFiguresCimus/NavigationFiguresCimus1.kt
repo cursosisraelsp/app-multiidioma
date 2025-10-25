@@ -17,8 +17,5 @@ fun NavigationFiguresCimus1(navController: NavController) {
     NavigationFiguresComponent(valorFiguraCimus2, navController)
     NavigationFiguresComponent(valorFiguraCimus3, navController)
     NavigationFiguresComponent(valorFiguraCimus4, navController)
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> scrolling-kike-cambios-sin-probar
+

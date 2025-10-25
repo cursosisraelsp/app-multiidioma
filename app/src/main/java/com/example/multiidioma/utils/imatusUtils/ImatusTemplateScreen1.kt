@@ -1,14 +1,7 @@
 package com.example.multiidioma.utils.imatusUtils
 
-<<<<<<< HEAD
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-=======
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
->>>>>>> scrolling-kike-cambios-sin-probar
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -20,11 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
-<<<<<<< HEAD
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
-=======
-import com.example.multiidioma.ui.components.LineVerticalComponent
->>>>>>> scrolling-kike-cambios-sin-probar
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BackWithArrowButtonCircleTemplate
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.BodyTextCircleTemplateUtil
 import com.example.multiidioma.utils.TemplateCircleScreenUtils.CircleImageUtil

@@ -19,18 +19,6 @@
     <string name="centros_singulares">Centros singulares</string>
     <string name="institutos_investigacion">Institutos de investigación</string>
     <string name="institutosEcentros">Institutos y centros</string>
-    <string name="back_arrow">Atrás</string>
-    <string name="Directive_Team">EQUIPO DIRECTIVO</string>
-    <string name="MORE_INFO">MÁS INFO</string>
-    <string name="Research_Staff">PERSONAL INVESTIGADOR</string>
-    <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
-
-    <string name="director">Director</string>
-    <string name="directora">Directora</string>
-
-    <string name="Director">Director</string>
-    <string name="Directora">Directora</string>
-    <string name="Secretaria">Secretaria</string>
 
     <string name="IGFAE_director">Director Científico del IGFAE</string>
     <string name="IGFAE_catedratico_0">Catedrático de Física Teórica. Prof. Investigador Oportunius</string>
@@ -122,6 +110,7 @@
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
     <string name="default_title">SinTitulo</string>
     <string name="Directora">Directora</string>
+    <string name="Director">Director</string>
     <string name="Secretaria">Secretaría</string>
 
 

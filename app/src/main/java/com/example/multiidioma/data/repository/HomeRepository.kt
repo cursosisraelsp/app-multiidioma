@@ -72,4 +72,5 @@ val formasClickHome = listOf(
     imaxenClickCentrosSingulares,
     imaxenClickMinerva)
 
-val listaImaxesHome = ListaImaxenClickData(formasClickHome)
+/*
+val listaImaxesHome = ListaImaxenClickData(formasClickHome)*/

@@ -15,13 +15,6 @@ fun GetPersonalResearcherUtils(personal :  MutableList<PersonalResearcher2>): Li
             ruta = investigador.ruta,
             contentType = investigador.contentType
         )
-<<<<<<< HEAD
     }
     return lista1
-=======
-
-    }
-    return lista1
-
->>>>>>> scrolling-kike-cambios-sin-probar
 }

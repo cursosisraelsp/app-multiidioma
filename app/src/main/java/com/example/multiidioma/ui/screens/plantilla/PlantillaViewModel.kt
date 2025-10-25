@@ -9,17 +9,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-<<<<<<< HEAD
-
-=======
-import com.example.multiidioma.data.types.PersonalResearcher
->>>>>>> scrolling-kike-cambios-sin-probar
-import com.example.multiidioma.data.types.states.PlantillaState
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
-
 class PlantillaViewModel : ViewModel() {
     private val _uiState = MutableStateFlow<PlantillaState>(PlantillaState.Loading)
     val uiState: StateFlow<PlantillaState> = _uiState.asStateFlow()
@@ -34,13 +23,11 @@ class PlantillaViewModel : ViewModel() {
                     "imatus" -> repository.infoReaseachersImatus()
                     "citius" -> repository.infoReaseachersCitius()
                     "incifor" -> repository.infoReaseachersIncifor()
-<<<<<<< HEAD
                     "ipsius" -> repository.infoReaseachersIpsius()
                     "cretus" -> repository.infoReaseachersCretus()
                     "igfae" -> repository.infoReaseachersIgfae()
                     "iarcus" -> repository.infoReaseachersIarcus()
-=======
->>>>>>> scrolling-kike-cambios-sin-probar
+
                     else -> emptyList()
                 }
                 _uiState.value = PlantillaState.Success(lista)

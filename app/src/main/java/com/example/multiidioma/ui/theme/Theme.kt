@@ -47,10 +47,7 @@ val merriweatherFamily = FontFamily(
 // Configuración de tipografía
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 val AppTypography = Typography(
-<<<<<<< HEAD
 
-=======
->>>>>>> scrolling-kike-cambios-sin-probar
     bodyMedium = TextStyle(
         fontFamily = robotoFamily,
         fontSize = 16.sp
@@ -71,14 +68,12 @@ val AppTypography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 36.sp
     ),
-<<<<<<< HEAD
-=======
     displaySmall= TextStyle(
         fontFamily = merriweatherFamily,
         fontStyle = FontStyle.Italic,
         fontSize = 18.sp
     ),
->>>>>>> scrolling-kike-cambios-sin-probar
+
 
     displayMedium = TextStyle(
         fontFamily = merriweatherFamily,

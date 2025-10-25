@@ -1,7 +1,5 @@
 package com.example.multiidioma.navegacion
 
-
-//import com.example.multiidioma.ui.screens.institutes.incifor.inciforMiniScreens.InciforMiniScreen27.InciforMiniScreen27
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.lazy.LazyListState
@@ -16,8 +14,6 @@ import com.example.multiidioma.navegacion.centros.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.centros.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.centros.idisApp.IdisAppNavegacion
 import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
-import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
-import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
