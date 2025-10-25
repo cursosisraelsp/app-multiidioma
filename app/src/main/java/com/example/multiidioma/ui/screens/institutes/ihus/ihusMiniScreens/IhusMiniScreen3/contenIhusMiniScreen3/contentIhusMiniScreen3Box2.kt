@@ -5,37 +5,41 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIhusMiniScreen3Box2(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
+fun contentIhusMiniScreen3Box2(
+    data: MiniScreenData,
+    listState: LazyListState,
+    itemIndex: Int
+) {
+    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
+
     val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center, color = Color.Black
+        style = MaterialTheme.typography.bodyMedium,
+        textAlign = TextAlign.Center,
+        color = Color.Black
     )
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 40.dp, bottom = 15.dp, start = 50.dp, end = 50.dp)
     ) {
-
         AppText(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(5.dp))
 
-        ReusableImage(data, estilosImagen) //cambiar por IHUS_ANIM_02
+        LottieScrollWithOffsetComponent(R.raw.ihus_anim_02, listState, itemIndex)
     }
 }

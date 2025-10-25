@@ -36,7 +36,7 @@ fun IhusMiniScreen2(
             BoxWeight = BOX(Box1 = 0.1f, Box2 = 0.8f, Box3 = 0.1f),
             data = data,
             Box1 = { contentIhusMiniScreen2Box1() },
-            Box2 = { contentIhusMiniScreen2Box2(it, offset, listState, itemIndex) },
+            Box2 = { contentIhusMiniScreen2Box2(it, listState, itemIndex) },
             Box3 = { contentIhusMiniScreen2Box3() }
         )
     }

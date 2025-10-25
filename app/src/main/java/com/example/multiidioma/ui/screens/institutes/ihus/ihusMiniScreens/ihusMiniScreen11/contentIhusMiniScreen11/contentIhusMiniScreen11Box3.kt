@@ -7,7 +7,6 @@ import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 
 @Composable
-fun contentIhusMiniScreen11Box3(data: MiniScreenData) {
-
-    CircleLineComponent(color = Color.White)
+fun contentIhusMiniScreen11Box3() {
+    CircleLineComponent()
 }

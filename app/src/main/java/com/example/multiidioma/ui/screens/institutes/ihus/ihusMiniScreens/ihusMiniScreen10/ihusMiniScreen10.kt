@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -17,6 +18,8 @@ import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10.
 fun IhusMiniScreen10(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
+    listState: LazyListState,
+    itemIndex: Int,
 ) {
 
     Box(
@@ -28,7 +31,7 @@ fun IhusMiniScreen10(
             BoxWeight = BOX(Box1 = 0.2f, Box2 = 0.6f, Box3 = 0.2f),
             data = data,
             Box1 = { contentIhusMiniScreen10Box1(it) },
-            Box2 = { contentIhusMiniScreen10Box2(it)  },
+            Box2 = { contentIhusMiniScreen10Box2(it, listState, itemIndex)  },
             Box3 = { contentIhusMiniScreen10Box3(it)  },
         )
     }

@@ -1,5 +1,6 @@
 package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen11.contentIhusMiniScreen11
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -16,33 +17,19 @@ import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.TextTitleMedium
+import com.example.multiidioma.utils.TextTitleMediumRegular
 
 @Composable
 fun contentIhusMiniScreen11Box2(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyLarge,
-        textAlign = TextAlign.Center,
-
-        )
-    Column(modifier = Modifier.fillMaxSize()) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-               /* .padding(start = 20.dp, end = 20.dp, top = 25.dp, bottom = 25.dp)*/
-                .weight(0.7f)
-        ) {
-            ReusableImage(data, estilosImagen)
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(top = 30.dp)
-                .weight(0.3f)
-        ) {
-            AppText(data, estilosTextos)
-        }
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(start = 50.dp, end = 50.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        TextTitleMedium(data, index = 0, textAlign = TextAlign.Center)
+        TextTitleMediumRegular(data, index = 1, textAlign = TextAlign.Center)
     }
 }

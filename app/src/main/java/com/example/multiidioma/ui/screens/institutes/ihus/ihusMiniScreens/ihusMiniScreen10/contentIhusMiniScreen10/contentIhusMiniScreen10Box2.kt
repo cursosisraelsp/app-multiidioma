@@ -5,23 +5,32 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
-fun contentIhusMiniScreen10Box2(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
+fun contentIhusMiniScreen10Box2(
+    data: MiniScreenData,
+    listState: LazyListState,
+    itemIndex: Int
+) {
+    val itemInfo = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == itemIndex }
+
+    val offset = itemInfo?.let {
+        it.offset - listState.firstVisibleItemScrollOffset
+    } ?: 0
     val estilosTextos = StyleText(
         style = MaterialTheme.typography.bodyMedium,
         textAlign = TextAlign.Center,
@@ -38,9 +47,9 @@ fun contentIhusMiniScreen10Box2(data: MiniScreenData) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                /*.padding(start = 20.dp, end = 20.dp)*/
+            /*.padding(start = 20.dp, end = 20.dp)*/
         ) {
-            ReusableImage(data, estilosImagen)
+            LottieScrollWithOffsetComponent(R.raw.ihus_anim_03, listState, itemIndex)
         }
     }
 }

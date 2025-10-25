@@ -106,7 +106,7 @@ class IhusRepository {
                     R.string.II_IHUS_miniscreen_9_paragraph0,
                     R.string.II_IHUS_miniscreen_9_paragraph1,
                 ),
-                //imageRes = R.drawable.ihus_img_07 Falta Imagen
+                //imageRes = R.drawable.ihus_img_07 Falta imagen
 
             ),
 

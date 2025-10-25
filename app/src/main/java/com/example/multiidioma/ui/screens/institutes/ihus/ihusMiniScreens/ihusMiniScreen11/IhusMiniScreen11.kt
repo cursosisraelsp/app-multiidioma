@@ -27,9 +27,9 @@ fun IhusMiniScreen11(
         TemplateScreen(
             BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.7f, Box3 = 0.3f),
             data = data,
-            Box1 = { contentIhusMiniScreen11Box1(it) },
+            Box1 = { contentIhusMiniScreen11Box1() },
             Box2 = { contentIhusMiniScreen11Box2(it)  },
-            Box3 = { contentIhusMiniScreen11Box3(it)  },
+            Box3 = { contentIhusMiniScreen11Box3()  },
         )
     }
 }

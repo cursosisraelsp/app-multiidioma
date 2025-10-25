@@ -26,7 +26,6 @@ import com.example.multiidioma.ui.components.Text.AppText
 @Composable
 fun contentIhusMiniScreen2Box2(
     data: MiniScreenData,
-    offset: Int,
     listState: LazyListState,
     itemIndex: Int
 ) {
