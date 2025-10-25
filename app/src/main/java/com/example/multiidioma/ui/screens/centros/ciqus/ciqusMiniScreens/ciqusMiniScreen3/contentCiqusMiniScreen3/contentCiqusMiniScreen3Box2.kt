@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen3.contentCiqusMiniScreen3
 
-
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize

@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -14,15 +15,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+<<<<<<< HEAD
 import com.example.multiidioma.data.types.MiniScreenData
+=======
+import com.example.multiidioma.R
+>>>>>>> rama-integracion-fer
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.ui.components.LottieScrollWithOffsetComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 
 @Composable
-fun contentIhusMiniScreen2Box2(data: MiniScreenData) {
+fun contentIhusMiniScreen2Box2(data: MiniScreenData, offset: Int, listState: LazyListState, itemIndex: Int) {
     val estilosImagen = StyleImages(
         modifier = Modifier.fillMaxSize(), alignment = Alignment.Center
     )
@@ -50,7 +56,7 @@ fun contentIhusMiniScreen2Box2(data: MiniScreenData) {
                 .weight(0.3f)
         )
         {
-            ReusableImage(data, estilosImagen)
+            LottieScrollWithOffsetComponent(debuxoLottie = R.raw.ihus_anim_01, listState, itemIndex)
         }
     }
 }
