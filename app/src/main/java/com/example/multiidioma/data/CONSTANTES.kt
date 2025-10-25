@@ -37,7 +37,21 @@ val urlCretus = "https://cretus.usc.es/"
 val urlIarcus = "https://arcus.usc.es/"
 val urlIgfae = "https://igfae.usc.es/igfae/"
 val urlCiqus = " https://www.usc.es/ciqus/es"
-
+val urlRecursosApp = "https://raw.githubusercontent.com/cursosisraelsp/recursos-app-obradoiro-santiago-2025/main/EN_WEBP/"
+val centrosInstitutos = listOf("cimus","ciqus","citius","cretus","iarcus","ice","idis","igfae","ihus","ilga","imatus","incifor","raw")
+val centroCimus = centrosInstitutos[0]
+val centroCiqus = centrosInstitutos[1]
+val centroCitius = centrosInstitutos[2]
+val centroCretus = centrosInstitutos[3]
+val centroIarcus = centrosInstitutos[4]
+val centroIce = centrosInstitutos[5]
+val centroIdis = centrosInstitutos[6]
+val centroIgfae = centrosInstitutos[7]
+val centroIhus = centrosInstitutos[8]
+val centroIlga = centrosInstitutos[9]
+val centroImatus = centrosInstitutos[10]
+val centroIncifor = centrosInstitutos[11]
+val centroRaw = centrosInstitutos[12]
 data class BOX(
     val Box1: Float,
     val Box2: Float,

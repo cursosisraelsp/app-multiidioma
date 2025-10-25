@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,9 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
 
@@ -52,7 +55,15 @@ fun contentCiqusMiniScreen1Box2(data: MiniScreenData) {
                 .padding(start = 50.dp, end =50.dp, bottom = 10.dp)
         ) {
 
-            ReusableImage(data, estilosImagen)
+            //ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
+            /*AsyncImage(
+                model = "https://github.com/cursosisraelsp/recursos-app-obradoiro-santiago-2025/blob/main/EN_PNG/ciqus/ciqus_img_01.png",
+                contentDescription = "Imagen remota en formato WebP",
+
+                modifier = Modifier.size(200.dp),
+                contentScale = ContentScale.Crop
+            )*/
         }
 
     }
