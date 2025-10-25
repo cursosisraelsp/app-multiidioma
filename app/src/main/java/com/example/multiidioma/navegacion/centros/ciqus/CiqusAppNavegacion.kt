@@ -7,6 +7,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
 
 
 @RequiresApi(Build.VERSION_CODES.P)

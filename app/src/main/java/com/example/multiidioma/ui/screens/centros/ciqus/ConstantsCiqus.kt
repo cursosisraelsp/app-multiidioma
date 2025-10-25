@@ -5,9 +5,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
-import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
-import com.example.multiidioma.data.types.PersonResearcher
 
 val des = Resources.getSystem().displayMetrics
 val numLetra = (80/des.density).sp

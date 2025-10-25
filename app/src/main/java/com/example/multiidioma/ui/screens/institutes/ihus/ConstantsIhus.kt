@@ -5,114 +5,60 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.numNumeroGrande
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
+import com.example.multiidioma.ui.screens.centros.igfae_andre.anchoTextoGigante
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LetraGrande
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LetraMediana
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LineHeightMediana
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.NumeroMediano
+import com.example.multiidioma.ui.screens.institutes.iarcus_andre.anchoTextoMediano
 
-val des = Resources.getSystem().displayMetrics
-val numLetra = (80/des.density).sp
-val numLetra2 = ((40/des.density)).sp
-val relacionDimen = 300/150
-val relacionTexto = (90).dp
-val relacionTextoGrande = (175).dp
-val numNumeroGrande = ((317.9/des.density)).sp
 
-val numNumero = ((317.9/des.density)/relacionDimen).sp
-
-val valorFiguraIdis0 = NavegationFiguresData(
-    offset_x = 15.dp,
-    offset_y = 25.dp,
+val valorFiguraIhus0 = NavegationFiguresData(
+    offset_x = 35.dp,
+    offset_y = 225.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
     ruta = Destination.Ilg.route,
     numString = "01",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
+    relacionNum = com.example.multiidioma.ui.screens.centros.ciqus.numNumero,
+    textoInfo =  R.string.II_IHUS_miniscreen_5_paragraph1,
+    anchoTexto = com.example.multiidioma.ui.screens.centros.ciqus.relacionTexto,
+    lineHeight = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2,
+    relacionText = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2
 )
-val valorFiguraIdis1 = NavegationFiguresData(
-    offset_x = 175.dp,
-    offset_y = 35.dp,
+val valorFiguraIhus1 = NavegationFiguresData(
+    offset_x = 165.dp,
+    offset_y = 265.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 240.dp,
     ruta = Destination.Ilg.route,
     numString = "02",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTextoGrande,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
+    relacionNum = NumeroMediano,
+    textoInfo = R.string.II_IHUS_miniscreen_5_paragraph2,
+    anchoTexto = anchoTextoMediano,
+    lineHeight = LineHeightMediana,
+    relacionText = LetraMediana
 )
-val valorFiguraIdis2 = NavegationFiguresData(
-    offset_x = 15.dp,
-    offset_y = 175.dp,
+val valorFiguraIhus2 = NavegationFiguresData(
+    offset_x = 35.dp,
+    offset_y = 375.dp,
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 150.dp,
     ruta = Destination.Ilg.route,
     numString = "03",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
-)
-val valorFiguraIdis3 = NavegationFiguresData(
-    offset_x = 135.dp,
-    offset_y = 240.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 200.dp,
-    ruta = Destination.Ilg.route,
-    numString = "04",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
-)
-val valorFiguraIdis4 = NavegationFiguresData(
-    offset_x = 10.dp,
-    offset_y = 325.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 140.dp,
-    ruta = Destination.Ilg.route,
-    numString = "05",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
-)
-val valorFiguraIdis5 = NavegationFiguresData(
-    offset_x = 120.dp,
-    offset_y = 415.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.Ilg.route,
-    numString = "06",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
-)
-val valorFiguraIdis6 = NavegationFiguresData(
-    offset_x = 270.dp,
-    offset_y = 400.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 150.dp,
-    ruta = Destination.Ilg.route,
-    numString = "07",
-    relacionNum = numNumero,
-    textoInfo = R.string.CS_CIQUS_miniscreen_2_texto_buscado_2,
-    anchoTexto = relacionTexto,
-    relacionText = numLetra2,
-    lineHeight = 1.sp
+    relacionNum = com.example.multiidioma.ui.screens.centros.ciqus.numNumero,
+    textoInfo = R.string.II_IHUS_miniscreen_5_paragraph3,
+    anchoTexto = com.example.multiidioma.ui.screens.centros.ciqus.relacionTexto,
+    lineHeight = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2,
+    relacionText = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2
 )
 //Investigadores
 
-val mlcpIdis =  PersonResearcher(
+val mlcpIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_14,
     name = "Mª Luz Couce Pico",
     title = R.string.Directora,
@@ -120,7 +66,7 @@ val mlcpIdis =  PersonResearcher(
     info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
-val ilgIdis =  PersonResearcher(
+val ilgIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_15,
     name = "Isabel Lista García",
     title = null,
@@ -129,7 +75,7 @@ val ilgIdis =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val rllIdis = PersonResearcher(
+val rllIhus = PersonResearcher(
     foto = R.drawable.incifor_img_16,
     title = null,
     role = null,
@@ -138,7 +84,7 @@ val rllIdis = PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val acaIdis =  PersonResearcher(
+val acaIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_18_,
     name = "Ángel Carracedo Álvarez",
     title = null,
@@ -146,7 +92,7 @@ val acaIdis =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val mlgIdis =  PersonResearcher(
+val mlgIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_19,
     name = "Mabel Loza García",
     title = null,
@@ -154,7 +100,7 @@ val mlgIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val mamoIdis =  PersonResearcher(
+val mamoIhus =  PersonResearcher(
     foto = R.drawable.noimagen, //incifor_img_20
     name = "Miguel Ángel Martínez Olmos",
     title = null,
@@ -162,7 +108,7 @@ val mamoIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val lmscIdis =  PersonResearcher(
+val lmscIhus =  PersonResearcher(
     foto = R.drawable.noimagen,
     name = "Luisa Mª Seoane Camino",
     title = null,
@@ -170,7 +116,7 @@ val lmscIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val jllgIdis =  PersonResearcher(
+val jllgIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_22,
     name = "José Luis Labandeira García",
     title = null,
@@ -179,7 +125,7 @@ val jllgIdis =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val fcpIdis =  PersonResearcher(
+val fcpIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_23,
     name = "Francisco Campos Pérez",
     title = null,
@@ -187,7 +133,7 @@ val fcpIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val fgsIdis =  PersonResearcher(
+val fgsIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Francisco Gude Sampedro",
     title = null,
@@ -195,7 +141,7 @@ val fgsIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val izfIdis =  PersonResearcher(
+val izfIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Irene Zarra Ferro",
     title = null,
@@ -203,7 +149,7 @@ val izfIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val jrgjIdis =  PersonResearcher(
+val jrgjIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "José Ramón González Juanatey",
     title = null,
@@ -211,7 +157,7 @@ val jrgjIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val mrmIdis =  PersonResearcher(
+val mrmIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Moisés Rodríguez Mañero",
     title = null,
@@ -219,7 +165,7 @@ val mrmIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val fmtIdis =  PersonResearcher(
+val fmtIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Federico Martinón Torres",
     title = null,
@@ -227,7 +173,7 @@ val fmtIdis =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
-val rgbIdis =  PersonResearcher(
+val rgbIhus =  PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Rodolfo Gómez Bahamonde",
     title = null,
@@ -236,5 +182,5 @@ val rgbIdis =  PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val datosInvestigadoresIhus = listOf(mlcpIdis, ilgIdis, rllIdis, acaIdis, mlgIdis, mamoIdis,
-    lmscIdis, jllgIdis, fcpIdis, fgsIdis, izfIdis, jrgjIdis, mrmIdis, fmtIdis, rgbIdis)
+val datosInvestigadoresIhus = listOf(mlcpIhus, ilgIhus, rllIhus, acaIhus, mlgIhus, mamoIhus,
+    lmscIhus, jllgIhus, fcpIhus, fgsIhus, izfIhus, jrgjIhus, mrmIhus, fmtIhus, rgbIhus)

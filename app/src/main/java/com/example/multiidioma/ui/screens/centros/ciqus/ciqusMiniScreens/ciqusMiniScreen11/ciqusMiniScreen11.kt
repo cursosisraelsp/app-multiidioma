@@ -6,10 +6,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen11.contentCiqusMiniScreen11.contentCiqusMiniScreen11Box1
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen11.contentCiqusMiniScreen11.contentCiqusMiniScreen11Box2
 import com.example.multiidioma.ui.screens.ciqus.ciqusMiniScreens.ciqusMiniScreen11.contentCiqusMiniScreen11.contentCiqusMiniScreen11Box3

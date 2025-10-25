@@ -11,9 +11,9 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 import com.example.multiidioma.ui.components.VideoScreen
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6BodyText
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6CircleImage
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6TitleText
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6BodyText
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6CircleImage
+import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6.contentIhusMiniScreen6TitleText
 
 
 @Composable

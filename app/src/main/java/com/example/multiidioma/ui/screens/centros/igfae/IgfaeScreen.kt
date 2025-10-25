@@ -35,8 +35,8 @@ import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.i
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen2.IgfaeMiniScreen2
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen20.IgfaeMiniScreen20
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.IgfaeMiniScreen21
-import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen21.IgfaeMiniscreen23
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen22.IgfaeMiniScreen22
+import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen23.IgfaeMiniscreen23
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen29www.IgfaeMiniScreen29
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen3.IgfaeMiniScreen3
 import com.example.multiidioma.ui.screens.centros.igfae_andre.igfaeMiniScreens.igfaeMiniScreen4.IgfaeMiniScreen4
@@ -70,7 +70,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                itemsIndexed (screens) { index,data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
                         0 -> IgfaeMiniScreen0(
                             data,
@@ -84,7 +84,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                                    listState = listState,
+                            listState = listState,
                             itemIndex = index
                         )
 
@@ -93,7 +93,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                                    listState = listState,
+                            listState = listState,
                             itemIndex = index
                         )
 
@@ -102,7 +102,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
-                                    listState = listState,
+                            listState = listState,
                             itemIndex = index
                         )
 
@@ -247,8 +247,7 @@ fun IgfaeScreen(listState: LazyListState, navController: NavController) {
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
-                            ,
+                                .fillParentMaxHeight(),
                             listState = listState,
                             itemIndex = index
                         )

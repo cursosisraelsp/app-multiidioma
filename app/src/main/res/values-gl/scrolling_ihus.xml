@@ -8,9 +8,10 @@
     <string name="II_IHUS_miniscreen_3_paragraph0">A transversalidade e interdisciplinaridade son elementos claves para o iHUS, xa que para abordar as problemáticas propias do século XXI é necesario o entendemento non só entre as Humanidades, senón tamén coas disciplinas científico-técnicas como a Física, as Ciencias da Natureza, da Saúde ou a Informática.</string>
     <string name="II_IHUS_miniscreen_4_paragraph0">Actualmente conta con máis dun centenar de investigadores/as, 66 investigadores permanentes e 46 non permanentes, de campos como a Filoloxía, Filosofía, Historia, Historia da Arte ou a Xeografía, o que acentúa ese compromiso coa colaboración entre diversos campos científicos.</string>
     <string name="II_IHUS_miniscreen_5_paragraph0">A misión principal do iHUS é abordar de maneira crítica os retos actuais e futuros da nosa sociedade desde a perspectiva das Humanidades. Estes retos configúranse en tres prioridades, que pretenden ser complementarias pero non estáticas, abríndose á posibilidade de reformulalas en virtude dos cambios que nos depare o futuro.</string>
-    <string name="II_IHUS_miniscreen_5_button0">Boton01</string>
-    <string name="II_IHUS_miniscreen_5_button1">Boton02</string>
-    <string name="II_IHUS_miniscreen_5_button2">Boton03</string>
+    <string name="II_IHUS_miniscreen_5_paragraph1">Antropoceno, benestar e xustiza</string>
+    <string name="II_IHUS_miniscreen_5_paragraph2">Tecnociencia, Dixitalización e Mundos Virtuais</string>
+    <string name="II_IHUS_miniscreen_5_paragraph3">Identidades, Cambio Global e Mobilidades</string>
+
     <string name="II_IHUS_miniscreen_6_title0">ANTROPOCENO</string>
     <string name="II_IHUS_miniscreen_6_title1">BENESTAR E</string>
     <string name="II_IHUS_miniscreen_6_title2">XUSTIZA</string>

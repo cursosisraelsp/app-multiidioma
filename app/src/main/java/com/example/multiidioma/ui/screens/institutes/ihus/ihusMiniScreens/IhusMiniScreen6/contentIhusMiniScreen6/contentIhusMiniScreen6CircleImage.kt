@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6
+package com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.IhusMiniScreen6.contentIhusMiniScreen6
 
 import androidx.compose.runtime.Composable
 import com.example.multiidioma.data.types.MiniScreenData

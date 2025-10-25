@@ -35,7 +35,6 @@ import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen2.CretusMiniScreen2
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen20.CretusMiniScreen20
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen21.CretusMiniScreen21
-import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen22.CretusMiniScreen22
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen22.CretusMiniscreen22
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen3.CretusMiniScreen3
 import com.example.multiidioma.ui.screens.centros.cretus_andre.cretusMiniScreens.cretusMiniScreen36www.CretusMiniScreen36

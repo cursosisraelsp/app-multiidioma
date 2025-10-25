@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -17,12 +17,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
-<<<<<<< HEAD
-=======
-import androidx.compose.runtime.getValue
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.itemsIndexed
->>>>>>> rama-integracion-fer
 import androidx.navigation.NavController
 import com.example.multiidioma.data.repository.podcastsMultimedia
 import com.example.multiidioma.data.types.MiniScreenState
@@ -66,7 +60,7 @@ fun IhusScreen(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
             ) {
-                itemsIndexed (screens) { index, data ->
+                itemsIndexed(screens) { index, data ->
                     when (data.id) {
                         0 -> IhusMiniScreen0(
                             data,
@@ -109,34 +103,10 @@ fun IhusScreen(
                             data,
                             Modifier
                                 .fillMaxWidth()
-                                .fillParentMaxHeight()
+                                .fillParentMaxHeight(),
+                            navController
                         )
 
-                        6 -> IhusMiniScreen6(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-
-
-                            )
-
-                        7 -> IhusMiniScreen7(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                        )
-
-                        8 -> IhusMiniScreen8(
-                            data,
-                            navController,
-                            Modifier
-                                .fillMaxWidth()
-                                .fillParentMaxHeight(),
-                        )
 
                         9 -> IhusMiniScreen9(
                             data,

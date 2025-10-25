@@ -36,6 +36,6 @@ fun contentIhusMiniScreen3Box2(data: MiniScreenData) {
 
         Spacer(modifier = Modifier.height(5.dp))
 
-        ReusableImage(data, estilosImagen)
+        ReusableImage(data, estilosImagen) //cambiar por IHUS_ANIM_02
     }
 }

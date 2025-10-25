@@ -1,9 +1,11 @@
  package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.contentIhusMiniScreen0
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -19,9 +21,9 @@ fun contentIhusMiniScreen0Box2(data: MiniScreenData){
      Column(
          modifier = Modifier
              .fillMaxSize()
-             .padding(start = 40.dp, end = 40.dp)
-         /*.background(Color.Green)*/
-
+             .padding(start = 40.dp, end = 40.dp),
+         verticalArrangement = Arrangement.Center,
+         horizontalAlignment = Alignment.CenterHorizontally
      ) {
          AppText(data, estilosTextos)
 

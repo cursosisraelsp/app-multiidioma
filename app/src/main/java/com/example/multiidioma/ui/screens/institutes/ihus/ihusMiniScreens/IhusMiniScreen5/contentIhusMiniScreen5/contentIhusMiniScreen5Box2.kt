@@ -3,6 +3,7 @@ package com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen5.
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -13,38 +14,31 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
+import com.example.multiidioma.utils.NavigationFigures.NavigationFiguresIhus
+import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
-fun contentIhusMiniScreen5Box2(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomEnd
-    )
-    val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium,
-        textAlign = TextAlign.Center,
+fun contentIhusMiniScreen5Box2(data: MiniScreenData, navController: NavController) {
 
-        )
-    Column(modifier = Modifier.fillMaxSize()) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.3f)
-                .padding(start = 50.dp, end = 50.dp)
-                .background(Color.Green)
-        ) {
-            AppText(data, estilosTextos)
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.3f)
-        ) {
-            ReusableImage(data, estilosImagen)
-        }
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight(0.2f)
+            .padding(start = 50.dp, end = 50.dp, top = 50.dp)
+    ) {
+        TextBodyMedium(data, index = 0, textAlign = TextAlign.Center)
+    }
+
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+    ) {
+        NavigationFiguresIhus(navController)
     }
 }
