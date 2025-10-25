@@ -66,13 +66,12 @@ fun ScaffoldApp( topBarVisible: Boolean,bottomBarVisible: Boolean,languageViewMo
                 },
                 bottomBar = {
                     BottomBarUtils(
-                        //bottomBarVisible = bottomBarVisible,
-                        bottomBarVisible = true,
+                        bottomBarVisible = bottomBarVisible,
                         navController = navController
                     )
                 }
 
-            ) { padding  ->
+            ) { padding ->
                 NavHostApp(
                     navController = navController,
                     modifier = Modifier.padding(padding),

@@ -162,20 +162,8 @@ fun CitiusScreen(
                                 .fillMaxWidth()
                                 .fillParentMaxHeight(),
                         )
-*/
 
-                        /*18 -> CitiusMiniScreen18(data, navController)*/
-
-
-                        /*   19 -> CitiusMiniScreen19()
-                           20 -> CitiusMiniScreen20()
-                           21 -> CitiusMiniScreen21()
-                           22 -> CitiusMiniScreen22()
-                           23 -> CitiusMiniScreen23()
-                           24 -> CitiusMiniScreen24()
-                           25 -> CitiusMiniScreen25()*/
-
-                        /*26 -> CitiusMiniScreen26(
+                        26 -> CitiusMiniScreen26(
                             data,
                             Modifier
                                 .fillMaxWidth()

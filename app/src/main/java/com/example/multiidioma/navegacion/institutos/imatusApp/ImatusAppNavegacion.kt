@@ -25,22 +25,22 @@ fun NavGraphBuilder.ImatusAppNavegacion(
     }
 
 // Ruta de miniscreens
-    composable(Destination.ImatusMiniScreen5.route) {
-        ImatusMiniScreen5(
-            data = repository.getData(5),
-            navController = navController
-        )
-    }
-    composable(Destination.ImatusMiniScreen6.route) {
-        ImatusMiniScreen6(
-            data = repository.getData(6),
-            navController = navController
-        )
-    }
-    composable(Destination.ImatusMiniScreen7.route) {
-        ImatusMiniScreen7(
-            data = repository.getData(7),
-            navController = navController
-        )
-    }
+composable(Destination.ImatusMiniScreen5.route) {
+    ImatusMiniScreen5(
+        data = repository.getData(5),
+        navController = navController
+    )
+}
+composable(Destination.ImatusMiniScreen6.route) {
+    ImatusMiniScreen6(
+        data = repository.getData(6),
+        navController = navController
+    )
+}
+composable(Destination.ImatusMiniScreen7.route) {
+    ImatusMiniScreen7(
+        data = repository.getData(7),
+        navController = navController
+    )
+}
 }

@@ -1,6 +1,5 @@
 package com.example.multiidioma.ui.screens.institutes.incifor
 
-
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
@@ -88,8 +87,8 @@ val valorFiguraIncifor4 = NavegationFiguresData(
 val ambbIncifor =  PersonResearcher(
     foto = R.drawable.incifor_img_14,
     name = "Ana María Bermejo Barrera",
-    title = null,
-    role = R.string.Directora,
+    title = R.string.Directora,
+    role = null,
     info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
@@ -250,5 +249,6 @@ val ammIncifor =  PersonResearcher(
     info =  listOf(),
     contentType = ContentType.PLANTILLA
 )
+
 
 val datosInvestigadoresIncifor = listOf(ambbIncifor, issIncifor,mvlhIncifor,jimbIncifor,aclIncifor,favpsIncifor,sbbcIncifor,acrIncifor,ggcIncifor,elbIncifor,msrcIncifor,msrcIncifor,aseIncifor,mjtdIncifor,mivaIncifor,iaflIncifor,pcflIncifor,mcpvIncifor,amfaIncifor,alrIncifor,ammIncifor)

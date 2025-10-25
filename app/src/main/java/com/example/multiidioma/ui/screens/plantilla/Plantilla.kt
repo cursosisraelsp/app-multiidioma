@@ -16,6 +16,30 @@ import com.example.multiidioma.data.types.states.PlantillaState
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
 
+<<<<<<< HEAD
+=======
+import androidx.compose.foundation.layout.Column
+>>>>>>> scrolling-kike-cambios-sin-probar
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+<<<<<<< HEAD
+=======
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+>>>>>>> scrolling-kike-cambios-sin-probar
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
+import com.example.multiidioma.data.types.states.PlantillaState
+import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.Templates.PersonalTemplateScreen
+
 @Composable
 fun Plantilla(centro: String,itemId : String,navController: NavController){
 

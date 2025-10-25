@@ -5,7 +5,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.Podcast
-import com.example.multiidioma.ui.components.Templates.LazyRowNoClickScreenTemplate
 import com.example.multiidioma.ui.components.Templates.LazyRowScreenTemplate
 
 

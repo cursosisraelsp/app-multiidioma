@@ -135,5 +135,37 @@ dependencies {
     // Debug
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+<<<<<<< HEAD
+=======
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.compose.runtime)
+    implementation("androidx.navigation:navigation-compose:2.7.3")
+    implementation("com.android.support:appcompat-v7:23.2.0")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
+    implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha01")
+    // Lotti
+    implementation("com.airbnb.android:lottie-compose:6.4.0") // última versión estable
+
+    // Google Maps Compose
+    implementation("com.google.maps.android:maps-compose:4.3.0")
+    // Play Services Maps clásico
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+    /// PARA SVG
+
+    //implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-svg:2.4.0")
+
+    //
+    implementation("io.coil-kt:coil:2.4.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-gif:2.4.0")
+    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.26")
+
+    // ExoPlayer (Google Media3)
+    implementation("androidx.media3:media3-exoplayer:1.4.1")
+    implementation("androidx.media3:media3-ui:1.4.1")
+
+>>>>>>> scrolling-kike-cambios-sin-probar
 }
 

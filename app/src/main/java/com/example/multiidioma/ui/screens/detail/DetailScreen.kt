@@ -1,12 +1,13 @@
 package com.example.multiidioma.ui.screens.detail
 
-//import com.example.multiidioma.ui.screens.institutes.ihus.IhusScreen
 import InciforScreen
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyListState
+
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -42,11 +43,15 @@ fun DetailScreen(
     navController: NavController,
     //screenId: String, // 👈 nuevo parámetro
     detailViewModel: DetailViewModel = viewModel(),
-    onClose : ()-> Unit,
+    onClose: () -> Unit,
     listState: LazyListState,
     modifier: Modifier
-){
+) {
     val state by detailViewModel.detailScreenState.collectAsState() // viene de val detailScreenState: StateFlow<DetailScreenState> = _detailScreenState.asStateFlow()
+    onClose: () -> Unit,
+    listState: LazyListState,
+    )
+    val state by detailViewModel.detailScreenState.collectAsState()
 
 
     val listSingulars = state.detailListSingularsCenters
@@ -56,36 +61,64 @@ fun DetailScreen(
 
     var mapOpened by rememberSaveable { mutableStateOf(false) } // ✅ controla apertura
 
-    if (listFiguresHome != null && listFiguresHome.contentType is ContentType.Mapa && !mapOpened ) {
+    if (listFiguresHome != null && listFiguresHome.contentType is ContentType.Mapa && !mapOpened) {
         onClose()
         mapOpened = true
     }
     when {
+        imaxenClick == null || listSingulars == null -> {
+            CircularProgressIndicator()
+        }
 
+        imaxenClick != null -> {
+            Box(modifier = Modifier.fillMaxSize()) {
+                when (imaxenClick.contentType) {
+                    is ContentType.MultimediaContent -> MultimediaScreen()
+                    is ContentType.MinervaContent -> Text(text = "Estou en minerva")
+                    //is ContentType.MapContent -> MapScreen(onClose = {showMap = false})
+                    /*is ContentType.MapContent -> {
+                        // En vez de abrir el MapScreen aquí,
+                        // dispara el overlay:
+                        onClose()
+                    }*/
+                    is ContentType.CentroSingularContent -> CentresSingularsScreen(navController)
+                    is ContentType.InstitutoInvestigation -> InstitutesScreen(navController)
+                    is ContentType.MinervaContent -> MinervaScreen()
+
+                    else -> Text("screen non atopado")
+                }
+            }
+        }
 
         listSingulars != null -> {
+
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
                     is ContentType.CIQUS -> CiqusScreen(
                         listState,
-                        navController
+                        navController,
                     )
+
                     is ContentType.CIMUS -> CimusScreen(
                         listState,
                         navController,
                     )
+
                     is ContentType.CITIUS -> CitiusScreen(
                         listState,
                         navController,
                     )
+
                     is ContentType.CRETUS -> CretusScreen(
                         listState,
-                        navController
+                        navController,
                     )
+
                     is ContentType.IGFAE -> IgfaeScreen(
                         listState,
-                        navController
+                        navController,
                     )
+
                     is ContentType.IDIS -> IdisScreen(listState, navController)
                     else -> Text("screen non atopado")
                 }
@@ -97,36 +130,48 @@ fun DetailScreen(
                 when (listInstitus.contentType) {
                     is ContentType.IHUS -> IhusScreen(
                         listState,
-                        navController)
+                        navController
+                    )
+
                     is ContentType.IDEGA -> IdegaScreen()
+
                     is ContentType.ICE -> IceScreen(
                         listState,
                         navController,
                     )
+
                     is ContentType.INCIFOR -> InciforScreen(
                         listState,
                         navController,
                     )
+
                     is ContentType.IMATUS -> ImatusScreen(
                         listState,
                         navController
                     )
-                    is ContentType.ILG -> IlgScreen(listState, navController)
+
+                    is ContentType.ILG -> IlgScreen(
+                        listState,
+                        navController,
+                    )
+
                     is ContentType.IARCUS -> IarcusScreen(
                         listState,
                         navController
                     )
+
                     is ContentType.IPSIUS -> IpsiusScreen(
                         listState,
                         navController
                     )
+
                     else -> Text("screen non atopado")
                 }
             }
         }
+
         listFiguresHome != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
-
 
 
                 when (listFiguresHome.contentType) {
@@ -139,13 +184,13 @@ fun DetailScreen(
 
                         InstitutesScreen(navController)
                     }
-                    is ContentType.CentrosSingulares ->  CentresSingularsScreen(navController)
+
+                    is ContentType.CentrosSingulares -> CentresSingularsScreen(navController)
 
                     else -> Text("screen non atopado")
                 }
             }
         }
-
     }
 
 }

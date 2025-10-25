@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.R
-import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.GifComponent
 
 @Composable

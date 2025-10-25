@@ -1,5 +1,9 @@
 package com.example.multiidioma.utils.iceUtils
 
+<<<<<<< HEAD
+=======
+import android.R
+>>>>>>> scrolling-kike-cambios-sin-probar
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

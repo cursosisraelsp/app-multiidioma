@@ -25,8 +25,7 @@ fun CimusMiniScreen4(
                 .fillMaxSize()
         ) {
         }
-        CimusTemplateScreen1(data
-        )
+        CimusTemplateScreen1(data)
     }
 }
 

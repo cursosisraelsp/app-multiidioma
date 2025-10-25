@@ -23,14 +23,11 @@ import com.example.multiidioma.data.types.MiniScreenState
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen3.IhusMiniScreen3
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen4.IhusMiniScreen4
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen5.IhusMiniScreen5
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.IhusMiniScreen6.IhusMiniScreen6
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen0.IhusMiniScreen0
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen1.IhusMiniScreen1
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10.IhusMiniScreen10
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen10.IhusMiniScreen11
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen2.IhusMiniScreen2
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen7.IhusMiniScreen7
-import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen8.IhusMiniScreen8
 import com.example.multiidioma.ui.screens.ihus.ihusMiniScreens.ihusMiniScreen9.IhusMiniScreen9
 import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen12.IhusMiniScreen12
 import com.example.multiidioma.ui.screens.institutes.ihus.ihusMiniScreens.ihusMiniScreen14.IhusMiniScreen14

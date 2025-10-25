@@ -49,7 +49,7 @@ class InfoResearchersRepository(){
 
     }
 
-   suspend fun infoReaseachersImatus() : List<PersonalResearcher>{
+    suspend fun infoReaseachersImatus() : List<PersonalResearcher>{
         // Simulación de delay si en el futuro viene de una API/DB
         delay(200)
         return GetPersonalResearcherUtils(PersonsResearchersUtils(datosInvestigadoresImatus))

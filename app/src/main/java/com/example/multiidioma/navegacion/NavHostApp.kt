@@ -16,6 +16,8 @@ import com.example.multiidioma.navegacion.centros.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.centros.cretus.CretusAppNavegacion
 import com.example.multiidioma.navegacion.centros.idisApp.IdisAppNavegacion
 import com.example.multiidioma.navegacion.centros.igfaeApp.IgfaeAppNavegacion
+import com.example.multiidioma.navegacion.cimusApp.CimusAppNavegacion
+import com.example.multiidioma.navegacion.citiusApp.CitiusAppNavegacion
 import com.example.multiidioma.navegacion.detailApp.detailNavGraph
 import com.example.multiidioma.navegacion.homeApp.HomeAppNavHost
 import com.example.multiidioma.navegacion.institutos.iarcusApp.IarcusAppNavegacion
@@ -38,14 +40,15 @@ fun NavHostApp(
     modifier: Modifier,
     languageViewModel: LanguageViewModel,
     listState: LazyListState,
-    onOpenMap: () -> Unit){
+    onOpenMap: () -> Unit
+) {
 
     NavHost(
         navController = navController,
         startDestination = "splash",
         modifier = modifier,
 
-    ) {
+        ) {
 
 
         StartAppNavHost(navController)
@@ -69,14 +72,8 @@ fun NavHostApp(
         IdisAppNavegacion(listState, navController)         // FER
         detailNavGraph(navController,onClose = onOpenMap,listState)
 
-
         ////
-/*
-        composable (Destination.InciforMiniscreen27.route) {
 
-            InciforMiniScreen27()
-        }
-*/
         composable("detalles/{centro}/{itemId}") { backStackEntry ->
             // Aquí puedes acceder a los argumentos
             val itemId = backStackEntry.arguments?.getString("itemId")

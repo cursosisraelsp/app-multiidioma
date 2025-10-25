@@ -131,6 +131,7 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
+
                         14 -> IceMiniScreen14(
                             data,
                             Modifier
@@ -138,6 +139,7 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
+
                         15 -> IceMiniScreen15(
                             data,
                             Modifier
@@ -145,6 +147,7 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
+
                         16 -> IceMiniScreen16(
                             data,
                             Modifier
@@ -152,6 +155,7 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
+
                         17 -> IceMiniScreen17(
                             data,
                             Modifier
@@ -159,6 +163,7 @@ fun IceScreen(
                                 .fillParentMaxHeight()
 
                         )
+
                         18 -> IceMiniScreen18(
                             data,
                             Modifier

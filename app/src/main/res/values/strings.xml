@@ -111,4 +111,8 @@
 
     <string name="IARCUS_role_11">Professor in the Area of Analytical Chemistry</string>
 
+     <string name="default_title">SinTitulo</string>
+    <string name="default_role" translatable="false">SinTitulo\n</string>
+
+
 </resources>

@@ -3,7 +3,6 @@ package com.example.multiidioma.data.repository
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadoresIncifor
-
 import com.example.multiidioma.utils.GetPersonalResearcherUtils
 import com.example.multiidioma.utils.PersonsResearchersUtils
 
@@ -225,7 +224,7 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_23_title_0,
                     R.string.II_INCIFOR_miniscreen_23_paragraph_0,
-                ),
+                    ),
                 imageRes = R.drawable.incifor_img_13
             ),
             MiniScreenData(
@@ -251,31 +250,18 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_26_paragraph_1
                 ),
                 imageRes = R.drawable.incifor_img_01_d,
-               personalResearcher = GetPersonalResearcherUtils(
+                personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
                         datosInvestigadoresIncifor
                     )
                 )
             ),
-
-
-
-            MiniScreenData(
-                id = 27,
+  /*          MiniScreenData(
+                id = 50,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_27_title_0,
-                    R.string.II_INCIFOR_miniscreen_27_title_1,
-                    R.string.II_INCIFOR_miniscreen_27_paragraph_1
+                    R.string.II_INCIFOR_miniscreen_50_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_01_d
-            ),
-            MiniScreenData(
-                id = 28,
-                bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_28_paragraph_0,
-                    R.string.More_info
-                ),
-            ),
+            ),*/
 
 
             )

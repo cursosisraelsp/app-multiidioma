@@ -151,7 +151,11 @@
     <string name="II_IMATUS_miniscreen_15_paragraph_0">Josefa Salgado, Professor of Applied Physics at the USC, has held the position of secretary of the Institute of Materials (iMATUS) since April 2023 and directed her department between 2014 and 2023. She has co-written more than 110 scientific and dissemination articles, and participated in more than 40 projects, networks and agreements with companies and public entities. Her career includes collaboration with a large number of European and American researchers and with 18 Spanish institutions, including universities, technology centres and companies. Her career highlights include the application of calorimetric techniques to analyse post-fire forest soils - a well-established methodology in soil science - and, recently, his collaboration with the Biological Mission of Galicia (CSIC) to develop flame-retardant foaming materials with low environmental impact. Together with Professor Luis M. Varela, she founded the Permanent Seminar on Energy Transition and Industrial Competitiveness (SPERTUS), which meets periodically to address issues such as energy capture, storage and efficiency.</string>
     <string name="II_IMATUS_miniscreen_15_paragraph_1">Among her current lines, she leads the development of electrochemical storage systems based on semi-solid electrolytes with mixtures of ionic liquids and salts (lithium and multivalent), in silica and cellulose matrices, and silicon anodes and biocarbons from marine waste. This approach pursues the circular economy through the use of sustainable materials and the valorisation of waste, to promote efficient and environmentally friendly energy storage devices.</string>
     <string name="II_IMATUS_miniscreen_15_paragraph_2">MORE INFO: https://investigacion.usc.gal/investigadores/60280/detalle</string>
+<<<<<<< HEAD
 
+=======
+    <string name="II_IMATUS_miniscreen_15_role_1">Secretary</string>
+>>>>>>> scrolling-kike-cambios-sin-probar
     <!--PANTALLA 17-->
     <string name="II_IMATUS_miniscreen_16_title_0" translatable="false">ÁLVARO GOYANES GOYANES</string>
     <string name="II_IMATUS_miniscreen_16_texto_buscado_0" translatable="false">ÁLVARO GOYANES GOYANES</string>

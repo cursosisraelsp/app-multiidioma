@@ -10,8 +10,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
+<<<<<<< HEAD
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
+=======
+import com.example.multiidioma.ui.components.LineVerticalComponent
+>>>>>>> scrolling-kike-cambios-sin-probar
 
 @Composable
 fun ImatusImagesWithLine(data: MiniScreenData, modifier: Modifier = Modifier) {

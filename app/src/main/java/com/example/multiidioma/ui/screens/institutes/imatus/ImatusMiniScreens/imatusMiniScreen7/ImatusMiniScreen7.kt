@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.ui.components.VideoScreen
+import com.example.multiidioma.ui.components.VimeoWebViewComponent
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7BodyText
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7CircleImage
 import com.example.multiidioma.ui.screens.imatus.imatusMiniScreens.imatusMiniScreen7.contentImatusMiniScreen7.contentImatusMiniScreen7TitleText
@@ -31,12 +32,7 @@ fun ImatusMiniScreen7(
             modifier = modifier
                 .fillMaxSize()
         ) {
-            VideoScreen(
-                videoId = "ut_8lkPwRU4", // tu ID de video
-                modifier = Modifier
-                    .fillMaxSize()
-                    .aspectRatio(9f / 16f)
-            )
+            VimeoWebViewComponent(identificador = "1124127649", width = "425px", height = "800px")
         }
         ImatusTemplateScreen3(
             navController = navController,

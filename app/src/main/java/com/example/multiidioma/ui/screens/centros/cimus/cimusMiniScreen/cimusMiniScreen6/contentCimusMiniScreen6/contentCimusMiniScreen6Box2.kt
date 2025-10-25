@@ -1,4 +1,3 @@
-
 package com.example.multiidioma.ui.screens.cimus.cimusMiniScreens.cimusMiniScreen6.contentCimusMiniScreen6
 
 

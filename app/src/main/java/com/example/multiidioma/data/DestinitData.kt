@@ -5,7 +5,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 
-enum class TitulosNavegacion(val titulo: String) {
+enum class TitulosNavegacion(val titulo:String){
     CentroSigular("Centros Singulares"),
     InstitusInvestigacion("Institutos de investigacion"),
     Mapa("Mapa"),
@@ -117,8 +117,6 @@ sealed class Destination(val route: String) {
     object Citius : Destination("citius")
     object Cretus : Destination("cretus")
     object Igfae : Destination("igfae")
-    object Idis : Destination("idis")
-
     // Rutas en enum
     enum class RutasBottomBar(
         val route: String,

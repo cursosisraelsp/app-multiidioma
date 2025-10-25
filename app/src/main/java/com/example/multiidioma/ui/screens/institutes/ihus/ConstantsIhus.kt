@@ -1,16 +1,11 @@
 package com.example.multiidioma.ui.screens.institutes.ihus
 
-import android.content.res.Resources
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
-import com.example.multiidioma.data.numNumeroGrande
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
-import com.example.multiidioma.ui.screens.centros.igfae_andre.anchoTextoGigante
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LetraGrande
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LetraMediana
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LineHeightMediana
 import com.example.multiidioma.ui.screens.institutes.iarcus_andre.NumeroMediano

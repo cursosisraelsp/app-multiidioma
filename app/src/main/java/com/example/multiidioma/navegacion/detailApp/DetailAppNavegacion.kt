@@ -16,11 +16,11 @@ fun NavGraphBuilder.detailNavGraph(
     onClose: () -> Unit,
     listState: LazyListState,
 
-){
+    ) {
     composable(
         route = Destination.Detail.route
     ) {
-       DetailScreen(
+        DetailScreen(
             navController, onClose = onClose,
             listState = listState,
             modifier = Modifier
