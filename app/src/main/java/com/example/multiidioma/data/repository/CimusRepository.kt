@@ -2,6 +2,7 @@ package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
 import com.example.multiidioma.data.centroCimus
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.urlRecursosApp
 
@@ -30,7 +31,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_2_paragraph_0,
                 ),
                 imageRes = R.drawable.cimus_img_01,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_01.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_01.webp"
             ),
             MiniScreenData(
                 id = 3,
@@ -55,7 +56,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_5_paragraph_0,
                     ),
                 imageRes = R.drawable.cimus_img_03,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_03.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_03.webp"
 
             ),
             MiniScreenData(
@@ -77,7 +78,7 @@ class CimusRepository {
 
                     ),
                 imageRes = R.drawable.cimus_img_04,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_04.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_04.webp"
 
                 ),
             MiniScreenData(
@@ -183,7 +184,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_18_paragraph_1,
                 ),
                 imageRes = R.drawable.cimus_img_14,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_14.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_14.webp"
                 ),
             MiniScreenData(
                 id = 19,
@@ -193,7 +194,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_19_paragraph_1
                 ),
                 imageRes = R.drawable.cimus_img_15,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_15.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_15.webp"
 
                 ),
             MiniScreenData(
@@ -205,7 +206,7 @@ class CimusRepository {
 
                     ),
                 imageRes = R.drawable.cimus_img_16,
-                urlImage = "${urlRecursosApp}${centroCimus}/cimus_img_16.webp"
+                urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_16.webp"
 
                 ),
             MiniScreenData(
