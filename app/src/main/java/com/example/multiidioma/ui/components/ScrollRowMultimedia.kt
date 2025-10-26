@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
@@ -18,7 +19,7 @@ import com.example.multiidioma.data.urlVimeo
 fun ScrollRowMultimedia(multimediaList: List<MultimediaData>) {
     val context = LocalContext.current
     Column {
-        LazyRow (modifier = Modifier.fillMaxHeight(0.3f)) {
+        LazyRow (modifier = Modifier.fillMaxHeight(0.35f),horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             items(multimediaList) { multimediaData ->
                 when (multimediaData) {
 
