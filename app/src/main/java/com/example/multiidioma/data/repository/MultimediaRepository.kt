@@ -209,7 +209,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 1,
         uriIvoox = "$urlIvoox/160363725",
-        title = "Ondas gravitacionales: entender el universo a través de su violencia",
+        title = "Ondas gravitacionales",//Ondas gravitacionales: entender el universo a través de su violencia
         imaxe = {
             //ClickableImagePodcast(podcastUrl = )
             AsyncImage(
@@ -221,7 +221,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 2,
         uriIvoox = "$urlIvoox/160372846",
-        title = "El radón en Galicia",
+        title = "El radón ...",//El radón en Galicia
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -232,7 +232,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 3,
         uriIvoox = "$urlIvoox/160373728",
-        title = "Consumo de sustancias en estudiantes: factores explicativos y consecuencias",
+        title = "Consumo de sustancias en estudiantes",//Consumo de sustancias en estudiantes: factores explicativos y consecuencias
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -243,7 +243,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 4,
         uriIvoox = "$urlIvoox/160375202",
-        title = "Sensogenoma: de cómo los genes responden al estímulo musical",
+        title = "Los genes responden al estímulo musical",//Sensogenoma: de cómo los genes responden al estímulo musical
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -265,7 +265,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 6,
         uriIvoox = "$urlIvoox/160424183",
-        title = "¿Y si hablamos de Párkinson? Ciencia que siente, vivencias que enseñan",
+        title = "¿Y si hablamos de Párkinson?",//¿Y si hablamos de Párkinson? Ciencia que siente, vivencias que enseñan
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -276,7 +276,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 7,
         uriIvoox = "$urlIvoox/160424183",
-        title = "Afrontar los retos de la maricultura: Resiliencia, sostenibilidad y crecimiento azul",
+        title = "Resiliencia y crecimiento azul",//Afrontar los retos de la maricultura: Resiliencia, sostenibilidad y crecimiento azul
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -287,7 +287,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 8,
         uriIvoox = "$urlIvoox/160426431",
-        title = "Simulación computacional: comportamiento de moléculas en la membrana molecular",
+        title = "Simulación computacional",//Simulación computacional: comportamiento de moléculas en la membrana molecular
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -298,7 +298,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 9,
         uriIvoox = "$urlIvoox/160465324",
-        title = "Investigación educativa como motor para la transformación social",
+        title = "Investigación educativa - transformación social",//Investigación educativa como motor para la transformación social
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -309,7 +309,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 10,
         uriIvoox = "$urlIvoox/160465439",
-        title = "El postdoc en iMATUS: Ciencia en primera persona",
+        title = "Ciencia en primera persona",//El postdoc en iMATUS: Ciencia en primera persona
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -320,7 +320,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 11,
         uriIvoox = "$urlIvoox/160473460",
-        title = "Gastronom-IA: el CiTIUS revela su receta secreta para atraer talento internacional",
+        title = "Atraer talento internacional",//Gastronom-IA: el CiTIUS revela su receta secreta para atraer talento internacional
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -331,7 +331,7 @@ val listaPodcasts = listOf(
     Podcast(
         id = 12,
         uriIvoox = "$urlIvoox/160621323",
-        title = "Instituto da Lingua Galega: estudar o pasado e garantir o futuro",
+        title = "Estudar o pasado e garantir o futuro",//Instituto da Lingua Galega: estudar o pasado e garantir o futuro
         imaxe = {
             AsyncImage(
                 model = "$urlRecursosApp/$imaxesJPG/logo_podcasts.jpeg",
@@ -346,7 +346,7 @@ val videosMiradasDoTalento = listOf(
         description = "CiQus",
         imaxe = {
             //ClickableImagePodcast(podcastUrl = )
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
         }
     ),
     VideoVimeo(
@@ -354,7 +354,7 @@ val videosMiradasDoTalento = listOf(
         description = "Cretus",
         imaxe = {
             //ClickableImagePodcast(podcastUrl = )
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
         }
     ),
     VideoVimeo(
@@ -362,7 +362,7 @@ val videosMiradasDoTalento = listOf(
         description = "Idis",
         imaxe = {
             //ClickableImagePodcast(podcastUrl = )
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
         }
     ),
     VideoVimeo(
@@ -370,21 +370,184 @@ val videosMiradasDoTalento = listOf(
         description = "Igfae",
         imaxe = {
             //ClickableImagePodcast(podcastUrl = )
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
         }
     ),
     VideoVimeo(
         identificadorVimeo = "1125824699/98afbb1cb6",
         description = "Citius",
         imaxe = {
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
         }
     ),
     VideoVimeo(
         identificadorVimeo = "1125795571/97f66f77d9",
         description = "Cimus",
         imaxe = {
-            ImageAsyncVimeo()
+            ImageAsyncVimeo("logo_vimeo.jpeg")
+        }
+    )
+)
+val videosShortsIhus = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1125802206/660aa8de35",
+        description = "D. Jorge Sacido Romero",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125802242/bc17b2b436",
+        description = "Dna. Laura Lojo Rodríguez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125802304/bde4d8314b",
+        description = "D. Miguel Anxo Rodríguez González",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125802304/bde4d8314b",
+        description = "Dna. Montserrat Capelán Fernández",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125802445/1a1bab41ab",
+        description = "Dna. Alejandra Ulla Lorenzo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    )
+)
+val videosShortsCretus = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1125822237/c4cdb716e8",
+        description = "Dna. María Teresa Moreira Vilar",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125822305/9c4ba33e54",
+        description = "D. Sergio Vila Tojo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125822369/66ec61b2bc",
+        description = "D. Juan Antelo Martínez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125822424/4f057b6a92",
+        description = "D. José Luis Ares Sainz",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125822439/ed346b02b2",
+        description = "D. Jorge González Rodríguez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125822492/d97b0fdc71",
+        description = "Dna. Raquel Fariñas Mera",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125822550/4bcbac8de0",
+        description = "Dna. María Llompart Vizoso",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    )
+)
+val videosShortsIdis = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1125833295/850210e2b4",
+        description = "Dna. Mª Luz Couce Pico",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125833359/46099a49d6",
+        description = "Dna. Laura Muinelo Romay",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125833419/d1f9a318d4",
+        description = "Dna. Ana Belén Crujeiras Martínez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833477/8525cf5968",
+        description = "D. Alberto Ouro Villasante",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125833508/ef16487bc1",
+        description = "D. Francisco Campos Pérez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833557/973022b26b",
+        description = "Dna. Lucía del Pozo Filiu",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833576/a67090956a",
+        description = "Dna. Ana Bugallo Casal",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833608/6d57791816",
+        description = "Dna. Maite López López",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833653/12d75e0a08",
+        description = "D. Ramón Iglesias Rey",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833681/ffb719bc60",
+        description = "D. Antonio Salas Ellacuriaga",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833722/eeb7eaeccc",
+        description = "Dna. Susana Bravo López",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125833755/0ae219f900",
+        description = "D. Rodolfo Gómez Bahamonde",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
         }
     )
 )
@@ -400,5 +563,16 @@ class MultimediaRepository (){
         return videosMiradasDoTalento
     }
 
+    fun getListvideosShortsIhus(): List<VideoVimeo>{
+        return videosShortsIhus
+    }
+
+    fun getListVideosvideosShortsCretus(): List<VideoVimeo>{
+        return videosShortsCretus
+    }
+
+    fun getListVideosShortsIdis(): List<VideoVimeo>{
+        return videosShortsIdis
+    }
 
 }

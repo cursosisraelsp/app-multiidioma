@@ -37,23 +37,7 @@ fun MultimediaScreen(){
         is MultimediaState.Success -> {
             val multimediaList = (uiState as MultimediaState.Success).multiMediaDates
             ScrollRowMultimedia(multimediaList)
-            /*val context = LocalContext.current
-            val podcastUrl = "https://go.ivoox.com/rf/160621323"
 
-
-            Box{
-                AsyncImage(
-                    model = "${urlRecursosApp}/${imaxesJPG}/logo_podcasts.jpeg",
-                    contentDescription = "Imagen remota en formato jpeg",
-                    modifier = Modifier.size(200.dp).background(color = Color.Blue).clickable {
-                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(podcastUrl))
-                        context.startActivity(intent)
-                    },
-                    contentScale = ContentScale.Crop
-                )
-                Text("Escuchar en iVoox")
-            }
-            */
         }
         is MultimediaState.Loading -> { LoadingComponente()  }
         is MultimediaState.Error -> { ErrorComponente() }

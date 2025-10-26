@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MultimediaData
 import com.example.multiidioma.utils.currentAppLanguage
@@ -20,7 +21,7 @@ import com.example.multiidioma.utils.currentAppLanguage
 fun LanguageBasedVimeoVideo(videoUrl: String,imaxen:  @Composable () -> Unit,descripcion: String) {
     val context = LocalContext.current
 Column(modifier = Modifier.fillMaxWidth()
-    .height(500.dp).border(width = 1.dp, color = Color.LightGray),verticalArrangement = Arrangement.SpaceBetween){
+    .height(300.dp).border(width = 1.dp, color = Color.LightGray),verticalArrangement = Arrangement.SpaceBetween){
     Column(modifier = Modifier.clickable {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(videoUrl))
         context.startActivity(intent)
@@ -29,7 +30,8 @@ Column(modifier = Modifier.fillMaxWidth()
         //Text(text = "descripcion", modifier = Modifier.padding(24.dp))
 
     }
-    Text(text = descripcion, modifier = Modifier.padding(24.dp), color = Color.Red)
+    Text(text = descripcion,maxLines = 1,
+        overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(24.dp), color = Color.Red)
 }
 
 }

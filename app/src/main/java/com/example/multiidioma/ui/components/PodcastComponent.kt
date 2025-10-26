@@ -22,16 +22,16 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.multiidioma.data.types.Podcast
-import com.example.multiidioma.ui.theme.AppTypography
 @Composable
 fun PodcastComposable(podcast: Podcast,
                       onClick: () -> Unit) {
 
     Column (
-        modifier = Modifier.fillMaxWidth().height(500.dp)
+        modifier = Modifier.fillMaxWidth().height(250.dp)
             .border(width = 1.dp, color = Color.Gray).clickable { onClick() },
         verticalArrangement = Arrangement.SpaceBetween
         //horizontalAlignment = Alignment.CenterHorizontally
@@ -39,6 +39,7 @@ fun PodcastComposable(podcast: Podcast,
         // Imagen que viene en el modelo
         Column(
             modifier = Modifier
+                .padding(16.dp)
                 .size(150.dp)
                 .clip(RoundedCornerShape(12.dp))
                 .background(Color.Transparent),
@@ -49,7 +50,8 @@ fun PodcastComposable(podcast: Podcast,
 
         //Spacer(modifier = Modifier.width(16.dp))
 
-        Text(text = "isto será o título")
+        Text(text = podcast.title,maxLines = 1,
+            overflow = TextOverflow.Ellipsis, modifier = Modifier.width(175.dp).padding(24.dp), color = Color.Red)
         /*Column(modifier = Modifier.weight(1f),verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally) {
             Text(

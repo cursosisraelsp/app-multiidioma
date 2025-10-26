@@ -24,11 +24,15 @@ class MultimediaViewModel : ViewModel() {
             try {
                 val listaPodcasts = multimediaRepository.getListPodcasts()
                 val listaVideos = multimediaRepository.getListVideosYoutube()
-
+                val listaShortsIhus = multimediaRepository.getListvideosShortsIhus()
+                val listaShortsCretus = multimediaRepository.getListVideosvideosShortsCretus()
+                val listShortsIdis = multimediaRepository.getListVideosShortsIdis()
                 val items = mutableListOf<MultimediaData>()
                 items.addAll(listaPodcasts.map { MultimediaData.PodcastItem(it) })
                 items.addAll(listaVideos.map { MultimediaData.Video(it) })
-
+                items.addAll(listaShortsIhus.map { MultimediaData.ShortIhus(it) })
+                items.addAll(listaShortsCretus.map { MultimediaData.ShortCretus(it) })
+                items.addAll(listShortsIdis.map { MultimediaData.ShortIdis(it) })
                 _uiState.value = MultimediaState.Success(items)
             } catch (e: Exception) {
                 _uiState.value = MultimediaState.Error(e.message ?: "Error desconocido")

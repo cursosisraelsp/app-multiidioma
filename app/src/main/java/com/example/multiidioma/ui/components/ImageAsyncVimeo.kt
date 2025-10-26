@@ -16,9 +16,9 @@ import com.example.multiidioma.data.urlRecursosApp
 
 
 @Composable
-fun ImageAsyncVimeo(){
+fun ImageAsyncVimeo(logo:String){
     AsyncImage(
-        model = "$urlRecursosApp/$imaxesJPG/logo_vimeo.jpeg",
+        model = "$urlRecursosApp/$imaxesJPG/${logo}",
         contentDescription = "Imagen remota en formato jpeg",
         modifier = Modifier
             .fillMaxWidth()
