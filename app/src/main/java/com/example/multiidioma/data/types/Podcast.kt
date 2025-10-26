@@ -4,9 +4,10 @@ import androidx.compose.runtime.Composable
 
 data class Podcast(
     val id: Int,
-    val uriSpotifyApp: String,
-    val uriSpotifyWeb: String,
-    val protagonista: String,
+    val uriSpotifyApp: String? = null,
+    val uriSpotifyWeb: String? = null,
+    val uriIvoox: String? = null,
+    val protagonista: String? = null,
     val title : String,
     val imaxe : @Composable () -> Unit
 )

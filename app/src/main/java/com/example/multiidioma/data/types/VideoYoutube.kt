@@ -7,3 +7,9 @@ data class VideoYoutube(
     val description : String,
     val imaxe: @Composable () -> Unit
 )
+
+data class VideoVimeo(
+    val identificadorVimeo : String,
+    val description : String,
+    val imaxe: @Composable () -> Unit
+)

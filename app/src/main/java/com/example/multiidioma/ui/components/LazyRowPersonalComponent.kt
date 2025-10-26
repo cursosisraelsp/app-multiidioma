@@ -60,12 +60,12 @@ fun LazyRowPersonalComponent(
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
             )
-            Text(
-                text = podcast.protagonista,
+            /*Text(
+                text = podcast.protagonista!!,
                 style = MaterialTheme.typography.bodyMedium,
                 fontFamily = AppTypography.displayLarge.fontFamily,
                 color = Color.Gray
-            )
+            )*/
         }
     }
 }

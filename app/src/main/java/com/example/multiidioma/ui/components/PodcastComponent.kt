@@ -24,7 +24,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.Podcast
 import com.example.multiidioma.ui.theme.AppTypography
-
 @Composable
 fun PodcastComposable(podcast: Podcast,
                       onClick: () -> Unit) {
@@ -59,7 +58,7 @@ fun PodcastComposable(podcast: Podcast,
                 textAlign = TextAlign.Center
             )
             Text(
-                text = podcast.protagonista,
+                text = podcast.protagonista ?: "",
                 style = MaterialTheme.typography.bodyMedium,
                 fontFamily = AppTypography.displayLarge.fontFamily,
                 color = Color.Gray

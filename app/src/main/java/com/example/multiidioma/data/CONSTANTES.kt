@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.example.multiidioma.data.types.Podcast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -37,8 +38,7 @@ val urlCretus = "https://cretus.usc.es/"
 val urlIarcus = "https://arcus.usc.es/"
 val urlIgfae = "https://igfae.usc.es/igfae/"
 val urlCiqus = " https://www.usc.es/ciqus/es"
-val enWEBP = "EN_WEBP"
-val enJPG = "EN_JPG"
+// RECURSOS IMAXES
 val imaxesWEBP = "EN_WEBP"
 val imaxesJPG = "EN_JPG"
 val urlRecursosApp = "https://raw.githubusercontent.com/cursosisraelsp/recursos-app-obradoiro-santiago-2025/main"
@@ -56,6 +56,10 @@ val centroIlga = centrosInstitutos[9]
 val centroImatus = centrosInstitutos[10]
 val centroIncifor = centrosInstitutos[11]
 val centroRaw = centrosInstitutos[12]
+
+// URLS MULTIMEDIA
+val urlIvoox = "https://go.ivoox.com/rf"
+val urlVimeo = "https://vimeo.com/"
 data class BOX(
     val Box1: Float,
     val Box2: Float,
