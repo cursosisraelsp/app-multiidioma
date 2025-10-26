@@ -80,24 +80,22 @@ val valorFiguraIncifor4 = NavegationFiguresData(
 )
 
 
-
-
 //Investigadores
 
-val ambbIncifor =  PersonResearcher(
+val ambbIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_14,
     name = "Ana María Bermejo Barrera",
     title = R.string.Directora,
     role = null,
-    info =  listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
+    info = listOf(R.string.II_INCIFOR_miniscreen_28_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
-val issIncifor =  PersonResearcher(
+val issIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_15,
     name = "Inés Sánchez Sellero",
     title = null,
     role = R.string.Secretaria,
-    info =  listOf(R.string.II_INCIFOR_miniscreen_29_paragraph_0),
+    info = listOf(R.string.II_INCIFOR_miniscreen_29_paragraph_0),
     contentType = ContentType.PLANTILLA
 )
 
@@ -110,145 +108,167 @@ val mvlhIncifor = PersonResearcher(
     contentType = ContentType.PLANTILLA
 )
 
-val jimbIncifor =  PersonResearcher(
+val jimbIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_18_,
     name = "José Ignacio Muñoz Barús",
     title = null,
-    role = null,    info =  listOf(),
+    role = null,
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 
-val aclIncifor =  PersonResearcher(
+val aclIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_19,
     name = "Angelines Cruz Landeira",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val favpsIncifor =  PersonResearcher(
+val favpsIncifor = PersonResearcher(
     foto = R.drawable.noimagen, //incifor_img_20
     name = "Fernando Antonio Vázquez-Portomeñe Seijas",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val sbbcIncifor =  PersonResearcher(
+val sbbcIncifor = PersonResearcher(
     foto = R.drawable.noimagen,
     name = "Santiago Bernardo Brage Cendán",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val acrIncifor =  PersonResearcher(
+val acrIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_22,
     name = "Ana de Castro Ríos",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 
-val ggcIncifor =  PersonResearcher(
+val ggcIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_23,
     name = "Gumersindo Guinarte Cabada",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val elbIncifor =  PersonResearcher(
+val elbIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_24,
     name = "Elena Lendoiro Belío",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val msrcIncifor =  PersonResearcher(
+val msrcIncifor = PersonResearcher(
     foto = R.drawable.noimagen,
     name = "María Sol Rodríguez Calvo",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val aseIncifor =  PersonResearcher(
+val aseIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_26,
     name = "Antonio Salas Ellacuriaga",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val mjtdIncifor =  PersonResearcher(
+val mjtdIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_28,
     name = "María Jesús Tabernero Duque",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val mivaIncifor =  PersonResearcher(
+val mivaIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_29,
     name = "María Inmaculada Valeije Álvarez",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 
-val iaflIncifor =  PersonResearcher(
+val iaflIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_30,
     name = "Iván Álvarez Freire",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 
-val pcflIncifor =  PersonResearcher(
+val pcflIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_31,
     name = "Pamela Cabarcos Fernández",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val mcpvIncifor =  PersonResearcher(
+val mcpvIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_32,
     name = "María del Carmen de la Puente Vila",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val amfaIncifor =  PersonResearcher(
+val amfaIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_33,
     name = "Ana María Freire Aradas",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val alrIncifor =  PersonResearcher(
+val alrIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_34,
     name = "Ángela López Rabuñal",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
-val ammIncifor =  PersonResearcher(
+val ammIncifor = PersonResearcher(
     foto = R.drawable.incifor_img_35,
     name = "Ana Mosquera Miguel",
     title = null,
     role = null,
-    info =  listOf(),
+    info = listOf(),
     contentType = ContentType.PLANTILLA
 )
 
-
-val datosInvestigadoresIncifor = listOf(ambbIncifor, issIncifor,mvlhIncifor,jimbIncifor,aclIncifor,favpsIncifor,sbbcIncifor,acrIncifor,ggcIncifor,elbIncifor,msrcIncifor,msrcIncifor,aseIncifor,mjtdIncifor,mivaIncifor,iaflIncifor,pcflIncifor,mcpvIncifor,amfaIncifor,alrIncifor,ammIncifor)
+val datosInvestigadoresIncifor = listOf(
+    ambbIncifor,
+    issIncifor,
+    mvlhIncifor,
+    jimbIncifor,
+    aclIncifor,
+    favpsIncifor,
+    sbbcIncifor,
+    acrIncifor,
+    ggcIncifor,
+    elbIncifor,
+    msrcIncifor,
+    msrcIncifor,
+    aseIncifor,
+    mjtdIncifor,
+    mivaIncifor,
+    iaflIncifor,
+    pcflIncifor,
+    mcpvIncifor,
+    amfaIncifor,
+    alrIncifor,
+    ammIncifor
+)

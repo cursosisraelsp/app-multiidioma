@@ -245,10 +245,6 @@ class InciforRepository {
             ),
             MiniScreenData(
                 id = 26,
-                bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_26_paragraph_0,
-                    R.string.II_INCIFOR_miniscreen_26_paragraph_1
-                ),
                 imageRes = R.drawable.incifor_img_01_d,
                 personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
@@ -256,6 +252,7 @@ class InciforRepository {
                     )
                 )
             ),
+
   /*          MiniScreenData(
                 id = 50,
                 bodyParagraphs = listOf(

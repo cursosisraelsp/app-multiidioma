@@ -1,9 +1,12 @@
 package com.example.multiidioma.data.repository
 
 
-
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.ui.screens.institutes.ihus.datosInvestigadoresIhus
+import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadoresIncifor
+import com.example.multiidioma.utils.GetPersonalResearcherUtils
+import com.example.multiidioma.utils.PersonsResearchersUtils
 
 
 class IhusRepository {
@@ -29,15 +32,15 @@ class IhusRepository {
             ),
             MiniScreenData(
                 id = 2,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_2_paragraph0,
                     R.string.II_IHUS_miniscreen_2_paragraph1,
                 ),
                 imageRes = R.drawable.ihus_img_03
-            ) ,
+            ),
             MiniScreenData(
                 id = 3,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_3_paragraph0,
                 ),
                 imageRes = R.drawable.ihus_img_02
@@ -46,22 +49,20 @@ class IhusRepository {
 
             MiniScreenData(
                 id = 4,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_4_paragraph0,
                 ),
                 imageRes = R.drawable.ihus_img_02
-
 
 
             ),
 
             MiniScreenData(
                 id = 5,  //Esta es la pagina q tiene q hacer isra//
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_5_paragraph0,
                 ),
                 imageRes = R.drawable.ihus_img_03
-
 
 
             ),
@@ -102,7 +103,7 @@ class IhusRepository {
 
             MiniScreenData(
                 id = 9,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_9_paragraph0,
                     R.string.II_IHUS_miniscreen_9_paragraph1,
                 ),
@@ -112,7 +113,7 @@ class IhusRepository {
 
             MiniScreenData(
                 id = 10,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_10_paragraph0,
                 ),
                 imageRes = R.drawable.bgalega
@@ -120,7 +121,7 @@ class IhusRepository {
             ),
             MiniScreenData(
                 id = 11,
-                bodyParagraphs =listOf(
+                bodyParagraphs = listOf(
                     R.string.II_IHUS_miniscreen_11_title0,
                 ),
                 imageRes = R.drawable.bgalega
@@ -128,36 +129,24 @@ class IhusRepository {
             ),
             MiniScreenData(
                 id = 12,
-                bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_11_title0,
-                ),
-                imageRes = R.drawable.bgalega
-
+                imageRes = R.drawable.bgalega,
+                personalResearcher = GetPersonalResearcherUtils(
+                    PersonsResearchersUtils(
+                        datosInvestigadoresIhus
+                    )
+                )
             ),
-            MiniScreenData(
-                id = 13,
-                bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_13_title0,
-                    R.string.II_IHUS_miniscreen_13_paragraph0,
-                    R.string.II_IHUS_miniscreen_13_paragraph1,
-                ),
-                imageRes = R.drawable.bgalega
-
-
-            ),
-
 
             MiniScreenData(
                 id = 14,
-                bodyParagraphs =listOf(
-                    R.string.II_IHUS_miniscreen_11_title0,
-                    R.string.II_IHUS_miniscreen_6_title0,
+                bodyParagraphs = listOf(
                 ),
 
                 ),
 
             )
     }
+
     fun getData(i: Int): MiniScreenData {
         return getMiniScreens()[i]
     }

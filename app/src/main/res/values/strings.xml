@@ -23,8 +23,6 @@
     <string name="MORE_INFO">MORE INFO</string>
     <string name="Research_Staff">RESEARCH STAFF</string>
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
-    <string name="director">Director</string>
-    <string name="directora">Directora</string>
 
     <string name="Director">Director</string>
     <string name="Directora">Director</string>
@@ -87,7 +85,6 @@
     <string name="CRETUS_title_22">EqualSeaLab</string>
 
 
-
     <string name="IARCUS_role_0">Director</string>
     <string name="IARCUS_role_1">Professor of Microbiology at the University</string>
 
@@ -111,7 +108,7 @@
 
     <string name="IARCUS_role_11">Professor in the Area of Analytical Chemistry</string>
 
-     <string name="default_title">SinTitulo</string>
+    <string name="default_title">SinTitulo</string>
     <string name="default_role" translatable="false">SinTitulo\n</string>
 
 

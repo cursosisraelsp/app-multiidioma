@@ -117,7 +117,7 @@ fun LazyRowNoClickScreenTemplate(
             }
         }
 
-        // 🔹 Resto de investigadores (fila inferior)
+        // Resto de investigadores (fila inferior)
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -136,11 +136,6 @@ fun LazyRowNoClickScreenTemplate(
                             .height(325.dp)
                             .width(225.dp)
                             .clip(RoundedCornerShape(8.dp))
-
-                            .clickable {
-                                val ruta = "detalles/${centerName}/${investigador.name}" // o id si lo tienes
-                                navController.navigate(ruta)
-                            }
                             .padding(8.dp)
                     ) {
                         // Imagen

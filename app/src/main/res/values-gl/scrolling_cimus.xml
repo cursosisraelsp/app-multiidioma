@@ -34,6 +34,10 @@
     <string name="CS_CIMUS_miniscreen_8_paragraph_0">O centro investiga as bases celulares e moleculares de enfermidades comúns na sociedade, enfocándose en como os xenes e as súas modificacións poden influír nelas. O seu obxectivo é converter estes achados en novos métodos de diagnóstico e tratamento para a sociedade. Para iso, buscan biomarcadores que indiquen a presenza e evolución de enfermidades, así como dianas terapéuticas onde actúan os medicamentos. Tamén exploran avances como a nanomedicina, que usa partículas moi pequenas para tratar enfermidades, as terapias dirixidas, que atacan especificamente as células cancerosas, e a teragnose, que combina diagnóstico e tratamento nun só paso.</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_0">novos métodos de diagnóstico e tratamento para a sociedade</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_1">terapias dirixidas</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_1">Obesidad</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_2">Neurodegeneración</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_3">Cardiovascular</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_4">Cáncer</string>
     <string name="CS_CIMUS_miniscreen_9_title_0">OBESIDADE</string>
     <string name="CS_CIMUS_miniscreen_9_paragraph_0">Sete grupos de investigación estudan a obesidade e enfermidades relacionadas como a diabetes, o Alzheimer e o fígado graxo non alcohólico. Fano desde diferentes perspectivas para entender que as causa, como se desenvolven e que novas formas de tratamento poden aplicarse. Analizan como os xenes, as hormonas e o sistema nervioso controlan o metabolismo, o apetito e o equilibrio enerxético.</string>
     <string name="CS_CIMUS_miniscreen_9_texto_buscado_0">diabetes, o Alzheimer e o fígado graxo non alcohólico</string>
@@ -52,6 +56,11 @@
     <string name="CS_CIMUS_miniscreen_13_paragraph_0">O obxectivo deste programa é transformar os avances da investigación en tratamentos reais para os pacientes. Buscan levar as solucións do laboratorio á práctica para mellorar a atención médica. Para logralo, exploran diversas estratexias terapéuticas que achegan cada vez máis a unha medicina de precisión, adaptada ás necesidades individuais de cada paciente. Algunhas destas estratexias inclúen: medicina xenómica, drug screening, nanodelivery, teragnose e protonterapia.</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_0">transformar os avances da investigación en tratamentos reais para os pacientes</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_1">adaptada ás necesidades individuais de cada paciente</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_1">Medicina Xenómica</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_2">Detección de drogas</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_3">Nanoentrega</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_4">Teragnostica e Prontoterapia</string>
+
     <string name="CS_CIMUS_miniscreen_14_title_0">MEDICINA XENÓMICA</string>
     <string name="CS_CIMUS_miniscreen_14_paragraph_0">Dous grupos de investigación traballan nesta estratexia, que se enfoca en personalizar o tratamento segundo a xenética de cada paciente. Para logralo, combinan o estudo do ADN (xenómica) e a bioinformática para analizar patróns xenéticos importantes, como aqueles que inflúen na identidade e plasticidade celular ou as causas xenéticas que poden transmitir o cancro.</string>
     <string name="CS_CIMUS_miniscreen_14_texto_buscado_0">personalizar o tratamento segundo a xenética de cada paciente</string>

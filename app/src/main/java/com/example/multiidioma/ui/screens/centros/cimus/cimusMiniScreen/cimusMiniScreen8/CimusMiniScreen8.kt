@@ -28,7 +28,7 @@ fun CimusMiniScreen8(
             .background(Color(0xFF66AAD1))
     ) {
         TemplateScreen(
-            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.15f),
+            BoxWeight = BOX(Box1 = 0.05f, Box2 = 0.8f, Box3 = 0.05f),
             data = data,
             Box1 = { contentCimusMiniScreen8Box1() },
             Box2 = { contentCimusMiniScreen8Box2(data, navController)},

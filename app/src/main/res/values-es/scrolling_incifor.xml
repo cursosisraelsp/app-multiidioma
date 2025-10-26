@@ -69,15 +69,8 @@
     <string name="II_INCIFOR_miniscreen_24_paragraph_0">El INCIFOR es un ejemplo claro de cómo la ciencia mejora la vida de las personas. Su trabajo no se queda en los laboratorios: llega a los juzgados, a los hospitales y también a las familias que buscan respuestas. Gracias a la aplicación del conocimiento científico, han logrado resolver crímenes, esclarecer muertes, ayudar a las víctimas, formar a nuevos profesionales y aportar pruebas que garantizan que la justicia se base en hechos objetivos, claros y demostrables.</string>
     <string name="II_INCIFOR_miniscreen_25_title_0">EMBAJADORES </string>
     <string name="II_INCIFOR_miniscreen_25_title_1">DEL TALENTO</string>
-    <string name="II_INCIFOR_miniscreen_26_paragraph_0">Prueba Directivo 1</string>
-    <string name="II_INCIFOR_miniscreen_26_paragraph_1">Prueba Directivo 2</string>
-    <string name="II_INCIFOR_miniscreen_27_title_0">Prueba directivo1</string>
-    <string name="II_INCIFOR_miniscreen_27_title_1">Prueba directivo2</string>
-    <string name="II_INCIFOR_miniscreen_27_paragraph_1">Prueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivoPrueba texto directivo</string>
-    <string name="More_info">Más información aqui</string>
     <string name="II_INCIFOR_miniscreen_28_paragraph_0">Directora</string>
     <string name="II_INCIFOR_miniscreen_29_paragraph_0">Secretaria</string>
     <string name="II_INCIFOR_miniscreen_50_paragraph_0">Si te interesa ampliar tus conocimientos sobre el INCIFOR puedes acceder a más información haciendo clic en este enlace</string>
-
-
+    <string name="More_info">Más información aqui</string>
 </resources>

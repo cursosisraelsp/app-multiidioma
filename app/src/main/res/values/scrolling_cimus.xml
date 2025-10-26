@@ -57,6 +57,12 @@
     <string name="CS_CIMUS_miniscreen_8_paragraph_0">The center investigates the cellular and molecular bases of common diseases in society, focusing on how genes and their modifications can influence them. Its goal is to convert these findings into new diagnostic and treatment methods for society. To this end, they seek biomarkers that indicate the presence and progression of diseases, as well as therapeutic targets where drugs act. They also explore advances such as nanomedicine, which uses very small particles to treat diseases, targeted therapies, which specifically attack cancer cells, and teragnosis, which combines diagnosis and treatment in a single step.</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_0">new diagnostic and treatment methods for society</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_1">targeted therapies</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_1">Obesity</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_2">Neurodegeneration</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_3">Cardiovascular</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_4">Cancer</string>
+
+
 
     <!--PANTALLA 10-->
     <string name="CS_CIMUS_miniscreen_9_title_0">OBESITY</string>
@@ -85,6 +91,10 @@
     <string name="CS_CIMUS_miniscreen_13_paragraph_0">The goal of this program is to transform research advances into real treatments for patients. They seek to bring solutions from the laboratory into practice to improve medical care. To achieve this, they explore various therapeutic strategies that bring us closer to precision medicine, tailored to the individual needs of each patient. Some of these strategies include: genomic medicine, drug screening, nanodelivery, teragnosis, and proton therapy.</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_0">to transform research advances into real treatments for patients</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_1">tailored to the individual needs of each patient</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_1">Genomic Medicine</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_2">Drug screening</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_3">Nanodelivery</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_4">Theragnostics and Prontotherapy</string>
 
     <!--PANTALLA 15-->
     <string name="CS_CIMUS_miniscreen_14_title_0">GENOMIC MEDICINE</string>

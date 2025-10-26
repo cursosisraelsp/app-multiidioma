@@ -3,13 +3,17 @@ package com.example.multiidioma.ui.screens.institutes.ihus
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.LetraMediana
+import com.example.multiidioma.data.LineHeightMediana
+import com.example.multiidioma.data.NumeroMediano
+import com.example.multiidioma.data.anchoTextoMediano
+import com.example.multiidioma.data.numLetra2
+import com.example.multiidioma.data.numNumero
+import com.example.multiidioma.data.relacionTexto
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.data.types.NavegationFiguresData
 import com.example.multiidioma.data.types.PersonResearcher
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LetraMediana
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.LineHeightMediana
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.NumeroMediano
-import com.example.multiidioma.ui.screens.institutes.iarcus_andre.anchoTextoMediano
+
 
 
 val valorFiguraIhus0 = NavegationFiguresData(
@@ -19,11 +23,11 @@ val valorFiguraIhus0 = NavegationFiguresData(
     tamanhoFigura = 150.dp,
     ruta = Destination.Ilg.route,
     numString = "01",
-    relacionNum = com.example.multiidioma.ui.screens.centros.ciqus.numNumero,
+    relacionNum = numNumero,
     textoInfo =  R.string.II_IHUS_miniscreen_5_paragraph1,
-    anchoTexto = com.example.multiidioma.ui.screens.centros.ciqus.relacionTexto,
-    lineHeight = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2,
-    relacionText = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2
+    anchoTexto = relacionTexto,
+    lineHeight = numLetra2,
+    relacionText = numLetra2
 )
 val valorFiguraIhus1 = NavegationFiguresData(
     offset_x = 165.dp,
@@ -45,11 +49,11 @@ val valorFiguraIhus2 = NavegationFiguresData(
     tamanhoFigura = 150.dp,
     ruta = Destination.Ilg.route,
     numString = "03",
-    relacionNum = com.example.multiidioma.ui.screens.centros.ciqus.numNumero,
+    relacionNum = numNumero,
     textoInfo = R.string.II_IHUS_miniscreen_5_paragraph3,
-    anchoTexto = com.example.multiidioma.ui.screens.centros.ciqus.relacionTexto,
-    lineHeight = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2,
-    relacionText = com.example.multiidioma.ui.screens.centros.ciqus.numLetra2
+    anchoTexto = relacionTexto,
+    lineHeight = numLetra2,
+    relacionText = numLetra2
 )
 //Investigadores
 

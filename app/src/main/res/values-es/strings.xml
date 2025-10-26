@@ -77,7 +77,6 @@
     <string name="CRETUS_title_22">EqualSeaLab</string>
 
 
-
     <string name="IARCUS_role_0">Director</string>
     <string name="IARCUS_role_1">Profesor Titular de la Universidad en el Área de Microbiología</string>
 
@@ -102,17 +101,16 @@
     <string name="IARCUS_role_11">Catedrático de la Universidad en el Área de Química Analítica</string>
 
 
-
     <string name="back_arrow">Atrás</string>
     <string name="Directive_Team">EQUIPO DIRECTIVO</string>
     <string name="MORE_INFO">MÁS INFO</string>
     <string name="Research_Staff">PERSONAL INVESTIGADOR</string>
     <string name="prueba_link"><![CDATA[https://www.google.com/?hl=es&zx=1760010651371&no_sw_cr=1]]></string>
     <string name="default_title">SinTitulo</string>
+
     <string name="Directora">Directora</string>
     <string name="Director">Director</string>
     <string name="Secretaria">Secretaría</string>
-
 
 
 </resources>

@@ -3,6 +3,9 @@ package com.example.multiidioma.ui.screens.centros.cimus
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.Destination
+import com.example.multiidioma.data.NumeroGrande
+import com.example.multiidioma.data.NumeroMediano
+import com.example.multiidioma.data.NumeroPequeno
 import com.example.multiidioma.data.numBigCimus
 import com.example.multiidioma.data.numLetra
 import com.example.multiidioma.data.numLetra2
@@ -22,7 +25,7 @@ val valorFiguraCimus0 = NavegationFiguresData(
     ruta = Destination.CimusMiniScreen9.route,
     numString = "01",
     relacionNum = numBigCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_1,
+    textoInfo = R.string.CS_CIMUS_miniscreen_8_paragraph_1,
     anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
@@ -34,8 +37,8 @@ val valorFiguraCimus1 = NavegationFiguresData(
     tamanhoFigura = 180.dp,
     ruta = Destination.CimusMiniScreen10.route,
     numString = "02",
-    relacionNum = numBigCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_2,
+    relacionNum = NumeroMediano,
+    textoInfo = R.string.CS_CIMUS_miniscreen_8_paragraph_2,
     anchoTexto = relacionTextoGrande,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
@@ -47,9 +50,9 @@ val valorFiguraCimus2 = NavegationFiguresData(
     tamanhoFigura = 150.dp,
     ruta = Destination.CimusMiniScreen11.route,
     numString = "03",
-    relacionNum = numSmallCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_3,
-    anchoTexto = relacionTextoGrande,
+    relacionNum = NumeroPequeno,
+    textoInfo = R.string.CS_CIMUS_miniscreen_8_paragraph_3,
+    anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra
 )
@@ -60,22 +63,9 @@ val valorFiguraCimus3 = NavegationFiguresData(
     tamanhoFigura = 225.dp,
     ruta = Destination.CimusMiniScreen12.route,
     numString = "04",
-    relacionNum = numBigCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_4,
+    relacionNum = NumeroGrande,
+    textoInfo = R.string.CS_CIMUS_miniscreen_8_paragraph_4,
     anchoTexto = relacionTextoGrande,
-    lineHeight = numLetra2 * 0.95f,
-    relacionText = numLetra2
-)
-val valorFiguraCimus4 = NavegationFiguresData(
-    offset_x = 90.dp,
-    offset_y = 370.dp,
-    imaxen = R.raw.circulo_blanco,
-    tamanhoFigura = 120.dp,
-    ruta = Destination.CimusMiniScreen14.route,
-    numString = "05",
-    relacionNum = numSmallCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
-    anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
 )
@@ -86,9 +76,9 @@ val valorFiguraCimus5 = NavegationFiguresData(
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 120.dp,
     ruta = Destination.CimusMiniScreen15.route,
-    numString = "05",
+    numString = "01",
     relacionNum = numSmallCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
+    textoInfo = R.string.CS_CIMUS_miniscreen_13_paragraph_1,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
@@ -99,9 +89,9 @@ val valorFiguraCimus6 = NavegationFiguresData(
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 120.dp,
     ruta = Destination.CimusMiniScreen16.route,
-    numString = "05",
+    numString = "02",
     relacionNum = numSmallCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
+    textoInfo = R.string.CS_CIMUS_miniscreen_13_paragraph_2,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2
@@ -112,9 +102,22 @@ val valorFiguraCimus7 = NavegationFiguresData(
     imaxen = R.raw.circulo_blanco,
     tamanhoFigura = 120.dp,
     ruta = Destination.CimusMiniScreen17.route,
-    numString = "05",
+    numString = "03",
     relacionNum = numSmallCimus,
-    textoInfo = R.string.CS_CITIUS_miniscreen_5_paragraph_5,
+    textoInfo = R.string.CS_CIMUS_miniscreen_13_paragraph_3,
+    anchoTexto = relacionTexto,
+    lineHeight = numLetra2 * 0.95f,
+    relacionText = numLetra2
+)
+val valorFiguraCimus8 = NavegationFiguresData(
+    offset_x = 90.dp,
+    offset_y = 370.dp,
+    imaxen = R.raw.circulo_blanco,
+    tamanhoFigura = 120.dp,
+    ruta = Destination.CimusMiniScreen17.route,
+    numString = "04",
+    relacionNum = numSmallCimus,
+    textoInfo = R.string.CS_CIMUS_miniscreen_13_paragraph_4,
     anchoTexto = relacionTexto,
     lineHeight = numLetra2 * 0.95f,
     relacionText = numLetra2

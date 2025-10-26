@@ -34,6 +34,11 @@
     <string name="CS_CIMUS_miniscreen_8_paragraph_0">El centro investiga las bases celulares y moleculares de enfermedades comunes en la sociedad, enfocándose en cómo los genes y sus modificaciones pueden influir en ellas. Su objetivo es convertir estos hallazgos en nuevos métodos de diagnóstico y tratamiento para la sociedad. Para ello, buscan biomarcadores que indiquen la presencia y evolución de enfermedades, así como dianas terapéuticas donde actúan los medicamentos. También exploran avances como la nanomedicina, que usa partículas muy pequeñas para tratar enfermedades, las terapias dirigidas, que atacan específicamente las células cancerosas, y la teragnosis, que combina diagnóstico y tratamiento en un solo paso.</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_0">nuevos métodos de diagnóstico y tratamiento para la sociedad</string>
     <string name="CS_CIMUS_miniscreen_8_texto_buscado_1">terapias dirigidas</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_1">Obesidad</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_2">Neurodegeneración</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_3">Cardiovascular</string>
+    <string name="CS_CIMUS_miniscreen_8_paragraph_4">Cáncer</string>
+
     <string name="CS_CIMUS_miniscreen_9_title_0">OBESIDAD</string>
     <string name="CS_CIMUS_miniscreen_9_paragraph_0">Siete grupos de investigación estudian la obesidad y enfermedades relacionadas como la diabetes, el Alzheimer y el hígado graso no alcohólico. Lo hacen desde diferentes perspectivas para entender qué las causa, cómo se desarrollan y qué nuevas formas de tratamiento pueden aplicarse. Analizan cómo los genes, las hormonas y el sistema nervioso controlan el metabolismo, el apetito y el equilibrio energético.</string>
     <string name="CS_CIMUS_miniscreen_9_texto_buscado_0">diabetes, el Alzheimer y el hígado graso no alcohólico</string>
@@ -52,6 +57,10 @@
     <string name="CS_CIMUS_miniscreen_13_paragraph_0">El objetivo de este programa es transformar los avances de la investigación en tratamientos reales para los pacientes. Buscan llevar las soluciones del laboratorio a la práctica para mejorar la atención médica. Para lograrlo, exploran diversas estrategias terapéuticas que acercan cada vez más a una medicina de precisión, adaptada a las necesidades individuales de cada paciente. Algunas de estas estrategias incluyen: medicina genómica, drug screening, nanodelivery, teragnosis y protonterapia.</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_0">transformar los avances de la investigación en tratamientos reales para los pacientes</string>
     <string name="CS_CIMUS_miniscreen_13_texto_buscado_1">adaptada a las necesidades individuales de cada paciente</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_1">Medicina Genómica</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_2">Detección de drogas</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_3">Nanoentrega</string>
+    <string name="CS_CIMUS_miniscreen_13_paragraph_4">Teragnóstica y prontoterápia</string>
     <string name="CS_CIMUS_miniscreen_14_title_0">MEDICINA GENÓMICA</string>
     <string name="CS_CIMUS_miniscreen_14_paragraph_0">Dos grupos de investigación trabajan en esta estrategia, que se enfoca en personalizar el tratamiento según la genética de cada paciente. Para lograrlo, combinan el estudio del ADN (genómica) y la bioinformática para analizar patrones genéticos importantes, como aquellos que influyen en la identidad y plasticidad celular o las causas genéticas que pueden transmitir el cáncer.</string>
     <string name="CS_CIMUS_miniscreen_14_texto_buscado_0">personalizar el tratamiento según la genética de cada paciente</string>
