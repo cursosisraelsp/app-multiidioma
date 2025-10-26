@@ -551,6 +551,192 @@ val videosShortsIdis = listOf(
         }
     )
 )
+val videosShortsIlg = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1126101818/2a6df77c21",
+        description = "Dna. Elisa Fernández Rei",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126101853/2b9a5ed947",
+        description = "D. Francisco Dubert García",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126101957/821be16604",
+        description = "Dna. Ana Isabel Boullón Agrelo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126102020/98c35b5b99",
+        description = "D. Xulio Sousa Fernández",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+)
+val videosShortsCimus = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1125781084/c37495252b",
+        description = "Dna. María Isabel Loza García",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125768873/960bccf60a",
+        description = "D. Ángel Carracedo Álvarez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125768943/18ef454f07",
+        description = "D. José Manuel Brea Floriani",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125768973/d081e111fe",
+        description = "D. José Manuel Brea Floriani",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125768973/d081e111fe",
+        description = "D. Ricardo Villa Bellosta",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125769001/fd20390bda",
+        description = "Dna. Clara V. Álvarez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125769031/1ec280ab2e",
+        description = "Dna. Iria Gómez Touriño ",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125769171/fdaa8def56",
+        description = "D. Miguel López",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+    VideoVimeo(
+        identificadorVimeo = "1125769188/1fcddf6db6",
+        description = "Dna. Alba Vietes Prado",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+
+    VideoVimeo(
+        identificadorVimeo = "1125769211/305b1ead52",
+        description = "D. Pablo Aguiar ",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125769234/2ffcae3498",
+        description = "Dna. Yolanda Prezado ",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125769257/44414272f5",
+        description = "Dna. Jannette Rodríguez Pallares",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),
+)
+val videosShortsIce = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1125791073/9c46bfc181",
+        description = "Dna. Carmen Fernández Morante",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125791115/35abe606c6",
+        description = "Dna. Beatriz Cebreiro López",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125791145/210651a980",
+        description = "Dna. Silvana Longueira Matos",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125791189/c6ccbdbe78",
+        description = "D. Miguel Ángel Santos Regos",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125791233/15b34c9a12",
+        description = "Dna. María del Mar Lorenzo Moledo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125791260/ea62317675",
+        description = "D. Marcos Mecías Calvo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125790920/e0ea09a6c3",
+        description = "Dna. Ana Porto Castro",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1125790979/4c53b83648",
+        description = "Dna. Marta Neira Rodríguez",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    )
+)
+val videosShortIgfae = listOf(
+    VideoVimeo(
+        identificadorVimeo = "1126105651/df6cf63d6c",
+        description = "D. Carlos A. Salgado López",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126105724/7a00904099",
+        description = "D. Yassid Ayyad",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126105765/c3befde1e0",
+        description = "D. Alfonso Vázquez Ramallo",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    ),VideoVimeo(
+        identificadorVimeo = "1126105828/d38139886d",
+        description = "Dna. Li Meijian",
+        imaxe = {
+            ImageAsyncVimeo("logo_shorts.jpeg")
+        }
+    )
+)
 class MultimediaRepository (){
 
     fun getListPodcasts(): List<Podcast> {
@@ -573,6 +759,21 @@ class MultimediaRepository (){
 
     fun getListVideosShortsIdis(): List<VideoVimeo>{
         return videosShortsIdis
+    }
+    fun getListVideosShortsIlg(): List<VideoVimeo>{
+        return videosShortsIlg
+    }
+
+    fun getListVideoShortsCimus(): List<VideoVimeo>{
+        return videosShortsCimus
+    }
+
+    fun getListVideosShortIce():List<VideoVimeo>{
+        return videosShortsIce
+    }
+
+    fun getListVideosShortsIgfae():List<VideoVimeo>{
+        return videosShortIgfae
     }
 
 }

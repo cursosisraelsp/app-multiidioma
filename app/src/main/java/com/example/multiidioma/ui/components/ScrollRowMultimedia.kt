@@ -119,8 +119,79 @@ fun ScrollRowMultimedia(multimediaList: List<MultimediaData>) {
                 }
             }
         }
+        // 🎬 Shorts Ilg
+        item {
+            val shorts = multimediaList.filterIsInstance<MultimediaData.ShortIlg>()
+            Text("ILG", modifier = Modifier.padding(16.dp),style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.W900)
+
+            LazyRow(
+                modifier =Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(shorts) { multimediaData ->
+                    LanguageBasedVimeoVideo(
+                        videoUrl = "${urlVimeo}${multimediaData.short.identificadorVimeo}",
+                        imaxen = multimediaData.short.imaxe,
+                        descripcion = multimediaData.short.description
+                    )
+                }
+            }
+        }
+        // 🎬 Shorts Cimus
+        item {
+            val shorts = multimediaList.filterIsInstance<MultimediaData.ShortCimus>()
+            Text("CIMUS", modifier = Modifier.padding(16.dp),style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.W900)
+
+            LazyRow(
+                modifier =Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(shorts) { multimediaData ->
+                    LanguageBasedVimeoVideo(
+                        videoUrl = "${urlVimeo}${multimediaData.short.identificadorVimeo}",
+                        imaxen = multimediaData.short.imaxe,
+                        descripcion = multimediaData.short.description
+                    )
+                }
+            }
+        }
+
+        // 🎬 Shorts Ice
+        item {
+            val shorts = multimediaList.filterIsInstance<MultimediaData.ShortIce>()
+            Text("ICE", modifier = Modifier.padding(16.dp),style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.W900)
+
+            LazyRow(
+                modifier =Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(shorts) { multimediaData ->
+                    LanguageBasedVimeoVideo(
+                        videoUrl = "${urlVimeo}${multimediaData.short.identificadorVimeo}",
+                        imaxen = multimediaData.short.imaxe,
+                        descripcion = multimediaData.short.description
+                    )
+                }
+            }
+        }
+
+        // 🎬 Shorts Igfae
+        item {
+            val shorts = multimediaList.filterIsInstance<MultimediaData.ShortIgfae>()
+            Text("IGFAE", modifier = Modifier.padding(16.dp),style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.W900)
+
+            LazyRow(
+                modifier =Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(shorts) { multimediaData ->
+                    LanguageBasedVimeoVideo(
+                        videoUrl = "${urlVimeo}${multimediaData.short.identificadorVimeo}",
+                        imaxen = multimediaData.short.imaxe,
+                        descripcion = multimediaData.short.description
+                    )
+                }
+            }
+        }
 
     }
+
 
 }
 
