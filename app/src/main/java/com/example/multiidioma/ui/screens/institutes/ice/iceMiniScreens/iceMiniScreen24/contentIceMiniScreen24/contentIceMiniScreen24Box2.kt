@@ -12,6 +12,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.utils.TextBodyMedium
 
@@ -40,7 +41,7 @@ fun contentIceMiniScreen24Box2(data: MiniScreenData) {
                 .weight(0.4f)
                 .padding(end = 50.dp)
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
     }
 }

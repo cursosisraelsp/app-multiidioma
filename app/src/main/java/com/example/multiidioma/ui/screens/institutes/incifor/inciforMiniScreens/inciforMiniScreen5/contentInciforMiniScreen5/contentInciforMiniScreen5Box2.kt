@@ -9,10 +9,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
-import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.data.urlRecursosApp
+import com.example.multiidioma.ui.components.GifUrlStringComponent
 import com.example.multiidioma.utils.TextBodyMedium
 
 @Composable
@@ -33,7 +35,9 @@ fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
                 .weight(0.4f),
             contentAlignment = Alignment.BottomEnd
         ) {
-            GifComponent(gif = R.drawable.incifor_anim_01)
+
+            val gifIlg5 = "$urlRecursosApp/ANIMACIONS/incifor_anim_01.gif"
+            GifUrlStringComponent(gif = gifIlg5, contentScale = ContentScale.Fit)
 
         }
     }

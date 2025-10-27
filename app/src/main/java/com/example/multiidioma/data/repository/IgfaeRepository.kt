@@ -1,7 +1,13 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCiqus
+import com.example.multiidioma.data.centroCitius
+import com.example.multiidioma.data.centroIgfae
+import com.example.multiidioma.data.imaxesPNG
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 class IgfaeRepository {
     fun getMiniScreens(): List<MiniScreenData> {
@@ -17,21 +23,24 @@ class IgfaeRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_1_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_2_paragraph_0,
                 ),
-                imageRes = R.drawable.ipsius_img_01
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_3_paragraph_0,
                 ),
-                imageRes = R.drawable.ipsius_img_02
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 4,
@@ -48,7 +57,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_5_paragraph_2,
 
                     ),
-                imageRes = R.drawable.igfae_img_01
+                //imageRes = R.drawable.igfae_img_01
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIgfae/igfae_img_01.webp"
             ),
             MiniScreenData(
                 id = 6,
@@ -57,7 +67,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_6_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_6_paragraph_1,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 7,
@@ -66,7 +77,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_7_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_7_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_05_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 8,
@@ -75,7 +87,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_8_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_8_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_06_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 9,
@@ -84,7 +97,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_9_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_9_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_07_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 10,
@@ -93,7 +107,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_10_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_10_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_08_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 11,
@@ -102,7 +117,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_11_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_11_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_09_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 12,
@@ -111,7 +127,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_12_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_12_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_10_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 13,
@@ -120,7 +137,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_13_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_13_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 14,
@@ -129,7 +147,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_14_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_14_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 15,
@@ -138,7 +157,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_15_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_15_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 16,
@@ -147,7 +167,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_16_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_16_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 17,
@@ -155,7 +176,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_17_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_17_paragraph_1,
                 ),
-                imageRes = R.drawable.igfae_img_11
+                //imageRes = R.drawable.igfae_img_11
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIgfae/igfae_img_11.webp"
             ),
             MiniScreenData(
                 id = 18,
@@ -163,35 +185,40 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_18_paragraph_0,
                     R.string.CS_IGFAE_miniscreen_18_paragraph_1,
                 ),
-                imageRes = R.drawable.igfae_img_12
-            ),
+                //imageRes = R.drawable.igfae_img_12
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIgfae/igfae_img_12.webp"
+                ),
             MiniScreenData(
                 id = 19,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_19_paragraph_0,
                     ),
-                imageRes = R.drawable.igfae_img_13
-            ),
+                //imageRes = R.drawable.igfae_img_13
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIgfae/igfae_img_13.webp"
+                ),
             MiniScreenData(
                 id = 20,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_20_paragraph_0,
                 ),
-                imageRes = R.drawable.igfae_img_14
+                //imageRes = R.drawable.igfae_img_14
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIgfae/igfae_img_14.webp"
             ),
             MiniScreenData(
                 id = 21,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_21_paragraph_0,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 22,
                 bodyParagraphs = listOf(
                     R.string.CS_IGFAE_miniscreen_22_title_0,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 23,
@@ -204,7 +231,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_23_paragraph_3,
                     R.string.CS_IGFAE_miniscreen_23_paragraph_4,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 24,
@@ -214,7 +242,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_24_paragraph_1,
                     R.string.CS_IGFAE_miniscreen_24_paragraph_2,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 25,
@@ -223,7 +252,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_25_paragraph_1,
                     R.string.CS_IGFAE_miniscreen_25_paragraph_2,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),MiniScreenData(
                 id = 26,
                 bodyParagraphs = listOf(
@@ -231,7 +261,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_26_paragraph_1,
                     R.string.CS_IGFAE_miniscreen_26_paragraph_2,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 27,
@@ -240,7 +271,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_27_paragraph_1,
                     R.string.CS_IGFAE_miniscreen_27_paragraph_2
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 28,
@@ -249,7 +281,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_28_paragraph_1,
                     R.string.CS_IGFAE_miniscreen_28_paragraph_2
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 29,
@@ -258,7 +291,8 @@ class IgfaeRepository {
                     R.string.CS_IGFAE_miniscreen_29_paragraph_1,
 
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
 
 

@@ -53,7 +53,7 @@ fun contentCiqusMiniScreen3Box2(data: MiniScreenData) {
                 .padding(start = 50.dp, end =50.dp)
         ) {
 
-            //ReusableImage(data, estilosImagen)
+
             ImageAsincComponent(data, estilosImagen)
         }
 

@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.utils.TextBodyMedium
 
@@ -26,7 +27,8 @@ fun LeftColumnIncifor6(data: MiniScreenData, modifier: Modifier = Modifier) {
             modifier = Modifier
                 .fillMaxSize(0.1f)
         ) {
-            ReusableImage(data, estilosImagen)
+
+            ImageAsincComponent(data, estilosImagen)
         }
         Box(
             modifier = Modifier
@@ -46,7 +48,7 @@ fun LeftColumnIncifor6(data: MiniScreenData, modifier: Modifier = Modifier) {
             modifier = Modifier
                 .fillMaxSize(0.2f)
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
     }
 }

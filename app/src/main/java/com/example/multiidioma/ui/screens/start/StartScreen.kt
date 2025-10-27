@@ -10,13 +10,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
+import com.example.multiidioma.data.urlRecursosApp
 import com.example.multiidioma.ui.components.SplashImaxen
+import com.example.multiidioma.ui.components.SplashUrlImaxenComponent
 import kotlinx.coroutines.delay
 
 @Composable
 fun StartScreen(navController: NavController) {
     LaunchedEffect(true) {
-        delay(3000L)
+        delay(6000L)
         navController.navigate("home") {
             popUpTo("splash") { inclusive = true }
         }
@@ -24,12 +26,12 @@ fun StartScreen(navController: NavController) {
 
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         // Imagen de fondo full screen
-        SplashImaxen(imageResId = R.drawable.imaxeninicial)
 
+        val imaxenInicial = "$urlRecursosApp/imaxeninicial.png"
+        val imaxenLogoBranco = "$urlRecursosApp/logo_en_branco.png"
+        SplashUrlImaxenComponent(imaxenInicial)
         // Logo centrado encima
-        SplashImaxen(
-            imageResId = R.drawable.logo_en_branco,
-            modifier = Modifier.size(300.dp)
-        )
+        SplashUrlImaxenComponent(imaxenLogoBranco,modifier = Modifier.size(300.dp))
+
     }
 }

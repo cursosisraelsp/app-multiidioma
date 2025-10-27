@@ -17,6 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
@@ -53,7 +54,7 @@ fun ContentIarcusMiniScreen3Box2(data: MiniScreenData) {
             modifier = Modifier,
             contentAlignment = Alignment.Center
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
     }
 }

@@ -54,16 +54,8 @@ fun contentCiqusMiniScreen1Box2(data: MiniScreenData) {
                 .weight(0.4f)
                 .padding(start = 50.dp, end =50.dp, bottom = 10.dp)
         ) {
-
-            //ReusableImage(data, estilosImagen)
             ImageAsincComponent(data, estilosImagen)
-            /*AsyncImage(
-                model = "https://github.com/cursosisraelsp/recursos-app-obradoiro-santiago-2025/blob/main/EN_PNG/ciqus/ciqus_img_01.png",
-                contentDescription = "Imagen remota en formato WebP",
 
-                modifier = Modifier.size(200.dp),
-                contentScale = ContentScale.Crop
-            )*/
         }
 
     }

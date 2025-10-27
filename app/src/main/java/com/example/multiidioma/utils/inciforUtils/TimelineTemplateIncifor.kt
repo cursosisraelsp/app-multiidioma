@@ -16,6 +16,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.utils.TextBodyMedium
@@ -51,7 +52,7 @@ fun TimelineTemplateIncifor(
                     .weight(0.1f)
                     .padding(start = 40.dp),
             ) {
-                ReusableImage(data, estilosImagen)
+                ImageAsincComponent(data, estilosImagen)
             }
 
             Column(
@@ -71,7 +72,7 @@ fun TimelineTemplateIncifor(
                 modifier = Modifier
                     .fillMaxSize(0.2f)
             ) {
-                ReusableImage(data, estilosImagen)
+                ImageAsincComponent(data, estilosImagen)
             }
         }
 

@@ -2,7 +2,11 @@ package com.example.multiidioma.data.repository
 
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroIce
+import com.example.multiidioma.data.centroIdis
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 
 class IdisRepository {
@@ -23,7 +27,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_1_paragraph_0,
                     R.string.CS_IDIS_miniscreen_1_paragraph_1,
                 ),
-                imageRes = R.drawable.idis_img_01
+                //imageRes = R.drawable.idis_img_01
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_01.webp"
             ),
 
             MiniScreenData(
@@ -31,16 +36,17 @@ class IdisRepository {
                 bodyParagraphs =listOf(
                     R.string.CS_IDIS_miniscreen_2_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_01
-            ) ,
+                //imageRes = R.drawable.idis_img_01
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_01.webp"
+                ) ,
             MiniScreenData(
                 id = 3,
                 bodyParagraphs =listOf(
                     R.string.CS_IDIS_miniscreen_3_paragraph_0,
                     R.string.CS_IDIS_miniscreen_3_paragraph_1,
                 ),
-                imageRes = R.drawable.idis_img_02
-
+                //imageRes = R.drawable.idis_img_02
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_02.webp"
             ),
 
             MiniScreenData(
@@ -56,8 +62,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_5_title_0,
                     R.string.CS_IDIS_miniscreen_5_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_03
-
+                //imageRes = R.drawable.idis_img_03
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_03.webp"
             ),
             MiniScreenData(
                 id = 6,
@@ -67,8 +73,9 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_6_title_2,
                     R.string.CS_IDIS_miniscreen_6_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_04
-            ),
+                //imageRes = R.drawable.idis_img_04
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_04.webp"
+                ),
 
             MiniScreenData(
                 id = 7,
@@ -78,8 +85,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_7_title_2,
                     R.string.CS_IDIS_miniscreen_7_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_05
-
+                //imageRes = R.drawable.idis_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_05.webp"
             ),
 
             MiniScreenData(
@@ -88,7 +95,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_8_title_0,
                     R.string.CS_IDIS_miniscreen_8_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_06
+                //imageRes = R.drawable.idis_img_06
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_06.webp"
             ),
 
 
@@ -99,7 +107,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_9_title_1,
                     R.string.CS_IDIS_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_07
+                //imageRes = R.drawable.idis_img_07
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_07.webp"
             ),
 
             MiniScreenData(
@@ -108,8 +117,8 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_10_title_0,
                     R.string.CS_IDIS_miniscreen_10_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_08
-
+                //imageRes = R.drawable.idis_img_08
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_08.webp"
             ),
             MiniScreenData(
                 id = 11,
@@ -119,8 +128,9 @@ class IdisRepository {
                     R.string.CS_IDIS_miniscreen_11_title_2,
                     R.string.CS_IDIS_miniscreen_11_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_09
-            ),
+                //imageRes = R.drawable.idis_img_09
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIdis/idis_img_09.webp"
+                ),
             MiniScreenData(
                 id = 12,
                 bodyParagraphs =listOf(
@@ -183,103 +193,6 @@ class IdisRepository {
 
                     ),
             ),
-
-            /*   MiniScreenData(
-                   id = 18,
-                   bodyParagraphs =listOf(
-                       R.string.II_ILG_miniscreen_18_title_0,
-                       R.string.II_ILG_miniscreen_18_title_1,
-                       R.string.II_ILG_miniscreen_18_paragraph_0,
-                       *//*R.string.II_ILG_miniscreen_18_paragraph_1,*//*
-                ),
-            ),
-
-            MiniScreenData(
-                id = 19,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_19_title_0,
-                    R.string.II_ILG_miniscreen_19_title_1,
-                    R.string.II_ILG_miniscreen_19_paragraph_0,
-                    R.string.II_ILG_miniscreen_19_paragraph_1,
-                ),
-            ),
-
-            MiniScreenData(
-                id = 20,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_20_title_0,
-                    R.string.II_ILG_miniscreen_20_title_1,
-                    R.string.II_ILG_miniscreen_20_paragraph_0,
-                    *//*R.string.II_ILG_miniscreen_20_paragraph_1,*//*
-                ),
-            ),
-
-            MiniScreenData(
-                id = 21,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_21_title_0,
-                    R.string.II_ILG_miniscreen_21_title_1,
-                    R.string.II_ILG_miniscreen_21_paragraph_0,
-                    R.string.II_ILG_miniscreen_21_paragraph_1,
-                ),
-            ),
-
-            MiniScreenData(
-                id = 22,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_22_title_0,
-                    R.string.II_ILG_miniscreen_22_title_1,
-                    R.string.II_ILG_miniscreen_22_paragraph_0,
-                    R.string.II_ILG_miniscreen_22_paragraph_1,
-                ),
-            ),
-
-            MiniScreenData(
-                id = 23,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_23_title_0,
-                    R.string.II_ILG_miniscreen_23_title_1,
-                    R.string.II_ILG_miniscreen_23_paragraph_0,
-                   *//* R.string.II_ILG_miniscreen_23_paragraph_1,*//*
-                ),
-            ),
-
-            MiniScreenData(
-                id = 24,
-                bodyParagraphs =listOf(
-                    R.string.II_ILG_miniscreen_24_paragraph_0,
-                ),
-            ),
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             MiniScreenData(
                 id = 18,

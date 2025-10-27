@@ -6,6 +6,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
@@ -14,6 +15,6 @@ fun contentSecondDirectiveImageMiniScreen15(data: MiniScreenData) {
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
     )
 
-    ReusableImage(data, estilosImagen)
+    ImageAsincComponent(data, estilosImagen)
 
 }

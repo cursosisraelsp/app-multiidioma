@@ -1,7 +1,12 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCitius
+import com.example.multiidioma.data.centroIpsius
+import com.example.multiidioma.data.imaxesPNG
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 class IpsiusRepository {
     fun getMiniScreens(): List<MiniScreenData> {
@@ -18,7 +23,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_1_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_1_paragraph_1
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 2,
@@ -26,8 +32,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_2_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_2_paragraph_1
                 ),
-                imageRes = R.drawable.ipsius_img_01,
-
+                //imageRes = R.drawable.ipsius_img_01,
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_01.png"
             ),
             MiniScreenData(
                 id = 3,
@@ -35,7 +41,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_3_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_3_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_02
+                //imageRes = R.drawable.ipsius_img_02
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_02.png"
             ),
             MiniScreenData(
                 id = 4,
@@ -49,7 +56,8 @@ class IpsiusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IPSIUS_miniscreen_6_title_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 6,
@@ -58,7 +66,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_7_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_7_paragraph_1
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 7,
@@ -67,7 +76,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_8_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_8_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_05_eng
+                //imageRes = R.drawable.ipsius_img_05_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_05_eng.png"
             ),
             MiniScreenData(
                 id = 8,
@@ -76,8 +86,9 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_9_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_9_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_06_eng
-            ),
+                //imageRes = R.drawable.ipsius_img_06_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_06_eng.png"
+                ),
             MiniScreenData(
                 id = 9,
                 bodyParagraphs = listOf(
@@ -86,16 +97,18 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_10_paragraph_1,
                     R.string.II_IPSIUS_miniscreen_10_paragraph_2
                 ),
-                imageRes = R.drawable.ipsius_img_07_eng
-            ),
+                //imageRes = R.drawable.ipsius_img_07_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_07_eng.png"
+                ),
             MiniScreenData(
                 id = 10,
                 bodyParagraphs = listOf(
                     R.string.II_IPSIUS_miniscreen_11_title_0,
                     R.string.II_IPSIUS_miniscreen_11_paragraph_0
                 ),
-                imageRes = R.drawable.ipsius_img_08_eng
-            ),
+                //imageRes = R.drawable.ipsius_img_08_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_08_eng.png"
+                ),
             MiniScreenData(
                 id = 11,
                 bodyParagraphs = listOf(
@@ -103,7 +116,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_12_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_12_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_09_eng
+                //imageRes = R.drawable.ipsius_img_09_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_09_eng.png"
             ),
             MiniScreenData(
                 id = 12,
@@ -113,7 +127,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_13_paragraph_1,
                     R.string.II_IPSIUS_miniscreen_13_paragraph_2,
                 ),
-                imageRes = R.drawable.ipsius_img_10_eng
+                //imageRes = R.drawable.ipsius_img_10_eng
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_10_eng.png"
             ),
             MiniScreenData(
                 id = 13,
@@ -121,7 +136,9 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_14_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_14_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.ipsius_img_11_eng
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 14,
@@ -129,7 +146,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_15_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_15_paragraph_1,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 15,
@@ -137,7 +155,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_15_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_15_paragraph_1,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 16,
@@ -145,7 +164,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_16_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_16_paragraph_1,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 17,
@@ -160,7 +180,8 @@ class IpsiusRepository {
                 bodyParagraphs = listOf(
                     R.string.II_IPSIUS_miniscreen_18_title_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 19,
@@ -196,7 +217,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_21_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_21_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 22,
@@ -205,7 +227,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_22_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_22_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 23,
@@ -214,7 +237,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_23_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_23_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 24,
@@ -223,7 +247,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_24_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_24_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 25,
@@ -232,7 +257,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_25_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_25_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 26,
@@ -241,7 +267,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_26_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_26_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 27,
@@ -250,7 +277,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_27_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_27_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
             ),
             MiniScreenData(
                 id = 28,
@@ -259,16 +287,18 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_28_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_28_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_21
-            ),
+                //imageRes = R.drawable.ipsius_img_21
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
+                ),
             MiniScreenData(
                 id = 29,
                 bodyParagraphs = listOf(
                     R.string.II_IPSIUS_miniscreen_29_paragraph_0,
                     R.string.II_IPSIUS_miniscreen_29_paragraph_1,
                 ),
-                imageRes = R.drawable.ipsius_img_22
-            ),
+                //imageRes = R.drawable.ipsius_img_22
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_21.png"
+                ),
             MiniScreenData(
                 id = 30,
                 bodyParagraphs = listOf(
@@ -276,7 +306,8 @@ class IpsiusRepository {
                     R.string.II_IPSIUS_miniscreen_30_paragraph_1,
                     R.string.II_IPSIUS_miniscreen_30_paragraph_2,
                 ),
-                imageRes = R.drawable.ipsius_img_23
+                //imageRes = R.drawable.ipsius_img_23
+                urlImage = "$urlRecursosApp/$imaxesPNG/$centroIpsius/ipsius_img_23.xml"
             ),
 
         )

@@ -55,7 +55,7 @@ class CimusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_5_paragraph_0,
                     ),
-                imageRes = R.drawable.cimus_img_03,
+                //imageRes = R.drawable.cimus_img_03,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_03.webp"
 
             ),
@@ -77,7 +77,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_7_paragraph_1,
 
                     ),
-                imageRes = R.drawable.cimus_img_04,
+                //imageRes = R.drawable.cimus_img_04,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_04.webp"
 
                 ),
@@ -183,7 +183,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_18_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_18_paragraph_1,
                 ),
-                imageRes = R.drawable.cimus_img_14,
+               // imageRes = R.drawable.cimus_img_14,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_14.webp"
                 ),
             MiniScreenData(
@@ -193,7 +193,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_19_paragraph_0,
                     R.string.CS_CIMUS_miniscreen_19_paragraph_1
                 ),
-                imageRes = R.drawable.cimus_img_15,
+                //imageRes = R.drawable.cimus_img_15,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_15.webp"
 
                 ),
@@ -205,7 +205,7 @@ class CimusRepository {
                     R.string.CS_CIMUS_miniscreen_20_paragraph_1,
 
                     ),
-                imageRes = R.drawable.cimus_img_16,
+                //imageRes = R.drawable.cimus_img_16,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_16.webp"
 
                 ),

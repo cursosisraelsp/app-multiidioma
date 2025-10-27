@@ -20,6 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.utils.TextBodyMedium
 
@@ -54,7 +55,7 @@ fun contentInciforMiniScreen12Box2(data: MiniScreenData) {
                 .fillMaxHeight(0.9f)
                 .background(Color.Blue)
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
     }
 }

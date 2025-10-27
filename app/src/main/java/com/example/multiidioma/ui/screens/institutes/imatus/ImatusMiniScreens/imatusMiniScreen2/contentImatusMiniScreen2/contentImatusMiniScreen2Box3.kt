@@ -11,6 +11,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
@@ -26,6 +27,6 @@ fun contentImatusMiniScreen2Box3(data: MiniScreenData) {
             .padding(start = 15.dp, end = 15.dp),
         verticalArrangement = Arrangement.Top, horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        ReusableImage(data, estilosImagen)
+        ImageAsincComponent(data, estilosImagen)
     }
 }

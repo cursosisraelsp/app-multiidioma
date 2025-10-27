@@ -11,13 +11,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.R
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
-import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.data.urlRecursosApp
+import com.example.multiidioma.ui.components.GifUrlStringComponent
 import com.example.multiidioma.ui.components.Text.AppText
 
 @Composable
@@ -60,7 +62,8 @@ fun contentIlgMiniScreen7Box2(data: MiniScreenData) {
                 horizontalAlignment = Alignment.CenterHorizontally
 
         ) {
-            GifComponent(gif = R.drawable.ilg_anim_05)
+            val gifIlg5 = "$urlRecursosApp/ANIMACIONS/ilg_anim_05.gif"
+            GifUrlStringComponent(gif = gifIlg5, contentScale = ContentScale.Fit)
         }
     }
 }

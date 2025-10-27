@@ -1,7 +1,11 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCitius
+import com.example.multiidioma.data.centroIce
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 class IceRepository {
 
@@ -30,8 +34,9 @@ class IceRepository {
                     R.string.II_ICE_miniscreen_2_paragraph_0,
                     /* R.string.II_ICE_miniscreen_2_paragraph_1,*/
                 ),
-                imageRes = R.drawable.noimagen /*ice_img_01*/
-            ),
+                //imageRes = R.drawable.noimagen /*ice_img_01*/
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_01.webp"
+                ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
@@ -62,9 +67,9 @@ class IceRepository {
                     R.string.II_ICE_miniscreen_5_paragraph_1,
 
                     ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
                 /* R.drawable.ice_img_03*/
-
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_03.webp"
             ),
             MiniScreenData(
                 id = 6,
@@ -166,7 +171,8 @@ class IceRepository {
                     R.string.II_ICE_miniscreen_15_title_1,
                     R.string.II_ICE_miniscreen_15_paragraph_0,
                 ),
-imageRes = R.drawable.ice_img_12
+                    //imageRes = R.drawable.ice_img_12
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_12.webp"
                 ),
             MiniScreenData(
                 id = 16,
@@ -175,8 +181,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_16_title_1,
                     R.string.II_ICE_miniscreen_16_paragraph_0,
                 ),
-                imageRes = R.drawable.ice_img_13
-
+                //imageRes = R.drawable.ice_img_13
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_13.webp"
                 ),
             MiniScreenData(
                 id = 17,
@@ -185,8 +191,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_17_title_1,
                     R.string.II_ICE_miniscreen_17_paragraph_0,
                 ),
-                imageRes = R.drawable.ice_img_14
-
+                //imageRes = R.drawable.ice_img_14
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_14.webp"
                 ),
             MiniScreenData(
                 id = 18,
@@ -196,8 +202,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_18_paragraph_0,
                     R.string.II_ICE_miniscreen_18_paragraph_1,
                 ),
-                imageRes = R.drawable.ice_img_15
-
+                //imageRes = R.drawable.ice_img_15
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_15.webp"
                 ),
             MiniScreenData(
                 id = 19,
@@ -207,7 +213,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_19_paragraph_0,
                     R.string.II_ICE_miniscreen_19_paragraph_1
                 ),
-                        imageRes = R.drawable.ice_img_16
+                       // imageRes = R.drawable.ice_img_16
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_16.webp"
             ),
             MiniScreenData(
                 id = 20,
@@ -218,8 +225,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_20_paragraph_1,
 
                     ),
-                imageRes = R.drawable.ice_img_17
-
+                //imageRes = R.drawable.ice_img_17
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_17.webp"
                 ),
             MiniScreenData(
                 id = 21,
@@ -227,7 +234,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_21_title_0,
                     R.string.II_ICE_miniscreen_21_paragraph_0,
                     ),
-                imageRes = R.drawable.ice_img_18
+                //imageRes = R.drawable.ice_img_18
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_18.webp"
                 ),
             MiniScreenData(
                 id = 22,
@@ -236,8 +244,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_22_paragraph_0,
                     R.string.II_ICE_miniscreen_22_paragraph_1,
                     ),
-                imageRes = R.drawable.ice_img_19
-
+                //imageRes = R.drawable.ice_img_19
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_19.webp"
                 ),
             MiniScreenData(
                 id = 23,
@@ -258,8 +266,8 @@ imageRes = R.drawable.ice_img_12
 
 
                     ),
-                imageRes = R.drawable.ice_img_21
-
+                //imageRes = R.drawable.ice_img_21
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_21.webp"
                 ),
             MiniScreenData(
                 id = 25,
@@ -268,8 +276,8 @@ imageRes = R.drawable.ice_img_12
                     R.string.II_ICE_miniscreen_25_paragraph_1,
 
                     ),
-                imageRes = R.drawable.ice_img_22
-
+                //imageRes = R.drawable.ice_img_22
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIce/ice_img_22.webp"
                 ),
             MiniScreenData(
                 id = 26,

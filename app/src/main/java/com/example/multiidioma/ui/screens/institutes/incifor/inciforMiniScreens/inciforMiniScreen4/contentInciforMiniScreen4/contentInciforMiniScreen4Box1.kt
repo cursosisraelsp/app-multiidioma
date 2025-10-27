@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 @Composable
@@ -27,7 +28,7 @@ fun contentInciforMiniScreen4Box1(data: MiniScreenData) {
         contentAlignment = Alignment.TopEnd
     ) {
 
-        ReusableImage(data, estilosImagen)
+        ImageAsincComponent(data, estilosImagen)
 
     }
 }

@@ -2,7 +2,12 @@ package com.example.multiidioma.data.repository
 
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCimus
+import com.example.multiidioma.data.centroIlga
+import com.example.multiidioma.data.imaxesPNG
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 
 class IlgRepository {
@@ -54,8 +59,8 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_4_paragraph_0,
                     R.string.II_ILG_miniscreen_4_paragraph_1,
                 ),
-                imageRes = R.drawable.ilg_img_02
-
+                //imageRes = R.drawable.ilg_img_02
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIlga/ilg_img_02.webp"
 
 
             ),
@@ -66,7 +71,8 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_5_paragraph_0,
                     R.string.II_ILG_miniscreen_5_paragraph_1
                 ),
-                imageRes = R.drawable.bgalega
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
 
 
 
@@ -78,8 +84,9 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_6_paragraph_1,
 
                     ),
-                imageRes = R.drawable.ilg_img_03
-            ),
+                //imageRes = R.drawable.ilg_img_03
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIlga/ilg_img_07.webp"
+                ),
 
             MiniScreenData(
                 id = 7,
@@ -87,7 +94,8 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_7_paragraph_0,
                     R.string.II_ILG_miniscreen_7_paragraph_1,
                 ),
-                imageRes = R.drawable.bgalega
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
 
             ),
 
@@ -108,7 +116,8 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_9_title_0,
                     R.string.II_ILG_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.ilg_img_04
+                //imageRes = R.drawable.ilg_img_04
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIlga/ilg_img_04.webp"
             ),
 
             MiniScreenData(
@@ -117,8 +126,8 @@ class IlgRepository {
                     R.string.II_ILG_miniscreen_10_title_0,
                     R.string.II_ILG_miniscreen_10_paragraph_0,
                 ),
-                imageRes = R.drawable.ilg_img_05
-
+                //imageRes = R.drawable.ilg_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIlga/ilg_img_05.webp"
             ),
             MiniScreenData(
                 id = 11,
@@ -140,8 +149,8 @@ class IlgRepository {
                 bodyParagraphs =listOf(
                     R.string.II_ILG_miniscreen_13_paragraph_0,
                 ),
-                imageRes = R.drawable.ilg_img_07
-
+                //imageRes = R.drawable.ilg_img_07
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIlga/ilg_img_07.webp"
 
             ),
 

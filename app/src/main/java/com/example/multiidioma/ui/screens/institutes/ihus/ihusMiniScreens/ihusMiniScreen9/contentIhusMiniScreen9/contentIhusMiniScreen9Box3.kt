@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
@@ -29,7 +30,7 @@ fun contentIhusMiniScreen9Box3(data: MiniScreenData) {
                 .weight(0.7f)
                 .padding(bottom = 15.dp)
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
 
 

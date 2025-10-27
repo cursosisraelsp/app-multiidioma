@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineVerticalComponent
 
@@ -27,7 +28,7 @@ fun contentCretusMiniScreen14Box3(data: MiniScreenData) {
             modifier = Modifier.size(250.dp),
             alignment = Alignment.Center
         )
-        ReusableImage(data, estilosImagen)
+        ImageAsincComponent(data, estilosImagen)
     }
 
     LineVerticalComponent(

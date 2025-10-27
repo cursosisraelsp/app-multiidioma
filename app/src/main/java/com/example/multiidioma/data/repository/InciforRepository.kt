@@ -1,7 +1,11 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCitius
+import com.example.multiidioma.data.centroIncifor
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 import com.example.multiidioma.ui.screens.institutes.incifor.datosInvestigadoresIncifor
 import com.example.multiidioma.utils.GetPersonalResearcherUtils
 import com.example.multiidioma.utils.PersonsResearchersUtils
@@ -22,28 +26,32 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_1_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_01
-            ),
+                //imageRes = R.drawable.incifor_img_01
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01.webp"
+                ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_2_paragraph_0
                 ),
-                imageRes = R.drawable.incifor_img_01_b
+                //imageRes = R.drawable.incifor_img_01_b
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01_b.webp"
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_3_paragraph_0
                 ),
-                imageRes = R.drawable.incifor_img_01_c
+                //imageRes = R.drawable.incifor_img_01_c
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01_c.webp"
             ),
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_4_paragraph_0
                 ),
-                imageRes = R.drawable.incifor_img_01_d
+                //imageRes = R.drawable.incifor_img_01_d
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01_d.webp"
             ),
             MiniScreenData(
                 id = 5,
@@ -65,7 +73,8 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_6_paragraph_4,
 
                     ),
-                imageRes = R.drawable.incifor_img_02
+                //imageRes = R.drawable.incifor_img_02
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_02.webp"
             ),
             MiniScreenData(
                 id = 7,
@@ -111,7 +120,8 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_12_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_03
+                //imageRes = R.drawable.incifor_img_03
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_03.webp"
             ),
             MiniScreenData(
                 id = 13,
@@ -132,7 +142,8 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_14_title_1,
                     R.string.II_INCIFOR_miniscreen_14_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_04
+                //imageRes = R.drawable.incifor_img_04
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_04.webp"
             ),
             MiniScreenData(
                 id = 15,
@@ -141,8 +152,9 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_15_title_1,
                     R.string.II_INCIFOR_miniscreen_15_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_05
-            ),
+                //imageRes = R.drawable.incifor_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_05.webp"
+                ),
             MiniScreenData(
                 id = 16,
                 bodyParagraphs = listOf(
@@ -159,15 +171,17 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_17_title_1,
                     R.string.II_INCIFOR_miniscreen_17_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_05
-            ),
+                //imageRes = R.drawable.incifor_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_05.webp"
+                ),
             MiniScreenData(
                 id = 18,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_18_title_0,
                     R.string.II_INCIFOR_miniscreen_18_paragraph_0,
                 ),
-                imageRes = R.drawable.incifor_img_05
+                //imageRes = R.drawable.incifor_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_05.webp"
             ),
             MiniScreenData(
                 id = 19,
@@ -177,7 +191,8 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_19_paragraph_0,
                     R.string.II_INCIFOR_miniscreen_19_paragraph_1
                 ),
-                imageRes = R.drawable.incifor_img_05
+                //imageRes = R.drawable.incifor_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_05.webp"
             ),
             MiniScreenData(
                 id = 20,
@@ -186,7 +201,8 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_20_paragraph_1,
                     R.string.II_INCIFOR_miniscreen_20_paragraph_2,
                 ),
-                imageRes = R.drawable.incifor_img_10
+                //imageRes = R.drawable.incifor_img_10
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_10.webp"
             ),
             MiniScreenData(
                 id = 21,
@@ -206,8 +222,9 @@ class InciforRepository {
 
 
                     ),
-                imageRes = R.drawable.incifor_img_11
-            ),
+                //imageRes = R.drawable.incifor_img_11
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_11.webp"
+                ),
             MiniScreenData(
                 id = 22,
                 bodyParagraphs = listOf(
@@ -217,35 +234,40 @@ class InciforRepository {
 
 
                     ),
-                imageRes = R.drawable.incifor_img_12
-            ),
+                //imageRes = R.drawable.incifor_img_12
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_12.webp"
+                ),
             MiniScreenData(
                 id = 23,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_23_title_0,
                     R.string.II_INCIFOR_miniscreen_23_paragraph_0,
                     ),
-                imageRes = R.drawable.incifor_img_13
-            ),
+                //imageRes = R.drawable.incifor_img_13
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_13.webp"
+                ),
             MiniScreenData(
                 id = 24,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_24_paragraph_0,
 
                     ),
-                imageRes = R.drawable.incifor_img_05
-            ),
+                //imageRes = R.drawable.incifor_img_05
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_05.webp"
+                ),
             MiniScreenData(
                 id = 25,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_25_title_0,
                     R.string.II_INCIFOR_miniscreen_25_title_1
                 ),
-                imageRes = R.drawable.incifor_img_01_d
-            ),
+                //imageRes = R.drawable.incifor_img_01_d
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01_d.webp"
+                ),
             MiniScreenData(
                 id = 26,
-                imageRes = R.drawable.incifor_img_01_d,
+                //imageRes = R.drawable.incifor_img_01_d
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroIncifor/incifor_img_01_d.webp",
                 personalResearcher = GetPersonalResearcherUtils(
                     PersonsResearchersUtils(
                         datosInvestigadoresIncifor
@@ -253,12 +275,7 @@ class InciforRepository {
                 )
             ),
 
-  /*          MiniScreenData(
-                id = 50,
-                bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_50_paragraph_0,
-                ),
-            ),*/
+
 
 
             )

@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.AppText
 
@@ -61,7 +62,7 @@ fun contentIlgMiniScreen6Box2(data: MiniScreenData) {
                 .padding(end = 35.dp)
                 .background(Color.Red)
         ) {
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
     }
 }

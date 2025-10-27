@@ -8,7 +8,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import com.example.multiidioma.R
+import com.example.multiidioma.data.urlRecursosApp
 import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.ui.components.GifUrlStringComponent
 
 @Composable
 fun contentIlgMiniScreen17Box1(
@@ -20,6 +22,7 @@ fun contentIlgMiniScreen17Box1(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        GifComponent(gif = R.drawable.ilg_anim_05, contentScale = ContentScale.Fit)
+        val gifIlg5 = "$urlRecursosApp/ANIMACIONS/ilg_anim_05.gif"
+        GifUrlStringComponent(gif = gifIlg5, contentScale = ContentScale.Fit)
     }
 }

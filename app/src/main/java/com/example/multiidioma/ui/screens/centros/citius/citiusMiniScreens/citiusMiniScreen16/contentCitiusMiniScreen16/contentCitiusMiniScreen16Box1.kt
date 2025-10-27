@@ -8,7 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import com.example.multiidioma.R
-import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.data.urlRecursosApp
+import com.example.multiidioma.ui.components.GifUrlStringComponent
 
 @Composable
 fun contentCitiusMiniScreen16Box1(
@@ -19,6 +20,8 @@ fun contentCitiusMiniScreen16Box1(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        GifComponent(gif = R.drawable.citius_anim_02, contentScale = ContentScale.FillBounds)
+
+        val gifIlg5 = "$urlRecursosApp/ANIMACIONS/citius_anim_02.gif"
+        GifUrlStringComponent(gif = gifIlg5, contentScale =  ContentScale.FillBounds)
     }
 }

@@ -6,8 +6,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
 import com.example.multiidioma.R
-import com.example.multiidioma.ui.components.GifComponent
+import com.example.multiidioma.data.urlRecursosApp
+import com.example.multiidioma.ui.components.GifUrlStringComponent
 
 @Composable
 fun contentInciforMiniScreen25Box1(
@@ -19,6 +21,8 @@ fun contentInciforMiniScreen25Box1(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        GifComponent(gif = R.raw.incifor_anim_pantalla_embajadores)
+
+        val gifIlg5 = "$urlRecursosApp/ANIMACIONS/incifor_anim_pantalla_embajadores.gif"
+        GifUrlStringComponent(gif = gifIlg5, contentScale = ContentScale.Fit)
     }
 }

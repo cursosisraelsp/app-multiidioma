@@ -13,6 +13,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 
 
@@ -29,7 +30,7 @@ fun contentIdisMiniScreen3Box3(data: MiniScreenData) {
               . padding(bottom = 20.dp),
           horizontalAlignment = Alignment.Start
       ) {
-          ReusableImage(data, estilosImagen)
+          ImageAsincComponent(data, estilosImagen)
       }
       Column(
           modifier = Modifier

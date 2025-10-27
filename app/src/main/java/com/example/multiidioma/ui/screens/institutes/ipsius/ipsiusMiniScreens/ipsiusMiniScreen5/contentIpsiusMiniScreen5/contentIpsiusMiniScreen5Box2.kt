@@ -28,6 +28,7 @@ import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
 import com.example.multiidioma.ui.LocalizedContext
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
@@ -71,7 +72,7 @@ fun contentIpsiusMiniScreen5Box2(
                 modifier = Modifier.height(200.dp),
                 alignment = Alignment.Center
             )
-            ReusableImage(data, estilosImagen)
+            ImageAsincComponent(data, estilosImagen)
         }
 
         Spacer(modifier = Modifier.height(16.dp))

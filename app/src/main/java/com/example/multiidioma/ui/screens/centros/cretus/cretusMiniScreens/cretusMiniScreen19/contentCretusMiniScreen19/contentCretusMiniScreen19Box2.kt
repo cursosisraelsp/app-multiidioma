@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.types.StyleImages
 import com.example.multiidioma.data.types.StyleText
+import com.example.multiidioma.ui.components.ImageAsincComponent
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.SpacerText
 import com.example.multiidioma.ui.components.Text.AppText
@@ -49,6 +50,6 @@ fun contentCretusMiniScreen19Box2(data: MiniScreenData) {
 
         AppText(data, estiloTextos)
         SpacerText()
-        ReusableImage(data, estilosImagen)
+        ImageAsincComponent(data, estilosImagen)
     }
 }
