@@ -1,7 +1,12 @@
 package com.example.multiidioma.data.repository
 
 import com.example.multiidioma.R
+import com.example.multiidioma.data.centroCitius
+import com.example.multiidioma.data.centroCretus
+import com.example.multiidioma.data.imaxesPNG
+import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
+import com.example.multiidioma.data.urlRecursosApp
 
 class CretusRepository {
     fun getMiniScreens(): List<MiniScreenData> {
@@ -18,21 +23,24 @@ class CretusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_1_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_2_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 3,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_3_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 4,
@@ -45,14 +53,16 @@ class CretusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_5_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_01
+                //imageRes = R.drawable.cretus_img_01,
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_01.webp"
             ),
             MiniScreenData(
                 id = 6,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_6_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_02
+                //imageRes = R.drawable.cretus_img_02
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_02.webp"
             ),
             MiniScreenData(
                 id = 7,
@@ -60,7 +70,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_7_paragraph_0,
                     R.string.CS_CRETUS_miniscreen_7_paragraph_1,
                 ),
-                imageRes = R.drawable.cretus_img_03
+                //imageRes = R.drawable.cretus_img_03
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_03.webp"
             ),
             MiniScreenData(
                 id = 8,
@@ -74,7 +85,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_9_title_0,
                     R.string.CS_CRETUS_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 10,
@@ -82,7 +94,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_10_title_0,
                     R.string.CS_CRETUS_miniscreen_10_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 11,
@@ -90,7 +103,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_11_title_0,
                     R.string.CS_CRETUS_miniscreen_11_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 12,
@@ -98,7 +112,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_12_title_0,
                     R.string.CS_CRETUS_miniscreen_12_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 13,
@@ -106,7 +121,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_13_title_0,
                     R.string.CS_CRETUS_miniscreen_13_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 14,
@@ -114,7 +130,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_14_title_0,
                     R.string.CS_CRETUS_miniscreen_14_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 15,
@@ -122,7 +139,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_15_title_0,
                     R.string.CS_CRETUS_miniscreen_15_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 16,
@@ -130,42 +148,48 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_16_title_0,
                     R.string.CS_CRETUS_miniscreen_16_paragraph_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 17,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_17_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_13
+                //imageRes = R.drawable.cretus_img_13
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_13.webp"
             ),
             MiniScreenData(
                 id = 18,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_18_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_14
+                //imageRes = R.drawable.cretus_img_14
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_14.webp"
             ),
             MiniScreenData(
                 id = 19,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_19_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_15
+                //imageRes = R.drawable.cretus_img_15
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_15.webp"
             ),
             MiniScreenData(
                 id = 20,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_20_paragraph_0,
                 ),
-                imageRes = R.drawable.cretus_img_16
+                //imageRes = R.drawable.cretus_img_16
+                urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCretus/cretus_img_16.webp"
             ),
             MiniScreenData(
                 id = 21,
                 bodyParagraphs = listOf(
                     R.string.CS_CRETUS_miniscreen_21_title_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 22,
@@ -198,7 +222,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_23_paragraph_3,
                     R.string.CS_CRETUS_miniscreen_23_paragraph_4,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 24,
@@ -213,7 +238,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_24_paragraph_5
 
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 25,
@@ -231,7 +257,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_25_paragraph_5,
                     R.string.CS_CRETUS_miniscreen_25_paragraph_6,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 26,
@@ -262,7 +289,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_26_paragraph_18,
 
                     ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 27,
@@ -284,7 +312,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_27_paragraph_9,
                     R.string.CS_CRETUS_miniscreen_27_paragraph_10,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 28,
@@ -308,7 +337,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_28_paragraph_10,
                     R.string.CS_CRETUS_miniscreen_28_paragraph_11,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
 
             MiniScreenData(
@@ -334,7 +364,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_29_paragraph_13,
                     R.string.CS_CRETUS_miniscreen_29_paragraph_14,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 30,
@@ -357,7 +388,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_30_paragraph_11,
 
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 31,
@@ -379,7 +411,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_31_paragraph_10,
                     R.string.CS_CRETUS_miniscreen_31_paragraph_11,
                     ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 32,
@@ -399,7 +432,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_32_paragraph_8,
                     R.string.CS_CRETUS_miniscreen_32_paragraph_9,
                     ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 33,
@@ -432,7 +466,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_33_paragraph_21,
                     R.string.CS_CRETUS_miniscreen_33_paragraph_22,
                     ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 34,
@@ -448,7 +483,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_34_paragraph_4,
                     R.string.CS_CRETUS_miniscreen_34_paragraph_5,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 35,
@@ -461,7 +497,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_35_paragraph_1,
                     R.string.CS_CRETUS_miniscreen_35_paragraph_2,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
             MiniScreenData(
                 id = 36,
@@ -469,7 +506,8 @@ class CretusRepository {
                     R.string.CS_CRETUS_miniscreen_36_paragraph_0,
                     R.string.CS_CRETUS_miniscreen_36_title_0,
                 ),
-                imageRes = R.drawable.noimagen
+                //imageRes = R.drawable.noimagen
+                urlImage = "$urlRecursosApp/$imaxesPNG/bgalega.png"
             ),
 
             )

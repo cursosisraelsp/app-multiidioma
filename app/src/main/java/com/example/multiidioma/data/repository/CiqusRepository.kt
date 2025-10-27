@@ -3,6 +3,7 @@ package com.example.multiidioma.data.repository
 import com.example.multiidioma.R
 import com.example.multiidioma.data.centroCimus
 import com.example.multiidioma.data.centroCiqus
+import com.example.multiidioma.data.imaxesPNG
 import com.example.multiidioma.data.imaxesWEBP
 import com.example.multiidioma.data.types.MiniScreenData
 import com.example.multiidioma.data.urlRecursosApp
@@ -25,7 +26,7 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_1_paragraph_0,
                     R.string.CS_CIQUS_miniscreen_1_paragraph_1,
                 ),
-                imageRes = R.drawable. ciqus_img_01,
+                //imageRes = R.drawable. ciqus_img_01,
                 urlImage = "$urlRecursosApp/${imaxesWEBP}/$centroCiqus/ciqus_img_01.webp"
             ),
 
@@ -35,7 +36,7 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_2_paragraph_0,
                     R.string.CS_CIQUS_miniscreen_2_paragraph_1,
                 ),
-                imageRes = R.drawable.ciqus_img_02,
+                //imageRes = R.drawable.ciqus_img_02,
                 urlImage = "$urlRecursosApp/${imaxesWEBP}/$centroCiqus/ciqus_img_02.webp"
             ) ,
             MiniScreenData(
@@ -44,7 +45,7 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_3_paragraph_0,
                     R.string.CS_CIQUS_miniscreen_3_paragraph_1,
                 ),
-                imageRes = R.drawable.ciqus_img_03,
+                //imageRes = R.drawable.ciqus_img_03,
                 urlImage = "$urlRecursosApp/$imaxesWEBP/$centroCiqus/ciqus_img_03.webp"
 
             ),
@@ -70,7 +71,8 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_5_paragraph_4,
 
                     ),
-                imageRes = R.drawable.idis_img_03
+                //imageRes = R.drawable.idis_img_03,
+                urlImage = "${urlRecursosApp}/${imaxesPNG}/bgalega.png"
 
             ),
             MiniScreenData(
@@ -88,7 +90,8 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_6_paragraph_5,
                     R.string.CS_CIQUS_miniscreen_6_paragraph_6,
                 ),
-                imageRes = R.drawable.idis_img_04
+                //imageRes = R.drawable.idis_img_04,
+                urlImage = "${urlRecursosApp}/${imaxesPNG}/bgalega.png"
             ),
 
             MiniScreenData(
@@ -105,8 +108,8 @@ class CiqusRepository {
                     R.string.CS_CIQUS_miniscreen_7_paragraph_3,
                     R.string.CS_CIQUS_miniscreen_7_paragraph_4,
                 ),
-                imageRes = R.drawable.idis_img_05
-
+                //imageRes = R.drawable.idis_img_05
+                urlImage = "${urlRecursosApp}/${imaxesPNG}/bgalega.png"
             ),
 
             MiniScreenData(
@@ -114,7 +117,8 @@ class CiqusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CIQUS_miniscreen_8_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_06
+                //imageRes = R.drawable.idis_img_06
+                urlImage = "${urlRecursosApp}/${imaxesPNG}/bgalega.png"
             ),
 
 
@@ -123,7 +127,8 @@ class CiqusRepository {
                 bodyParagraphs =listOf(
                     R.string.CS_CIQUS_miniscreen_9_paragraph_0,
                 ),
-                imageRes = R.drawable.idis_img_07
+                //imageRes = R.drawable.idis_img_07
+                urlImage = "${urlRecursosApp}/${imaxesPNG}/bgalega.png"
             ),
 
             MiniScreenData(

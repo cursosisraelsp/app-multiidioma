@@ -30,7 +30,7 @@ class CimusRepository {
                 bodyParagraphs = listOf(
                     R.string.CS_CIMUS_miniscreen_2_paragraph_0,
                 ),
-                imageRes = R.drawable.cimus_img_01,
+                //imageRes = R.drawable.cimus_img_01,
                 urlImage = "${urlRecursosApp}/${imaxesWEBP}/${centroCimus}/cimus_img_01.webp"
             ),
             MiniScreenData(

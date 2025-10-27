@@ -41,8 +41,9 @@ val urlCiqus = " https://www.usc.es/ciqus/es"
 // RECURSOS IMAXES
 val imaxesWEBP = "EN_WEBP"
 val imaxesJPG = "EN_JPG"
+val imaxesPNG = "EN_PNG"
 val urlRecursosApp = "https://raw.githubusercontent.com/cursosisraelsp/recursos-app-obradoiro-santiago-2025/main"
-val centrosInstitutos = listOf("cimus","ciqus","citius","cretus","iarcus","ice","idis","igfae","ihus","ilga","imatus","incifor","raw")
+val centrosInstitutos = listOf("cimus","ciqus","citius","cretus","iarcus","ice","idis","igfae","ihus","ilga","imatus","incifor","ipsius","raw")
 val centroCimus = centrosInstitutos[0]
 val centroCiqus = centrosInstitutos[1]
 val centroCitius = centrosInstitutos[2]
@@ -55,7 +56,8 @@ val centroIhus = centrosInstitutos[8]
 val centroIlga = centrosInstitutos[9]
 val centroImatus = centrosInstitutos[10]
 val centroIncifor = centrosInstitutos[11]
-val centroRaw = centrosInstitutos[12]
+val centroIpsius = centrosInstitutos[12]
+val centroRaw = centrosInstitutos[13]
 
 // URLS MULTIMEDIA
 val urlIvoox = "https://go.ivoox.com/rf"

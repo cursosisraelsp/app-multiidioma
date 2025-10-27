@@ -29,11 +29,14 @@ class IhusViewModel : ViewModel() {
                     listaIhusRepository.getData(3),
                     listaIhusRepository.getData(4),
                     listaIhusRepository.getData(5),
+                    listaIhusRepository.getData(6),
+                    listaIhusRepository.getData(7),
+                    listaIhusRepository.getData(8),
                     listaIhusRepository.getData(9),
                     listaIhusRepository.getData(10),
                     listaIhusRepository.getData(11),
                     listaIhusRepository.getData(12),
-                    listaIhusRepository.getData(14),
+
 
                     )
             )
