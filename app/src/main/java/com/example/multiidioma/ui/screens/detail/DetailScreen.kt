@@ -20,7 +20,7 @@ import androidx.navigation.NavController
 import com.example.multiidioma.data.types.ContentType
 import com.example.multiidioma.ui.screens.centros.CentresSingularsScreen
 import com.example.multiidioma.ui.screens.centros.cimus.CimusScreen
-import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen
+/*import com.example.multiidioma.ui.screens.centros.ciqus.CiqusScreen*/
 import com.example.multiidioma.ui.screens.centros.citius.CitiusScreen
 import com.example.multiidioma.ui.screens.centros.cretus_andre.CretusScreen
 import com.example.multiidioma.ui.screens.centros.idis.IdisScreen
@@ -66,10 +66,10 @@ fun DetailScreen(
         listSingulars != null -> {
             Box(modifier = Modifier.fillMaxSize()) {
                 when (listSingulars.contentType) {
-                    is ContentType.CIQUS -> CiqusScreen(
+                /*    is ContentType.CIQUS -> CiqusScreen(
                         listState,
                         navController
-                    )
+                    )*/
                     is ContentType.CIMUS -> CimusScreen(
                         listState,
                         navController,
