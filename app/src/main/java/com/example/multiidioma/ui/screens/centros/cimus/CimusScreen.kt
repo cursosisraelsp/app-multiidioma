@@ -67,6 +67,8 @@ fun CimusScreen(
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize()
+
+
             ) {
                 itemsIndexed(screens) { index, data ->
                     when (data.id) {

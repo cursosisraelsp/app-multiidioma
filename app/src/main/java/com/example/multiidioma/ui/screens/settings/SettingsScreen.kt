@@ -30,7 +30,6 @@ fun SettingsScreen(languageViewModel: LanguageViewModel) {
                 .fillMaxSize()
                 .padding(padding)
         ){
-
             Column(
                 modifier = Modifier
                     .padding(padding)
@@ -42,13 +41,9 @@ fun SettingsScreen(languageViewModel: LanguageViewModel) {
                     style = MaterialTheme.typography.headlineMedium,
                     modifier = Modifier.padding(16.dp)
                 )
-
                 LanguageSelector(languageViewModel)
-
             }
         }
 
-
     }
-
 }

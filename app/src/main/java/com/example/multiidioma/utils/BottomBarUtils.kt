@@ -37,8 +37,8 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
             BottomAppBar(
                 modifier = Modifier
                     .fillMaxWidth(),
-                    //.height(156.dp)
-                    //.clip(TopEllipticalShape()),
+                //.height(156.dp)
+                //.clip(TopEllipticalShape()),
                 containerColor = CorBottomAndTop,
                 contentColor = Color.White,
             ) {
